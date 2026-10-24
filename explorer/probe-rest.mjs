@@ -288,6 +288,10 @@ async function main() {
     }
     const params = typeof step.params === "function" ? step.params() : step.params ?? {};
     const res = await qlooGet(config, step.path, params);
+    if (res.status === 0 && rows.length === 0) {
+      console.error(`Cannot reach ${config.baseUrl}: ${res.error}. Stopping.`);
+      return 3;
+    }
     const { kind, items } = firstList(res.body);
     if (res.ok && step.save) step.save(items);
     const sample = items.slice(0, 5).map(label).join(" · ");
