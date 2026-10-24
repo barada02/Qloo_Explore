@@ -1,0 +1,3537 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:book",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 771,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Abook&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&take=10",
+    "requestId": "d7df5997-6175-4257-a96d-81eeb74d59c7",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49841",
+      "x-month-ratelimit-reset": "2591818.45",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Brave New World",
+            "entity_id": "F038CFAC-7515-4840-9F22-E45479E56439",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Aldous Huxley's profoundly important classic of world literature, Brave New World is a searching vision of an unequal, technologically-advanced future where humans are genetically bred, socially indoctrinated, and pharmaceutically anesthetized to passively uphold an authoritarian ruling order–all at the cost of our freedom, full humanity, and perhaps also our souls. “A genius [who] who spent his life decrying the onward march of the Machine” (The New Yorker), Huxley was a man of incomparable talents: equally an artist, a spiritual seeker, and one of history’s keenest observers of human nature and civilization. Brave New World, his masterpiece, has enthralled and terrified millions of readers, and retains its urgent relevance to this day as both a warning to be heeded as we head into tomorrow and as thought-provoking, satisfying work of literature. Written in the shadow of the rise of fascism during the 1930s, Brave New Worldd likewise speaks to a 21st-century world dominated by mass-entertainment, technology, medicine and pharmaceuticals, the arts of persuasion, and the hidden influence of elites.   \"Aldous Huxley is the greatest 20th century writer in English.\" —Chicago Tribune",
+              "format": "Paperback",
+              "isbn13": "9780060929879",
+              "language": "English",
+              "page_count": 268,
+              "publication_date": "1932-01-01",
+              "publication_year": 1932,
+              "publisher": "HarperPerennial / Perennial Classics",
+              "title": "Brave New World",
+              "image": {
+                "url": "https://images.qloo.com/i/F038CFAC-7515-4840-9F22-E45479E56439-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Schöne neue Welt",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un mundo feliz",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le Meilleur des mondes",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "In einer zukünftigen Gesellschaft unter strenger Kontrolle stellt ein Außenseiter das System in Frage.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "En una sociedad futura, los ciudadanos son controlados estrictamente hasta que un forastero desafía el sistema.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Dans une société future sous contrôle strict, un étranger remet en cause l'ordre établi.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "In a future society, engineered citizens live under strict control, while an outsider challenges the status quo."
+            },
+            "popularity": 0.9993845965537407,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction_fantasy",
+                "name": "Science Fiction Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:school",
+                "name": "School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:high_school",
+                "name": "High School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:banned_books",
+                "name": "Banned Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:read_school",
+                "name": "Read For School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:accomplished",
+                "name": "accomplished",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:remarkable",
+                "name": "remarkable",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:masterly",
+                "name": "masterly",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:satirical",
+                "name": "satirical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:visionary",
+                "name": "visionary",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:science_fiction",
+                "name": "Science fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:dystopian_fiction",
+                "name": "Dystopian fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:dystopia",
+                "name": "Dystopia",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:genetic_engineering",
+                "name": "Genetic Engineering",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:social_conditioning",
+                "name": "Social Conditioning",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:authoritarianism",
+                "name": "Authoritarianism",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:technology",
+                "name": "Technology",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:individuality",
+                "name": "Individuality",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:freedom",
+                "name": "Freedom",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:society",
+                "name": "Society",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:control",
+                "name": "Control",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dystopian",
+                "name": "Dystopian",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:thought_provoking",
+                "name": "Thought-provoking",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:cautionary",
+                "name": "Cautionary",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:control",
+                "name": "Control",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:individuality",
+                "name": "Individuality",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:technology",
+                "name": "Technology",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:freedom",
+                "name": "Freedom",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:society",
+                "name": "Society",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:soma",
+                "name": "Soma",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fordism",
+                "name": "Fordism",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:caste_system",
+                "name": "Caste System",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:shakespeare",
+                "name": "Shakespeare",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1930s",
+                "name": "1930s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:visionary",
+                "name": "Visionary",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:provocative",
+                "name": "Provocative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cautionary",
+                "name": "Cautionary",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:intellectual",
+                "name": "Intellectual",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:critical",
+                "name": "Critical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:skeptical",
+                "name": "Skeptical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8472880845301448
+            },
+            "disambiguation": "1932, Aldous Huxley",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "5129",
+                  "user_rating": 3.99,
+                  "user_ratings_count": 1974471
+                }
+              ]
+            }
+          },
+          {
+            "name": "Scar Tissue",
+            "entity_id": "8F1A2E6C-200B-4799-A919-BBDDB603F392",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Now in paperback, the New York Times bestseller by one of rock's most provocative figures Scar Tissue is Anthony Kiedis's searingly honest memoir of a life spent in the fast lane.   In 1983, four self-described \"knuckleheads\" burst out of the mosh-pitted mosaic of the neo-punk rock scene in L.A. with their own unique brand of cosmic hardcore mayhem funk. Over twenty years later, the Red Hot Chili Peppers, against all odds, have become one of the most successful bands in the world. Though the band has gone through many incarnations, Anthony Kiedis, the group's lyricist and dynamic lead singer, has been there for the whole roller-coaster ride. Whether he's recollecting the influence of the beautiful, strong women who have been his muses, or retracing a journey that has included appearances as diverse as a performance before half a million people at Woodstock or an audience of one at the humble compound of the exiled Dalai Lama, Kiedis shares a compelling story about the price of success and excess.   Scar Tissue is a story of dedication and debauchery, of intrigue and integrity, of recklessness and redemption--a story that could only have come out of the world of rock.",
+              "format": "Paperback",
+              "isbn13": "9781401307455",
+              "language": "English",
+              "page_count": 465,
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "publisher": "Da Capo",
+              "title": "Scar Tissue",
+              "image": {
+                "url": "https://images.qloo.com/i/8F1A2E6C-200B-4799-A919-BBDDB603F392-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Scar Tissue",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Scar Tissue",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Anthony Kiedis erzählt von seinem Leben, seiner Sucht und seiner Karriere mit den Red Hot Chili Peppers.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Anthony Kiedis narra su vida, su adicción y su carrera con los Red Hot Chili Peppers.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Anthony Kiedis raconte sa vie, son addiction et sa carrière avec les Red Hot Chili Peppers.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Anthony Kiedis recounts his life, addiction, and career with the Red Hot Chili Peppers."
+            },
+            "popularity": 0.9903099457356961,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:american",
+                "name": "American",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:rock_n_roll",
+                "name": "Rock N Roll",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:candid",
+                "name": "Candid",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:unflinching",
+                "name": "Unflinching",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:ebook",
+                "name": "Ebook",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rock_music",
+                "name": "Rock Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:addiction",
+                "name": "Addiction",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:red_hot_chili_peppers",
+                "name": "Red Hot Chili Peppers",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:anthony_kiedis",
+                "name": "Anthony Kiedis",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music_industry",
+                "name": "Music Industry",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:los_angeles",
+                "name": "Los Angeles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:candid",
+                "name": "Candid",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:honest",
+                "name": "Honest",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:addiction",
+                "name": "Addiction",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:los_angeles_california_usa",
+                "name": "Los Angeles, California, USA",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:addiction",
+                "name": "Addiction",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1980s",
+                "name": "1980s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1990s",
+                "name": "1990s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2000s",
+                "name": "2000s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:raw",
+                "name": "Raw",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:unfiltered",
+                "name": "Unfiltered",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:gritty",
+                "name": "Gritty",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:open_minded",
+                "name": "Open-minded",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8466814697440553
+            },
+            "disambiguation": "2004, Anthony Kiedis",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "96647",
+                  "user_rating": 4.11,
+                  "user_ratings_count": 97244
+                }
+              ]
+            }
+          },
+          {
+            "name": "Moab Is My Washpot",
+            "entity_id": "6E5CE052-2367-4AD8-A16A-633376F417C4",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Stephen Fry is not making this up! Fry started out as a dishonorable schoolboy inclined to lies, pranks, bringing decaying moles to school as a science exhibit, theft, suicide attempts, the illicit pursuit of candy and lads, a genius for mischief, and a neurotic life of crime that sent him straight to Pucklechurch Prison and Cambridge University, where he vaulted to fame along with actress Emma Thompson. He wound up starring as Oscar Wilde in the film Wilde, costarring in A Civil Action, and writing funny, distinguished novels.  This irresistible book, the best-written celebrity memoir of 1999, concentrates on Fry's first two tumultuous decades, but beware! A Fry sentence can lead anywhere, from a ringing defense of beating schoolchildren to a thoughtful comparison of male and female naughty parts. Fry's deepest regrets seem to be the elusiveness of a particular boy's love and the fact that, despite his keen ear for music, Fry's singing voice can make listeners \"claw out their inner ears, electrocute their genitals, put on a Jim Reeves record, throw themselves cackling hysterically onto the path of moving buses... anything, anything to take away the pain.\" A chance mention of Fry's time-travel book about thwarting Hitler, Making History (a finalist for the 1998 Sidewise Award for Best Alternative History), leads to the startling real-life revelation that Fry's own Jewish uncle may have loaned a young, shivering Hitler the coat off his back.  Fry's life is full of school and jailhouse blues overcome by jaunty wit, à la Wilde. The title, from Psalm 108:9, refers to King David's triumph over the Philistines. Fry triumphs similarly, and with more style. --Tim Appelo",
+              "format": "Kindle Edition",
+              "isbn13": "9781616951450",
+              "language": "English",
+              "page_count": 369,
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "publisher": "Soho Press",
+              "title": "Moab Is My Washpot",
+              "series_name": "Memoir",
+              "image": {
+                "url": "https://images.qloo.com/i/6E5CE052-2367-4AD8-A16A-633376F417C4-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Columbus war ein Engländer. Geschichte einer Jugend",
+                  "languages": [
+                    "de"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.40113764637081967,
+            "query": {
+              "affinity": 0.8457697457982866
+            },
+            "disambiguation": "1997, Stephen Fry",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "41021665",
+                  "user_rating": 3.92,
+                  "user_ratings_count": 24789
+                }
+              ]
+            }
+          },
+          {
+            "name": "I Met the Walrus: How One Day with John Lennon Changed My Life Forever",
+            "entity_id": "8771BC91-8D3E-4BBB-9A3D-8F6AB6FED836",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Imagine you're the world's biggest Beatles fan and you've just snuck into John Lennon's hotel room. But instead of being thrown out, inexplicably you're invited to spend the day with your idol. That's exactly what happened to fourteen-year-old Jerry Levitan in 1969. After hearing John was in Toronto for a \"bed in,\" Jerry tracked him down at the King Edward Hotel and convinced the world's biggest rock star to sit down for an exclusive forty-minute interview. John talked candidly about war, politics, the scandalous Two Virgins album, and the supposed subliminal messages in his music.  Now, forty years later, it's all here: Jerry's once-in-a-lifetime adventure, illustrated by acclaimed artist James Braithwaite and featuring never before seen photographs of John and Yoko. Also included in the book is Jerry's memorabilia from that day—notes from John and Yoko, the secret code to contact him, drawings, John's doodles, and much more. Complete with an audio and video DVD of the interview that inspired the Academy Award-nominated film of the same name, I Met the Walrus is an immortalized one-on-one moment with John—a must-have for Lennon fans around the world, as well as anyone who has ever dreamed of meeting a hero.",
+              "format": "Hardcover",
+              "isbn13": "9780061713262",
+              "language": "English",
+              "page_count": 168,
+              "publication_date": "2009-06-09",
+              "publication_year": 2009,
+              "publisher": "Harper Design",
+              "title": "I Met the Walrus: How One Day with John Lennon Changed My Life Forever",
+              "image": {
+                "url": "https://images.qloo.com/i/8771BC91-8D3E-4BBB-9A3D-8F6AB6FED836-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein Teenager interviewt 1969 John Lennon und nimmt ein offenes Gespräch über Musik und Politik auf.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un adolescente entrevista a John Lennon en 1969 y graba una conversación sincera sobre música y política.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un adolescent interviewe John Lennon en 1969 et enregistre une conversation sincère sur la musique et la politique.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A teenager interviews John Lennon in 1969, capturing a candid conversation about music and politics."
+            },
+            "popularity": 0.37451889730582494,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:non_fiction",
+                "name": "Non-fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:interview",
+                "name": "Interview",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:beatles",
+                "name": "Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:toronto",
+                "name": "Toronto",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:1969",
+                "name": "1969",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:politics",
+                "name": "Politics",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:war",
+                "name": "War",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:two_virgins",
+                "name": "Two Virgins",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:memorabilia",
+                "name": "Memorabilia",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fandom",
+                "name": "Fandom",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:celebrity",
+                "name": "Celebrity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:politics",
+                "name": "Politics",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:war",
+                "name": "War",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:youth",
+                "name": "Youth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:toronto_canada",
+                "name": "Toronto, Canada",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:celebrity",
+                "name": "Celebrity",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:youth",
+                "name": "Youth",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:illustrative",
+                "name": "Illustrative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:candid",
+                "name": "Candid",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_inclined",
+                "name": "Historically-inclined",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8370784106880487
+            },
+            "disambiguation": "2009, Jerry Levitan",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "6239817",
+                  "user_rating": 3.8,
+                  "user_ratings_count": 280
+                }
+              ]
+            }
+          },
+          {
+            "name": "Flowers for Algernon",
+            "entity_id": "8F4E1999-1AF2-4ACB-9F7A-8D1C1DF9615B",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Winner of both the Hugo and Nebula Awards, the powerful, classic story about a man who receives an operation that turns him into a genius...and introduces him to heartache.     Charlie Gordon is about to embark upon an unprecedented journey. Born with an unusually low IQ, he has been chosen as the perfect subject for an experimental surgery that researchers hope will increase his intelligence – a procedure that has already been highly successful when tested on a lab mouse named Algernon.   As the treatment takes effect, Charlie's intelligence expands until it surpasses that of the doctors who engineered his metamorphosis. The experiment appears to be a scientific breakthrough of paramount importance, until Algernon suddenly deteriorates. Will the same happen to Charlie?",
+              "format": "Paperback",
+              "isbn10": "0156030306",
+              "isbn13": "9780156030083",
+              "language": "English",
+              "page_count": 311,
+              "publication_date": "1966-04-01",
+              "publication_year": 1966,
+              "publisher": "Harvest Books",
+              "title": "Flowers for Algernon",
+              "image": {
+                "url": "https://images.qloo.com/i/8F4E1999-1AF2-4ACB-9F7A-8D1C1DF9615B-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Flores para Algernon",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Des fleurs pour Algernon",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Ein Mann lässt sich operieren, um seine Intelligenz zu steigern, doch die Folgen sind tragisch.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un hombre se somete a una cirugía para aumentar su inteligencia, pero las consecuencias resultan trágicas.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un homme subit une opération pour devenir plus intelligent, mais les conséquences s'avèrent tragiques.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A man undergoes surgery to increase his intelligence, only to face tragic consequences."
+            },
+            "popularity": 0.9989459940975669,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:psychology",
+                "name": "Psychology",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:young_adult",
+                "name": "Young Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:school",
+                "name": "School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:thought_provoking",
+                "name": "Thought-provoking",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:science_fiction",
+                "name": "Science fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:intelligence",
+                "name": "Intelligence",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:surgery",
+                "name": "Surgery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:experiment",
+                "name": "Experiment",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:ethics",
+                "name": "Ethics",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:human_dignity",
+                "name": "Human Dignity",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:regression",
+                "name": "Regression",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:science",
+                "name": "Science",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:isolation",
+                "name": "Isolation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:thought_provoking",
+                "name": "Thought-provoking",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:intelligence",
+                "name": "Intelligence",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:ethics",
+                "name": "Ethics",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:human_dignity",
+                "name": "Human Dignity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:isolation",
+                "name": "Isolation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:new_york_united_states",
+                "name": "New York, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:intelligence",
+                "name": "Intelligence",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:progress_reports",
+                "name": "Progress Reports",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:surgery",
+                "name": "Surgery",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:regression",
+                "name": "Regression",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychological_science_fiction",
+                "name": "Psychological Science Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:tragic_science_fiction",
+                "name": "Tragic Science Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:epistolary",
+                "name": "Epistolary",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:empathetic",
+                "name": "Empathetic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8353383036608018
+            },
+            "disambiguation": "1966, Daniel Keyes",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "18373",
+                  "user_rating": 4.22,
+                  "user_ratings_count": 742050
+                }
+              ]
+            }
+          },
+          {
+            "name": "Lennon: The Man, the Myth, the Music - The Definitive Life",
+            "entity_id": "0279219C-2A8F-4430-A42C-3CE9BA01A57A",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "In his commanding new book, the eminent NPR critic Tim Riley takes us on the remarkable journey that brought a Liverpool art student from a disastrous childhood to the highest realms of fame.  Riley portrays Lennon’s rise from Hamburg’s red light district to Britain’s Royal Variety Show; from the charmed naivetÉ of “Love Me Do” to the soaring ambivalence of “Don’t Let Me Down”; from his shotgun marriage to Cynthia Powell in 1962 to his epic media romance with Yoko Ono. Written with the critical insight and stylistic mastery readers have come to expect from Riley, this richly textured narrative draws on numerous new and exclusive interviews with Lennon’s friends, enemies, confidantes, and associates; lost memoirs written by relatives and friends; as well as previously undiscovered City of Liverpool records. Riley explores Lennon in all of his the British art student who universalized an American style, the anarchic rock ’n’ roller with the moral spine, the anti-jazz snob who posed naked with his avant-garde lover, and the misogynist who became a househusband. What emerges is the enormous, seductive, and confounding personality that made Lennon a cultural touchstone.  In Lennon , Riley casts Lennon as a modernist hero in a sweeping epic, dramatizing rock history anew as Lennon himself might have experienced it.",
+              "format": "Hardcover",
+              "isbn13": "9781401324520",
+              "language": "English",
+              "page_count": 765,
+              "publication_date": "2010-12-01",
+              "publication_year": 2010,
+              "publisher": "Grand Central Publishing",
+              "title": "Lennon: The Man, the Myth, the Music - The Definitive Life",
+              "image": {
+                "url": "https://images.qloo.com/i/0279219C-2A8F-4430-A42C-3CE9BA01A57A-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine ausführliche Biografie über John Lennon, die sein Leben, seine Musik und seinen kulturellen Einfluss beleuchtet.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una biografía detallada de John Lennon que explora su vida, su música y su impacto cultural.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une biographie détaillée de John Lennon explorant sa vie, sa musique et son impact culturel.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A detailed biography of John Lennon, exploring his life, music, and cultural impact."
+            },
+            "popularity": 0.44414108719008827,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:pop_culture",
+                "name": "Pop Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:collections",
+                "name": "Collections",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cultural_icon",
+                "name": "Cultural Icon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:liverpool",
+                "name": "Liverpool",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:yoko_ono",
+                "name": "Yoko Ono",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cynthia_powell",
+                "name": "Cynthia Powell",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rock_history",
+                "name": "Rock History",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:cultural_impact",
+                "name": "Cultural Impact",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:personal_struggles",
+                "name": "Personal Struggles",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:liverpool_united_kingdom",
+                "name": "Liverpool, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:hamburg_germany",
+                "name": "Hamburg, Germany",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:cultural_change",
+                "name": "Cultural Change",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:cultural_biography",
+                "name": "Cultural Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:critically_acclaimed",
+                "name": "Critically Acclaimed",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_enthusiasts",
+                "name": "Music Enthusiasts",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:cultural_historians",
+                "name": "Cultural Historians",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:beatles_fans",
+                "name": "Beatles Fans",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:biographical_readers",
+                "name": "Biographical Readers",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8335543722685701
+            },
+            "disambiguation": "2010, Tim Riley",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "10777145",
+                  "user_rating": 3.89,
+                  "user_ratings_count": 476
+                }
+              ]
+            }
+          },
+          {
+            "name": "1984",
+            "entity_id": "B776A6C0-4BD5-4773-A5FC-266FF59932FB",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "A masterpiece of rebellion and imprisonment where war is peace freedom is slavery and Big Brother is watching. Thought Police, Big Brother, Orwellian - these words have entered our vocabulary because of George Orwell's classic dystopian novel 1984. The story of one man's Nightmare Odyssey as he pursues a forbidden love affair through a world ruled by warring states and a power structure that controls not only information but also individual thought and memory 1984 is a prophetic haunting tale More relevant than ever before 1984 exposes the worst crimes imaginable the destruction of truth freedom and individuality. With a foreword by Thomas Pynchon. This beautiful paperback edition features deckled edges and french flaps a perfect gift for any occasion  Alternate cover edition can be found here.",
+              "format": "Paperback",
+              "isbn10": "0452284236",
+              "isbn13": "9780452284234",
+              "language": "English",
+              "publication_date": "1949-06-08",
+              "publication_year": 1949,
+              "publisher": "Plume",
+              "title": "1984",
+              "image": {
+                "url": "https://images.qloo.com/i/B776A6C0-4BD5-4773-A5FC-266FF59932FB-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Neunzehnhundertvierundachtzig",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Mil Novecientos Ochenta y Cuatro",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Mil neuf cent quatre-vingt-quatre",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "In einer düsteren Zukunft lehnt sich Winston Smith gegen ein totalitäres Regime auf, wird aber letztlich von dessen Macht gebrochen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "En un futuro distópico, Winston Smith se rebela contra un régimen totalitario, pero finalmente es derrotado por su poder.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Dans un futur dystopique, Winston Smith se révolte contre un régime totalitaire, mais il est finalement brisé par son pouvoir.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "In a dystopian future, Winston Smith rebels against a totalitarian regime but is ultimately broken by its power."
+            },
+            "popularity": 0.999904799466877,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:politics",
+                "name": "Politics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:dystopia",
+                "name": "Dystopia",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:school",
+                "name": "School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:frightening",
+                "name": "frightening",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:depressing",
+                "name": "depressing",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:original",
+                "name": "original",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:indignant",
+                "name": "indignant",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:dystopian",
+                "name": "Dystopian",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:political_fiction",
+                "name": "Political Fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:social_science_fiction",
+                "name": "Social Science Fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:totalitarianism",
+                "name": "Totalitarianism",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:surveillance",
+                "name": "Surveillance",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:thought_police",
+                "name": "Thought Police",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:big_brother",
+                "name": "Big Brother",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:dystopia",
+                "name": "Dystopia",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:propaganda",
+                "name": "Propaganda",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:memory",
+                "name": "Memory",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:control",
+                "name": "Control",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dark",
+                "name": "Dark",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:oppressive",
+                "name": "Oppressive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:chilling",
+                "name": "Chilling",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:thought_provoking",
+                "name": "Thought-provoking",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:totalitarianism",
+                "name": "Totalitarianism",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:surveillance",
+                "name": "Surveillance",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:freedom",
+                "name": "Freedom",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:big_brother",
+                "name": "Big Brother",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:thought_police",
+                "name": "Thought Police",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:newspeak",
+                "name": "Newspeak",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:doublethink",
+                "name": "Doublethink",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1980s",
+                "name": "1980s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:bleak",
+                "name": "Bleak",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cautionary",
+                "name": "Cautionary",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:prophetic",
+                "name": "Prophetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:intellectual",
+                "name": "Intellectual",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:critical",
+                "name": "Critical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:skeptical",
+                "name": "Skeptical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:politically_aware",
+                "name": "Politically-aware",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8324299566223369
+            },
+            "disambiguation": "1949, George Orwell",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "61439040",
+                  "user_rating": 4.2,
+                  "user_ratings_count": 5078879
+                }
+              ]
+            }
+          },
+          {
+            "name": "Lord of the Flies",
+            "entity_id": "5571AD49-A691-4326-808B-9FF7957B37AD",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about “the end of innocence, the darkness of man’s heart.”",
+              "format": "Paperback",
+              "isbn13": "9780140283334",
+              "language": "English",
+              "page_count": 182,
+              "publication_date": "1954-09-17",
+              "publication_year": 1954,
+              "publisher": "Penguin Books",
+              "title": "Lord of the Flies",
+              "image": {
+                "url": "https://images.qloo.com/i/5571AD49-A691-4326-808B-9FF7957B37AD-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Herr der Fliegen",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El señor de las moscas",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Sa Majesté des mouches",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "book edition",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Eine Gruppe gestrandeter Schuljungen verfällt auf einer einsamen Insel in Chaos und Wildheit.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un grupo de escolares náufragos cae en el caos y la barbarie en una isla desierta.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un groupe de garçons échoués sombre dans le chaos et la sauvagerie sur une île déserte.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A group of stranded schoolboys descend into chaos and savagery on a deserted island."
+            },
+            "popularity": 0.9994287968012621,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:school",
+                "name": "School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:high_school",
+                "name": "High School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:dystopia",
+                "name": "Dystopia",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:young_adult",
+                "name": "Young Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:read_school",
+                "name": "Read For School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:terrifying",
+                "name": "Terrifying",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:riveting",
+                "name": "Riveting",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:allegorical",
+                "name": "Allegorical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:allegorical_novel",
+                "name": "Allegorical novel",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:schoolboys",
+                "name": "Schoolboys",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:island",
+                "name": "Island",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:survival",
+                "name": "Survival",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:chaos",
+                "name": "Chaos",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:civilization",
+                "name": "Civilization",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:savagery",
+                "name": "Savagery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:leadership",
+                "name": "Leadership",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:morality",
+                "name": "Morality",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:innocence",
+                "name": "Innocence",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:darkness",
+                "name": "Darkness",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dark",
+                "name": "Dark",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:symbolic",
+                "name": "Symbolic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:civilization_vs_savagery",
+                "name": "Civilization vs. Savagery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loss_of_innocence",
+                "name": "Loss of Innocence",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:inherent_evil",
+                "name": "Inherent Evil",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:leadership_and_power",
+                "name": "Leadership and Power",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fear",
+                "name": "Fear",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_conch_shell",
+                "name": "The Conch Shell",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_beast",
+                "name": "The Beast",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_lord_of_the_flies",
+                "name": "The Lord of the Flies",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:piggy_s_glasses",
+                "name": "Piggy's Glasses",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:philosophical_fiction",
+                "name": "Philosophical Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1950s",
+                "name": "1950s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:allegorical",
+                "name": "Allegorical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dark",
+                "name": "Dark",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:symbolic",
+                "name": "Symbolic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:philosophical",
+                "name": "Philosophical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mature",
+                "name": "Mature",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.829835958187599
+            },
+            "disambiguation": "1954, William Golding",
+            "external": {
+              "wikidata": [
+                {
+                  "id": "q126503079"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "7624",
+                  "user_rating": 3.7,
+                  "user_ratings_count": 3068930
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Catcher in the Rye",
+            "entity_id": "A2DEF825-7285-40C8-A39F-1E9BC86E6F6E",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "It's Christmas time and Holden Caulfield has just been expelled from yet another school...  Fleeing the crooks at Pencey Prep, he pinballs around New York City seeking solace in fleeting encounters—shooting the bull with strangers in dive hotels, wandering alone round Central Park, getting beaten up by pimps and cut down by erstwhile girlfriends. The city is beautiful and terrible, in all its neon loneliness and seedy glamour, its mingled sense of possibility and emptiness. Holden passes through it like a ghost, thinking always of his kid sister Phoebe, the only person who really understands him, and his determination to escape the phonies and find a life of true meaning.  The Catcher in the Rye is an all-time classic in coming-of-age literature- an elegy to teenage alienation, capturing the deeply human need for connection and the bewildering sense of loss as we leave childhood behind.  \n  J.D. Salinger's\n (1919–2010) classic novel of teenage angst and rebellion was first published in 1951. The novel was included on Time's 2005 list of the 100 best English-language novels written since 1923. It was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. It has been frequently challenged in the court for its liberal use of profanity and portrayal of sexuality and in the 1950's and 60's it was the novel that every teenage boy wants to read.",
+              "format": "Paperback",
+              "isbn13": "9780316769174",
+              "language": "English",
+              "page_count": 234,
+              "publication_date": "1951-07-16",
+              "publication_year": 1951,
+              "publisher": "Back Bay Books",
+              "title": "The Catcher in the Rye",
+              "image": {
+                "url": "https://images.qloo.com/i/A2DEF825-7285-40C8-A39F-1E9BC86E6F6E-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Der Fänger im Roggen",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El guardián entre el centeno",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "L'Attrape-cœurs",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "2001 Back Bay edition",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Holden Caulfield streift nach seinem Schulverweis durch New York und kämpft mit Entfremdung und dem Wunsch, Unschuld zu bewahren.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Holden Caulfield, expulsado del colegio, deambula por Nueva York mientras lucha con la soledad y quiere proteger la inocencia.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Holden Caulfield, renvoyé de son école, erre dans New York, confronté à l’aliénation et au désir de protéger l’innocence.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Holden Caulfield, expelled from school, wanders New York City, grappling with alienation and a desire to protect innocence."
+            },
+            "popularity": 0.9997517986100722,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:young_adult",
+                "name": "Young Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:banned_books",
+                "name": "Banned Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:high_school",
+                "name": "High School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:school",
+                "name": "School",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:coming_age",
+                "name": "Coming Of Age",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:american",
+                "name": "American",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:brilliant",
+                "name": "brilliant",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:defining",
+                "name": "defining",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:iconic",
+                "name": "iconic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:controversial",
+                "name": "controversial",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:influential",
+                "name": "influential",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:realistic_fiction",
+                "name": "Realistic fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:coming_of_age_fiction",
+                "name": "Coming-of-age fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:teenage_angst",
+                "name": "Teenage Angst",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:alienation",
+                "name": "Alienation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:innocence",
+                "name": "Innocence",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:phoniness",
+                "name": "Phoniness",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:new_york_city",
+                "name": "New York City",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:holden_caulfield",
+                "name": "Holden Caulfield",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:pencey_prep",
+                "name": "Pencey Prep",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:phoebe_caulfield",
+                "name": "Phoebe Caulfield",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:cynical",
+                "name": "Cynical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:alienation",
+                "name": "Alienation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:innocence",
+                "name": "Innocence",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:connection",
+                "name": "Connection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loss",
+                "name": "Loss",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:new_york_city_united_states",
+                "name": "New York City, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_catcher_in_the_rye",
+                "name": "The Catcher in the Rye",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_red_hunting_hat",
+                "name": "The Red Hunting Hat",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_museum_of_natural_history",
+                "name": "The Museum of Natural History",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_ducks_in_central_park",
+                "name": "The Ducks in Central Park",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1950s",
+                "name": "1950s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cynical",
+                "name": "Cynical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:conversational",
+                "name": "Conversational",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:rebellious",
+                "name": "Rebellious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:sensitive",
+                "name": "Sensitive",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:alienated",
+                "name": "Alienated",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8282144661312254
+            },
+            "disambiguation": "1951, J.D. Salinger",
+            "external": {
+              "wikidata": [
+                {
+                  "id": "q125291968"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "5107",
+                  "user_rating": 3.8,
+                  "user_ratings_count": 3738917
+                }
+              ]
+            }
+          },
+          {
+            "name": "John Lennon: The Life",
+            "entity_id": "A28964DF-83EC-4564-8851-A0EEBB74FC3D",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "For more than a quarter century, biographer Philip Norman's internationally bestselling Shout! has been unchallenged as the definitive biography of the Beatles. Now, at last, Norman turns his formidable talent to the Beatle for whom being a Beatle was never enough. Drawing on previously untapped sources, and with unprecedented access to all the major characters, Norman presents the comprehensive and most revealing portrait of John Lennon ever published.  This masterly biography takes a fresh and penetrating look at every aspect of Lennon's much-chronicled life, including the songs that have turned him, posthumously, into a near-secular saint. In three years of research, Norman has turned up an extraordinary amount of new information about even the best-known episodes of Lennon folklore—his upbringing by his strict Aunt Mimi; his allegedly wasted school and student days; the evolution of his peerless creative partnership with Paul McCartney; his Beatle-busting love affair with a Japanese performance artist; his forays into painting and literature; his experiments with Transcendental Meditation, primal scream therapy, and drugs. The book's numerous key informants and interviewees include Sir Paul McCartney, Sir George Martin, Sean Lennon—whose moving reminiscence reveals his father as never seen before—and Yoko Ono, who speaks with sometimes shocking candor about the inner workings of her marriage to John.  “[A] haunting, mammoth, terrific piece of work.” -New York Times   Honest and unflinching, as John himself would wish, Norman gives us the whole man in all his endless contradictions—tough and cynical, hilariously funny but also naive, vulnerable and insecure—and reveals how the mother who gave him away as a toddler haunted his mind and his music for the rest of his days.",
+              "format": "Hardcover",
+              "isbn13": "9780060754013",
+              "language": "English",
+              "page_count": 851,
+              "publication_date": "1982-01-01",
+              "publication_year": 1982,
+              "publisher": "Ecco",
+              "title": "John Lennon: The Life",
+              "image": {
+                "url": "https://images.qloo.com/i/A28964DF-83EC-4564-8851-A0EEBB74FC3D-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine ausführliche Biografie von John Lennon, die sein Leben, seine Musik und seine Beziehungen beleuchtet.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una biografía detallada de John Lennon que explora su vida, su música y sus relaciones personales.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une biographie détaillée de John Lennon qui explore sa vie, sa musique et ses relations personnelles.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A detailed biography of John Lennon, exploring his life, music, and relationships."
+            },
+            "popularity": 0.6847638346774741,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:british_literature",
+                "name": "British Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:rock_n_roll",
+                "name": "Rock N Roll",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:pop_culture",
+                "name": "Pop Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:haunting",
+                "name": "haunting",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:mammoth",
+                "name": "mammoth",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:terrific",
+                "name": "terrific",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:honest",
+                "name": "honest",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:unflinching",
+                "name": "unflinching",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:art",
+                "name": "Art",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:literature",
+                "name": "Literature",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:spirituality",
+                "name": "Spirituality",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:creativity",
+                "name": "Creativity",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:candid",
+                "name": "Candid",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:creativity",
+                "name": "Creativity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:spirituality",
+                "name": "Spirituality",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:liverpool_united_kingdom",
+                "name": "Liverpool, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:new_york_city_united_states",
+                "name": "New York City, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:art",
+                "name": "Art",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:loss",
+                "name": "Loss",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:celebrity_biography",
+                "name": "Celebrity Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1940s",
+                "name": "1940s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1950s",
+                "name": "1950s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:haunting",
+                "name": "Haunting",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:mammoth",
+                "name": "Mammoth",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:terrific",
+                "name": "Terrific",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:honest",
+                "name": "Honest",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:unflinching",
+                "name": "Unflinching",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.827404311212775
+            },
+            "disambiguation": "1982, Philip Norman",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "3423364",
+                  "user_rating": 4.04,
+                  "user_ratings_count": 12389
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

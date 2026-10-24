@@ -1,0 +1,83 @@
+{
+  "request": {
+    "path": "/search",
+    "params": {
+      "query": "Kyoto",
+      "types": "urn:entity:destination",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 304,
+    "url": "/search?query=Kyoto&types=urn%3Aentity%3Adestination&take=5",
+    "requestId": "6fcc81ab-6e8b-418e-b2f9-d085e7d56560",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49847",
+      "x-month-ratelimit-reset": "2591827.36",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.37"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "Kyoto",
+          "entity_id": "95E19B2C-553A-46A6-AD73-5562AF7124E5",
+          "types": [
+            "urn:entity:destination"
+          ],
+          "properties": {
+            "country": "Japan"
+          },
+          "popularity": 0.9672711189739054,
+          "disambiguation": "Kyoto",
+          "location": {
+            "lat": 35,
+            "lon": 135.75
+          },
+          "tags": [
+            {
+              "name": "Great Nightlife",
+              "tag_id": "18203810-1931-4F34-B7D4-69C63F8C7B1D",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:great_nightlife"
+            },
+            {
+              "name": "Urban Destinations",
+              "tag_id": "5191CB63-26EA-4637-A742-D9547110F2A1",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:urban_destinations"
+            },
+            {
+              "name": "Romantic Getaways",
+              "tag_id": "6357A9A4-43CD-4290-B48F-6D8710744FE7",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:romantic_getaways"
+            },
+            {
+              "name": "Art & Culture",
+              "tag_id": "86BDB8C7-478E-4291-8D51-E9C64EB28E72",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:art_culture"
+            },
+            {
+              "name": "For the History",
+              "tag_id": "6861954D-25D3-4D9D-81DD-810378DEA6F0",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:for_the_history"
+            },
+            {
+              "name": "Foodie Destination",
+              "tag_id": "4F3E51D5-4BF4-4415-84DC-C760D6CE9812",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:foodie_destination"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

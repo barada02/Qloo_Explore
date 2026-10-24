@@ -1,0 +1,3882 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:book",
+      "signal.interests.tags": "urn:tag:subgenre:qloo:cozy_mystery",
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 624,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Abook&signal.interests.tags=urn%3Atag%3Asubgenre%3Aqloo%3Acozy_mystery&take=10",
+    "requestId": "ea117bb5-f021-4e20-b231-c58a99938a4f",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49832",
+      "x-month-ratelimit-reset": "2591809.16",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "The Stinky Cheese Man and Other Fairly Stupid Tales",
+            "entity_id": "A9C32E8C-2DDD-489F-A93E-E1FBF8697172",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "A revisionist storyteller provides his mad, hilarious versions of children's favorite tales in this unique and riotous collection.  A long time ago, people used to tell magical stories of wonder and enchantment. Those stories were called Fairy Tales.  Those stories are not in this book. The stories in this book are Fairly Stupid Tales.  I mean, what else would you call a story like \"Goldilocks and the Three Elephants\"? This girl walking through the woods smells Peanut Porridge Cooking. She decides to break into the Elephants' house, eat the porridge, sit in the chairs, and sleep in the beds. But when she gets in the house she can't climb up on Baby Elephant's chair because it's much too big. And she can't climb on Papa Elephant's chair because it's much much too big. So she goes home. The End.  And if you don't think that's fairly stupid, you should read \"Little Red Riding Shorts\" or maybe \"The Stinky Cheese Man.\"  In fact, you should definitely go read the stories now, because the rest of this description just kind of goes on and on and doesn't really say anything. I stuck it here so it would fill up the page and make it look like I really knew what I was talking about. So stop now. I mean it. Quit reading this. Open the book. If you read this last sentence, it won't tell you anything.  Signed, Jack (Narrator) Up the Hill Fairy Tale Forest 1992  \n  Story List:\n - Chicken Licken - The Princess and the Bowling Ball - The Really Ugly Duckling - The Other Frog Prince - Little Red Running Shorts - Jack's Bean Problem (including Giant Story / Jack's Story) - Cinderummpelstiltskin (Or The Girl Who Really Blew It) - The Tortoise and the Hair - The Stinky Cheese Man  SURGEON GENERAL'S WARNING: It has been determined that these tales are fairly stupid and probably dangerous to your health.  Edition MSRP: $17⁹⁹ US (ISBN 0-670-84487-X)",
+              "format": "Hardcover",
+              "isbn13": "9780670844876",
+              "language": "English",
+              "page_count": 52,
+              "publication_date": "1992-10-01",
+              "publication_year": 1992,
+              "publisher": "Viking Books for Young Readers",
+              "title": "The Stinky Cheese Man and Other Fairly Stupid Tales",
+              "image": {
+                "url": "https://images.qloo.com/i/A9C32E8C-2DDD-489F-A93E-E1FBF8697172-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "1992 edition",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "видання, опубліковане в 1992",
+                  "languages": [
+                    "uk"
+                  ]
+                },
+                {
+                  "value": "uitgave van The Stinky Cheese Man and Other Fairly Stupid Tales",
+                  "languages": [
+                    "nl"
+                  ]
+                },
+                {
+                  "value": "Eine Sammlung humorvoller Parodien klassischer Märchen, erzählt von Jack aus \"Jack und die Bohnenranke\".",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una colección de parodias divertidas de cuentos clásicos narradas por Jack de \"Jack y las habichuelas mágicas\".",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un recueil de parodies humoristiques de contes classiques racontées par Jack de « Jack et le haricot magique ».",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A collection of humorous parodies of classic fairy tales narrated by Jack from \"Jack and the Beanstalk.\""
+            },
+            "popularity": 0.9802016891294592,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:kids",
+                "name": "Kids",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:retellings",
+                "name": "Retellings",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fairy_tales",
+                "name": "Fairy Tales",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:humor",
+                "name": "Humor",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:short_stories",
+                "name": "Short Stories",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:picture_books",
+                "name": "Picture Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:hilarious",
+                "name": "hilarious",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:inventive",
+                "name": "inventive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:subversive",
+                "name": "subversive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:entertaining",
+                "name": "entertaining",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:clever",
+                "name": "clever",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:children_s_books",
+                "name": "Children's Books",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:picture_books",
+                "name": "Picture Books",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:parody",
+                "name": "Parody",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fairy_tales",
+                "name": "Fairy Tales",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:children_s_stories",
+                "name": "Children's Stories",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:narration",
+                "name": "Narration",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:postmodern",
+                "name": "Postmodern",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:illustration",
+                "name": "Illustration",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:twist",
+                "name": "Twist",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:american_literature",
+                "name": "American Literature",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:unreliable_narrator",
+                "name": "unreliable narrator",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:parodic",
+                "name": "Parodic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:subversive",
+                "name": "Subversive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:playful",
+                "name": "Playful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:parody",
+                "name": "Parody",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:storytelling",
+                "name": "Storytelling",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:subversion",
+                "name": "Subversion",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fairy_tales",
+                "name": "Fairy Tales",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fairy_tale_parody",
+                "name": "Fairy Tale Parody",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:narrative_subversion",
+                "name": "Narrative Subversion",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:parody",
+                "name": "Parody",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:subversive",
+                "name": "Subversive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:playful",
+                "name": "Playful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:irreverent",
+                "name": "Irreverent",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:postmodern",
+                "name": "Postmodern",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:playful",
+                "name": "Playful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 1
+            },
+            "disambiguation": "1992, Jon Scieszka",
+            "external": {
+              "wikidata": [
+                {
+                  "id": "q60414689"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "407429",
+                  "user_rating": 4.2,
+                  "user_ratings_count": 95537
+                }
+              ]
+            }
+          },
+          {
+            "name": "Murder on the Orient Express (Hercule Poirot, #10)",
+            "entity_id": "DE3E9EFA-C76F-4B7B-85A9-C194B36C9C41",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Just after midnight, a snowdrift stops the famous Orient Express in its tracks as it travels through the mountainous Balkans. The luxurious train is surprisingly full for the time of the year but, by the morning, it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside.  One of the passengers is none other than detective Hercule Poirot. On vacation.   Isolated and with a killer on board, Poirot must identify the murderer—in case he or she decides to strike again.",
+              "format": "Paperback",
+              "isbn13": "9780007119318",
+              "language": "English",
+              "page_count": 274,
+              "publication_date": "1934-01-01",
+              "publication_year": 1934,
+              "publisher": "HarperCollins",
+              "title": "Murder on the Orient Express (Hercule Poirot, #10)",
+              "series_name": "Hercule Poirot",
+              "image": {
+                "url": "https://images.qloo.com/i/DE3E9EFA-C76F-4B7B-85A9-C194B36C9C41-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Mord im Orient-Express",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Asesinato en el Orient Express",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le Crime de l'Orient-Express",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Detektiv Poirot löst einen Mord in einem eingeschneiten Zug und deckt ein Netz aus vergangenen Verbrechen und Gerechtigkeit auf.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El detective Poirot resuelve un asesinato en un tren atrapado por la nieve, descubriendo una red de crímenes pasados y justicia.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le détective Poirot résout un meurtre dans un train bloqué par la neige, révélant un réseau de crimes passés et de justice.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Detective Poirot solves a murder on a snowbound train, uncovering a web of past crimes and justice."
+            },
+            "popularity": 0.9990105944593289,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery_thriller",
+                "name": "Mystery Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:murder_mystery",
+                "name": "Murder Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:detective",
+                "name": "Detective",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:enthralling",
+                "name": "enthralling",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:improbable",
+                "name": "improbable",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:convincing",
+                "name": "convincing",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:classic",
+                "name": "classic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:detective",
+                "name": "Detective",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:train",
+                "name": "Train",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:investigation",
+                "name": "Investigation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:snowdrift",
+                "name": "Snowdrift",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:hercule_poirot",
+                "name": "Hercule Poirot",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:orient_express",
+                "name": "Orient Express",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:armstrong_case",
+                "name": "Armstrong Case",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:complex",
+                "name": "Complex",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:truth",
+                "name": "Truth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:morality",
+                "name": "Morality",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:istanbul_turkey",
+                "name": "Istanbul, Turkey",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:yugoslavia_now_croatia_",
+                "name": "Yugoslavia (now Croatia)",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_train",
+                "name": "The Train",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:snow",
+                "name": "Snow",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_past",
+                "name": "The Past",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:detective_fiction",
+                "name": "Detective Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1930s",
+                "name": "1930s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:detail_oriented",
+                "name": "Detail-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:patient",
+                "name": "Patient",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9987477997387635
+            },
+            "disambiguation": "1934, Agatha Christie",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "853510",
+                  "user_rating": 4.2,
+                  "user_ratings_count": 683865
+                }
+              ]
+            }
+          },
+          {
+            "name": "And Then There Were None",
+            "entity_id": "1860F19C-A7BE-474A-ABBF-3EC0AE9D4C65",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "First, there were ten—a curious assortment of strangers summoned as weekend guests to a little private island off the coast of Devon. Their host, an eccentric millionaire unknown to all of them, is nowhere to be found. All that the guests have in common is a wicked past they're unwilling to reveal—and a secret that will seal their fate. For each has been marked for murder. A famous nursery rhyme is framed and hung in every room of the mansion:  \"Ten little boys went out to dine; One choked his little self and then there were nine. Nine little boys sat up very late; One overslept himself and then there were eight. Eight little boys traveling in Devon; One said he'd stay there then there were seven. Seven little boys chopping up sticks; One chopped himself in half and then there were six. Six little boys playing with a hive; A bumblebee stung one and then there were five. Five little boys going in for law; One got in Chancery and then there were four. Four little boys going out to sea; A red herring swallowed one and then there were three. Three little boys walking in the zoo; A big bear hugged one and then there were two. Two little boys sitting in the sun; One got frizzled up and then there was one. One little boy left all alone; He went out and hanged himself and then there were none.\"  When they realize that murders are occurring as described in the rhyme, terror mounts. One by one they fall prey. Before the weekend is out, there will be none. Who has choreographed this dastardly scheme? And who will be left to tell the tale? Only the dead are above suspicion.",
+              "format": "Paperback",
+              "isbn13": "9780312330873",
+              "language": "English",
+              "page_count": 264,
+              "publication_date": "1939-11-06",
+              "publication_year": 1939,
+              "publisher": "St. Martin's Griffin",
+              "title": "And Then There Were None",
+              "image": {
+                "url": "https://images.qloo.com/i/1860F19C-A7BE-474A-ABBF-3EC0AE9D4C65-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Und dann gabs keines mehr",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Diez negritos",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Dix petits nègres",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Zehn Fremde werden auf eine Insel eingeladen und nacheinander nach einem Kinderreim ermordet.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Diez desconocidos son invitados a una isla y asesinados uno a uno siguiendo una canción infantil.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Dix inconnus sont invités sur une île et assassinés un à un selon une comptine.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Ten strangers are invited to an island and murdered one by one according to a nursery rhyme."
+            },
+            "popularity": 0.9994865971249439,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery_thriller",
+                "name": "Mystery Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:murder_mystery",
+                "name": "Murder Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:suspense",
+                "name": "Suspense",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:ingenious",
+                "name": "Ingenious",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:baffling",
+                "name": "Baffling",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:menacing",
+                "name": "Menacing",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:psychological_thriller",
+                "name": "Psychological Thriller",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:island",
+                "name": "Island",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rhyme",
+                "name": "Rhyme",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:guilt",
+                "name": "Guilt",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:strangers",
+                "name": "Strangers",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:seclusion",
+                "name": "Seclusion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:accusation",
+                "name": "Accusation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:death",
+                "name": "Death",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:psychological",
+                "name": "Psychological",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:claustrophobic",
+                "name": "Claustrophobic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:guilt",
+                "name": "Guilt",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:paranoia",
+                "name": "Paranoia",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:isolation",
+                "name": "Isolation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:retribution",
+                "name": "Retribution",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:devon_united_kingdom",
+                "name": "Devon, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:nursery_rhyme",
+                "name": "Nursery Rhyme",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:figurines",
+                "name": "Figurines",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:island",
+                "name": "Island",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1930s",
+                "name": "1930s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:ingenious",
+                "name": "Ingenious",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:claustrophobic",
+                "name": "Claustrophobic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:psychological",
+                "name": "Psychological",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thrill_seeking",
+                "name": "Thrill-seeking",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:detail_oriented",
+                "name": "Detail-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:intellectual",
+                "name": "Intellectual",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9962383046751841
+            },
+            "disambiguation": "1939, Agatha Christie",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "16299",
+                  "user_rating": 4.28,
+                  "user_ratings_count": 1501713
+                }
+              ]
+            }
+          },
+          {
+            "name": "Wyrd Sisters (Discworld, #6; Witches, #2)",
+            "entity_id": "A06BD8BC-33EC-4352-9127-B8F91673DB4B",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Witches are not by nature gregarious, and they certainly don't have leaders.   Granny Weatherwax was the most highly-regarded of the leaders they didn't have.   But even she found that meddling in royal politics was a lot more difficult than certain playwrights would have you believe...",
+              "format": "Mass Market Paperback",
+              "isbn13": "9780061020667",
+              "language": "English",
+              "page_count": 265,
+              "publication_date": "1988-11-10",
+              "publication_year": 1988,
+              "publisher": "HarTorch",
+              "title": "Wyrd Sisters (Discworld, #6; Witches, #2)",
+              "series_name": "Discworld",
+              "image": {
+                "url": "https://images.qloo.com/i/A06BD8BC-33EC-4352-9127-B8F91673DB4B-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "MacBest",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Brujerías",
+                  "languages": [
+                    "es"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Drei Hexen mischen sich in die königliche Politik ein, um den rechtmäßigen König wieder einzusetzen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Tres brujas se involucran en la política real para devolver el trono al rey legítimo.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Trois sorcières s'immiscent dans la politique royale pour rétablir le roi légitime.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Three witches meddle in royal politics to restore the rightful king."
+            },
+            "popularity": 0.9887357369201267,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:high_fantasy",
+                "name": "High Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:magic",
+                "name": "Magic",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:humor",
+                "name": "Humor",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:witches",
+                "name": "Witches",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction_fantasy",
+                "name": "Science Fiction Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:entertaining",
+                "name": "Entertaining",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:witches",
+                "name": "Witches",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:royal_politics",
+                "name": "Royal Politics",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:destiny",
+                "name": "Destiny",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:magic",
+                "name": "Magic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:theatre",
+                "name": "Theatre",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:shakespeare",
+                "name": "Shakespeare",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:lancre",
+                "name": "Lancre",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:kingdom",
+                "name": "Kingdom",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:magical",
+                "name": "Magical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:theatrical",
+                "name": "Theatrical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:destiny",
+                "name": "Destiny",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:power",
+                "name": "Power",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:storytelling",
+                "name": "Storytelling",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:theatre",
+                "name": "Theatre",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:magic",
+                "name": "Magic",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:destiny",
+                "name": "Destiny",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:shakespearean_references",
+                "name": "Shakespearean References",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:comic_fantasy",
+                "name": "Comic Fantasy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:satirical_fantasy",
+                "name": "Satirical Fantasy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:theatrical",
+                "name": "Theatrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:literate",
+                "name": "Literate",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fantasy_loving",
+                "name": "Fantasy-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:satire_appreciating",
+                "name": "Satire-appreciating",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9949810138427765
+            },
+            "disambiguation": "1988, Terry Pratchett",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "34504",
+                  "user_rating": 4.16,
+                  "user_ratings_count": 125488
+                }
+              ]
+            }
+          },
+          {
+            "name": "Going Postal (Discworld, #33; Moist von Lipwig, #1)",
+            "entity_id": "B355207C-31CC-4408-BA33-5F7735DCD540",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Moist von Lipwig was a con artist and a fraud and a man faced with a life choice: be hanged, or put Ankh-Morpork's ailing postal service back on its feet.  It was a tough decision.  But he has to see that the mail gets through, come rain, hail, sleet, dogs, the Post Office Workers' Friendly and Benevolent Society, the evil chairman of the Grand Trunk Semaphore Company, and a midnight killer.  Getting a date with Adora Bell Dearheart would be nice, too.  Maybe it'll take a criminal to succeed where honest men have failed, or maybe it's a death sentence either way.   Or perhaps there's a shot at redemption in the mad world of the mail, waiting for a man who's prepared to push the envelope...",
+              "format": "Mass Market Paperback",
+              "isbn10": "9780060502",
+              "isbn13": "9780060502935",
+              "language": "English",
+              "page_count": 394,
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "publisher": "HarperTorch",
+              "title": "Going Postal (Discworld, #33; Moist von Lipwig, #1)",
+              "series_name": "Discworld",
+              "image": {
+                "url": "https://images.qloo.com/i/B355207C-31CC-4408-BA33-5F7735DCD540-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Ab die Post",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Cartas en el asunto",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Timbré",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Ein Betrüger soll den Postdienst in einer fantastischen Stadt wiederbeleben, kämpft gegen Korruption und sucht Erlösung.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un estafador debe reabrir el servicio postal en una ciudad fantástica, enfrentándose a la corrupción y buscando redención.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un escroc doit relancer la poste dans une ville fantastique, affronter la corruption et trouver la rédemption.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A con artist is tasked with reviving a defunct postal service in a fantastical city, facing corporate corruption and finding redemption."
+            },
+            "popularity": 0.9873145289613622,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:humor",
+                "name": "Humor",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:high_fantasy",
+                "name": "High Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science_fiction_fantasy",
+                "name": "Science Fiction Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:witty",
+                "name": "witty",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:satirical",
+                "name": "satirical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:inventive",
+                "name": "inventive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:engaging",
+                "name": "engaging",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:humorous",
+                "name": "humorous",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:con_artist",
+                "name": "Con Artist",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:postal_service",
+                "name": "Postal Service",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:ankh_morpork",
+                "name": "Ankh-Morpork",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:semaphore",
+                "name": "Semaphore",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:golems",
+                "name": "Golems",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:assassin",
+                "name": "Assassin",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:stamps",
+                "name": "Stamps",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:competition",
+                "name": "Competition",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intriguing",
+                "name": "Intriguing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:ingenuity",
+                "name": "Ingenuity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:corruption",
+                "name": "Corruption",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:competition",
+                "name": "Competition",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:postal_service",
+                "name": "Postal Service",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:golems",
+                "name": "Golems",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:semaphore",
+                "name": "Semaphore",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:corruption",
+                "name": "Corruption",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:comic_fantasy",
+                "name": "Comic Fantasy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:inventive",
+                "name": "Inventive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fantasy_loving",
+                "name": "Fantasy-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9937220301566827
+            },
+            "disambiguation": "2004, Terry Pratchett",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "64222",
+                  "user_rating": 4.41,
+                  "user_ratings_count": 130773
+                }
+              ]
+            }
+          },
+          {
+            "name": "A Study in Scarlet (Sherlock Holmes, #1)",
+            "entity_id": "63BE54E0-4A21-4AFE-85BE-BF1B85C9DBA4",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Our first meeting with Sherlock Holmes. And John Watson's too! The young doctor is astonished by Holmes' many idiosyncrasies, including his talents on the violin.  But it's not long before Sherlock Holmes, with Watson in tow, is working with Scotland Yard investigating the murder of two Americans whose deaths have some mysterious connection to sinister groups gathering power in both Britain and America.  Here's where it all began, 'A Study in Scarlet.' Meet Sherlock Holmes, one of the world's leading consulting detectives - fictional of course!",
+              "format": "Paperback",
+              "isbn13": "9781420925531",
+              "language": "English",
+              "page_count": 123,
+              "publication_date": "1887-12-27",
+              "publication_year": 1887,
+              "publisher": "Digireads.com",
+              "title": "A Study in Scarlet (Sherlock Holmes, #1)",
+              "series_name": "Sherlock Holmes",
+              "image": {
+                "url": "https://images.qloo.com/i/63BE54E0-4A21-4AFE-85BE-BF1B85C9DBA4-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Eine Studie in Scharlachrot",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Estudio en escarlata",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une étude en rouge",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Sherlock Holmes und Dr. Watson untersuchen einen Mordfall mit zwei Amerikanern und stoßen auf eine Geschichte von Rache.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Sherlock Holmes y el doctor Watson investigan un asesinato relacionado con dos estadounidenses y descubren una historia de venganza.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Sherlock Holmes et le docteur Watson enquêtent sur un meurtre impliquant deux Américains et découvrent une histoire de vengeance.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Sherlock Holmes and Dr. Watson investigate a murder case involving two Americans, uncovering a tale of revenge."
+            },
+            "popularity": 0.9985345917937141,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery_thriller",
+                "name": "Mystery Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:19th_century",
+                "name": "19th Century",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:detective",
+                "name": "Detective",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sherlock_holmes",
+                "name": "Sherlock Holmes",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:detective",
+                "name": "Detective",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:investigation",
+                "name": "Investigation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:221b_baker_street",
+                "name": "221B Baker Street",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:consulting_detective",
+                "name": "Consulting Detective",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mormonism",
+                "name": "Mormonism",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:victorian_london",
+                "name": "Victorian London",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:clever",
+                "name": "Clever",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:deduction",
+                "name": "Deduction",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:utah_united_states",
+                "name": "Utah, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_magnifying_glass",
+                "name": "The Magnifying Glass",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_scarlet_thread",
+                "name": "The Scarlet Thread",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:221b_baker_street",
+                "name": "221B Baker Street",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1880s",
+                "name": "1880s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:victorian",
+                "name": "Victorian",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cerebral",
+                "name": "Cerebral",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:detail_oriented",
+                "name": "Detail-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:intellectual",
+                "name": "Intellectual",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9924613556520585
+            },
+            "disambiguation": "1887, Arthur Conan Doyle",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "102868",
+                  "user_rating": 4.14,
+                  "user_ratings_count": 474185
+                }
+              ]
+            }
+          },
+          {
+            "name": "Festen (Modern Plays)",
+            "entity_id": "41E1B6BD-59C9-4ECD-808B-59470F96CE55",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": " Helge, the patriarch of a chain of restaurants, is celebrating his sixtieth birthday and everyone is coming home from the party including Helge's sons, Christian, Michael and his daughter Helene. Missing from the roster of invitees is Christian's twin sister, Linda, who recently committed suicide. The reason for her action and the repercussions from it, form the basis of the shocking and painful events that transpire during a twenty-four hour period. In the midst of dinner, Christian makes a startling accusation and, even as the disbelieving guests are choosing sides, the play slowly unwraps the truth.  David Eldridge powerful new play is adapted from Thomas Vinterborg's screenplay of the very successful film, Dogme.  Published to tie in with Almeida Theatre production in March 2004 directed by Rufus Norris ",
+              "format": "Paperback",
+              "isbn10": "9780413774",
+              "isbn13": "9780413774385",
+              "language": "English",
+              "page_count": 80,
+              "publication_date": "2004-09-01",
+              "publication_year": 2004,
+              "publisher": "Methuen Drama",
+              "title": "Festen (Modern Plays)",
+              "image": {
+                "url": "https://images.qloo.com/i/41E1B6BD-59C9-4ECD-808B-59470F96CE55-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Bei einer Familiengeburtstagsfeier kommen dunkle Geheimnisse ans Licht.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una celebración familiar de cumpleaños saca a la luz oscuros secretos.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Lors d'un anniversaire familial, de sombres secrets sont révélés.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A family birthday celebration reveals dark secrets."
+            },
+            "popularity": 0.32333161065701965,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:theatre",
+                "name": "Theatre",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:plays",
+                "name": "Plays",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:drama",
+                "name": "Drama",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:powerful",
+                "name": "Powerful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:poignant",
+                "name": "Poignant",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:overwhelming",
+                "name": "Overwhelming",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:shocking",
+                "name": "Shocking",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:enthralling",
+                "name": "Enthralling",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:drama",
+                "name": "Drama",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:reunion",
+                "name": "Reunion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:accusation",
+                "name": "Accusation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:truth",
+                "name": "Truth",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:abuse",
+                "name": "Abuse",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:suicide",
+                "name": "Suicide",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:birthday",
+                "name": "Birthday",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:restaurant",
+                "name": "Restaurant",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:patriarch",
+                "name": "Patriarch",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_objective",
+                "name": "third person objective",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dramatic",
+                "name": "Dramatic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:confrontational",
+                "name": "Confrontational",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:truth",
+                "name": "Truth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:abuse",
+                "name": "Abuse",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:revelation",
+                "name": "Revelation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:united_kingdom",
+                "name": "United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:family_gatherings",
+                "name": "Family Gatherings",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:speeches",
+                "name": "Speeches",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:truth_vs_lies",
+                "name": "Truth vs. Lies",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychological_drama",
+                "name": "Psychological Drama",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:family_drama",
+                "name": "Family Drama",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2000s",
+                "name": "2000s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:raw",
+                "name": "Raw",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:unflinching",
+                "name": "Unflinching",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:provocative",
+                "name": "Provocative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:theatrical",
+                "name": "Theatrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mature",
+                "name": "Mature",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:emotionally_resilient",
+                "name": "Emotionally Resilient",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9911989923841761
+            },
+            "disambiguation": "2004, David Eldridge",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "1482201",
+                  "user_rating": 4.07,
+                  "user_ratings_count": 196
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Girl on the Train",
+            "entity_id": "07233BED-8E8C-48D3-8986-ACBFA8F700B9",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Rachel catches the same commuter train every morning. She knows it will wait at the same signal each time, overlooking a row of back gardens. She’s even started to feel like she knows the people who live in one of the houses. “Jess and Jason,” she calls them. Their life—as she sees it—is perfect. If only Rachel could be that happy. And then she sees something shocking. It’s only a minute until the train moves on, but it’s enough. Now everything’s changed. Now Rachel has a chance to become a part of the lives she’s only watched from afar. Now they’ll see; she’s much more than just the girl on the train...  An alternative cover edition for this ISBN can be found here.",
+              "format": "Hardcover",
+              "isbn13": "9781594633669",
+              "language": "English",
+              "page_count": 336,
+              "publication_date": "2015-01-13",
+              "publication_year": 2015,
+              "publisher": "Riverhead Books",
+              "title": "The Girl on the Train",
+              "image": {
+                "url": "https://images.qloo.com/i/07233BED-8E8C-48D3-8986-ACBFA8F700B9-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "La chica del tren",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "La Fille du train",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Eine alkoholsüchtige Frau gerät in einen Mordfall, nachdem sie vom Zug aus ein schockierendes Ereignis beobachtet.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una mujer alcohólica se ve envuelta en un misterio de asesinato tras presenciar un hecho impactante desde el tren.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une femme alcoolique se retrouve mêlée à une affaire de meurtre après avoir été témoin d’un événement choquant depuis son train.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "An alcoholic woman becomes entangled in a murder mystery after witnessing a shocking event from her train."
+            },
+            "popularity": 0.9998537991812754,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:contemporary",
+                "name": "Contemporary",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery_thriller",
+                "name": "Mystery Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult_fiction",
+                "name": "Adult Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:suspense",
+                "name": "Suspense",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:intricate",
+                "name": "intricate",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:dark",
+                "name": "dark",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:psychological",
+                "name": "psychological",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:twisty",
+                "name": "twisty",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:alcoholism",
+                "name": "Alcoholism",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:commuter_train",
+                "name": "Commuter Train",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:infidelity",
+                "name": "Infidelity",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:unreliable_narrator",
+                "name": "Unreliable Narrator",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:domestic_life",
+                "name": "Domestic Life",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:psychological_thriller",
+                "name": "Psychological Thriller",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:multiple_persons",
+                "name": "multiple persons",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dark",
+                "name": "Dark",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:psychological",
+                "name": "Psychological",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:twisty",
+                "name": "Twisty",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:deception",
+                "name": "Deception",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:addiction",
+                "name": "Addiction",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:domestic_violence",
+                "name": "Domestic Violence",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:truth",
+                "name": "Truth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:alcohol",
+                "name": "Alcohol",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:trains",
+                "name": "Trains",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:memory",
+                "name": "Memory",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:deception",
+                "name": "Deception",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychological_thriller",
+                "name": "Psychological Thriller",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2010s",
+                "name": "2010s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:gripping",
+                "name": "Gripping",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:psychological",
+                "name": "Psychological",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:unpredictable",
+                "name": "Unpredictable",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thrill_seeking",
+                "name": "Thrill-seeking",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:emotionally_engaged",
+                "name": "Emotionally Engaged",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9899349424284454
+            },
+            "disambiguation": "2015, Paula Hawkins",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "22557272",
+                  "user_rating": 3.96,
+                  "user_ratings_count": 3147775
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Night Circus",
+            "entity_id": "EDB57DBC-E038-48F5-88F5-EA0F5A7E4280",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not. Within the black-and-white striped canvas tents is an utterly unique experience full of breathtaking amazements. It is called Le Cirque des Rêves, and it is only open at night.   But behind the scenes, a fierce competition is underway—a duel between two young magicians, Celia and Marco, who have been trained since childhood expressly for this purpose by their mercurial instructors. Unbeknownst to them, this is a game in which only one can be left standing, and the circus is but the stage for a remarkable battle of imagination and will. Despite themselves, however, Celia and Marco tumble headfirst into love—a deep, magical love that makes the lights flicker and the room grow warm whenever they so much as brush hands.   True love or not, the game must play out, and the fates of everyone involved, from the cast of extraordinary circus performers to the patrons, hang in the balance, suspended as precariously as the daring acrobats overhead.   Written in rich, seductive prose, this spell-casting novel is a feast for the senses and the heart.",
+              "format": "Hardcover",
+              "isbn13": "9780385534635",
+              "language": "English",
+              "page_count": 400,
+              "publication_date": "2011-09-13",
+              "publication_year": 2011,
+              "publisher": "Doubleday",
+              "title": "The Night Circus",
+              "image": {
+                "url": "https://images.qloo.com/i/EDB57DBC-E038-48F5-88F5-EA0F5A7E4280-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Der Nachtzirkus",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El circo de la noche",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le Cirque des Rêves",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "uitgave van The Night Circus",
+                  "languages": [
+                    "nl"
+                  ]
+                },
+                {
+                  "value": "2011 edition",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "видання, опубліковане у 2011",
+                  "languages": [
+                    "uk"
+                  ]
+                },
+                {
+                  "value": "Ein magischer Zirkus wird zum Schauplatz eines Duells zwischen zwei jungen Magiern, die sich ineinander verlieben.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un circo mágico es el escenario de un duelo entre dos jóvenes magos que acaban enamorándose.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un cirque magique accueille un duel entre deux jeunes magiciens qui tombent amoureux l'un de l'autre.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A magical circus hosts a duel between two young magicians who fall in love."
+            },
+            "popularity": 0.9997585986481524,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:magic",
+                "name": "Magic",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:young_adult",
+                "name": "Young Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:romance",
+                "name": "Romance",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical",
+                "name": "Historical",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult_fiction",
+                "name": "Adult Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:beautiful",
+                "name": "Beautiful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:visually_descriptive",
+                "name": "Visually descriptive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:weak_plot",
+                "name": "Weak plot",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:romance_cliches",
+                "name": "Romance cliches",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:strong_debut",
+                "name": "Strong debut",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:magical_realism",
+                "name": "Magical Realism",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:circus",
+                "name": "Circus",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:magic",
+                "name": "Magic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:competition",
+                "name": "Competition",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:illusion",
+                "name": "Illusion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:dreams",
+                "name": "Dreams",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:victorian_london",
+                "name": "Victorian London",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:magicians",
+                "name": "Magicians",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:spectacle",
+                "name": "Spectacle",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:multiple_persons",
+                "name": "multiple persons",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:magical",
+                "name": "Magical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:romantic",
+                "name": "Romantic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:enchanting",
+                "name": "Enchanting",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:destiny",
+                "name": "Destiny",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:imagination",
+                "name": "Imagination",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:sacrifice",
+                "name": "Sacrifice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:competition",
+                "name": "Competition",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:victorian_london_united_kingdom",
+                "name": "Victorian London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:black_and_white",
+                "name": "Black and White",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_circus",
+                "name": "The Circus",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:dreams",
+                "name": "Dreams",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:illusions",
+                "name": "Illusions",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:speculative_fiction",
+                "name": "Speculative Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:victorian_era",
+                "name": "Victorian Era",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:lyrical",
+                "name": "Lyrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dreamlike",
+                "name": "Dreamlike",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:ethereal",
+                "name": "Ethereal",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:captivating",
+                "name": "Captivating",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:romantic",
+                "name": "Romantic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:dreamers",
+                "name": "Dreamers",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fantasy_loving",
+                "name": "Fantasy-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.986132693490792
+            },
+            "disambiguation": "2011, Erin Morgenstern",
+            "external": {
+              "wikidata": [
+                {
+                  "id": "q60388371"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "9361589",
+                  "user_rating": 4.01,
+                  "user_ratings_count": 1047857
+                }
+              ]
+            }
+          },
+          {
+            "name": "Peter Pan",
+            "entity_id": "679759F7-294A-4836-B08D-19449930BEE9",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "One starry night, Peter Pan and Tinker Bell lead the three Darling children over the rooftops of London and away to Neverland - the island where lost boys play, mermaids splash and fairies make mischief. But a villainous-looking gang of pirates lurk in the docks, led by the terrifying Captain James Hook. Magic and excitement are in the air, but if Captain Hook has his way, before long, someone will be walking the plank and swimming with the crocodiles...",
+              "format": "Hardcover",
+              "isbn13": "9780805072457",
+              "language": "English",
+              "page_count": 176,
+              "publication_date": "1911-01-01",
+              "publication_year": 1911,
+              "publisher": "Henry Holt and Co.",
+              "title": "Peter Pan",
+              "image": {
+                "url": "https://images.qloo.com/i/679759F7-294A-4836-B08D-19449930BEE9-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Peter Pan nimmt die Darling-Kinder mit nach Nimmerland, wo sie magische Abenteuer erleben.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Peter Pan lleva a los niños Darling a Nunca Jamás para vivir aventuras mágicas.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Peter Pan emmène les enfants Darling au Pays Imaginaire pour vivre des aventures magiques.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Peter Pan takes the Darling children to Neverland for magical adventures."
+            },
+            "popularity": 0.9982829903847461,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:literature",
+                "name": "Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:middle_grade",
+                "name": "Middle Grade",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fairy_tales",
+                "name": "Fairy Tales",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:young_adult",
+                "name": "Young Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:delightful",
+                "name": "delightful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:timeless",
+                "name": "timeless",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:imaginative",
+                "name": "imaginative",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:adventurous",
+                "name": "adventurous",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:whimsical",
+                "name": "whimsical",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:fantasy",
+                "name": "Fantasy",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:neverland",
+                "name": "Neverland",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:lost_boys",
+                "name": "Lost Boys",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:pirates",
+                "name": "Pirates",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mermaids",
+                "name": "Mermaids",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fairies",
+                "name": "Fairies",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:childhood",
+                "name": "Childhood",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:magic",
+                "name": "Magic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:captain_hook",
+                "name": "Captain Hook",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:flying",
+                "name": "Flying",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:magical",
+                "name": "Magical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:timeless",
+                "name": "Timeless",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:childhood_vs_adulthood",
+                "name": "Childhood vs. Adulthood",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:innocence",
+                "name": "Innocence",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:freedom",
+                "name": "Freedom",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:imagination",
+                "name": "Imagination",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:eternal_youth",
+                "name": "Eternal Youth",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:flight",
+                "name": "Flight",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_crocodile",
+                "name": "The Crocodile",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:the_lost_boys",
+                "name": "The Lost Boys",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:children_s_fantasy",
+                "name": "Children's Fantasy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1910s",
+                "name": "1910s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:enchanting",
+                "name": "Enchanting",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:timeless",
+                "name": "Timeless",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:playful",
+                "name": "Playful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:young_at_heart",
+                "name": "Young-at-heart",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fantasy_loving",
+                "name": "Fantasy-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9835894663837997
+            },
+            "disambiguation": "1911, J.M. Barrie",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "34268",
+                  "user_rating": 4.04,
+                  "user_ratings_count": 361999
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "tool": "qloo_describe",
+  "arguments": {
+    "entity": "Radiohead",
+    "type": "artist"
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "describe",
+    "status": "ok",
+    "interpretation": {
+      "entity": {
+        "input": "Radiohead",
+        "entityId": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "type": "urn:entity:artist",
+        "match": "exact"
+      }
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Radiohead",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "name": "Radiohead",
+            "type": "urn:entity:artist",
+            "popularity": 0.9999966263060412,
+            "description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "99ECEFED-B982-40C2-A2ED-EB042E9545FA",
+              "name": "Radiohead Tribute",
+              "type": "urn:entity:artist",
+              "popularity": 0.46901430783607895,
+              "description": "A tribute band dedicated to performing the music of Radiohead."
+            },
+            {
+              "id": "BF711411-5659-4CEF-BC46-ADEAACEB52EA",
+              "name": "Dub Tribute To Radiohead",
+              "type": "urn:entity:artist",
+              "popularity": 0.7304081157581871,
+              "description": "A group performing dub reggae covers of Radiohead songs."
+            },
+            {
+              "id": "A754373E-0D89-4FD7-85B4-6F22F413D1D1",
+              "name": "The Bluegrass Tribute to Radiohead",
+              "type": "urn:entity:artist",
+              "popularity": 0.6333435668716748,
+              "description": "A bluegrass tribute band performing covers of Radiohead songs."
+            },
+            {
+              "id": "93D30F68-DA61-4CB3-A672-1C7983C79086",
+              "name": "Thom Yorke and Johnny Greenwood (Radiohead)",
+              "type": "urn:entity:artist",
+              "popularity": 0.5109257078853349,
+              "description": "Thom Yorke and Johnny Greenwood are key members of Radiohead, known for innovative alternative and experimental rock music."
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "popularity": 0.9999966263060412,
+        "properties": {
+          "short_description": "Radiohead is an English rock band known for their innovative and experimental approach to music.",
+          "duration": {},
+          "image": {
+            "url": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg"
+          }
+        }
+      }
+    ],
+    "result_count": 1,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/entities",
+      "documentation": "https://docs.qloo.com/reference/get-entities",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/entities",
+          "query": {
+            "entity_ids": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+            ]
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "describe",
+      "job": "describe",
+      "signals": {},
+      "filters": {},
+      "operators": {},
+      "output": {},
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "type": "artist",
+        "entities": [
+          "Radiohead"
+        ]
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-5",
+      "duration_ms": 642
+    }
+  }
+}

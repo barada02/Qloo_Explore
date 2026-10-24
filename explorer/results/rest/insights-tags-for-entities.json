@@ -1,0 +1,322 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "take": 20
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 964,
+    "url": "/v2/insights?filter.type=urn%3Atag&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&take=20",
+    "requestId": "1355e841-6dc0-472f-bd48-607fadd6110a",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49828",
+      "x-month-ratelimit-reset": "2591804.63",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.36"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "tag_id": "urn:tag:cost_description:place:inexpensive",
+            "name": "Inexpensive",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:cost_description:place",
+            "tag_value": "urn:tag:cost_description:place:inexpensive",
+            "popularity": 0.9999875117087548,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+            "name": "Identifies as women-owned",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:inclusivity:place",
+            "tag_value": "urn:tag:inclusivity:place:identifies_as_women_owned",
+            "popularity": 0.9999950518091293,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:place:restaurant:bar",
+            "name": "Bar",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:genre:place",
+            "tag_value": "urn:tag:genre:place:restaurant:bar",
+            "popularity": 0.9999871189951937,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:specialty_dish:place:os_a_moelle",
+            "name": "Os A Moelle",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:specialty_dish:place",
+            "tag_value": "urn:tag:specialty_dish:place:os_a_moelle",
+            "popularity": 0.9586864548223105,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:credit_card:place:visa",
+            "name": "VISA",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:credit_card:place",
+            "tag_value": "urn:tag:credit_card:place:visa",
+            "popularity": 0.9999964655779495,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:hotel_rating:place:two_star",
+            "name": "Two Star",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:hotel_rating:place",
+            "tag_value": "urn:tag:hotel_rating:place:two_star",
+            "popularity": 0.9999171374385933,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:cultivated",
+            "name": "Cultivated",
+            "types": [
+              "urn:entity:artist",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:audience:qloo",
+            "tag_value": "urn:tag:audience:qloo:cultivated",
+            "popularity": 0.994785156621237,
+            "query": {
+              "affinity": 0.999830354590322
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:meticulously_crafted",
+            "name": "Meticulously Crafted",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:style:qloo",
+            "tag_value": "urn:tag:style:qloo:meticulously_crafted",
+            "popularity": 0.8134917686452152,
+            "query": {
+              "affinity": 0.9995699056864612
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:rock",
+            "name": " rock",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:rock",
+            "popularity": 0.9997883273905299,
+            "query": {
+              "affinity": 0.9986964314811797
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:alternative_rock",
+            "name": "Alternative Rock",
+            "types": [
+              "urn:entity:artist",
+              "urn:entity:album"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:alternative_rock",
+            "popularity": 0.9994121635325199,
+            "query": {
+              "affinity": 0.9985334854163272
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:environmental_issues",
+            "name": "Environmental Issues",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:artist",
+              "urn:entity:movie",
+              "urn:entity:tv_show",
+              "urn:entity:podcast"
+            ],
+            "subtype": "urn:tag:theme:qloo",
+            "tag_value": "urn:tag:theme:qloo:environmental_issues",
+            "popularity": 0.9821601225140643,
+            "query": {
+              "affinity": 0.9982014999966002
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:indie_rock",
+            "name": " indie rock",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:indie_rock",
+            "popularity": 0.999544452269044,
+            "query": {
+              "affinity": 0.9981261202541958
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:experimental",
+            "name": " experimental",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:experimental",
+            "popularity": 0.9997286349292323,
+            "query": {
+              "affinity": 0.9978817011569171
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:hotel",
+            "name": "Hotel",
+            "types": [
+              "urn:entity:tv_show",
+              "urn:entity:podcast",
+              "urn:entity:writer",
+              "urn:entity:director",
+              "urn:entity:podcaster",
+              "urn:entity:tv_episode",
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:brand",
+              "urn:entity:actor",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:keyword:qloo",
+            "tag_value": "urn:tag:keyword:qloo:hotel",
+            "popularity": 0.9970511853854811,
+            "query": {
+              "affinity": 0.9976786467971819
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:electronic",
+            "name": " electronic",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:electronic",
+            "popularity": 0.9998249282944308,
+            "query": {
+              "affinity": 0.997555809027212
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:europe",
+            "name": "Europe",
+            "types": [
+              "urn:entity:tv_show",
+              "urn:entity:podcast",
+              "urn:entity:writer",
+              "urn:entity:director",
+              "urn:entity:podcaster",
+              "urn:entity:tv_episode",
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:brand",
+              "urn:entity:actor",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:keyword:qloo",
+            "tag_value": "urn:tag:keyword:qloo:europe",
+            "popularity": 0.9976272490698164,
+            "query": {
+              "affinity": 0.9974653299107215
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:instrumental",
+            "name": " instrumental",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:instrumental",
+            "popularity": 0.9996125488005507,
+            "query": {
+              "affinity": 0.9973113899299333
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:folk",
+            "name": " folk",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:folk",
+            "popularity": 0.999696982216202,
+            "query": {
+              "affinity": 0.997229916897507
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:place:restaurant",
+            "name": "Restaurant",
+            "types": [
+              "urn:entity:place"
+            ],
+            "subtype": "urn:tag:genre:place",
+            "tag_value": "urn:tag:genre:place:restaurant",
+            "popularity": 0.9999996858291511,
+            "query": {
+              "affinity": 0.9969230769230769
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:psychedelic",
+            "name": "psychedelic",
+            "types": [
+              "urn:entity:artist"
+            ],
+            "subtype": "urn:tag:genre:music",
+            "tag_value": "urn:tag:genre:music:psychedelic",
+            "popularity": 0.9995186117167191,
+            "query": {
+              "affinity": 0.9968225517353755
+            }
+          }
+        ]
+      }
+    }
+  }
+}

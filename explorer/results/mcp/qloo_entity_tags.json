@@ -1,0 +1,211 @@
+{
+  "tool": "qloo_entity_tags",
+  "arguments": {
+    "entities": [
+      "Huberman Lab"
+    ],
+    "entity_type": "podcast",
+    "limit": 10
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "entity_tags",
+    "status": "ok",
+    "interpretation": {
+      "entities": [
+        {
+          "input": "Huberman Lab",
+          "entityId": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+          "name": "Huberman Lab",
+          "type": "urn:entity:podcast",
+          "match": "exact"
+        }
+      ]
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Huberman Lab",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "name": "Huberman Lab",
+            "type": "urn:entity:podcast",
+            "popularity": 0.9892078824195808,
+            "description": "Exploring neuroscience and science-based tools to understand brain function, behavior, and health."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "2DAD094C-3827-4361-BB2F-08079C4B042A",
+              "name": "The Happiness Lab with Dr. Laurie Santos",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9635989625257133,
+              "description": "Yale professor Dr. Laurie Santos reveals surprising insights from happiness research that challenge common beliefs about leading a happier life."
+            },
+            {
+              "id": "E4EA9AB0-B333-42F4-ACF8-5D6B43D4209D",
+              "name": "Omnic Lab: A Strategic Overwatch Podcast",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9213546790686581,
+              "description": "A podcast focused on strategies for the game Overwatch, offering tips and team composition insights for players."
+            },
+            {
+              "id": "9CDB08ED-7194-4812-95BC-CEC954A40615",
+              "name": "The Speaker Lab Podcast",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9023939421041648,
+              "description": "Learn business tactics and speaking tips to get booked and paid as a speaker consistently."
+            },
+            {
+              "id": "21DAE654-11D0-46A6-AEF5-E390C5ACF862",
+              "name": "Comic Lab",
+              "type": "urn:entity:podcast",
+              "popularity": 0.7749157797454014,
+              "description": "A podcast offering tips, tricks, and insights on creating comics and making a living as a cartoonist."
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "id": "urn:tag:category:qloo:real_time_strategy",
+        "name": "Real-Time Strategy",
+        "type": "urn:tag:category:qloo",
+        "popularity": 0.9562328057164354,
+        "affinity": 1
+      },
+      {
+        "id": "urn:tag:category:qloo:role_playing",
+        "name": "Role-Playing",
+        "type": "urn:tag:category:qloo",
+        "popularity": 0.9736450195508469,
+        "affinity": 0.99822695035461
+      },
+      {
+        "id": "urn:tag:style:qloo:touching",
+        "name": "Touching",
+        "type": "urn:tag:style:qloo",
+        "popularity": 0.9893445029448019,
+        "affinity": 0.996551724137931
+      },
+      {
+        "id": "urn:tag:ethnicity:qloo:irish",
+        "name": "Irish",
+        "type": "urn:tag:ethnicity:qloo",
+        "popularity": 0.992528938669609,
+        "affinity": 0.9959349593495935
+      },
+      {
+        "id": "urn:tag:category:qloo:story_driven",
+        "name": "Story-Driven",
+        "type": "urn:tag:category:qloo",
+        "popularity": 0.9828516035333333,
+        "affinity": 0.9925512104283054
+      },
+      {
+        "id": "urn:tag:keyword:qloo:ship",
+        "name": "Ship",
+        "type": "urn:tag:keyword:qloo",
+        "popularity": 0.9950851306002996,
+        "affinity": 0.9921568627450981
+      },
+      {
+        "id": "urn:tag:category:qloo:dark_fantasy",
+        "name": "Dark Fantasy",
+        "type": "urn:tag:category:qloo",
+        "popularity": 0.9796349581022702,
+        "affinity": 0.9902755267423015
+      },
+      {
+        "id": "urn:tag:occupation:qloo:producer",
+        "name": "Producer",
+        "type": "urn:tag:occupation:qloo",
+        "popularity": 0.9974402930083005,
+        "affinity": 0.9888776541961577
+      },
+      {
+        "id": "urn:tag:content_warning:qloo:suggestive_themes",
+        "name": "Suggestive Themes",
+        "type": "urn:tag:content_warning:qloo",
+        "popularity": 0.9892371350571784,
+        "affinity": 0.9888059701492538
+      },
+      {
+        "id": "urn:tag:motif:qloo:bureaucracy",
+        "name": "Bureaucracy",
+        "type": "urn:tag:motif:qloo",
+        "popularity": 0.9827315992882774,
+        "affinity": 0.9879518072289156
+      }
+    ],
+    "result_count": 10,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/taste-analysis",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:tag",
+            "signal.interests.entities": [
+              "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6"
+            ],
+            "take": 10
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "entity_tags",
+      "job": "entity_tags",
+      "signals": {
+        "entities": [
+          "Huberman Lab"
+        ]
+      },
+      "filters": {},
+      "operators": {},
+      "output": {
+        "limit": 10
+      },
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "type": "podcast"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-8",
+      "duration_ms": 661
+    }
+  }
+}

@@ -13,13 +13,14 @@ const EXTRA_CALLS = [
     signals: ["Huberman Lab", "Lex Fridman Podcast"],
     limit: 15,
   }],
-  ["sitescout-heatmap-restaurant", "qloo_where_popular", { entity: "Tartine Bakery", entity_type: "place", within: "San Francisco" }],
+  ["sitescout-heatmap-restaurant", "qloo_where_popular", { entity: "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27", entity_type: "place", within: "San Francisco" }],
   ["demographic-rank", "qloo_rank", {
     options: ["Patagonia", "Nike", "Gucci"],
     option_type: "brand",
     demographic: "women 25-34",
     signal_location: "Chicago",
   }],
+  // Expected to return `needs_input`: documents how the harness handles ambiguity.
   ["ambiguous-name", "qloo_describe", { entity: "Mercury" }],
 ];
 
@@ -55,7 +56,7 @@ async function main() {
       }
       const ms = Math.round(performance.now() - started);
       const count = envelope.result_count ?? envelope.results?.length;
-      const list = Array.isArray(envelope.results) ? envelope.results : envelope.series ?? firstList(envelope).items;
+      const list = Array.isArray(envelope.results) ? envelope.results : (Array.isArray(envelope.series) ? envelope.series : firstList(envelope).items);
       const sample = list
         .slice(0, 5)
         .map((r) => r?.name ?? r?.entity?.name ?? r?.entity_id ?? JSON.stringify(r).slice(0, 50))

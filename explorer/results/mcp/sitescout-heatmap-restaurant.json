@@ -1,0 +1,251 @@
+{
+  "tool": "qloo_where_popular",
+  "arguments": {
+    "entity": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+    "entity_type": "place",
+    "within": "San Francisco"
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "where_popular",
+    "status": "ok",
+    "interpretation": {
+      "entity": {
+        "input": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+        "entityId": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+        "name": "Tartine Bakery",
+        "type": "urn:entity:place",
+        "match": "identifier"
+      },
+      "within": "San Francisco"
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+            "name": "Tartine Bakery",
+            "type": "urn:entity:place",
+            "popularity": 0.9982385504852901,
+            "description": "Popular Mission District bakery known for artisanal pastries, sourdough, and breakfast sandwiches in a high-demand, often-line-filled setting.",
+            "address": "600 Guerrero St San Francisco, CA 94110"
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        }
+      ]
+    },
+    "results": [
+      {
+        "location": {
+          "latitude": 37.760696,
+          "longitude": -122.42409,
+          "geohash": "9q8yy4j"
+        },
+        "query": {
+          "affinity": 1,
+          "affinity_rank": 1,
+          "popularity": 1,
+          "entity_place_affinity_rank": 1,
+          "entity_place_affinity": 1
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.76207,
+          "longitude": -122.42546,
+          "geohash": "9q8yy4k"
+        },
+        "query": {
+          "affinity": 0.9995363931386184,
+          "affinity_rank": 0.999885,
+          "popularity": 0.9930458970792768,
+          "entity_place_affinity_rank": 0.999885,
+          "entity_place_affinity": 0.9995363931386184
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.779922,
+          "longitude": -122.418594,
+          "geohash": "9q8yym9"
+        },
+        "query": {
+          "affinity": 0.999072786277237,
+          "affinity_rank": 0.999814,
+          "popularity": 0.9995363931386184,
+          "entity_place_affinity_rank": 0.999814,
+          "entity_place_affinity": 0.999072786277237
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.76207,
+          "longitude": -122.41173,
+          "geohash": "9q8yy6q"
+        },
+        "query": {
+          "affinity": 0.9986091794158554,
+          "affinity_rank": 0.999747,
+          "popularity": 0.9958275382475661,
+          "entity_place_affinity_rank": 0.999747,
+          "entity_place_affinity": 0.9986091794158554
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.818375,
+          "longitude": -122.47902,
+          "geohash": "9q8zhut"
+        },
+        "query": {
+          "affinity": 0.9981455725544738,
+          "affinity_rank": 0.999721,
+          "popularity": 0.999072786277237,
+          "entity_place_affinity_rank": 0.999721,
+          "entity_place_affinity": 0.9981455725544738
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.788162,
+          "longitude": -122.40761,
+          "geohash": "9q8yyx1"
+        },
+        "query": {
+          "affinity": 0.9976819656930923,
+          "affinity_rank": 0.999536,
+          "popularity": 0.9976819656930923,
+          "entity_place_affinity_rank": 0.999536,
+          "entity_place_affinity": 0.9976819656930923
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.775803,
+          "longitude": -122.4337,
+          "geohash": "9q8yvuy"
+        },
+        "query": {
+          "affinity": 0.9972183588317107,
+          "affinity_rank": 0.999522,
+          "popularity": 0.9939731108020399,
+          "entity_place_affinity_rank": 0.999522,
+          "entity_place_affinity": 0.9972183588317107
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.80876,
+          "longitude": -122.414474,
+          "geohash": "9q8zn6u"
+        },
+        "query": {
+          "affinity": 0.9967547519703291,
+          "affinity_rank": 0.999479,
+          "popularity": 0.9823829392675012,
+          "entity_place_affinity_rank": 0.999479,
+          "entity_place_affinity": 0.9967547519703291
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.801895,
+          "longitude": -122.418594,
+          "geohash": "9q8zn39"
+        },
+        "query": {
+          "affinity": 0.9962911451089476,
+          "affinity_rank": 0.999477,
+          "popularity": 0.9758924432081595,
+          "entity_place_affinity_rank": 0.999477,
+          "entity_place_affinity": 0.9962911451089476
+        }
+      },
+      {
+        "location": {
+          "latitude": 37.79503,
+          "longitude": -122.393875,
+          "geohash": "9q8znb7"
+        },
+        "query": {
+          "affinity": 0.9958275382475661,
+          "affinity_rank": 0.999436,
+          "popularity": 0.9972183588317107,
+          "entity_place_affinity_rank": 0.999436,
+          "entity_place_affinity": 0.9958275382475661
+        }
+      }
+    ],
+    "result_count": 10,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/heatmaps-use-case",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:heatmap",
+            "signal.interests.entities": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+            "filter.location.query": "San Francisco",
+            "take": 10
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "where_popular",
+      "job": "where_popular",
+      "signals": {},
+      "filters": {
+        "location": "San Francisco"
+      },
+      "operators": {},
+      "output": {
+        "limit": 10
+      },
+      "assumptions": [
+        "limit=10"
+      ],
+      "unresolved": [],
+      "target": {
+        "type": "place",
+        "entities": [
+          "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27"
+        ]
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-13",
+      "duration_ms": 1656
+    }
+  }
+}

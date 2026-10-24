@@ -1,0 +1,273 @@
+{
+  "tool": "qloo_rank",
+  "arguments": {
+    "options": [
+      "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+      "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+      "B7A0731F-EC92-496A-9C40-47D9770489B6"
+    ],
+    "option_type": "movie",
+    "signals": [
+      "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+    ]
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "rank",
+    "status": "ok",
+    "interpretation": {
+      "option_type": "urn:entity:movie",
+      "options": [
+        {
+          "input": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "entityId": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "name": "The Grand Budapest Hotel",
+          "type": "urn:entity:movie",
+          "match": "identifier"
+        },
+        {
+          "input": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+          "entityId": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+          "name": "Fast & Furious",
+          "type": "urn:entity:movie",
+          "match": "identifier"
+        },
+        {
+          "input": "B7A0731F-EC92-496A-9C40-47D9770489B6",
+          "entityId": "B7A0731F-EC92-496A-9C40-47D9770489B6",
+          "name": "Amélie",
+          "type": "urn:entity:movie",
+          "match": "identifier"
+        }
+      ],
+      "signals": [
+        {
+          "input": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "entityId": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "type": "urn:entity:artist",
+          "match": "identifier"
+        }
+      ],
+      "include_tags": [],
+      "exclude_tags": []
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "name": "The Grand Budapest Hotel",
+            "type": "urn:entity:movie",
+            "popularity": 0.999514201509214,
+            "description": "The Grand Budapest Hotel (2014), directed by Wes Anderson and featuring Ralph Fiennes, F. Murray Abraham, and Mathieu Amalric, is a comedy-drama adventure set across multiple eras of a once-grand European hotel. Framed as a nested tale, it follows a legendary concierge and his young lobby boy through a caper involving a stolen painting, an inheritance dispute, and a murder, all against the rise of war and social change. The film pairs Anderson's signature visual precision—pastel palettes, miniat",
+            "release_year": 2014
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        },
+        {
+          "input": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+            "name": "Fast & Furious",
+            "type": "urn:entity:movie",
+            "popularity": 0.9824032991115286,
+            "description": "Fast & Furious (2009), directed by Justin Lin and starring Vin Diesel, Paul Walker, Michelle Rodriguez, Jordana Brewster and Gal Gadot, is an action-thriller that reunites original franchise characters. The plot follows an FBI agent who teams with a fugitive street racer to infiltrate a heroin-importing operation in Los Angeles, reigniting old feuds and loyalties. The film shifts the series toward emotional stakes and revenge-driven drama while retaining high-speed car sequences and underworld c",
+            "release_year": 2009
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        },
+        {
+          "input": "B7A0731F-EC92-496A-9C40-47D9770489B6",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "B7A0731F-EC92-496A-9C40-47D9770489B6",
+            "name": "Amélie",
+            "type": "urn:entity:movie",
+            "popularity": 0.9990499940624629,
+            "description": "Amélie (Le Fabuleux Destin d'Amélie Poulain) is a 2001 romantic comedy directed by Jean-Pierre Jeunet, with a US release on 2002-02-08. Starring Audrey Tautou, Mathieu Kassovitz, and Rufus, the film follows a shy, imaginative Parisian waitress who secretly engineers small acts of kindness that ripple through her neighborhood. Stylistically distinctive and narratively character-driven, it blends whimsical visual flourishes with themes of loneliness, connection, and the search for love, producing ",
+            "release_year": 2001
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        },
+        {
+          "input": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "name": "Radiohead",
+            "type": "urn:entity:artist",
+            "popularity": 0.9999966263060412,
+            "description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false,
+            "cache_status": "memory_hit"
+          }
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+        "name": "The Grand Budapest Hotel",
+        "type": "urn:entity",
+        "subtype": "urn:entity:movie",
+        "popularity": 0.9995140283807425,
+        "affinity": 0.860437725678178,
+        "properties": {
+          "description": "The Grand Budapest Hotel (2014), directed by Wes Anderson and featuring Ralph Fiennes, F. Murray Abraham, and Mathieu Amalric, is a comedy-drama adventure set across multiple eras of a once-grand European hotel. Framed as a nested tale, it follows a legendary concierge and his young lobby boy through a caper involving a stolen painting, an inheritance dispute, and a murder, all against the rise of war and social change. The film pairs Anderson's signature visual precision—pastel palettes, miniature-like sets, and exacting symmetry—with a bittersweet meditation on nostalgia, loyalty, and the decay of an era.",
+          "release_year": 2014,
+          "release_date": "2014-03-28",
+          "content_rating": "R",
+          "duration": 99,
+          "image": {
+            "url": "https://images.qloo.com/i/DF788007-B5EA-4F29-872B-96BCB8EEC42F-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "B7A0731F-EC92-496A-9C40-47D9770489B6",
+        "name": "Amélie",
+        "type": "urn:entity",
+        "subtype": "urn:entity:movie",
+        "popularity": 0.9990496555001188,
+        "affinity": 0.854622936926763,
+        "properties": {
+          "description": "Amélie (Le Fabuleux Destin d'Amélie Poulain) is a 2001 romantic comedy directed by Jean-Pierre Jeunet, with a US release on 2002-02-08. Starring Audrey Tautou, Mathieu Kassovitz, and Rufus, the film follows a shy, imaginative Parisian waitress who secretly engineers small acts of kindness that ripple through her neighborhood. Stylistically distinctive and narratively character-driven, it blends whimsical visual flourishes with themes of loneliness, connection, and the search for love, producing a warm, bittersweet emotional tone.",
+          "release_year": 2001,
+          "release_date": "2002-02-08",
+          "content_rating": "R",
+          "duration": 122,
+          "image": {
+            "url": "https://images.qloo.com/i/B7A0731F-EC92-496A-9C40-47D9770489B6-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+        "name": "Fast & Furious",
+        "type": "urn:entity",
+        "subtype": "urn:entity:movie",
+        "popularity": 0.982397028013564,
+        "affinity": 0.6596099466946965,
+        "properties": {
+          "description": "Fast & Furious (2009), directed by Justin Lin and starring Vin Diesel, Paul Walker, Michelle Rodriguez, Jordana Brewster and Gal Gadot, is an action-thriller that reunites original franchise characters. The plot follows an FBI agent who teams with a fugitive street racer to infiltrate a heroin-importing operation in Los Angeles, reigniting old feuds and loyalties. The film shifts the series toward emotional stakes and revenge-driven drama while retaining high-speed car sequences and underworld crime elements. Its tone mixes adrenaline-fueled spectacle with character-driven conflict and themes of family and redemption.",
+          "release_year": 2009,
+          "release_date": "2009-04-03",
+          "content_rating": "PG-13",
+          "duration": 107,
+          "image": {
+            "url": "https://images.qloo.com/i/F01AC034-179A-47F3-8ADF-7A4D77559DCF-420x-auto.jpg"
+          }
+        }
+      }
+    ],
+    "result_count": 3,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/insights-api-deep-dive",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:entity:movie",
+            "filter.results.entities": [
+              "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+              "B7A0731F-EC92-496A-9C40-47D9770489B6"
+            ],
+            "take": 3,
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+            ]
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "rank",
+      "job": "rank",
+      "signals": {
+        "entities": [
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        ]
+      },
+      "filters": {
+        "candidateEntities": [
+          "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+          "B7A0731F-EC92-496A-9C40-47D9770489B6"
+        ]
+      },
+      "operators": {},
+      "output": {
+        "limit": 3
+      },
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "type": "movie"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-4",
+      "duration_ms": 1266
+    }
+  }
+}

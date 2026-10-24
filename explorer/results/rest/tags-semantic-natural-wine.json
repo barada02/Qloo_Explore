@@ -1,0 +1,185 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "natural wine bar",
+      "feature.semantic_search": true,
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 333,
+    "url": "/v2/tags?filter.query=natural+wine+bar&feature.semantic_search=true&take=10",
+    "requestId": "c75a8777-8450-4eec-a8be-8fd7a67e9880",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49865",
+      "x-month-ratelimit-reset": "2591839.2",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.34"
+    },
+    "body": {
+      "duration": 47,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:cuisine:qloo",
+            "id": "urn:tag:cuisine:qloo:natural_wine_bar",
+            "name": "Natural Wine Bar",
+            "popularity": 0.9881114609054436,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:cuisine:qloo",
+            "id": "urn:tag:cuisine:qloo:natural_wine",
+            "name": "Natural Wine",
+            "popularity": 0.9953020462104477,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:product_service:qloo",
+            "id": "urn:tag:product_service:qloo:natural_wine",
+            "name": "Natural Wine",
+            "popularity": 0.97917620633359,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:cuisine:qloo",
+            "id": "urn:tag:cuisine:qloo:natural_wines",
+            "name": "Natural Wines",
+            "popularity": 0.9861503279236778,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:cuisine:qloo",
+            "id": "urn:tag:cuisine:qloo:natural_wine_bar_cuisine",
+            "name": "Natural Wine Bar Cuisine",
+            "popularity": 0.8840875852255853,
+            "properties": {
+              "entity_types": [
+                "urn:entity:place"
+              ]
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:amenity:qloo",
+            "id": "urn:tag:amenity:qloo:natural_wine",
+            "name": "Natural Wine",
+            "popularity": 0.9576383808702627,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:customer_segment:qloo",
+            "id": "urn:tag:customer_segment:qloo:natural_wine_enthusiasts",
+            "name": "Natural Wine Enthusiasts",
+            "popularity": 0.9604141588633173,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:amenity:qloo",
+            "id": "urn:tag:amenity:qloo:natural_wines",
+            "name": "Natural Wines",
+            "popularity": 0.9521575133251639,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:product_service:qloo",
+            "id": "urn:tag:product_service:qloo:natural_wines",
+            "name": "Natural Wines",
+            "popularity": 0.9376251479941056,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:amenity:qloo",
+            "id": "urn:tag:amenity:qloo:natural_wine_bar",
+            "name": "Natural Wine Bar",
+            "popularity": 0.8150671783672007,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

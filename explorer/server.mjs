@@ -14,6 +14,7 @@ const REST_PATHS = new Set([
   "/v2/insights", "/v2/tags", "/v2/tags/types", "/v2/trending",
 ]);
 const PORT = Number(process.env.PORT ?? 3000);
+const MAX_BODY = 1_000_000;
 const config = loadConfig();
 
 let mcpClient;
@@ -55,8 +56,14 @@ const server = createServer(async (req, res) => {
   try {
     let body = {};
     if (req.method === "POST") {
+      if (!/^application\/json\b/i.test(req.headers["content-type"] ?? "")) {
+        throw Object.assign(new Error("Content-Type must be application/json"), { status: 415 });
+      }
       let raw = "";
-      for await (const chunk of req) raw += chunk;
+      for await (const chunk of req) {
+        raw += chunk;
+        if (raw.length > MAX_BODY) throw Object.assign(new Error("Body too large"), { status: 413 });
+      }
       body = raw ? JSON.parse(raw) : {};
     }
     const result = await route(body);
@@ -68,7 +75,7 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, "127.0.0.1", () => {
   console.error(`Qloo explorer on http://localhost:${PORT} → ${config.baseUrl}${config.apiKey ? "" : " (NO KEY SET)"}`);
 });
 

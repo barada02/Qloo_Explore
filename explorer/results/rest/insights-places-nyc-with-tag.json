@@ -1,0 +1,1553 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "filter.location.query": "New York",
+      "filter.tags": "urn:tag:cuisine:qloo:natural_wine_bar",
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 492,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aplace&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&filter.location.query=New+York&filter.tags=urn%3Atag%3Acuisine%3Aqloo%3Anatural_wine_bar&take=10",
+    "requestId": "99459e82-910e-4f66-9a04-633f93dcf4b2",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49834",
+      "x-month-ratelimit-reset": "2591811.88",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Have & Meyer",
+            "entity_id": "6ED3E06E-68AA-4C5A-A0DD-E97ABCD219D1",
+            "type": "urn:entity",
+            "subtype": "urn:entity:place",
+            "properties": {
+              "hours": {
+                "friday": [
+                  {
+                    "opens": "T17:00:00",
+                    "closed": false,
+                    "closes": "T23:30:00"
+                  }
+                ],
+                "monday": [
+                  {
+                    "opens": "T17:00:00",
+                    "closed": false,
+                    "closes": "T23:00:00"
+                  }
+                ],
+                "sunday": [
+                  {
+                    "opens": "T10:30:00",
+                    "closed": false,
+                    "closes": "T23:00:00"
+                  }
+                ],
+                "tuesday": [
+                  {
+                    "opens": "T17:00:00",
+                    "closed": false,
+                    "closes": "T23:00:00"
+                  }
+                ],
+                "saturday": [
+                  {
+                    "opens": "T10:30:00",
+                    "closed": false,
+                    "closes": "T23:30:00"
+                  }
+                ],
+                "thursday": [
+                  {
+                    "opens": "T17:00:00",
+                    "closed": false,
+                    "closes": "T23:00:00"
+                  }
+                ],
+                "wednesday": [
+                  {
+                    "opens": "T17:00:00",
+                    "closed": false,
+                    "closes": "T23:00:00"
+                  }
+                ]
+              },
+              "phone": "+17184190722",
+              "images": [
+                {
+                  "url": "https://images.qloo.com/i/6ED3E06E-68AA-4C5A-A0DD-E97ABCD219D1-3DXbyI-420x-outside.jpg",
+                  "type": "urn:image:place:unknown"
+                }
+              ],
+              "address": "103 Havemeyer St Brooklyn, NY 11211",
+              "geocode": {
+                "city": "New York",
+                "name": "Williamsburg",
+                "metro": "New York City",
+                "country": "United States",
+                "country_code": "US",
+                "admin1_region": "New York",
+                "admin2_region": "Kings County"
+              },
+              "parking": false,
+              "website": "http://haveandmeyer.com/",
+              "good_for": null,
+              "keywords": [
+                {
+                  "name": "wine selection",
+                  "count": 110
+                },
+                {
+                  "name": "wine cellar",
+                  "count": 24
+                },
+                {
+                  "name": "outdoor seating",
+                  "count": 14
+                },
+                {
+                  "name": "natural wine",
+                  "count": 26
+                },
+                {
+                  "name": "private room",
+                  "count": 24
+                },
+                {
+                  "name": "intimate setting",
+                  "count": 3
+                },
+                {
+                  "name": "wine list",
+                  "count": 47
+                },
+                {
+                  "name": "wine bar",
+                  "count": 18
+                },
+                {
+                  "name": "private dining room",
+                  "count": 11
+                },
+                {
+                  "name": "orange wines",
+                  "count": 13
+                }
+              ],
+              "locality": {
+                "city": {
+                  "name": "New York",
+                  "place": "city",
+                  "boundary": "administrative",
+                  "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+                  "admin_level": 5,
+                  "locality_id": "r175905",
+                  "abbreviation": "NYC",
+                  "country_code": null
+                },
+                "metro": {
+                  "name": "New York City",
+                  "place": "metro",
+                  "boundary": "metro",
+                  "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+                  "admin_level": 12,
+                  "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                "state": {
+                  "name": "New York",
+                  "place": "state",
+                  "boundary": "administrative",
+                  "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+                  "admin_level": 4,
+                  "locality_id": "r61320",
+                  "abbreviation": "N.Y.",
+                  "country_code": null
+                },
+                "county": {
+                  "name": "Kings County",
+                  "place": "county",
+                  "boundary": "administrative",
+                  "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+                  "admin_level": 6,
+                  "locality_id": "r369518",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                "country": {
+                  "name": "United States",
+                  "place": "country",
+                  "boundary": "administrative",
+                  "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+                  "admin_level": 2,
+                  "locality_id": "r148838",
+                  "abbreviation": "USA",
+                  "country_code": "US"
+                },
+                "neighborhood": {
+                  "name": "Williamsburg",
+                  "place": "suburb",
+                  "boundary": "neighborhood",
+                  "entity_id": "C16A1E1D-D3F4-4720-9E5A-448CE374E35D",
+                  "admin_level": 10,
+                  "locality_id": "n158863515",
+                  "abbreviation": null,
+                  "country_code": null
+                }
+              },
+              "menu_url": null,
+              "is_closed": false,
+              "live_music": true,
+              "localities": [
+                {
+                  "name": "Williamsburg",
+                  "place": "suburb",
+                  "boundary": "neighborhood",
+                  "entity_id": "C16A1E1D-D3F4-4720-9E5A-448CE374E35D",
+                  "admin_level": 10,
+                  "locality_id": "n158863515",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "11211",
+                  "place": "ZCTA",
+                  "boundary": "ZCTA",
+                  "entity_id": "9E9376B5-A3EF-4B00-BA7C-8BFB8F8C7D89",
+                  "admin_level": 9,
+                  "locality_id": "z11211",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "New York",
+                  "place": "city",
+                  "boundary": "administrative",
+                  "entity_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+                  "admin_level": 5,
+                  "locality_id": "r175905",
+                  "abbreviation": "NYC",
+                  "country_code": null
+                },
+                {
+                  "name": "New York City",
+                  "place": "metro",
+                  "boundary": "metro",
+                  "entity_id": "8451A8C4-166B-4072-B4D1-050810D90654",
+                  "admin_level": 12,
+                  "locality_id": "81E61924-6CEE-4AB4-93D3-282A5C784AB8",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "Brooklyn",
+                  "place": "borough",
+                  "boundary": "administrative",
+                  "entity_id": "86BAEBAE-2980-43B6-9E75-2A5CDB898628",
+                  "admin_level": 7,
+                  "locality_id": "r9691750",
+                  "abbreviation": "BK",
+                  "country_code": null
+                },
+                {
+                  "name": "Kings County",
+                  "place": "county",
+                  "boundary": "administrative",
+                  "entity_id": "E8DC52F4-985C-4B02-8518-0385E567C57C",
+                  "admin_level": 6,
+                  "locality_id": "r369518",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "United States",
+                  "place": "country",
+                  "boundary": "administrative",
+                  "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+                  "admin_level": 2,
+                  "locality_id": "r148838",
+                  "abbreviation": "USA",
+                  "country_code": "US"
+                },
+                {
+                  "name": "New York",
+                  "place": "state",
+                  "boundary": "administrative",
+                  "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+                  "admin_level": 4,
+                  "locality_id": "r61320",
+                  "abbreviation": "N.Y.",
+                  "country_code": null
+                }
+              ],
+              "description": "Warm, intimate natural wine bar serving sustainable, seasonal Italian cuisine with an extensive natural-wine list and cozy sidewalk seating.",
+              "hotel_class": null,
+              "price_level": 3,
+              "price_range": {
+                "to": null,
+                "from": null,
+                "currency": "usd"
+              },
+              "star_rating": null,
+              "event_spaces": true,
+              "neighborhood": "Williamsburg",
+              "pet_friendly": null,
+              "check_in_time": null,
+              "primary_genre": {
+                "id": "urn:tag:genre:place:restaurant",
+                "akas": [
+                  {
+                    "value": "\"Mgahawa\"",
+                    "languages": [
+                      "sw"
+                    ]
+                  },
+                  {
+                    "value": "\"రెస్టారెంట్\"",
+                    "languages": [
+                      "te"
+                    ]
+                  },
+                  {
+                    "value": "\"Restorāns\"",
+                    "languages": [
+                      "lv"
+                    ]
+                  },
+                  {
+                    "value": "\"რესტორანი\"",
+                    "languages": [
+                      "ka"
+                    ]
+                  },
+                  {
+                    "value": "\"レストラン\"",
+                    "languages": [
+                      "ja"
+                    ]
+                  },
+                  {
+                    "value": "\"Jatetxea\"",
+                    "languages": [
+                      "eu"
+                    ]
+                  },
+                  {
+                    "value": "\"Мейрамхана\"",
+                    "languages": [
+                      "kk"
+                    ]
+                  },
+                  {
+                    "value": "\"Ristorante\"",
+                    "languages": [
+                      "it"
+                    ]
+                  },
+                  {
+                    "value": "\"Reštaurácia\"",
+                    "languages": [
+                      "sk"
+                    ]
+                  },
+                  {
+                    "value": "\"مطعم\"",
+                    "languages": [
+                      "ar"
+                    ]
+                  },
+                  {
+                    "value": "\"Restaurang\"",
+                    "languages": [
+                      "sv"
+                    ]
+                  },
+                  {
+                    "value": "\"Εστιατόριο\"",
+                    "languages": [
+                      "el"
+                    ]
+                  },
+                  {
+                    "value": "\"Restaurante\"",
+                    "languages": [
+                      "pt_pt",
+                      "es_la",
+                      "pt",
+                      "es_ar",
+                      "es",
+                      "gl"
+                    ]
+                  },
+                  {
+                    "value": "\"रेस्तरां\"",
+                    "languages": [
+                      "hi"
+                    ]
+                  },
+                  {
+                    "value": "\"ຮ້ານອາຫານ\"",
+                    "languages": [
+                      "lo"
+                    ]
+                  },
+                  {
+                    "value": "\"Restorant\"",
+                    "languages": [
+                      "sq"
+                    ]
+                  },
+                  {
+                    "value": "\"உணவகம்\"",
+                    "languages": [
+                      "ta"
+                    ]
+                  },
+                  {
+                    "value": "\"Ресторант\"",
+                    "languages": [
+                      "bg"
+                    ]
+                  },
+                  {
+                    "value": "\"מסעדה\"",
+                    "languages": [
+                      "he"
+                    ]
+                  },
+                  {
+                    "value": "\"Restaurant\"",
+                    "languages": [
+                      "fr",
+                      "af",
+                      "ca",
+                      "en_gb",
+                      "nl",
+                      "da",
+                      "fr_ca",
+                      "nb",
+                      "ro",
+                      "de"
+                    ]
+                  },
+                  {
+                    "value": "\"রেস্তোরাঁ\"",
+                    "languages": [
+                      "bn"
+                    ]
+                  },
+                  {
+                    "value": "\"Restoran\"",
+                    "languages": [
+                      "tr",
+                      "id",
+                      "ms",
+                      "et",
+                      "bs",
+                      "az",
+                      "hr"
+                    ]
+                  },
+                  {
+                    "value": "\"Restauracja\"",
+                    "languages": [
+                      "pl"
+                    ]
+                  },
+                  {
+                    "value": "\"Nhà hàng\"",
+                    "languages": [
+                      "vi"
+                    ]
+                  },
+                  {
+                    "value": "\"ភោជនីយដ្ឋាន\"",
+                    "languages": [
+                      "km"
+                    ]
+                  },
+                  {
+                    "value": "\"餐厅\"",
+                    "languages": [
+                      "zh"
+                    ]
+                  },
+                  {
+                    "value": "\"Restavracija\"",
+                    "languages": [
+                      "sl"
+                    ]
+                  },
+                  {
+                    "value": "\"Ravintola\"",
+                    "languages": [
+                      "fi"
+                    ]
+                  },
+                  {
+                    "value": "\"စားသောက်ဆိုင်\"",
+                    "languages": [
+                      "my"
+                    ]
+                  },
+                  {
+                    "value": "\"Étterem\"",
+                    "languages": [
+                      "hu"
+                    ]
+                  },
+                  {
+                    "value": "\"Restawran\"",
+                    "languages": [
+                      "tl"
+                    ]
+                  },
+                  {
+                    "value": "\"Ресторан\"",
+                    "languages": [
+                      "sr",
+                      "uk",
+                      "ru",
+                      "mk"
+                    ]
+                  },
+                  {
+                    "value": "\"식당\"",
+                    "languages": [
+                      "ko"
+                    ]
+                  },
+                  {
+                    "value": "\"ร้านอาหาร\"",
+                    "languages": [
+                      "th"
+                    ]
+                  },
+                  {
+                    "value": "\"餐廳\"",
+                    "languages": [
+                      "zh_tw"
+                    ]
+                  },
+                  {
+                    "value": "\"Restaurace\"",
+                    "languages": [
+                      "cs"
+                    ]
+                  },
+                  {
+                    "value": "\"Restoranas\"",
+                    "languages": [
+                      "lt"
+                    ]
+                  }
+                ],
+                "name": "Restaurant",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              "check_out_time": null,
+              "business_rating": 4.5,
+              "loyalty_program": null,
+              "number_of_rooms": null,
+              "cost_description": null,
+              "specialty_dishes": [
+                {
+                  "id": "urn:tag:specialty_dish:place:rigatoni_carbonara",
+                  "name": "Rigatoni Carbonara",
+                  "type": "urn:tag:specialty_dish:place",
+                  "weight": 1
+                }
+              ],
+              "short_description": "Warm, intimate natural wine bar serving sustainable, seasonal Italian cuisine with an extensive natural-wine list and cozy sidewalk seating.",
+              "number_of_stations": null,
+              "cuisine_description": "Have & Meyer is a natural wine bar and authentic Italian restaurant focusing on sustainable, seasonal ingredients sourced from small producers. The menu features signature pastas, charcuterie, and specialty Italian dishes. Their standout feature is an extensive, expert-curated list of over 3,000 natural wines, including unique skin-contact orange wines, alongside a craft cocktail program.",
+              "overall_description": "This intimate Williamsburg establishment serves as both a premier natural wine destination and an authentic Italian restaurant. With a library-like wine cellar and a charmingly decorated outdoor patio, it provides a warm, European-inspired environment perfect for romantic evenings or large celebratory gatherings. Known for an uncompromising dedication to sustainable, small-batch producers, the venue offers a deep selection of over 3,000 wines paired with seasonal, rustic Italian cuisine. Whether enjoying a quiet dinner or a private event in the cellar, guests are transported by the attentive service and the distinctive, romantic atmosphere.",
+              "service_description": "The restaurant provides a warm, intimate atmosphere perfect for romantic dates, celebrations, and private events in their wine cellar or private room. They offer dine-in, takeout, and delivery options, with cozy, heated outdoor seating available. The service is characterized by knowledgeable staff who provide wine pairings and a personalized dining experience.",
+              "ambience_description": "The atmosphere is warm and intimate, characterized by soft lighting, candlelight, dark wood, and marble accents that evoke the charm of an authentic European bistro. A sense of lively energy is often present, sometimes enhanced by live music performances like jazz.",
+              "amenities_description": "The venue offers diverse dining experiences ranging from casual sidewalk seating with blankets and heaters to exclusive, curated events in a private wine cellar or dedicated dining room. Guests enjoy an extensive selection of natural wines and expertly prepared cocktails alongside full meal service.",
+              "unique_selling_points": "The restaurant is distinguished by its massive, expertly curated collection of over 3,000 natural, skin-contact, and vintage wines sourced from small, sustainable producers. It also provides a unique, immersive dining experience through its atmospheric private event spaces like the library wine cellar.",
+              "neighborhood_description": "Situated in the heart of a vibrant and trendy neighborhood, the area maintains a historic character while functioning as a bustling destination for dining and social life.",
+              "physical_setting_description": "Located on a historic street in Williamsburg, the restaurant features a cozy, intimate interior complemented by a charming, heated outdoor seating area adorned with flowers and lighting. The space includes specialized venues for private gatherings, such as a dedicated private room and a library-style wine cellar.",
+              "customer_demographics_description": "The restaurant attracts a mix of local residents, couples on dates, and social groups looking for an elevated yet cozy dining experience. It is a popular destination for wine enthusiasts and those seeking an authentic, atmospheric Italian experience in Williamsburg.",
+              "image": {
+                "url": "https://images.qloo.com/i/6ED3E06E-68AA-4C5A-A0DD-E97ABCD219D1-420x-auto.jpg"
+              }
+            },
+            "popularity": 0.8060514817237541,
+            "location": {
+              "lat": 40.713221499999996,
+              "lon": -73.95632549999999,
+              "geohash": "dr5rt5desyc8"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:offerings:place:small_plates",
+                "name": "Small plates",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:late_night_food",
+                "name": "Late night food",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:private_events",
+                "name": "Private events",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:gnocchi_with_white_truffle_parmigiano",
+                "name": "Gnocchi with white truffle parmigiano",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:american_express",
+                "name": "American express",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:beverage_offering:qloo:spirits",
+                "name": "Spirits",
+                "type": "urn:tag:beverage_offering:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:classic",
+                "name": "Classic",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:culinary_style:qloo:seasonal",
+                "name": "Seasonal",
+                "type": "urn:tag:culinary_style:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:beverage_offering:qloo:full_bar",
+                "name": "Full bar",
+                "type": "urn:tag:beverage_offering:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:beverage_offering:qloo:wine",
+                "name": "Wine",
+                "type": "urn:tag:beverage_offering:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:historic",
+                "name": "Historic",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:historic",
+                "name": "Historic",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:heated_outdoor_seating",
+                "name": "Heated outdoor seating",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+                "name": "Staff required to disinfect surfaces between visits",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:category:place:wine_cellar",
+                "name": "Wine cellar",
+                "type": "urn:tag:category:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:urban",
+                "name": "Urban",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:private_dining_room",
+                "name": "Private dining room",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:age_range:qloo:25_29",
+                "name": "25 29",
+                "type": "urn:tag:age_range:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:italian_gastronomy",
+                "name": "Italian gastronomy",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:takeout",
+                "name": "Takeout",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:elegant",
+                "name": "Elegant",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:wine",
+                "name": "Wine",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:rigatoni_carbonara",
+                "name": "Rigatoni carbonara",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+                "name": "Trendy",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:delivery",
+                "name": "Delivery",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:celebratory_diners",
+                "name": "Celebratory diners",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:reservations",
+                "name": "Reservations",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+                "name": "Wheelchair accessible seating",
+                "type": "urn:tag:accessibility:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenities:place:restroom",
+                "name": "Restroom",
+                "type": "urn:tag:amenities:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:china_union_pay",
+                "name": "China union pay",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:parking:place:free_street_parking",
+                "name": "Free street parking",
+                "type": "urn:tag:parking:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:bruschettas",
+                "name": "Bruschettas",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:locals",
+                "name": "Locals",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:event:place:work_dinner",
+                "name": "Work dinner",
+                "type": "urn:tag:event:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:european_inspired",
+                "name": "European inspired",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:trendy_crowd",
+                "name": "Trendy crowd",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+                "name": "Afternoon",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:visa",
+                "name": "Visa",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:diners_club",
+                "name": "Diners club",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:credit_cards",
+                "name": "Credit cards",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:alcohol",
+                "name": "Alcohol",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:jcb",
+                "name": "Jcb",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:age_range:qloo:30_34",
+                "name": "30 34",
+                "type": "urn:tag:age_range:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:staff_get_temperature_checks",
+                "name": "Staff get temperature checks",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:hard_liquor",
+                "name": "Hard liquor",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:wine_cellar",
+                "name": "Wine cellar",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:debit_cards",
+                "name": "Debit cards",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:mastercard",
+                "name": "Mastercard",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:category:place:restaurant",
+                "name": "Restaurant",
+                "type": "urn:tag:category:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:visit_intent:qloo:special_occasion",
+                "name": "Special occasion",
+                "type": "urn:tag:visit_intent:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dining_options:place:dinner",
+                "name": "Dinner",
+                "type": "urn:tag:dining_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:visit_intent:qloo:destination",
+                "name": "Destination",
+                "type": "urn:tag:visit_intent:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:dining_drinking",
+                "name": "Dining drinking",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:rustic",
+                "name": "Rustic",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:beer",
+                "name": "Beer",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:event:place:birthday",
+                "name": "Birthday",
+                "type": "urn:tag:event:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:planning:place:dinner_reservations_recommended",
+                "name": "Dinner reservations recommended",
+                "type": "urn:tag:planning:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:specialty_dish:place:tiramisu",
+                "name": "Tiramisu",
+                "type": "urn:tag:specialty_dish:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:nearby_attraction:qloo:domino_park",
+                "name": "Domino park",
+                "type": "urn:tag:nearby_attraction:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dietary_option:qloo:vegetarian",
+                "name": "Vegetarian",
+                "type": "urn:tag:dietary_option:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:dine_in",
+                "name": "Dine in",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:nfc_mobile_payments",
+                "name": "Nfc mobile payments",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:live_events",
+                "name": "Live events",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:wine_enthusiasts",
+                "name": "Wine enthusiasts",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:culinary_style:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:culinary_style:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:groups_of_friends",
+                "name": "Groups of friends",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:event_space",
+                "name": "Event space",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:outdoor_seating",
+                "name": "Outdoor seating",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:cuisine:qloo:italian",
+                "name": "Italian",
+                "type": "urn:tag:cuisine:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+                "name": "Wheelchair accessible restroom",
+                "type": "urn:tag:accessibility:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dietary_option:qloo:gluten_free",
+                "name": "Gluten free",
+                "type": "urn:tag:dietary_option:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:planning:place:accepts_reservations",
+                "name": "Accepts reservations",
+                "type": "urn:tag:planning:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:private_dining",
+                "name": "Private dining",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:culinary_style:qloo:authentic",
+                "name": "Authentic",
+                "type": "urn:tag:culinary_style:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:organic_dishes",
+                "name": "Organic dishes",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:beverage_offering:qloo:beer",
+                "name": "Beer",
+                "type": "urn:tag:beverage_offering:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:wine_cellar",
+                "name": "Wine cellar",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:credit_card:place:discover",
+                "name": "Discover",
+                "type": "urn:tag:credit_card:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:takeout",
+                "name": "Takeout",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:sidewalk_cafe",
+                "name": "Sidewalk cafe",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:beverage_offering:qloo:cocktails",
+                "name": "Cocktails",
+                "type": "urn:tag:beverage_offering:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:live_jazz",
+                "name": "Live jazz",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dining_options:place:brunch",
+                "name": "Brunch",
+                "type": "urn:tag:dining_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+                "name": "Ok to order just drinks",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dining_options:place:seating",
+                "name": "Seating",
+                "type": "urn:tag:dining_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:temperature_check_required",
+                "name": "Temperature check required",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:late_night",
+                "name": "Late night",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:dreamy",
+                "name": "Dreamy",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:charcuterie_board",
+                "name": "Charcuterie board",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+                "name": "Walkable",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dining_options:place:dessert",
+                "name": "Dessert",
+                "type": "urn:tag:dining_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:romantic",
+                "name": "Romantic",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:romantic",
+                "name": "Romantic",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenities:place:bar_onsite",
+                "name": "Bar onsite",
+                "type": "urn:tag:amenities:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:price_level",
+                "name": "Price level",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:staff_wear_masks",
+                "name": "Staff wear masks",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:cuisine:qloo:natural_wine_bar",
+                "name": "Natural wine bar",
+                "type": "urn:tag:cuisine:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dietary_option:qloo:organic",
+                "name": "Organic",
+                "type": "urn:tag:dietary_option:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:wine_tasting",
+                "name": "Wine tasting",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:delivery",
+                "name": "Delivery",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:elegant",
+                "name": "Elegant",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:full_bar",
+                "name": "Full bar",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:cultural_immersion",
+                "name": "Cultural immersion",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:dining_options:place:table_service",
+                "name": "Table service",
+                "type": "urn:tag:dining_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:outdoor_seating",
+                "name": "Outdoor seating",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:gluten_free_options",
+                "name": "Gluten free options",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:view:qloo:street_view",
+                "name": "Street view",
+                "type": "urn:tag:view:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:charming",
+                "name": "Charming",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:cocktails",
+                "name": "Cocktails",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:tagliolini_with_lobster",
+                "name": "Tagliolini with lobster",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:old_world",
+                "name": "Old world",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:event:place:date_night",
+                "name": "Date night",
+                "type": "urn:tag:event:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:nearby_attraction:qloo:williamsburg_waterfront",
+                "name": "Williamsburg waterfront",
+                "type": "urn:tag:nearby_attraction:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:couples",
+                "name": "Couples",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:natural_wine",
+                "name": "Natural wine",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:welcoming",
+                "name": "Welcoming",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenities:place:wi_fi",
+                "name": "Wi fi",
+                "type": "urn:tag:amenities:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:cuisine:qloo:seafood",
+                "name": "Seafood",
+                "type": "urn:tag:cuisine:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:mafalde_with_lamb_ragu",
+                "name": "Mafalde with lamb ragu",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:private_events",
+                "name": "Private events",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:fiorentina_steak",
+                "name": "Fiorentina steak",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:noise_level:qloo:moderate",
+                "name": "Moderate",
+                "type": "urn:tag:noise_level:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:wine_tasting",
+                "name": "Wine tasting",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:comfortable",
+                "name": "Comfortable",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:category:place:cocktail_bar",
+                "name": "Cocktail bar",
+                "type": "urn:tag:category:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:lively",
+                "name": "Lively",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:live_music",
+                "name": "Live music",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:coffee",
+                "name": "Coffee",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:bar_service",
+                "name": "Bar service",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:european_bistro",
+                "name": "European bistro",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:evening",
+                "name": "Evening",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:restaurant",
+                "name": "Restaurant",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:culinary_style:qloo:sustainable",
+                "name": "Sustainable",
+                "type": "urn:tag:culinary_style:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:tiramisu",
+                "name": "Tiramisu",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:slow_food_movement",
+                "name": "Slow food movement",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:restaurant:cocktail_bar",
+                "name": "Cocktail bar",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:parking:place:parking",
+                "name": "Parking",
+                "type": "urn:tag:parking:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place",
+                "name": "Place",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:cost_description:place:50_to_100",
+                "name": "$50 to $100",
+                "type": "urn:tag:cost_description:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:tourist_attraction",
+                "name": "Tourist attraction",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:event:place:anniversary",
+                "name": "Anniversary",
+                "type": "urn:tag:event:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_type:qloo:dine_in",
+                "name": "Dine in",
+                "type": "urn:tag:service_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:customer_identity:qloo:foodies",
+                "name": "Foodies",
+                "type": "urn:tag:customer_identity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:artistic",
+                "name": "Artistic",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:restaurant:italian",
+                "name": "Italian",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:age_range:qloo:35_44",
+                "name": "35 44",
+                "type": "urn:tag:age_range:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:traditional",
+                "name": "Traditional",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:category:place:italian_restaurant",
+                "name": "Italian restaurant",
+                "type": "urn:tag:category:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:menu_highlight:qloo:grilled_octopus",
+                "name": "Grilled octopus",
+                "type": "urn:tag:menu_highlight:qloo",
+                "weight": null
+              }
+            ],
+            "references": null,
+            "query": {
+              "affinity": 0.7784500892408764,
+              "distance": 0,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "103 Havemeyer St Brooklyn, NY 11211",
+            "external": {
+              "opentable": [
+                {
+                  "id": "486139",
+                  "url": "https://www.opentable.com/restaurant/profile/486139"
+                }
+              ],
+              "tripadvisor": [
+                {
+                  "id": "d12957152",
+                  "rating": 4.5,
+                  "rating_count": 19
+                }
+              ],
+              "google_place": [
+                {
+                  "id": "33c155ca42d1e55c",
+                  "place_id": "ChIJbXC6C19ZwokRXOXRQspVwTM"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "query": {
+        "localities": {
+          "filter": [
+            {
+              "entity_id": "BDFC9271-4583-412E-84D8-F285BB8220FE",
+              "name": "New York",
+              "subtype": "urn:entity:locality",
+              "location": {
+                "lat": 42.92258073352795,
+                "lon": -75.5978240134976
+              },
+              "popularity": 0.9999389,
+              "disambiguation": "New York, United States"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

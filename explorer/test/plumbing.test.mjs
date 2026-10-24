@@ -4,7 +4,7 @@ import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
-import { mkdtemp, readFile, rm, cp } from "node:fs/promises";
+import { mkdtemp, readFile, rm, cp, symlink } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { startStub } from "./stub-qloo.mjs";
@@ -21,7 +21,7 @@ before(async () => {
   // Run the probes from a copy so test output never lands in results/.
   work = await mkdtemp(join(tmpdir(), "qloo-explorer-"));
   for (const entry of ["lib", "probe-rest.mjs", "probe-mcp.mjs", "package.json"]) await cp(join(ROOT, entry), join(work, entry), { recursive: true });
-  await cp(join(ROOT, "node_modules"), join(work, "node_modules"), { recursive: true, verbatimSymlinks: true });
+  await symlink(join(ROOT, "node_modules"), join(work, "node_modules"), "junction");
 });
 after(async () => {
   stub.close();
@@ -61,7 +61,10 @@ test("REST probe hits every endpoint, chains ids, and never writes the key", asy
 
 test("MCP probe drives the real qloo mcp server against the stub", async () => {
   const before = stub.requests.length;
-  await run("node", ["probe-mcp.mjs"], { cwd: work, env: { ...env(), QLOO_HOME: join(work, ".qloo") } }).catch((e) => e);
+  await run("node", ["probe-mcp.mjs"], { cwd: work, env: { ...env(), QLOO_HOME: join(work, ".qloo") } }).catch((e) => {
+    // Exit 1 means some calls failed against the stub; anything else is a crash.
+    assert.equal(e.code, 1, e.stderr);
+  });
   const report = await readFile(join(work, "results", "MCP_REPORT.md"), "utf8");
   assert.match(report, /qloo_recommend/);
   assert.ok(stub.requests.length > before, "qloo mcp made no API calls");

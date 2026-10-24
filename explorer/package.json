@@ -5,10 +5,10 @@
   "description": "Throwaway app that exercises every Qloo API endpoint and every qloo mcp tool, plus a small web playground.",
   "engines": { "node": ">=22.19.0" },
   "scripts": {
-    "probe:rest": "node probe-rest.mjs",
-    "probe:mcp": "node probe-mcp.mjs",
-    "probe": "node probe-rest.mjs && node probe-mcp.mjs",
-    "start": "node server.mjs",
+    "probe:rest": "node --env-file-if-exists=.env probe-rest.mjs",
+    "probe:mcp": "node --env-file-if-exists=.env probe-mcp.mjs",
+    "probe": "npm run probe:rest; npm run probe:mcp",
+    "start": "node --env-file-if-exists=.env server.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {

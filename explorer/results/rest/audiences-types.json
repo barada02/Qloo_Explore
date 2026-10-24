@@ -1,0 +1,109 @@
+{
+  "request": {
+    "path": "/v2/audiences/types",
+    "params": {}
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 290,
+    "url": "/v2/audiences/types",
+    "requestId": "f49d48da-0099-4e45-83ac-c3b315d759a4",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49868",
+      "x-month-ratelimit-reset": "2591841.06",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 3,
+      "success": true,
+      "results": {
+        "audience_types": [
+          {
+            "parents": [
+              {
+                "type": "urn:audience:communities"
+              }
+            ],
+            "type": "urn:audience:communities"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:global_issues"
+              }
+            ],
+            "type": "urn:audience:global_issues"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:hobbies_and_interests"
+              }
+            ],
+            "type": "urn:audience:hobbies_and_interests"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:investing_interests"
+              }
+            ],
+            "type": "urn:audience:investing_interests"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:leisure"
+              }
+            ],
+            "type": "urn:audience:leisure"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:life_stage"
+              }
+            ],
+            "type": "urn:audience:life_stage"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:lifestyle_preferences_beliefs"
+              }
+            ],
+            "type": "urn:audience:lifestyle_preferences_beliefs"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:political_preferences"
+              }
+            ],
+            "type": "urn:audience:political_preferences"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:professional_area"
+              }
+            ],
+            "type": "urn:audience:professional_area"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:audience:spending_habits"
+              }
+            ],
+            "type": "urn:audience:spending_habits"
+          }
+        ]
+      }
+    }
+  }
+}

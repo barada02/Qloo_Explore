@@ -1,0 +1,252 @@
+{
+  "tool": "qloo_rank",
+  "arguments": {
+    "options": [
+      "Patagonia",
+      "Nike",
+      "Gucci"
+    ],
+    "option_type": "brand",
+    "demographic": "women 25-34",
+    "signal_location": "Chicago"
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "rank",
+    "status": "ok",
+    "interpretation": {
+      "option_type": "urn:entity:brand",
+      "options": [
+        {
+          "input": "Patagonia",
+          "entityId": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+          "name": "Patagonia",
+          "type": "urn:entity:brand",
+          "match": "exact"
+        },
+        {
+          "input": "Nike",
+          "entityId": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+          "name": "Nike",
+          "type": "urn:entity:brand",
+          "match": "exact"
+        },
+        {
+          "input": "Gucci",
+          "entityId": "84B18312-3C2B-41A9-863B-89651C2F6A2C",
+          "name": "Gucci",
+          "type": "urn:entity:brand",
+          "match": "exact"
+        }
+      ],
+      "signals": [],
+      "signal_location": "Chicago",
+      "demographic": {
+        "input": "women 25-34",
+        "gender": "female",
+        "age": "25_to_29,30_to_34"
+      },
+      "include_tags": [],
+      "exclude_tags": []
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Patagonia",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+            "name": "Patagonia",
+            "type": "urn:entity:brand",
+            "popularity": 0.995923106914614,
+            "description": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "0AADEF2D-657C-4442-923D-3914F35AA6C4",
+              "name": "Cerveza Patagonia",
+              "type": "urn:entity:brand",
+              "popularity": 0.9045362851960469,
+              "description": "Cerveza Patagonia is an Argentine brewery known for its premium lagers and craft beers inspired by the Patagonia region."
+            }
+          ]
+        },
+        {
+          "input": "Nike",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+            "name": "Nike",
+            "type": "urn:entity:brand",
+            "popularity": 0.9999915241307996,
+            "description": "Nike is a global brand specializing in athletic footwear, apparel, equipment, and accessories for men, women, and kids."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "43A36E73-9BC7-4B09-A116-78E51554C3E3",
+              "name": "Nike Training Club",
+              "type": "urn:entity:brand",
+              "popularity": 0.9970080181722636,
+              "description": "Nike Training Club is a fitness app by Nike offering guided workouts, training plans, and expert advice to help users improve their fitness and training."
+            },
+            {
+              "id": "E26BC58D-18D2-405B-BC7B-7C556ADE3829",
+              "name": "Air Jordan Product Line",
+              "type": "urn:entity:brand",
+              "popularity": 0.9990167991727552,
+              "description": "Air Jordan is a Nike brand product line featuring basketball shoes and athletic apparel inspired by Michael Jordan."
+            },
+            {
+              "id": "0769579D-F2B0-49F4-B008-9E62427DCDCE",
+              "name": "Nike Swim",
+              "type": "urn:entity:brand",
+              "popularity": 0.6181197131765862
+            },
+            {
+              "id": "54E9B121-7023-4370-9ACB-8C5ACFD261B2",
+              "name": "Nornickel",
+              "type": "urn:entity:brand",
+              "popularity": 0.5497024969910664,
+              "description": "Nornickel is the world's largest producer of nickel and palladium, specializing in high-purity refined nickel and other metals."
+            }
+          ]
+        },
+        {
+          "input": "Gucci",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "84B18312-3C2B-41A9-863B-89651C2F6A2C",
+            "name": "Gucci",
+            "type": "urn:entity:brand",
+            "popularity": 0.9998389584851927,
+            "description": "Gucci is a luxury Italian fashion brand known for its ready-to-wear clothing, handbags, shoes, and accessories."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "815C61BD-2127-4D70-A937-9C3ECC7AF883",
+              "name": "Gucci Osteria",
+              "type": "urn:entity:brand",
+              "popularity": 0.7948161583970437,
+              "description": "Gucci Osteria is a series of contemporary Italian restaurants located in world cities, blending Italian culinary traditions with local influences."
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+        "name": "Patagonia",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.995923106914614,
+        "affinity": 0.9127493799547847,
+        "properties": {
+          "description": "Founded in 1973, this company is a pioneer in technical outdoor apparel, recognized for its unwavering commitment to environmental and social responsibility. It produces high-performance gear designed for durability, famously encouraging customers to repair rather than replace products. Operating as a purpose-driven entity, it allocates significant resources and profits toward grassroots environmental activism and planetary conservation. The brand holds a unique position as a leader in the sustainable fashion sector, effectively blending technical expertise with a radical philosophy centered on long-term ecological impact.",
+          "short_description": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running.",
+          "image": {
+            "url": "https://images.qloo.com/i/DB4CE34E-3A63-4947-946F-9D52502C5762-420x-auto.jpg"
+          }
+        }
+      }
+    ],
+    "result_count": 1,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/insights-api-deep-dive",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:entity:brand",
+            "filter.results.entities": [
+              "DB4CE34E-3A63-4947-946F-9D52502C5762",
+              "C70CE2B8-0AD1-4150-BF18-5A6347F2E860",
+              "84B18312-3C2B-41A9-863B-89651C2F6A2C"
+            ],
+            "take": 3,
+            "signal.location.query": "Chicago",
+            "signal.demographics.gender": "female",
+            "signal.demographics.age": "25_to_29,30_to_34"
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "rank",
+      "job": "rank",
+      "signals": {
+        "location": "Chicago",
+        "demographic": "women 25-34"
+      },
+      "filters": {
+        "candidateEntities": [
+          "Patagonia",
+          "Nike",
+          "Gucci"
+        ]
+      },
+      "operators": {},
+      "output": {
+        "limit": 3
+      },
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "type": "brand"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-14",
+      "duration_ms": 1257
+    }
+  }
+}

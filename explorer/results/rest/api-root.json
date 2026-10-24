@@ -1,0 +1,33 @@
+{
+  "request": {
+    "path": "/",
+    "params": {}
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 935,
+    "url": "/",
+    "requestId": "c824095b-747b-43ac-889a-691332b7a7d4",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49870",
+      "x-month-ratelimit-reset": "2591842.3",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "title": "Qloo",
+      "description": "Qloo API",
+      "documentation": "https://docs.qloo.com",
+      "contact": {
+        "name": "Qloo Inc.",
+        "url": "http://qloo.com",
+        "email": "info@qloo.com"
+      },
+      "deployment_date": "2026-10-08T14:48:00+0000",
+      "version": "2.1.965"
+    }
+  }
+}

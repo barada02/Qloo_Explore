@@ -1,0 +1,344 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "cozy mystery",
+      "feature.semantic_search": true,
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 342,
+    "url": "/v2/tags?filter.query=cozy+mystery&feature.semantic_search=true&take=10",
+    "requestId": "11123cf6-24b6-4203-b8ba-b76eb2de0b72",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49866",
+      "x-month-ratelimit-reset": "2591839.85",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 36,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:videogame"
+              }
+            ],
+            "type": "urn:tag:subgenre:qloo",
+            "id": "urn:tag:subgenre:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9982153524926236,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:author"
+              },
+              {
+                "type": "urn:entity:book"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9997554965368162,
+            "properties": {
+              "history": "Emerged in the 20th century, often associated with British mystery novels.",
+              "regions": [
+                "North America",
+                "Europe",
+                "Global"
+              ],
+              "subgenres": [
+                "Historical Cozy Mystery",
+                "Animal Cozy Mystery",
+                "Culinary Cozy Mystery"
+              ],
+              "description": "A cozy mystery centers on a puzzling crime, usually a murder, solved by an amateur sleuth in a small, intimate community. It emphasizes atmosphere, social relationships, and wit over graphic violence or procedural realism, and typically keeps danger offstage. The form grew out of the classic detective tradition and became especially popular in late 20th-century fiction, later spreading widely into television and other story-driven media.",
+              "is_canonical": false,
+              "parent_genres": [
+                "Mystery"
+              ],
+              "topic_domains": [
+                "Law",
+                "Psychology"
+              ],
+              "related_genres": [
+                "Whodunit",
+                "Detective Fiction",
+                "Crime Fiction",
+                "Locked-Room Mystery",
+                "Police Procedural"
+              ],
+              "characteristics": [
+                "Lighthearted",
+                "Puzzle-Driven",
+                "Domestic",
+                "Atmospheric",
+                "Low Violence",
+                "Character-Centered",
+                "Small Community",
+                "Amateur Detective",
+                "Whimsical",
+                "Suspenseful"
+              ],
+              "audience_identity": "People who enjoy clever puzzle solving, low-intensity suspense, and socially textured stories often with likable characters, domestic settings, and a comforting sense of order restored.",
+              "common_time_periods": [
+                "20th Century",
+                "21st Century",
+                "Timeless"
+              ],
+              "applicable_media_types": [
+                "Book",
+                "Movie",
+                "TV",
+                "Podcast",
+                "Video Game"
+              ]
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:writer"
+              },
+              {
+                "type": "urn:entity:director"
+              },
+              {
+                "type": "urn:entity:tv_episode"
+              },
+              {
+                "type": "urn:entity:actor"
+              },
+              {
+                "type": "urn:entity:movie"
+              }
+            ],
+            "type": "urn:tag:keyword:media",
+            "id": "urn:tag:keyword:media:cozy_mystery",
+            "name": "cozy mystery",
+            "popularity": 0.9882678864697009,
+            "properties": {
+              "entity_types": [
+                "urn:entity:tv_show",
+                "urn:entity:writer",
+                "urn:entity:director",
+                "urn:entity:tv_episode",
+                "urn:entity:actor",
+                "urn:entity:movie"
+              ]
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              }
+            ],
+            "type": "urn:tag:plot:qloo",
+            "id": "urn:tag:plot:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9655612198814225,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:interests:qloo",
+            "id": "urn:tag:interests:qloo:cozy_mysteries",
+            "name": "Cozy Mysteries",
+            "popularity": 0.9920603528484222,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:person"
+              },
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              }
+            ],
+            "type": "urn:tag:genre:qloo",
+            "id": "urn:tag:genre:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.921778841630088,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              }
+            ],
+            "type": "urn:tag:interests:qloo",
+            "id": "urn:tag:interests:qloo:cozy_mystery_novels",
+            "name": "Cozy Mystery Novels",
+            "popularity": 0.9700156127203379,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              }
+            ],
+            "type": "urn:tag:interests:qloo",
+            "id": "urn:tag:interests:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9320609466313267,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:writer"
+              },
+              {
+                "type": "urn:entity:director"
+              },
+              {
+                "type": "urn:entity:tv_episode"
+              },
+              {
+                "type": "urn:entity:actor"
+              },
+              {
+                "type": "urn:entity:movie"
+              }
+            ],
+            "type": "urn:tag:style:qloo",
+            "id": "urn:tag:style:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9124677519388971,
+            "properties": {
+              "entity_types": [
+                "urn:entity:tv_show",
+                "urn:entity:writer",
+                "urn:entity:director",
+                "urn:entity:tv_episode",
+                "urn:entity:actor",
+                "urn:entity:movie"
+              ]
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:writer"
+              },
+              {
+                "type": "urn:entity:director"
+              },
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              },
+              {
+                "type": "urn:entity:tv_episode"
+              },
+              {
+                "type": "urn:entity:actor"
+              },
+              {
+                "type": "urn:entity:movie"
+              }
+            ],
+            "type": "urn:tag:keyword:qloo",
+            "id": "urn:tag:keyword:qloo:cozy_mystery",
+            "name": "Cozy Mystery",
+            "popularity": 0.9124677519388971,
+            "properties": {
+              "entity_types": [
+                "urn:entity:tv_show",
+                "urn:entity:writer",
+                "urn:entity:director",
+                "urn:entity:book",
+                "urn:entity:author",
+                "urn:entity:tv_episode",
+                "urn:entity:actor",
+                "urn:entity:movie"
+              ]
+            },
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

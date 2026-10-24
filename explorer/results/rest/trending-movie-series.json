@@ -1,0 +1,195 @@
+{
+  "request": {
+    "path": "/v2/trending",
+    "params": {
+      "filter.type": "urn:entity:movie",
+      "signal.interests.entities": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+      "filter.start_date": "2026-01-01",
+      "filter.end_date": "2026-09-30",
+      "take": 20
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 826,
+    "url": "/v2/trending?filter.type=urn%3Aentity%3Amovie&signal.interests.entities=DF788007-B5EA-4F29-872B-96BCB8EEC42F&filter.start_date=2026-01-01&filter.end_date=2026-09-30&take=20",
+    "requestId": "d56cfeed-c6cc-4642-ac1c-d1243b7b1e08",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49819",
+      "x-month-ratelimit-reset": "2591793.95",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.39"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "trending": [
+          {
+            "date": "2026-09-24",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-17",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-10",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-03",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-08-27",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-08-20",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-08-13",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-08-06",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-07-30",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-07-23",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-07-16",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-07-09",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-07-02",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-06-25",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-06-18",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-06-11",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-06-04",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-05-28",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-05-21",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-05-14",
+            "population_percentile": 0.9934077072066756,
+            "population_rank": "97",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          }
+        ]
+      },
+      "duration": 540
+    }
+  }
+}

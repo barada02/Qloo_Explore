@@ -1,0 +1,1001 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:podcast",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 638,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Apodcast&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&take=10",
+    "requestId": "e579ef17-c1e3-494f-a010-9a00159c865b",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49839",
+      "x-month-ratelimit-reset": "2591816.29",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Radiolab",
+            "entity_id": "B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA-420x-auto.jpg"
+              },
+              "rating": 4.6,
+              "channel": "Radiolab",
+              "description": "Radiolab is on a curiosity bender. We ask deep questions and use investigative journalism to get the answers. A given episode might whirl you through science, legal history, and into the home of someone halfway across the world. The show is known for innovative sound design, smashing information into music. It is hosted by Lulu Miller and Latif Nasser.",
+              "release_date": "2024-06-21",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "Exploring deep questions through investigative journalism, Radiolab blends science, philosophy, and innovative sound design.",
+              "short_descriptions": [
+                {
+                  "value": "Radiolab erforscht tiefgründige Fragen durch investigativen Journalismus und verbindet Wissenschaft, Philosophie und innovatives Sounddesign.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Radiolab explora preguntas profundas mediante periodismo investigativo, combinando ciencia, filosofía y diseño sonoro innovador.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Radiolab explore des questions profondes à travers le journalisme d'investigation, mêlant science, philosophie et design sonore innovant.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Exploring deep questions through investigative journalism, Radiolab blends science, philosophy, and innovative sound design.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9988671257788511,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:natural_sciences",
+                "name": "Natural Sciences",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:society_culture",
+                "name": "Society & Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:documentary",
+                "name": "Documentary",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science",
+                "name": "Science",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9696165045514765,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "152249110",
+                  "user_rating": 4
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "radiolab"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "radiolab"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q2856080"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "radiolab"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Hidden Brain",
+            "entity_id": "0B3CDEF6-8DF4-4841-AA8B-03D7B5D40CD2",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/0B3CDEF6-8DF4-4841-AA8B-03D7B5D40CD2-420x-auto.jpg"
+              },
+              "rating": 4.6,
+              "channel": "Hidden Brain",
+              "description": "Why do I feel stuck? How can I become more creative? What can I do to improve my relationships? If you’ve ever asked yourself these questions, you’re not alone. On Hidden Brain, we help you understand your own mind — and the minds of the people around you. (We're routinely rated the #1 science podcast in the United States.) Hosted by veteran science journalist Shankar Vedantam.",
+              "release_date": "2024-07-08",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "Exploring the human mind to answer questions about creativity, relationships, and personal growth.",
+              "short_descriptions": [
+                {
+                  "value": "Erkundung des menschlichen Geistes zur Beantwortung von Fragen zu Kreativität, Beziehungen und persönlichem Wachstum.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Explorando la mente humana para responder preguntas sobre creatividad, relaciones y crecimiento personal.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Explorer l'esprit humain pour répondre aux questions sur la créativité, les relations et la croissance personnelle.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Exploring the human mind to answer questions about creativity, relationships, and personal growth.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9961243776644904,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:arts",
+                "name": "Arts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:performing_arts",
+                "name": "Performing Arts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science",
+                "name": "Science",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:social_sciences",
+                "name": "Social Sciences",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9544544751218914,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "1028908750",
+                  "user_rating": 4
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q106370805"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Invisibilia",
+            "entity_id": "33745E56-8476-43AE-ACAD-1E2D30AF9307",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/33745E56-8476-43AE-ACAD-1E2D30AF9307-420x-auto.jpg"
+              },
+              "rating": 4.5,
+              "channel": "Invisibilia",
+              "description": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions. Invisibilia—Latin for invisible things—fuses narrative storytelling with science that will make you see your own life differently.",
+              "release_date": "2023-04-27",
+              "episode_count": "15",
+              "short_description": "Exploring the invisible forces that shape human behavior through narrative storytelling and science.",
+              "short_descriptions": [
+                {
+                  "value": "Erkundet die unsichtbaren Kräfte, die menschliches Verhalten durch erzählerische Geschichten und Wissenschaft prägen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Explora las fuerzas invisibles que moldean el comportamiento humano mediante relatos narrativos y ciencia.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Explore les forces invisibles qui façonnent le comportement humain à travers des récits narratifs et la science.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Exploring the invisible forces that shape human behavior through narrative storytelling and science.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.998121813791253,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:society_culture",
+                "name": "Society & Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:social_sciences",
+                "name": "Social Sciences",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:personal_journals",
+                "name": "Personal Journals",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:science",
+                "name": "Science",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9537212565118202,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "953290300",
+                  "user_rating": 4
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "nprinvisibilia"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "nprinvisibilia"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q22075127"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "nprinvisibilia"
+                }
+              ]
+            }
+          },
+          {
+            "name": "99% Invisible",
+            "entity_id": "1B466B0E-323A-4EFD-A314-8737F58F1E1B",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/1B466B0E-323A-4EFD-A314-8737F58F1E1B-420x-auto.jpg"
+              },
+              "rating": 4.8,
+              "channel": "99% Invisible",
+              "description": "Design is everywhere in our lives, perhaps most importantly in the places where we've just stopped noticing. 99% Invisible is a weekly exploration of the process and power of design and architecture. From award winning producer Roman Mars. Learn more at 99percentinvisible.org.",
+              "release_date": "2024-06-21",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "Exploring the unnoticed design and architecture that shape our everyday lives.",
+              "short_descriptions": [
+                {
+                  "value": "Erkundung des unbemerkten Designs und der Architektur, die unser tägliches Leben prägen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Explorando el diseño y la arquitectura inadvertidos que moldean nuestra vida diaria.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Explorer le design et l'architecture invisibles qui façonnent notre vie quotidienne.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Exploring the unnoticed design and architecture that shape our everyday lives.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9984199385862922,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:design",
+                "name": "Design",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:arts",
+                "name": "Arts",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9522650907006978,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "394775318",
+                  "user_rating": 4
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "99piorg"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "99percentinvisible"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q106800923"
+                },
+                {
+                  "id": "q16001236"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "99percentinvisible"
+                }
+              ]
+            }
+          },
+          {
+            "name": "This American Life",
+            "entity_id": "BF80E280-A231-44B0-B98C-31C541F007E2",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/BF80E280-A231-44B0-B98C-31C541F007E2-420x-auto.jpg"
+              },
+              "rating": 4.6,
+              "channel": "This American Life",
+              "description": "Each week we choose a theme. Then anything can happen. This American Life is true stories that unfold like little movies for radio. Personal stories with funny moments, big feelings, and surprising plot twists. Newsy stories that try to capture what it’s like to be alive right now. It’s the most popular weekly podcast in the world, and winner of the first ever Pulitzer Prize for a radio show or podcast. Hosted by Ira Glass and produced in collaboration with WBEZ Chicago.",
+              "release_date": "2024-06-30",
+              "episode_count": "15",
+              "short_description": "True stories unfold like movies for radio, exploring themes with humor, emotion, and surprising twists.",
+              "short_descriptions": [
+                {
+                  "value": "Wahre Geschichten entfalten sich wie Filme fürs Radio, erforschen Themen mit Humor, Emotionen und überraschenden Wendungen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Historias reales que se desarrollan como películas para radio, explorando temas con humor, emoción y giros sorprendentes.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Des histoires vraies se déroulent comme des films à la radio, explorant des thèmes avec humour, émotion et rebondissements surprenants.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "True stories unfold like movies for radio, exploring themes with humor, emotion, and surprising twists.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.999254688012402,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:arts",
+                "name": "Arts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:society_culture",
+                "name": "Society & Culture",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9496709859605865,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "201671138",
+                  "user_rating": 4
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "this%20american%20life"
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "thisamerlife"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "thislife"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q106802162"
+                },
+                {
+                  "id": "q2421465"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "thisamerlife"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "f53fa22b-b3f5-4104-81d7-8f0648688c7e"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Freakonomics Radio",
+            "entity_id": "B3E6D9CD-28AE-4ABE-8592-C8E2949657AD",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/B3E6D9CD-28AE-4ABE-8592-C8E2949657AD-420x-auto.jpg"
+              },
+              "rating": 4.5,
+              "channel": "Freakonomics Radio",
+              "description": "Freakonomics co-author Stephen J. Dubner uncovers the hidden side of everything. Why is it safer to fly in an airplane than drive a car? How do we decide whom to marry? Why is the media so full of bad news? Also: things you never knew you wanted to know about wolves, bananas, pollution, search engines, and the quirks of human behavior.\n\n\nTo get every show in our network without ads and a monthly bonus episode of Freakonomics Radio, sign up for SiriusXM Podcasts+ on Apple Podcasts at http://apple.co/SiriusXM.",
+              "release_date": "2024-07-11",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "Stephen J. Dubner explores the hidden side of everything, from human behavior to socioeconomic issues.",
+              "short_descriptions": [
+                {
+                  "value": "Stephen J. Dubner erforscht die verborgene Seite von allem, von menschlichem Verhalten bis zu sozioökonomischen Themen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Stephen J. Dubner explora el lado oculto de todo, desde el comportamiento humano hasta temas socioeconómicos.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Stephen J. Dubner explore le côté caché de tout, du comportement humain aux enjeux socioéconomiques.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Stephen J. Dubner explores the hidden side of everything, from human behavior to socioeconomic issues.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9967802522135766,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:society_culture",
+                "name": "Society & Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:documentary",
+                "name": "Documentary",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9476526993138272,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "354668519",
+                  "user_rating": 4
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "stephen%20j.%20dubner"
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "77sufeorgssymdzsw7prri"
+                },
+                {
+                  "id": "77sufEorgssyMdzSw7PRRi"
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "freakonomics"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q454515"
+                },
+                {
+                  "id": "q16993790"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "304fa99c-5e5c-44af-b63b-fc154af6e359"
+                }
+              ]
+            }
+          },
+          {
+            "name": "TED Radio Hour",
+            "entity_id": "A853E5FD-30E2-4ECC-9E9A-D3B939AC742D",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/A853E5FD-30E2-4ECC-9E9A-D3B939AC742D-420x-auto.jpg"
+              },
+              "rating": 4.3,
+              "channel": "TED Radio Hour",
+              "description": "Exploring the biggest questions of our time with the help of the world's greatest thinkers. Host Manoush Zomorodi inspires us to learn more about the world, our communities, and most importantly, ourselves.Get more brainy miscellany with TED Radio Hour+. Your subscription supports the show and unlocks a sponsor-free feed. Learn more at plus.npr.org/ted",
+              "release_date": "2024-07-12",
+              "episode_count": "15",
+              "short_description": "Exploring the biggest questions of our time with insights from the world's greatest thinkers.",
+              "short_descriptions": [
+                {
+                  "value": "Erkundung der größten Fragen unserer Zeit mit Einsichten der weltweit größten Denker.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Explorando las grandes preguntas de nuestro tiempo con ideas de los pensadores más destacados del mundo.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Explorer les grandes questions de notre époque avec les idées des plus grands penseurs du monde.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Exploring the biggest questions of our time with insights from the world's greatest thinkers.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9923381927674925,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:science",
+                "name": "Science",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:technology",
+                "name": "Technology",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:social_sciences",
+                "name": "Social Sciences",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9456823759423044,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "523121474",
+                  "user_rating": 4
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q65091537"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Song Exploder",
+            "entity_id": "D95B20A8-0CEA-4BDC-8074-60A303FA1980",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/D95B20A8-0CEA-4BDC-8074-60A303FA1980-420x-auto.jpg"
+              },
+              "rating": 4.8,
+              "channel": "Song Exploder",
+              "description": "Song Exploder is a podcast where musicians take apart their songs, and piece by piece, tell the story of how they were made. Each episode features an artist discussing a song of theirs, breaking down the sounds and ideas that went into the writing and recording. Hosted and produced by Hrishikesh Hirway.",
+              "release_date": "2024-07-10",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "Musicians dissect their songs, sharing the creative process and stories behind the music.",
+              "short_descriptions": [
+                {
+                  "value": "Musiker analysieren ihre Songs und teilen den kreativen Prozess sowie Geschichten hinter der Musik.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Músicos analizan sus canciones, compartiendo el proceso creativo y las historias detrás de la música.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Des musiciens décomposent leurs chansons, partageant le processus créatif et les histoires derrière la musique.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Musicians dissect their songs, sharing the creative process and stories behind the music.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9780580150851146,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9437167743021199,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "788236947",
+                  "user_rating": 4
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "songexploder"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q18392161"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "songexploder"
+                }
+              ]
+            }
+          },
+          {
+            "name": "the memory palace",
+            "entity_id": "87EAEE3F-8F2D-4478-AB1A-E803F7BF69D0",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/87EAEE3F-8F2D-4478-AB1A-E803F7BF69D0-420x-auto.jpg"
+              },
+              "rating": 4.8,
+              "channel": "the memory palace",
+              "description": "the memory palace",
+              "release_date": "2024-07-03",
+              "episode_count": "15",
+              "content_rating": "Clean",
+              "short_description": "A monthly historical podcast featuring narratives on intriguing subjects like the Cardiff Giant and CIA's Acoustic Kitty.",
+              "short_descriptions": [
+                {
+                  "value": "Ein monatlicher Geschichtspodcast mit Erzählungen zu faszinierenden Themen wie dem Cardiff Giant und der CIA's Acoustic Kitty.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un podcast histórico mensual que presenta relatos sobre temas intrigantes como el Cardiff Giant y el Acoustic Kitty de la CIA.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un podcast historique mensuel présentant des récits sur des sujets intrigants comme le Cardiff Giant et l'Acoustic Kitty de la CIA.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "A monthly historical podcast featuring narratives on intriguing subjects like the Cardiff Giant and CIA's Acoustic Kitty.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9912351310258474,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9300136192637217,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "299436963",
+                  "user_rating": 4
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "thememorypalace"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q16955056"
+                },
+                {
+                  "id": "q51858465"
+                }
+              ]
+            }
+          },
+          {
+            "name": "StoryCorps",
+            "entity_id": "CDCCF400-49D2-4AD7-A4A1-72EB02A08DC4",
+            "type": "urn:entity",
+            "subtype": "urn:entity:podcast",
+            "properties": {
+              "akas": [],
+              "image": {
+                "url": "https://images.qloo.com/i/CDCCF400-49D2-4AD7-A4A1-72EB02A08DC4-420x-auto.jpg"
+              },
+              "rating": 4.5,
+              "channel": "StoryCorps",
+              "description": "Stories of the human heart. A candid, unscripted conversation between two people about what's really important in life: love, loss, family, friendship. When the world seems out of hand, tune in to StoryCorps and be reminded of the things that matter most.",
+              "release_date": "2024-06-04",
+              "episode_count": "15",
+              "short_description": "Candid conversations exploring love, loss, family, and friendship, reminding us of what truly matters in life.",
+              "short_descriptions": [
+                {
+                  "value": "Offene Gespräche über Liebe, Verlust, Familie und Freundschaft, die uns an das Wesentliche im Leben erinnern.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Conversaciones sinceras que exploran el amor, la pérdida, la familia y la amistad, recordándonos lo que realmente importa en la vida.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Conversations sincères explorant l'amour, la perte, la famille et l'amitié, nous rappelant ce qui compte vraiment dans la vie.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Candid conversations exploring love, loss, family, and friendship, reminding us of what truly matters in life.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ]
+            },
+            "popularity": 0.9505709089825001,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:society_culture",
+                "name": "Society & Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:podcasts",
+                "name": "Podcasts",
+                "type": "urn:tag:genre:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.9291386606646124,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {
+              "itunes": [
+                {
+                  "id": "250500859",
+                  "user_rating": 4
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q101367108"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

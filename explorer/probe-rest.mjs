@@ -44,7 +44,7 @@ const steps = [
   { name: "api-root", path: "/" },
   { name: "tags-types", path: "/v2/tags/types" },
   { name: "audiences-types", path: "/v2/audiences/types" },
-  { name: "audiences-list", path: "/v2/audiences", params: { take: 10 } },
+  { name: "audiences-list", path: "/v2/audiences", params: { "filter.parents.types": "urn:audience:communities", take: 10 } },
   {
     name: "tags-semantic-cozy-mystery",
     path: "/v2/tags",
@@ -263,7 +263,12 @@ const steps = [
       take: 20,
     }),
   },
-  { name: "trending-artists-now", path: "/v2/trending", params: { "filter.type": "urn:entity:artist", take: 10 } },
+  {
+    name: "trending-artists-like-radiohead",
+    path: "/v2/trending",
+    needs: () => id("artist"),
+    params: () => ({ "filter.type": "urn:entity:artist", "signal.interests.entities": id("artist"), "filter.start_date": "2026-01-01", "filter.end_date": "2026-09-30", take: 10 }),
+  },
 ];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -288,7 +293,7 @@ async function main() {
     }
     const params = typeof step.params === "function" ? step.params() : step.params ?? {};
     const res = await qlooGet(config, step.path, params);
-    if (res.status === 0 && rows.length === 0) {
+    if (res.status === 0 && rows.every((r) => r.status === "NET" || r.status === "SKIP")) {
       console.error(`Cannot reach ${config.baseUrl}: ${res.error}. Stopping.`);
       return 3;
     }

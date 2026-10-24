@@ -57,6 +57,7 @@
 </main>
 <script>
 const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const REST = {
   "/search": { query: "Radiohead", types: "urn:entity:artist", take: 5 },
   "/entities": { entity_ids: "<paste an entity id>" },
@@ -120,25 +121,25 @@ function renderCards(items) {
 
 async function run() {
   let args;
-  try { args = JSON.parse($("args").value || "{}"); } catch (e) { $("meta").innerHTML = `<span class="bad">Invalid JSON: ${e.message}</span>`; return; }
+  try { args = JSON.parse($("args").value || "{}"); } catch (e) { $("meta").innerHTML = `<span class="bad">Invalid JSON: ${esc(e.message)}</span>`; return; }
   $("meta").textContent = "running…"; $("out").textContent = ""; $("cards").innerHTML = "";
   try {
     if (mode === "mcp") {
       if (!current) throw new Error("Pick a tool first.");
       const { ms, envelope } = await api("/api/tool", { name: current.name, arguments: args });
       const good = ["ok", "partial", "degraded"].includes(envelope.status);
-      $("meta").innerHTML = `<span class="pill ${good ? "ok" : "bad"}">${envelope.status}</span> ${ms} ms · ${envelope.summary ?? ""}`;
+      $("meta").innerHTML = `<span class="pill ${good ? "ok" : "bad"}">${esc(envelope.status)}</span> ${ms} ms · ${esc(envelope.summary)}`;
       renderCards(Array.isArray(envelope.results) ? envelope.results : envelope.series);
       $("out").textContent = JSON.stringify(envelope, null, 2);
     } else {
       const res = await api("/api/rest", { path: $("rest-path").value, params: args });
-      $("meta").innerHTML = `<span class="pill ${res.ok ? "ok" : "bad"}">HTTP ${res.status}</span> ${res.ms} ms · ${res.url}`;
+      $("meta").innerHTML = `<span class="pill ${res.ok ? "ok" : "bad"}">HTTP ${esc(res.status)}</span> ${res.ms} ms · ${esc(res.url ?? res.error)}`;
       const results = res.body?.results;
       renderCards(Array.isArray(results) ? results : results && Object.values(results).find(Array.isArray));
       $("out").textContent = JSON.stringify(res.body ?? res, null, 2);
     }
   } catch (e) {
-    $("meta").innerHTML = `<span class="bad">${e.message}</span>`;
+    $("meta").innerHTML = `<span class="bad">${esc(e.message)}</span>`;
   }
 }
 
@@ -161,7 +162,7 @@ async function init() {
       $("tools").append(li);
     }
   } catch (e) {
-    $("status").innerHTML = `<span class="bad">${e.message}</span>`;
+    $("status").innerHTML = `<span class="bad">${esc(e.message)}</span>`;
   }
 }
 init();

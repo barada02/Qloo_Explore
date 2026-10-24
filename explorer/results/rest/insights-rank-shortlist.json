@@ -1,0 +1,4531 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:movie",
+      "filter.results.entities": [
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+        "F01AC034-179A-47F3-8ADF-7A4D77559DCF"
+      ],
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "take": 2
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 323,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Amovie&filter.results.entities=DF788007-B5EA-4F29-872B-96BCB8EEC42F%2CF01AC034-179A-47F3-8ADF-7A4D77559DCF&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&take=2",
+    "requestId": "57394faa-e362-4d9e-a990-63f509d2a36a",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49829",
+      "x-month-ratelimit-reset": "2591805.27",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "The Grand Budapest Hotel",
+            "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "type": "urn:entity",
+            "subtype": "urn:entity:movie",
+            "properties": {
+              "akas": [
+                {
+                  "value": "\"\\\"Qrand Budapeşt\\\" oteli\"",
+                  "languages": [
+                    "az"
+                  ]
+                },
+                {
+                  "value": "\"Grand Budapest hotel\"",
+                  "languages": [
+                    "sl"
+                  ]
+                },
+                {
+                  "value": "\"Ξενοδοχείο Grand Budapest\"",
+                  "languages": [
+                    "el"
+                  ]
+                },
+                {
+                  "value": "\"布达佩斯大饭店\"",
+                  "languages": [
+                    "zh"
+                  ]
+                },
+                {
+                  "value": "\"Гранд Хотел Будапеща\"",
+                  "languages": [
+                    "bg"
+                  ]
+                },
+                {
+                  "value": "\"Отель «Гранд Будапешт»\"",
+                  "languages": [
+                    "ru"
+                  ]
+                },
+                {
+                  "value": "\"Grand Budapest Hotel\"",
+                  "languages": [
+                    "en_au",
+                    "bs",
+                    "pt",
+                    "it",
+                    "pl",
+                    "pt_pt",
+                    "de"
+                  ]
+                },
+                {
+                  "value": "\"グランド・ブダペスト・ホテル\"",
+                  "languages": [
+                    "ja"
+                  ]
+                },
+                {
+                  "value": "\"Viesnīca \\\"Diženā Budapešta\\\"\"",
+                  "languages": [
+                    "lv"
+                  ]
+                },
+                {
+                  "value": "\"სასტუმრო გრანდ ბუდაპეშტი\"",
+                  "languages": [
+                    "ka"
+                  ]
+                },
+                {
+                  "value": "\"Гранд Будапест хотел\"",
+                  "languages": [
+                    "sr"
+                  ]
+                },
+                {
+                  "value": "\"A Grand Budapest Hotel\"",
+                  "languages": [
+                    "hu"
+                  ]
+                },
+                {
+                  "value": "\"מלון גרנד בודפסט\"",
+                  "languages": [
+                    "he"
+                  ]
+                },
+                {
+                  "value": "\"Готель «Гранд Будапешт»\"",
+                  "languages": [
+                    "uk"
+                  ]
+                },
+                {
+                  "value": "\"Hotel Grand Budapest\"",
+                  "languages": [
+                    "hr"
+                  ]
+                },
+                {
+                  "value": "\"Grand Budapest Hotell\"",
+                  "languages": [
+                    "et"
+                  ]
+                },
+                {
+                  "value": "\"그랜드 부다페스트 호텔\"",
+                  "languages": [
+                    "ko"
+                  ]
+                },
+                {
+                  "value": "\"ദ ഗ്രാൻഡ് ബുഡാപെസ്റ്റ് ഹോട്ടൽ\"",
+                  "languages": [
+                    "ml"
+                  ]
+                },
+                {
+                  "value": "\"Grandhotel Budapešť\"",
+                  "languages": [
+                    "cs"
+                  ]
+                },
+                {
+                  "value": "\"El Gran Hotel Budapest\"",
+                  "languages": [
+                    "es",
+                    "es_ar"
+                  ]
+                },
+                {
+                  "value": "\"فندق بودابست الكبير\"",
+                  "languages": [
+                    "ar"
+                  ]
+                },
+                {
+                  "value": "\"Viešbutis „Didysis Budapeštas“\"",
+                  "languages": [
+                    "lt"
+                  ]
+                },
+                {
+                  "value": "\"Гранд Будапешт қонақ үйі\"",
+                  "languages": [
+                    "kk"
+                  ]
+                },
+                {
+                  "value": "\"The Grand Budapest Hotel\"",
+                  "languages": [
+                    "vi",
+                    "da",
+                    "id",
+                    "nl",
+                    "nb",
+                    "no",
+                    "gl",
+                    "sv",
+                    "fr",
+                    "ms",
+                    "af",
+                    "eu",
+                    "ro",
+                    "ca",
+                    "fi"
+                  ]
+                },
+                {
+                  "value": "\"Büyük Budapeşte Oteli\"",
+                  "languages": [
+                    "tr"
+                  ]
+                },
+                {
+                  "value": "\"Гранд хотел Будимпешта\"",
+                  "languages": [
+                    "mk"
+                  ]
+                }
+              ],
+              "image": {
+                "url": "https://images.qloo.com/i/DF788007-B5EA-4F29-872B-96BCB8EEC42F-420x-auto.jpg"
+              },
+              "genres": [
+                "Comedy",
+                "Drama"
+              ],
+              "duration": 99,
+              "keywords": [
+                "hotel",
+                "lobby boy",
+                "painting",
+                "mentor protege relationship",
+                "first person narration",
+                "escape from prison",
+                "hotel lobby",
+                "murder",
+                "gunfight",
+                "dead cat",
+                "art theft",
+                "pastry shop",
+                "last will and testament",
+                "male rear nudity",
+                "attorney",
+                "talking to the camera",
+                "pushed off a cliff",
+                "nosebleed",
+                "fictional country",
+                "older woman younger man relationship",
+                "inheritance",
+                "1930s",
+                "concierge",
+                "prison",
+                "death",
+                "psychopath",
+                "flashback within a flashback",
+                "throwing a cat out a window",
+                "lawyer",
+                "monastery",
+                "luxury hotel",
+                "writer",
+                "severed head",
+                "immigrant",
+                "cat",
+                "fugitive",
+                "shootout",
+                "greed",
+                "facial birthmark",
+                "widow",
+                "black and white scene",
+                "firing squad",
+                "hanging from a ledge",
+                "birthmark",
+                "corpse",
+                "dead body",
+                "f word",
+                "severed finger",
+                "poisoned",
+                "narrated by character",
+                "spiral staircase",
+                "punched in the face",
+                "stolen painting",
+                "pursuit",
+                "madcap comedy",
+                "animated sequence",
+                "gunshot",
+                "male nudity",
+                "skiing",
+                "refugee",
+                "bisexual",
+                "train",
+                "pastry",
+                "elevator",
+                "author",
+                "baker",
+                "taxi",
+                "heir",
+                "hotel owner",
+                "putting a cigarette in one's pocket",
+                "friendship",
+                "tattoo",
+                "pipe smoking",
+                "cigarette smoking",
+                "strangulation",
+                "wedding",
+                "sledding",
+                "pencil thin moustache",
+                "stabbed to death",
+                "carousel",
+                "passenger train",
+                "pastry box",
+                "bobsled",
+                "motorcycle",
+                "old woman",
+                "chase",
+                "aerial tram",
+                "cable car",
+                "hotel room",
+                "bisexual man",
+                "bisexual male protagonist",
+                "bisexual protagonist",
+                "national film registry",
+                "valuable painting",
+                "theft",
+                "decapitation",
+                "orphan",
+                "escape",
+                "poetry",
+                "watching a movie",
+                "soldier",
+                "no opening credits",
+                "multiple time frames",
+                "second will",
+                "five against one",
+                "trapdoor",
+                "hit with a rifle butt",
+                "estate executor",
+                "persian cat",
+                "pastry chef",
+                "46 stanza poem",
+                "hosed down",
+                "arabian bath",
+                "cog rail train",
+                "suit of armor",
+                "witness",
+                "deposition",
+                "alibi",
+                "sister sister relationship",
+                "three sisters",
+                "absurdism",
+                "black eye",
+                "oath",
+                "spa",
+                "being followed",
+                "following someone",
+                "rifle",
+                "pistol",
+                "gun",
+                "hiding",
+                "police whistle",
+                "courtroom",
+                "judge",
+                "blood",
+                "stabbing",
+                "subjective camera",
+                "police",
+                "border guard",
+                "border crossing",
+                "coffin",
+                "secret",
+                "grave",
+                "tombstone",
+                "brother sister relationship",
+                "toy gun",
+                "flash forward",
+                "convict",
+                "marriage proposal",
+                "kissing a dead body",
+                "talking to a corpse",
+                "manhandled",
+                "penciled moustache",
+                "secret society",
+                "fascism",
+                "cemetery",
+                "hideout",
+                "internment camp",
+                "boyfriend girlfriend relationship",
+                "henchman",
+                "montage",
+                "vanity",
+                "pomposity",
+                "flashback",
+                "arrest",
+                "sense of smell",
+                "snow",
+                "boy",
+                "friend",
+                "money",
+                "mountain",
+                "murder of sister",
+                "death of sister",
+                "laundry chute",
+                "pajamas",
+                "female nudity",
+                "newspaper headline",
+                "snowing",
+                "handshake",
+                "reading a letter",
+                "letter",
+                "hotel kitchen",
+                "german",
+                "french",
+                "interview",
+                "luggage",
+                "looking at the camera",
+                "observatory",
+                "elevator operator",
+                "saving a life",
+                "lantern",
+                "ladder",
+                "flask",
+                "trolley",
+                "wealth",
+                "sommelier",
+                "butler",
+                "telephone call",
+                "telephone",
+                "delivery truck",
+                "happy birthday to you",
+                "bicycle",
+                "reading a newspaper",
+                "newspaper",
+                "phone booth",
+                "pay phone",
+                "sewer",
+                "rope ladder",
+                "facial scar",
+                "poem",
+                "spoken letter",
+                "chapter titles",
+                "champagne",
+                "wine",
+                "kiss",
+                "maid",
+                "photograph",
+                "food",
+                "two on a motorcycle",
+                "wicker basket",
+                "telegram",
+                "bus",
+                "gift",
+                "black cat",
+                "strychnine",
+                "bear skin rug",
+                "watering a cactus",
+                "cog railway",
+                "hotel key",
+                "memorial",
+                "cookie",
+                "reference to egon schiele",
+                "title appears in writing",
+                "running",
+                "violence",
+                "police chief",
+                "ski jump",
+                "year 1985",
+                "year 1968",
+                "84 year old",
+                "racism",
+                "year 1932",
+                "statue",
+                "title spoken by character",
+                "servant",
+                "eating",
+                "binoculars",
+                "toboggan chute",
+                "confessional",
+                "flashlight",
+                "white tulip"
+              ],
+              "websites": [
+                "http://www.rogerebert.com/reviews/the-grand-budapest-hotel-2014",
+                "http://www.reelviews.net/reelviews/grand-budapest-hotel-the",
+                "http://www.nytimes.com/2014/03/07/movies/wes-andersons-grand-budapest-hotel-is-a-complex-caper.html?_r=0",
+                "https://www.flickfilosopher.com/2015/03/the-grand-budapest-hotel-movie-review-best-exotic-nonsense.html",
+                "https://1001moviesreviewed.wordpress.com/2018/03/06/1174-the-grand-budapest-hotel-2014/",
+                "http://1nfluxmagazine.com/the-grand-budapest-hotel/",
+                "https://fourstarfilmfan.wordpress.com/2014/12/20/the-grand-budapest-hotel-2014/",
+                "http://5secreview.blogspot.be/2014/03/the-grand-budapest-hotel-is-ludicrous.html",
+                "http://apersistentvision.blogspot.com/2014/04/the-grand-budapest-hotel-2014.html",
+                "http://www.apotpourriofvestiges.com/2014/06/the-grand-budapest-hotel-2014-wes.html",
+                "http://asbvirtualinfo.blogspot.com/2014/07/comentario-pelicula-the-grand-budapest-hotel.html",
+                "http://www.alleyways.de/abgeschminkt/2014/grand-budapest-hotel/",
+                "https://acabodesalirdelcine.wordpress.com/2015/03/14/the-grand-budapest-hotel-2014/",
+                "http://afrofilmviewer.blogspot.co.uk/2014/03/review-grand-budapest-hotel.html",
+                "http://alibi.com/film/46717/The-Grand-Budapest-Hotel.html",
+                "http://alligatographe.blogspot.fr/2014/04/the-grand-budapest-hotel-anderson.html",
+                "http://allmanstadesbloggen.blogspot.se/2014/03/the-grand-budapest-hotel.html",
+                "http://allofcinema.com/otel-grand-budapesht-the-grand-budapest-hotel-2014/",
+                "https://www.altfg.com/the-grand-budapest-hotel-2014-movie-review/",
+                "http://amandasage.ca/2014/04/the-grand-budapest-hotel/",
+                "https://anopinionortwo.wordpress.com/2021/10/23/the-grand-budapest-hotel/",
+                "http://www.andsoitbeginsfilms.com/2014/03/the-grand-budapest-hotel.html",
+                "http://anotherfilmanotherplanet.com/2014/04/15/the-grand-budapest-hotel-critique/",
+                "http://anotherkindmovies.blogspot.gr/2015/01/the-grand-budapest-hotel.html",
+                "http://www.elantepenultimomohicano.com/2014/02/berlinale-2014-primera-jornada-criticas-el-gran-hotel-budapest-kumiko.html",
+                "http://www.elantepenultimomohicano.com/2014/03/gran-hotel-budapest-critica.html",
+                "https://antestreia.pt/movies/the-grand-budapest-hotel/",
+                "http://www.artechock.de/film/text/kritik/g/grbuho.htm",
+                "http://attheback.blogspot.co.uk/2014/03/the-grand-budapest-hotel.html",
+                "http://www.athinorama.gr/cinema/article.aspx?id=1003211",
+                "http://www.austinchronicle.com/calendar/film/2014-03-14/the-grand-budapest-hotel/",
+                "http://www.avforums.com/review/the-grand-budapest-hotel-review.10094",
+                "http://www.avoir-alire.com/the-grand-budapest-hotel-wes-anderson-epate-la-critique",
+                "http://www.beboti.com/2014/07/now-at-netflix-grand-budapest-hotel-2014.html",
+                "http://www.benmeyersinternational.com/2017/08/the-grand-budapest-hotel-2014-usa.html",
+                "http://www.bigpicturebigsound.com/The-Grand-Budapest-Hotel-Blu-ray.shtml",
+                "http://www.bigshinyrobot.com/57169/review-grand-budapest-hotel/",
+                "http://www.biggaypictureshow.com/bgps/2014/07/grand-budapest-hotel-blu-ray-review/",
+                "http://www.bina007.com/2014/03/the-grand-budapest-hotel-dark-backing.html",
+                "http://blacksheepreviews.com/the-grand-budapest-hotel-review/",
+                "https://www.blikopfilm.nl/the-grand-budapest-hotel-2014-%e2%98%85%e2%98%85%e2%98%85%e2%98%86%e2%98%86/",
+                "http://elblocdejosep.blogspot.com.es/2015/02/esa-copita.html",
+                "https://blogdefilm.ro/the-grand-budapest-hotel-wes-anderson",
+                "http://blogville.blog.de/2014/02/09/berlinale-telegramme-17736894/",
+                "http://blu-ray-rezensionen.net/grand-budapest-hotel-review/",
+                "http://www.blu-ray.com/The-Grand-Budapest-Hotel/149729/?show=preview",
+                "https://www.blu-ray.com/movies/The-Grand-Budapest-Hotel-Blu-ray/201630/#Review",
+                "http://www.blu-ray.com/movies/The-Grand-Budapest-Hotel-Blu-ray/98819/#Review",
+                "http://movieguy1970.blogspot.com/2014/04/the-grand-budapest-hotel-2014.html",
+                "http://www.bone-idle.ie/index.php/the-grand-budapest-hotel-film-review/"
+              ],
+              "title_type": "Movie",
+              "description": "The Grand Budapest Hotel (2014), directed by Wes Anderson and featuring Ralph Fiennes, F. Murray Abraham, and Mathieu Amalric, is a comedy-drama adventure set across multiple eras of a once-grand European hotel. Framed as a nested tale, it follows a legendary concierge and his young lobby boy through a caper involving a stolen painting, an inheritance dispute, and a murder, all against the rise of war and social change. The film pairs Anderson's signature visual precision—pastel palettes, miniature-like sets, and exacting symmetry—with a bittersweet meditation on nostalgia, loyalty, and the decay of an era.",
+              "finale_year": null,
+              "wikidata_id": "q3521099",
+              "plot_summary": "An elderly hotel owner recounts his youth as a lobby boy under the flamboyant, fastidious concierge who ran the property during its glory days. Their partnership pulls them into a caper involving a contested inheritance, a stolen painting, and a murder investigation that exposes social and political changes. Framed as a story within a story, the narrative moves between eras as the pair navigate loyalty, grief, and the encroaching violence of a changing Europe.",
+              "release_date": "2014-03-28",
+              "release_year": 2014,
+              "collaborators": [
+                "Wes Anderson",
+                "Ralph Fiennes",
+                "F. Murray Abraham",
+                "Mathieu Amalric",
+                "Tony Revolori",
+                "Jude Law",
+                "Tom Wilkinson",
+                "Bill Murray",
+                "Owen Wilson",
+                "Alexandre Desplat"
+              ],
+              "content_rating": "R",
+              "release_country": [
+                "United States",
+                "Germany"
+              ],
+              "filming_location": "Görlitz, Saxony, Germany, Zwinger, Dresden, Saxony, Germany, Kraków, Malopolskie, Poland, Osterstein Castle, Zwickau, Saxony, Germany, Hainewalde, Saxony, Germany, Dresden, Saxony, Germany, Waldenburg, Saxony, Germany, Sächsische Schweiz, Saxony, Germany, Studio Babelsberg, Potsdam, Brandenburg, Germany, Burg Kriebstein, Kriebstein, Saxony, Germany, Poland, Elbe Sandstone Mountains, Saxony, Germany, Germany",
+              "audience_identity": "People who value meticulous visual design, dry humor, and bittersweet, character-centered stories—often culturally curious, nostalgia-minded viewers who appreciate craft, ensemble performances, and artful production design.",
+              "genre_description": "A stylized period comedy-drama that blends caper and adventure elements with bittersweet, character-driven nostalgia and satirical social observation.",
+              "style_description": "Meticulously composed, storybook visuals combine pastel diorama sets, rigid symmetry, and theatrical framing to create a playful yet elegiac period tableau.",
+              "short_descriptions": [
+                {
+                  "value": "A charismatic concierge and his loyal lobby boy become unlikely partners in a whimsical caper that crosses love, theft, and the upheaval of prewar Europe.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Ein charismatischer Concierge und sein treuer Page werden zu ungleichen Komplizen in einem skurrilen Abenteuer über Liebe, Diebstahl und das aufbrechende Europa vor dem Krieg.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un carismático concierge y su leal botones se convierten en improbables socios en una comedia de enredos que mezcla amor, robo y el convulso periodo prebélico europeo.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un concierge charismatique et son fidèle groom deviennent partenaires improbables dans une comédie d'aventures mêlant amour, vol et les remous de l'Europe d'avant-guerre.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "production_companies": [
+                "Fox Searchlight Pictures",
+                "Indian Paintbrush",
+                "Studio Babelsberg",
+                "American Empirical Pictures",
+                "TSG Entertainment",
+                "Scott Rudin Productions",
+                "Fox Searchlight Pictures",
+                "20th Century Fox CIS",
+                "20th Century Fox CIS",
+                "20th Century Fox CIS",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "20th Century Fox",
+                "Barracuda Movie",
+                "Big Picture 2 Films",
+                "CinemArt",
+                "InterCom",
+                "Odeon",
+                "SF Film Finland",
+                "Warner Bros.",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "20th Century Fox Home Entertainment",
+                "Fox-Paramount Home Entertainment",
+                "Hollydan Works",
+                "Odeon",
+                "Film1",
+                "HBO Max",
+                "SBS",
+                "Yleisradio (YLE)",
+                "Look Effects",
+                "Coulier Creatures FX",
+                "ReelEye Company"
+              ],
+              "situational_contexts": "Seen during relaxed evenings or film-club gatherings when viewers want a visually rich, whimsical yet emotionally resonant experience that rewards attention to detail.",
+              "influenced_other_media": [],
+              "plot_themes_description": "Through a caper set across eras, the story explores nostalgia for a vanishing world, the bonds formed between mentor and protégé, and the corrosive effects of social and political upheaval.",
+              "emotional_tone_description": "Playful and visually euphoric on the surface, the film carries an undercurrent of bittersweet nostalgia and elegiac melancholy about a lost era."
+            },
+            "popularity": 0.9995140283807425,
+            "tags": [
+              {
+                "id": "urn:tag:keyword:media:lantern",
+                "name": "Lantern",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:friend",
+                "name": "Friend",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:84_year_old",
+                "name": "84 year old",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:violence",
+                "name": "Violence",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cigarette_smoking",
+                "name": "Cigarette smoking",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:watching_a_movie",
+                "name": "Watching a movie",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:media:drama",
+                "name": "Drama",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:sommelier",
+                "name": "Sommelier",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:snow",
+                "name": "Snow",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:throwing_a_cat_out_a_window",
+                "name": "Throwing a cat out a window",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:persian_cat",
+                "name": "Persian cat",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:boy",
+                "name": "Boy",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:food",
+                "name": "Food",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:delivery_truck",
+                "name": "Delivery truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:prison",
+                "name": "Prison",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:war",
+                "name": "War",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:conspiracy",
+                "name": "Conspiracy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:devoted",
+                "name": "Devoted",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:writer",
+                "name": "Writer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:poisoned",
+                "name": "Poisoned",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:arabian_bath",
+                "name": "Arabian bath",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:judge",
+                "name": "Judge",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:illustration_style_design",
+                "name": "Illustration style design",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:bear_skin_rug",
+                "name": "Bear skin rug",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:soldier",
+                "name": "Soldier",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:reading_a_newspaper",
+                "name": "Reading a newspaper",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:vanity",
+                "name": "Vanity",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:decay",
+                "name": "Decay",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:lobby_boy",
+                "name": "Lobby boy",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gunshot",
+                "name": "Gunshot",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:attorney",
+                "name": "Attorney",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:decapitation",
+                "name": "Decapitation",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:putting_a_cigarette_in_ones_pocket",
+                "name": "Putting a cigarette in ones pocket",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pursuit",
+                "name": "Pursuit",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stabbing",
+                "name": "Stabbing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:charismatic",
+                "name": "Charismatic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:penciled_moustache",
+                "name": "Penciled moustache",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:toy_gun",
+                "name": "Toy gun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:rope_ladder",
+                "name": "Rope ladder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:death_of_sister",
+                "name": "Death of sister",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pomposity",
+                "name": "Pomposity",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:alibi",
+                "name": "Alibi",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:eating",
+                "name": "Eating",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:hiding",
+                "name": "Hiding",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:death",
+                "name": "Death",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:mentorship",
+                "name": "Mentorship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:spiral_staircase",
+                "name": "Spiral staircase",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_outsider",
+                "name": "The outsider",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:stylized",
+                "name": "Stylized",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:spoken_letter",
+                "name": "Spoken letter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chapter_titles",
+                "name": "Chapter titles",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:title_spoken_by_character",
+                "name": "Title spoken by character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:trolley",
+                "name": "Trolley",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:qloo:drama",
+                "name": "Drama",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:laundry_chute",
+                "name": "Laundry chute",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:sister_sister_relationship",
+                "name": "Sister sister relationship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:inheritance",
+                "name": "Inheritance",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:police",
+                "name": "Police",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:author",
+                "name": "Author",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:46_stanza_poem",
+                "name": "46 stanza poem",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:binoculars",
+                "name": "Binoculars",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:watering_a_cactus",
+                "name": "Watering a cactus",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:whimsical",
+                "name": "Whimsical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:monastery",
+                "name": "Monastery",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:train",
+                "name": "Train",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:champagne",
+                "name": "Champagne",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:confessional",
+                "name": "Confessional",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:newspaper_headline",
+                "name": "Newspaper headline",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ladder",
+                "name": "Ladder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:lobby_boy",
+                "name": "Lobby boy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:nostalgia",
+                "name": "Nostalgia",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:pastel_diorama",
+                "name": "Pastel diorama",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:vulnerable",
+                "name": "Vulnerable",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:secret",
+                "name": "Secret",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:greed",
+                "name": "Greed",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tattoo",
+                "name": "Tattoo",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:poetry",
+                "name": "Poetry",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel_key",
+                "name": "Hotel key",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:period_piece",
+                "name": "Period piece",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:lawyer",
+                "name": "Lawyer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:escape_from_prison",
+                "name": "Escape from prison",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:polished",
+                "name": "Polished",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:estate_executor",
+                "name": "Estate executor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flashback",
+                "name": "Flashback",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:nosebleed",
+                "name": "Nosebleed",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:widow",
+                "name": "Widow",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:elevator_operator",
+                "name": "Elevator operator",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shootout",
+                "name": "Shootout",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pastry_chef",
+                "name": "Pastry chef",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:spa",
+                "name": "Spa",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:poignant",
+                "name": "Poignant",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:hotel",
+                "name": "Hotel",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:firing_squad",
+                "name": "Firing squad",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:deposition",
+                "name": "Deposition",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:observatory",
+                "name": "Observatory",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:interview",
+                "name": "Interview",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fascism",
+                "name": "Fascism",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:dark_comedy",
+                "name": "Dark comedy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:pushed_off_a_cliff",
+                "name": "Pushed off a cliff",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hosed_down",
+                "name": "Hosed down",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:three_sisters",
+                "name": "Three sisters",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mentorship",
+                "name": "Mentorship",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:interests:qloo:art_house_cinema",
+                "name": "Art house cinema",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:meticulous_symmetry",
+                "name": "Meticulous symmetry",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:cat",
+                "name": "Cat",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tombstone",
+                "name": "Tombstone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:poem",
+                "name": "Poem",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:phone_booth",
+                "name": "Phone booth",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel_kitchen",
+                "name": "Hotel kitchen",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:oath",
+                "name": "Oath",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:racism",
+                "name": "Racism",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:letter",
+                "name": "Letter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bus",
+                "name": "Bus",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:telegram",
+                "name": "Telegram",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:refugee",
+                "name": "Refugee",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:emotionally_engaged",
+                "name": "Emotionally engaged",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:genre:media:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cable_car",
+                "name": "Cable car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:psychopath",
+                "name": "Psychopath",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:strychnine",
+                "name": "Strychnine",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:secret_society",
+                "name": "Secret society",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:butler",
+                "name": "Butler",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:aesthetic_minded",
+                "name": "Aesthetic minded",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:plot:qloo:bittersweet",
+                "name": "Bittersweet",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:aerial_tram",
+                "name": "Aerial tram",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loyalty",
+                "name": "Loyalty",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:sledding",
+                "name": "Sledding",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:baker",
+                "name": "Baker",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:qloo:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:police_whistle",
+                "name": "Police whistle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:luxury_hotel",
+                "name": "Luxury hotel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:multiple_time_frames",
+                "name": "Multiple time frames",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:black_eye",
+                "name": "Black eye",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:confession_booth",
+                "name": "Confession booth",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:corpse",
+                "name": "Corpse",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:memorial",
+                "name": "Memorial",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:knocking_on_a_door",
+                "name": "Knocking on a door",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:orphan",
+                "name": "Orphan",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:caper",
+                "name": "Caper",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:inheritance",
+                "name": "Inheritance",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:year_1932",
+                "name": "Year 1932",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:talking_to_a_corpse",
+                "name": "Talking to a corpse",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:europe",
+                "name": "Europe",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_protege",
+                "name": "The protege",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:pastry_box",
+                "name": "Pastry box",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:black_and_white_scene",
+                "name": "Black and white scene",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:picaresque",
+                "name": "Picaresque",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:heist",
+                "name": "Heist",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:pastry",
+                "name": "Pastry",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:character_driven",
+                "name": "Character driven",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:taxi",
+                "name": "Taxi",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:set_design",
+                "name": "Set design",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:f_word",
+                "name": "F word",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pistol",
+                "name": "Pistol",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:concierge",
+                "name": "Concierge",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:sleeping_on_a_train",
+                "name": "Sleeping on a train",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:internment_camp",
+                "name": "Internment camp",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:painting",
+                "name": "Painting",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:refugee",
+                "name": "Refugee",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:second_will",
+                "name": "Second will",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel",
+                "name": "Hotel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:narrated_by_character",
+                "name": "Narrated by character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:satirical",
+                "name": "Satirical",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:reading_a_letter",
+                "name": "Reading a letter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:manhandled",
+                "name": "Manhandled",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pajamas",
+                "name": "Pajamas",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:facial_birthmark",
+                "name": "Facial birthmark",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:two_on_a_motorcycle",
+                "name": "Two on a motorcycle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:suit_of_armor",
+                "name": "Suit of armor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pastry_shop",
+                "name": "Pastry shop",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stolen_painting",
+                "name": "Stolen painting",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:running",
+                "name": "Running",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:passenger_train",
+                "name": "Passenger train",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:marriage_proposal",
+                "name": "Marriage proposal",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:symmetrical",
+                "name": "Symmetrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:madcap_comedy",
+                "name": "Madcap comedy",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:montage",
+                "name": "Montage",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:title_appears_in_writing",
+                "name": "Title appears in writing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:no_opening_credits",
+                "name": "No opening credits",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:facial_scar",
+                "name": "Facial scar",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:talking_to_the_camera",
+                "name": "Talking to the camera",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:telephone",
+                "name": "Telephone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:grave",
+                "name": "Grave",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hideout",
+                "name": "Hideout",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:european_history",
+                "name": "European history",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:statue",
+                "name": "Statue",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:sewer",
+                "name": "Sewer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:wine",
+                "name": "Wine",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:punched_in_the_face",
+                "name": "Punched in the face",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flashlight",
+                "name": "Flashlight",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ski_jump",
+                "name": "Ski jump",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:henchman",
+                "name": "Henchman",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:border_crossing",
+                "name": "Border crossing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_mentor",
+                "name": "The mentor",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:escape",
+                "name": "Escape",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cookie",
+                "name": "Cookie",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:theatrical",
+                "name": "Theatrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:theft",
+                "name": "Theft",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:servant",
+                "name": "Servant",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:elevator",
+                "name": "Elevator",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flashback_within_a_flashback",
+                "name": "Flashback within a flashback",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:coffin",
+                "name": "Coffin",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loss",
+                "name": "Loss",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:snowing",
+                "name": "Snowing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:wealth",
+                "name": "Wealth",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel_lobby",
+                "name": "Hotel lobby",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:handshake",
+                "name": "Handshake",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:murder_of_sister",
+                "name": "Murder of sister",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pipe_smoking",
+                "name": "Pipe smoking",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:absurdism",
+                "name": "Absurdism",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:convict",
+                "name": "Convict",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:year_1968",
+                "name": "Year 1968",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:colorful",
+                "name": "Colorful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:toboggan_chute",
+                "name": "Toboggan chute",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pay_phone",
+                "name": "Pay phone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flask",
+                "name": "Flask",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:black_cat",
+                "name": "Black cat",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:heir",
+                "name": "Heir",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel_owner",
+                "name": "Hotel owner",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:old_woman",
+                "name": "Old woman",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:courtroom",
+                "name": "Courtroom",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:animated_sequence",
+                "name": "Animated sequence",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:1930s",
+                "name": "1930s",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:white_tulip",
+                "name": "White tulip",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:carousel",
+                "name": "Carousel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:class",
+                "name": "Class",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:fugitive",
+                "name": "Fugitive",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:memory",
+                "name": "Memory",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:eccentric",
+                "name": "Eccentric",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:wedding",
+                "name": "Wedding",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:mentor_protege_relationship",
+                "name": "Mentor protege relationship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:year_1985",
+                "name": "Year 1985",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:poetry",
+                "name": "Poetry",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:luggage",
+                "name": "Luggage",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cog_rail_train",
+                "name": "Cog rail train",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stabbed_to_death",
+                "name": "Stabbed to death",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:resilient",
+                "name": "Resilient",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_heist",
+                "name": "The heist",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:photograph",
+                "name": "Photograph",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:happy_birthday_to_you",
+                "name": "Happy birthday to you",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:arrest",
+                "name": "Arrest",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:painting",
+                "name": "Painting",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:plot:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:fictional_country",
+                "name": "Fictional country",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:mountain",
+                "name": "Mountain",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:birthmark",
+                "name": "Birthmark",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chase",
+                "name": "Chase",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:motorcycle",
+                "name": "Motorcycle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pencil_thin_moustache",
+                "name": "Pencil thin moustache",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:immigrant",
+                "name": "Immigrant",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:newspaper",
+                "name": "Newspaper",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:french",
+                "name": "French",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gunfight",
+                "name": "Gunfight",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:german",
+                "name": "German",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_lost_golden_age",
+                "name": "The lost golden age",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:trapdoor",
+                "name": "Trapdoor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:valuable_painting",
+                "name": "Valuable painting",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:strangulation",
+                "name": "Strangulation",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:tableau_composition",
+                "name": "Tableau composition",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:gun",
+                "name": "Gun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:fast_paced",
+                "name": "Fast paced",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:skiing",
+                "name": "Skiing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gift",
+                "name": "Gift",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:miniature_like",
+                "name": "Miniature like",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:plot:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:hanging_from_a_ledge",
+                "name": "Hanging from a ledge",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hotel_room",
+                "name": "Hotel room",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bobsled",
+                "name": "Bobsled",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:war",
+                "name": "War",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:cemetery",
+                "name": "Cemetery",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:refined",
+                "name": "Refined",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:ensemble_comedy",
+                "name": "Ensemble comedy",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:subjective_camera",
+                "name": "Subjective camera",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:maid",
+                "name": "Maid",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:saving_a_life",
+                "name": "Saving a life",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:brother_sister_relationship",
+                "name": "Brother sister relationship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:art_theft",
+                "name": "Art theft",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:production_design",
+                "name": "Production design",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:storybook",
+                "name": "Storybook",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:last_will_and_testament",
+                "name": "Last will and testament",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:telephone_call",
+                "name": "Telephone call",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:police_chief",
+                "name": "Police chief",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:national_film_registry",
+                "name": "National film registry",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:sense_of_smell",
+                "name": "Sense of smell",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bicycle",
+                "name": "Bicycle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:five_against_one",
+                "name": "Five against one",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:looking_at_the_camera",
+                "name": "Looking at the camera",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:being_followed",
+                "name": "Being followed",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:following_someone",
+                "name": "Following someone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:resourceful",
+                "name": "Resourceful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:money",
+                "name": "Money",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:border_guard",
+                "name": "Border guard",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:older_woman_younger_man_relationship",
+                "name": "Older woman younger man relationship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:mature",
+                "name": "Mature",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:cog_railway",
+                "name": "Cog railway",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:rifle",
+                "name": "Rifle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:wicker_basket",
+                "name": "Wicker basket",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:concierge",
+                "name": "Concierge",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:first_person_narration",
+                "name": "First person narration",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:witness",
+                "name": "Witness",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:reference_to_egon_schiele",
+                "name": "Reference to egon schiele",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flash_forward",
+                "name": "Flash forward",
+                "type": "urn:tag:keyword:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.860437725678178,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "2014, Wes Anderson",
+            "external": {
+              "imdb": [
+                {
+                  "id": "tt2278388",
+                  "user_rating": 8.1,
+                  "user_rating_count": 987883
+                }
+              ],
+              "netflix": [
+                {
+                  "id": "70295915"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q3521099"
+                }
+              ],
+              "letterboxd": [
+                {
+                  "id": "the-grand-budapest-hotel"
+                }
+              ],
+              "metacritic": [
+                {
+                  "id": "the-grand-budapest-hotel",
+                  "user_rating": 8.4,
+                  "critic_rating": 88
+                }
+              ],
+              "rottentomatoes": [
+                {
+                  "id": "the_grand_budapest_hotel",
+                  "user_rating": 86,
+                  "critic_rating": 88,
+                  "user_rating_count": 50000,
+                  "critic_rating_count": 17
+                }
+              ]
+            }
+          },
+          {
+            "name": "Fast & Furious",
+            "entity_id": "F01AC034-179A-47F3-8ADF-7A4D77559DCF",
+            "type": "urn:entity",
+            "subtype": "urn:entity:movie",
+            "properties": {
+              "akas": [
+                {
+                  "value": "\"السرعة والغضب 4\"",
+                  "languages": [
+                    "ar"
+                  ]
+                },
+                {
+                  "value": "\"Fast and Furious\"",
+                  "languages": [
+                    "sv"
+                  ]
+                },
+                {
+                  "value": "\"เร็ว..แรงทะลุนรก 4: ยกทีมซิ่ง แรงทะลุไมล์\"",
+                  "languages": [
+                    "th"
+                  ]
+                },
+                {
+                  "value": "\"Паклене улице 4\"",
+                  "languages": [
+                    "sr"
+                  ]
+                },
+                {
+                  "value": "\"Fast & Furious\"",
+                  "languages": [
+                    "nl",
+                    "ms",
+                    "sq",
+                    "no",
+                    "nb",
+                    "eu",
+                    "id",
+                    "nn",
+                    "ca",
+                    "gl",
+                    "es"
+                  ]
+                },
+                {
+                  "value": "\"ফাস্ট অ্যান্ড ফিউরিয়াস\"",
+                  "languages": [
+                    "bn"
+                  ]
+                },
+                {
+                  "value": "\"Greiti ir įsiutę 4\"",
+                  "languages": [
+                    "lt"
+                  ]
+                },
+                {
+                  "value": "\"ワイルド・スピード MAX\"",
+                  "languages": [
+                    "ja"
+                  ]
+                },
+                {
+                  "value": "\"Halálos iram\"",
+                  "languages": [
+                    "hu"
+                  ]
+                },
+                {
+                  "value": "\"Fast & Furious 4\"",
+                  "languages": [
+                    "da",
+                    "vi",
+                    "fr",
+                    "fi",
+                    "en_au",
+                    "pt_pt"
+                  ]
+                },
+                {
+                  "value": "\"फास्ट एंड फ्यूरियस\"",
+                  "languages": [
+                    "hi"
+                  ]
+                },
+                {
+                  "value": "\"Hızlı ve Öfkeli 4\"",
+                  "languages": [
+                    "tr"
+                  ]
+                },
+                {
+                  "value": "\"Velozes e furiosos 4\"",
+                  "languages": [
+                    "pt"
+                  ]
+                },
+                {
+                  "value": "\"速度与激情4\"",
+                  "languages": [
+                    "zh"
+                  ]
+                },
+                {
+                  "value": "\"ఫాస్ట్ అండ్ ఫ్యూరియస్\"",
+                  "languages": [
+                    "te"
+                  ]
+                },
+                {
+                  "value": "\"Szybko i wściekle\"",
+                  "languages": [
+                    "pl"
+                  ]
+                },
+                {
+                  "value": "\"ფორსაჟი 4\"",
+                  "languages": [
+                    "ka"
+                  ]
+                },
+                {
+                  "value": "\"Fast & Furious - Neues Modell. Originalteile.\"",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "\"Ātrs un bez žēlastības 4\"",
+                  "languages": [
+                    "lv"
+                  ]
+                },
+                {
+                  "value": "\"분노의 질주 4\"",
+                  "languages": [
+                    "ko"
+                  ]
+                },
+                {
+                  "value": "\"מהיר ועצבני 4\"",
+                  "languages": [
+                    "he"
+                  ]
+                },
+                {
+                  "value": "\"Брзи и бесни 4\"",
+                  "languages": [
+                    "mk"
+                  ]
+                },
+                {
+                  "value": "\"Furios și iute 4: Piese originale\"",
+                  "languages": [
+                    "ro"
+                  ]
+                },
+                {
+                  "value": "\"ஃபாஸ்ட் அண்ட் ஃப்யூரியஸ்\"",
+                  "languages": [
+                    "ta"
+                  ]
+                },
+                {
+                  "value": "\"Rápidos y furiosos 4\"",
+                  "languages": [
+                    "es_ar"
+                  ]
+                },
+                {
+                  "value": "\"Fast & Furious - Solo parti originali\"",
+                  "languages": [
+                    "it"
+                  ]
+                },
+                {
+                  "value": "\"Οι Μαχητές των Δρόμων 4\"",
+                  "languages": [
+                    "el"
+                  ]
+                },
+                {
+                  "value": "\"Brzi i žestoki: Povratak\"",
+                  "languages": [
+                    "hr"
+                  ]
+                },
+                {
+                  "value": "\"Бърз и яростен\"",
+                  "languages": [
+                    "bg"
+                  ]
+                },
+                {
+                  "value": "\"Forsaj 4\"",
+                  "languages": [
+                    "az"
+                  ]
+                },
+                {
+                  "value": "\"Rychlí a zběsilí\"",
+                  "languages": [
+                    "cs"
+                  ]
+                },
+                {
+                  "value": "\"Форсаж 4\"",
+                  "languages": [
+                    "uk",
+                    "kk",
+                    "ru"
+                  ]
+                },
+                {
+                  "value": "\"Brzi i žestoki\"",
+                  "languages": [
+                    "bs"
+                  ]
+                }
+              ],
+              "image": {
+                "url": "https://images.qloo.com/i/F01AC034-179A-47F3-8ADF-7A4D77559DCF-420x-auto.jpg"
+              },
+              "genres": [
+                "Action",
+                "Thriller"
+              ],
+              "duration": 107,
+              "keywords": [
+                "friendship",
+                "brian o'conner character",
+                "dominic toretto character",
+                "han seoul oh character",
+                "mia toretto character",
+                "fast and furious",
+                "desert",
+                "car",
+                "tunnel",
+                "revenge",
+                "fugitive",
+                "tunnel chase scene",
+                "helicopter",
+                "chase",
+                "party",
+                "funeral",
+                "cathedral",
+                "robbery",
+                "church",
+                "sequel",
+                "lamborghini lm002",
+                "shared universe",
+                "motor vehicle",
+                "fast and furious franchise",
+                "infrared",
+                "vehicle",
+                "letty ortiz character",
+                "motor truck",
+                "actor reprises previous role",
+                "bald man",
+                "actress reprises previous role",
+                "walkie talkie",
+                "view in sideview mirror",
+                "handgun",
+                "firearm",
+                "weapon",
+                "semi automatic pistol",
+                "tattooed man",
+                "semi truck and trailer",
+                "panama city panama",
+                "speeding car",
+                "nighttime",
+                "animal",
+                "driving high speed in reverse",
+                "diner",
+                "flip phone",
+                "nissan motor vehicle",
+                "handheld device",
+                "hummer h1",
+                "impound yard",
+                "mobile telephone",
+                "evidence envelope",
+                "apartment",
+                "subaru motor vehicle",
+                "muscular man",
+                "suv",
+                "foot pursuit",
+                "cemetery",
+                "heist",
+                "hummer motor vehicle",
+                "tattooed neck",
+                "exploding vehicle",
+                "male fugitive",
+                "night",
+                "driving in reverse",
+                "speeding vehicle",
+                "semi automatic weapon",
+                "flatbed truck",
+                "gun",
+                "handheld weapon",
+                "aircraft",
+                "tattooed arm",
+                "kiss on the cheek",
+                "lamborghini motor vehicle",
+                "rotorcraft",
+                "bus",
+                "modified motor vehicle",
+                "hand tool",
+                "hammer",
+                "high speed driving",
+                "nissan gt r",
+                "t boned",
+                "fuel heist",
+                "gran torino",
+                "t bone car crash",
+                "stubble",
+                "gas guzzler",
+                "male protagonist",
+                "shooting a man",
+                "man wears eyeglasses",
+                "fbi federal bureau of investigation",
+                "body lands on a car",
+                "cell phone",
+                "epic action",
+                "2000s",
+                "21st century",
+                "car action",
+                "reference to tokyo japan",
+                "united states of america",
+                "california",
+                "sister",
+                "brother",
+                "driving",
+                "driving a car",
+                "man driving a car",
+                "german car",
+                "u.s. car",
+                "japanese car",
+                "bmw",
+                "bmw motor vehicle",
+                "bmw car",
+                "buick",
+                "buick motor vehicle",
+                "buick car",
+                "buick grand national",
+                "chevrolet",
+                "chevrolet motor vehicle",
+                "chevrolet car",
+                "chevrolet camaro",
+                "chevrolet chevelle",
+                "dodge motor vehicle",
+                "dodge charger",
+                "ford",
+                "ford motor vehicle",
+                "ford car",
+                "ford gran torino",
+                "ford mustang",
+                "infiniti",
+                "infiniti motor vehicle",
+                "infiniti car",
+                "infiniti g35",
+                "nissan",
+                "nissan 240sx",
+                "nissan skyline",
+                "plymouth motor vehicle",
+                "plymouth road runner",
+                "subaru",
+                "subaru impreza",
+                "truck",
+                "peterbilt",
+                "peterbilt motor vehicle",
+                "fbi",
+                "blockbuster",
+                "gisele yashar character",
+                "american abroad",
+                "interquel",
+                "legacy sequel",
+                "lesbian",
+                "threesome",
+                "action epic",
+                "three word title",
+                "action hero",
+                "foot fetish",
+                "tuna sandwich",
+                "urban setting",
+                "heist crime",
+                "male pedal pumping",
+                "driver",
+                "undercover cop",
+                "heroin",
+                "fbi agent",
+                "drug lord",
+                "mexico",
+                "acura nsx",
+                "machine gun",
+                "closing credits sequence",
+                "telephone call",
+                "motor",
+                "no opening credits",
+                "ambiguous ending",
+                "open ended",
+                "stolen drugs",
+                "stolen car",
+                "secret tunnel",
+                "execution style shooting",
+                "chinese takeout",
+                "bald hero",
+                "underground tunnel",
+                "u.s. mexico border",
+                "street racing",
+                "semi trailer",
+                "satellite feed",
+                "panama",
+                "nitrous oxide",
+                "monitor",
+                "methamphetamine",
+                "los angeles california",
+                "lighter",
+                "killed by a car",
+                "kidnapping",
+                "investigation",
+                "hummer",
+                "hijack",
+                "hijacking",
+                "henchman",
+                "fuel truck",
+                "explosion",
+                "conviction",
+                "cigarette lighter",
+                "undercover agent",
+                "tracking device",
+                "toe sucking",
+                "swat team",
+                "subtitled scene",
+                "shotgun",
+                "shot to death",
+                "shot in the shoulder",
+                "shot in the head",
+                "shot in the chest",
+                "shot in the back",
+                "shootout",
+                "secret identity",
+                "running across a roof",
+                "revelation",
+                "returning character killed off",
+                "recurring character",
+                "raid",
+                "punched in the face",
+                "punched in the stomach",
+                "prison bus",
+                "pistol",
+                "murder",
+                "crushed by a car",
+                "loss of loved one",
+                "female female kiss",
+                "jumping through a window",
+                "jumping from a car",
+                "informant",
+                "impostor",
+                "hit by a car",
+                "held at gunpoint",
+                "grave",
+                "gasoline",
+                "foot chase",
+                "flashback",
+                "fingerprint",
+                "exploding truck",
+                "exploding car",
+                "drug smuggling",
+                "dominican republic",
+                "club",
+                "car crash",
+                "car chase",
+                "car accident",
+                "brother sister relationship",
+                "blood",
+                "beating",
+                "attempted murder",
+                "arrest",
+                "rice"
+              ],
+              "websites": [
+                "http://www.rogerebert.com/reviews/fast-and-furious-2009",
+                "http://www.reelviews.net/php_review_template.php?identifier=1561",
+                "http://www.rollingstone.com/movies/reviews/fast-furious-20090402",
+                "http://www.salon.com/ent/movies/review/2009/04/03/fast_furious/index.html?CP=IMD&DN=110",
+                "http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/04/02/MVAQ16QTBS.DTL",
+                "http://www.usatoday.com/life/movies/reviews/2009-04-02-fast-and-furious_N.htm?csp=IMDBreviews",
+                "http://www.villagevoice.com/2009-04-01/film/fast-furious-should-have-gone-straight-to-xbox/",
+                "http://www.screenit.com/movies/2009/fast_&_furious.html",
+                "http://www.flickfilosopher.com/blog/2009/04/040209fast_furious_review.html",
+                "http://100filmsinayear.wordpress.com/2013/12/09/fast-and-furious-2009/",
+                "http://www.411mania.com/movies/film_reviews/101198",
+                "http://afilmadaybysonia.blogspot.com/2016/07/fast-furious-2009.html",
+                "http://anutshellreview.blogspot.com/2009/04/fast-furious.html",
+                "http://www.abusdecine.com/fiche-film.php?numero=2926",
+                "http://www.abusdecine.com/fiche-film.php?numero=118",
+                "http://actorsmix.com/2013/06/07/hardly-a-better-sequel-resurrection-ever/",
+                "https://www.adorocinema.com/filmes/filme-131334/criticas-adorocinema/",
+                "https://aisleseat.com/fast-x.html",
+                "http://allofcinema.com/hostel-hostel-2005/",
+                "https://www.alohacriticon.com/cine/criticas-peliculas/fast-furious-aun-mas-rapido-justin-lin/",
+                "http://www.associatedcontent.com/article/1624380/fast_furious_delivers_the_goods.html?cat=40",
+                "http://www.rinkworks.com/movies/m/fast.and.furious.2009.shtml",
+                "http://www.austinchronicle.com/gyrobase/Calendar/Film?Film=oid%3A760613",
+                "https://autisticritic.pika.page/posts/fast-and-furious-2009-an-autisticritic-review",
+                "http://sports.espn.go.com/stations/player?context=podcast&id=4082175",
+                "https://bandsaboutmovies.com/2020/08/05/fast-furious-2009/",
+                "http://basementrejects.com/review/fast-furious-2009/",
+                "http://www.benmeyersinternational.com/2015/04/fast-and-furious-2009.html",
+                "https://www.eiwitinfo.nl/eiwitshake/",
+                "http://www.bigpicturebigsound.com/Fast_Furious.shtml",
+                "http://bigfanboy.proboards.com/index.cgi?action=display&board=Movies&thread=616",
+                "http://www.bild.de/BILD/unterhaltung/kino/kinoprogramm/2009/04/02/fast-and-furious-neues-modell/kritik.html",
+                "http://bina007.blogspot.com/2009/04/fast-furious-no-alarms-and-no-surprises.html",
+                "http://bloodbrothersfilmreviews.blogspot.com/2011/05/fast-furious-355.html",
+                "http://www.blu-ray.com/movies/Fast-and-Furious-Blu-ray/5606/#Review",
+                "http://bobafett1138.blogspot.com/2011/06/fast-furious-2009-directed-by-justin.html",
+                "http://www.bullz-eye.com/mguide/reviews_2009/fast_and_furious.htm",
+                "http://www.cadependdesjours.com/Cinema-critique/fast-and-furious-4-de-justin-lin/",
+                "https://cailloupettismoviereviews.com/2021/06/08/fast-and-furious-film-review/",
+                "http://carstairsconsiders.blogspot.com/2022/05/movie-review-fast-furious.html",
+                "http://www.cenasdecinema.com/2009/04/velozes-e-furiosos-4.html",
+                "http://chicago.metromix.com/movies/movie_review/movie-review-fast-and/1068478/content",
+                "http://chicago.metromix.com/movies/movie_review/fast-and-furious-review/1062860/content",
+                "http://www.christianitytoday.com/movies/reviews/2009/fastandfurious.html",
+                "http://christophhartung.de/index.php?page=fast-and-the-furious-2009",
+                "https://cineresenhas.com.br/2026/07/09/resenha-critica-velozes-e-furiosos-4-2009/",
+                "http://www.guzmanurrero.es/index.php/Cine/CINE-Y-LETRAS-Encuentro-con-Paul-Walker-y-Jordana-Brewster.-Fast-Furious-Aun-mas-rapido.html",
+                "https://cine61.com.br/2009/04/665-velozes-e-furiosos-4.html/",
+                "https://cinecapsdigest.wordpress.com/1209-2/",
+                "http://www.cineclandestino.it/articolo.asp?sez=18&art=2787"
+              ],
+              "title_type": "Movie",
+              "description": "Fast & Furious (2009), directed by Justin Lin and starring Vin Diesel, Paul Walker, Michelle Rodriguez, Jordana Brewster and Gal Gadot, is an action-thriller that reunites original franchise characters. The plot follows an FBI agent who teams with a fugitive street racer to infiltrate a heroin-importing operation in Los Angeles, reigniting old feuds and loyalties. The film shifts the series toward emotional stakes and revenge-driven drama while retaining high-speed car sequences and underworld crime elements. Its tone mixes adrenaline-fueled spectacle with character-driven conflict and themes of family and redemption.",
+              "finale_year": null,
+              "wikidata_id": "q380996",
+              "plot_summary": "An FBI agent returns to Los Angeles and reluctantly reunites with a fugitive street racer to infiltrate a heroin-importing operation. They embed themselves inside the criminal network while old loyalties and resentments resurface. The mission becomes a tense balance of undercover work, revenge, and high-speed confrontations that pull the crew back together. The stakes grow personal as alliances shift and past losses drive the characters toward a violent showdown.",
+              "release_date": "2009-04-03",
+              "release_year": 2009,
+              "collaborators": [
+                "Justin Lin",
+                "Vin Diesel",
+                "Paul Walker",
+                "Michelle Rodriguez",
+                "Jordana Brewster",
+                "Gal Gadot"
+              ],
+              "content_rating": "PG-13",
+              "release_country": [
+                "United States",
+                "Japan",
+                "Mexico"
+              ],
+              "filming_location": "Dominican Republic, Mexico, Panama City, Panama, 310 West Green Street, Pasadena, California, USA, 722 East Kensington Road, Los Angeles, California, USA, Long Beach, California, USA, Los Angeles, California, USA, Pasadena, California, USA, USA, Backlot, Universal Studios - 100 Universal City Plaza, Universal City, California, USA, San Pedro, Los Angeles, California, USA, Soggy Dry Lake, Lucerne Valley, California, USA, California, USA, Panama, Agua Dulce, California, USA, West 8th Street & South Hoover Street, Los Angeles, California, USA, Santa Clarita, California, USA, Escarpment Studios - 5610 Soto Street, Huntington Park, California, USA, 516 S Anderson St., Los Angeles, California, USA, 3680 Wilshire Boulevard, Los Angeles, California, USA",
+              "audience_identity": "People who seek high-adrenaline entertainment rooted in car culture, appreciate found-family dynamics and loyalty-driven drama, and favor spectacle blended with emotional stakes.",
+              "genre_description": "A high-energy action thriller blending street-racing spectacle with crime-thriller elements and tense interpersonal drama.",
+              "style_description": "A high-octane, kinetic visual approach that emphasizes close-up car action, neon-lit nighttime settings, and polished cinematic set pieces tempered by gritty street-level realism.",
+              "short_descriptions": [
+                {
+                  "value": "An FBI agent reunites with a fugitive street racer to infiltrate a heroin ring, testing loyalty amid high-speed action.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Ein FBI-Agent verbündet sich mit einem flüchtigen Straßenrennfahrer, um ein Drogennetzwerk zu infiltrieren, mit Loyalität, Rache und Highspeed-Action.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un agente del FBI se alía con un fugitivo piloto para infiltrarse en una red de droga, mezclando lealtad, venganza y acción a alta velocidad.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un agent du FBI s'allie à un fugitif pilote pour infiltrer un réseau de drogue, mêlant loyauté, vengeance et action à grande vitesse.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "production_companies": [
+                "Universal Pictures",
+                "Relativity Media",
+                "Original Film",
+                "One Race Productions",
+                "Dentsu",
+                "Universal Pictures",
+                "Bontonfilm",
+                "MegaStar Media Joint Venture",
+                "Solar Entertainment",
+                "Toho-Towa",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures (UIP)",
+                "United International Pictures",
+                "Universal Pictures Canada",
+                "Universal Pictures Germany",
+                "Universal Pictures India",
+                "Universal Pictures International (UPI)",
+                "Universal Pictures Spain",
+                "Universal Pictures UK",
+                "Universal Pictures",
+                "Universal Pictures",
+                "Universal Pictures",
+                "Finnkino",
+                "Argentina Video Home",
+                "Hollywood Suite",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Home Entertainment",
+                "Universal Pictures Video",
+                "Universal Pictures Video",
+                "Universal Studios Home Entertainment",
+                "Universal Studios Home Entertainment",
+                "Cinecanal",
+                "Film1",
+                "2BE",
+                "ION Television",
+                "SBS6",
+                "The Film Zone",
+                "Universal Pictures Home Entertainment (UPHE)",
+                "Universal Pictures Home Entertainment",
+                "Kanal 2",
+                "9Go!"
+              ],
+              "situational_contexts": "Ideal for weekend group viewing or late-night, escapist viewing when one wants fast-paced thrills, car-focused spectacle, and communal excitement.",
+              "influenced_other_media": [
+                "Fast Five"
+              ],
+              "plot_themes_description": "Explores loyalty and found-family bonds tested by revenge and criminal entanglements, and the uneasy compromises between law and outlaw codes.",
+              "emotional_tone_description": "Rousing and adrenaline-fueled, with sudden bursts of personal drama that give the action emotional weight."
+            },
+            "popularity": 0.982397028013564,
+            "tags": [
+              {
+                "id": "urn:tag:keyword:media:male_fugitive",
+                "name": "Male fugitive",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:heist",
+                "name": "Heist",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:man_driving_a_car",
+                "name": "Man driving a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:united_states_of_america",
+                "name": "United states of america",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:truck",
+                "name": "Truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:crushed_by_a_car",
+                "name": "Crushed by a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:investigation",
+                "name": "Investigation",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stolen_car",
+                "name": "Stolen car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bald_man",
+                "name": "Bald man",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stubble",
+                "name": "Stubble",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:car_crash",
+                "name": "Car crash",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:buick",
+                "name": "Buick",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:jumping_through_a_window",
+                "name": "Jumping through a window",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:undercover_operation",
+                "name": "Undercover operation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:interests:qloo:soundtrack_collecting",
+                "name": "Soundtrack collecting",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:undercover_cop",
+                "name": "Undercover cop",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shared_universe",
+                "name": "Shared universe",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:infiniti_car",
+                "name": "Infiniti car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shot_in_the_shoulder",
+                "name": "Shot in the shoulder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:weapon",
+                "name": "Weapon",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nissan",
+                "name": "Nissan",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:punctuation_in_title",
+                "name": "Punctuation in title",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:infrared",
+                "name": "Infrared",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:u_s_mexico_border",
+                "name": "U s mexico border",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:night",
+                "name": "Night",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:handheld_weapon",
+                "name": "Handheld weapon",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:california",
+                "name": "California",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_lawman",
+                "name": "The lawman",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:plymouth_motor_vehicle",
+                "name": "Plymouth motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:mia_toretto_character",
+                "name": "Mia toretto character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:determined",
+                "name": "Determined",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:lamborghini_motor_vehicle",
+                "name": "Lamborghini motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:character_driven",
+                "name": "Character driven",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:neon_drenched",
+                "name": "Neon drenched",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:lamborghini_lm002",
+                "name": "Lamborghini lm002",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:drug_lord",
+                "name": "Drug lord",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:brother_sister_relationship",
+                "name": "Brother sister relationship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hummer_motor_vehicle",
+                "name": "Hummer motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:infiniti_motor_vehicle",
+                "name": "Infiniti motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:los_angeles",
+                "name": "Los angeles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:arrest",
+                "name": "Arrest",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_antihero",
+                "name": "The antihero",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:thrill_seeking",
+                "name": "Thrill seeking",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:robbery",
+                "name": "Robbery",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:evidence_envelope",
+                "name": "Evidence envelope",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:heroin",
+                "name": "Heroin",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:mobile_telephone",
+                "name": "Mobile telephone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shot_in_the_back",
+                "name": "Shot in the back",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:view_in_sideview_mirror",
+                "name": "View in sideview mirror",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:open_ended",
+                "name": "Open ended",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:secret_identity",
+                "name": "Secret identity",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:action_packed",
+                "name": "Action packed",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:telephone_call",
+                "name": "Telephone call",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:underground_tunnel",
+                "name": "Underground tunnel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:killed_by_a_car",
+                "name": "Killed by a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gran_torino",
+                "name": "Gran torino",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:three_word_title",
+                "name": "Three word title",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:epic_action",
+                "name": "Epic action",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:buick_grand_national",
+                "name": "Buick grand national",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:running_across_a_roof",
+                "name": "Running across a roof",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ford_car",
+                "name": "Ford car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nissan_motor_vehicle",
+                "name": "Nissan motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:funeral",
+                "name": "Funeral",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fbi_federal_bureau_of_investigation",
+                "name": "Fbi federal bureau of investigation",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:drama_loving",
+                "name": "Drama loving",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:bald_hero",
+                "name": "Bald hero",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:drug_trafficking",
+                "name": "Drug trafficking",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:undercover_agent",
+                "name": "Undercover agent",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gisele_yashar_character",
+                "name": "Gisele yashar character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:high_octane",
+                "name": "High octane",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:interests:qloo:action_photography",
+                "name": "Action photography",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:sequel",
+                "name": "Sequel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:helicopter",
+                "name": "Helicopter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:los_angeles_california",
+                "name": "Los angeles california",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:beating",
+                "name": "Beating",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hijack",
+                "name": "Hijack",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fingerprint",
+                "name": "Fingerprint",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hummer",
+                "name": "Hummer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:infiniti",
+                "name": "Infiniti",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:foot_pursuit",
+                "name": "Foot pursuit",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nissan_skyline",
+                "name": "Nissan skyline",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ford",
+                "name": "Ford",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:conviction",
+                "name": "Conviction",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tracking_device",
+                "name": "Tracking device",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:buddy_drama",
+                "name": "Buddy drama",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:impound_yard",
+                "name": "Impound yard",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:fast_paced",
+                "name": "Fast paced",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:hand_tool",
+                "name": "Hand tool",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:buick_motor_vehicle",
+                "name": "Buick motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:semi_truck_and_trailer",
+                "name": "Semi truck and trailer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:monitor",
+                "name": "Monitor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tunnel_chase_scene",
+                "name": "Tunnel chase scene",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bmw_car",
+                "name": "Bmw car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fourth_part",
+                "name": "Fourth part",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:loss_of_loved_one",
+                "name": "Loss of loved one",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:attempted_murder",
+                "name": "Attempted murder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:close_quarter",
+                "name": "Close quarter",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:brotherhood",
+                "name": "Brotherhood",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:crew",
+                "name": "Crew",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:impostor",
+                "name": "Impostor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:street_racing",
+                "name": "Street racing",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:gasoline",
+                "name": "Gasoline",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:returning_character_killed_off",
+                "name": "Returning character killed off",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:buick_car",
+                "name": "Buick car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:execution_style_shooting",
+                "name": "Execution style shooting",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:motor_vehicle",
+                "name": "Motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:action_epic",
+                "name": "Action epic",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:dodge_charger",
+                "name": "Dodge charger",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:handgun",
+                "name": "Handgun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:revenge_quest",
+                "name": "Revenge quest",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:jumping_from_a_car",
+                "name": "Jumping from a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:action_oriented",
+                "name": "Action oriented",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:car_race",
+                "name": "Car race",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:han_seoul_oh_character",
+                "name": "Han seoul oh character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:desert",
+                "name": "Desert",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:heist",
+                "name": "Heist",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:mexico",
+                "name": "Mexico",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:modified_motor_vehicle",
+                "name": "Modified motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chevrolet_car",
+                "name": "Chevrolet car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chase",
+                "name": "Chase",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flatbed_truck",
+                "name": "Flatbed truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shootout",
+                "name": "Shootout",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:tire_screeching",
+                "name": "Tire screeching",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:letty_ortiz_character",
+                "name": "Letty ortiz character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:melodramatic",
+                "name": "Melodramatic",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:bus",
+                "name": "Bus",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:aircraft",
+                "name": "Aircraft",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:acura_nsx",
+                "name": "Acura nsx",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chevrolet_camaro",
+                "name": "Chevrolet camaro",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:crime_thriller",
+                "name": "Crime thriller",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:hummer_h1",
+                "name": "Hummer h1",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flip_phone",
+                "name": "Flip phone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cemetery",
+                "name": "Cemetery",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:plymouth_road_runner",
+                "name": "Plymouth road runner",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:driving_a_car",
+                "name": "Driving a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:foot_chase",
+                "name": "Foot chase",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bmw",
+                "name": "Bmw",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:swat_team",
+                "name": "Swat team",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:actor_reprises_previous_role",
+                "name": "Actor reprises previous role",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:flashback",
+                "name": "Flashback",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:lighter",
+                "name": "Lighter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fbi",
+                "name": "Fbi",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:no_opening_credits",
+                "name": "No opening credits",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shot_in_the_chest",
+                "name": "Shot in the chest",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:infiniti_g35",
+                "name": "Infiniti g35",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:american_abroad",
+                "name": "American abroad",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tunnel",
+                "name": "Tunnel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:brother",
+                "name": "Brother",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:german_car",
+                "name": "German car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:subtitled_scene",
+                "name": "Subtitled scene",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:high_speed_driving",
+                "name": "High speed driving",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:church",
+                "name": "Church",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:shot_to_death",
+                "name": "Shot to death",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fuel_heist",
+                "name": "Fuel heist",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:machine_gun",
+                "name": "Machine gun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:dodge_motor_vehicle",
+                "name": "Dodge motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:stolen_drugs",
+                "name": "Stolen drugs",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:stylized",
+                "name": "Stylized",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:methamphetamine",
+                "name": "Methamphetamine",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:sister",
+                "name": "Sister",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:legacy_sequel",
+                "name": "Legacy sequel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:car_customization",
+                "name": "Car customization",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:cell_phone",
+                "name": "Cell phone",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fbi",
+                "name": "Fbi",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:muscular_man",
+                "name": "Muscular man",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:subaru_impreza",
+                "name": "Subaru impreza",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:vehicle",
+                "name": "Vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:speeding_vehicle",
+                "name": "Speeding vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:motor",
+                "name": "Motor",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:t_boned",
+                "name": "T boned",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gas_guzzler",
+                "name": "Gas guzzler",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:drug_smuggling",
+                "name": "Drug smuggling",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:action_hero",
+                "name": "Action hero",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:apartment",
+                "name": "Apartment",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:panama_city_panama",
+                "name": "Panama city panama",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:stunt_choreography",
+                "name": "Stunt choreography",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:kinetic",
+                "name": "Kinetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:walkie_talkie",
+                "name": "Walkie talkie",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:blockbuster",
+                "name": "Blockbuster",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:street_racing",
+                "name": "Street racing",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ford_mustang",
+                "name": "Ford mustang",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:subaru",
+                "name": "Subaru",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:held_at_gunpoint",
+                "name": "Held at gunpoint",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:protective",
+                "name": "Protective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:ford_gran_torino",
+                "name": "Ford gran torino",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:car_accident",
+                "name": "Car accident",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_outlaw",
+                "name": "The outlaw",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:exploding_vehicle",
+                "name": "Exploding vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:qloo:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:motor_truck",
+                "name": "Motor truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fugitive",
+                "name": "Fugitive",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:informant",
+                "name": "Informant",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:body_lands_on_a_car",
+                "name": "Body lands on a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:peterbilt",
+                "name": "Peterbilt",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:closing_credits_sequence",
+                "name": "Closing credits sequence",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:stoic",
+                "name": "Stoic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:fuel_truck",
+                "name": "Fuel truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:dominican_republic",
+                "name": "Dominican republic",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fast_and_furious",
+                "name": "Fast and furious",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nissan_gt_r",
+                "name": "Nissan gt r",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:gun",
+                "name": "Gun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:reference_to_tokyo_japan",
+                "name": "Reference to tokyo japan",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:semi_trailer",
+                "name": "Semi trailer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:raid",
+                "name": "Raid",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:heist",
+                "name": "Heist",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:grave",
+                "name": "Grave",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chevrolet_motor_vehicle",
+                "name": "Chevrolet motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:diner",
+                "name": "Diner",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:peterbilt_motor_vehicle",
+                "name": "Peterbilt motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:2000s",
+                "name": "2000s",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:handheld_device",
+                "name": "Handheld device",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:u_s_car",
+                "name": "U s car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:firearm",
+                "name": "Firearm",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:animal",
+                "name": "Animal",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:audience:qloo:genre_savvy",
+                "name": "Genre savvy",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:car_action",
+                "name": "Car action",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chevrolet",
+                "name": "Chevrolet",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chevrolet_chevelle",
+                "name": "Chevrolet chevelle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:resourceful",
+                "name": "Resourceful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:suv",
+                "name": "Suv",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:chinese_takeout",
+                "name": "Chinese takeout",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:driving",
+                "name": "Driving",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:actress_reprises_previous_role",
+                "name": "Actress reprises previous role",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:ambiguous_ending",
+                "name": "Ambiguous ending",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nitrous_oxide",
+                "name": "Nitrous oxide",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fast_and_furious_franchise",
+                "name": "Fast and furious franchise",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hijacking",
+                "name": "Hijacking",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:21st_century",
+                "name": "21st century",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:exploding_truck",
+                "name": "Exploding truck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nissan_240sx",
+                "name": "Nissan 240sx",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:punched_in_the_stomach",
+                "name": "Punched in the stomach",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:brian_oconner_character",
+                "name": "Brian oconner character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:punched_in_the_face",
+                "name": "Punched in the face",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:interquel",
+                "name": "Interquel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:secret_tunnel",
+                "name": "Secret tunnel",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:t_bone_car_crash",
+                "name": "T bone car crash",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:car_chases",
+                "name": "Car chases",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:driving_high_speed_in_reverse",
+                "name": "Driving high speed in reverse",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:bmw_motor_vehicle",
+                "name": "Bmw motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:driving_in_reverse",
+                "name": "Driving in reverse",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tattooed_arm",
+                "name": "Tattooed arm",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:plot:qloo:revenge_driven",
+                "name": "Revenge driven",
+                "type": "urn:tag:plot:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:speeding_car",
+                "name": "Speeding car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:genre:media:action",
+                "name": "Action",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:pistol",
+                "name": "Pistol",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tuna_sandwich",
+                "name": "Tuna sandwich",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loyalty",
+                "name": "Loyalty",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:kidnapping",
+                "name": "Kidnapping",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:semi_automatic_pistol",
+                "name": "Semi automatic pistol",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:character:qloo:conflicted",
+                "name": "Conflicted",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:japanese_car",
+                "name": "Japanese car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hit_by_a_car",
+                "name": "Hit by a car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:party",
+                "name": "Party",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:exploding_car",
+                "name": "Exploding car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:car",
+                "name": "Car",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:theme:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:man_wears_eyeglasses",
+                "name": "Man wears eyeglasses",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:panama",
+                "name": "Panama",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:henchman",
+                "name": "Henchman",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:satellite_feed",
+                "name": "Satellite feed",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:nighttime",
+                "name": "Nighttime",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:archetype:qloo:the_family",
+                "name": "The family",
+                "type": "urn:tag:archetype:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:rotorcraft",
+                "name": "Rotorcraft",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:style:qloo:street_level",
+                "name": "Street level",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:vengeful",
+                "name": "Vengeful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:subaru_motor_vehicle",
+                "name": "Subaru motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shot_in_the_head",
+                "name": "Shot in the head",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shooting_a_man",
+                "name": "Shooting a man",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:club",
+                "name": "Club",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cathedral",
+                "name": "Cathedral",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:car_chase",
+                "name": "Car chase",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:revelation",
+                "name": "Revelation",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:recurring_character",
+                "name": "Recurring character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tattooed_neck",
+                "name": "Tattooed neck",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:shotgun",
+                "name": "Shotgun",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:fbi_agent",
+                "name": "Fbi agent",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:male_protagonist",
+                "name": "Male protagonist",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:interests:qloo:motorsports",
+                "name": "Motorsports",
+                "type": "urn:tag:interests:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:ford_motor_vehicle",
+                "name": "Ford motor vehicle",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:explosion",
+                "name": "Explosion",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:rice",
+                "name": "Rice",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:driver",
+                "name": "Driver",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fugitive",
+                "name": "Fugitive",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:media:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:tattooed_man",
+                "name": "Tattooed man",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:heroin",
+                "name": "Heroin",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:lesbian",
+                "name": "Lesbian",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:hammer",
+                "name": "Hammer",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:dominic_toretto_character",
+                "name": "Dominic toretto character",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:cigarette_lighter",
+                "name": "Cigarette lighter",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:prison_bus",
+                "name": "Prison bus",
+                "type": "urn:tag:keyword:media"
+              },
+              {
+                "id": "urn:tag:keyword:media:semi_automatic_weapon",
+                "name": "Semi automatic weapon",
+                "type": "urn:tag:keyword:media"
+              }
+            ],
+            "query": {
+              "affinity": 0.6596099466946965,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "2009, Justin Lin",
+            "external": {
+              "imdb": [
+                {
+                  "id": "tt1013752",
+                  "user_rating": 6.5,
+                  "user_rating_count": 340944
+                }
+              ],
+              "netflix": [
+                {
+                  "id": "70103761"
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "fastfurious"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q380996"
+                }
+              ],
+              "letterboxd": [
+                {
+                  "id": "fast-furious"
+                }
+              ],
+              "metacritic": [
+                {
+                  "id": "fast-furious",
+                  "user_rating": 6.4,
+                  "critic_rating": 46
+                }
+              ],
+              "rottentomatoes": [
+                {
+                  "id": "fast_and_furious",
+                  "user_rating": 67,
+                  "critic_rating": 29,
+                  "user_rating_count": 250000,
+                  "critic_rating_count": 174
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

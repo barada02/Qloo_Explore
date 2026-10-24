@@ -1,0 +1,153 @@
+{
+  "tool": "qloo_audience_demographics",
+  "arguments": {
+    "entity": "Huberman Lab",
+    "entity_type": "podcast"
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "audience_demographics",
+    "status": "ok",
+    "interpretation": {
+      "entity": {
+        "input": "Huberman Lab",
+        "entityId": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+        "name": "Huberman Lab",
+        "type": "urn:entity:podcast",
+        "match": "exact"
+      }
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Huberman Lab",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "name": "Huberman Lab",
+            "type": "urn:entity:podcast",
+            "popularity": 0.9892078824195808,
+            "description": "Exploring neuroscience and science-based tools to understand brain function, behavior, and health."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false,
+            "cache_status": "memory_hit"
+          },
+          "alternatives": [
+            {
+              "id": "2DAD094C-3827-4361-BB2F-08079C4B042A",
+              "name": "The Happiness Lab with Dr. Laurie Santos",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9635989625257133,
+              "description": "Yale professor Dr. Laurie Santos reveals surprising insights from happiness research that challenge common beliefs about leading a happier life."
+            },
+            {
+              "id": "E4EA9AB0-B333-42F4-ACF8-5D6B43D4209D",
+              "name": "Omnic Lab: A Strategic Overwatch Podcast",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9213546790686581,
+              "description": "A podcast focused on strategies for the game Overwatch, offering tips and team composition insights for players."
+            },
+            {
+              "id": "9CDB08ED-7194-4812-95BC-CEC954A40615",
+              "name": "The Speaker Lab Podcast",
+              "type": "urn:entity:podcast",
+              "popularity": 0.9023939421041648,
+              "description": "Learn business tactics and speaking tips to get booked and paid as a speaker consistently."
+            },
+            {
+              "id": "21DAE654-11D0-46A6-AEF5-E390C5ACF862",
+              "name": "Comic Lab",
+              "type": "urn:entity:podcast",
+              "popularity": 0.7749157797454014,
+              "description": "A podcast offering tips, tricks, and insights on creating comics and making a living as a cartoonist."
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+        "query": {
+          "age": {
+            "24_and_younger": -0.046000000000000006,
+            "25_to_29": -0.16599999999999998,
+            "30_to_34": -0.11600000000000002,
+            "35_to_44": 0.15800000000000006,
+            "45_to_54": -0.10599999999999996,
+            "55_and_older": -0.576
+          },
+          "gender": {
+            "male": 0.418,
+            "female": -0.418
+          }
+        }
+      }
+    ],
+    "result_count": 1,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/demographics-use-case",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:demographics",
+            "signal.interests.entities": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "take": 10
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "audience_demographics",
+      "job": "audience_demographics",
+      "signals": {},
+      "filters": {},
+      "operators": {},
+      "output": {
+        "limit": 10
+      },
+      "assumptions": [
+        "limit=10"
+      ],
+      "unresolved": [],
+      "target": {
+        "type": "podcast",
+        "entities": [
+          "Huberman Lab"
+        ]
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-9",
+      "duration_ms": 322
+    }
+  }
+}
