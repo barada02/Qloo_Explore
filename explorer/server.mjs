@@ -9,6 +9,8 @@ import { join } from "node:path";
 import { loadConfig, redact, ROOT, RESULTS_DIR } from "./lib/config.mjs";
 import { connectQlooMcp, envelopeOf, EXAMPLES } from "./lib/mcp.mjs";
 import { qlooGet, firstList, label } from "./lib/rest.mjs";
+import { runAgent, DEFAULT_MODEL } from "./lib/agent.mjs";
+import { QUESTIONS } from "./lib/questions.mjs";
 
 const REST_PATHS = new Set([
   "/", "/entities", "/search", "/v2/analysis/compare", "/v2/audiences", "/v2/audiences/types",
@@ -70,6 +72,16 @@ const routes = {
   "GET /api/status": async () => ({ baseUrl: config.baseUrl, hasKey: Boolean(config.apiKey) }),
   "GET /api/reference": async () => JSON.parse(await readFile(join(ROOT, "reference", "endpoints.json"), "utf8")),
   "GET /api/results": listResults,
+  "GET /api/questions": async () => ({ model: DEFAULT_MODEL, hasGemini: Boolean(process.env.GEMINI_API_KEY), questions: QUESTIONS }),
+  "POST /api/ask": async ({ question }) => {
+    if (typeof question !== "string" || !question.trim()) throw fail(400, "question is required");
+    const failed = (error) => ({ answer: `ERROR: ${error.message}`, trace: [], ms: 0, tokens: 0 });
+    const [plain, qloo] = await Promise.all([
+      runAgent({ question }).catch(failed),
+      mcp().then((client) => runAgent({ question, mcpClient: client })).catch(failed),
+    ]);
+    return { model: DEFAULT_MODEL, plain, qloo };
+  },
   "GET /api/tools": async () => {
     const { tools } = await (await mcp()).listTools();
     return tools.map((t) => ({ name: t.name, description: t.description, inputSchema: t.inputSchema, example: EXAMPLES[t.name] ?? {} }));

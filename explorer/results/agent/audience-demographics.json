@@ -1,0 +1,41 @@
+{
+  "id": "audience-demographics",
+  "q": "Compare the age and gender skew of Taylor Swift fans and Radiohead fans.",
+  "why": "Measured audience demographics",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "**Demographic Comparison**\n* **Taylor Swift:** Skews heavily female (roughly 65–70%) and dominates Gen Z and Millennials (ages 15–35). Her audience is generational, increasingly pulling in younger teens alongside original fans now in their late thirties.\n* **Radiohead:** Skews moderately to heavily male (roughly 60–65%) and concentrates in Gen X and elder Millennials (ages 35–55), anchored by the 1990s alternative rock and 2000s indie eras.\n\n---\n\n**Cross-Over Recommendations**\nIf you want to explore the bridge between these two distinct cultural demographics:\n\n1. **Taylor Swift – *Folklore* (2020)**  \n   *Why it fits for Radiohead fans:* Co-produced by The National’s Aaron Dessner, this stripped-back, melancholic indie-folk record trades pop maximalism for moody textures and intricate character studies that appeal to classic alternative listeners.\n\n2. **Radiohead – *In Rainbows* (2007)**  \n   *Why it fits for Swifties:* Radiohead’s warmest, most romantic, and melodically immediate album. Songs like \"House of Cards\" and \"Nude\" offer the emotional vulnerability and infectious hooks Swift fans prioritize, wrapped in pristine art-rock production.\n\n3. **Phoebe Bridgers – *Punisher* (2020)**  \n   *Why it fits both:* The exact demographic sweet spot. It marries Swift-style diary-entry confessional songwriting with the lush, ambient, existential gloom characteristic of Radiohead.",
+    "trace": [],
+    "ms": 11706,
+    "tokens": 1099,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "According to Qloo audience demographic affinity data, **Taylor Swift** and **Radiohead** exhibit contrasting audience profiles across both gender and age distributions:\n\n### **Gender Skew**\n* **Taylor Swift:** Shows a pronounced **female skew** (+0.38 female affinity vs. -0.38 male affinity).\n* **Radiohead:** Tilts slightly **male** (+0.09 male affinity vs. -0.09 female affinity), presenting a much more gender-balanced audience than Swift's.\n\n### **Age Skew**\n* **Taylor Swift (Millennial Core):** Heavily indexes among younger adult millennials:\n  * **25–29:** **+0.43** (peak affinity)\n  * **30–34:** **+0.33**\n  * **35–44:** **+0.06**\n  * Her audience drops sharply among older cohorts, under-indexing at **-0.49** for both 45–54 and 55+.\n* **Radiohead (Gen X & Older Millennial Core):** Skews noticeably older, aligning with the 1990s alternative rock era:\n  * **35–44:** **+0.19** (peak affinity)\n  * **45–54:** **+0.14**\n  * **55 and older:** **+0.04**\n  * Radiohead significantly under-indexes among younger adults, bottoming out at **-0.72** for ages 30–34 and **-0.14** for ages 25–29.\n\nIn summary, Swift's core base is predominantly female and concentrated between ages 25 and 34, whereas Radiohead's base leans slightly male and peaks among listeners aged 35 to 54.",
+    "trace": [
+      {
+        "tool": "qloo_audience_demographics",
+        "args": {
+          "entity": "Taylor Swift",
+          "entity_type": "artist"
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 1266
+      },
+      {
+        "tool": "qloo_audience_demographics",
+        "args": {
+          "entity": "Radiohead",
+          "entity_type": "artist"
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 614
+      }
+    ],
+    "ms": 13936,
+    "tokens": 9131,
+    "model": "gemini-flash-latest"
+  }
+}

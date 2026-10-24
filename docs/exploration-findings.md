@@ -90,17 +90,34 @@ paging, location radius).
 - 18 `/entities` `external.*` id types (we have no real ids for them).
 - Quality of results for non-English or niche entities; stability of results over time.
 
-## LLM integration plan (proposed, not started)
+## Does Qloo add value? Local A/B test (Gemini alone vs Gemini + Qloo tools)
 
-Goal: an agent that is clearly better because of Qloo (hackathon rule: it must not work the same without Qloo).
+Setup: `explorer/lib/agent.mjs` (Gemini function calling over the 10 Qloo MCP tools), run with `node --env-file=.env ask.mjs "question"`,
+`node --env-file=.env battery.mjs` (9 questions, side-by-side report in `results/AGENT_REPORT.md`), or the **Ask (A/B)** tab in the UI.
+Model `gemini-flash-latest`. One run per question, judged by reading the answers: treat this as directional, not a benchmark.
 
-- **Model:** Google Gemini, called through the Vercel AI SDK (`ai` + `@ai-sdk/google`) with function calling.
-  The model decides which Qloo tool to call; Qloo supplies the facts; Gemini writes the answer and explains the "why".
-- **Qloo access:** the harness package exports `createDirectQlooWorkflowExecutorFromEnvironment` and `createQlooTools`,
-  which run the same workflows in-process (no stdio child), so they can run on serverless. Fallback: our own thin
-  tools over the REST client in `explorer/lib/rest.mjs`. Verify before relying on it.
-- **Hosting:** Vercel fits the "live hosted demo" requirement. Keep the Qloo and Gemini keys in Vercel environment
-  variables, never in the browser. Set a long `maxDuration` on the agent route (Qloo calls can take 20 s), cache Qloo
-  responses, and rate-limit per visitor so a public demo does not burn the 50,000/month quota.
-- **Proof it beats a plain LLM:** build an A/B view in the demo (same question answered with and without Qloo).
-- **Submission checklist:** public repo, open-source license file, live URL, text description (see `Hackathon_info`).
+| Question type | Verdict | Why |
+| --- | --- | --- |
+| Live popularity trend (Dune, 2026) | **Qloo clearly wins** | Plain Gemini did not answer the question and asserted a trend it cannot know. Qloo returned a real series (rank #81, flat). |
+| Audience demographics of a podcast or artist | **Qloo wins** | Measured age and gender skew that differs from the LLM's guess (Swift fans peak 25-34, Radiohead 35-44 and near gender-balanced; plain Gemini said Gen Z and 60-65% male). |
+| Brand affinity of a niche audience (Elden Ring, Huberman Lab) | **Qloo wins for B2B use** | Plain Gemini gave creative on-theme guesses (Liquid Death, Warhammer). Qloo gave audience-overlap brands with scores (Razer, Twitch, Onnit, Whoop). More defensible for a sponsor or marketer. |
+| Cross-domain recommendation (show + band to podcast + game) | Slight Qloo edge | Both reasonable. Qloo's pick (Bill Burr podcast) comes with an explainable score split by source taste. |
+| Taste to places (Lisbon) | **Plain Gemini better** | Qloo returned landmarks and viewpoints, plain Gemini returned specific restaurants and bars. |
+| Where fans live (record store in NYC) | Tie | Both named the same neighborhoods. Qloo's affinities were all about 0.99, so they barely discriminate. |
+| Rank brands for a demographic and city | Qloo weak | Messy multi-call answer, inconsistent logic, 36 s, 50k tokens. |
+
+**Takeaways**
+1. Qloo is valuable where the answer needs *measured* data an LLM does not have: audience demographics, audience-to-brand affinity,
+   live trends. That points to B2B ideas (sponsorship matching, audience analytics, marketing/site selection), not consumer "recommend me X".
+2. For consumer taste recommendations the LLM alone is already good, so a consumer app must lean on the data it uniquely has (explainability, cross-domain scores, demographics).
+3. Cost: the Qloo side used 5 to 40 times more tokens (9k to 53k vs about 1k) and was 1.3 to 3 times slower (14 to 36 s). Mostly from
+   `needs_input` retries and large tool results. Fixable: resolve names to UUIDs up front, cache, trim results harder.
+4. Raw affinity numbers need translating: demographic values are indices (+0.4 / -0.4), not percentages, and the agent sometimes presents them as if they were percentages.
+5. The agent must handle `needs_input` itself (pick the candidate by type and popularity), which it did correctly.
+
+## Next steps
+
+- Reduce tool-call waste: resolve entities once via `/search`, pass UUIDs, cache per session.
+- Try the strongest B2B shapes from `docs/ideation.md` against real calls (podcast sponsor matching, audience report for a brand, site selection).
+- Hosting is deferred until an idea is chosen (the stdio `qloo mcp` server needs a long-running process; the harness also exports an in-process executor to try later).
+- Submission checklist is in `Hackathon_info`: public repo, open-source license, live URL, text description.

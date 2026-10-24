@@ -1,0 +1,89 @@
+{
+  "id": "lisbon",
+  "q": "I love Radiohead and The Grand Budapest Hotel. Where should I eat and hang out in Lisbon?",
+  "why": "Taste-to-place recommendation",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "Here is your tailored Lisbon hit list, balancing Wes Anderson’s vintage whimsy with Radiohead’s moody, avant-garde edge:\n\n**To Eat:**\n*   **Taberna da Rua das Flores (Chiado):** An intimate, nostalgic jewel box of a bistro. With its retro tiled interior, handwritten chalkboard menus, and inventive spins on classic Portuguese fare, it captures the meticulous, storybook charm of the Zubrowka Republic.\n*   **Prado (Sé):** Clean-lined, plant-draped, and fiercely focused on seasonal, farm-to-table small plates paired with natural wines. Its minimalist elegance and creative restraint reflect the disciplined brilliance of *In Rainbows*.\n\n**To Hang Out & Drink:**\n*   **Pavilhão Chinês (Príncipe Real):** A surreal, multi-room cocktail bar that feels like a living prop house from a Wes Anderson film. Sip an old-fashioned surrounded by floor-to-ceiling glass cabinets of antique toy soldiers, vintage mannequins, and kitsch oddities, served by bartenders in waistcoats. \n*   **Galeria Zé dos Bois / ZDB (Bairro Alto):** Lisbon’s creative nervous system. Housed in a crumbling 18th-century palace, it hosts avant-garde art exhibits, experimental and indie live music, and features a moody rooftop terrace. Pure Radiohead DNA.\n*   **Toca da Raposa (Baixa):** A sleek, stone-clad, low-lit den serving avant-garde cocktails made entirely with native, foraged Portuguese botanicals. It’s moody, textural, and uncompromisingly modern.",
+    "trace": [],
+    "ms": 12964,
+    "tokens": 1290,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "Based on audience affinity data connecting **Radiohead** and Wes Anderson’s ***The Grand Budapest Hotel***, here are the top Lisbon spots tailored to your taste for cinematic charm and indie culture:\n\n* **Palácio Belmonte Café & Bar (Alfama / Castelo)** *(Affinity: 0.875)*  \n  Tucked beside a 15th-century palace, this quiet spot captures the timeless, ornate storybook atmosphere of *The Grand Budapest Hotel* with an artistic, low-key vibe that strongly skews toward Radiohead listeners (53% signal weight).\n\n* **Bar Terraço de Santa Luzia (Alfama)** *(Affinity: 0.890)*  \n  Perched next to the blue-and-white tiled Igreja de Santa Luzia, this rooftop terrace pairs drinks and casual dining with symmetrical, pastel-hued panoramas over the old city—pure Wes Anderson framing.\n\n* **Pink Street / Rua Nova do Carvalho (Cais do Sodré)** *(Affinity: 0.893)*  \n  For evening drinks, food, and music, this vibrant pedestrian corridor hits the moody, unconventional nightlife aesthetic favored by alternative rock fans.\n\n* **Museum of Contemporary Art – MAC/CCB (Belém)** *(Affinity: 0.894)*  \n  A great cultural hangout featuring modernist masters (Bacon, Warhol) and quiet courtyards. It shows strong affinity with Radiohead fans (53.7% signal weight) who appreciate bold, experimental design.",
+    "trace": [
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "filter_location": "Lisbon",
+          "target_type": "place",
+          "signals": [
+            "Radiohead",
+            "The Grand Budapest Hotel"
+          ],
+          "limit": 8
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved Qloo inputs.",
+        "count": 0,
+        "ms": 1051
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "The Grand Budapest Hotel"
+          ],
+          "filter_location": "Lisbon",
+          "target_type": "place",
+          "limit": 8
+        },
+        "status": "ok",
+        "count": 8,
+        "ms": 1287
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "include_tags": [
+            "restaurant"
+          ],
+          "filter_location": "Lisbon",
+          "target_type": "place",
+          "limit": 5,
+          "signals": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+          ]
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved Qloo inputs.",
+        "count": 0,
+        "ms": 922
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "include_tags": [
+            "urn:tag:genre:place:restaurant"
+          ],
+          "target_type": "place",
+          "signals": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+          ],
+          "limit": 5,
+          "filter_location": "Lisbon"
+        },
+        "status": "ok",
+        "count": 5,
+        "ms": 929
+      }
+    ],
+    "ms": 25211,
+    "tokens": 40276,
+    "model": "gemini-flash-latest"
+  }
+}

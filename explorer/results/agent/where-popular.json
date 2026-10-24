@@ -1,0 +1,32 @@
+{
+  "id": "where-popular",
+  "q": "I want to open a record store in New York. Which parts of the city have the most Radiohead fans?",
+  "why": "Geographic affinity heatmap",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "To attract NYC’s highest concentration of Radiohead fans, focus on neighborhoods dense with dedicated music nerds, indie nostalgia, and strong vinyl purchasing power:\n\n*   **Greenpoint, Brooklyn:** The premier choice. It is the epicenter of the city’s contemporary indie music culture, packed with 30-to-40-something creative professionals who came of age during the *OK Computer* and *In Rainbows* eras and have the disposable income to invest in deluxe vinyl reissues.\n*   **East Village, Manhattan:** Steeped in decades of rock counterculture, this area attracts both aging alternative-rock purists and NYU students discovering *The Bends* and *Pablo Honey*. High foot traffic makes it ideal for casual browser-to-buyer conversions.\n*   **Ridgewood (Queens) / Bushwick (Brooklyn):** The destination for fans of Radiohead’s more experimental, electronic-leaning output like *Kid A*, *Amnesiac*, and Thom Yorke’s solo projects. The local crowd prioritizes artistic innovation, analog gear, and boundary-pushing sound.\n*   **Gowanus / Park Slope, Brooklyn:** A stronghold for affluent, elder-Millennial and Gen-X music obsessives. These are the collectors who attend shows at nearby Bell House, care about pristine audio fidelity, and actively seek out rare pressings and box sets. \n\n**Top Recommendation:** **Greenpoint**, ideally near the Franklin Street or Manhattan Avenue corridors, offers the best overlap of foot traffic, music pedigree, and ready-to-spend fans.",
+    "trace": [],
+    "ms": 12014,
+    "tokens": 1086,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "Based on Qloo’s geographic affinity data for **Radiohead** across New York City, the strongest fan concentrations cluster in North Brooklyn and Lower Manhattan:\n\n1. **Williamsburg / Greenpoint / East Bushwick (Brooklyn)**  \n   * **Affinity:** **1.0** (Rank: **0.9937**, Popularity: **0.9983**)  \n   * **Why it fits:** This area represents the single highest relative affinity peak in the city for Radiohead. Its established culture of indie music venues, vinyl collectors, and creative demographics makes it the premier location for an art-rock/alternative record shop.\n\n2. **Lower East Side / East Village (Manhattan)**  \n   * **Affinity:** **0.9994** (Rank: **0.9930**, Popularity: **0.9994**)  \n   * **Why it fits:** Manhattan’s historic music corridor shows nearly identical affinity. The neighborhood’s dense foot traffic, vintage-retail ecosystem, and dedicated alternative listening audience make it ideal for a niche record boutique.\n\n3. **Park Slope / Gowanus (Brooklyn)**  \n   * **Affinity:** **0.9961** (Rank: **0.9895**, Popularity: **0.9972**)  \n   * **Why it fits:** High concentration of older millennials and Gen X music enthusiasts with strong purchasing power for physical media, box sets, and catalog vinyl.\n\n4. **Midtown / Hell's Kitchen (Manhattan)**  \n   * **Affinity:** **0.9983** (Rank: **0.9910**, Popularity: **1.0**)  \n   * **Why it fits:** While commercial rents are higher, audience affinity remains among the city's top percentiles, driven by heavy daily commuter and tourist foot traffic.\n\n**Top Recommendation:** Target **North Brooklyn (Williamsburg/Greenpoint)** or the **East Village/Lower East Side** to maximize organic fan concentration and record-buying culture.",
+    "trace": [
+      {
+        "tool": "qloo_where_popular",
+        "args": {
+          "within": "New York, NY",
+          "entity_type": "artist",
+          "entity": "Radiohead"
+        },
+        "status": "ok",
+        "count": 10,
+        "ms": 2081
+      }
+    ],
+    "ms": 16500,
+    "tokens": 9513,
+    "model": "gemini-flash-latest"
+  }
+}

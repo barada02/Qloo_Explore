@@ -1,0 +1,75 @@
+{
+  "id": "cross-domain",
+  "q": "I loved Breaking Bad and Radiohead. Recommend one podcast and one video game I would like, and why.",
+  "why": "Cross-domain taste transfer",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "**Podcast: *S-Town***\nLike *Breaking Bad*, it explores the slow, tragic unraveling of a brilliant, deeply flawed man in a town he despises. It begins as a southern-gothic true crime investigation but quickly evolves into a profound, novelistic character study about isolation, obsession, and mental decay. Its melancholic, beautifully produced sound design echoes the poetic alienation of Radiohead, leaving you with that same haunting sense of existential weight.\n\n**Video Game: *Disco Elysium***\nThis is the ultimate intersection of your two tastes. You play a self-destructive, amnesiac detective investigating a grim murder while spiraling through addiction, guilt, and moral collapse—echoing Walter White’s darker psychological terrain. Tonally, it matches Radiohead’s DNA: deeply intellectual, politically disillusioned, paranoid, and dripping with bleak art-rock atmosphere. It features world-class writing that takes your worst impulses seriously and treats human failure with dark humor and brutal honesty.",
+    "trace": [],
+    "ms": 10089,
+    "tokens": 954,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "Based on taste graph affinity data for **Breaking Bad** and **Radiohead**, here are the top-ranked recommendations:\n\n### **Podcast: *Monday Morning Podcast* with Bill Burr**\n* **Affinity Score:** 0.926 (driven 59.4% by *Breaking Bad*, 40.6% by *Radiohead*)\n* **Why it fits:** Beyond the direct connection—Bill Burr played Saul Goodman’s henchman Patrick Kuby in *Breaking Bad*—his podcast channels the same acerbic, raw, anti-establishment energy found in both Walter White’s disillusionment and Radiohead’s countercultural edge. Burr's unfiltered, cynical monologues about modern life resonate strongly with fans drawn to high-tension, morally complex storytelling and angst-driven art.\n\n### **Video Game: *Red Dead Redemption***\n* **Affinity Score:** 0.829 (driven 56.4% by *Breaking Bad*, 43.6% by *Radiohead*)\n* **Why it fits:** Taking the #1 gaming spot, this Western epic mirrors *Breaking Bad*’s stark southwestern landscape and thematic core: an outlaw trapped by his past, navigating moral decay and inevitable tragedy. The game’s vast, melancholic frontier atmosphere and haunting acoustic soundscapes capture the introspective, cinematic mood quintessential to Radiohead.",
+    "trace": [
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "Breaking Bad",
+            "Radiohead"
+          ],
+          "target_type": "podcast"
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved Qloo inputs.",
+        "count": 0,
+        "ms": 938
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "target_type": "videogame",
+          "signals": [
+            "Breaking Bad",
+            "Radiohead"
+          ]
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved Qloo inputs.",
+        "count": 0,
+        "ms": 4
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "D03D0913-A7B9-4C46-BFEB-958C1B3FA387",
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+          ],
+          "target_type": "podcast"
+        },
+        "status": "ok",
+        "count": 10,
+        "ms": 1518
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "D03D0913-A7B9-4C46-BFEB-958C1B3FA387",
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+          ],
+          "target_type": "videogame"
+        },
+        "status": "ok",
+        "count": 10,
+        "ms": 426
+      }
+    ],
+    "ms": 20760,
+    "tokens": 22706,
+    "model": "gemini-flash-latest"
+  }
+}

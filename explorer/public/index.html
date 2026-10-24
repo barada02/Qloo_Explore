@@ -51,6 +51,8 @@
   dialog { width:min(1000px, 94vw); max-height:90vh; border:1px solid var(--line); border-radius:10px; background:var(--panel); color:var(--ink); padding:16px; }
   dialog::backdrop { background:rgba(0,0,0,.45); }
   .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .ab { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; } @media (max-width: 860px) { .ab { grid-template-columns:1fr; } }
+  .answer { white-space:pre-wrap; margin-top:8px; }
   [hidden] { display:none !important; }
 </style>
 </head>
@@ -60,6 +62,7 @@
   <nav>
     <button data-view="reference" class="active">Reference</button>
     <button data-view="results">All saved results</button>
+    <button data-view="ask">Ask (A/B)</button>
     <button data-view="playground">Playground</button>
   </nav>
 </header>
@@ -80,6 +83,17 @@
       <thead><tr><th>Call</th><th>Endpoint / tool</th><th>Result</th><th>ms</th><th>Items</th><th>Sample</th></tr></thead>
       <tbody id="res-body"></tbody>
     </table></div>
+  </section>
+
+  <section id="view-ask" hidden>
+    <p class="muted" id="ask-note">Same question, answered by Gemini alone and by Gemini with the Qloo tools.</p>
+    <div id="ask-examples" class="row" style="margin-bottom:8px"></div>
+    <textarea id="ask-q" style="min-height:70px" placeholder="Ask a taste or audience question…"></textarea>
+    <p><button class="primary" id="ask-run">Ask both</button> <span id="ask-meta" class="muted"></span></p>
+    <div class="ab">
+      <div class="panel"><h2>Plain Gemini</h2><div id="ask-plain-meta" class="muted"></div><div id="ask-plain" class="answer"></div></div>
+      <div class="panel"><h2>Gemini + Qloo</h2><div id="ask-qloo-meta" class="muted"></div><div id="ask-qloo" class="answer"></div><h3>Qloo calls</h3><div id="ask-trace"></div></div>
+    </div>
   </section>
 
   <div id="view-playground" class="split" hidden>
@@ -145,7 +159,7 @@ async function api(path, body) {
 
 // ---------- views ----------
 function showView(name) {
-  for (const view of ["reference", "results", "playground"]) $("view-" + view).hidden = view !== name;
+  for (const view of ["reference", "results", "ask", "playground"]) $("view-" + view).hidden = view !== name;
   document.querySelectorAll("nav button").forEach((b) => b.classList.toggle("active", b.dataset.view === name));
 }
 
@@ -351,6 +365,27 @@ async function run() {
   } catch (e) { $("meta").innerHTML = `<span class="bad">${esc(e.message)}</span>`; }
 }
 
+// ---------- ask (plain vs Qloo) ----------
+const md = (text) => esc(text).replace(/^#{1,4}\s*(.+)$/gm, "<b>$1</b>").replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/^\s*\* /gm, "• ");
+function showAnswer(prefix, side) {
+  $(prefix).innerHTML = md(side.answer);
+  $(prefix + "-meta").textContent = `${(side.ms / 1000).toFixed(1)} s · ${side.tokens} tokens`;
+}
+async function ask() {
+  const question = $("ask-q").value.trim();
+  if (!question) return;
+  $("ask-run").disabled = true; $("ask-meta").textContent = "asking both… (Qloo side can take 30 s)";
+  for (const id of ["ask-plain", "ask-qloo", "ask-trace", "ask-plain-meta", "ask-qloo-meta"]) $(id).replaceChildren();
+  try {
+    const { plain, qloo } = await api("/api/ask", { question });
+    showAnswer("ask-plain", plain); showAnswer("ask-qloo", qloo);
+    $("ask-trace").replaceChildren(...(qloo.trace.length ? qloo.trace.map((t) => h("div", { class: "mono" },
+      h("span", { class: "pill " + (t.status === "ok" ? "ok" : t.status === "needs_input" ? "warn" : "bad") }, t.status), ` ${t.ms}ms ${t.tool} ${compact(t.args)}`)) : [h("span", { class: "muted" }, "No tool calls.")]));
+    $("ask-meta").textContent = "";
+  } catch (e) { $("ask-meta").innerHTML = `<span class="bad">${esc(e.message)}</span>`; }
+  $("ask-run").disabled = false;
+}
+
 // ---------- init ----------
 async function init() {
   document.querySelectorAll("nav button").forEach((b) => (b.onclick = () => showView(b.dataset.view)));
@@ -362,6 +397,11 @@ async function init() {
   $("tab-mcp").onclick = () => setMode("mcp");
   $("tab-rest").onclick = () => setMode("rest");
   $("run").onclick = run;
+  $("ask-run").onclick = ask;
+  api("/api/questions").then(({ questions, hasGemini, model }) => {
+    $("ask-note").textContent += hasGemini ? ` Model: ${model}.` : " GEMINI_API_KEY is missing in explorer/.env.";
+    $("ask-examples").replaceChildren(...questions.map((x) => h("button", { class: "small", title: x.why, onclick: () => ($("ask-q").value = x.q) }, x.id)));
+  }).catch(() => {});
   try {
     const status = await api("/api/status");
     $("status").textContent = `${status.baseUrl} · key ${status.hasKey ? "set" : "MISSING"}`;
