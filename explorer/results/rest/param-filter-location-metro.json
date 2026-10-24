@@ -1,0 +1,32 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "take": 10,
+      "signal.interests.entities": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+      "filter.location.metro": "San Francisco-Oakland-Berkeley"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 4733,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aplace&take=10&signal.interests.entities=FBBAF1EE-BC5A-4A9C-A971-2910A2214F27&filter.location.metro=San+Francisco-Oakland-Berkeley",
+    "requestId": "2cf81fed-4a91-4b81-888c-d0bc9016fd13",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49598",
+      "x-month-ratelimit-reset": "2589244.78",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": []
+      }
+    }
+  }
+}

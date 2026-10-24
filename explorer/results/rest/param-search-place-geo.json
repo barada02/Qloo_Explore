@@ -1,0 +1,5217 @@
+{
+  "request": {
+    "path": "/search",
+    "params": {
+      "query": "coffee",
+      "types": "urn:entity:place",
+      "filter.location": "37.7749,-122.4194",
+      "filter.radius": 2,
+      "sort_by": "distance",
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 364,
+    "url": "/search?query=coffee&types=urn%3Aentity%3Aplace&filter.location=37.7749%2C-122.4194&filter.radius=2&sort_by=distance&take=10",
+    "requestId": "73ec2ab7-b6a2-4af3-b4f5-13fcaacaa2a9",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49554",
+      "x-month-ratelimit-reset": "2589157.3",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "Blue Bottle Coffee",
+          "entity_id": "80552C75-6B49-4532-A865-2CF320DB56D8",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Blue Bottle Coffee, 55 S Van Ness Ave San Francisco, CA 94103"
+              }
+            ],
+            "address": "55 S Van Ness Ave San Francisco, CA 94103",
+            "business_rating": 4,
+            "description": "Trendy cafe serving upscale coffee drinks, pastries, and retail beans and brewing equipment in a modern, minimalist setting.",
+            "external": {
+              "google_place": {
+                "id": "5b856caed28b93fe",
+                "place_id": "ChIJ1VGyjmCBhYAR_pOL0q5shVs"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {
+              "sunday": [
+                {
+                  "closed": false,
+                  "opens": "T07:00:00",
+                  "closes": "T15:00:00"
+                }
+              ],
+              "monday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T15:00:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T17:00:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T17:00:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T17:00:00"
+                }
+              ],
+              "friday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T17:00:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "closed": true
+                }
+              ]
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/80552C75-6B49-4532-A865-2CF320DB56D8-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "neighborhood": "South of Market",
+            "phone": "+15106613510",
+            "price_level": 2,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://bluebottlecoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "55 S Van Ness Ave San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7739033,
+            "lon": -122.41860439999999
+          },
+          "tags": [
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Moderately expensive",
+              "tag_id": "urn:tag:cost_description:place:moderately_expensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:moderately_expensive"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            }
+          ]
+        },
+        {
+          "name": "Progeny Coffee",
+          "entity_id": "24E8A37C-252A-4C14-AFCC-95A428CFB603",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Progeny Coffee, 30 Otis St San Francisco, CA 94103"
+              }
+            ],
+            "address": "30 Otis St San Francisco, CA 94103",
+            "business_rating": 4.3,
+            "external": {
+              "google_place": {
+                "id": "d8551f30662e46e6",
+                "place_id": "ChIJ-2qof7-BhYAR5kYuZjAfVdg"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/24E8A37C-252A-4C14-AFCC-95A428CFB603-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://www.progenycoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "30 Otis St San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7730769,
+            "lon": -122.41923369999999
+          },
+          "tags": [
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "$1 to $10",
+              "tag_id": "urn:tag:cost_description:place:1_to_10",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:1_to_10"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Bar onsite",
+              "tag_id": "urn:tag:amenities:place:bar_onsite",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:bar_onsite"
+            },
+            {
+              "name": "Identifies as latino owned",
+              "tag_id": "urn:tag:inclusivity:place:identifies_as_latino_owned",
+              "type": "urn:tag:inclusivity:place",
+              "value": "urn:tag:inclusivity:place:identifies_as_latino_owned"
+            },
+            {
+              "name": "Dogs allowed inside",
+              "tag_id": "urn:tag:pets:place:dogs_allowed_inside",
+              "type": "urn:tag:pets:place",
+              "value": "urn:tag:pets:place:dogs_allowed_inside"
+            },
+            {
+              "name": "Kids menu",
+              "tag_id": "urn:tag:children:place:kids_menu",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:kids_menu"
+            },
+            {
+              "name": "Quick bite",
+              "tag_id": "urn:tag:offerings:place:quick_bite",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:quick_bite"
+            },
+            {
+              "name": "Onsite services",
+              "tag_id": "urn:tag:service_options:place:onsite_services",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:onsite_services"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Seating",
+              "tag_id": "urn:tag:dining_options:place:seating",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:seating"
+            },
+            {
+              "name": "Dogs allowed outside",
+              "tag_id": "urn:tag:pets:place:dogs_allowed_outside",
+              "type": "urn:tag:pets:place",
+              "value": "urn:tag:pets:place:dogs_allowed_outside"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Good for kids",
+              "tag_id": "urn:tag:children:place:good_for_kids",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:good_for_kids"
+            },
+            {
+              "name": "Wheelchair accessible restroom",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_restroom"
+            },
+            {
+              "name": "Wheelchair accessible seating",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_seating"
+            },
+            {
+              "name": "Table service",
+              "tag_id": "urn:tag:dining_options:place:table_service",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:table_service"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Alcohol",
+              "tag_id": "urn:tag:offerings:place:alcohol",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:alcohol"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Dogs allowed",
+              "tag_id": "urn:tag:pets:place:dogs_allowed",
+              "type": "urn:tag:pets:place",
+              "value": "urn:tag:pets:place:dogs_allowed"
+            },
+            {
+              "name": "Identifies as women owned",
+              "tag_id": "urn:tag:inclusivity:place:identifies_as_women_owned",
+              "type": "urn:tag:inclusivity:place",
+              "value": "urn:tag:inclusivity:place:identifies_as_women_owned"
+            }
+          ]
+        },
+        {
+          "name": "Blue Bottle Coffee",
+          "entity_id": "D9C0943D-B222-468C-AB81-895686A95189",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Blue Bottle Coffee, 1355 10th St #190 San Francisco, CA 94103"
+              }
+            ],
+            "address": "1355 10th St #190 San Francisco, CA 94103",
+            "business_rating": 4.5,
+            "description": "Trendy café serving upscale coffee drinks, pastries, retail beans and brewing equipment, offering takeout and outdoor seating.",
+            "external": {
+              "tripadvisor": {
+                "id": "d15078644",
+                "rating": 4.5,
+                "rating_count": 9
+              },
+              "google_place": {
+                "id": "48bfb151c9acc62",
+                "place_id": "ChIJBc-bbJyAhYARYsyaHBX7iwQ"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/D9C0943D-B222-468C-AB81-895686A95189-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "phone": "+15106533394",
+            "price_level": 2,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://bluebottlecoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.1789702540877924,
+          "disambiguation": "1355 10th St #190 San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7763424,
+            "lon": -122.4169312
+          },
+          "tags": [
+            {
+              "name": "Design focused",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:design_focused",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:design_focused"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:decor:qloo:minimalist",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:minimalist"
+            },
+            {
+              "name": "Commercial",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:commercial"
+            },
+            {
+              "name": "Coffee retail",
+              "tag_id": "urn:tag:activity_type:qloo:coffee_retail",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:coffee_retail"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "Moderately expensive",
+              "tag_id": "urn:tag:cost_description:place:moderately_expensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:moderately_expensive"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Functional",
+              "tag_id": "urn:tag:decor:qloo:functional",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:functional"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Retail beans",
+              "tag_id": "urn:tag:menu_highlight:qloo:retail_beans",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:retail_beans"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "Industrial chic",
+              "tag_id": "urn:tag:decor:qloo:industrial_chic",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:industrial_chic"
+            },
+            {
+              "name": "Professional",
+              "tag_id": "urn:tag:ambience:qloo:professional",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:professional"
+            },
+            {
+              "name": "Coffee roasting",
+              "tag_id": "urn:tag:interests:qloo:coffee_roasting",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:coffee_roasting"
+            },
+            {
+              "name": "Order ahead",
+              "tag_id": "urn:tag:dining_options:place:order_ahead",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:order_ahead"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Takeout service",
+              "tag_id": "urn:tag:amenity:qloo:takeout_service",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:takeout_service"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_options:place:outdoor_seating",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:outdoor_seating"
+            },
+            {
+              "name": "Central",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:central"
+            },
+            {
+              "name": "Efficient",
+              "tag_id": "urn:tag:ambience:qloo:efficient",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:efficient"
+            },
+            {
+              "name": "Brewing equipment",
+              "tag_id": "urn:tag:interests:qloo:brewing_equipment",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:brewing_equipment"
+            },
+            {
+              "name": "Counter service",
+              "tag_id": "urn:tag:service_type:qloo:counter_service",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:counter_service"
+            },
+            {
+              "name": "Quick bite",
+              "tag_id": "urn:tag:offerings:place:quick_bite",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:quick_bite"
+            },
+            {
+              "name": "Brewing equipment",
+              "tag_id": "urn:tag:menu_highlight:qloo:brewing_equipment",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:brewing_equipment"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:amenity:qloo:outdoor_seating",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:outdoor_seating"
+            },
+            {
+              "name": "Routine visit",
+              "tag_id": "urn:tag:visit_intent:qloo:routine_visit",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:routine_visit"
+            },
+            {
+              "name": "Trendy crowd",
+              "tag_id": "urn:tag:customer_identity:qloo:trendy_crowd",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:trendy_crowd"
+            },
+            {
+              "name": "San francisco museum of modern art",
+              "tag_id": "urn:tag:nearby_attraction:qloo:san_francisco_museum_of_modern_art",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:san_francisco_museum_of_modern_art"
+            },
+            {
+              "name": "Sustainable sourcing",
+              "tag_id": "urn:tag:interests:qloo:sustainable_sourcing",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:sustainable_sourcing"
+            },
+            {
+              "name": "Young professionals",
+              "tag_id": "urn:tag:customer_identity:qloo:young_professionals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:young_professionals"
+            },
+            {
+              "name": "Seating",
+              "tag_id": "urn:tag:dining_options:place:seating",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:seating"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Pastries",
+              "tag_id": "urn:tag:menu_highlight:qloo:pastries",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:pastries"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:cuisine:qloo:bakery",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:bakery"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Convenience stop",
+              "tag_id": "urn:tag:visit_intent:qloo:convenience_stop",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:convenience_stop"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenity:qloo:wi_fi",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:wi_fi"
+            },
+            {
+              "name": "Gluten free options",
+              "tag_id": "urn:tag:offerings:place:gluten_free_options",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:gluten_free_options"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:ambience:qloo:stylish",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:stylish"
+            },
+            {
+              "name": "Urban street view",
+              "tag_id": "urn:tag:view:qloo:urban_street_view",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:urban_street_view"
+            },
+            {
+              "name": "18 24",
+              "tag_id": "urn:tag:age_range:qloo:18_24",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:18_24"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Minimalist design",
+              "tag_id": "urn:tag:interests:qloo:minimalist_design",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:minimalist_design"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Upscale coffee drinks",
+              "tag_id": "urn:tag:menu_highlight:qloo:upscale_coffee_drinks",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:upscale_coffee_drinks"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "American",
+              "tag_id": "urn:tag:cuisine:qloo:american",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:american"
+            },
+            {
+              "name": "Retail coffee beans",
+              "tag_id": "urn:tag:amenity:qloo:retail_coffee_beans",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:retail_coffee_beans"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:culinary_style:qloo:cafe",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:cafe"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Commercial",
+              "tag_id": "urn:tag:setting:qloo:commercial",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:commercial"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_type:qloo:outdoor_seating",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:outdoor_seating"
+            },
+            {
+              "name": "Yerba buena gardens",
+              "tag_id": "urn:tag:nearby_attraction:qloo:yerba_buena_gardens",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:yerba_buena_gardens"
+            },
+            {
+              "name": "Union square",
+              "tag_id": "urn:tag:nearby_attraction:qloo:union_square",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:union_square"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Brewing equipment",
+              "tag_id": "urn:tag:amenity:qloo:brewing_equipment",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:brewing_equipment"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "Clean",
+              "tag_id": "urn:tag:ambience:qloo:clean",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:clean"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:cuisine:qloo:coffee_shop",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:coffee_shop"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Moderate",
+              "tag_id": "urn:tag:noise_level:qloo:moderate",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:moderate"
+            },
+            {
+              "name": "Coffee roastery",
+              "tag_id": "urn:tag:setting:qloo:coffee_roastery",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:coffee_roastery"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:ambience:qloo:minimalist",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:minimalist"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:ambience:qloo:modern",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:modern"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:decor:qloo:modern",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:modern"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            }
+          ]
+        },
+        {
+          "name": "Peet's Coffee",
+          "entity_id": "85B87157-A1F1-4C61-AE96-693DF5CDCB22",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Peet's Coffee, 1400 Mission St Apt 130 San Francisco, CA 94102"
+              }
+            ],
+            "address": "1400 Mission St Apt 130 San Francisco, CA 94102",
+            "business_rating": 4.3,
+            "description": "Berkeley-born coffee shop serving signature coffees, teas, blended drinks and baked goods in a casual urban cafe.",
+            "external": {
+              "google_place": {
+                "id": "7613d0c195a29595",
+                "place_id": "ChIJw9P0rZ2AhYARlZWilcHQE3Y"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/85B87157-A1F1-4C61-AE96-693DF5CDCB22-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "phone": "+14156104850",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://www.peets.com/pages/store-locator?stockist-query=San%20Francisco,%20CA,%20USA&selected=1400%20Mission%20St.",
+            "good_for": [
+              {
+                "id": "urn:tag:cost_description:place:inexpensive",
+                "name": "Inexpensive",
+                "type": "urn:tag:cost_description:place"
+              }
+            ],
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.5178644857678074,
+          "disambiguation": "1400 Mission St Apt 130 San Francisco, CA 94102",
+          "location": {
+            "lat": 37.775284,
+            "lon": -122.41619
+          },
+          "tags": [
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Order ahead",
+              "tag_id": "urn:tag:dining_options:place:order_ahead",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:order_ahead"
+            },
+            {
+              "name": "Ok to order just coffee",
+              "tag_id": "urn:tag:offerings:place:ok_to_order_just_coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:ok_to_order_just_coffee"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Shopping",
+              "tag_id": "urn:tag:genre:place:shopping",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:shopping"
+            },
+            {
+              "name": "Coffee roastery",
+              "tag_id": "urn:tag:category:place:coffee_roastery",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_roastery"
+            },
+            {
+              "name": "Sandwich shop",
+              "tag_id": "urn:tag:category:place:sandwich_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:sandwich_shop"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Sandwich shop",
+              "tag_id": "urn:tag:genre:place:restaurant:sandwich_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:sandwich_shop"
+            },
+            {
+              "name": "Hot tea",
+              "tag_id": "urn:tag:offerings:place:hot_tea",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:hot_tea"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:genre:place:restaurant:breakfast",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:breakfast"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Paid street parking",
+              "tag_id": "urn:tag:parking:place:paid_street_parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:paid_street_parking"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:category:place:coffee_store",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_store"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Large group",
+              "tag_id": "urn:tag:ambience:place:large_group",
+              "type": "urn:tag:ambience:place",
+              "value": "urn:tag:ambience:place:large_group"
+            },
+            {
+              "name": "Seating",
+              "tag_id": "urn:tag:dining_options:place:seating",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:seating"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Wheelchair accessible parking lot",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            },
+            {
+              "name": "Tea house",
+              "tag_id": "urn:tag:category:place:tea_house",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:tea_house"
+            },
+            {
+              "name": "Espresso bar",
+              "tag_id": "urn:tag:category:place:espresso_bar",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:espresso_bar"
+            },
+            {
+              "name": "Onsite services",
+              "tag_id": "urn:tag:service_options:place:onsite_services",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:onsite_services"
+            },
+            {
+              "name": "Wheelchair accessible restroom",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_restroom"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Parking",
+              "tag_id": "urn:tag:parking:place:parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:parking"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Quick bite",
+              "tag_id": "urn:tag:offerings:place:quick_bite",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:quick_bite"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Coffee roastery",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_roastery",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_roastery"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Wheelchair accessible seating",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_seating"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_options:place:outdoor_seating",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:outdoor_seating"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Prepared foods",
+              "tag_id": "urn:tag:offerings:place:prepared_foods",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:prepared_foods"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:genre:place:coffee_store",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:coffee_store"
+            },
+            {
+              "name": "Espresso bar",
+              "tag_id": "urn:tag:genre:place:restaurant:espresso_bar",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:espresso_bar"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Breakfast restaurant",
+              "tag_id": "urn:tag:category:place:breakfast_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:breakfast_restaurant"
+            },
+            {
+              "name": "Inexpensive",
+              "tag_id": "urn:tag:cost_description:place:inexpensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:inexpensive"
+            },
+            {
+              "name": "Tea house",
+              "tag_id": "urn:tag:genre:place:restaurant:tea_house",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:tea_house"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            }
+          ]
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "entity_id": "8A671D0F-9263-4F17-BAF5-8491BED23F98",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Starbucks Coffee Company, Fox Plaza 1390 Market St San Francisco, CA 94102"
+              }
+            ],
+            "address": "Fox Plaza 1390 Market St San Francisco, CA 94102",
+            "business_rating": 3.9,
+            "description": "Seattle-based coffeehouse chain offering signature roasts, light bites, Wi-Fi, and casual dine-in with drive-through and takeout.",
+            "external": {
+              "google_place": {
+                "id": "3435d65e67caeb38",
+                "place_id": "ChIJ_c92FJyAhYAROOvKZ17WNTQ"
+              }
+            },
+            "geocode": {
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {
+              "sunday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "monday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T20:00:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T20:00:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T20:00:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T20:00:00"
+                }
+              ],
+              "friday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T20:00:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "closed": false,
+                  "opens": "T05:00:00",
+                  "closes": "T19:00:00"
+                }
+              ]
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/8A671D0F-9263-4F17-BAF5-8491BED23F98-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "phone": "+14158638332",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://www.starbucks.com/store-locator/store/13881/",
+            "good_for": [
+              {
+                "id": "urn:tag:children:place:good_kids",
+                "name": "Good for kids",
+                "type": "urn:tag:children:place",
+                "weight": 0.4375
+              }
+            ],
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.5178644857678074,
+          "disambiguation": "Fox Plaza 1390 Market St San Francisco, CA 94102",
+          "location": {
+            "lat": 37.777059,
+            "lon": -122.41734799999999
+          },
+          "tags": [
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Espresso bar",
+              "tag_id": "urn:tag:genre:place:restaurant:espresso_bar",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:espresso_bar"
+            },
+            {
+              "name": "Good for kids",
+              "tag_id": "urn:tag:children:place:good_for_kids",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:good_for_kids"
+            },
+            {
+              "name": "$1 to $10",
+              "tag_id": "urn:tag:cost_description:place:1_to_10",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:1_to_10"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Espresso bar",
+              "tag_id": "urn:tag:category:place:espresso_bar",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:espresso_bar"
+            },
+            {
+              "name": "Free street parking",
+              "tag_id": "urn:tag:parking:place:free_street_parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:free_street_parking"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Internet cafe",
+              "tag_id": "urn:tag:genre:place:internet_cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:internet_cafe"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Onsite services",
+              "tag_id": "urn:tag:service_options:place:onsite_services",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:onsite_services"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:genre:place:coffee_store",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:coffee_store"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Wheelchair accessible restroom",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_restroom"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:category:place:coffee_store",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_store"
+            },
+            {
+              "name": "Prepared foods",
+              "tag_id": "urn:tag:offerings:place:prepared_foods",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:prepared_foods"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Shopping",
+              "tag_id": "urn:tag:genre:place:shopping",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:shopping"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            },
+            {
+              "name": "Breakfast restaurant",
+              "tag_id": "urn:tag:category:place:breakfast_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:breakfast_restaurant"
+            },
+            {
+              "name": "Brunch",
+              "tag_id": "urn:tag:dining_options:place:brunch",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:brunch"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Wheelchair accessible seating",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_seating"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Order ahead",
+              "tag_id": "urn:tag:dining_options:place:order_ahead",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:order_ahead"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:genre:place:restaurant:breakfast",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:breakfast"
+            },
+            {
+              "name": "Lunch",
+              "tag_id": "urn:tag:dining_options:place:lunch",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:lunch"
+            },
+            {
+              "name": "Internet cafe",
+              "tag_id": "urn:tag:category:place:internet_cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:internet_cafe"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Quick bite",
+              "tag_id": "urn:tag:offerings:place:quick_bite",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:quick_bite"
+            },
+            {
+              "name": "Hot tea",
+              "tag_id": "urn:tag:offerings:place:hot_tea",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:hot_tea"
+            }
+          ]
+        },
+        {
+          "name": "Grand Parade Coffee",
+          "entity_id": "4E2E0FC2-2105-4F54-B823-0E06CD240488",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Grand Parade Coffee, 1390 Market St #200 San Francisco, CA 94102"
+              }
+            ],
+            "address": "1390 Market St #200 San Francisco, CA 94102",
+            "business_rating": 4.4,
+            "description": "Specialty coffee roaster and wholesaler in downtown San Francisco known for bright, fruity single-origin coffees and attentive staff.",
+            "external": {
+              "google_place": {
+                "id": "861d9247be0ff2ab",
+                "place_id": "ChIJ716aC5yAhYARq_IPvkeSHYY"
+              }
+            },
+            "geocode": {
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/4E2E0FC2-2105-4F54-B823-0E06CD240488-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "phone": "+15107300447",
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://grandparadecoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_roastery",
+              "name": "Coffee roastery",
+              "type": "urn:tag:genre:place"
+            }
+          },
+          "disambiguation": "1390 Market St #200 San Francisco, CA 94102",
+          "location": {
+            "lat": 37.777195899999995,
+            "lon": -122.4173361
+          },
+          "tags": [
+            {
+              "name": "Coffee wholesaler",
+              "tag_id": "urn:tag:category:place:coffee_wholesaler",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_wholesaler"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Cash only",
+              "tag_id": "urn:tag:payments:place:cash_only",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:cash_only"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Coffee roastery",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_roastery",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_roastery"
+            },
+            {
+              "name": "Coffee roastery",
+              "tag_id": "urn:tag:category:place:coffee_roastery",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_roastery"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            }
+          ]
+        },
+        {
+          "name": "Red Bay Coffee -The Market",
+          "entity_id": "7D6EEC59-D96F-41C0-963E-5A66FE5D703F",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Red Bay Coffee -The Market, 1355 Market St San Francisco, CA 94103"
+              }
+            ],
+            "address": "1355 Market St San Francisco, CA 94103",
+            "business_rating": 3.7,
+            "description": "Community-focused coffee shop serving sustainably sourced, freshly roasted coffee with a mission of diversity, inclusion, and environmental sustainability.",
+            "external": {
+              "google_place": {
+                "id": "bf6f1bef99cfd1a",
+                "place_id": "ChIJpaCCDhmBhYARGv2c-b7x9gs"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/7D6EEC59-D96F-41C0-963E-5A66FE5D703F-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "http://www.redbaycoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "1355 Market St San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7770186,
+            "lon": -122.416524
+          },
+          "tags": [
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "$1 to $10",
+              "tag_id": "urn:tag:cost_description:place:1_to_10",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:1_to_10"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            }
+          ]
+        },
+        {
+          "name": "Blue Bottle Coffee",
+          "entity_id": "C68207A5-F9AD-4BB1-9A52-80CA58F8208A",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Blue Bottle Coffee, 315 Linden St San Francisco, CA 94102"
+              }
+            ],
+            "address": "315 Linden St San Francisco, CA 94102",
+            "business_rating": 4.6,
+            "description": "Trendy specialty coffee café serving upscale espresso drinks, pastries, artisanal beans, brewing equipment, and light plates in a stylish setting.",
+            "external": {
+              "tripadvisor": {
+                "id": "d1026949",
+                "rating": 4.5,
+                "rating_count": 180
+              },
+              "google_place": {
+                "id": "beedd659cc698c92",
+                "place_id": "ChIJSy28upiAhYARkoxpzFnW7b4"
+              }
+            },
+            "geocode": {
+              "name": "Western Addition",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {
+              "sunday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "monday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "friday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "closed": false,
+                  "opens": "T06:30:00",
+                  "closes": "T19:00:00"
+                }
+              ]
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/C68207A5-F9AD-4BB1-9A52-80CA58F8208A-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "neighborhood": "Western Addition",
+            "phone": "+15106613510",
+            "price_level": 2,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://bluebottlecoffee.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.9486770741513785,
+          "disambiguation": "315 Linden St San Francisco, CA 94102",
+          "location": {
+            "lat": 37.7763342,
+            "lon": -122.4232375
+          },
+          "tags": [
+            {
+              "name": "Valet parking",
+              "tag_id": "urn:tag:parking:place:valet_parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:valet_parking"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_type:qloo:delivery",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:delivery"
+            },
+            {
+              "name": "Wheelchair accessible restroom",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_restroom"
+            },
+            {
+              "name": "Industrial chic",
+              "tag_id": "urn:tag:decor:qloo:industrial_chic",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:industrial_chic"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Booster seats",
+              "tag_id": "urn:tag:amenities:place:booster_seats",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:booster_seats"
+            },
+            {
+              "name": "Wheelchair accessible parking lot",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:culinary_style:qloo:cafe",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:cafe"
+            },
+            {
+              "name": "Private dining room",
+              "tag_id": "urn:tag:offerings:place:private_dining_room",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:private_dining_room"
+            },
+            {
+              "name": "Vegetarian meals",
+              "tag_id": "urn:tag:offerings:place:vegetarian_options",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:vegetarian_options"
+            },
+            {
+              "name": "Brunch",
+              "tag_id": "urn:tag:dining_options:place:brunch",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:brunch"
+            },
+            {
+              "name": "Alleyway",
+              "tag_id": "urn:tag:setting:qloo:alleyway",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:alleyway"
+            },
+            {
+              "name": "Work dinner",
+              "tag_id": "urn:tag:event:place:work_dinner",
+              "type": "urn:tag:event:place",
+              "value": "urn:tag:event:place:work_dinner"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:ambience:qloo:minimalist",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:minimalist"
+            },
+            {
+              "name": "Seating",
+              "tag_id": "urn:tag:dining_options:place:seating",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:seating"
+            },
+            {
+              "name": "Routine visit",
+              "tag_id": "urn:tag:visit_intent:qloo:routine_visit",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:routine_visit"
+            },
+            {
+              "name": "Order ahead",
+              "tag_id": "urn:tag:dining_options:place:order_ahead",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:order_ahead"
+            },
+            {
+              "name": "Lunch",
+              "tag_id": "urn:tag:dining_options:place:lunch",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:lunch"
+            },
+            {
+              "name": "Matcha latte",
+              "tag_id": "urn:tag:menu_highlight:qloo:matcha_latte",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:matcha_latte"
+            },
+            {
+              "name": "Kids menu",
+              "tag_id": "urn:tag:children:place:kids_menu",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:kids_menu"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "Young professionals",
+              "tag_id": "urn:tag:customer_identity:qloo:young_professionals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:young_professionals"
+            },
+            {
+              "name": "Table service",
+              "tag_id": "urn:tag:dining_options:place:table_service",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:table_service"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:amenity:qloo:outdoor_seating",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:outdoor_seating"
+            },
+            {
+              "name": "High chairs",
+              "tag_id": "urn:tag:children:place:high_chairs",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:high_chairs"
+            },
+            {
+              "name": "Moderate",
+              "tag_id": "urn:tag:noise_level:qloo:moderate",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:moderate"
+            },
+            {
+              "name": "Clean",
+              "tag_id": "urn:tag:ambience:qloo:clean",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:clean"
+            },
+            {
+              "name": "Coffee takeout",
+              "tag_id": "urn:tag:activity_type:qloo:coffee_takeout",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:coffee_takeout"
+            },
+            {
+              "name": "Grab and go",
+              "tag_id": "urn:tag:ambience:qloo:grab_and_go",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:grab_and_go"
+            },
+            {
+              "name": "American",
+              "tag_id": "urn:tag:cuisine:qloo:american",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:american"
+            },
+            {
+              "name": "Catering",
+              "tag_id": "urn:tag:dining_options:place:catering",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:catering"
+            },
+            {
+              "name": "Electronics",
+              "tag_id": "urn:tag:recycling:place:electronics",
+              "type": "urn:tag:recycling:place",
+              "value": "urn:tag:recycling:place:electronics"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Artisanal baking",
+              "tag_id": "urn:tag:interests:qloo:artisanal_baking",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:artisanal_baking"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "Healthy options",
+              "tag_id": "urn:tag:offerings:place:healthy_options",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:healthy_options"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:decor:qloo:modern",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:modern"
+            },
+            {
+              "name": "Oat milk latte",
+              "tag_id": "urn:tag:menu_highlight:qloo:oat_milk_latte",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:oat_milk_latte"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:decor:qloo:minimalist",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:minimalist"
+            },
+            {
+              "name": "Merchandise retail",
+              "tag_id": "urn:tag:amenity:qloo:merchandise_retail",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:merchandise_retail"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Late night food",
+              "tag_id": "urn:tag:offerings:place:late_night_food",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:late_night_food"
+            },
+            {
+              "name": "Drive through",
+              "tag_id": "urn:tag:service_options:place:drive_through",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:drive_through"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:ambience:qloo:stylish",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:stylish"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Hayes valley adjacent",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:hayes_valley_adjacent",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:hayes_valley_adjacent"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:amenity:qloo:takeout",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:takeout"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Dinner",
+              "tag_id": "urn:tag:dining_options:place:dinner",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dinner"
+            },
+            {
+              "name": "Good for kids",
+              "tag_id": "urn:tag:children:place:good_for_kids",
+              "type": "urn:tag:children:place",
+              "value": "urn:tag:children:place:good_for_kids"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Davies symphony hall",
+              "tag_id": "urn:tag:nearby_attraction:qloo:davies_symphony_hall",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:davies_symphony_hall"
+            },
+            {
+              "name": "Tourists",
+              "tag_id": "urn:tag:customer_identity:qloo:tourists",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:tourists"
+            },
+            {
+              "name": "Small plates",
+              "tag_id": "urn:tag:offerings:place:small_plates",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:small_plates"
+            },
+            {
+              "name": "Urban exploration",
+              "tag_id": "urn:tag:interests:qloo:urban_exploration",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:urban_exploration"
+            },
+            {
+              "name": "Organic",
+              "tag_id": "urn:tag:dietary_option:qloo:organic",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:organic"
+            },
+            {
+              "name": "Vegetarian",
+              "tag_id": "urn:tag:dietary_option:qloo:vegetarian",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegetarian"
+            },
+            {
+              "name": "Usually a wait",
+              "tag_id": "urn:tag:planning:place:usually_a_wait",
+              "type": "urn:tag:planning:place",
+              "value": "urn:tag:planning:place:usually_a_wait"
+            },
+            {
+              "name": "New orleans iced coffee",
+              "tag_id": "urn:tag:menu_highlight:qloo:new_orleans_iced_coffee",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:new_orleans_iced_coffee"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:ambience:qloo:modern",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:modern"
+            },
+            {
+              "name": "Counter service",
+              "tag_id": "urn:tag:service_type:qloo:counter_service",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:counter_service"
+            },
+            {
+              "name": "San francisco opera house",
+              "tag_id": "urn:tag:nearby_attraction:qloo:san_francisco_opera_house",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:san_francisco_opera_house"
+            },
+            {
+              "name": "Wine",
+              "tag_id": "urn:tag:offerings:place:wine",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:wine"
+            },
+            {
+              "name": "Healthy options",
+              "tag_id": "urn:tag:dietary_option:qloo:healthy_options",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:healthy_options"
+            },
+            {
+              "name": "Drive thru",
+              "tag_id": "urn:tag:service_type:qloo:drive_thru",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:drive_thru"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_options:place:outdoor_seating",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:outdoor_seating"
+            },
+            {
+              "name": "Convenience stop",
+              "tag_id": "urn:tag:visit_intent:qloo:convenience_stop",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:convenience_stop"
+            },
+            {
+              "name": "Moderately expensive",
+              "tag_id": "urn:tag:cost_description:place:moderately_expensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:moderately_expensive"
+            },
+            {
+              "name": "Organic dishes",
+              "tag_id": "urn:tag:offerings:place:organic_dishes",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:organic_dishes"
+            },
+            {
+              "name": "Functional",
+              "tag_id": "urn:tag:decor:qloo:functional",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:functional"
+            },
+            {
+              "name": "Dogs allowed",
+              "tag_id": "urn:tag:pets:place:dogs_allowed",
+              "type": "urn:tag:pets:place",
+              "value": "urn:tag:pets:place:dogs_allowed"
+            },
+            {
+              "name": "Retail merchandise shopping",
+              "tag_id": "urn:tag:activity_type:qloo:retail_merchandise_shopping",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:retail_merchandise_shopping"
+            },
+            {
+              "name": "Bar onsite",
+              "tag_id": "urn:tag:amenities:place:bar_onsite",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:bar_onsite"
+            },
+            {
+              "name": "Central",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:central"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Happy hour drinks",
+              "tag_id": "urn:tag:offerings:place:happy_hour_drinks",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:happy_hour_drinks"
+            },
+            {
+              "name": "Comfort food",
+              "tag_id": "urn:tag:offerings:place:comfort_food",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:comfort_food"
+            },
+            {
+              "name": "Espresso drinks",
+              "tag_id": "urn:tag:menu_highlight:qloo:espresso_drinks",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:espresso_drinks"
+            },
+            {
+              "name": "Vegan",
+              "tag_id": "urn:tag:dietary_option:qloo:vegan",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegan"
+            },
+            {
+              "name": "Happy hour food",
+              "tag_id": "urn:tag:offerings:place:happy_hour_food",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:happy_hour_food"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_type:qloo:outdoor_seating",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:outdoor_seating"
+            },
+            {
+              "name": "18 24",
+              "tag_id": "urn:tag:age_range:qloo:18_24",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:18_24"
+            },
+            {
+              "name": "Anniversary",
+              "tag_id": "urn:tag:event:place:anniversary",
+              "type": "urn:tag:event:place",
+              "value": "urn:tag:event:place:anniversary"
+            },
+            {
+              "name": "Cash only",
+              "tag_id": "urn:tag:payments:place:cash_only",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:cash_only"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:decor:qloo:stylish",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:stylish"
+            },
+            {
+              "name": "Street view",
+              "tag_id": "urn:tag:view:qloo:street_view",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:street_view"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:culinary_style:qloo:casual",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:casual"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Authentic",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:authentic"
+            },
+            {
+              "name": "Sustainable living",
+              "tag_id": "urn:tag:interests:qloo:sustainable_living",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:sustainable_living"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Hayes valley",
+              "tag_id": "urn:tag:nearby_attraction:qloo:hayes_valley",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:hayes_valley"
+            },
+            {
+              "name": "Foodies",
+              "tag_id": "urn:tag:customer_identity:qloo:foodies",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:foodies"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Minimalist design",
+              "tag_id": "urn:tag:interests:qloo:minimalist_design",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:minimalist_design"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:cuisine:qloo:coffee_shop",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:coffee_shop"
+            },
+            {
+              "name": "Vegan meals",
+              "tag_id": "urn:tag:offerings:place:vegan_options",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:vegan_options"
+            },
+            {
+              "name": "Pastries",
+              "tag_id": "urn:tag:cuisine:qloo:pastries",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:pastries"
+            },
+            {
+              "name": "Accepts reservations",
+              "tag_id": "urn:tag:planning:place:accepts_reservations",
+              "type": "urn:tag:planning:place",
+              "value": "urn:tag:planning:place:accepts_reservations"
+            },
+            {
+              "name": "Small footprint",
+              "tag_id": "urn:tag:setting:qloo:small_footprint",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:small_footprint"
+            },
+            {
+              "name": "Pastries",
+              "tag_id": "urn:tag:menu_highlight:qloo:pastries",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:pastries"
+            }
+          ]
+        },
+        {
+          "name": "Paramo Coffee Company",
+          "entity_id": "9B068112-E311-48C8-A8A2-F07EE06EBD4A",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Paramo Coffee Company, 57 9th St San Francisco, CA 94103"
+              }
+            ],
+            "address": "57 9th St San Francisco, CA 94103",
+            "business_rating": 4.2,
+            "description": "San Francisco cafe serving coffee with delivery available.",
+            "external": {
+              "google_place": {
+                "id": "d0ecd561d508bcf",
+                "place_id": "ChIJv0CMjJyAhYARz4tQHVbNDg0"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/9B068112-E311-48C8-A8A2-F07EE06EBD4A-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "price_range": {
+              "currency": "usd"
+            },
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:cafe",
+              "name": "Cafe",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "te",
+                  "value": "\"కేఫ్\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кафе\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафе\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кафе\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кафе\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Kapehan\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"კაფე\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"சிற்றுண்டிச்சாலை\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡廳\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Cafe\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"카페\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कैफे\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"ক্যাফে\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Kafee\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"คาเฟ่\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡馆\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "57 9th St San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7768897,
+            "lon": -122.41524609999999
+          },
+          "tags": [
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            }
+          ]
+        },
+        {
+          "name": "Pixlcat Coffee",
+          "entity_id": "4417D2C7-C6B2-41C4-B1A5-A5AAE82EFE92",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Pixlcat Coffee, 57 9th St San Francisco, CA 94103"
+              }
+            ],
+            "address": "57 9th St San Francisco, CA 94103",
+            "business_rating": 4.2,
+            "description": "Inexpensive Asian-owned cafe in San Francisco serving coffee, butter mochi, small plates, and prepared foods with takeout, delivery, and catering.",
+            "external": {
+              "google_place": {
+                "id": "4f5c33f753daa9e7",
+                "place_id": "ChIJc21Q5Y-BhYAR56naU_czXE8"
+              }
+            },
+            "geocode": {
+              "name": "South of Market",
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/4417D2C7-C6B2-41C4-B1A5-A5AAE82EFE92-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "South of Market",
+            "phone": "+14156243550",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://pixlcatcoffee.com/",
+            "good_for": [
+              {
+                "id": "urn:tag:children:place:good_kids",
+                "name": "Good for kids",
+                "type": "urn:tag:children:place"
+              },
+              {
+                "id": "urn:tag:cost_description:place:inexpensive",
+                "name": "Inexpensive",
+                "type": "urn:tag:cost_description:place"
+              }
+            ],
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "name": "Coffee shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "eu",
+                  "value": "\"Kafetegia\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"কফি শপ\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Kávézó\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Kawiarnia\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Καφετέρια\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kohvik\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"בית קפה\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"カフェ\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Cafetería\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кофехана\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cafenea\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านกาแฟ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Кафуле\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"커피숍\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Kahvila\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານກາເຟ\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Kahve dükkanı\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Кафић\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"咖啡店\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Kaviareň\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Quán cà phê\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Coffee shop\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Кафене\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Kafe\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مقهى\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Cafetaria\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Koffiehuis\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Caffetteria\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кофейня\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Kavarna\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"ကော်ဖီဆိုင်\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"కాఫీ షాప్\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la kahawa\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Cafeteria\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qəhvəxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Kedai kopi\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Kavárna\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"ყავის მაღაზია\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងកាហ្វេ\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Kafé\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Koffiewinkel\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"कॉफ़ी शॉप\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Kafić\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Kafejnīca\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"காபி கடை\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Kaffebar\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Café\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кав'ярня\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kavinė\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "57 9th St San Francisco, CA 94103",
+          "location": {
+            "lat": 37.7768897,
+            "lon": -122.41524609999999
+          },
+          "tags": [
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Internet cafe",
+              "tag_id": "urn:tag:category:place:internet_cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:internet_cafe"
+            },
+            {
+              "name": "Coffee stand",
+              "tag_id": "urn:tag:category:place:coffee_stand",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_stand"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Wheelchair accessible restroom",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_restroom",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_restroom"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:genre:place:coffee_store",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:coffee_store"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Identifies as asian owned",
+              "tag_id": "urn:tag:inclusivity:place:identifies_as_asian_owned",
+              "type": "urn:tag:inclusivity:place",
+              "value": "urn:tag:inclusivity:place:identifies_as_asian_owned"
+            },
+            {
+              "name": "Shopping",
+              "tag_id": "urn:tag:genre:place:shopping",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:shopping"
+            },
+            {
+              "name": "Inexpensive",
+              "tag_id": "urn:tag:cost_description:place:inexpensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:inexpensive"
+            },
+            {
+              "name": "Wheelchair accessible seating",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_seating",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_seating"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Internet cafe",
+              "tag_id": "urn:tag:genre:place:internet_cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:internet_cafe"
+            },
+            {
+              "name": "Coffee store",
+              "tag_id": "urn:tag:category:place:coffee_store",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_store"
+            },
+            {
+              "name": "Lgbtq+ friendly",
+              "tag_id": "urn:tag:inclusivity:place:lgbtq_friendly",
+              "type": "urn:tag:inclusivity:place",
+              "value": "urn:tag:inclusivity:place:lgbtq_friendly"
+            },
+            {
+              "name": "Coffee stand",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_stand",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_stand"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Art cafe",
+              "tag_id": "urn:tag:category:place:art_cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:art_cafe"
+            },
+            {
+              "name": "Art cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:art_cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:art_cafe"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "request": {
+    "path": "/v2/audiences",
+    "params": {
+      "filter.audience.types": "urn:audience:communities",
+      "take": 3,
+      "page": 2
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 303,
+    "url": "/v2/audiences?filter.audience.types=urn%3Aaudience%3Acommunities&take=3&page=2",
+    "requestId": "f788f959-6a61-4dfa-9c8b-1979f2a6e347",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49536",
+      "x-month-ratelimit-reset": "2589144.85",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.43"
+    },
+    "body": {
+      "totalRequestDuration": 5,
+      "success": true,
+      "results": {
+        "audiences": [
+          {
+            "entity_id": "A8A43978-5291-46DC-8952-D58EDC7FF82B",
+            "name": "Black",
+            "parents": [
+              {
+                "id": "urn:audience:communities",
+                "name": "Communities",
+                "type": "urn:audience"
+              }
+            ],
+            "type": "urn:audience:communities",
+            "id": "urn:audience:communities:black",
+            "disambiguation": "Black (Communities)",
+            "tags": [
+              {
+                "id": "urn:tag:collection:canonical",
+                "name": "Canonical",
+                "type": "urn:tag:collection"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

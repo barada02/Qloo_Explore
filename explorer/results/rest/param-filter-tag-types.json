@@ -1,0 +1,182 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.tag.types": "urn:tag:genre:media"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 608,
+    "url": "/v2/insights?filter.type=urn%3Atag&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.tag.types=urn%3Atag%3Agenre%3Amedia",
+    "requestId": "1871139a-f75b-4bf9-a763-1323be0b0f75",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49566",
+      "x-month-ratelimit-reset": "2589184.14",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "tag_id": "urn:tag:genre:media:art",
+            "name": "Art",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:author"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:art",
+            "popularity": 0.999877708997052,
+            "query": {
+              "affinity": 0.9957917568104552
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:novels",
+            "name": "Novels",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:novels",
+            "popularity": 0.9999606501011709,
+            "query": {
+              "affinity": 0.9923672126804716
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:italian_literature",
+            "name": "Italian Literature",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:author"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:italian_literature",
+            "popularity": 0.9995939341777512,
+            "query": {
+              "affinity": 0.9894255817033865
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:graphic_novels",
+            "name": "Graphic Novels",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:graphic_novels",
+            "popularity": 0.9999105398507657,
+            "query": {
+              "affinity": 0.9890392511810676
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:literature",
+            "name": "Literature",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:literature",
+            "popularity": 0.9999709391964735,
+            "query": {
+              "affinity": 0.9880513488454237
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:comics",
+            "name": "Comics",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:author"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:comics",
+            "popularity": 0.9999330816091768,
+            "query": {
+              "affinity": 0.9842404741931211
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:music",
+            "name": "Music",
+            "types": [
+              "urn:entity:actor",
+              "urn:entity:book",
+              "urn:entity:movie",
+              "urn:entity:tv_episode",
+              "urn:entity:director",
+              "urn:entity:author",
+              "urn:entity:tv_show",
+              "urn:entity:writer",
+              "urn:entity:podcast",
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:music",
+            "popularity": 0.9999658339201783,
+            "query": {
+              "affinity": 0.983265306122449
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:short_stories",
+            "name": "Short Stories",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:short_stories",
+            "popularity": 0.9999483188953502,
+            "query": {
+              "affinity": 0.9830594065963176
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:poetry",
+            "name": "Poetry",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:poetry",
+            "popularity": 0.9999376370864864,
+            "query": {
+              "affinity": 0.9803330169102389
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:italy",
+            "name": "Italy",
+            "types": [
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:genre:media",
+            "tag_value": "urn:tag:genre:media:italy",
+            "popularity": 0.9996977676433243,
+            "query": {
+              "affinity": 0.9789477460373526
+            }
+          }
+        ]
+      }
+    }
+  }
+}

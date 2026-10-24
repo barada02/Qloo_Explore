@@ -53,9 +53,12 @@ jobs:
       - name: Live MCP probe
         if: steps.secret.outputs.present == 'true'
         run: node probe-mcp.mjs || echo "::warning::Some MCP calls failed; see report."
+      - name: Live parameter probe
+        if: steps.secret.outputs.present == 'true'
+        run: node probe-params.mjs || echo "::warning::Some parameter steps failed; see report."
       - name: Job summary
         if: steps.secret.outputs.present == 'true'
-        run: cat results/REST_REPORT.md results/MCP_REPORT.md >> "$GITHUB_STEP_SUMMARY" || true
+        run: cat results/REST_REPORT.md results/MCP_REPORT.md results/PARAMS_REPORT.md >> "$GITHUB_STEP_SUMMARY" || true
       - name: Guard against leaking the key
         if: steps.secret.outputs.present == 'true'
         run: |

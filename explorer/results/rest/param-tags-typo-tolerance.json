@@ -1,0 +1,115 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "Mediteranean",
+      "feature.typo_tolerance": true,
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 1905,
+    "url": "/v2/tags?filter.query=Mediteranean&feature.typo_tolerance=true&take=5",
+    "requestId": "290523ad-0a20-4d0b-beac-895f5887fe97",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49546",
+      "x-month-ratelimit-reset": "2589152.21",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 1598,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:genre:place",
+            "id": "urn:tag:genre:place:restaurant:mediterranean",
+            "name": "Mediterranean",
+            "popularity": 0.9998712,
+            "properties": {
+              "description": "Mediterranean cuisine is characterized by its flexibility; emphasis on fruits, vegetables, whole grains, nuts and seeds; poultry and seafood over red meat; and olive oil instead of butter. The dishes are known for their bold and fresh flavors, with a particular emphasis on fresh fruits, vegetables, and herbs.",
+              "history": "The term 'Mediterranean' refers to cuisines of the areas surrounding the Mediterranean sea, from Europe, North Africa, to the Middle East. Its roots can be traced back to the Roman Empire.",
+              "presentation_style": "Subtle and rustic"
+            },
+            "tags": [
+              {
+                "name": "Canonical",
+                "tag_id": "urn:tag:collection:canonical",
+                "type": "urn:tag:collection",
+                "value": "urn:tag:collection:canonical"
+              }
+            ]
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:cuisine:qloo",
+            "id": "urn:tag:cuisine:qloo:mediterranean",
+            "name": "Mediterranean",
+            "popularity": 0.9985579,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:decor:qloo",
+            "id": "urn:tag:decor:qloo:mediterranean",
+            "name": "Mediterranean",
+            "popularity": 0.99666065,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:genre:place",
+            "id": "urn:tag:genre:place:hotel:mediterranean",
+            "name": "Mediterranean",
+            "popularity": 0.9949167,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              },
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:setting:qloo",
+            "id": "urn:tag:setting:qloo:mediterranean",
+            "name": "Mediterranean",
+            "popularity": 0.98928535,
+            "properties": {},
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

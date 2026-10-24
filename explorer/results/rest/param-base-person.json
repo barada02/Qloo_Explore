@@ -1,0 +1,2913 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:person",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 794,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aperson&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+    "requestId": "dddba3e6-58d2-44b2-94b0-8192dcf632e0",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49625",
+      "x-month-ratelimit-reset": "2589365.32",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Beck",
+            "entity_id": "0DC6D67C-E803-41F4-9C9B-BA8857755AE0",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {
+              "akas": [
+                {
+                  "value": "00342959732 IPI",
+                  "language": "nb"
+                },
+                {
+                  "value": "Hansen Beck",
+                  "language": "cs"
+                },
+                {
+                  "value": "Beck",
+                  "language": "hr"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "cs"
+                },
+                {
+                  "value": "Хэнсен, Бек",
+                  "language": "ru"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "ty"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "co"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "tl"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "it"
+                },
+                {
+                  "value": "Bek David CAMPBELL",
+                  "language": "eo"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "pt"
+                },
+                {
+                  "value": "Beck",
+                  "language": "et"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "cs"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "es"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "nl"
+                },
+                {
+                  "value": "Beck",
+                  "language": "vi"
+                },
+                {
+                  "value": "Beck",
+                  "language": "it"
+                },
+                {
+                  "value": "貝克 (歌手)",
+                  "language": "zh"
+                },
+                {
+                  "value": "Beck",
+                  "language": "gl"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "id"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "br"
+                },
+                {
+                  "value": "Beck",
+                  "language": "tl"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "id"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "de"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "oc"
+                },
+                {
+                  "value": "বেক",
+                  "language": "bn"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "pt"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "en"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "br"
+                },
+                {
+                  "value": "Beck",
+                  "language": "eo"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "ro"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "en"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "da"
+                },
+                {
+                  "value": "Бек Гансен",
+                  "language": "uk"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "nn"
+                },
+                {
+                  "value": "Beck",
+                  "language": "cy"
+                },
+                {
+                  "value": "Beck",
+                  "language": "hu"
+                },
+                {
+                  "value": "Бек Хэнсен",
+                  "language": "ru"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "ms"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "es"
+                },
+                {
+                  "value": "Beck",
+                  "language": "sl"
+                },
+                {
+                  "value": "ベック",
+                  "language": "ja"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "ty"
+                },
+                {
+                  "value": "Բեք Հենսեն",
+                  "language": "hy"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "nb"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "nb"
+                },
+                {
+                  "value": "Beck",
+                  "language": "es"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "de"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "it"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "co"
+                },
+                {
+                  "value": "Бек Дејвид Кембел",
+                  "language": "mk"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "sv"
+                },
+                {
+                  "value": "Beck",
+                  "language": "fr"
+                },
+                {
+                  "value": "Beck",
+                  "language": "de"
+                },
+                {
+                  "value": "Beck",
+                  "language": "da"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "pl"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "tr"
+                },
+                {
+                  "value": "Бек Дејвид Хансен",
+                  "language": "mk"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "ty"
+                },
+                {
+                  "value": "벡",
+                  "language": "ko"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "sv"
+                },
+                {
+                  "value": "Beck",
+                  "language": "cs"
+                },
+                {
+                  "value": "بک هانسن",
+                  "language": "fa"
+                },
+                {
+                  "value": "Beck",
+                  "language": "ms"
+                },
+                {
+                  "value": "Beck",
+                  "language": "ka"
+                },
+                {
+                  "value": "Beck",
+                  "language": "ro"
+                },
+                {
+                  "value": "Beck",
+                  "language": "sk"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "tl"
+                },
+                {
+                  "value": "貝克",
+                  "language": "zh"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "es"
+                },
+                {
+                  "value": "Beck",
+                  "language": "is"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "da"
+                },
+                {
+                  "value": "Бек",
+                  "language": "mk"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "br"
+                },
+                {
+                  "value": "בק",
+                  "language": "he"
+                },
+                {
+                  "value": "ベック・ハンセン",
+                  "language": "ja"
+                },
+                {
+                  "value": "เบ็ก",
+                  "language": "th"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "ro"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "tl"
+                },
+                {
+                  "value": "بيك",
+                  "language": "ar"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "nb"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "fr"
+                },
+                {
+                  "value": "Beck",
+                  "language": "eu"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "et"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "ca"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "de"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "ro"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "pt"
+                },
+                {
+                  "value": "Бек Хансен",
+                  "language": "mk"
+                },
+                {
+                  "value": "Beck",
+                  "language": "tr"
+                },
+                {
+                  "value": "Beck",
+                  "language": "fi"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "sv"
+                },
+                {
+                  "value": "Beck",
+                  "language": "nn"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "id"
+                },
+                {
+                  "value": "Бек (музичар)",
+                  "language": "sr"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "nl"
+                },
+                {
+                  "value": "Beck",
+                  "language": "sq"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "vi"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "sk"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "hu"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "nl"
+                },
+                {
+                  "value": "Beck",
+                  "language": "nb"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "fi"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "en"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "eu"
+                },
+                {
+                  "value": "Beck",
+                  "language": "ga"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "fr"
+                },
+                {
+                  "value": "Beck HANSEN",
+                  "language": "eo"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "da"
+                },
+                {
+                  "value": "Beck",
+                  "language": "an"
+                },
+                {
+                  "value": "Beck David Hansen",
+                  "language": "it"
+                },
+                {
+                  "value": "Beck Hansen",
+                  "language": "co"
+                },
+                {
+                  "value": "Bek David Campbell",
+                  "language": "fr"
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "americký hudobník, skladateľ a multi-inštrumentalista",
+                  "language": "sk"
+                },
+                {
+                  "value": "músic estatunidenc",
+                  "language": "ca"
+                },
+                {
+                  "value": "זמר אמריקאי",
+                  "language": "he"
+                },
+                {
+                  "value": "američki glazbenik i tekstopisac",
+                  "language": "hr"
+                },
+                {
+                  "value": "amerikansk plateartist, låtskriver",
+                  "language": "nb"
+                },
+                {
+                  "value": "aмерички певач, текстописац, музичар и музички продуцент",
+                  "language": "sr"
+                },
+                {
+                  "value": "muzikant amerikan",
+                  "language": "sq"
+                },
+                {
+                  "value": "американський музикант, поет-пісенник і мультиінструменталіст",
+                  "language": "uk"
+                },
+                {
+                  "value": "amerikanischer Musiker",
+                  "language": "de"
+                },
+                {
+                  "value": "amerykański muzyk rockowy i producent muzyczny",
+                  "language": "pl"
+                },
+                {
+                  "value": "アメリカ合衆国のミュージシャン (1970-)",
+                  "language": "ja"
+                },
+                {
+                  "value": "músico estadounidense",
+                  "language": "gl"
+                },
+                {
+                  "value": "ամերիկացի երաժիշտ",
+                  "language": "hy"
+                },
+                {
+                  "value": "cantautore e musicista statunitense",
+                  "language": "it"
+                },
+                {
+                  "value": "yhdysvaltalainen muusikko",
+                  "language": "fi"
+                },
+                {
+                  "value": "amerikai zenész, dalszövegíró",
+                  "language": "hu"
+                },
+                {
+                  "value": "Amerikanong musikero",
+                  "language": "tl"
+                },
+                {
+                  "value": "Amerikalı müzisyen",
+                  "language": "tr"
+                },
+                {
+                  "value": "músico estadounidense",
+                  "language": "es"
+                },
+                {
+                  "value": "American musician (born 1970)",
+                  "language": "en"
+                },
+                {
+                  "value": "amerikansk musikar, låtskrivar og multi-instrumentalist",
+                  "language": "nn"
+                },
+                {
+                  "value": "muzician american",
+                  "language": "ro"
+                },
+                {
+                  "value": "amerikansk musiker og singer-songwriter",
+                  "language": "da"
+                },
+                {
+                  "value": "Ameerika Ühendriikide muusik",
+                  "language": "et"
+                },
+                {
+                  "value": "американски музичар",
+                  "language": "mk"
+                },
+                {
+                  "value": "amerikansk musiker",
+                  "language": "sv"
+                },
+                {
+                  "value": "americký zpěvák, textař a multiinstrumentalista",
+                  "language": "cs"
+                },
+                {
+                  "value": "cyfansoddwr a aned yn 1970",
+                  "language": "cy"
+                },
+                {
+                  "value": "musicien américain",
+                  "language": "fr"
+                },
+                {
+                  "value": "Amerikaans zanger",
+                  "language": "nl"
+                },
+                {
+                  "value": "মার্কিন সুরকার",
+                  "language": "bn"
+                },
+                {
+                  "value": "американский музыкант-мультиинструменталист, автор-исполнитель",
+                  "language": "ru"
+                },
+                {
+                  "value": "موسيقي أمريكي",
+                  "language": "ar"
+                },
+                {
+                  "value": "cantor, compositor e multi-instrumentista estadunidense",
+                  "language": "pt"
+                }
+              ],
+              "award_received": [
+                "Grammy Award for Album of the Year",
+                "Grammy Awards"
+              ],
+              "citizenship": [
+                "United States of America"
+              ],
+              "date_of_birth": "1970-07-08",
+              "image": {
+                "url": "https://images.qloo.com/i/0DC6D67C-E803-41F4-9C9B-BA8857755AE0-420x-auto.jpg"
+              },
+              "father": [
+                "David Campbell"
+              ],
+              "gender": [
+                "male"
+              ],
+              "instrument": [
+                "melodica",
+                "harmonica",
+                "bass guitar",
+                "slide guitar",
+                "sitar",
+                "drum kit",
+                "voice",
+                "keyboard instrument",
+                "mbira",
+                "vocoder",
+                "guitar",
+                "12-string guitar",
+                "glockenspiel",
+                "banjo",
+                "beatboxing"
+              ],
+              "nominated_for": [
+                "Grammy Award for Best Alternative Music Album"
+              ],
+              "official_website": [
+                "http://www.beck.com"
+              ],
+              "spouse": [
+                "Marissa Ribisi"
+              ],
+              "work_period_start": "1988-01-01"
+            },
+            "popularity": 0.923946249768974,
+            "tags": [
+              {
+                "id": "urn:tag:occupation:person:manufacturer",
+                "name": "Manufacturer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_male_musicians",
+                "name": "21st-century American Male Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_alternative_rock_musicians",
+                "name": "American Alternative Rock Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_alternative_country_singers",
+                "name": "American Alternative Country Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_country_rock_singers",
+                "name": "American Country Rock Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_norwegian_descent",
+                "name": "American People Of Norwegian Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:art_pop_musicians",
+                "name": "Art Pop Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:capitol_records_artists",
+                "name": "Capitol Records Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:record_producer",
+                "name": "Record Producer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_music_video_directors",
+                "name": "American Music Video Directors",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:postmodern_musicians",
+                "name": "Postmodern Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:dgc_records_artists",
+                "name": "Dgc Records Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_guitarists",
+                "name": "20th-century American Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:jewish_american_songwriters",
+                "name": "Jewish American Songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_singer_songwriters",
+                "name": "20th-century American Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_multi_instrumentalists",
+                "name": "American Multi-instrumentalists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:k_records_artists",
+                "name": "K Records Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:street_artist",
+                "name": "Street Artist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:xl_recordings_artists",
+                "name": "Xl Recordings Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer",
+                "name": "Singer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_songwriters",
+                "name": "American Rock Songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:musicians_from_los_angeles",
+                "name": "Musicians From Los Angeles",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:beck",
+                "name": "Beck",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_swedish_descent",
+                "name": "American People Of Swedish Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_singers",
+                "name": "American Rock Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer_songwriter",
+                "name": "Singer-songwriter",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_guitarists",
+                "name": "21st-century American Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_jews",
+                "name": "20th-century American Jews",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:jewish_anti_folk_musicians",
+                "name": "Jewish Anti-folk Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:category:wikidata:person",
+                "name": "Person",
+                "type": "urn:tag:category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_guitarists",
+                "name": "American Male Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_indie_rock_musicians",
+                "name": "American Indie Rock Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_folk_singers",
+                "name": "American Folk Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_male_musicians",
+                "name": "20th-century American Male Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_folk_guitarists",
+                "name": "American Folk Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:person:musician",
+                "name": "Musician",
+                "type": "urn:tag:genre:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:sony_music_publishing_artists",
+                "name": "Sony Music Publishing Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:singer_songwriters_from_california",
+                "name": "Singer-songwriters From California",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:jewish_american_rock_musicians",
+                "name": "Jewish American Rock Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:jewish_singers",
+                "name": "Jewish Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_alternative_rock_guitarists",
+                "name": "American Alternative Rock Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:guitarists_from_los_angeles",
+                "name": "Guitarists From Los Angeles",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_singer_songwriters",
+                "name": "American Male Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_guitarists",
+                "name": "American Rock Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:grammy_award_winners",
+                "name": "Grammy Award Winners",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_country_singer_songwriters",
+                "name": "American Country Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:brit_award_winners",
+                "name": "Brit Award Winners",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:guitarist",
+                "name": "Guitarist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:singers_from_los_angeles",
+                "name": "Singers From Los Angeles",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:composer",
+                "name": "Composer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:occupation:person:banjoist",
+                "name": "Banjoist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_jews",
+                "name": "21st-century American Jews",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_canadian_descent",
+                "name": "American People Of Canadian Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_singer_songwriters",
+                "name": "21st-century American Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_former_scientologists",
+                "name": "American Former Scientologists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              }
+            ],
+            "query": {
+              "affinity": 0.9724077068661667,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "1970-07-08",
+            "external": {
+              "soundcloud_id": [
+                {
+                  "id": "planned_obsolescence"
+                }
+              ],
+              "last_fm_id": [
+                {
+                  "id": "Beck"
+                }
+              ],
+              "twitter_username": [
+                {
+                  "id": "beck"
+                }
+              ],
+              "musicbrainz_artist_id": [
+                {
+                  "id": "309c62ba-7a22-4277-9f67-4a162526d18a"
+                }
+              ],
+              "library_of_congress_authority_id": [
+                {
+                  "id": "no96060331"
+                }
+              ],
+              "spotify_artist_id": [
+                {
+                  "id": "3vbKDsSS70ZX9D2OcvbZmS"
+                }
+              ],
+              "imdb_id": [
+                {
+                  "id": "nm0065059"
+                }
+              ],
+              "apple_music_artist_id_u_s_version": [
+                {
+                  "id": "312095"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Arcade Fire",
+            "entity_id": "7398A0D8-4BA6-48A8-9969-C27C509A3013",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.9374001152411912,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:seen_live",
+                "name": "Seen Live",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:canadian",
+                "name": "Canadian",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "And Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie_rock",
+                "name": "Indie - Rock",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.964004667276357,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Björk",
+            "entity_id": "01381184-B533-4E3C-B9DB-43A2FE326744",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.8650590882899729,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:trip_hop",
+                "name": "Trip - Hop",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:jazz",
+                "name": "Jazz",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:soundtrack",
+                "name": "Soundtrack",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:art_pop",
+                "name": "Art Pop",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:electronic",
+                "name": "Electronic",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:icelandic",
+                "name": "Icelandic",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:electronica",
+                "name": "Electronica",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:avantgarde_pop",
+                "name": "Avantgarde Pop",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9609564617728343,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Blur",
+            "entity_id": "5FE80424-BB58-456B-83BD-FBE8C9B7DC94",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.9241419423576608,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:british",
+                "name": "British",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "And Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:britpop",
+                "name": "Britpop",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9599892185228467,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Jack White",
+            "entity_id": "1FF935BB-ECD7-4B5B-B41E-DA64EA9A7833",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {
+              "akas": [
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "es"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "hu"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "nn"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "cy"
+                },
+                {
+                  "value": "جیک وائٹ",
+                  "language": "ur"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "da"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "hu"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "cs"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "sl"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "eu"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "ca"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "ro"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "pt"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "ru"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "ca"
+                },
+                {
+                  "value": "Уайт Джек",
+                  "language": "ru"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "nb"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "fr"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "it"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "nb"
+                },
+                {
+                  "value": "জ্যাক হোয়াইট",
+                  "language": "bn"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "sv"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "ro"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "fr"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "fi"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "pl"
+                },
+                {
+                  "value": "白ジャック",
+                  "language": "ja"
+                },
+                {
+                  "value": "White",
+                  "language": "sv"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "it"
+                },
+                {
+                  "value": "ჯეკ უაიტი",
+                  "language": "ka"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "vi"
+                },
+                {
+                  "value": "جاك وايت",
+                  "language": "ar"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "en"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "ms"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "fi"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "se"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "eu"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "it"
+                },
+                {
+                  "value": "傑克·懷特",
+                  "language": "zh"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "nl"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "gl"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "nn"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "de"
+                },
+                {
+                  "value": "Джак Уайт",
+                  "language": "bg"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "cs"
+                },
+                {
+                  "value": "جک وایت",
+                  "language": "fa"
+                },
+                {
+                  "value": "Jack White III",
+                  "language": "pt"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "pt"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "sq"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "yo"
+                },
+                {
+                  "value": "Джек Вайт",
+                  "language": "uk"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "sv"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "pl"
+                },
+                {
+                  "value": "Джек Уайт",
+                  "language": "ru"
+                },
+                {
+                  "value": "แจ็ก ไวต์",
+                  "language": "th"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "nl"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "hu"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "eu"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "nn"
+                },
+                {
+                  "value": "ג'ק וייט",
+                  "language": "he"
+                },
+                {
+                  "value": "ჯექ უაითი",
+                  "language": "ka"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "pt"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "eo"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "ga"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "ca"
+                },
+                {
+                  "value": "ジャック・ホワイト",
+                  "language": "ja"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "sq"
+                },
+                {
+                  "value": "Џек Вајт",
+                  "language": "sr"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "sr"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "nl"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "tr"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "ms"
+                },
+                {
+                  "value": "John Wesley White",
+                  "language": "sv"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "fr"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "de"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "fi"
+                },
+                {
+                  "value": "Уайт, Джек",
+                  "language": "ru"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "lt"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "mg"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "id"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "da"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "en"
+                },
+                {
+                  "value": "Jack III White",
+                  "language": "en"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "es"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "sq"
+                },
+                {
+                  "value": "메그 화이트",
+                  "language": "ko"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "da"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "sv"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "sl"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "pl"
+                },
+                {
+                  "value": "Ջեք Ուայթ",
+                  "language": "hy"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "de"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "nb"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "ga"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "tr"
+                },
+                {
+                  "value": "John Anthony Gillis",
+                  "language": "tr"
+                },
+                {
+                  "value": "Jack White",
+                  "language": "ro"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "es"
+                },
+                {
+                  "value": "ჯეკ უაითი",
+                  "language": "ka"
+                },
+                {
+                  "value": "John Anthony White",
+                  "language": "se"
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "wokalista i gitarzysta amerykański (The White Stripes)",
+                  "language": "pl"
+                },
+                {
+                  "value": "cantautore, polistrumentista e produttore discografico statunitense",
+                  "language": "it"
+                },
+                {
+                  "value": "músic estatunidenc",
+                  "language": "ca"
+                },
+                {
+                  "value": "ameriški pevec in kitarist",
+                  "language": "sl"
+                },
+                {
+                  "value": "amerikansk gitarist, sanger og skuespiller",
+                  "language": "nb"
+                },
+                {
+                  "value": "chanteur de rock, producteur et acteur",
+                  "language": "fr"
+                },
+                {
+                  "value": "muzikant amerikan",
+                  "language": "sq"
+                },
+                {
+                  "value": "ամերիկացի երաժիշտ",
+                  "language": "hy"
+                },
+                {
+                  "value": "American musician",
+                  "language": "en"
+                },
+                {
+                  "value": "músico de rock e produtor musical estadounidense",
+                  "language": "gl"
+                },
+                {
+                  "value": "(1975–) amerikai zenész, producer",
+                  "language": "hu"
+                },
+                {
+                  "value": "ceoltóir Meiriceánach",
+                  "language": "ga"
+                },
+                {
+                  "value": "Òṣèré Ọmọ Orílẹ̀-èdè America",
+                  "language": "yo"
+                },
+                {
+                  "value": "Amerikalı müzisyen",
+                  "language": "tr"
+                },
+                {
+                  "value": "amerikansk guitarist, sanger og skuespiller",
+                  "language": "da"
+                },
+                {
+                  "value": "actor a chyfansoddwr a aned yn 1975",
+                  "language": "cy"
+                },
+                {
+                  "value": "músico estadounidense",
+                  "language": "es"
+                },
+                {
+                  "value": "американський музикант",
+                  "language": "uk"
+                },
+                {
+                  "value": "muzician american",
+                  "language": "ro"
+                },
+                {
+                  "value": "Ameerika Ühendriikide muusik",
+                  "language": "et"
+                },
+                {
+                  "value": "އެމެރިކާއަށް އުފަން އެކްޓަރެއް",
+                  "language": "dv"
+                },
+                {
+                  "value": "מוזיקאי אמריקאי",
+                  "language": "he"
+                },
+                {
+                  "value": "americký hudebník",
+                  "language": "cs"
+                },
+                {
+                  "value": "মার্কিন সুরকার",
+                  "language": "bn"
+                },
+                {
+                  "value": "US-amerikanischer Sänger und Gitarrist",
+                  "language": "de"
+                },
+                {
+                  "value": "amerikansk gitarrist, sångare och skådespelare",
+                  "language": "sv"
+                },
+                {
+                  "value": "Rock musician",
+                  "language": "ja"
+                },
+                {
+                  "value": "گیتاریست، خواننده، و بازیگر آمریکایی",
+                  "language": "fa"
+                },
+                {
+                  "value": "pemeran laki-laki asal Amerika Serikat",
+                  "language": "id"
+                },
+                {
+                  "value": "موسيقي أمريكي",
+                  "language": "ar"
+                },
+                {
+                  "value": "amerikansk gitarist, songar og skodespelar",
+                  "language": "nn"
+                },
+                {
+                  "value": "അമേരിക്കയിലെ ചലച്ചിത്ര അഭിനേതാവ്",
+                  "language": "ml"
+                },
+                {
+                  "value": "muzikant",
+                  "language": "nl"
+                }
+              ],
+              "award_received": [
+                "Grammy Award for Best Rock Performance"
+              ],
+              "business_partner": [
+                "Meg White"
+              ],
+              "citizenship": [
+                "United States of America"
+              ],
+              "date_of_birth": "1975-07-09",
+              "image": {
+                "url": "https://images.qloo.com/i/1FF935BB-ECD7-4B5B-B41E-DA64EA9A7833-420x-auto.jpg"
+              },
+              "gender": [
+                "male"
+              ],
+              "instrument": [
+                "guitar",
+                "musical keyboard",
+                "drum kit",
+                "piano",
+                "voice",
+                "mandolin"
+              ],
+              "notable_work": [
+                "Lazaretto"
+              ],
+              "official_website": [
+                "https://jackwhiteiii.com"
+              ],
+              "spouse": [
+                "Karen Elson",
+                "Meg White",
+                "Olivia Jean"
+              ],
+              "unmarried_partner": [
+                "Renée Zellweger"
+              ],
+              "work_period_start": "1987-01-01"
+            },
+            "popularity": 0.946499820615127,
+            "tags": [
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_singers",
+                "name": "21st-century American Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer",
+                "name": "Singer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:guitarists_from_detroit",
+                "name": "Guitarists From Detroit",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_tenors",
+                "name": "American Tenors",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:pianist",
+                "name": "Pianist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:21st_century_american_drummers",
+                "name": "21st-century American Drummers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:media:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_canadian_descent",
+                "name": "American People Of Canadian Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_mandolinists",
+                "name": "American Mandolinists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_singers",
+                "name": "American Rock Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_blues_guitarists",
+                "name": "American Blues Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:recording_artist",
+                "name": "Recording Artist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_guitarists",
+                "name": "American Rock Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:person:actor",
+                "name": "Actor",
+                "type": "urn:tag:genre:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:upholsterers",
+                "name": "Upholsterers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:person:director",
+                "name": "Director",
+                "type": "urn:tag:genre:person"
+              },
+              {
+                "id": "urn:tag:occupation:person:guitarist",
+                "name": "Guitarist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:wayne_state_university_alumni",
+                "name": "Wayne State University Alumni",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:xl_recordings_artists",
+                "name": "Xl Recordings Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_expatriates_in_united_kingdom",
+                "name": "American Expatriates In The United Kingdom",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:grammy_award_winners",
+                "name": "Grammy Award Winners",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:person:musician",
+                "name": "Musician",
+                "type": "urn:tag:genre:person"
+              },
+              {
+                "id": "urn:tag:genre:media:media:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_slide_guitarists",
+                "name": "American Slide Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:drummer",
+                "name": "Drummer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:two_star_tabernacle_members",
+                "name": "Two-star Tabernacle Members",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:goober_peas_members",
+                "name": "Goober & The Peas Members",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_singers",
+                "name": "American Male Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_marimbists",
+                "name": "American Marimbists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_drummers",
+                "name": "American Male Drummers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:cass_technical_high_school_alumni",
+                "name": "Cass Technical High School Alumni",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:media:media:short",
+                "name": "Short",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_polish_descent",
+                "name": "American People Of Polish Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:white_stripes_members",
+                "name": "The White Stripes Members",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:category:wikidata:person",
+                "name": "Person",
+                "type": "urn:tag:category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:record_producer",
+                "name": "Record Producer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:occupation:person:composer",
+                "name": "Composer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_music_video_directors",
+                "name": "American Music Video Directors",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer_songwriter",
+                "name": "Singer-songwriter",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:occupation:person:mandolinist",
+                "name": "Mandolinist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_lead_guitarists",
+                "name": "American Lead Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_alternative_rock_guitarists",
+                "name": "American Alternative Rock Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_singers",
+                "name": "20th-century American Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:media:media:documentary",
+                "name": "Documentary",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_drummers",
+                "name": "20th-century American Drummers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_scottish_descent",
+                "name": "American People Of Scottish Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:third_man_records_artists",
+                "name": "Third Man Records Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:actor",
+                "name": "Actor",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:jack_white",
+                "name": "Jack White",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:raconteurs_members",
+                "name": "The Raconteurs Members",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_guitarists",
+                "name": "American Male Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              }
+            ],
+            "query": {
+              "affinity": 0.9596693614987708,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "1975-07-09",
+            "external": {
+              "soundcloud_id": [
+                {
+                  "id": "jackwhiteiii"
+                }
+              ],
+              "last_fm_id": [
+                {
+                  "id": "Jack+White"
+                }
+              ],
+              "twitter_username": [
+                {
+                  "id": "thirdmanrecords"
+                }
+              ],
+              "musicbrainz_artist_id": [
+                {
+                  "id": "3ae2fb37-8a23-429d-9920-bac811c4fc22"
+                }
+              ],
+              "library_of_congress_authority_id": [
+                {
+                  "id": "no2004009008"
+                }
+              ],
+              "spotify_artist_id": [
+                {
+                  "id": "4FZ3j1oH43e7cukCALsCwf"
+                }
+              ],
+              "imdb_id": [
+                {
+                  "id": "nm1226421"
+                }
+              ],
+              "apple_music_artist_id_u_s_version": [
+                {
+                  "id": "826980"
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Strokes",
+            "entity_id": "1A44C04F-7251-4809-809B-6C885FFD68EB",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.9422054554745002,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "And Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie_rock",
+                "name": "Indie - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9582250342541078,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Interpol",
+            "entity_id": "D55AA58B-0DB2-43EF-B3B9-E2D40B215E7E",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.866075602570096,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:seen_live",
+                "name": "Seen Live",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "And Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:post_punk",
+                "name": "Post - Punk",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:garage_rock",
+                "name": "Garage - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:punk_rock",
+                "name": "Punk - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie_rock",
+                "name": "Indie - Rock",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9579923551433228,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Jeff Buckley",
+            "entity_id": "EE32034A-11B2-491C-BDC5-C450B132E4B5",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {
+              "akas": [
+                {
+                  "value": "เจฟฟ์ บั๊กลีย์",
+                  "language": "th"
+                },
+                {
+                  "value": "Джефф Бакли",
+                  "language": "ru"
+                },
+                {
+                  "value": "Buckley",
+                  "language": "nb"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "gl"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "et"
+                },
+                {
+                  "value": "Бакли Д.",
+                  "language": "ru"
+                },
+                {
+                  "value": "جف بوکلی",
+                  "language": "fa"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "nb"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "it"
+                },
+                {
+                  "value": "Buckley",
+                  "language": "sv"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "af"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "is"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "de"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "cs"
+                },
+                {
+                  "value": "Jeffrey Buckley",
+                  "language": "fi"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "ru"
+                },
+                {
+                  "value": "Бакли Джефф",
+                  "language": "ru"
+                },
+                {
+                  "value": "Jeffrey Scott Moorhead",
+                  "language": "it"
+                },
+                {
+                  "value": "جف باکلی",
+                  "language": "fa"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "id"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "sv"
+                },
+                {
+                  "value": "ג'פרי סקוט באקלי",
+                  "language": "he"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "tr"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "pt"
+                },
+                {
+                  "value": "Scott Moorhead",
+                  "language": "sl"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "hu"
+                },
+                {
+                  "value": "Scott Moorhead",
+                  "language": "en"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "da"
+                },
+                {
+                  "value": "ჯეფ ბაკლი",
+                  "language": "ka"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "af"
+                },
+                {
+                  "value": "Scott Moorhead",
+                  "language": "es"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "cy"
+                },
+                {
+                  "value": "Jeffrey Buckley",
+                  "language": "pt"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "ca"
+                },
+                {
+                  "value": "Ջեֆֆ Բաքլի",
+                  "language": "hy"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "fr"
+                },
+                {
+                  "value": "Джеф Баклі",
+                  "language": "uk"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "da"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "nl"
+                },
+                {
+                  "value": "جيف بوكلي",
+                  "language": "ar"
+                },
+                {
+                  "value": "Scotty Moorhead",
+                  "language": "id"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "cs"
+                },
+                {
+                  "value": "เจฟฟ์ บัคเลย์",
+                  "language": "th"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "tr"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "th"
+                },
+                {
+                  "value": "Бакли Джеф",
+                  "language": "ru"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "es"
+                },
+                {
+                  "value": "Scottie Moorhead",
+                  "language": "ca"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "fi"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "id"
+                },
+                {
+                  "value": "Џеф Бакли",
+                  "language": "mk"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "ro"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "hr"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "sk"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "ro"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "sl"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "ga"
+                },
+                {
+                  "value": "ジェフ・バックリー",
+                  "language": "ja"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "nn"
+                },
+                {
+                  "value": "제프 버클리",
+                  "language": "ko"
+                },
+                {
+                  "value": "ג'ף באקלי",
+                  "language": "he"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "es"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "de"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "fi"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "en"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "gl"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "lt"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "sq"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "sk"
+                },
+                {
+                  "value": "ジェフ・バックリィ",
+                  "language": "ja"
+                },
+                {
+                  "value": "傑夫·巴克利",
+                  "language": "zh"
+                },
+                {
+                  "value": "Jeffrey Scott Buckley",
+                  "language": "pt"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "pl"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "eo"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "eu"
+                },
+                {
+                  "value": "Jeff Buckley",
+                  "language": "nl"
+                },
+                {
+                  "value": "Бакли, Джефф",
+                  "language": "ru"
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "chanteur américain",
+                  "language": "fr"
+                },
+                {
+                  "value": "cyfansoddwr a aned yn 1966",
+                  "language": "cy"
+                },
+                {
+                  "value": "Amerikaans zanger (1966–1997)",
+                  "language": "nl"
+                },
+                {
+                  "value": "piosenkarz amerykański",
+                  "language": "pl"
+                },
+                {
+                  "value": "خواننده-ترانه‌سرا، موسیقی‌دان، گیتاریست، و خواننده آمریکایی",
+                  "language": "fa"
+                },
+                {
+                  "value": "創作歌手、吉他手",
+                  "language": "zh"
+                },
+                {
+                  "value": "مغني وعازف أمريكي",
+                  "language": "ar"
+                },
+                {
+                  "value": "músico estadounidense",
+                  "language": "es"
+                },
+                {
+                  "value": "Amerikalı müzisyen (1966 – 1997)",
+                  "language": "tr"
+                },
+                {
+                  "value": "cântăreț, chitarist și compozitor american",
+                  "language": "ro"
+                },
+                {
+                  "value": "cantautore e chitarrista statunitense",
+                  "language": "it"
+                },
+                {
+                  "value": "amerikansk sångare och låtskrivare",
+                  "language": "sv"
+                },
+                {
+                  "value": "US-amerikanischer Singer-Songwriter und Gitarrist",
+                  "language": "de"
+                },
+                {
+                  "value": "amerikai énekes, gitáros, dalszerző",
+                  "language": "hu"
+                },
+                {
+                  "value": "Amerikaanse musikant (1966–1997)",
+                  "language": "af"
+                },
+                {
+                  "value": "Cantautor californià",
+                  "language": "ca"
+                },
+                {
+                  "value": "American musician (1966–1997)",
+                  "language": "en"
+                },
+                {
+                  "value": "นักดนตรีชาวอเมริกัน ค.ศ. 1966-1997",
+                  "language": "th"
+                },
+                {
+                  "value": "זמר וגיטריסט אמריקאי, 1966-1997",
+                  "language": "he"
+                },
+                {
+                  "value": "americký zpěvák a kytarista",
+                  "language": "cs"
+                }
+              ],
+              "citizenship": [
+                "United States of America"
+              ],
+              "date_of_birth": "1966-11-17",
+              "date_of_death": "1997-05-29",
+              "image": {
+                "url": "https://images.qloo.com/i/EE32034A-11B2-491C-BDC5-C450B132E4B5-420x-auto.jpg"
+              },
+              "father": [
+                "Tim Buckley"
+              ],
+              "gender": [
+                "male"
+              ],
+              "instrument": [
+                "harmonica",
+                "guitar",
+                "sitar",
+                "saxophone",
+                "voice",
+                "Appalachian dulcimer"
+              ],
+              "notable_work": [
+                "Grace"
+              ],
+              "official_website": [
+                "http://www.jeffbuckley.com"
+              ],
+              "unmarried_partner": [
+                "Joan Wasser"
+              ],
+              "work_period_start": "1990-01-01"
+            },
+            "popularity": 0.8721312010089041,
+            "tags": [
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_singer_songwriters",
+                "name": "American Male Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_singer_songwriters",
+                "name": "20th-century American Singer-songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:musicians_from_manhattan",
+                "name": "Musicians From Manhattan",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer",
+                "name": "Singer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:gods_monsters_band_members",
+                "name": "Gods And Monsters (band) Members",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:category:wikidata:person",
+                "name": "Person",
+                "type": "urn:tag:category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_guitarists",
+                "name": "20th-century American Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:people_from_greenwich_village",
+                "name": "People From Greenwich Village",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:guitarists_from_california",
+                "name": "Guitarists From California",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_singers",
+                "name": "American Rock Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:singers_a_four_octave_vocal_range",
+                "name": "Singers With A Four-octave Vocal Range",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:guitarists_from_new_york_state",
+                "name": "Guitarists From New York (state)",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_musicians_panamanian_descent",
+                "name": "American Musicians Of Panamanian Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_male_guitarists",
+                "name": "American Male Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_tenors",
+                "name": "American Tenors",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_songwriters",
+                "name": "American Rock Songwriters",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:guitarist",
+                "name": "Guitarist",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_italian_descent",
+                "name": "American People Of Italian Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_writers_greek_descent",
+                "name": "American Writers Of Greek Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_french_descent",
+                "name": "American People Of French Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:genre:person:musician",
+                "name": "Musician",
+                "type": "urn:tag:genre:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_folk_rock_musicians",
+                "name": "American Folk Rock Musicians",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:singer_songwriter",
+                "name": "Singer-songwriter",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:singer_songwriters_from_california",
+                "name": "Singer-songwriters From California",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:deaths_drowning_in_united_states",
+                "name": "Deaths By Drowning In The United States",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_people_irish_descent",
+                "name": "American People Of Irish Descent",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:singer_songwriters_from_new_york_state",
+                "name": "Singer-songwriters From New York (state)",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:american_rock_guitarists",
+                "name": "American Rock Guitarists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:occupation:person:composer",
+                "name": "Composer",
+                "type": "urn:tag:occupation:person"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:musicians_institute_alumni",
+                "name": "Musicians Institute Alumni",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:columbia_records_artists",
+                "name": "Columbia Records Artists",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:accidental_deaths_in_tennessee",
+                "name": "Accidental Deaths In Tennessee",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              },
+              {
+                "id": "urn:tag:wikipedia_category:wikidata:20th_century_american_male_singers",
+                "name": "20th-century American Male Singers",
+                "type": "urn:tag:wikipedia_category:wikidata"
+              }
+            ],
+            "query": {
+              "affinity": 0.956285145801885,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "1966-11-17",
+            "external": {
+              "last_fm_id": [
+                {
+                  "id": "Jeff+Buckley"
+                }
+              ],
+              "musicbrainz_artist_id": [
+                {
+                  "id": "e6e879c0-3d56-4f12-b3c5-3ce459661a8e"
+                }
+              ],
+              "library_of_congress_authority_id": [
+                {
+                  "id": "no99047502"
+                }
+              ],
+              "spotify_artist_id": [
+                {
+                  "id": "3nnQpaTvKb5jCQabZefACI"
+                }
+              ],
+              "imdb_id": [
+                {
+                  "id": "nm0118623"
+                }
+              ],
+              "apple_music_artist_id_u_s_version": [
+                {
+                  "id": "872190"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Sigur Rós",
+            "entity_id": "6F2C4E85-CE79-4645-BAB3-3DF7EB4F4AC1",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.861525749883128,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:post_rock",
+                "name": "Post - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:beautiful_music",
+                "name": "Beautiful Music",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:icelandic",
+                "name": "Icelandic",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:electronic",
+                "name": "Electronic",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9558219535736782,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          },
+          {
+            "name": "Joy Division",
+            "entity_id": "B8FE4F27-5AC7-46C8-81BC-28313D225FDA",
+            "type": "urn:entity",
+            "subtype": "urn:entity:person",
+            "properties": {},
+            "popularity": 0.912324284363075,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:80s",
+                "name": "80s",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:post_punk",
+                "name": "Post - Punk",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:new_wave",
+                "name": "New Wave",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:punk_rock",
+                "name": "Punk - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "And Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:garage_rock",
+                "name": "Garage - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "\"indie\"",
+                "type": "urn:tag:genre:music"
+              }
+            ],
+            "query": {
+              "affinity": 0.9556310013237644,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "",
+            "external": {}
+          }
+        ]
+      }
+    }
+  }
+}

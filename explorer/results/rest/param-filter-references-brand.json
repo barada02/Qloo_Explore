@@ -1,0 +1,1064 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:place",
+      "take": 10,
+      "signal.interests.entities": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+      "filter.location.query": "San Francisco",
+      "filter.references_brand": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+      "operator.filter.references_brand": "union"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 483,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aplace&take=10&signal.interests.entities=FBBAF1EE-BC5A-4A9C-A971-2910A2214F27&filter.location.query=San+Francisco&filter.references_brand=DB4CE34E-3A63-4947-946F-9D52502C5762&operator.filter.references_brand=union",
+    "requestId": "77917498-3991-45e2-9ff2-46ca3c7bce70",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49581",
+      "x-month-ratelimit-reset": "2589201.19",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.07"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Patagonia",
+            "entity_id": "4CC29038-E104-4A83-9CD1-A159DDCC375F",
+            "type": "urn:entity",
+            "subtype": "urn:entity:place",
+            "properties": {
+              "hours": {
+                "friday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "monday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "sunday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "tuesday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "saturday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "thursday": [
+                  {
+                    "opens": "T10:00:00",
+                    "closed": false,
+                    "closes": "T19:00:00"
+                  }
+                ],
+                "wednesday": [
+                  {
+                    "opens": "T11:00:00",
+                    "closed": false,
+                    "closes": "T18:00:00"
+                  }
+                ]
+              },
+              "phone": "+14157712050",
+              "images": [
+                {
+                  "url": "https://images.qloo.com/i/4CC29038-E104-4A83-9CD1-A159DDCC375F-1WiA0z-420x-outside.jpg",
+                  "type": "urn:image:place:unknown"
+                }
+              ],
+              "address": "770 North Point St San Francisco, CA 94109",
+              "geocode": {
+                "city": "San Francisco",
+                "name": "Russian Hill",
+                "metro": "San Francisco",
+                "country": "United States",
+                "country_code": "US",
+                "admin1_region": "California",
+                "admin2_region": "San Francisco"
+              },
+              "parking": false,
+              "website": "https://www.patagonia.com/stores/ca/san-francisco/770-north-point/store_sanfrancisco.html",
+              "good_for": null,
+              "keywords": null,
+              "locality": {
+                "city": {
+                  "name": "San Francisco",
+                  "place": "city",
+                  "boundary": "administrative",
+                  "entity_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+                  "admin_level": 6,
+                  "locality_id": "r111968",
+                  "abbreviation": "SF",
+                  "country_code": null
+                },
+                "metro": {
+                  "name": "San Francisco",
+                  "place": "metro",
+                  "boundary": "metro",
+                  "entity_id": "D64B04E7-C01C-4456-8EA2-6D17253B8808",
+                  "admin_level": 12,
+                  "locality_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                "state": {
+                  "name": "California",
+                  "place": "state",
+                  "boundary": "administrative",
+                  "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+                  "admin_level": 4,
+                  "locality_id": "r165475",
+                  "abbreviation": "Calif.",
+                  "country_code": null
+                },
+                "county": {
+                  "name": "San Francisco",
+                  "place": "city",
+                  "boundary": "administrative",
+                  "entity_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+                  "admin_level": 6,
+                  "locality_id": "r111968",
+                  "abbreviation": "SF",
+                  "country_code": null
+                },
+                "country": {
+                  "name": "United States",
+                  "place": "country",
+                  "boundary": "administrative",
+                  "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+                  "admin_level": 2,
+                  "locality_id": "r148838",
+                  "abbreviation": "USA",
+                  "country_code": "US"
+                },
+                "neighborhood": {
+                  "name": "Russian Hill",
+                  "place": "neighbourhood",
+                  "boundary": "neighborhood",
+                  "entity_id": "38AB0285-8B27-477C-A4DC-BC7AC01840C0",
+                  "admin_level": 10,
+                  "locality_id": "n1680468587",
+                  "abbreviation": null,
+                  "country_code": null
+                }
+              },
+              "menu_url": null,
+              "is_closed": false,
+              "live_music": null,
+              "localities": [
+                {
+                  "name": "United States",
+                  "place": "country",
+                  "boundary": "administrative",
+                  "entity_id": "FCA82A91-546B-4A8F-BC61-DB14088A7E94",
+                  "admin_level": 2,
+                  "locality_id": "r148838",
+                  "abbreviation": "USA",
+                  "country_code": "US"
+                },
+                {
+                  "name": "California",
+                  "place": "state",
+                  "boundary": "administrative",
+                  "entity_id": "3FE97E82-A5BC-453F-99A7-F7F077F9D873",
+                  "admin_level": 4,
+                  "locality_id": "r165475",
+                  "abbreviation": "Calif.",
+                  "country_code": null
+                },
+                {
+                  "name": "San Francisco",
+                  "place": "metro",
+                  "boundary": "metro",
+                  "entity_id": "D64B04E7-C01C-4456-8EA2-6D17253B8808",
+                  "admin_level": 12,
+                  "locality_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "Russian Hill",
+                  "place": "neighbourhood",
+                  "boundary": "neighborhood",
+                  "entity_id": "38AB0285-8B27-477C-A4DC-BC7AC01840C0",
+                  "admin_level": 10,
+                  "locality_id": "n1680468587",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "94109",
+                  "place": "ZCTA",
+                  "boundary": "ZCTA",
+                  "entity_id": "3272B040-B7CE-4832-BA42-5D99BF5484B7",
+                  "admin_level": 9,
+                  "locality_id": "z94109",
+                  "abbreviation": null,
+                  "country_code": null
+                },
+                {
+                  "name": "San Francisco",
+                  "place": "city",
+                  "boundary": "administrative",
+                  "entity_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+                  "admin_level": 6,
+                  "locality_id": "r111968",
+                  "abbreviation": "SF",
+                  "country_code": null
+                }
+              ],
+              "description": "Outdoor gear store focused on durable, low-impact apparel and equipment in a waterfront San Francisco setting.",
+              "hotel_class": null,
+              "price_level": null,
+              "price_range": {
+                "to": null,
+                "from": null,
+                "currency": "usd"
+              },
+              "star_rating": null,
+              "event_spaces": false,
+              "neighborhood": "Russian Hill",
+              "pet_friendly": true,
+              "check_in_time": null,
+              "primary_genre": {
+                "id": "urn:tag:genre:place:outdoor_clothing_and_equipment_shop",
+                "akas": [
+                  {
+                    "value": "\"Tenda de roupa e equipamento de exterior\"",
+                    "languages": [
+                      "gl"
+                    ]
+                  },
+                  {
+                    "value": "\"Magazin de îmbrăcăminte și echipament pentru activități în aer liber\"",
+                    "languages": [
+                      "ro"
+                    ]
+                  },
+                  {
+                    "value": "\"Tienda de ropa y equipo de montaña\"",
+                    "languages": [
+                      "es_ar"
+                    ]
+                  },
+                  {
+                    "value": "\"Kedai pakaian dan peralatan luar\"",
+                    "languages": [
+                      "ms"
+                    ]
+                  },
+                  {
+                    "value": "\"ហាងលក់សម្លៀកបំពាក់ និងឧបករណ៍ក្រៅផ្ទះ\"",
+                    "languages": [
+                      "km"
+                    ]
+                  },
+                  {
+                    "value": "\"Negozio di abbigliamento e attrezzature per attività all'aperto\"",
+                    "languages": [
+                      "it"
+                    ]
+                  },
+                  {
+                    "value": "\"வெளிப்புற ஆடைகள் மற்றும் உபகரணங்கள் கடை\"",
+                    "languages": [
+                      "ta"
+                    ]
+                  },
+                  {
+                    "value": "\"Outdoor-Fachgeschäft\"",
+                    "languages": [
+                      "de"
+                    ]
+                  },
+                  {
+                    "value": "\"アウトドア用品店\"",
+                    "languages": [
+                      "ja"
+                    ]
+                  },
+                  {
+                    "value": "\"Продавница одеће и опреме за боравак на отвореном\"",
+                    "languages": [
+                      "sr"
+                    ]
+                  },
+                  {
+                    "value": "\"Tienda de ropa y equipamiento de montaña\"",
+                    "languages": [
+                      "es"
+                    ]
+                  },
+                  {
+                    "value": "\"Trgovina z oblačili in opremo za prosti čas\"",
+                    "languages": [
+                      "sl"
+                    ]
+                  },
+                  {
+                    "value": "\"სპორტული და ტურისტული აღჭურვილობის მაღაზია\"",
+                    "languages": [
+                      "ka"
+                    ]
+                  },
+                  {
+                    "value": "\"Butikk for turutstyr og friluftsklær\"",
+                    "languages": [
+                      "nb"
+                    ]
+                  },
+                  {
+                    "value": "\"Loja de roupas e equipamentos para atividades ao ar livre\"",
+                    "languages": [
+                      "pt"
+                    ]
+                  },
+                  {
+                    "value": "\"Κατάστημα ειδών ένδυσης και εξοπλισμού εξωτερικού χώρου\"",
+                    "languages": [
+                      "el"
+                    ]
+                  },
+                  {
+                    "value": "\"Obchod s outdoorovým oblečením a vybavením\"",
+                    "languages": [
+                      "cs",
+                      "sk"
+                    ]
+                  },
+                  {
+                    "value": "\"ร้านขายเสื้อผ้าและอุปกรณ์กลางแจ้ง\"",
+                    "languages": [
+                      "th"
+                    ]
+                  },
+                  {
+                    "value": "\"Магазин одягу та спорядження для активного відпочинку\"",
+                    "languages": [
+                      "uk"
+                    ]
+                  },
+                  {
+                    "value": "\"Cửa hàng quần áo và thiết bị dã ngoại\"",
+                    "languages": [
+                      "vi"
+                    ]
+                  },
+                  {
+                    "value": "\"Dyqan i veshjeve dhe pajisjeve për aktivitete në natyrë\"",
+                    "languages": [
+                      "sq"
+                    ]
+                  },
+                  {
+                    "value": "\"Продавница за облека и опрема за отворено\"",
+                    "languages": [
+                      "mk"
+                    ]
+                  },
+                  {
+                    "value": "\"Sklep z odzieżą i sprzętem outdoorowym\"",
+                    "languages": [
+                      "pl"
+                    ]
+                  },
+                  {
+                    "value": "\"Duka la nguo na vifaa vya nje\"",
+                    "languages": [
+                      "sw"
+                    ]
+                  },
+                  {
+                    "value": "\"Loja de artigos esportivos\"",
+                    "languages": [
+                      "pt"
+                    ]
+                  },
+                  {
+                    "value": "\"আউটডোর পোশাক ও সরঞ্জামের দোকান\"",
+                    "languages": [
+                      "bn"
+                    ]
+                  },
+                  {
+                    "value": "\"ပြင်ပအဝတ်အထည်နှင့် ပစ္စည်းကိရိယာဆိုင်\"",
+                    "languages": [
+                      "my"
+                    ]
+                  },
+                  {
+                    "value": "\"Outdoor clothing and equipment shop\"",
+                    "languages": [
+                      "en_gb"
+                    ]
+                  },
+                  {
+                    "value": "\"Lauko drabužių ir įrangos parduotuvė\"",
+                    "languages": [
+                      "lt"
+                    ]
+                  },
+                  {
+                    "value": "\"आउटडोर कपड़ों और उपकरणों की दुकान\"",
+                    "languages": [
+                      "hi"
+                    ]
+                  },
+                  {
+                    "value": "\"متجر ملابس ومعدات خارجية\"",
+                    "languages": [
+                      "ar"
+                    ]
+                  },
+                  {
+                    "value": "\"Ulkoiluvaate- ja varustekauppa\"",
+                    "languages": [
+                      "fi"
+                    ]
+                  },
+                  {
+                    "value": "\"Tūrisma apģērbu un inventāra veikals\"",
+                    "languages": [
+                      "lv"
+                    ]
+                  },
+                  {
+                    "value": "\"Toko pakaian dan perlengkapan luar ruangan\"",
+                    "languages": [
+                      "id"
+                    ]
+                  },
+                  {
+                    "value": "\"아웃도어 의류 및 장비점\"",
+                    "languages": [
+                      "ko"
+                    ]
+                  },
+                  {
+                    "value": "\"Magasin d'articles de sport\"",
+                    "languages": [
+                      "fr"
+                    ]
+                  },
+                  {
+                    "value": "\"Trgovina odjećom i opremom za boravak na otvorenom\"",
+                    "languages": [
+                      "hr"
+                    ]
+                  },
+                  {
+                    "value": "\"అవుట్‌డోర్ దుస్తులు మరియు పరికరాల దుకాణం\"",
+                    "languages": [
+                      "te"
+                    ]
+                  },
+                  {
+                    "value": "\"חנות לציוד וביגוד חוץ\"",
+                    "languages": [
+                      "he"
+                    ]
+                  },
+                  {
+                    "value": "\"Loja de vestuário e equipamento de exterior\"",
+                    "languages": [
+                      "pt_pt"
+                    ]
+                  },
+                  {
+                    "value": "\"Kanpoko arropa eta ekipamendu denda\"",
+                    "languages": [
+                      "eu"
+                    ]
+                  },
+                  {
+                    "value": "\"Botiga de roba i equipament d'exterior\"",
+                    "languages": [
+                      "ca"
+                    ]
+                  },
+                  {
+                    "value": "\"Outdoor giyim ve ekipman mağazası\"",
+                    "languages": [
+                      "tr"
+                    ]
+                  },
+                  {
+                    "value": "\"Tienda de ropa y equipo para actividades al aire libre\"",
+                    "languages": [
+                      "es_la"
+                    ]
+                  },
+                  {
+                    "value": "\"戶外服飾與裝備店\"",
+                    "languages": [
+                      "zh_tw"
+                    ]
+                  },
+                  {
+                    "value": "\"Geschäft für Outdoor-Bekleidung und -Ausrüstung\"",
+                    "languages": [
+                      "de"
+                    ]
+                  },
+                  {
+                    "value": "\"Магазин одежды и снаряжения для активного отдыха\"",
+                    "languages": [
+                      "ru"
+                    ]
+                  },
+                  {
+                    "value": "\"Tienda de artículos de montaña\"",
+                    "languages": [
+                      "es"
+                    ]
+                  },
+                  {
+                    "value": "\"Tindahan ng damit at kagamitang panlabas\"",
+                    "languages": [
+                      "tl"
+                    ]
+                  },
+                  {
+                    "value": "\"Сырт киім және жабдықтар дүкені\"",
+                    "languages": [
+                      "kk"
+                    ]
+                  },
+                  {
+                    "value": "\"户外服装和装备店\"",
+                    "languages": [
+                      "zh"
+                    ]
+                  },
+                  {
+                    "value": "\"Winkel vir buitelugklere en -toerusting\"",
+                    "languages": [
+                      "af"
+                    ]
+                  },
+                  {
+                    "value": "\"Turizm və açıq hava geyimləri mağazası\"",
+                    "languages": [
+                      "az"
+                    ]
+                  },
+                  {
+                    "value": "\"Butik för friluftskläder och utrustning\"",
+                    "languages": [
+                      "sv"
+                    ]
+                  },
+                  {
+                    "value": "\"Магазин за туристическо облекло и екипировка\"",
+                    "languages": [
+                      "bg"
+                    ]
+                  },
+                  {
+                    "value": "\"Prodavnica odjeće i opreme za boravak na otvorenom\"",
+                    "languages": [
+                      "bs"
+                    ]
+                  },
+                  {
+                    "value": "\"Kültéri ruházati és felszerelési bolt\"",
+                    "languages": [
+                      "hu"
+                    ]
+                  },
+                  {
+                    "value": "\"ຮ້ານຂາຍເຄື່ອງນຸ່ງ ແລະ ອຸປະກອນກາງແຈ້ງ\"",
+                    "languages": [
+                      "lo"
+                    ]
+                  },
+                  {
+                    "value": "\"Butik med outdoor-tøj og -udstyr\"",
+                    "languages": [
+                      "da"
+                    ]
+                  },
+                  {
+                    "value": "\"Magasin de vêtements et d'équipement de plein air\"",
+                    "languages": [
+                      "fr_ca",
+                      "fr"
+                    ]
+                  },
+                  {
+                    "value": "\"Winkel voor outdoorkleding en -uitrusting\"",
+                    "languages": [
+                      "nl"
+                    ]
+                  },
+                  {
+                    "value": "\"Matkariiete ja -varustuse pood\"",
+                    "languages": [
+                      "et"
+                    ]
+                  }
+                ],
+                "name": "Outdoor clothing and equipment shop",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              "check_out_time": null,
+              "business_rating": 4.5,
+              "loyalty_program": null,
+              "number_of_rooms": null,
+              "cost_description": null,
+              "specialty_dishes": null,
+              "short_description": "Outdoor gear store focused on durable, low-impact apparel and equipment in a waterfront San Francisco setting.",
+              "number_of_stations": null,
+              "cuisine_description": null,
+              "overall_description": "This Patagonia location is a premier destination for high-quality outdoor apparel and equipment, housed in a character-filled, converted automotive repair shop. It is celebrated by visitors for its knowledgeable staff, commitment to environmental sustainability, and dedicated gear repair services. While parking in the area can be challenging, the shop's convenient location and inviting, well-lit interior make it a highly regarded stop for both locals and tourists seeking durable, ethically made products.",
+              "service_description": null,
+              "ambience_description": "The atmosphere is generally welcoming and bright, blending a stylish retail environment with an ethos focused on environmental responsibility and outdoor adventure. It feels both professional and casual, making it a comfortable place to explore high-quality gear.",
+              "amenities_description": "The store provides dedicated product consultation and professional repair services for worn or damaged outdoor gear. While the space is well-stocked, customers should note the lack of public restroom facilities on-site.",
+              "unique_selling_points": "The store is housed in a unique converted automotive repair shop and is known for its strong commitment to environmental sustainability and high-quality, durable outdoor apparel. It serves as a hub for both shopping and gear repair, embodying the brand's mission to protect nature.",
+              "neighborhood_description": "The surrounding area is a scenic and highly walkable urban district popular with tourists. It offers an authentic local vibe despite being somewhat distanced from the main heavy tourist traffic.",
+              "physical_setting_description": "Located in a historic building that formerly housed an automotive repair shop, this store is situated in a vibrant San Francisco waterfront neighborhood. The interior features significant natural light and a spacious layout that showcases the brand's rugged gear.",
+              "customer_demographics_description": null,
+              "image": {
+                "url": "https://images.qloo.com/i/4CC29038-E104-4A83-9CD1-A159DDCC375F-420x-auto.jpg"
+              }
+            },
+            "popularity": 0.8247569463404233,
+            "location": {
+              "lat": 37.805982,
+              "lon": -122.41993749999999,
+              "geohash": "9q8zn62eb9wg"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:not_for_display:place:mask_required",
+                "name": "Mask required",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:view:qloo:street_view",
+                "name": "Street view",
+                "type": "urn:tag:view:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:historic",
+                "name": "Historic",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:morning",
+                "name": "Morning",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:nfc_mobile_payments",
+                "name": "Nfc mobile payments",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:culture_arts",
+                "name": "Culture arts",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:recycling:place:clothing",
+                "name": "Clothing",
+                "type": "urn:tag:recycling:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:nearby_attraction:qloo:ghirardelli_square",
+                "name": "Ghirardelli square",
+                "type": "urn:tag:nearby_attraction:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:activewear",
+                "name": "Activewear",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:authentic",
+                "name": "Authentic",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:sustainable_living",
+                "name": "Sustainable living",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:temperature_check_required",
+                "name": "Temperature check required",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place",
+                "name": "Place",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:nearby_attraction:qloo:pier_39",
+                "name": "Pier 39",
+                "type": "urn:tag:nearby_attraction:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:hilly_terrain",
+                "name": "Hilly terrain",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:backpacking",
+                "name": "Backpacking",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:in_store_shopping",
+                "name": "In store shopping",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:city_center",
+                "name": "City center",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:category:place:outdoor_clothing_and_equipment_shop",
+                "name": "Outdoor clothing and equipment shop",
+                "type": "urn:tag:category:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:curbside_pickup",
+                "name": "Curbside pickup",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:waterfront",
+                "name": "Waterfront",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:industrial",
+                "name": "Industrial",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:gear_repair_consultation",
+                "name": "Gear repair consultation",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:cash_only",
+                "name": "Cash only",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:clean",
+                "name": "Clean",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:camping",
+                "name": "Camping",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:shopping",
+                "name": "Shopping",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:repair_services",
+                "name": "Repair services",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:offerings:place:mens_clothing",
+                "name": "Mens clothing",
+                "type": "urn:tag:offerings:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:afternoon",
+                "name": "Afternoon",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:modern",
+                "name": "Modern",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:onsite_services",
+                "name": "Onsite services",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:scenic",
+                "name": "Scenic",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:midday",
+                "name": "Midday",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:staff_required_to_disinfect_surfaces_between_visits",
+                "name": "Staff required to disinfect surfaces between visits",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:urban",
+                "name": "Urban",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:product_consultation",
+                "name": "Product consultation",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:service_options:place:in_store_pickup",
+                "name": "In store pickup",
+                "type": "urn:tag:service_options:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:not_for_display:place:staff_wear_masks",
+                "name": "Staff wear masks",
+                "type": "urn:tag:not_for_display:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:stylish",
+                "name": "Stylish",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:time_of_day_fit:qloo:evening",
+                "name": "Evening",
+                "type": "urn:tag:time_of_day_fit:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:setting:qloo:automotive_repair_shop_conversion",
+                "name": "Automotive repair shop conversion",
+                "type": "urn:tag:setting:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:nearby_attraction:qloo:fisherman_s_wharf",
+                "name": "Fishermans wharf",
+                "type": "urn:tag:nearby_attraction:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+                "name": "Touristic",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:genre:place:outdoor_clothing_and_equipment_shop",
+                "name": "Outdoor clothing and equipment shop",
+                "type": "urn:tag:genre:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenities:place:fitting_room",
+                "name": "Fitting room",
+                "type": "urn:tag:amenities:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:welcoming",
+                "name": "Welcoming",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:central",
+                "name": "Central",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:payments:place:debit_cards",
+                "name": "Debit cards",
+                "type": "urn:tag:payments:place",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:environmentally_conscious_vibe",
+                "name": "Environmentally conscious vibe",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:amenity:qloo:bike_rack",
+                "name": "Bike rack",
+                "type": "urn:tag:amenity:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:activity_type:qloo:shopping",
+                "name": "Shopping",
+                "type": "urn:tag:activity_type:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:lively",
+                "name": "Lively",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:visit_intent:qloo:routine_visit",
+                "name": "Routine visit",
+                "type": "urn:tag:visit_intent:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:decor:qloo:vintage_industrial",
+                "name": "Vintage industrial",
+                "type": "urn:tag:decor:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:hiking",
+                "name": "Hiking",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:interests:qloo:environmental_activism",
+                "name": "Environmental activism",
+                "type": "urn:tag:interests:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:ambience:qloo:knowledgeable_atmosphere",
+                "name": "Knowledgeable atmosphere",
+                "type": "urn:tag:ambience:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+                "name": "Walkable",
+                "type": "urn:tag:neighborhood_characteristic:qloo",
+                "weight": null
+              },
+              {
+                "id": "urn:tag:visit_intent:qloo:destination",
+                "name": "Destination",
+                "type": "urn:tag:visit_intent:qloo",
+                "weight": null
+              }
+            ],
+            "query": {
+              "affinity": 0.9125434305361194,
+              "distance": 0,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "770 North Point St San Francisco, CA 94109",
+            "external": {
+              "google_place": [
+                {
+                  "id": "9845cc61066a1d2e",
+                  "place_id": "ChIJn5kiOOGAhYARLh1qBmHMRZg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "query": {
+        "localities": {
+          "filter": [
+            {
+              "entity_id": "215D0B2A-7C9D-4A99-A11F-4F9253EC5EF9",
+              "name": "San Francisco",
+              "subtype": "urn:entity:locality",
+              "location": {
+                "lat": 37.75985706775193,
+                "lon": -122.69405089607115
+              },
+              "popularity": 0.99917555,
+              "disambiguation": "San Francisco, California, United States"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

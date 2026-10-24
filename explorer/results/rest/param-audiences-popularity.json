@@ -1,0 +1,33 @@
+{
+  "request": {
+    "path": "/v2/audiences",
+    "params": {
+      "filter.audience.types": "urn:audience:communities",
+      "filter.popularity.min": 0.3,
+      "filter.popularity.max": 1,
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 309,
+    "url": "/v2/audiences?filter.audience.types=urn%3Aaudience%3Acommunities&filter.popularity.min=0.3&filter.popularity.max=1&take=5",
+    "requestId": "f8943f13-84bc-45e6-a05a-1cd96ce99761",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49537",
+      "x-month-ratelimit-reset": "2589145.41",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "totalRequestDuration": 8,
+      "success": true,
+      "results": {
+        "audiences": []
+      }
+    }
+  }
+}

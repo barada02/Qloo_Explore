@@ -1,0 +1,35 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:heatmap",
+      "take": 20,
+      "signal.interests.entities": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+      "filter.location.query": "San Francisco",
+      "output.heatmap.boundary": "city"
+    }
+  },
+  "response": {
+    "ok": false,
+    "status": 400,
+    "ms": 284,
+    "url": "/v2/insights?filter.type=urn%3Aheatmap&take=20&signal.interests.entities=FBBAF1EE-BC5A-4A9C-A971-2910A2214F27&filter.location.query=San+Francisco&output.heatmap.boundary=city",
+    "requestId": "32ba2d7d-4688-4914-aa0b-8a3d6a92cec2",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49671",
+      "x-month-ratelimit-reset": "2589430.72",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "errors": [
+        {
+          "message": "output.heatmap.boundary must be \"urn:geohash\" or \"urn:entity:locality\"",
+          "path": "output.heatmap.boundary"
+        }
+      ]
+    }
+  }
+}

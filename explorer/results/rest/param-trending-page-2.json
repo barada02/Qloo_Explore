@@ -1,0 +1,76 @@
+{
+  "request": {
+    "path": "/v2/trending",
+    "params": {
+      "filter.type": "urn:entity:artist",
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.start_date": "2026-01-01",
+      "filter.end_date": "2026-09-30",
+      "take": 5,
+      "page": 2
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 307,
+    "url": "/v2/trending?filter.type=urn%3Aentity%3Aartist&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.start_date=2026-01-01&filter.end_date=2026-09-30&take=5&page=2",
+    "requestId": "c7cb97c0-5178-4f5f-95a2-09a8191cdf7c",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49525",
+      "x-month-ratelimit-reset": "2589138.4",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "trending": [
+          {
+            "date": "2026-09-24",
+            "population_percentile": 0.11302744677218043,
+            "population_rank": "693",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-17",
+            "population_percentile": 0.11302744677218043,
+            "population_rank": "693",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-10",
+            "population_percentile": 0.11302744677218043,
+            "population_rank": "693",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-09-03",
+            "population_percentile": 0.11302744677218043,
+            "population_rank": "693",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          },
+          {
+            "date": "2026-08-27",
+            "population_percentile": 0.11302744677218043,
+            "population_rank": "693",
+            "population_rank_velocity": 0,
+            "velocity_fold_change": 0,
+            "population_percent_delta": 0
+          }
+        ]
+      },
+      "duration": 8
+    }
+  }
+}

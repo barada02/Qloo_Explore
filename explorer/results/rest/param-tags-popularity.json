@@ -1,0 +1,134 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "pop",
+      "filter.popularity.min": 0.5,
+      "filter.popularity.max": 1,
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 314,
+    "url": "/v2/tags?filter.query=pop&filter.popularity.min=0.5&filter.popularity.max=1&take=5",
+    "requestId": "a5c05a27-9630-4cc4-8399-831e45d4da7b",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49543",
+      "x-month-ratelimit-reset": "2589148.87",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 11,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:pop",
+            "name": "Pop",
+            "popularity": 0.99985445,
+            "properties": {
+              "description": "Pop music is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom. The terms popular music and pop music are often used interchangeably, although the former describes all music that is popular and includes many different styles.",
+              "history": "Originated in the mid-1950s in the United States and the United Kingdom.",
+              "melody": "Simple and Catchy",
+              "performance": "Often includes dance routines and vibrant visuals",
+              "rhythm": "Basic and Repetitive",
+              "tempo": "Medium to Fast",
+              "vocals": "Usually High and Clear"
+            },
+            "tags": [
+              {
+                "name": "Canonical",
+                "tag_id": "urn:tag:collection:canonical",
+                "type": "urn:tag:collection",
+                "value": "urn:tag:collection:canonical"
+              }
+            ]
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:decor:qloo",
+            "id": "urn:tag:decor:qloo:pop",
+            "name": "Pop",
+            "popularity": 0.92118454,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:popular_science",
+            "name": "Popular science",
+            "popularity": 0.99927825,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:pop_culture",
+            "name": "Pop culture",
+            "popularity": 0.9991435,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:pop_rock",
+            "name": "Pop - Rock",
+            "popularity": 0.99911815,
+            "properties": {
+              "description": "Pop rock is a genre of popular music that combines elements of pop and rock with an emphasis on professional songwriting and recording craft, as well as the use of recording technology to produce a polished, accessible sound.",
+              "history": "Pop rock originated in the 1960s as a fusion of rock and pop music aimed at a commercial audience.",
+              "melody": "Catchy and Consort",
+              "performance": "Typically Band Based",
+              "rhythm": "Steady and Beat Focus",
+              "tempo": "Varied",
+              "vocals": "Intense and Clear"
+            },
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

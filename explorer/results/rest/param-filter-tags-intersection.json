@@ -1,0 +1,36 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:book",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.tags": [
+        "urn:tag:adjective:qloo:cozy",
+        "urn:tag:genre:qloo:mystery"
+      ],
+      "operator.filter.tags": "intersection"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 318,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Abook&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.tags=urn%3Atag%3Aadjective%3Aqloo%3Acozy%2Curn%3Atag%3Agenre%3Aqloo%3Amystery&operator.filter.tags=intersection",
+    "requestId": "65a6e2a1-f549-42b6-ae7a-61f20a0184cf",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49569",
+      "x-month-ratelimit-reset": "2589187.5",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.37"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": []
+      }
+    }
+  }
+}

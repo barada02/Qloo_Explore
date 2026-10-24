@@ -3,13 +3,16 @@
   "private": true,
   "type": "module",
   "description": "Throwaway app that exercises every Qloo API endpoint and every qloo mcp tool, plus a small web playground.",
-  "engines": { "node": ">=22.19.0" },
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "scripts": {
     "probe:rest": "node --env-file-if-exists=.env probe-rest.mjs",
     "probe:mcp": "node --env-file-if-exists=.env probe-mcp.mjs",
-    "probe": "npm run probe:rest; npm run probe:mcp",
+    "probe": "npm run probe:rest; npm run probe:mcp; npm run probe:params",
     "start": "node --env-file-if-exists=.env server.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs",
+    "probe:params": "node --env-file-if-exists=.env probe-params.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.30.1",

@@ -1,0 +1,2164 @@
+{
+  "request": {
+    "path": "/v2/analysis/compare",
+    "params": {
+      "a.signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "b.signal.interests.entities": "4BBEF799-A0C4-4110-AB01-39216993C312",
+      "take": 10,
+      "filter.location.query": "London",
+      "filter.location.radius": 5000,
+      "filter.exclude.location.query": "Camden",
+      "filter.exclude.location.radius": 1000
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 328,
+    "url": "/v2/analysis/compare?a.signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&b.signal.interests.entities=4BBEF799-A0C4-4110-AB01-39216993C312&take=10&filter.location.query=London&filter.location.radius=5000&filter.exclude.location.query=Camden&filter.exclude.location.radius=1000",
+    "requestId": "d08622af-711f-4da6-8586-e45648751813",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49529",
+      "x-month-ratelimit-reset": "2589140.7",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 11,
+      "results": {
+        "tags": [
+          {
+            "tag_id": "urn:tag:region:qloo:united_states",
+            "name": "United States",
+            "type": "urn:tag",
+            "subtype": "urn:tag:region:qloo",
+            "entity_id": "9231423C-49CD-4240-8227-78D285399E78",
+            "popularity": 0,
+            "query": {
+              "score": 0.9991829664467696,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:folk",
+            "name": "Folk",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "D48DE672-3A1F-4FAE-87E6-9CC030619CE4",
+            "popularity": 0.9994502387866685,
+            "query": {
+              "score": 0.8175082199004436,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:rock",
+            "name": "Rock",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "B01B5563-0D1C-4DAE-8F3F-114964DA4714",
+            "popularity": 0.9998010287300981,
+            "query": {
+              "score": 0.7310194588616812,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:rockabilly",
+            "name": "Rockabilly",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "062350F3-1226-4140-95A7-CAFCD213E9AF",
+            "popularity": 0.9983412012620826,
+            "query": {
+              "score": 0.7310014330247772,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:region:qloo:ireland",
+            "name": "Ireland",
+            "type": "urn:tag",
+            "subtype": "urn:tag:region:qloo",
+            "entity_id": "155A8F04-6D4F-4E6F-827E-A1E6EB0F5536",
+            "popularity": 0,
+            "query": {
+              "score": 0.7310014330247772,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:music:electric_guitar",
+            "name": "Electric Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:music",
+            "entity_id": "258D385F-8543-49F0-8C15-670F1D7EE56A",
+            "popularity": 0,
+            "query": {
+              "score": 0.7310007883935835,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:music:drums",
+            "name": "Drums",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:music",
+            "entity_id": "5C75A350-D588-436E-BD2E-2EB43493FA9D",
+            "popularity": 0,
+            "query": {
+              "score": 0.7310003547320494,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:dynamic",
+            "name": "Dynamic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "4900E325-E17B-482E-A421-A36C21F51569",
+            "popularity": 0.9926157899602478,
+            "query": {
+              "score": 0.7296042858489226,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "F5485D5E-6C8E-4CE8-951C-3B13AD76D935",
+            "popularity": 0.9920842192844597,
+            "query": {
+              "score": 0.7294993952774845,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "EDDB06AD-35FE-431E-A2A5-4F5589471FEE",
+            "popularity": 0.9920264398631783,
+            "query": {
+              "score": 0.7294879979555896,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "48648868-95A5-4F0B-B517-71ECBB9F4EBD",
+            "popularity": 0.9918993251363595,
+            "query": {
+              "score": 0.7294629086685711,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "F468945C-6B6C-467D-8496-733087E03D56",
+            "popularity": 0.9902583895719701,
+            "query": {
+              "score": 0.729138957311338,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:electric_blues",
+            "name": "Electric Blues",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "207A00C4-9E27-40A2-AB85-8EF68155DC52",
+            "popularity": 0.979166164480943,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:red_dirt",
+            "name": "Red Dirt",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "321D56ED-0168-47AA-BE86-E6DBD2D8E44B",
+            "popularity": 0.9200082633339296,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:american_folk",
+            "name": "American Folk",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "359719E8-E6C0-4286-ABD7-68687F477C4B",
+            "popularity": 0.8861759582655119,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:new_mexico",
+            "name": "New Mexico",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "5D199F9B-D0C8-488D-AEC0-9110D1015F58",
+            "popularity": 0.8539455727940937,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:western",
+            "name": "Western",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "5FE60549-E1F3-4A4E-8A65-FB090F4453A3",
+            "popularity": 0.9653278289549082,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:region:qloo:canada",
+            "name": "Canada",
+            "type": "urn:tag",
+            "subtype": "urn:tag:region:qloo",
+            "entity_id": "70162ECF-5F5F-443E-884F-43C88A4264D0",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:soul",
+            "name": "Soul",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "8E9EB3D9-0B36-440C-9462-F1804BE8DD6F",
+            "popularity": 0.9990366491969469,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:hawaiian",
+            "name": "Hawaiian",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "919F1344-E87C-4D59-A309-A71F403044BA",
+            "popularity": 0.9896721012677071,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:appalachian",
+            "name": "Appalachian",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "96D7B0EE-A912-415B-AD0A-49D2DF294E1A",
+            "popularity": 0.9130888841242917,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:tejano",
+            "name": "Tejano",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "B3307025-993D-4D30-B1F2-92072284801F",
+            "popularity": 0.9698107087563852,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:bluegrass",
+            "name": "Bluegrass",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "C07765C2-3005-4136-989E-2080A561E5F3",
+            "popularity": 0.9971012782793996,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:old_time",
+            "name": "Old Time",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "C55E9650-F6EF-473E-AFD8-7F315CC0C24D",
+            "popularity": 0.9679975539854939,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:expressive",
+            "name": "Expressive",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "C596FCF2-CA55-4AF9-995E-C39C61F8F2CA",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:music:vocals",
+            "name": "Vocals",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:music",
+            "entity_id": "CB8190C6-478C-49A5-B128-F11BFDBD5380",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:southern_gospel",
+            "name": "Southern Gospel",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "CE79CDD1-FFDF-4AB3-BBB0-776F36368C83",
+            "popularity": 0.9650002981397349,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:western_swing",
+            "name": "Western Swing",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "EA581479-DCAC-4D8C-BE43-7BED3CDDDEFD",
+            "popularity": 0.9786557323390267,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:region:qloo:australia",
+            "name": "Australia",
+            "type": "urn:tag",
+            "subtype": "urn:tag:region:qloo",
+            "entity_id": "EE955155-0FC6-46C7-92BE-CD20DBB8E3D7",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:cajun",
+            "name": "Cajun",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "F08D4051-76C4-4A9B-A6B4-11E65210EC89",
+            "popularity": 0.9869651616319112,
+            "query": {
+              "score": 0.5621642581199403,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:straightforward",
+            "name": "Straightforward",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "2CACC518-2A99-4F25-9808-368E22560662",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621523013612134,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:simple_chord_progressions",
+            "name": "Simple Chord Progressions",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "8505174C-BA0C-409E-92D5-681EC1DFF136",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621523013612134,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:music:bass_guitar",
+            "name": "Bass Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:music",
+            "entity_id": "A20FB340-008F-43B2-B034-A366ED78C361",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621523013612134,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:storytelling",
+            "name": "Storytelling",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "B198F09C-7C8C-4413-81DA-DC2D217B8320",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621523013612134,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:4_4_time",
+            "name": "4/4 Time",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "D98D9BD7-6557-4111-BC63-F930D7766FF0",
+            "popularity": 0,
+            "query": {
+              "score": 0.5621523013612134,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:country",
+            "name": "Country",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "26276324-A74E-4A5B-AB3B-616E2DED8F67",
+            "popularity": 0.9988668575606756,
+            "query": {
+              "score": 0.5553171372312103,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:jazz",
+            "name": "Jazz",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "5CD48936-B0B2-48D0-8216-ECDC35750F68",
+            "popularity": 0.9994605996710736,
+            "query": {
+              "score": 0.5553171372312103,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:work_songs",
+            "name": "Work Songs",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "7E4887D4-CEFF-4BE1-BC8B-394C1E35CFFA",
+            "popularity": 0.4118421948497524,
+            "query": {
+              "score": 0.5553171372312103,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:spirituals",
+            "name": "Spirituals",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "BCB23F0B-E78B-42B7-BE58-05E1120A63BD",
+            "popularity": 0.8976283301256881,
+            "query": {
+              "score": 0.5553171372312103,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:classical",
+            "name": "Classical",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "9D59FAC0-550F-4213-9897-1651B7ABE9C0",
+            "popularity": 0.9990823216669775,
+            "query": {
+              "score": 0.555316777438981,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:blues",
+            "name": "Blues",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "06662971-FBC7-4375-B789-0BF651ABEF2D",
+            "popularity": 0.9989683519385215,
+            "query": {
+              "score": 0.5467289071954466,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:music:piano",
+            "name": "Piano",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:music",
+            "entity_id": "57F0BC79-0F07-41F2-B699-E1FA919F4EF1",
+            "popularity": 0,
+            "query": {
+              "score": 0.5467289071954466,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:emotional",
+            "name": "Emotional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "403B2D4B-18F1-483F-B57B-C63573480EBA",
+            "popularity": 0,
+            "query": {
+              "score": 0.5467198784007994,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          },
+          {
+            "tag_id": "urn:tag:characteristic:music:melodic",
+            "name": "Melodic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:characteristic:music",
+            "entity_id": "C346D0F8-37BD-496F-93F6-375C4E5DBEAA",
+            "popularity": 0,
+            "query": {
+              "score": 0.5467198784007994,
+              "a.signal.interests.entities": [
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Radiohead"
+                },
+                {
+                  "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+                  "name": "Radiohead",
+                  "subtype": "urn:entity:person",
+                  "disambiguation": ""
+                }
+              ],
+              "b.signal.interests.entities": [
+                {
+                  "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+                  "name": "Taylor Swift",
+                  "subtype": "urn:entity:artist",
+                  "disambiguation": "Taylor Swift"
+                }
+              ]
+            }
+          }
+        ],
+        "a": [
+          {
+            "tag_id": "urn:tag:subgenre:qloo:ambient",
+            "name": "Ambient",
+            "type": "urn:tag",
+            "subtype": "urn:tag:subgenre:qloo",
+            "entity_id": "09620EEA-9F39-49A5-8EEB-0BC037120E92",
+            "popularity": 0.04416659,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:existentialism",
+            "name": "Existentialism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "14E0AD82-2ACC-4B63-9246-C0C478A38122",
+            "popularity": 0.9749815,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:experimental",
+            "name": "Experimental",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "19B61203-887D-4E50-83F6-56611F34B49A",
+            "popularity": 0.94864565,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "2620F5B1-CD6D-4D1B-9E92-20620128E1A6",
+            "popularity": 0.97101784,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:experimental",
+            "name": "Experimental",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "29C806BD-D356-476A-977F-DA8915462690",
+            "popularity": 0.95076036,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:introspective",
+            "name": "Introspective",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "37B3BB7B-51D4-43D1-BE6B-03C60CB4A1D1",
+            "popularity": 0.948403,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:environmentalism",
+            "name": "Environmentalism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "3E3C4E92-46D3-4E41-9D60-0F63A898F087",
+            "popularity": 0.7914163,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "48648868-95A5-4F0B-B517-71ECBB9F4EBD",
+            "popularity": 0.9918993,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:dynamic",
+            "name": "Dynamic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "4900E325-E17B-482E-A421-A36C21F51569",
+            "popularity": 0.9926158,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:alienation",
+            "name": "Alienation",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "51AE46AC-A8F7-4593-B40D-AA6ED61F5A85",
+            "popularity": 0.86787003,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:intense",
+            "name": "Intense",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "5629A79E-4827-4EEE-9C51-AD840DE83985",
+            "popularity": 0.9834751,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:indie",
+            "name": "Indie",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "585E738B-3D23-4F9C-A30C-FB31A930D30B",
+            "popularity": 0.9996067,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:melancholic",
+            "name": "Melancholic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "5E196B69-ED2E-4793-AD87-C2EB41DE2680",
+            "popularity": 0.94951236,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:intellectual",
+            "name": "Intellectual",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "60AFCC8D-C77C-4823-A440-C5CC260F7B9D",
+            "popularity": 0.9761718,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:alternative_rock",
+            "name": "Alternative Rock",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "61E68939-BFDA-4842-AAFF-AC7FDD210523",
+            "popularity": 0.9996177,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:keyboards",
+            "name": "Keyboards",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "682C4BDB-79BE-4FEF-BDE0-69A15FB8B647",
+            "popularity": 0.9659679,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:bass_guitar",
+            "name": "Bass Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "6E9F94F5-1C9B-4DE2-984E-91E96054D325",
+            "popularity": 0.94070673,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:eclectic",
+            "name": "Eclectic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "77694357-7B1B-4065-AB25-76B06D85545B",
+            "popularity": 0.94086856,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:synthesizers",
+            "name": "Synthesizers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "7BD25154-7A00-4DE9-8065-521B967D1575",
+            "popularity": 0.9446589,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:eclectic",
+            "name": "Eclectic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "85F59978-5A95-47E9-B1AE-1A54B54F5F95",
+            "popularity": 0.9584335,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:technology",
+            "name": "Technology",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "9729AB72-21B8-4278-A046-81CC17D97020",
+            "popularity": 0.949651,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:subgenre:qloo:electronic",
+            "name": "Electronic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:subgenre:qloo",
+            "entity_id": "9B1EFCA2-1726-42DC-9E09-DE28E103AB9B",
+            "popularity": 0.5383424,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:immersive",
+            "name": "Immersive",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "AA7BDA1B-4D27-4A80-B3C5-692799C77C9F",
+            "popularity": 0.9880397,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:subgenre:qloo:experimental",
+            "name": "Experimental",
+            "type": "urn:tag",
+            "subtype": "urn:tag:subgenre:qloo",
+            "entity_id": "AA9387BE-1B0F-416D-BD13-149FA314BADC",
+            "popularity": 0.9178261,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:rock",
+            "name": "Rock",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "B01B5563-0D1C-4DAE-8F3F-114964DA4714",
+            "popularity": 0.99980104,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:vocals",
+            "name": "Vocals",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "BC4B0E4D-F317-47A7-94A5-62BBD3D42042",
+            "popularity": 0.99063975,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:drums",
+            "name": "Drums",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "C75E4195-3F50-4BF1-B4FE-0B3DFB211923",
+            "popularity": 0.98776233,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:electronic",
+            "name": "Electronic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "D4132442-7F20-48E9-9F70-6BC806164A4F",
+            "popularity": 0.9997945,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:complex",
+            "name": "Complex",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "D7FAED07-F2AB-4752-BD66-4F2B632FFB2F",
+            "popularity": 0.95799434,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:politics",
+            "name": "Politics",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "DD294EE1-3BCF-4DAF-827B-195A81F72E94",
+            "popularity": 0.95203155,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "E274EE59-07DB-4054-B98F-D9209C934412",
+            "popularity": 0.89887446,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "EDDB06AD-35FE-431E-A2A5-4F5589471FEE",
+            "popularity": 0.99202645,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "F2FD0406-67ED-47A3-A715-F9B2C1671910",
+            "popularity": 0.99363273,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "F468945C-6B6C-467D-8496-733087E03D56",
+            "popularity": 0.9902584,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "F5485D5E-6C8E-4CE8-951C-3B13AD76D935",
+            "popularity": 0.9920842,
+            "query": {
+              "count": "1"
+            }
+          }
+        ],
+        "b": [
+          {
+            "tag_id": "urn:tag:genre:music:acoustic",
+            "name": "Acoustic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "01CE9B17-0736-4602-8A31-443189C547EA",
+            "popularity": 0.99888253,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:heartbreak",
+            "name": "Heartbreak",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "1157CA05-F10E-4C89-A1B1-10DBE72F1272",
+            "popularity": 0.976842,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:fame",
+            "name": "Fame",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "1E978B9B-280D-41D5-98E0-E216FBA13DF0",
+            "popularity": 0.870031,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:expressive",
+            "name": "Expressive",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "241982E6-3CCA-42C2-81EC-A5DC7E99896A",
+            "popularity": 0.9734908,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:country",
+            "name": "Country",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "26276324-A74E-4A5B-AB3B-616E2DED8F67",
+            "popularity": 0.99886686,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:music:singer_songwriter",
+            "name": "Singer & Songwriter",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:music",
+            "entity_id": "2ABA0931-5B34-4074-8285-28034D517B0E",
+            "popularity": 0.9991337,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:catchy",
+            "name": "Catchy",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "3CA468CF-B702-4C37-A9B8-EA098F7A608E",
+            "popularity": 0.9790145,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:engaging",
+            "name": "Engaging",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "3F4ACC42-080A-4FC3-85F1-BE70AA7B774A",
+            "popularity": 0.99495006,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:self_discovery",
+            "name": "Self-discovery",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "461712D3-F361-489F-8736-49ABB2DF7F30",
+            "popularity": 0.97895676,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "48648868-95A5-4F0B-B517-71ECBB9F4EBD",
+            "popularity": 0.9918993,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:dynamic",
+            "name": "Dynamic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "4900E325-E17B-482E-A421-A36C21F51569",
+            "popularity": 0.9926158,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:dedicated",
+            "name": "DedicateD",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "5A0F0ADE-6B19-49BB-9AB7-BD1505D4AF68",
+            "popularity": 0.9908824,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:engaged",
+            "name": "Engaged",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "5F245FF9-FAFD-4F73-AA93-20374F31659A",
+            "popularity": 0.98003143,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:emotional",
+            "name": "Emotional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "5F503005-16CE-467C-9C8C-18EB6BE7AC2B",
+            "popularity": 0.9271286,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:emotional",
+            "name": "Emotional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "75D0C1C0-F4FD-40AD-B268-A0ED17CAE7BA",
+            "popularity": 0.9768998,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:instrument:qloo:piano",
+            "name": "Piano",
+            "type": "urn:tag",
+            "subtype": "urn:tag:instrument:qloo",
+            "entity_id": "80C2C13B-39EB-4DAF-90EB-C43D84162858",
+            "popularity": 0.9774776,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:empowerment",
+            "name": "Empowerment",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "89FDE209-CC09-42D4-8F95-FE1E0019FC87",
+            "popularity": 0.97342145,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:charismatic",
+            "name": "Charismatic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "A48B3E48-36AE-495B-91ED-4392ED0D5320",
+            "popularity": 0.9714454,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:music:qloo:melodic",
+            "name": "Melodic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:music:qloo",
+            "entity_id": "AEDE7DAB-D607-41AD-AAB7-77048675DCAD",
+            "popularity": 0.9827355,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:energetic",
+            "name": "Energetic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "DDA96216-6F10-4D64-BA4B-3553DA45652B",
+            "popularity": 0.9932398,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "EDDB06AD-35FE-431E-A2A5-4F5589471FEE",
+            "popularity": 0.99202645,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "F468945C-6B6C-467D-8496-733087E03D56",
+            "popularity": 0.9902584,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "F5485D5E-6C8E-4CE8-951C-3B13AD76D935",
+            "popularity": 0.9920842,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:versatile",
+            "name": "VERSATILE",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "F98BBF4A-1D7D-4E6B-A6F2-9C59FF377746",
+            "popularity": 0.975594,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:artist:qloo:narrative",
+            "name": "Narrative",
+            "type": "urn:tag",
+            "subtype": "urn:tag:artist:qloo",
+            "entity_id": "FCE9DBD5-A040-4142-B756-23B4BE29C2A8",
+            "popularity": 0.21380697,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:love",
+            "name": "Love",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "FE9F1B33-D668-4A8C-80FD-60B78D5F13FD",
+            "popularity": 0.9934363,
+            "query": {
+              "count": "1"
+            }
+          }
+        ],
+        "matchEntities": []
+      }
+    }
+  }
+}

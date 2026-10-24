@@ -1,0 +1,3120 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:book",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.tags": [
+        "urn:tag:adjective:qloo:cozy",
+        "urn:tag:genre:qloo:mystery"
+      ],
+      "operator.filter.tags": "union"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 361,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Abook&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.tags=urn%3Atag%3Aadjective%3Aqloo%3Acozy%2Curn%3Atag%3Agenre%3Aqloo%3Amystery&operator.filter.tags=union",
+    "requestId": "f250c49d-70a0-4bde-aebf-86b0ef037d4d",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49570",
+      "x-month-ratelimit-reset": "2589188.13",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Five Go Parenting",
+            "entity_id": "B01C0B3D-ED1F-450E-89CD-01423F042558",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Bringing up a baby would surely be kid's play for The Five. How hard could it possibly be?! When the doorbell rings one Saturday afternoon, the last thing the Five were expecting to find on their doorstep was a baby... But the Five are next of kin to Cousin Rupert and his wife, so when they find themselves in a spot of bother and are destined for a short spell behind bars, Anne, Dick, George and Anne are the first port of call. First, it's the fear and the tiredness that kicks in. They are terrified at being responsible for this new life and have no idea they're doing it right. Why is it crying? They use Dr Google constantly, who whatever the situation offers the same range of advice from 'don't worry about it' to 'rush her to the A&E'. 'Why is she crying?' they constantly ask. 'Why?' It keeps them up all night every night, until they are reduced to walking ghosts, haunted by a numb and impotent fury. Is this an adventure too far for our Five?",
+              "format": "Hardcover",
+              "isbn13": "9781786482280",
+              "language": "English",
+              "page_count": 96,
+              "publication_date": "2016-11-03",
+              "publication_year": 2016,
+              "publisher": "Quercus",
+              "title": "Five Go Parenting",
+              "series_name": "Enid Blyton for Grown-Ups",
+              "image": {
+                "url": "https://images.qloo.com/i/B01C0B3D-ED1F-450E-89CD-01423F042558-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Die Fünf übernehmen die Betreuung eines Babys und erleben schlaflose Nächte sowie lustige Missgeschicke.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Los Cinco se enfrentan al reto de cuidar a un bebé, viviendo noches sin dormir y situaciones cómicas.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le Club des Cinq doit s'occuper d'un bébé, affrontant des nuits blanches et des situations drôles.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "The Famous Five take on the challenge of parenting a baby, facing sleepless nights and humorous mishaps."
+            },
+            "popularity": 0.42549538277414356,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:parenting",
+                "name": "Parenting",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:comedy",
+                "name": "Comedy",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:short_stories",
+                "name": "Short Stories",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:humor",
+                "name": "Humor",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:children_s_literature",
+                "name": "Children's literature",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:parenting",
+                "name": "Parenting",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:baby",
+                "name": "Baby",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:famous_five",
+                "name": "Famous Five",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cousin_rupert",
+                "name": "Cousin Rupert",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:responsibility",
+                "name": "Responsibility",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:challenge",
+                "name": "Challenge",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sleepless_nights",
+                "name": "Sleepless Nights",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:light_hearted",
+                "name": "Light-hearted",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:challenging",
+                "name": "Challenging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:family_oriented",
+                "name": "Family-oriented",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:responsibility",
+                "name": "Responsibility",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:challenge",
+                "name": "Challenge",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:parenting_challenges",
+                "name": "Parenting Challenges",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:sleepless_nights",
+                "name": "Sleepless Nights",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:online_advice",
+                "name": "Online Advice",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:light_hearted",
+                "name": "Light-hearted",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:family_friendly",
+                "name": "Family-friendly",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:family_oriented",
+                "name": "Family-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:light_hearted",
+                "name": "Light-hearted",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7435213605424633
+            },
+            "disambiguation": "2016, Bruno Vincent",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "31140610",
+                  "user_rating": 3.47,
+                  "user_ratings_count": 684
+                }
+              ]
+            }
+          },
+          {
+            "name": "Sea of Trees",
+            "entity_id": "081B3EF2-3F64-4B64-9649-5B5AD1456F41",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Swirling mystery permeates Sea of Trees as Bill, an American college student, and his Japanese girlfriend Junko traverse the Aokigahara Forest in Japan--infamous as one of the world's top suicide destinations--in search of evidence of Junko's sister Izumi who disappeared there a year previous. As the two follow clues and journey deeper into the woods amid the eerily quiet and hauntingly beautiful landscape--bypassing tokens and remains of the departed, suicide notes tacked to trees and shrines put up by forlorn loved ones--they'll depend on one another in ways they never had to before, testing the very fabric of their relationship. And, as daylight quickly escapes them and they find themselves lost in the dark veil of night, Bill discovers a truth Junko has hidden deep within her-a truth that will change them both forever.",
+              "format": "Paperback",
+              "isbn13": "9780985154851",
+              "language": "English",
+              "page_count": 106,
+              "publication_date": "2012-05-04",
+              "publication_year": 2012,
+              "publisher": "Winter Goose Publishing",
+              "title": "Sea of Trees",
+              "image": {
+                "url": "https://images.qloo.com/i/081B3EF2-3F64-4B64-9649-5B5AD1456F41-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein amerikanischer Student und seine Freundin suchen im japanischen Aokigahara-Wald nach ihrer vermissten Schwester und stoßen auf verborgene Geheimnisse.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un estudiante estadounidense y su novia buscan a la hermana desaparecida de ella en el bosque Aokigahara de Japón, descubriendo secretos ocultos.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un étudiant américain et sa petite amie cherchent sa sœur disparue dans la forêt d'Aokigahara au Japon, révélant des secrets enfouis.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "An American student and his girlfriend search for her missing sister in Japan's Aokigahara Forest, uncovering secrets."
+            },
+            "popularity": 0.4722864448040909,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:death",
+                "name": "Death",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:horror",
+                "name": "Horror",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:drama",
+                "name": "Drama",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:aokigahara_forest",
+                "name": "Aokigahara Forest",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:suicide",
+                "name": "Suicide",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:relationship",
+                "name": "Relationship",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:disappearance",
+                "name": "Disappearance",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:japan",
+                "name": "Japan",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:college_student",
+                "name": "College Student",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:girlfriend",
+                "name": "Girlfriend",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sister",
+                "name": "Sister",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:haunting",
+                "name": "Haunting",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loss",
+                "name": "Loss",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:discovery",
+                "name": "Discovery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:aokigahara_forest_japan",
+                "name": "Aokigahara Forest, Japan",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:suicide_notes",
+                "name": "Suicide Notes",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:forest",
+                "name": "Forest",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:nightfall",
+                "name": "Nightfall",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychological_thriller",
+                "name": "Psychological Thriller",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:romantic_drama",
+                "name": "Romantic Drama",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:haunting",
+                "name": "Haunting",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:emotionally_engaged",
+                "name": "Emotionally Engaged",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thrill_seeking",
+                "name": "Thrill-seeking",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7418114566222986
+            },
+            "disambiguation": "2012, Robert James Russell",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "14289933",
+                  "user_rating": 3.7,
+                  "user_ratings_count": 267
+                }
+              ]
+            }
+          },
+          {
+            "name": "Rodney Stone",
+            "entity_id": "BF5473E5-BCFF-496C-95EF-51D226C0B720",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "On this, the first of January of the year 1851, the nineteenth century has reached its midway term, and many of us who shared its youth have already warnings which tell us that it has outworn us.",
+              "format": "Paperback",
+              "isbn13": "9781426455247",
+              "language": "English",
+              "page_count": 236,
+              "publication_date": "1896-01-01",
+              "publication_year": 1896,
+              "publisher": "BiblioBazaar",
+              "title": "Rodney Stone",
+              "image": {
+                "url": "https://images.qloo.com/i/BF5473E5-BCFF-496C-95EF-51D226C0B720-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein Junge aus Sussex erlebt sein Erwachsenwerden, während sein Freund im London des 19. Jahrhunderts vom Boxen träumt.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "La historia de un joven de Sussex que crece mientras su amigo persigue el boxeo en el Londres del siglo XIX.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un garçon du Sussex grandit tandis que son ami poursuit ses rêves de boxe dans le Londres du XIXe siècle.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A Sussex boy's coming-of-age story intertwined with his friend's boxing ambitions in 19th-century London."
+            },
+            "popularity": 0.9675434182431422,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:gothic",
+                "name": "Gothic",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:british_literature",
+                "name": "British Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:19th_century",
+                "name": "19th Century",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical",
+                "name": "Historical",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:classics",
+                "name": "Classics",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:gothic",
+                "name": "Gothic",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:gothic",
+                "name": "Gothic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:boxing",
+                "name": "Boxing",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:coming_of_age",
+                "name": "Coming-of-age",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:historical_figures",
+                "name": "Historical Figures",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:bare_knuckle_boxing",
+                "name": "Bare-knuckle Boxing",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:thuggery",
+                "name": "Thuggery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:gambling",
+                "name": "Gambling",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:horse_drawn_chases",
+                "name": "Horse-drawn Chases",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dramatic",
+                "name": "Dramatic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:coming_of_age",
+                "name": "Coming-of-age",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:ambition",
+                "name": "Ambition",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:historical_context",
+                "name": "Historical Context",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:social_class",
+                "name": "Social Class",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:sussex_united_kingdom",
+                "name": "Sussex, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:boxing",
+                "name": "Boxing",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:social_class",
+                "name": "Social Class",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:historical_figures",
+                "name": "Historical Figures",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:sports_fiction",
+                "name": "Sports Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1850s",
+                "name": "1850s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:gothic",
+                "name": "Gothic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dramatic",
+                "name": "Dramatic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_inclined",
+                "name": "Historically-inclined",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:sports_loving",
+                "name": "Sports-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7407743415624891
+            },
+            "disambiguation": "1896, Arthur Conan Doyle",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "76105",
+                  "user_rating": 3.67,
+                  "user_ratings_count": 250
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Raven",
+            "entity_id": "0AF97F56-B930-41F0-A094-9A36EB33AC42",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "The deaths of thirty-nine people in a boat wreck in 1941 provide decades of intrigue for the New England community that was their home",
+              "format": "Paperback",
+              "isbn10": "9780140263",
+              "isbn13": "9780140263459",
+              "language": "English",
+              "page_count": 368,
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "publisher": "Penguin Books",
+              "title": "The Raven",
+              "image": {
+                "url": "https://images.qloo.com/i/0AF97F56-B930-41F0-A094-9A36EB33AC42-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein Schiffsunglück 1941 beschäftigt eine Gemeinde in Neuengland jahrzehntelang.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un naufragio en 1941 deja a una comunidad de Nueva Inglaterra intrigada durante décadas.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un naufrage en 1941 intrigue une communauté de la Nouvelle-Angleterre pendant des décennies.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A boat wreck in 1941 leaves a New England community intrigued for decades."
+            },
+            "popularity": 0.03981082294060847,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:novels",
+                "name": "Novels",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:boat_wreck",
+                "name": "Boat Wreck",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:deaths",
+                "name": "Deaths",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:intrigue",
+                "name": "Intrigue",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:new_england",
+                "name": "New England",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:community",
+                "name": "Community",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:1941",
+                "name": "1941",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intriguing",
+                "name": "Intriguing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:community",
+                "name": "Community",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:history",
+                "name": "History",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:intrigue",
+                "name": "Intrigue",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:new_england_united_states",
+                "name": "New England, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:community_memory",
+                "name": "Community Memory",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:historical_reflection",
+                "name": "Historical Reflection",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:historical_mystery",
+                "name": "Historical Mystery",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1940s",
+                "name": "1940s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intriguing",
+                "name": "Intriguing",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_inclined",
+                "name": "Historically-inclined",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7299736229985384
+            },
+            "disambiguation": "1995, Peter Landesman",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "1291848",
+                  "user_rating": 3.2,
+                  "user_ratings_count": 125
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Hill of the Red Fox",
+            "entity_id": "9A2E675C-B1D1-4371-B66B-161F3C3825AF",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "It is the time of the Cold War. Soviet spies are feared and secrets traded. And people disappear. Thirteen-year-old Alasdair lives in London and knows nothing of that world. He can’t wait to begin his long summer holiday on the Isle of Skye, away from his mother and aunt. But things don’t go quite as planned. On the journey, a stranger gives him a mysterious note before jumping from the train. Even worse, he immediately suspects the sinister Murdo Beaton, the man with whom he’s staying. Gradually adjusting to life on the small farm, Alasdair is unprepared for the web of danger and espionage that begins to unfold around him. (Ages 10–13)",
+              "format": "Paperback",
+              "isbn13": "9780863155567",
+              "language": "English",
+              "page_count": 265,
+              "publication_date": "1955-01-01",
+              "publication_year": 1955,
+              "publisher": "Floris Books",
+              "title": "The Hill of the Red Fox",
+              "image": {
+                "url": "https://images.qloo.com/i/9A2E675C-B1D1-4371-B66B-161F3C3825AF-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Die Sommerferien eines Jungen werden auf der Isle of Skye zu einem Spionageabenteuer.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Las vacaciones de verano de un chico se convierten en una aventura de espías en la isla de Skye.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Les vacances d'été d'un garçon deviennent une aventure d'espionnage sur l'île de Skye.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A boy's summer holiday turns into a spy adventure on the Isle of Skye."
+            },
+            "popularity": 0.34450012920072354,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:historical_fiction",
+                "name": "Historical Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:scotland",
+                "name": "Scotland",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cold_war",
+                "name": "Cold War",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:soviet_spies",
+                "name": "Soviet Spies",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:espionage",
+                "name": "Espionage",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:isle_of_skye",
+                "name": "Isle of Skye",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:danger",
+                "name": "Danger",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:summer_holiday",
+                "name": "Summer Holiday",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intriguing",
+                "name": "Intriguing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:thrilling",
+                "name": "Thrilling",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:espionage",
+                "name": "Espionage",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:courage",
+                "name": "Courage",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:coming_of_age",
+                "name": "Coming of Age",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:isle_of_skye_scotland_united_kingdom",
+                "name": "Isle of Skye, Scotland, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:spies",
+                "name": "Spies",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:mysterious_notes",
+                "name": "Mysterious Notes",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:isle_of_skye",
+                "name": "Isle of Skye",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:spy_fiction",
+                "name": "Spy Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:children_s_adventure",
+                "name": "Children's Adventure",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1950s",
+                "name": "1950s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intriguing",
+                "name": "Intriguing",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:thrilling",
+                "name": "Thrilling",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thrill_seeking",
+                "name": "Thrill-seeking",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.725713507667785
+            },
+            "disambiguation": "1955, Allan Campbell McLean",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "1838816",
+                  "user_rating": 4.27,
+                  "user_ratings_count": 182
+                }
+              ]
+            }
+          },
+          {
+            "name": "Wycliffe and the Dunes Mystery (Wycliffe, #19)",
+            "entity_id": "CF112771-6820-458E-801C-CA9A39B68B8B",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Cochran Wilder, only son of crimebashing MP Royston Wilder, is missing on a walking holiday in Cornwall. He was last seen on Saturday evening, on the North Cornwall coastal path between Gwithian and Hayle.... Cochran was recently discharged from a psychiatric hospital where he had been detained under a court order following convictions on a number of charges including theft and indecent assault.... Chief Deputy Superintendent Wycliffe recalls all too well the considerable ruckus that Royston Wilder created fifteen years ago when his son disappeared for the first time. But when a dog accidentally unearths Cochran Wilder's body, Wycliffe is stumped over where to begin. As the pieces of the puzzle slowly fit together to point to six prominent community members and one wild weekend they spent fifteen years ago, Wycliffe is forced to proceed carefully. All this changes when he himself gets assaulted and a suspicious landlord is murdered, plunging Wycliffe into a race to find the killer before the killer finds him. Wycliffe, one of the best established detectives in crime fiction, is in excellent form in the latest intelligent, atmospheric mystery that will delight all of W.J. Burley's many fans.",
+              "format": "Hardcover",
+              "isbn13": "9780312111007",
+              "language": "English",
+              "page_count": 192,
+              "publication_date": "1993-01-01",
+              "publication_year": 1993,
+              "publisher": "St Martins Pr",
+              "title": "Wycliffe and the Dunes Mystery (Wycliffe, #19)",
+              "series_name": "Wycliffe",
+              "image": {
+                "url": "https://images.qloo.com/i/CF112771-6820-458E-801C-CA9A39B68B8B-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Cochran Wilders Verschwinden führt Wycliffe zu einem Mordfall, der mit Gemeindeführern und einem alten Geheimnis verbunden ist.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "La desaparición de Cochran Wilder lleva a Wycliffe a investigar un asesinato relacionado con líderes locales y un secreto del pasado.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "La disparition de Cochran Wilder pousse Wycliffe à enquêter sur un meurtre lié à des notables locaux et à un secret du passé.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Cochran Wilder's disappearance leads Wycliffe to investigate a murder linked to community leaders and a past secret."
+            },
+            "popularity": 0.049885079356444394,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:police",
+                "name": "Police",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:detective",
+                "name": "Detective",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:crime",
+                "name": "Crime",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:investigation",
+                "name": "Investigation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cornwall",
+                "name": "Cornwall",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:community",
+                "name": "Community",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:detective",
+                "name": "Detective",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:psychiatric_hospital",
+                "name": "Psychiatric Hospital",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:disappearance",
+                "name": "Disappearance",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:community",
+                "name": "Community",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:power",
+                "name": "Power",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:cornwall_united_kingdom",
+                "name": "Cornwall, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:secrets",
+                "name": "Secrets",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:power",
+                "name": "Power",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:redemption",
+                "name": "Redemption",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:community",
+                "name": "Community",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:detective_fiction",
+                "name": "Detective Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:police_procedural",
+                "name": "Police Procedural",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1990s",
+                "name": "1990s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intricate",
+                "name": "Intricate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intelligent",
+                "name": "Intelligent",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mystery_loving",
+                "name": "Mystery-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:detail_oriented",
+                "name": "Detail-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:patient",
+                "name": "Patient",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7248927555436897
+            },
+            "disambiguation": "1993, W.J. Burley",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "396994",
+                  "user_rating": 3.83,
+                  "user_ratings_count": 229
+                }
+              ]
+            }
+          },
+          {
+            "name": "A Deadly Game (A Nick Fallon Investigation, #1)",
+            "entity_id": "7C5C58A8-D1B3-4969-A43F-58AB18D40A26",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Nick Fallon, private investigator, living the good life in Laguna Beach, gets a rude awakening when his past life unexpectedly catches up with him. Four years earlier, Nick, then a member of the Pittsburgh Police Department, was instrumental in arresting Fransisco Garcia, a drug dealer and cold-blooded murderer.  Now, Garcia has escaped from prison and is intent on making good his threat of reprisal for the death of his son in the shoot out that brought down his notorious empire - a confrontation that also claimed the lives of two of Nick's associates.  Nick, well aware of Garcia's ruthless and cunning tactics, fears for the safety of his lover, Eric Jamieson. Despite Nick's best efforts to protect Eric, Garcia succeeds in taking him hostage and holds him as bait in the trap he has prepared for Nick. Only their combined strength and resilience save them from the messy deaths Garcia had planned for them. Even then, they are not safe and soon discover that they cannot, for one moment afford to let down their guards, until Garcia is either apprehended-or dead.  A Deadly Game is an erotic thrill ride, filled with danger, excitement and suspense.",
+              "format": "Paperback",
+              "isbn13": "9780595402106",
+              "language": "English",
+              "page_count": 226,
+              "publication_date": "2006-07-20",
+              "publication_year": 2006,
+              "publisher": "Iuniverse Inc",
+              "title": "A Deadly Game (A Nick Fallon Investigation, #1)",
+              "series_name": "Nick Fallon Investigations",
+              "image": {
+                "url": "https://images.qloo.com/i/7C5C58A8-D1B3-4969-A43F-58AB18D40A26-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein Privatdetektiv wird von seiner Vergangenheit eingeholt, als ein rachsüchtiger Dealer ausbricht und seine Geliebte entführt.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El pasado de un detective privado lo alcanza cuando un narco vengativo escapa de prisión y secuestra a su pareja.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le passé d’un détective privé le rattrape quand un trafiquant en quête de vengeance s’évade et kidnappe sa compagne.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A private investigator's past catches up with him when a vengeful drug dealer escapes prison and kidnaps his lover."
+            },
+            "popularity": 0.4405098668552544,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:contemporary",
+                "name": "Contemporary",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:romance",
+                "name": "Romance",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:m_m_romance",
+                "name": "M M Romance",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:suspense",
+                "name": "Suspense",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:crime",
+                "name": "Crime",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:gay",
+                "name": "Gay",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery_thriller",
+                "name": "Mystery Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:lgbt",
+                "name": "LGBT",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:ebook",
+                "name": "Ebook",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:thriller",
+                "name": "Thriller",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:private_investigator",
+                "name": "Private Investigator",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:drug_dealer",
+                "name": "Drug Dealer",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:murder",
+                "name": "Murder",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:hostage",
+                "name": "Hostage",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:laguna_beach",
+                "name": "Laguna Beach",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:pittsburgh",
+                "name": "Pittsburgh",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:police",
+                "name": "Police",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:escape",
+                "name": "Escape",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:danger",
+                "name": "Danger",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:thrilling",
+                "name": "Thrilling",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dangerous",
+                "name": "Dangerous",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:exciting",
+                "name": "Exciting",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:survival",
+                "name": "Survival",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:courage",
+                "name": "Courage",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:laguna_beach_california",
+                "name": "Laguna Beach, California",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:pittsburgh_pennsylvania",
+                "name": "Pittsburgh, Pennsylvania",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:revenge",
+                "name": "Revenge",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:escape",
+                "name": "Escape",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:hostage",
+                "name": "Hostage",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:danger",
+                "name": "Danger",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:crime_thriller",
+                "name": "Crime Thriller",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:erotic_thriller",
+                "name": "Erotic Thriller",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2000s",
+                "name": "2000s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:erotic",
+                "name": "Erotic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:gripping",
+                "name": "Gripping",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:fast_paced",
+                "name": "Fast-paced",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:edgy",
+                "name": "Edgy",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:thrill_seeking",
+                "name": "Thrill-seeking",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:mature",
+                "name": "Mature",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:suspense_loving",
+                "name": "Suspense-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7234152328806842
+            },
+            "disambiguation": "2006, J.P. Bowie",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "94987",
+                  "user_rating": 3.62,
+                  "user_ratings_count": 248
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Rangers Rustlers (Ballpark Mysteries, #12)",
+            "entity_id": "763DF041-E2FD-40D4-83FA-2DC502844A76",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Batter up! Ballpark Mysteries ® combine baseball action with exciting whodunits for early chapter book readers!   Let’s play ball, y’all! Mike and Kate are very excited to watch a Texas Rangers game. Mike even bought an official shirt. But little did he know—it’s a fake! A sneaky crook is tricking Rangers fans into buying the wrong shirts. Can the cousins help a real-life police ranger round up the culprit?   Ballpark Mysteries are the all-star matchup of fun sleuthing and baseball action, perfect for readers of Ron Roy’s A to Z Mysteries and Matt Christopher’s sports books, and younger siblings of Mike Lupica fans. Each Ballpark Mystery also features Dugout Notes, with more amazing baseball facts.",
+              "format": "Paperback",
+              "isbn13": "9780385378819",
+              "language": "English",
+              "page_count": 112,
+              "publication_date": "2016-02-23",
+              "publication_year": 2016,
+              "publisher": "Random House Books for Young Readers",
+              "title": "The Rangers Rustlers (Ballpark Mysteries, #12)",
+              "series_name": "Ballpark Mysteries",
+              "image": {
+                "url": "https://images.qloo.com/i/763DF041-E2FD-40D4-83FA-2DC502844A76-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Mike und Kate lösen einen Fall mit gefälschten Fanartikeln bei einem Spiel der Texas Rangers.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Mike y Kate investigan un misterio de mercancía falsa durante un partido de los Texas Rangers.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Mike et Kate enquêtent sur de la marchandise contrefaite lors d'un match des Texas Rangers.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Mike and Kate solve a mystery involving counterfeit merchandise at a Texas Rangers game."
+            },
+            "popularity": 0.18136041561832747,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:sports",
+                "name": "Sports",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:chapter_books",
+                "name": "Chapter Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:fiction",
+                "name": "Fiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:entertaining",
+                "name": "Entertaining",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:sports",
+                "name": "Sports",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:counterfeit",
+                "name": "Counterfeit",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:texas_rangers",
+                "name": "Texas Rangers",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:police_ranger",
+                "name": "Police Ranger",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sleuthing",
+                "name": "Sleuthing",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fans",
+                "name": "Fans",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:merchandise",
+                "name": "Merchandise",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cousins",
+                "name": "Cousins",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:entertaining",
+                "name": "Entertaining",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:teamwork",
+                "name": "Teamwork",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:deception",
+                "name": "Deception",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:sportsmanship",
+                "name": "Sportsmanship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:texas_united_states",
+                "name": "Texas, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:detective_work",
+                "name": "Detective Work",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:team_spirit",
+                "name": "Team Spirit",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:children_s_mystery",
+                "name": "Children's Mystery",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:baseball_fiction",
+                "name": "Baseball Fiction",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2010s",
+                "name": "2010s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:fun",
+                "name": "Fun",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:interactive",
+                "name": "Interactive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:sports_loving",
+                "name": "Sports-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:problem_solving",
+                "name": "Problem-solving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7148457165009141
+            },
+            "disambiguation": "2016, David A. Kelly",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "25733901",
+                  "user_rating": 4.32,
+                  "user_ratings_count": 150
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Philly Fake (Ballpark Mysteries, #9)",
+            "entity_id": "5CA04FDB-DDD8-4612-9AC4-F31BC0C5F568",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "It's the ninth inning! The Philly Fake is book #9 in our early chapter book mystery series, where each book is set in a different American ballpark!  What better city to spend the Fourth of July than Philadelphia? For Mike and Kate, the holiday is all about hot dogs, history, and baseball! But the Phillies are in no mood to celebrate. They keep losing, and some people blame the lovable Phillie Phanatic! Can Mike and Kate help the Phanatic clear his name?  The Philly Fake includes several pages of \"Dugout Notes,\" fun facts about Philly's ballpark.  Cross Ron Roy's A to Z Mystery series with Matt Christopher's sports books and you get the Ballpark Mysteries: fun, puzzling whodunits aimed at the younger brothers and sisters of John Feinstein fans.",
+              "format": "Paperback",
+              "isbn13": "9780307977854",
+              "language": "English",
+              "page_count": 112,
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "publisher": "Random House Books for Young Readers",
+              "title": "The Philly Fake (Ballpark Mysteries, #9)",
+              "series_name": "Ballpark Mysteries",
+              "image": {
+                "url": "https://images.qloo.com/i/5CA04FDB-DDD8-4612-9AC4-F31BC0C5F568-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Mike und Kate lösen einen Fall, um den Ruf des Phillie Phanatic während einer Niederlagenserie zu retten.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Mike y Kate resuelven un misterio para limpiar el nombre del Phillie Phanatic durante una mala racha del equipo.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Mike et Kate mènent l'enquête pour innocenter le Phillie Phanatic pendant une série de défaites de l'équipe.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Mike and Kate solve a mystery to clear the Phillie Phanatic's name during a losing streak."
+            },
+            "popularity": 0.4975315861768826,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:chapter_books",
+                "name": "Chapter Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:sports",
+                "name": "Sports",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:1st_grade",
+                "name": "1st Grade",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:fun",
+                "name": "Fun",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:entertaining",
+                "name": "Entertaining",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:children_s",
+                "name": "Children's",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:philadelphia",
+                "name": "Philadelphia",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:phillies",
+                "name": "Phillies",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:phanatic",
+                "name": "Phanatic",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fourth_of_july",
+                "name": "Fourth of July",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:ballpark",
+                "name": "Ballpark",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:dugout_notes",
+                "name": "Dugout Notes",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:entertaining",
+                "name": "Entertaining",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:teamwork",
+                "name": "Teamwork",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:sportsmanship",
+                "name": "Sportsmanship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:philadelphia_pennsylvania_united_states",
+                "name": "Philadelphia, Pennsylvania, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:mascots",
+                "name": "Mascots",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:team_spirit",
+                "name": "Team Spirit",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:sports",
+                "name": "Sports",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:detective",
+                "name": "Detective",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2010s",
+                "name": "2010s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:playful",
+                "name": "Playful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:educational",
+                "name": "Educational",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:lighthearted",
+                "name": "Lighthearted",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:sports_loving",
+                "name": "Sports-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:problem_solving",
+                "name": "Problem-solving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7146405366269369
+            },
+            "disambiguation": "2014, David A. Kelly",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "18404352",
+                  "user_rating": 4.36,
+                  "user_ratings_count": 227
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Tiger Troubles (Ballpark Mysteries, #11)",
+            "entity_id": "B21DEBA1-DFC3-4071-A726-B745351E5EFA",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Batter up! Ballpark Mysteries® combine baseball action with exciting whodunits for early–chapter book readers!     Someone is blackmailing the Detroit Tigers’ famous slugger, Tony! They’ve stolen his favorite trophy, and unless he fills a tiger-shaped bag with signed baseballs, he’ll never see the trophy again. Luckily, all-star sleuths Mike and Kate are ready to pounce on the case. Can they track down the thief in time to save Tony’s treasure?     Ballpark Mysteries are the all-star matchup of fun sleuthing and baseball action, perfect for readers of Ron Roy’s A to Z Mysteries and Matt Christopher’s sports books, and younger siblings of Mike Lupica fans. Each Ballpark Mystery also features “Dugout Notes,” with more amazing baseball facts.",
+              "format": "Paperback",
+              "isbn10": "0385378785",
+              "isbn13": "9780385378789",
+              "language": "English",
+              "page_count": 103,
+              "publication_date": "2015-04-28",
+              "publication_year": 2015,
+              "publisher": "Random House Books for Young Readers",
+              "title": "The Tiger Troubles (Ballpark Mysteries, #11)",
+              "series_name": "Ballpark Mysteries",
+              "image": {
+                "url": "https://images.qloo.com/i/B21DEBA1-DFC3-4071-A726-B745351E5EFA-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Junge Detektive lösen einen Erpressungsfall um einen Baseballspieler.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Unos jóvenes detectives resuelven un caso de chantaje a un jugador de béisbol.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "De jeunes détectives résolvent une affaire de chantage impliquant un joueur de baseball.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "Young detectives solve a baseball player's blackmail case."
+            },
+            "popularity": 0.31220674835779083,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:chapter_books",
+                "name": "Chapter Books",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:sports",
+                "name": "Sports",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:childrens",
+                "name": "Childrens",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:0_12",
+                "name": "0-12",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:fun",
+                "name": "Fun",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:exciting",
+                "name": "Exciting",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:youthful",
+                "name": "Youthful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:sports",
+                "name": "Sports",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:mystery",
+                "name": "Mystery",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:blackmail",
+                "name": "Blackmail",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:trophy",
+                "name": "Trophy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:detectives",
+                "name": "Detectives",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:detroit_tigers",
+                "name": "Detroit Tigers",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sleuthing",
+                "name": "Sleuthing",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sports",
+                "name": "Sports",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:children",
+                "name": "Children",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_limited",
+                "name": "third person limited",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:exciting",
+                "name": "Exciting",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:fun",
+                "name": "Fun",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:friendship",
+                "name": "Friendship",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:courage",
+                "name": "Courage",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:problem_solving",
+                "name": "Problem Solving",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:justice",
+                "name": "Justice",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:detroit_michigan_united_states",
+                "name": "Detroit, Michigan, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:detective_work",
+                "name": "Detective Work",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:teamwork",
+                "name": "Teamwork",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:children_s_mystery",
+                "name": "Children's Mystery",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:baseball",
+                "name": "Baseball",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2010s",
+                "name": "2010s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:fast_paced",
+                "name": "Fast-paced",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:youthful",
+                "name": "Youthful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:sporty",
+                "name": "Sporty",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:imaginative",
+                "name": "Imaginative",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:sports_loving",
+                "name": "Sports-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.7146104583349454
+            },
+            "disambiguation": "2015, David A. Kelly",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "22856143",
+                  "user_rating": 4.38,
+                  "user_ratings_count": 215
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

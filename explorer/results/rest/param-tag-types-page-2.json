@@ -1,0 +1,72 @@
+{
+  "request": {
+    "path": "/v2/tags/types",
+    "params": {
+      "page": 2,
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 327,
+    "url": "/v2/tags/types?page=2&take=5",
+    "requestId": "a70b6858-b295-4add-b11d-d132b9866a58",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49540",
+      "x-month-ratelimit-reset": "2589147.14",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.4"
+    },
+    "body": {
+      "duration": 26,
+      "success": true,
+      "results": {
+        "tag_types": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:content_type:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:culture:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:emotional_tone:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:endorsement:qloo"
+          }
+        ]
+      }
+    }
+  }
+}
