@@ -1,0 +1,1702 @@
+{
+  "source": "https://docs.qloo.com/reference",
+  "builtAt": "2026-10-24T17:24:25.401Z",
+  "endpoints": [
+    {
+      "path": "/",
+      "method": "GET",
+      "title": "Get API Information",
+      "description": "Returns general information about the Qloo API, including the current version, deployment date, and contact details.",
+      "docs": "https://docs.qloo.com/reference/api-information",
+      "parameters": []
+    },
+    {
+      "path": "/search",
+      "method": "GET",
+      "title": "Search Entities",
+      "description": "Search for an entity by name or property.",
+      "docs": "https://docs.qloo.com/reference/get-search",
+      "parameters": [
+        {
+          "name": "query",
+          "required": false,
+          "type": "string",
+          "description": "The text to search against.",
+          "example": "Beyonce"
+        },
+        {
+          "name": "types",
+          "required": false,
+          "type": "array<string>",
+          "description": "The category to search against.\nThe following values are legacy types available for search only and are not supported in `/v2/insights`:\n- `urn:entity:actor` - `urn:entity:album` - `urn:entity:author` - `urn:entity:director` - `urn:entity:locality`",
+          "enum": [
+            "urn:entity:artist",
+            "urn:entity:book",
+            "urn:entity:brand",
+            "urn:entity:locality",
+            "urn:entity:movie",
+            "urn:entity:person",
+            "urn:entity:place",
+            "urn:entity:podcast",
+            "urn:entity:tv_show",
+            "urn:entity:videogame",
+            "urn:heatmap",
+            "urn:entity:audience"
+          ],
+          "example": [
+            "urn:entity:movie",
+            "urn:entity:tv_show"
+          ]
+        },
+        {
+          "name": "filter.location",
+          "required": false,
+          "type": "string",
+          "description": "A location to base searches on. Accepts a lat/lon coordinate pair or a WKT geometry string. Also accepts a Qloo entity UUID.\n\n- **Lat/lon coordinate pair**: `latitude,longitude` (e.g. `40.742306,-74.003494`)\n- **WKT geometry string**: a Well-Known Text geometry such as `POINT(-73.99823 40.722668)`\n- **Qloo entity UUID**: a Qloo entity ID"
+        },
+        {
+          "name": "filter.radius",
+          "required": false,
+          "type": "number",
+          "description": "The max distance in miles from the location to base results on. This only applies to categories with geolocation data. Default is 10 miles.",
+          "default": 10,
+          "example": 10
+        },
+        {
+          "name": "filter.exists",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter results by existential property check like `external.resy` or `external.michelin`"
+        },
+        {
+          "name": "filter.tags",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter results by a tag",
+          "example": [
+            "urn:tag:genre:action",
+            "urn:tag:genre:place:tourist_attraction"
+          ]
+        },
+        {
+          "name": "filter.rating",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the lowest desired business rating.",
+          "example": 4.5
+        },
+        {
+          "name": "filter.popularity",
+          "required": false,
+          "type": "number",
+          "description": "The minimum value of popularity an entity must have to be output.",
+          "example": 0.5
+        },
+        {
+          "name": "filter.address",
+          "required": false,
+          "type": "string",
+          "description": "Filter by address using a partial string match. Supports comma-separated terms."
+        },
+        {
+          "name": "operator.filter.tags",
+          "required": false,
+          "type": "string",
+          "description": "The operator.filter.tags parameter controls whether the API returns results matching all (\"intersection\") or any (\"union\") of the input tags.",
+          "enum": [
+            "intersection",
+            "union"
+          ],
+          "default": "union",
+          "example": "intersection"
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "Number of results to return"
+        },
+        {
+          "name": "sort_by",
+          "required": false,
+          "type": "string",
+          "description": "Sort results by criteria",
+          "enum": [
+            "match",
+            "distance",
+            "popularity"
+          ],
+          "default": "match",
+          "example": "match"
+        }
+      ]
+    },
+    {
+      "path": "/entities",
+      "method": "GET",
+      "title": "Search Entities by ID",
+      "description": "Get entities based on an array of IDs.",
+      "docs": "https://docs.qloo.com/reference/get-entities",
+      "parameters": [
+        {
+          "name": "entity_ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The entities to base the search on."
+        },
+        {
+          "name": "external.facebook.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The Facebook IDs to base the search on."
+        },
+        {
+          "name": "external.goodreads.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The Goodreads Book IDs to base the search on."
+        },
+        {
+          "name": "external.goodreads_author.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The Goodreads Author IDs to base the search on."
+        },
+        {
+          "name": "external.igdb.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external IGDB IDs to base the search on."
+        },
+        {
+          "name": "external.imdb.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external IMDB IDs to base the search on."
+        },
+        {
+          "name": "external.instagram.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Instagram IDs to base the search on."
+        },
+        {
+          "name": "external.isbn10.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external ISBN10 IDs to base the search on."
+        },
+        {
+          "name": "external.isbn13.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external ISBN13 IDs to base the search on."
+        },
+        {
+          "name": "external.itunes.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external iTunes IDs to base the search on."
+        },
+        {
+          "name": "external.lastfm.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Last.fm IDs to base the search on."
+        },
+        {
+          "name": "external.library_of_congress.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Library of Congress IDs to base the search on."
+        },
+        {
+          "name": "external.metacritic.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Metacritic IDs to base the search on."
+        },
+        {
+          "name": "external.michelin.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Michelin Guide IDs to base the search on."
+        },
+        {
+          "name": "external.musicbrainz.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external MusicBrainz IDs to base the search on."
+        },
+        {
+          "name": "external.rottentomatoes.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Rotten Tomatoes IDs to base the search on."
+        },
+        {
+          "name": "external.soundcloud.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external SoundCloud IDs to base the search on."
+        },
+        {
+          "name": "external.spotify.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Spotify IDs to base the search on."
+        },
+        {
+          "name": "external.tablet.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Tablet Hotels IDs to base the search on."
+        },
+        {
+          "name": "external.twitch.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Twitch IDs to base the search on."
+        },
+        {
+          "name": "external.twitter.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Twitter IDs to base the search on."
+        },
+        {
+          "name": "external.wikidata.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Wikidata IDs to base the search on."
+        },
+        {
+          "name": "external.resy.ids",
+          "required": false,
+          "type": "array<string>",
+          "description": "The external Resy IDs to base the search on."
+        }
+      ]
+    },
+    {
+      "path": "/v2/tags",
+      "method": "GET",
+      "title": "Search Tags",
+      "description": "Search for tags that are supported by the `filter.tags`, `exclude.tags`, and `signal.interests.tags parameters`.",
+      "docs": "https://docs.qloo.com/reference/search-tags",
+      "parameters": [
+        {
+          "name": "feature.typo_tolerance",
+          "required": false,
+          "type": "boolean",
+          "description": "When set to true, allows tolerance for typos in the `filter.query parameter`. For example, a query for “Mediterranaen” would return tags with the word “Mediterranean” in their titles. Default is false.",
+          "default": false,
+          "example": false
+        },
+        {
+          "name": "feature.semantic_search",
+          "required": false,
+          "type": "boolean",
+          "description": "When set to `true`, enables semantic search for tag queries. Instead of exact or typo-tolerant matching, the API uses semantic similarity to find tags related to the meaning of the query. This feature is currently in beta. Use alongside `filter.query` to perform a semantic tag search.",
+          "default": false,
+          "example": false
+        },
+        {
+          "name": "filter.results.tags",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of tag IDs. Often used to assess the affinity of a tag towards input."
+        },
+        {
+          "name": "filter.parents.types",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of parental entity types.",
+          "enum": [
+            "urn:audience:communities",
+            "urn:audience:global_issues",
+            "urn:audience:hobbies_and_interests",
+            "urn:audience:investing_interests",
+            "urn:audience:leisure",
+            "urn:audience:life_stage",
+            "urn:audience:lifestyle_preferences_beliefs",
+            "urn:audience:political_preferences",
+            "urn:audience:professional_area",
+            "urn:audience:spending_habits"
+          ]
+        },
+        {
+          "name": "filter.popularity.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the minimum popularity percentile required for a Point of Interest (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile)."
+        },
+        {
+          "name": "filter.popularity.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the maximum popularity percentile a Point of Interest must have (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile)."
+        },
+        {
+          "name": "filter.query",
+          "required": false,
+          "type": "string",
+          "description": "A partial string search on the audience or tag name."
+        },
+        {
+          "name": "filter.tag.types",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of tag types. Each tag type requires an exact match. You can retrieve a list of tag types supported by each entity type via the Tag Types API."
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        }
+      ]
+    },
+    {
+      "path": "/v2/tags/types",
+      "method": "GET",
+      "title": "Get Tag Types",
+      "description": "Returns a list of tag types supported by each entity type. You can leverage this data with the Tags API to filter results by specific tag types.",
+      "docs": "https://docs.qloo.com/reference/get-tag-types",
+      "parameters": [
+        {
+          "name": "filter.parents.types",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of parental entity types.",
+          "enum": [
+            "urn:audience:communities",
+            "urn:audience:global_issues",
+            "urn:audience:hobbies_and_interests",
+            "urn:audience:investing_interests",
+            "urn:audience:leisure",
+            "urn:audience:life_stage",
+            "urn:audience:lifestyle_preferences_beliefs",
+            "urn:audience:political_preferences",
+            "urn:audience:professional_area",
+            "urn:audience:spending_habits"
+          ]
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        }
+      ]
+    },
+    {
+      "path": "/v2/audiences",
+      "method": "GET",
+      "title": "Get Audiences",
+      "description": "The Find Audiences API retrieves a list of audience IDs that can be used for filtering results and refining targeting in recommendations. You can use the returned audience IDs as values for `signal.demographics.audiences` to filter Insights API query results by specific audiences.",
+      "docs": "https://docs.qloo.com/reference/get-audiences",
+      "parameters": [
+        {
+          "name": "filter.parents.types",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of parental entity types.",
+          "enum": [
+            "urn:audience:communities",
+            "urn:audience:global_issues",
+            "urn:audience:hobbies_and_interests",
+            "urn:audience:investing_interests",
+            "urn:audience:leisure",
+            "urn:audience:life_stage",
+            "urn:audience:lifestyle_preferences_beliefs",
+            "urn:audience:political_preferences",
+            "urn:audience:professional_area",
+            "urn:audience:spending_habits"
+          ]
+        },
+        {
+          "name": "filter.results.audiences",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of audience IDs."
+        },
+        {
+          "name": "filter.audience.types",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a list of audience types."
+        },
+        {
+          "name": "filter.query",
+          "required": false,
+          "type": "string",
+          "description": "A partial string search on the audience or tag name."
+        },
+        {
+          "name": "filter.popularity.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the minimum popularity percentile required for a Point of Interest (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile)."
+        },
+        {
+          "name": "filter.popularity.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the maximum popularity percentile a Point of Interest must have (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile)."
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        }
+      ]
+    },
+    {
+      "path": "/v2/audiences/types",
+      "method": "GET",
+      "title": "Get Audience Types",
+      "description": "The Get Audience Types API returns all available audience type IDs, representing different audience categories. You can use this API to explore audience classifications and refine searches in the Find Audiences API. Including `filter.parents.types` allows you to narrow results by relevant entity types.",
+      "docs": "https://docs.qloo.com/reference/get-audience-types",
+      "parameters": [
+        {
+          "name": "filter.parents.types",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of parental entity types.",
+          "enum": [
+            "urn:audience:communities",
+            "urn:audience:global_issues",
+            "urn:audience:hobbies_and_interests",
+            "urn:audience:investing_interests",
+            "urn:audience:leisure",
+            "urn:audience:life_stage",
+            "urn:audience:lifestyle_preferences_beliefs",
+            "urn:audience:political_preferences",
+            "urn:audience:professional_area",
+            "urn:audience:spending_habits"
+          ]
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        }
+      ]
+    },
+    {
+      "path": "/v2/insights",
+      "method": "GET",
+      "title": "Insights API Deep Dive",
+      "description": "Provides taste insights that reflect audience preferences and cultural alignment.",
+      "docs": "https://docs.qloo.com/reference/insights-api-deep-dive",
+      "parameters": [
+        {
+          "name": "filter.type",
+          "required": true,
+          "type": "string",
+          "description": "Filter by the category of entity to return (urn:entity:place). The `urn:entity:audience` value is deprecated and should not be used for new integrations.",
+          "enum": [
+            "urn:entity:artist",
+            "urn:entity:book",
+            "urn:entity:brand",
+            "urn:entity:locality",
+            "urn:entity:movie",
+            "urn:entity:person",
+            "urn:entity:place",
+            "urn:entity:podcast",
+            "urn:entity:tv_show",
+            "urn:entity:videogame",
+            "urn:heatmap",
+            "urn:entity:audience"
+          ],
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "bias.trends",
+          "required": false,
+          "type": "string",
+          "description": "The level of impact a trending entity has on the results. Supported by select categories only.",
+          "enum": [
+            "off",
+            "very_low",
+            "low",
+            "mid",
+            "medium",
+            "high",
+            "very_high"
+          ],
+          "default": "medium",
+          "example": "medium",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "bias.content_based",
+          "required": false,
+          "type": "number",
+          "description": "The amount of strength content-based metadata has on the recommendations affinity score.",
+          "default": 0.5,
+          "example": 0.75
+        },
+        {
+          "name": "bias.quality",
+          "required": false,
+          "type": "string",
+          "description": "Biases place ranking by quality score. When quality is the only ranking signal, results sort by quality by default. When combined with other signals, ranking uses the merged affinity score. Places without a quality score are filtered out.\nAccepts a positive number or a weight string (`very_low`, `low`, `mid`, `medium`, `high`, `very_high`). Applies to `filter.type=urn:entity:place` only.",
+          "group": "Signals",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "diversify.by",
+          "required": false,
+          "type": "string",
+          "description": "Limits results to a set number of high-affinity entities per group, controlled by `diversify.take`. Set to `properties.geocode.city` to group by city, or `properties.geocode.metro` to group by metro area. Set to `subtype` to cap results per tag subtype; applies to `filter.type=urn:tag` only.\nGroups are ranked based on the highest-affinity entity within them. Entities within each group are ordered by individual affinity.",
+          "enum": [
+            "properties.geocode.city",
+            "properties.geocode.metro",
+            "subtype"
+          ],
+          "group": "Output",
+          "entityTypes": ""
+        },
+        {
+          "name": "diversify.take",
+          "required": false,
+          "type": "integer",
+          "description": "Sets the maximum number of results to return per city when using \"diversify.by\": \"properties.geocode.city\". For example, if set to 5, the response will include up to 5 entities with the highest affinities in each city.",
+          "group": "Output",
+          "entityTypes": ""
+        },
+        {
+          "name": "backfill.cross_domain.take",
+          "required": false,
+          "type": "integer",
+          "description": "Controls the maximum number of cross-domain backfill results appended when primary results are insufficient. Default is 20. Maximum is 20.",
+          "default": 20,
+          "example": 20
+        },
+        {
+          "name": "backfill.content_based.take",
+          "required": false,
+          "type": "integer",
+          "description": "Controls the maximum number of content-based similarity backfill results appended when other signals are unavailable. Default is 10. Maximum is 10.",
+          "default": 10,
+          "example": 10
+        },
+        {
+          "name": "feature.explainability",
+          "required": false,
+          "type": "boolean",
+          "description": "When set to `true`, the response includes explainability metadata for each recommendation and for the overall result set. Default is `false`.\n**Per recommendation**: Each result includes a `query.explainability` section showing which input entities (e.g., `signal.interests.entities`) contributed to the recommendation, with normalized scores between 0 and 1. Entities scoring ≥ 0.1 are always included; lower-impact entities may be omitted to reduce response size.\n**Aggregate impact**: The top-level `query.explainability` object shows the average influence of each input entity across top-N result subsets (e.g., top 3, 5, 10, all).\n**Note**: If explainability cannot be computed, a warning is returned under `query.explainability.warning`, but results are still returned as normal.",
+          "group": "Output",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.address",
+          "required": false,
+          "type": "string",
+          "description": "Filter by address using a partial string match. Supports comma-separated terms.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.content_rating",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of content ratings. Only applies to entities of type `urn:entity:movie` and `urn:entity:tv_show`. Content ratings are based on the MPAA and TV Parental Guidelines systems, and represent suitability for different audiences.\nCommon values include: - G, PG, PG-13, R, NC-17 (MPAA film ratings) - TV-G, TV-PG, TV-14, TV-MA, TV-Y, TV-Y7 (TV parental ratings) - Not Rated, Unrated, Approved, Passed (legacy or uncategorized labels)",
+          "enum": [
+            "G",
+            "PG",
+            "PG-13",
+            "R",
+            "NC-17",
+            "TV-G",
+            "TV-PG",
+            "TV-14",
+            "TV-MA",
+            "TV-Y",
+            "TV-Y7",
+            "TV-Y7-FV",
+            "Not Rated",
+            "Unrated",
+            "Approved",
+            "Passed",
+            "X",
+            "GP",
+            "M",
+            "13+",
+            "16+",
+            "18+"
+          ],
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.date_of_birth.max",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the most recent date of birth desired for the queried person.",
+          "group": "Filters",
+          "entityTypes": "Person"
+        },
+        {
+          "name": "filter.date_of_birth.min",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the earliest date of birth desired for the queried person.",
+          "group": "Filters",
+          "entityTypes": "Person"
+        },
+        {
+          "name": "filter.date_of_death.max",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the most recent date of death desired for the queried person.",
+          "group": "Filters",
+          "entityTypes": "Person"
+        },
+        {
+          "name": "filter.date_of_death.min",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the earliest date of death desired for the queried person.",
+          "group": "Filters",
+          "entityTypes": "Person"
+        },
+        {
+          "name": "filter.exclude.tags",
+          "required": false,
+          "type": "string",
+          "description": "Exclude entities associated with a comma-separated list of tags.",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "operator.filter.exclude.tags",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple `filter.exclude.tags` values are combined in the query. Use \"union\" (equivalent to a logical \"or\") to exclude results that contain at least one of the specified tags, or \"intersection\" (equivalent to a logical \"and\") to exclude only results that contain all specified tags. The default is \"union\".",
+          "enum": [
+            "union",
+            "intersection"
+          ]
+        },
+        {
+          "name": "filter.exists",
+          "required": false,
+          "type": "string",
+          "description": "Filter results to include only entities that contain the specified property. For example, use `properties.image` to return only entities that include an image URL, or `properties.description` to filter for entities with a text description.",
+          "enum": [
+            "properties.image",
+            "properties.description"
+          ]
+        },
+        {
+          "name": "filter.external.exists",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of external keys. (`resy`\\|`michelin`\\|`tablet`).",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "operator.filter.external.exists",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple filter.external.exists values are combined in the query. Use &quot;union&quot; (equivalent to a logical &quot;or&quot;) to return results that match at least one of the specified external keys (e.g., resy, michelin, or tablet), or &quot;intersection&quot; (equivalent to a logical &quot;and&quot;) to return only results that match all specified external keys. The default is &quot;union&quot;.",
+          "enum": [
+            "union",
+            "intersection"
+          ],
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.external.resy.count.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter places to include only those with a Resy rating count less than or equal to the specified maximum.   Applies only to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.resy.count.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter places to include only those with a Resy rating count greater than or equal to the specified minimum.   Applies only to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.resy.party_size.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the maximum supported party size required for a Point of Interest.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.resy.party_size.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the minimum supported party size required for a Point of Interest.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.resy.rating.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter places to include only those with a Resy rating less than or equal to the specified maximum (1–5 scale). Applies only to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.resy.rating.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter places to include only those with a Resy rating greater than or equal to the specified minimum (1–5 scale). Applies only to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.external.tripadvisor.rating.count.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter places to include only those with a Tripadvisor review count greater than or equal to the specified minimum. This filter only applies to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.external.tripadvisor.rating.count.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter places to include only those with a Tripadvisor review count less than or equal to the specified maximum. This filter only applies to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.external.tripadvisor.rating.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter places to include only those with a Tripadvisor rating less than or equal to the specified maximum. This filter only applies to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.external.tripadvisor.rating.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter places to include only those with a Tripadvisor rating greater than or equal to the specified minimum. This filter only applies to entities with `filter.type` of `urn:entity:place`.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.finale_year.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the latest desired year for the final season of a TV show.",
+          "group": "Filters",
+          "entityTypes": "TV Show"
+        },
+        {
+          "name": "filter.finale_year.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the earliest desired year for the final season of a TV show.",
+          "group": "Filters",
+          "entityTypes": "TV Show"
+        },
+        {
+          "name": "filter.gender",
+          "required": false,
+          "type": "string",
+          "description": "Filter results to align with a specific gender identity. Used to personalize output based on known or inferred gender preferences.",
+          "group": "Filters",
+          "entityTypes": "Person"
+        },
+        {
+          "name": "filter.geocode.admin1_region",
+          "required": false,
+          "type": "string",
+          "description": "Filter by `properties.geocode.admin1_region`. Exact match (usually state).",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.geocode.admin2_region",
+          "required": false,
+          "type": "string",
+          "description": "Filter by `properties.geocode.admin2_region`. Exact match (often county or borough).",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.geocode.country_code",
+          "required": false,
+          "type": "string",
+          "description": "Filter by `properties.geocode.country_code`. Exact match (two-letter country code).",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.geocode.name",
+          "required": false,
+          "type": "string",
+          "description": "Filter by `properties.geocode.name`. Exact match (usually city or town name).",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.location.metro",
+          "required": false,
+          "type": "string",
+          "description": "Filter by `properties.geocode.metro`. Exact match on metro area name. Use this to narrow results to entities within a specific metropolitan area."
+        },
+        {
+          "name": "filter.hotel_class.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the maximum desired hotel class (1-5, inclusive).",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.hotel_class.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the minimum desired hotel class (1-5, inclusive).",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.dimensions.hotel_class",
+          "required": false,
+          "type": "array<integer>",
+          "description": "Restricts the `hotel_class` heatmap dimension to specified hotel classes. When set, the dimension score reflects the proportion of hotels in the selected classes. Without this parameter, the score is based on the average hotel class across each geohash. Also adds `hotel_class_count_affinity_rank` and `hotel_class_count_affinity` to the response.\nRequires `hotel_class` in `heatmap.dimensions`.",
+          "group": "Filters",
+          "entityTypes": "Heatmap"
+        },
+        {
+          "name": "filter.hours",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the day of the week the Point of Interest must be open (Monday, Tuesday, etc.).",
+          "enum": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ],
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.latest_known_year.max",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a certain maximum year that shows were released or updated.",
+          "group": "Filters",
+          "entityTypes": "TV Show"
+        },
+        {
+          "name": "filter.latest_known_year.min",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a certain minimum year that shows were released or updated.",
+          "group": "Filters",
+          "entityTypes": "TV Show"
+        },
+        {
+          "name": "filter.location",
+          "required": false,
+          "type": "string",
+          "description": "A location to base searches on. Accepts a lat/lon coordinate pair or a WKT geometry string. Also accepts a Qloo entity UUID.\n\n- **Lat/lon coordinate pair**: `latitude,longitude` (e.g. `40.742306,-74.003494`)\n- **WKT geometry string**: a Well-Known Text geometry such as `POINT(-73.99823 40.722668)`\n- **Qloo entity UUID**: a Qloo entity ID",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.exclude.location",
+          "required": false,
+          "type": "string",
+          "description": "Exclude results that fall within a specific location, defined by either a WKT `POINT`, `POLYGON`, `MULTIPOLYGON`, or a Qloo ID for a named `urn:entity:locality`.   WKT is formatted with longitude first (e.g., `POINT(-73.99823 40.722668)`).   When using a locality ID or a WKT `POLYGON`, setting `filter.location.radius` to a value > 0 creates a fuzzy exclusion boundary.",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.location.query",
+          "required": false,
+          "type": "string",
+          "description": "A text-based name lookup used to search for one or more named `urn:entity:locality` Qloo IDs for filtering requests. This parameter performs fuzzy text matching only — it will not work with a UUID or Qloo entity ID. To pass a locality ID directly, use `filter.location` instead.\n  - For **GET requests**: Provide a single locality query as a string.\n  - For **POST requests**:\n    - You can still send a single locality as a string.\n    - Or you can send an array of locality names to query multiple localities\nat once. When multiple localities are provided, their geographic shapes are merged, and the system returns results with the highest affinities across the combined area.\nLocality queries are fuzzy-matched and case-insensitive. Examples include `New York City`, `Garden City`, `New York`, `Los Angeles`, `Lower East Side`, and AKAs like `The Big Apple`. When a single locality is supplied, the response JSON includes `query.locality.signal` with the matched Qloo entity. If multiple are supplied, this field is omitted. By default, the API includes a tuning that also captures nearby entities just outside the official boundaries of the locality. To turn this off and limit results strictly to within the locality, set `filter.location.radius=0`. If no localities are found, the API returns a 400 error.",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.exclude.location.query",
+          "required": false,
+          "type": "string",
+          "description": "A query used to exclude results based on one or more named `urn:entity:locality` Qloo IDs, resolved from fuzzy-matched locality names.   This is equivalent to passing the resolved Locality Qloo ID(s) into `filter.exclude.location`.\n- For **GET requests**: Provide a single locality query as a string. - For **POST requests**:\n  - You can still send a single locality as a string.\n  - Or send an array of locality names to exclude multiple areas at once. When\nmultiple localities are provided, their geographic shapes are merged, and the system excludes results from across the combined area.\nLocality queries are case-insensitive and support common AKAs (e.g., `The Big Apple` for New York).   When a single locality is supplied, the response includes `query.locality.exclude.signal` with the matched Qloo entity.   If multiple are supplied, this field is omitted. If no localities are matched, the API returns a 400 error.",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.location.geohash",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a geohash. Geohashes are generated using the Python package pygeohash with a precision of 12 characters. This parameter returns all POIs that start with the specified geohash. For example, supplying `dr5rs` would allow returning the geohash `dr5rsjk4sr2w`.",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.exclude.location.geohash",
+          "required": false,
+          "type": "string",
+          "description": "Exclude all entities whose geohash starts with the specified prefix.   Geohashes are generated using the Python package `pygeohash` with a precision of 12 characters.   For example, supplying `dr5rs` would exclude any result whose geohash begins with `dr5rs`, such as `dr5rsjk4sr2w`.",
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.location.radius",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the radius (in meters) when also supplying `filter.location` or `filter.location.query`.\nWhen a locality is passed via `filter.location` or `filter.location.query` and this parameter is **not provided**, the API expands the locality boundary by the lesser of 10% of the locality's diameter or 2,414 meters (~1.5 miles).\nSetting this parameter to **0** disables this padding and restricts results strictly to within the locality boundary.\nA larger value pads the boundary by that radius in meters.",
+          "default": 15000,
+          "example": 15000,
+          "group": "Filters",
+          "entityTypes": "Destination, Place"
+        },
+        {
+          "name": "filter.parents.types",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of parental entity types ( urn:entity:place ). Each type must match exactly.",
+          "enum": [
+            "urn:audience:communities",
+            "urn:audience:global_issues",
+            "urn:audience:hobbies_and_interests",
+            "urn:audience:investing_interests",
+            "urn:audience:leisure",
+            "urn:audience:life_stage",
+            "urn:audience:lifestyle_preferences_beliefs",
+            "urn:audience:political_preferences",
+            "urn:audience:professional_area",
+            "urn:audience:spending_habits"
+          ],
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.popularity.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the maximum popularity percentile a Point of Interest must have (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile).",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.popularity.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the minimum popularity percentile required for a Point of Interest (float, between 0 and 1; closer to 1 indicates higher popularity, e.g., 0.98 for the 98th percentile).",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.price_level.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the maximum price level a restaurant can have. Accepts values 1–4, where higher numbers indicate more expensive restaurants (similar to dollar signs). Applies only to Places entities.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.price_level.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the minimum price level a restaurant can have. Accepts values 1–4, where higher numbers indicate more expensive restaurants (similar to dollar signs). Applies only to Places entities.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.dimensions.price_level",
+          "required": false,
+          "type": "array<integer>",
+          "description": "Restricts the `price_level` heatmap dimension to specified price tiers. When set, the dimension score reflects the proportion of places at the selected price levels. Without this parameter, the score is based on the average price level across each geohash. Also adds `price_level_count_affinity_rank` and `price_level_count_affinity` to the response.\nRequires `price_level` in `heatmap.dimensions`.",
+          "group": "Filters",
+          "entityTypes": "Heatmap"
+        },
+        {
+          "name": "filter.price_range.from",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the minimum price in the desired hotel price range. Accepts an integer between 0 and 1,000,000. Applies only to Places entities."
+        },
+        {
+          "name": "filter.price_range.to",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the maximum price in the desired hotel price range. Accepts an integer between 0 and 1,000,000. Applies only to Places entities."
+        },
+        {
+          "name": "filter.properties.business_rating.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the highest desired business rating.",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.properties.business_rating.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the lowest desired business rating.",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "filter.publication_year.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the latest desired year of initial publication for the work.",
+          "group": "Filters",
+          "entityTypes": "Book"
+        },
+        {
+          "name": "filter.publication_year.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the earliest desired year of initial publication for the work.",
+          "group": "Filters",
+          "entityTypes": "Book"
+        },
+        {
+          "name": "filter.rating.max",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the maximum Qloo rating a Point of Interest must have (float, between 0 and 5).",
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.rating.min",
+          "required": false,
+          "type": "number",
+          "description": "Filter by the minimum Qloo rating a Point of Interest must have (float, between 0 and 5).",
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.references_brand",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of brand entity IDs. Use this to narrow down place recommendations to specific brands. For example, to include only Walmart stores, pass the Walmart brand ID. Each ID must match exactly. Applies only to PLACE insights.",
+          "group": "Filters",
+          "entityTypes": "Place"
+        },
+        {
+          "name": "operator.filter.references_brand",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple `filter.references_brand` values are combined in the query. Use \"union\" (equivalent to a logical \"or\") to return results that match at least one of the specified brand IDs, or \"intersection\" (equivalent to a logical \"and\") to return only results that match all specified brand IDs. The default is \"union\". Applies only to PLACE insights.",
+          "enum": [
+            "union",
+            "intersection"
+          ]
+        },
+        {
+          "name": "filter.release_country",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a list of countries where a movie or TV show was originally released.",
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "operator.filter.release_country",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple filter.release_country values are combined in the query. Use &quot;union&quot; (equivalent to a logical &quot;or&quot;) to return results that match at least one of the specified countries, or &quot;intersection&quot; (equivalent to a logical &quot;and&quot;) to return only results that match all specified countries. The default is &quot;union&quot;.",
+          "enum": [
+            "intersection",
+            "union"
+          ],
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.release_date.max",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the latest desired release date.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.release_date.min",
+          "required": false,
+          "type": "string",
+          "description": "Filter by the earliest desired release date.",
+          "group": "Filters",
+          "entityTypes": ""
+        },
+        {
+          "name": "filter.release_year.max",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the latest desired release year.",
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.release_year.min",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the earliest desired release year.",
+          "group": "Filters",
+          "entityTypes": "Movie, TV Show"
+        },
+        {
+          "name": "filter.results.entities",
+          "required": false,
+          "type": "string",
+          "description": "Filter by a comma-separated list of entity IDs. Often used to assess the affinity of an entity towards input.",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.results.entities.query",
+          "required": false,
+          "type": "string",
+          "description": "Search for one or more entities by name to use as filters.   - For **GET requests**: Provide a single entity name as a string. - For **POST requests**: You can provide a single name or an array of names.",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.exclude.entities",
+          "required": false,
+          "type": "string",
+          "description": "A comma-separated list of entity IDs to remove from the results.",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.exclude.entities.query",
+          "required": false,
+          "type": "array<string>",
+          "description": "This parameter can only be supplied when using POST HTTP method, since it requires JSON encoded body.\nThe value for `filter.exclude.entities.query` is a JSON array with objects containing the `name` and `address` properties.\nFor a fuzzier search, just include an array of strings.\nWhen supplied, it overwrites the `filter.exclude.entities` object with resolved entity IDs.\nThe response will contain a path `query.entities.exclude`, with partial Qloo entities that were matched by the query.\nIf no entities are found, the API will throw a `400` error.",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "filter.results.tags",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of tag IDs. Often used to assess the affinity of a tag towards input."
+        },
+        {
+          "name": "filter.tags",
+          "required": false,
+          "type": "array<string>",
+          "description": "Filter by a comma-separated list of tag IDs (urn:tag:genre:restaurant:Italian).",
+          "example": [
+            "urn:tag:genre:action",
+            "urn:tag:genre:place:tourist_attraction"
+          ],
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "operator.filter.tags",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple filter.tags values are combined in the query. Use &quot;union&quot; (equivalent to a logical &quot;or&quot;) to return results that match at least one of the specified tags, or &quot;intersection&quot; (equivalent to a logical &quot;and&quot;) to return only results that match all specified tags. The default is &quot;union&quot;.",
+          "enum": [
+            "intersection",
+            "union"
+          ],
+          "default": "union",
+          "example": "intersection",
+          "group": "Filters",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "offset",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to skip, starting from 0. Allows arbitrary offsets but is less commonly used than `page`.",
+          "group": "Output",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "output.heatmap.boundary",
+          "required": false,
+          "type": "string",
+          "description": "Indicates the type of heatmap output desired: The default is geohashes. The other options are a city or a neighborhood.",
+          "group": "Output",
+          "entityTypes": "Heatmap"
+        },
+        {
+          "name": "heatmap.dimensions",
+          "required": false,
+          "type": "array<string>",
+          "description": "Adds per-geohash place attributes as additional heatmap response columns. Accepted values are quality , popularity , hotel_class , and price_level . Each requested dimension adds <dim>_affinity_rank normalized from 0–1 and <dim>_affinity percent-rank values. Dimensions also influence the overall query.affinity ranking. Applies only when filter.type=urn:heatmap and output.heatmap.boundary=urn:geohash .",
+          "enum": [
+            "quality",
+            "popularity",
+            "hotel_class",
+            "price_level"
+          ],
+          "group": "Output",
+          "entityTypes": "Heatmap"
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number of results to return. This is equivalent to take + offset and is the recommended approach for most use cases.",
+          "default": 1,
+          "example": 1,
+          "group": "Output",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.demographics.age",
+          "required": false,
+          "type": "string",
+          "description": "A comma-separated list of age ranges that influence the affinity score. (24_and_younger | 25_to_29 | 30_to_34 | 35_to_44 | 45_to_54 | 55_and_older)",
+          "enum": [
+            "35_and_younger",
+            "36_to_55",
+            "24_and_younger",
+            "25_to_29",
+            "30_to_34",
+            "35_to_44",
+            "45_to_54",
+            "55_and_older"
+          ],
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.demographics.age.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by age-based demographic signals. Higher values increase the influence of age data; lower values reduce its impact."
+        },
+        {
+          "name": "signal.demographics.audiences.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by the preferences of the selected audience. Higher values increase the influence of audience preferences; lower values reduce their impact.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.demographics.audiences",
+          "required": false,
+          "type": "array<string>",
+          "description": "A comma-separated list of audiences that influence the affinity score. Audience IDs can be retrieved via the v2/audiences search route.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.demographics.gender",
+          "required": false,
+          "type": "string",
+          "description": "Specifies whether to influence the affinity score based on gender (male|female).",
+          "enum": [
+            "male",
+            "female"
+          ],
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.demographics.gender.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by gender-based demographic signals. Higher values increase the influence of gender data; lower values reduce its impact."
+        },
+        {
+          "name": "signal.interests.entities",
+          "required": false,
+          "type": "array<string>",
+          "description": "A list of entity IDs that influence the affinity score. You can also include a weight property to indicate the strength of influence for each entity. For GET requests: Provide a comma-separated list of entity IDs. For POST requests, you can either: -- Send the same string of comma-separated values. -- Send an array of objects with entity and weight properties, such as: [ { \"entity\": \"urn:entity:movie:inception\", \"weight\": 10 }, { \"entity\": \"urn:entity:movie:interstellar\", \"weight\": 25 } ] Weights must be greater than 0 and are relative. A weight of 25 means that entity will more heavily influence affinity scores than a weight of 10.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.interests.entities.query",
+          "required": false,
+          "type": "array<string>",
+          "description": "This parameter can only be supplied when using the POST HTTP method, which requires a JSON-encoded body. The value for signal.interests.entities.query is a JSON array containing objects with name and address properties. For a fuzzier search, you can provide an array of strings. When supplied, it overwrites the signal.interests.entities object with resolved entity IDs. The response will contain a path, query.entities.signal , with partial Qloo entities that were matched by the query. If no entities are found, a 400 error will be thrown by the API. Additionally, you can specify how each signal.interests.entities.query item should resolve. The resolve_to property determines whether to resolve to a place, brand, or both. Options are: self : Resolves to a place (default behavior if resolve_to is omitted) urn:reference:brand : Resolves to the brand. both : Resolves to both a place and a brand Behavior : The system will attempt to resolve to a place. If both or urn:reference:brand is used, it will also pull the brand associated with the resolved place. Resolved entities are returned inside the response.query object: --- If self or no resolve_to option is provided, the resolved place will include an index property pointing to the position of the query in signal.interests.entities.query . --- If urn:reference:brand is provided and the brand is available, it will be returned with the resolved place&#39;s information, with entity_id changed to the brand&#39;s ID and subtype changed to urn:entity:brand . --- If both is used, both the place and brand will be included, with their index properties pointing to the same value (using the same query). Warnings : If a place does not resolve, it will be included in signal.interests.entities.query warnings as not_found . If a place resolves but a requested brand does not, the brand will be added to the warning could_not_resolve_brand .",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.interests.entities.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by the relevance of entities (in-domain or cross-domain). Higher values increase the influence of entities; lower values reduce their impact."
+        },
+        {
+          "name": "signal.interests.tags",
+          "required": false,
+          "type": "string",
+          "description": "Allows you to supply a list of tags to influence affinity scores. You can also include a weight property that will indicate the strength of influence for each tag in your list. For GET requests: Provide a comma-separated list of tag IDs. For POST requests, you can either: -- Send the same string of comma-separated values. -- Send an array of objects with &quot;tag&quot; and &quot;weight&quot; properties, such as: [ { &quot;tag&quot;: &quot;urn:tag:genre:media:horror&quot;, &quot;weight&quot;: 7 }, { &quot;tag&quot;: &quot;urn:tag:genre:media:thriller&quot;, &quot;weight&quot;: 20 } ] Weights must be greater than 0 and are relative. So, a weight of 20 means that tag will more heavily influence affinity scores than a weight of 7.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "operator.signal.interests.tags",
+          "required": false,
+          "type": "string",
+          "description": "Specifies how multiple signal.interests.tags values are combined in the query. Use &quot;union&quot; (equivalent to a logical &quot;or&quot;) to return results that contain at least one of the specified tags. In this mode, the tag with the highest affinity is used for scoring. - Use &quot;intersection&quot; (equivalent to a logical &quot;and&quot;) or leave this field empty to return results that contain all specified tags, with affinity scores merged across them.",
+          "enum": [
+            "union",
+            "intersection"
+          ],
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.interests.tags.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by the presence of tags (taste analysis). Higher values increase the influence of tags; lower values reduce their impact."
+        },
+        {
+          "name": "signal.location",
+          "required": false,
+          "type": "string",
+          "description": "The geolocation to use for geospatial results. The value will be a WKT POINT, POLYGON or a single Qloo ID for a named urn:entity:locality to filter by. WKT is formatted as X then Y, therefore longitude is first (POINT(-73.99823 40.722668)). Unlike filter.location.radius , signal.location.radius is ignored if a Qloo ID or WKT POLYGON is passed.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.location.radius",
+          "required": false,
+          "type": "integer",
+          "description": "The optional radius (in meters), used when providing a WKT POINT. We generally recommend avoiding this parameter, as it overrides dynamic density discovery.\nThis parameter also applies when a locality is given via `signal.location` or `signal.location.query` and adjusts the effective area around that locality.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.location.query",
+          "required": false,
+          "type": "string",
+          "description": "A string query used to search for a named urn:entity:locality Qloo ID for geospatial results, effectively equivalent to passing the same Locality Qloo ID into signal.location. You can also supply a locality directly using the companion parameter `signal.location.id`.\nExamples of locality queries include New York City, Garden City, New York, Los Angeles, Lower East Side, and AKAs like The Big Apple. These queries are fuzzy-matched and case-insensitive. When filter.location.query is supplied, the response JSON will include query.locality.signal, which contains the partially matched Qloo entity. If no locality is found, the API will return a 400 error.",
+          "group": "Signals",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "signal.location.weight",
+          "required": false,
+          "type": "string",
+          "description": "Specifies the extent to which results should be influenced by location-based signals (geospatial). Higher values increase the influence of location; lower values reduce its impact."
+        },
+        {
+          "name": "signal.interests.entities.include",
+          "required": false,
+          "type": "array<string>",
+          "description": "A comma-separated list of additional entity IDs to explicitly include when\ncomputing interest signals. This parameter is useful when you want to force\ncertain entities to contribute to affinity calculations even if they would\nnot normally be inferred by the core signal logic."
+        },
+        {
+          "name": "filter.entities.query",
+          "required": false,
+          "type": "string",
+          "description": "A query string used to search for entity IDs to filter results. This allows\nyou to supply a human-readable term which the system resolves to one or more\nmatching entity identifiers."
+        },
+        {
+          "name": "filter.exclude.location.radius",
+          "required": false,
+          "type": "integer",
+          "description": "Radius (in meters) to apply when excluding a location defined by\n`filter.exclude.location.id` or `filter.exclude.location.query`. A value of\n`0` restricts exclusion strictly to the boundary; a positive value expands the\nexclusion zone."
+        },
+        {
+          "name": "sort_by",
+          "required": false,
+          "type": "string",
+          "description": "This parameter modifies the results sorting algorithm. Existing values include affinity , distance , and rating . Use quality to order place results by quality score, highest first. When sort_by=quality is used, only places with a quality score are returned and filter.type must be urn:entity:place .",
+          "enum": [
+            "affinity",
+            "distance",
+            "rating",
+            "quality"
+          ],
+          "group": "Output",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20,
+          "group": "Output",
+          "entityTypes": "Artist, Book, Brand, Destination, Movie, Person, Place, Podcast, TV Show, Video Game"
+        }
+      ]
+    },
+    {
+      "path": "/v2/analysis/compare",
+      "method": "GET",
+      "title": "Analysis Compare",
+      "description": "Analyze and compare two groups of entities.",
+      "docs": "https://docs.qloo.com/reference/analysis-compare",
+      "parameters": [
+        {
+          "name": "a.signal.interests.entities",
+          "required": true,
+          "type": "array<string>",
+          "description": "The first group of entities to base the comparison on."
+        },
+        {
+          "name": "b.signal.interests.entities",
+          "required": true,
+          "type": "array<string>",
+          "description": "The second group of entities to base the comparison on."
+        },
+        {
+          "name": "filter.type",
+          "required": false,
+          "type": "array<string>",
+          "description": "The category to search against.",
+          "enum": [
+            "urn:entity:artist",
+            "urn:entity:book",
+            "urn:entity:brand",
+            "urn:entity:locality",
+            "urn:entity:movie",
+            "urn:entity:person",
+            "urn:entity:place",
+            "urn:entity:podcast",
+            "urn:entity:tv_show",
+            "urn:entity:videogame",
+            "urn:heatmap",
+            "urn:entity:audience"
+          ]
+        },
+        {
+          "name": "filter.entities.query",
+          "required": false,
+          "type": "string",
+          "description": "A query string used to search for entity IDs to filter results. This allows\nyou to supply a human-readable term which the system resolves to one or more\nmatching entity identifiers."
+        },
+        {
+          "name": "filter.exclude.entities.query",
+          "required": false,
+          "type": "array<string>",
+          "description": "This parameter can only be supplied when using POST HTTP method, since it requires JSON encoded body.\nThe value for `filter.exclude.entities.query` is a JSON array with objects containing the `name` and `address` properties.\nFor a fuzzier search, just include an array of strings.\nWhen supplied, it overwrites the `filter.exclude.entities` object with resolved entity IDs.\nThe response will contain a path `query.entities.exclude`, with partial Qloo entities that were matched by the query.\nIf no entities are found, the API will throw a `400` error."
+        },
+        {
+          "name": "filter.location.query",
+          "required": false,
+          "type": "string",
+          "description": "A text-based name lookup used to search for one or more named `urn:entity:locality` Qloo IDs for filtering requests. This parameter performs fuzzy text matching only — it will not work with a UUID or Qloo entity ID. To pass a locality ID directly, use `filter.location` instead.\n  - For **GET requests**: Provide a single locality query as a string.\n  - For **POST requests**:\n    - You can still send a single locality as a string.\n    - Or you can send an array of locality names to query multiple localities\nat once. When multiple localities are provided, their geographic shapes are merged, and the system returns results with the highest affinities across the combined area.\nLocality queries are fuzzy-matched and case-insensitive. Examples include `New York City`, `Garden City`, `New York`, `Los Angeles`, `Lower East Side`, and AKAs like `The Big Apple`. When a single locality is supplied, the response JSON includes `query.locality.signal` with the matched Qloo entity. If multiple are supplied, this field is omitted. By default, the API includes a tuning that also captures nearby entities just outside the official boundaries of the locality. To turn this off and limit results strictly to within the locality, set `filter.location.radius=0`. If no localities are found, the API returns a 400 error."
+        },
+        {
+          "name": "filter.location.radius",
+          "required": false,
+          "type": "integer",
+          "description": "Filter by the radius (in meters) when also supplying `filter.location` or `filter.location.query`.\nWhen a locality is passed via `filter.location` or `filter.location.query` and this parameter is **not provided**, the API expands the locality boundary by the lesser of 10% of the locality's diameter or 2,414 meters (~1.5 miles).\nSetting this parameter to **0** disables this padding and restricts results strictly to within the locality boundary.\nA larger value pads the boundary by that radius in meters.",
+          "default": 15000,
+          "example": 15000
+        },
+        {
+          "name": "filter.exclude.location.query",
+          "required": false,
+          "type": "string",
+          "description": "A query used to exclude results based on one or more named `urn:entity:locality` Qloo IDs, resolved from fuzzy-matched locality names.   This is equivalent to passing the resolved Locality Qloo ID(s) into `filter.exclude.location`.\n- For **GET requests**: Provide a single locality query as a string. - For **POST requests**:\n  - You can still send a single locality as a string.\n  - Or send an array of locality names to exclude multiple areas at once. When\nmultiple localities are provided, their geographic shapes are merged, and the system excludes results from across the combined area.\nLocality queries are case-insensitive and support common AKAs (e.g., `The Big Apple` for New York).   When a single locality is supplied, the response includes `query.locality.exclude.signal` with the matched Qloo entity.   If multiple are supplied, this field is omitted. If no localities are matched, the API returns a 400 error."
+        },
+        {
+          "name": "filter.exclude.location.radius",
+          "required": false,
+          "type": "integer",
+          "description": "Radius (in meters) to apply when excluding a location defined by\n`filter.exclude.location.id` or `filter.exclude.location.query`. A value of\n`0` restricts exclusion strictly to the boundary; a positive value expands the\nexclusion zone."
+        },
+        {
+          "name": "filter.subtype",
+          "required": false,
+          "type": "string",
+          "description": "Subtype to filter on.",
+          "enum": [
+            "urn:tag:occupation",
+            "urn:tag:genre"
+          ]
+        },
+        {
+          "name": "model",
+          "required": false,
+          "type": "string",
+          "description": "Model to base results on.",
+          "enum": [
+            "descriptive",
+            "predictive"
+          ]
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number",
+          "default": 1,
+          "example": 1
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        },
+        {
+          "name": "offset",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to skip, starting from 0. Allows arbitrary offsets but is less commonly used than `page`."
+        }
+      ]
+    },
+    {
+      "path": "/v2/trending",
+      "method": "GET",
+      "title": "Get Trending Data",
+      "description": "The Trending API provides time-series data showing the popularity trends of a specific entity over a given time period. It returns weekly trending statistics including population percentile, rank, velocity, and acceleration metrics for the specified entity. Results are ordered by date in descending order. Use this endpoint to monitor how an entity's popularity evolves over time.",
+      "docs": "https://docs.qloo.com/reference/get-trending",
+      "parameters": [
+        {
+          "name": "signal.interests.entities",
+          "required": false,
+          "type": "array<string>",
+          "description": "A comma-separated list of entity IDs that influence the affinity score."
+        },
+        {
+          "name": "filter.type",
+          "required": true,
+          "type": "string",
+          "description": "Filter by the category of entity to return (urn:entity:place). The `urn:entity:audience` value is deprecated and should not be used for new integrations.",
+          "enum": [
+            "urn:entity:artist",
+            "urn:entity:book",
+            "urn:entity:brand",
+            "urn:entity:locality",
+            "urn:entity:movie",
+            "urn:entity:person",
+            "urn:entity:place",
+            "urn:entity:podcast",
+            "urn:entity:tv_show",
+            "urn:entity:videogame",
+            "urn:heatmap",
+            "urn:entity:audience"
+          ]
+        },
+        {
+          "name": "filter.start_date",
+          "required": true,
+          "type": "string",
+          "description": "Start date for the trending analysis period in ISO 8601 format (YYYY-MM-DD).",
+          "example": "2025-01-03"
+        },
+        {
+          "name": "filter.end_date",
+          "required": true,
+          "type": "string",
+          "description": "End date for the trending analysis period in ISO 8601 format (YYYY-MM-DD).",
+          "example": "2025-07-03"
+        },
+        {
+          "name": "take",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to return. Default is `20`. The maximum allowed is `50`.\nTo retrieve additional results, use the `page` parameter to access the next page of results. This is the recommended approach for pagination.\nFor specific cases, the `offset` parameter can be used with `take` to skip a set number of results.",
+          "default": 20,
+          "example": 20
+        },
+        {
+          "name": "offset",
+          "required": false,
+          "type": "integer",
+          "description": "The number of results to skip, starting from 0. Allows arbitrary offsets but is less commonly used than `page`."
+        },
+        {
+          "name": "page",
+          "required": false,
+          "type": "integer",
+          "description": "The page number of results to return. This is equivalent to take + offset and is the recommended approach for most use cases."
+        }
+      ]
+    }
+  ]
+}
