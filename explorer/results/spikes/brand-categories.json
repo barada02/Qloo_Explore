@@ -1,0 +1,1522 @@
+{
+  "tags": {
+    "fashion": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:fashion",
+      "name": "Fashion",
+      "popularity": 0.99775255,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "food": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:food_and_beverage:food",
+      "name": "Food",
+      "popularity": 0.9947824,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "beverage": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:food_and_beverage",
+      "name": "Food & Beverage",
+      "popularity": 0.9958654,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "technology": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:entertainment:media:technology",
+      "name": "Technology",
+      "popularity": 0.8634133,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "travel": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:travel",
+      "name": "Travel",
+      "popularity": 0.99172163,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "beauty": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:health_and_beauty",
+      "name": "Health & Beauty",
+      "popularity": 0.99633014,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "sports": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:entertainment:media:sports",
+      "name": "Sports",
+      "popularity": 0.9415391,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "automotive": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:automotive",
+      "name": "Automotive",
+      "popularity": 0.9822042,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "gaming": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:electronics:gaming",
+      "name": "Gaming",
+      "popularity": 0.91041046,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    },
+    "retail": {
+      "parents": [
+        {
+          "type": "urn:entity:brand"
+        }
+      ],
+      "type": "urn:tag:genre:brand",
+      "id": "urn:tag:genre:brand:retail",
+      "name": "Retail",
+      "popularity": 0.9918763,
+      "properties": {},
+      "tags": [
+        {
+          "name": "Canonical",
+          "tag_id": "urn:tag:collection:canonical",
+          "type": "urn:tag:collection",
+          "value": "urn:tag:collection:canonical"
+        }
+      ]
+    }
+  },
+  "report": {
+    "book": {
+      "entity": "The Secret History",
+      "raw": [
+        "ECCO",
+        "Strand Bookstore",
+        "Goodreads",
+        "Waterstones",
+        "AbeBooks",
+        "Barnes & Noble",
+        "Epic Reads",
+        "Reading Rainbow",
+        "Grammarly",
+        "Kindle"
+      ],
+      "categories": {
+        "fashion": [
+          {
+            "name": "ECCO",
+            "affinity": 0.9558943573332633
+          },
+          {
+            "name": "Out Of Print",
+            "affinity": 0.8719292596563153
+          },
+          {
+            "name": "Clarks Shoes",
+            "affinity": 0.8492365756542678
+          },
+          {
+            "name": "ModCloth",
+            "affinity": 0.8437829594694465
+          },
+          {
+            "name": "Life is Good®",
+            "affinity": 0.8354991633256336
+          },
+          {
+            "name": "White House Black Market",
+            "affinity": 0.834756460488369
+          }
+        ],
+        "food": [
+          {
+            "name": "Ww International",
+            "affinity": 0.794411534055882
+          },
+          {
+            "name": "Jeni's Splendid Ice Creams",
+            "affinity": 0.7866125879339156
+          },
+          {
+            "name": "OXO",
+            "affinity": 0.7801987469256968
+          },
+          {
+            "name": "Gaia Herbs",
+            "affinity": 0.7789890104446917
+          },
+          {
+            "name": "Alpro",
+            "affinity": 0.7786176129295227
+          },
+          {
+            "name": "Chiquita",
+            "affinity": 0.7769126852062803
+          }
+        ],
+        "beverage": [
+          {
+            "name": "Ahmad Tea",
+            "affinity": 0.8294210394444741
+          },
+          {
+            "name": "Teavana",
+            "affinity": 0.7985827981084537
+          },
+          {
+            "name": "Keurig",
+            "affinity": 0.7958570444496471
+          },
+          {
+            "name": "Ww International",
+            "affinity": 0.794411534055882
+          },
+          {
+            "name": "Innocent Drinks",
+            "affinity": 0.7881712890991049
+          },
+          {
+            "name": "Bare Simply Banana Chips",
+            "affinity": 0.787888134207844
+          }
+        ],
+        "technology": [
+          {
+            "name": "Mashable",
+            "affinity": 0.808203942827082
+          },
+          {
+            "name": "Wired",
+            "affinity": 0.805552037137505
+          },
+          {
+            "name": "The Verge",
+            "affinity": 0.8027813900131873
+          },
+          {
+            "name": "TechCrunch",
+            "affinity": 0.7955357591771092
+          },
+          {
+            "name": "Inc.",
+            "affinity": 0.7847301506215945
+          },
+          {
+            "name": "Engadget",
+            "affinity": 0.7813132990865338
+          }
+        ],
+        "travel": [
+          {
+            "name": "Culture Trip",
+            "affinity": 0.8308328876461087
+          },
+          {
+            "name": "Lonely Planet",
+            "affinity": 0.8093629397532086
+          },
+          {
+            "name": "TSA PreCheck",
+            "affinity": 0.7914334052880645
+          },
+          {
+            "name": "Rough Guides",
+            "affinity": 0.7909692664397948
+          },
+          {
+            "name": "Evolve Vacation Rental",
+            "affinity": 0.7738785337831127
+          },
+          {
+            "name": "Shedd Aquarium",
+            "affinity": 0.7723660692367648
+          }
+        ],
+        "beauty": [
+          {
+            "name": "Headspace",
+            "affinity": 0.8358192307762504
+          },
+          {
+            "name": "Harry's",
+            "affinity": 0.8187331757565743
+          },
+          {
+            "name": "Dove",
+            "affinity": 0.8149521903980831
+          },
+          {
+            "name": "Burt's Bees",
+            "affinity": 0.8005136936420172
+          },
+          {
+            "name": "Burberry",
+            "affinity": 0.7985127013639085
+          },
+          {
+            "name": "Clinique Laboratories, LLC",
+            "affinity": 0.7970825002007118
+          }
+        ],
+        "sports": [
+          {
+            "name": "Runner's World",
+            "affinity": 0.8512940362792273
+          },
+          {
+            "name": "USA Today",
+            "affinity": 0.8094919425821392
+          },
+          {
+            "name": "Golf Digest",
+            "affinity": 0.7319997928764367
+          },
+          {
+            "name": "Tennis TV",
+            "affinity": 0.7152260806414937
+          },
+          {
+            "name": "Bleacher Report",
+            "affinity": 0.7033673702657375
+          },
+          {
+            "name": "Sky Sports",
+            "affinity": 0.6993751473630548
+          }
+        ],
+        "automotive": [
+          {
+            "name": "GMC",
+            "affinity": 0.7216165959459248
+          },
+          {
+            "name": "Tesla",
+            "affinity": 0.7209588532577711
+          },
+          {
+            "name": "Winnebago Industries",
+            "affinity": 0.7152849530029844
+          },
+          {
+            "name": "Airstream",
+            "affinity": 0.7148765199712851
+          },
+          {
+            "name": "Vespa",
+            "affinity": 0.7098420809938971
+          },
+          {
+            "name": "Uconnect",
+            "affinity": 0.7076579171814095
+          }
+        ],
+        "gaming": [
+          {
+            "name": "Htc",
+            "affinity": 0.724469148096126
+          },
+          {
+            "name": "Xbox",
+            "affinity": 0.7239177706601908
+          },
+          {
+            "name": "Microsoft",
+            "affinity": 0.7228682241280899
+          },
+          {
+            "name": "Sony",
+            "affinity": 0.711752506766837
+          },
+          {
+            "name": "Flare Audio",
+            "affinity": 0.711583246862225
+          },
+          {
+            "name": "Playstation",
+            "affinity": 0.7059574143684866
+          }
+        ],
+        "retail": [
+          {
+            "name": "Strand Bookstore",
+            "affinity": 0.9380474965506734
+          },
+          {
+            "name": "Waterstones",
+            "affinity": 0.9269988230248296
+          },
+          {
+            "name": "Epic Reads",
+            "affinity": 0.8997507629310545
+          },
+          {
+            "name": "Thriftbooks",
+            "affinity": 0.8743589301983391
+          },
+          {
+            "name": "Etsy",
+            "affinity": 0.8382139219361003
+          },
+          {
+            "name": "Zulily",
+            "affinity": 0.818485241735718
+          }
+        ]
+      }
+    },
+    "game": {
+      "entity": "Elden Ring",
+      "raw": [
+        "Razer",
+        "Square Enix",
+        "Twitch",
+        "Corsair",
+        "Playstation",
+        "Logitech",
+        "Steel Series",
+        "NZXT",
+        "Micro star International",
+        "Elgato"
+      ],
+      "categories": {
+        "fashion": [
+          {
+            "name": "Team Liquid Apparel",
+            "affinity": 0.8912454624174359
+          },
+          {
+            "name": "Cloak",
+            "affinity": 0.872502536437812
+          },
+          {
+            "name": "Eminem Store",
+            "affinity": 0.8607314464078073
+          },
+          {
+            "name": "Barking Irons",
+            "affinity": 0.8425678241118049
+          },
+          {
+            "name": "Into The Am",
+            "affinity": 0.8338547901546199
+          },
+          {
+            "name": "Tsuki",
+            "affinity": 0.832329471082185
+          }
+        ],
+        "food": [
+          {
+            "name": "Hot Pockets",
+            "affinity": 0.8516728258187284
+          },
+          {
+            "name": "Skittles",
+            "affinity": 0.8417080443503521
+          },
+          {
+            "name": "5 Gum",
+            "affinity": 0.8363692229702739
+          },
+          {
+            "name": "Soylent",
+            "affinity": 0.8354481586851434
+          },
+          {
+            "name": "Slim Jim",
+            "affinity": 0.8252754395682228
+          },
+          {
+            "name": "Pop-Tarts",
+            "affinity": 0.8118736733354179
+          }
+        ],
+        "beverage": [
+          {
+            "name": "G Fuel",
+            "affinity": 0.9286505597885298
+          },
+          {
+            "name": "Hot Pockets",
+            "affinity": 0.8516728258187284
+          },
+          {
+            "name": "Skittles",
+            "affinity": 0.8417080443503521
+          },
+          {
+            "name": "Cheetos Flamin' Hot",
+            "affinity": 0.8367890022438494
+          },
+          {
+            "name": "5 Gum",
+            "affinity": 0.8363692229702739
+          },
+          {
+            "name": "Soylent",
+            "affinity": 0.8354481586851434
+          }
+        ],
+        "technology": [
+          {
+            "name": "Android Central",
+            "affinity": 0.8400964306723339
+          },
+          {
+            "name": "The Verge",
+            "affinity": 0.8194203022885959
+          },
+          {
+            "name": "Gamingbible",
+            "affinity": 0.8173748767934331
+          },
+          {
+            "name": "9to5Mac",
+            "affinity": 0.8077260506849587
+          },
+          {
+            "name": "Engadget",
+            "affinity": 0.7897438500678693
+          },
+          {
+            "name": "MIT Technology Review",
+            "affinity": 0.7697759998421325
+          }
+        ],
+        "travel": [
+          {
+            "name": "Google Maps",
+            "affinity": 0.8118381638256161
+          },
+          {
+            "name": "Planet Hollywood",
+            "affinity": 0.7830318394601556
+          },
+          {
+            "name": "Waze",
+            "affinity": 0.7794120715397757
+          },
+          {
+            "name": "Halloween Horror Nights Orlando",
+            "affinity": 0.7791264190140638
+          },
+          {
+            "name": "Six Flags",
+            "affinity": 0.7469820214073902
+          },
+          {
+            "name": "Universal Orlando Resort",
+            "affinity": 0.7454736885769897
+          }
+        ],
+        "beauty": [
+          {
+            "name": "Axe",
+            "affinity": 0.832591520355826
+          },
+          {
+            "name": "Old Spice",
+            "affinity": 0.7993206898011748
+          },
+          {
+            "name": "Edge Shave Gel",
+            "affinity": 0.7856566178083179
+          },
+          {
+            "name": "Dollar Shave Club",
+            "affinity": 0.7756262682249268
+          },
+          {
+            "name": "Dude Wipes",
+            "affinity": 0.7676932839742602
+          },
+          {
+            "name": "BlueChew",
+            "affinity": 0.7632797404857534
+          }
+        ],
+        "sports": [
+          {
+            "name": "All Elite Wrestling",
+            "affinity": 0.7904611775454784
+          },
+          {
+            "name": "Bleacher Report",
+            "affinity": 0.7609723182733837
+          },
+          {
+            "name": "Ride Bmx",
+            "affinity": 0.7598409960961556
+          },
+          {
+            "name": "ESPN",
+            "affinity": 0.7547430711972999
+          },
+          {
+            "name": "WAVE Sports \\\\:",
+            "affinity": 0.7479667997087235
+          },
+          {
+            "name": "Sky Sports",
+            "affinity": 0.7423159261803899
+          }
+        ],
+        "automotive": [
+          {
+            "name": "Tesla",
+            "affinity": 0.8472427320774544
+          },
+          {
+            "name": "Mclaren Automotive",
+            "affinity": 0.8312830938263706
+          },
+          {
+            "name": "Bugatti",
+            "affinity": 0.8272395599076512
+          },
+          {
+            "name": "Dodge",
+            "affinity": 0.8191925475037026
+          },
+          {
+            "name": "Lamborghini",
+            "affinity": 0.8172947138595104
+          },
+          {
+            "name": "Ferrari",
+            "affinity": 0.8158065291960341
+          }
+        ],
+        "gaming": [
+          {
+            "name": "Corsair",
+            "affinity": 0.9648763807035473
+          },
+          {
+            "name": "Playstation",
+            "affinity": 0.9587652475858247
+          },
+          {
+            "name": "Logitech",
+            "affinity": 0.9581266177140338
+          },
+          {
+            "name": "NZXT",
+            "affinity": 0.9537136825924526
+          },
+          {
+            "name": "Elgato",
+            "affinity": 0.9503207200700704
+          },
+          {
+            "name": "Hyper X",
+            "affinity": 0.9440911774354276
+          }
+        ],
+        "retail": [
+          {
+            "name": "Gamestop",
+            "affinity": 0.9477925193098113
+          },
+          {
+            "name": "Ebay",
+            "affinity": 0.8054087957723717
+          },
+          {
+            "name": "Amazon",
+            "affinity": 0.795763332121623
+          },
+          {
+            "name": "Mediamarkt Espana",
+            "affinity": 0.7873192994035628
+          },
+          {
+            "name": "Best Buy",
+            "affinity": 0.7870616163009404
+          },
+          {
+            "name": "NBA Store",
+            "affinity": 0.7847204866155915
+          }
+        ]
+      }
+    },
+    "film": {
+      "entity": "Dune",
+      "raw": [
+        "Tesla",
+        "Apple Inc",
+        "Unbox Therapy",
+        "Google",
+        "Formula One",
+        "Reddit",
+        "Porsche",
+        "Lamborghini",
+        "Sony",
+        "Faraday Future"
+      ],
+      "categories": {
+        "fashion": [
+          {
+            "name": "Rolex",
+            "affinity": 0.8871964690209899
+          },
+          {
+            "name": "Eminem Store",
+            "affinity": 0.8799073625494409
+          },
+          {
+            "name": "Puma",
+            "affinity": 0.8659301419213901
+          },
+          {
+            "name": "Tag Heuer",
+            "affinity": 0.8649066861151228
+          },
+          {
+            "name": "Nike",
+            "affinity": 0.861157144972474
+          },
+          {
+            "name": "Hublot",
+            "affinity": 0.8589809672588369
+          }
+        ],
+        "food": [
+          {
+            "name": "Impossible Foods",
+            "affinity": 0.8480166608700869
+          },
+          {
+            "name": "Soylent",
+            "affinity": 0.837093812860484
+          },
+          {
+            "name": "Skittles",
+            "affinity": 0.8224510954896908
+          },
+          {
+            "name": "Slim Jim",
+            "affinity": 0.8180019611457602
+          },
+          {
+            "name": "Oreo",
+            "affinity": 0.806746151776755
+          },
+          {
+            "name": "Dots",
+            "affinity": 0.7980777609255496
+          }
+        ],
+        "beverage": [
+          {
+            "name": "Red Bull",
+            "affinity": 0.881333110646078
+          },
+          {
+            "name": "Monster Energy",
+            "affinity": 0.859753856215594
+          },
+          {
+            "name": "Impossible Foods",
+            "affinity": 0.8480166608700869
+          },
+          {
+            "name": "G Fuel",
+            "affinity": 0.8387142116984395
+          },
+          {
+            "name": "Soylent",
+            "affinity": 0.837093812860484
+          },
+          {
+            "name": "Cheetos Flamin' Hot",
+            "affinity": 0.8370810893376016
+          }
+        ],
+        "technology": [
+          {
+            "name": "The Verge",
+            "affinity": 0.9153076014816868
+          },
+          {
+            "name": "Wired",
+            "affinity": 0.8968943094361264
+          },
+          {
+            "name": "9to5Mac",
+            "affinity": 0.8918978727162608
+          },
+          {
+            "name": "TechCrunch",
+            "affinity": 0.8838325943171406
+          },
+          {
+            "name": "Android Central",
+            "affinity": 0.8831505108206827
+          },
+          {
+            "name": "MIT Technology Review",
+            "affinity": 0.8774446494656163
+          }
+        ],
+        "travel": [
+          {
+            "name": "Google Maps",
+            "affinity": 0.8974872962332762
+          },
+          {
+            "name": "Waze",
+            "affinity": 0.8764789183624886
+          },
+          {
+            "name": "Airbnb",
+            "affinity": 0.8583823344443673
+          },
+          {
+            "name": "Evolve Vacation Rental",
+            "affinity": 0.8410599760673202
+          },
+          {
+            "name": "Lonely Planet",
+            "affinity": 0.8343758055407157
+          },
+          {
+            "name": "Lufthansa",
+            "affinity": 0.8296555413416826
+          }
+        ],
+        "beauty": [
+          {
+            "name": "Louis Vuitton",
+            "affinity": 0.8505349562723601
+          },
+          {
+            "name": "Gucci",
+            "affinity": 0.8487609511085908
+          },
+          {
+            "name": "Tommy Hilfiger",
+            "affinity": 0.8457434568743039
+          },
+          {
+            "name": "Versace",
+            "affinity": 0.8442706971939692
+          },
+          {
+            "name": "Dollar Shave Club",
+            "affinity": 0.8396440247489771
+          },
+          {
+            "name": "Axe",
+            "affinity": 0.8386175290580069
+          }
+        ],
+        "sports": [
+          {
+            "name": "USA Today",
+            "affinity": 0.8553695415150697
+          },
+          {
+            "name": "ESPN",
+            "affinity": 0.8548277895022777
+          },
+          {
+            "name": "Bleacher Report",
+            "affinity": 0.826714083885112
+          },
+          {
+            "name": "Tennis TV",
+            "affinity": 0.8178055988410675
+          },
+          {
+            "name": "WAVE Sports \\\\:",
+            "affinity": 0.7964074067909698
+          },
+          {
+            "name": "Top Rank",
+            "affinity": 0.7890323867065806
+          }
+        ],
+        "automotive": [
+          {
+            "name": "Tesla",
+            "affinity": 0.9881800005781308
+          },
+          {
+            "name": "Porsche",
+            "affinity": 0.9225106033520223
+          },
+          {
+            "name": "Lamborghini",
+            "affinity": 0.9220687576972337
+          },
+          {
+            "name": "Faraday Future",
+            "affinity": 0.9211298759804996
+          },
+          {
+            "name": "Aston Martin",
+            "affinity": 0.9206912889991612
+          },
+          {
+            "name": "Mercedes-benz",
+            "affinity": 0.9180193436950239
+          }
+        ],
+        "gaming": [
+          {
+            "name": "Sony",
+            "affinity": 0.9214150738785729
+          },
+          {
+            "name": "Playstation",
+            "affinity": 0.9131350578191223
+          },
+          {
+            "name": "Nvidia",
+            "affinity": 0.9044957989513223
+          },
+          {
+            "name": "Microsoft",
+            "affinity": 0.9034088000952358
+          },
+          {
+            "name": "Xbox",
+            "affinity": 0.8918799429591223
+          },
+          {
+            "name": "Htc",
+            "affinity": 0.882330207575943
+          }
+        ],
+        "retail": [
+          {
+            "name": "Banggood",
+            "affinity": 0.8831114507674213
+          },
+          {
+            "name": "Ebay",
+            "affinity": 0.8760069528479071
+          },
+          {
+            "name": "Amazon",
+            "affinity": 0.8752116702614031
+          },
+          {
+            "name": "Temu",
+            "affinity": 0.8606689064164199
+          },
+          {
+            "name": "Gamestop",
+            "affinity": 0.8490296513976937
+          },
+          {
+            "name": "Moment",
+            "affinity": 0.8210502985171988
+          }
+        ]
+      }
+    },
+    "tv": {
+      "entity": "Succession",
+      "raw": [
+        "Aston Martin",
+        "Porsche",
+        "Audi",
+        "Lexus",
+        "Mercedes-benz",
+        "BMW",
+        "Bentley Motors",
+        "Jaguar",
+        "Lamborghini",
+        "Land Rover"
+      ],
+      "categories": {
+        "fashion": [
+          {
+            "name": "Rolex",
+            "affinity": 0.9203675600372261
+          },
+          {
+            "name": "Hugo Boss",
+            "affinity": 0.9010959047939949
+          },
+          {
+            "name": "Gucci",
+            "affinity": 0.8993379388412881
+          },
+          {
+            "name": "Ralph Lauren",
+            "affinity": 0.8971993746803849
+          },
+          {
+            "name": "Louis Vuitton",
+            "affinity": 0.8951082750054756
+          },
+          {
+            "name": "Armani Exchange",
+            "affinity": 0.8950823413582537
+          }
+        ],
+        "food": [
+          {
+            "name": "Blasted Shreds",
+            "affinity": 0.820059951543542
+          },
+          {
+            "name": "Sugarpova",
+            "affinity": 0.8085827972284398
+          },
+          {
+            "name": "Stuffed Puffs",
+            "affinity": 0.8049369992990847
+          },
+          {
+            "name": "Oreo",
+            "affinity": 0.8037402338132429
+          },
+          {
+            "name": "Soy Vay",
+            "affinity": 0.7964777040163447
+          },
+          {
+            "name": "Original Bomb Pop",
+            "affinity": 0.783769424056291
+          }
+        ],
+        "beverage": [
+          {
+            "name": "Red Bull",
+            "affinity": 0.876312544305327
+          },
+          {
+            "name": "Monster Energy",
+            "affinity": 0.8630435453772138
+          },
+          {
+            "name": "Fiji Water",
+            "affinity": 0.839783835335545
+          },
+          {
+            "name": "Voss Water",
+            "affinity": 0.8345123829261216
+          },
+          {
+            "name": "Starbucks",
+            "affinity": 0.8332363272336308
+          },
+          {
+            "name": "Gatorade G2",
+            "affinity": 0.8287389588688299
+          }
+        ],
+        "technology": [
+          {
+            "name": "Android Central",
+            "affinity": 0.8278789909098015
+          },
+          {
+            "name": "The Verge",
+            "affinity": 0.8228092759975806
+          },
+          {
+            "name": "Inc.",
+            "affinity": 0.8192542801486502
+          },
+          {
+            "name": "Wired",
+            "affinity": 0.810554836562886
+          },
+          {
+            "name": "MIT Technology Review",
+            "affinity": 0.8093772409750536
+          },
+          {
+            "name": "9to5Mac",
+            "affinity": 0.8051340614849052
+          }
+        ],
+        "travel": [
+          {
+            "name": "Google Maps",
+            "affinity": 0.8450620736442093
+          },
+          {
+            "name": "Emirates",
+            "affinity": 0.8409093599797406
+          },
+          {
+            "name": "Airbnb",
+            "affinity": 0.8326215361766861
+          },
+          {
+            "name": "Waze",
+            "affinity": 0.817355926855668
+          },
+          {
+            "name": "Sixt Dream Cars",
+            "affinity": 0.8164705536996139
+          },
+          {
+            "name": "Evolve Vacation Rental",
+            "affinity": 0.8136978325392464
+          }
+        ],
+        "beauty": [
+          {
+            "name": "Gucci",
+            "affinity": 0.8993379388412881
+          },
+          {
+            "name": "Louis Vuitton",
+            "affinity": 0.8951082750054756
+          },
+          {
+            "name": "Tommy Hilfiger",
+            "affinity": 0.8926972598537918
+          },
+          {
+            "name": "Versace",
+            "affinity": 0.8845631518271353
+          },
+          {
+            "name": "Yves Saint Laurent",
+            "affinity": 0.8762355292197268
+          },
+          {
+            "name": "Burberry",
+            "affinity": 0.8739171000007266
+          }
+        ],
+        "sports": [
+          {
+            "name": "ESPN",
+            "affinity": 0.8340479484150032
+          },
+          {
+            "name": "Bleacher Report",
+            "affinity": 0.8230625290253542
+          },
+          {
+            "name": "USA Today",
+            "affinity": 0.807491486949172
+          },
+          {
+            "name": "Sporf",
+            "affinity": 0.7916884559606029
+          },
+          {
+            "name": "Bein Sports",
+            "affinity": 0.7916797843929496
+          },
+          {
+            "name": "Ride Bmx",
+            "affinity": 0.7847309009305777
+          }
+        ],
+        "automotive": [
+          {
+            "name": "Aston Martin",
+            "affinity": 0.9599306761162368
+          },
+          {
+            "name": "Porsche",
+            "affinity": 0.9594265365504813
+          },
+          {
+            "name": "Audi",
+            "affinity": 0.9567177132311826
+          },
+          {
+            "name": "Lexus",
+            "affinity": 0.9558513665420656
+          },
+          {
+            "name": "Mercedes-benz",
+            "affinity": 0.9552091608069373
+          },
+          {
+            "name": "BMW",
+            "affinity": 0.9519425118509682
+          }
+        ],
+        "gaming": [
+          {
+            "name": "Sony",
+            "affinity": 0.900667243702897
+          },
+          {
+            "name": "Playstation",
+            "affinity": 0.8682908971193908
+          },
+          {
+            "name": "Htc",
+            "affinity": 0.8553787468986775
+          },
+          {
+            "name": "Microsoft",
+            "affinity": 0.8376857355046727
+          },
+          {
+            "name": "Xbox",
+            "affinity": 0.835375496083024
+          },
+          {
+            "name": "Nvidia",
+            "affinity": 0.8305514592007904
+          }
+        ],
+        "retail": [
+          {
+            "name": "Ebay",
+            "affinity": 0.8774602261083673
+          },
+          {
+            "name": "Banggood",
+            "affinity": 0.8642914752424105
+          },
+          {
+            "name": "Petrolicious",
+            "affinity": 0.860083788355925
+          },
+          {
+            "name": "Temu",
+            "affinity": 0.8573701229305024
+          },
+          {
+            "name": "Tiffany & Co.",
+            "affinity": 0.84790214650479
+          },
+          {
+            "name": "Foot Locker",
+            "affinity": 0.8400274128534272
+          }
+        ]
+      }
+    },
+    "album": {
+      "entity": "Taylor Swift",
+      "raw": [
+        "{\"message\":\"All of the provided signal.interests.entities we"
+      ],
+      "categories": {
+        "fashion": [
+          {
+            "name": "Nike"
+          },
+          {
+            "name": "Victoria's Secret"
+          },
+          {
+            "name": "Christian Dior"
+          },
+          {
+            "name": "Louis Vuitton"
+          },
+          {
+            "name": "Gucci"
+          },
+          {
+            "name": "Chanel"
+          }
+        ],
+        "food": [
+          {
+            "name": "Oreo"
+          },
+          {
+            "name": "Flavorgod Seasonings"
+          },
+          {
+            "name": "Cacau Show"
+          },
+          {
+            "name": "Nutella"
+          },
+          {
+            "name": "Ben & Jerry's"
+          },
+          {
+            "name": "Lay's"
+          }
+        ],
+        "beverage": [
+          {
+            "name": "Starbucks"
+          },
+          {
+            "name": "Red Bull"
+          },
+          {
+            "name": "Coca-Cola"
+          },
+          {
+            "name": "Monster Energy"
+          },
+          {
+            "name": "Pepsi"
+          },
+          {
+            "name": "Oreo"
+          }
+        ],
+        "technology": [
+          {
+            "name": "Wired"
+          },
+          {
+            "name": "Bloomberg"
+          },
+          {
+            "name": "TechCrunch"
+          },
+          {
+            "name": "Mashable"
+          },
+          {
+            "name": "Harvard Biz Review"
+          },
+          {
+            "name": "The Verge"
+          }
+        ],
+        "travel": [
+          {
+            "name": "Lonely Planet"
+          },
+          {
+            "name": "Airbnb"
+          },
+          {
+            "name": "Tripadvisor"
+          },
+          {
+            "name": "Google Maps"
+          },
+          {
+            "name": "Emirates"
+          },
+          {
+            "name": "Australia"
+          }
+        ],
+        "beauty": [
+          {
+            "name": "Christian Dior"
+          },
+          {
+            "name": "Louis Vuitton"
+          },
+          {
+            "name": "Gucci"
+          },
+          {
+            "name": "Chanel"
+          },
+          {
+            "name": "Sephora"
+          },
+          {
+            "name": "Dolce & Gabbana"
+          }
+        ],
+        "sports": [
+          {
+            "name": "ESPN"
+          },
+          {
+            "name": "Bleacher Report"
+          },
+          {
+            "name": "Sky Sports"
+          },
+          {
+            "name": "Bein Sports"
+          },
+          {
+            "name": "Sporf"
+          },
+          {
+            "name": "USA Today"
+          }
+        ],
+        "automotive": [
+          {
+            "name": "Mercedes-benz"
+          },
+          {
+            "name": "Porsche"
+          },
+          {
+            "name": "BMW"
+          },
+          {
+            "name": "Audi"
+          },
+          {
+            "name": "Lamborghini"
+          },
+          {
+            "name": "Jaguar"
+          }
+        ],
+        "gaming": [
+          {
+            "name": "Playstation"
+          },
+          {
+            "name": "Xbox"
+          },
+          {
+            "name": "Sony"
+          },
+          {
+            "name": "Microsoft"
+          },
+          {
+            "name": "Logitech"
+          },
+          {
+            "name": "Corsair"
+          }
+        ],
+        "retail": [
+          {
+            "name": "Sephora"
+          },
+          {
+            "name": "Forever 21"
+          },
+          {
+            "name": "Tiffany & Co."
+          },
+          {
+            "name": "Foot Locker"
+          },
+          {
+            "name": "ASOS"
+          },
+          {
+            "name": "Amazon"
+          }
+        ]
+      }
+    }
+  }
+}

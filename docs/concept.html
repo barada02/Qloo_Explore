@@ -329,7 +329,7 @@
       <tr><td>Why each pick</td><td><code>feature.explainability</code></td><td><span class="tag t-ok">works</span></td><td>Score split by source taste on cross-domain picks.</td></tr>
       <tr><td>Rank partners for a group</td><td><code>filter.results.entities</code> + age/gender</td><td><span class="tag t-ok">works</span></td><td>Shortlist re-ordered for ages 25 to 29.</td></tr>
       <tr><td>Cities and venues</td><td>heatmap + places</td><td><span class="tag t-warn">partly</span></td><td>New York heatmap scores all near 0.99, places mixed. Use for hot spots, not fine ranking.</td></tr>
-      <tr><td>Partner brands (non-cliché)</td><td><code>/v2/insights</code> brands + category filter</td><td><span class="tag t-warn">spike needed</span></td><td>Unfiltered results were bookstores. Need to test tag filters and brand sub-types.</td></tr>
+      <tr><td>Partner brands (non-cliché)</td><td><code>/v2/insights</code> brands + category filter</td><td><span class="tag t-ok">works with category filter</span></td><td>Spike on 4 properties: <code>filter.tags</code> with <code>urn:tag:genre:brand:*</code> removes the bookshop cliché. Secret History gave Out Of Print, Ahmad Tea, Clarks; Elden Ring gave G Fuel and Team Liquid Apparel; Dune gave Tesla, Rolex, Red Bull. Quality varies by category (food and tech were noisy for the book), so show a minimum score and let the user pick categories. Albums are not usable as a signal; use the artist.</td></tr>
       <tr><td>Book-vs-brand "overlap %"</td><td><code>/analysis/compare</code></td><td><span class="tag t-bad">dropped</span></td><td>Original path 404s; real endpoint gave 0 tags for book vs brand. Replaced by ranking and skew checks.</td></tr>
     </tbody>
   </table></div>
@@ -370,14 +370,14 @@
   <div class="scroll"><table>
     <thead><tr><th>Risk</th><th>Test</th><th>Fallback</th></tr></thead>
     <tbody>
-      <tr><td>Brand partners are still generic</td><td>Run the brand step on 5 properties (book, game, film, TV, album) with category filters and demographic ranking.</td><td>Lead with artists, audience, cities and timing; offer brands as "shortlist to vet".</td></tr>
+      <tr><td>Brand partners are generic (tested: mostly solved)</td><td>Category filters passed on book, game, film and TV. Still to check: for blockbusters (Dune, Succession) the data may only confirm what an LLM would guess (Rolex, Porsche), so run the plain-Gemini comparison on the same titles.</td><td>Feature niche titles in the demo (books, games, podcasts) where the data surprises; show "confirmed by data" for obvious picks.</td></tr>
       <tr><td>Niche titles missing from Qloo</td><td>Coverage check on 30 real titles per type.</td><td>Let the user pick a close proxy entity.</td></tr>
       <tr><td>Agent invents details (street names, percentages)</td><td>Prompt rules plus a check that every number in the brief appears in tool output.</td><td>Render numbers from data, let the LLM write only the prose.</td></tr>
       <tr><td>Slow calls (up to 20 s)</td><td>Parallelise, cache, precompute the demo titles.</td><td>Show partial results as each module finishes.</td></tr>
       <tr><td>Quota during a public demo</td><td>Per-visitor limit and result cache.</td><td>Serve cached briefs for the examples.</td></tr>
     </tbody>
   </table></div>
-  <p class="note" style="margin-top:14px">Next step: one more spike on the partner-brand filters across five properties. If it gives non-cliché brands, build the brief; if not, ship with the other four modules and present brands as a vetted shortlist.</p>
+  <p class="note" style="margin-top:14px">Brand spike done: category filters give non-generic partners on 4 of 4 testable properties. Next: check the cliché comparison on blockbuster titles, then build.</p>
 </section>
 
 </div>
