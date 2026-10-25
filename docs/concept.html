@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archetype Concept</title>
+<style>
+  :root {
+    --bg:#f6f5f1; --panel:#ffffff; --ink:#1c1c1a; --muted:#6a6a64; --line:#dcdad2; --soft:#efede6;
+    --accent:#3a4fd9; --accent-soft:#e6e9fb; --ok:#1d7f48; --ok-soft:#e2f3ea; --warn:#9a6200; --warn-soft:#fbf0d9; --bad:#b53a22; --bad-soft:#f9e3de;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg:#141413; --panel:#1d1d1b; --ink:#ecebe6; --muted:#9b9a92; --line:#34342f; --soft:#262623;
+    --accent:#8ea0ff; --accent-soft:#222849; --ok:#52c585; --ok-soft:#173326; --warn:#e3a93f; --warn-soft:#3a2d12; --bad:#ff806a; --bad-soft:#3d1d17;
+  } }
+  :root[data-theme="dark"] {
+    --bg:#141413; --panel:#1d1d1b; --ink:#ecebe6; --muted:#9b9a92; --line:#34342f; --soft:#262623;
+    --accent:#8ea0ff; --accent-soft:#222849; --ok:#52c585; --ok-soft:#173326; --warn:#e3a93f; --warn-soft:#3a2d12; --bad:#ff806a; --bad-soft:#3d1d17;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 16px 64px; }
+  header.hero { padding:44px 0 20px; }
+  .eyebrow { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:700; }
+  h1 { font-size:clamp(28px, 5vw, 42px); line-height:1.15; margin:8px 0 12px; }
+  h2 { font-size:24px; margin:56px 0 6px; }
+  h3 { font-size:16px; margin:0 0 6px; }
+  p { margin:0 0 12px; }
+  .lead { font-size:18px; color:var(--muted); max-width:760px; }
+  .muted { color:var(--muted); }
+  .note { font-size:13px; color:var(--muted); }
+  nav.toc { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 0; }
+  nav.toc a { font-size:13px; padding:5px 12px; border:1px solid var(--line); border-radius:99px; color:var(--ink); text-decoration:none; background:var(--panel); }
+  nav.toc a:hover { border-color:var(--accent); color:var(--accent); }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:18px; }
+  .grid { display:grid; gap:14px; }
+  .g2 { grid-template-columns:repeat(2, minmax(0,1fr)); } .g3 { grid-template-columns:repeat(3, minmax(0,1fr)); }
+  @media (max-width:820px) { .g2, .g3 { grid-template-columns:1fr; } }
+  .tag { display:inline-block; font-size:12px; font-weight:600; padding:2px 9px; border-radius:99px; }
+  .t-ok { background:var(--ok-soft); color:var(--ok); } .t-warn { background:var(--warn-soft); color:var(--warn); } .t-bad { background:var(--bad-soft); color:var(--bad); } .t-acc { background:var(--accent-soft); color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:14px; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); background:var(--soft); }
+  tr:last-child td { border-bottom:0; }
+  .scroll { overflow-x:auto; }
+  figure { margin:14px 0; } figcaption { font-size:13px; color:var(--muted); margin-top:6px; }
+  svg { width:100%; height:auto; display:block; }
+  svg text { fill:var(--ink); font:13px system-ui, sans-serif; }
+  svg .m { fill:var(--muted); font-size:11.5px; } svg .b { font-weight:700; }
+  svg .box { fill:var(--panel); stroke:var(--line); stroke-width:1.5; }
+  svg .acc { fill:var(--accent-soft); stroke:var(--accent); stroke-width:1.5; }
+  svg .okb { fill:var(--ok-soft); stroke:var(--ok); stroke-width:1.5; }
+  svg .wb { fill:var(--warn-soft); stroke:var(--warn); stroke-width:1.5; }
+  svg .ln { stroke:var(--muted); stroke-width:1.6; fill:none; }
+  svg .dash { stroke-dasharray:5 4; }
+  .persona { border-left:4px solid var(--accent); }
+  /* wireframes */
+  .wf-row { display:grid; gap:18px; }
+  .wf { background:var(--panel); border:2px solid var(--ink); border-radius:10px; overflow:hidden; font-size:13px; }
+  .wf-bar { display:flex; gap:6px; align-items:center; padding:8px 12px; border-bottom:2px solid var(--ink); background:var(--soft); }
+  .wf-bar i { width:9px; height:9px; border-radius:50%; border:1.5px solid var(--ink); display:inline-block; }
+  .wf-bar span { margin-left:10px; font-size:12px; color:var(--muted); }
+  .wf-body { padding:16px; }
+  .ph { background:var(--soft); border:1.5px dashed var(--muted); border-radius:6px; padding:8px 10px; color:var(--muted); }
+  .btn { display:inline-block; padding:6px 14px; border:2px solid var(--ink); border-radius:6px; font-weight:700; background:var(--panel); }
+  .btn.pri { background:var(--ink); color:var(--bg); }
+  .chip { display:inline-block; border:1.5px solid var(--ink); border-radius:99px; padding:1px 10px; margin:2px 3px 2px 0; font-size:12px; }
+  .chip.on { background:var(--accent-soft); border-color:var(--accent); color:var(--accent); font-weight:700; }
+  .bar { height:10px; border-radius:5px; background:var(--soft); position:relative; overflow:hidden; } .bar b { position:absolute; inset:0 auto 0 0; background:var(--accent); border-radius:5px; }
+  .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  .split { display:grid; grid-template-columns:1fr 1fr; gap:12px; } @media (max-width:700px) { .split { grid-template-columns:1fr; } }
+  .tabs { display:flex; gap:4px; flex-wrap:wrap; border-bottom:2px solid var(--ink); margin:12px 0; }
+  .tabs span { padding:6px 12px; border:2px solid transparent; border-bottom:0; font-weight:600; color:var(--muted); }
+  .tabs span.on { border-color:var(--ink); background:var(--panel); color:var(--ink); border-radius:6px 6px 0 0; margin-bottom:-2px; }
+  .item { display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-bottom:1px dashed var(--line); } .item:last-child { border-bottom:0; }
+  .callout { background:var(--accent-soft); border:1.5px solid var(--accent); border-radius:8px; padding:10px 12px; }
+  .step { display:flex; gap:10px; align-items:center; padding:6px 0; }
+  .dot { width:18px; height:18px; border-radius:50%; border:2px solid var(--ink); flex:none; text-align:center; font-size:11px; line-height:14px; font-weight:800; }
+  .dot.done { background:var(--ok); border-color:var(--ok); color:#fff; } .dot.run { border-color:var(--accent); color:var(--accent); }
+  .map { height:150px; border:1.5px solid var(--ink); border-radius:6px; background:
+    radial-gradient(circle at 62% 38%, var(--accent) 0 14px, transparent 15px), radial-gradient(circle at 44% 58%, var(--accent-soft) 0 26px, transparent 27px),
+    radial-gradient(circle at 70% 64%, var(--accent-soft) 0 18px, transparent 19px), var(--soft); }
+  .spark { height:46px; border-bottom:2px solid var(--ink); border-left:2px solid var(--ink); position:relative; }
+  .spark svg { position:absolute; inset:0; }
+  .theme { position:fixed; top:12px; right:12px; z-index:5; border:1px solid var(--line); background:var(--panel); color:var(--ink); border-radius:99px; padding:5px 12px; font-size:12px; cursor:pointer; }
+  ol.steps { padding-left:20px; margin:0; } ol.steps li { margin-bottom:8px; }
+  code { font:13px ui-monospace, monospace; background:var(--soft); padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<button class="theme" id="themeBtn" aria-label="Toggle theme">Theme</button>
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Concept for the Qloo hackathon</div>
+  <h1>Archetype: the cultural-fit brief for anything you are about to launch</h1>
+  <p class="lead">Give it a book, game, film, show, podcast or album. The agent builds an evidence-backed brief on who the audience really is, which artists and partners they would accept as authentic, where and when to launch, and which generic suggestions an LLM alone would get wrong.</p>
+  <nav class="toc">
+    <a href="#idea">The idea</a><a href="#delta">What changed</a><a href="#journey">User journey</a><a href="#arch">How it works</a>
+    <a href="#wire">Wireframes</a><a href="#feasible">Feasibility</a><a href="#demo">Demo and judges</a><a href="#risks">Risks</a>
+  </nav>
+</header>
+
+<section id="idea">
+  <h2>The idea in one paragraph</h2>
+  <div class="grid g2">
+    <div class="card persona">
+      <h3>Who uses it</h3>
+      <p><b>Mara</b>, a brand strategist at a studio adapting a cult novel into a series. Today she gets brand and music suggestions from a deck of clichés and a small, slow focus group. A wrong partner means fans call the launch "inauthentic" on day one.</p>
+      <p class="note">Same buyer type: marketing agencies, game and film publishers, author and music managers, brands planning a collaboration.</p>
+    </div>
+    <div class="card">
+      <h3>What she gets in 2 minutes</h3>
+      <ol class="steps">
+        <li><b>Audience DNA</b>: measured age and gender skew, taste tags, what else they love.</li>
+        <li><b>Sound and talent</b>: mainstream and <i>emerging</i> artists whose fans overlap, for trailers and playlists.</li>
+        <li><b>Partner shortlist</b>: brands ranked for the target age group, with the reason for each.</li>
+        <li><b>Cities and timing</b>: where the fans cluster and whether interest is rising.</li>
+        <li><b>Cliché check</b>: what a plain LLM suggested next to what the data says.</li>
+      </ol>
+    </div>
+  </div>
+  <p class="note" style="margin-top:12px">Why only Qloo: every number in the brief comes from the taste graph (audience affinity, demographics, trends). Our local A/B test showed plain Gemini guesses these and often contradicts the measured data.</p>
+</section>
+
+<section id="delta">
+  <h2>What changed from your original Archetype</h2>
+  <p class="muted">Your concept stays. We kept what the live API proved works and replaced what it did not.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Piece</th><th>Original</th><th>Improved</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td><b>Brand partners</b></td><td>Top brands from book signal</td><td>Brands filtered by category and ranked for the target age group</td><td>Test returned bookstores (Goodreads, Waterstones): exactly the cliché you want to avoid.</td></tr>
+      <tr><td><b>Validation</b></td><td><code>/analysis/compare</code> book vs brand, "overlap %"</td><td>Ranking a shortlist for a demographic, audience skew check, reverse-affinity as a warning only</td><td>That endpoint 404s as written; the real one returned 0 tags for book vs brand and gives tags, not a percentage.</td></tr>
+      <tr><td><b>Soundtrack</b></td><td>"Emerging artists"</td><td>Same, using the popularity cap, shown as mainstream vs emerging</td><td>Tested: <code>filter.popularity.max</code> returns lesser-known acts.</td></tr>
+      <tr><td><b>Claims</b></td><td>"82% higher affinity"</td><td>Show real scores, rank and audience skew; no invented lift</td><td>Qloo scores run 0 to 1; judges can check every number.</td></tr>
+      <tr><td><b>Proof</b></td><td>Summary sentence</td><td>Live side-by-side: plain LLM vs Qloo-grounded, with a "cliché check"</td><td>Makes Qloo dependency visible in seconds.</td></tr>
+      <tr><td><b>Output</b></td><td>Report</td><td>Shareable one-page brief with data provenance and a timing and cities module</td><td>Something an exec forwards the same day.</td></tr>
+      <tr><td><b>Stack</b></td><td>Python, LangChain or CrewAI</td><td>Node and Gemini function calling (already built and working)</td><td>No new framework needed.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="journey">
+  <h2>User journey</h2>
+  <p class="muted">Five steps, one screen each. The wait on step 3 is the show: the agent's work is visible.</p>
+  <figure class="card">
+    <svg viewBox="0 0 1000 250" role="img" aria-label="User journey in five steps">
+      <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker></defs>
+      <g>
+        <rect class="box" x="8" y="40" width="172" height="150" rx="12"/><text class="b" x="22" y="66">1 Describe</text>
+        <text class="m" x="22" y="90">Title + type + goal</text><text class="m" x="22" y="108">"The Secret History"</text><text class="m" x="22" y="126">Goal: series launch</text><text class="m" x="22" y="144">Target: 25 to 34</text>
+        <rect class="acc" x="206" y="40" width="172" height="150" rx="12"/><text class="b" x="220" y="66">2 Confirm</text>
+        <text class="m" x="220" y="90">Pick the right entity</text><text class="m" x="220" y="108">(book vs film vs album)</text><text class="m" x="220" y="126">Pick tags: dark academia</text><text class="m" x="220" y="144">Names are ambiguous</text>
+        <rect class="okb" x="404" y="40" width="172" height="150" rx="12"/><text class="b" x="418" y="66">3 Watch it work</text>
+        <text class="m" x="418" y="90">Live checklist</text><text class="m" x="418" y="108">Audience, artists,</text><text class="m" x="418" y="126">partners, cities, timing</text><text class="m" x="418" y="144">Each shows its source</text>
+        <rect class="box" x="602" y="40" width="172" height="150" rx="12"/><text class="b" x="616" y="66">4 Read the brief</text>
+        <text class="m" x="616" y="90">5 tabs of evidence</text><text class="m" x="616" y="108">Click any item: why</text><text class="m" x="616" y="126">Cliché check tab</text><text class="m" x="616" y="144">Edit target group</text>
+        <rect class="box" x="800" y="40" width="172" height="150" rx="12"/><text class="b" x="814" y="66">5 Share</text>
+        <text class="m" x="814" y="90">One-page brief</text><text class="m" x="814" y="108">Print / PDF / link</text><text class="m" x="814" y="126">Data provenance</text><text class="m" x="814" y="144">"Run for another IP"</text>
+      </g>
+      <g><path class="ln" d="M180 115H204" marker-end="url(#ar)"/><path class="ln" d="M378 115H402" marker-end="url(#ar)"/><path class="ln" d="M576 115H600" marker-end="url(#ar)"/><path class="ln" d="M774 115H798" marker-end="url(#ar)"/></g>
+      <text class="m" x="8" y="222">Time: under 2 minutes. The only typing is step 1.</text>
+    </svg>
+    <figcaption>Journey for a strategist preparing a series launch.</figcaption>
+  </figure>
+</section>
+
+<section id="arch">
+  <h2>How it works</h2>
+  <p class="muted">The agent plans, calls Qloo in parallel, checks its own shortlist, then writes. Gemini never invents affinities; it only explains the data it was given.</p>
+  <figure class="card">
+    <svg viewBox="0 0 1000 440" role="img" aria-label="System architecture">
+      <rect class="box" x="10" y="150" width="150" height="120" rx="12"/><text class="b" x="28" y="180">Browser</text><text class="m" x="28" y="202">Input form</text><text class="m" x="28" y="220">Live progress</text><text class="m" x="28" y="238">Brief + export</text>
+      <rect class="acc" x="215" y="110" width="200" height="200" rx="12"/><text class="b" x="232" y="140">Node server</text><text class="m" x="232" y="162">Holds all API keys</text><text class="m" x="232" y="180">Streams progress</text><text class="m" x="232" y="198">Cache (Qloo results)</text><text class="m" x="232" y="216">Rate limit per visitor</text><text class="m" x="232" y="234">Saves brief as JSON</text>
+      <rect class="acc" x="470" y="40" width="220" height="130" rx="12"/><text class="b" x="487" y="68">Gemini agent</text><text class="m" x="487" y="90">1 Plan the modules</text><text class="m" x="487" y="108">2 Call tools (parallel)</text><text class="m" x="487" y="126">3 Critic: re-rank, drop</text><text class="m" x="487" y="144">4 Write brief from data</text>
+      <rect class="wb" x="470" y="190" width="220" height="90" rx="12"/><text class="b" x="487" y="218">Plain Gemini</text><text class="m" x="487" y="240">Same question, no tools</text><text class="m" x="487" y="258">Powers the cliché check</text>
+      <rect class="okb" x="745" y="20" width="245" height="400" rx="12"/><text class="b" x="762" y="48">Qloo taste graph (250M+)</text>
+      <g class="m"><text x="762" y="82">/search  resolve names to ids</text><text x="762" y="112">/v2/tags  mood and genre tags</text><text x="762" y="142">/v2/insights  artists, brands,</text><text x="762" y="160">    places, demographics, heatmap</text><text x="762" y="190">/v2/insights  rank a shortlist</text><text x="762" y="220">/v2/trending  rising or falling</text><text x="762" y="250">/v2/analysis/compare</text><text x="762" y="268">    how two audiences differ</text><text x="762" y="304">Limits: 10 req/s, 50k/month</text><text x="762" y="324">Slow calls 3 to 20 s: cache</text></g>
+      <path class="ln" d="M160 210H213" marker-end="url(#ar)"/><path class="ln" d="M415 160L468 120" marker-end="url(#ar)"/><path class="ln" d="M415 250L468 235" marker-end="url(#ar)"/><path class="ln" d="M690 105H743" marker-end="url(#ar)"/>
+      <text class="m" x="500" y="330">Key rules</text>
+      <text class="m" x="500" y="350">• Resolve every name to a UUID once, reuse it</text><text class="m" x="500" y="368">• Report exact dates and filters used</text><text class="m" x="500" y="386">• Never add facts the tools did not return</text><text class="m" x="500" y="404">• Show scores as indices, not percentages</text>
+    </svg>
+    <figcaption>Everything the judge sees is traceable to a Qloo call.</figcaption>
+  </figure>
+  <div class="grid g3">
+    <div class="card"><h3>Parallel modules</h3><p class="note">Audience, sound, partners, cities and timing run at once, so the slow calls do not add up.</p></div>
+    <div class="card"><h3>Critic step</h3><p class="note">After the first pass, the agent ranks the partner shortlist for the target age group and drops weak or off-category picks.</p></div>
+    <div class="card"><h3>Provenance</h3><p class="note">Every card keeps the endpoint, entity id and score it came from, shown on click.</p></div>
+  </div>
+</section>
+
+<section id="wire">
+  <h2>Wireframes</h2>
+  <p class="muted">Grey-box layouts. Names and numbers marked "illustrative" are placeholders except where they come from our live tests (artists for <i>The Secret History</i> and Huberman Lab data).</p>
+  <div class="wf-row">
+
+    <div>
+      <h3>Screen 1: Describe</h3>
+      <div class="wf">
+        <div class="wf-bar"><i></i><i></i><i></i><span>archetype / new brief</span></div>
+        <div class="wf-body">
+          <h3 style="font-size:20px">What are you launching?</h3>
+          <div class="ph" style="margin:10px 0">🔍 The Secret History</div>
+          <div class="row"><span class="chip on">Book</span><span class="chip">Film</span><span class="chip">TV show</span><span class="chip">Game</span><span class="chip">Podcast</span><span class="chip">Artist or album</span></div>
+          <div class="split" style="margin-top:12px">
+            <div><div class="note">Goal</div><div class="ph">Series adaptation launch</div></div>
+            <div><div class="note">Target audience (optional)</div><div class="row"><span class="chip on">25 to 34</span><span class="chip">Any gender</span></div></div>
+          </div>
+          <div style="margin-top:14px" class="row"><span class="btn pri">Build my brief</span><span class="note">or try an example: Elden Ring · Huberman Lab · Dune</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid g2">
+      <div>
+        <h3>Screen 2: Confirm</h3>
+        <div class="wf">
+          <div class="wf-bar"><i></i><i></i><i></i><span>which one did you mean?</span></div>
+          <div class="wf-body">
+            <div class="item"><span>◉ <b>The Secret History</b> · book · 1992</span><span class="note">best match</span></div>
+            <div class="item"><span>○ The Secret History · album</span><span class="note">2nd</span></div>
+            <div class="item"><span>○ The Secret History · movie</span><span class="note">3rd</span></div>
+            <div class="note" style="margin-top:10px">Mood tags found</div>
+            <div class="row"><span class="chip on">Dark Academia</span><span class="chip on">Psychological</span><span class="chip">Campus novel</span><span class="chip">+ add</span></div>
+            <div style="margin-top:12px"><span class="btn pri">Continue</span></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Screen 3: Watch it work</h3>
+        <div class="wf">
+          <div class="wf-bar"><i></i><i></i><i></i><span>building brief…</span></div>
+          <div class="wf-body">
+            <div class="step"><span class="dot done">✓</span> Resolved The Secret History <span class="note">&nbsp;/search</span></div>
+            <div class="step"><span class="dot done">✓</span> Audience skew and tags <span class="note">&nbsp;/v2/insights</span></div>
+            <div class="step"><span class="dot run">…</span> Artists: mainstream + emerging</div>
+            <div class="step"><span class="dot run">…</span> Partner brands for 25 to 34</div>
+            <div class="step"><span class="dot">·</span> Cities and timing</div>
+            <div class="step"><span class="dot">·</span> Critic: check the shortlist</div>
+            <div class="step"><span class="dot">·</span> Plain-LLM comparison</div>
+            <div class="bar" style="margin-top:8px"><b style="width:42%"></b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3>Screen 4: The brief (the money screen)</h3>
+      <div class="wf">
+        <div class="wf-bar"><i></i><i></i><i></i><span>The Secret History · launch brief · target 25 to 34</span></div>
+        <div class="wf-body">
+          <div class="row" style="justify-content:space-between"><div><b style="font-size:18px">Authenticity brief</b><div class="note">Built from Qloo data on 24 Oct 2026 · 14 calls</div></div><div class="row"><span class="btn">Share link</span><span class="btn pri">Export PDF</span></div></div>
+          <div class="callout" style="margin-top:12px"><b>Headline.</b> Skews older than the default "young adult" pitch: peaks in <i>[age band]</i> and leans <i>[gender]</i> (illustrative). Lean into indie music and bookstore culture, avoid mass-market tie-ins.</div>
+          <div class="tabs"><span class="on">Audience DNA</span><span>Sound and talent</span><span>Partners</span><span>Cities and timing</span><span>Cliché check</span></div>
+
+          <div class="split">
+            <div>
+              <div class="note">Sound and talent (tab preview, real test data)</div>
+              <div class="item"><span><b>Mainstream</b></span><span class="note">fan overlap</span></div>
+              <div class="item"><span>beabadoobee</span><span>0.975</span></div>
+              <div class="item"><span>Clairo</span><span>0.972</span></div>
+              <div class="item"><span>Rex Orange County</span><span>0.963</span></div>
+              <div class="item"><span><b>Emerging</b> (popularity under 0.6)</span><span class="note">fan overlap</span></div>
+              <div class="item"><span>Kid Sistr</span><span>0.928</span></div>
+              <div class="item"><span>Baird</span><span>0.925</span></div>
+              <div class="note" style="margin-top:6px">Click an artist: "why" and source call.</div>
+            </div>
+            <div>
+              <div class="note">Partners for 25 to 34 (illustrative layout; brand filter still to be validated)</div>
+              <div class="item"><span><b>Fashion</b></span><span class="note">fit for group</span></div>
+              <div class="item"><span>Brand A</span><span>0.9x</span></div>
+              <div class="item"><span>Brand B</span><span>0.9x</span></div>
+              <div class="item"><span><b>Food and drink</b></span><span class="note">fit for group</span></div>
+              <div class="item"><span>Brand C</span><span>0.8x</span></div>
+              <div class="item"><span class="note">Removed as too generic</span><span class="note">bookshops, retailers</span></div>
+              <div class="ph" style="margin-top:6px">Warning example: "Brand D skews male 0.32 vs this audience female skew."</div>
+            </div>
+          </div>
+
+          <div class="split" style="margin-top:12px">
+            <div>
+              <div class="note">Cities and timing (tab preview)</div>
+              <div class="map"></div>
+              <div class="note">Affinity map for the first target city. Demo uses real heatmap data.</div>
+            </div>
+            <div>
+              <div class="note">Is interest rising? (weekly series)</div>
+              <div class="spark"><svg viewBox="0 0 200 46" preserveAspectRatio="none"><polyline points="0,36 25,32 50,34 75,26 100,28 125,18 150,20 175,12 200,10" fill="none" stroke="var(--accent)" stroke-width="2"/></svg></div>
+              <div class="note">Percentile and rank from /v2/trending. Dates shown exactly.</div>
+              <div class="callout" style="margin-top:10px"><b>Cliché check</b> (tab): plain LLM said <i>"dark coffee brand, gothic fashion"</i>; the data points to <i>…</i>. Cliché score shown per partner.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3>Screen 5: Cliché check tab (the judge moment)</h3>
+      <div class="wf">
+        <div class="wf-bar"><i></i><i></i><i></i><span>same question, two answers</span></div>
+        <div class="wf-body">
+          <div class="split">
+            <div class="card" style="padding:12px"><b>Plain Gemini</b> <span class="tag t-warn">guessing</span>
+              <div class="ph" style="margin-top:8px">"Partner with a dark-roast coffee brand and a gothic fashion label."</div>
+              <div class="note" style="margin-top:6px">13 s · 0 data points</div></div>
+            <div class="card" style="padding:12px"><b>Archetype (Qloo)</b> <span class="tag t-ok">measured</span>
+              <div class="ph" style="margin-top:8px">Audience peaks ages <i>[x]</i>; top partners <i>[brands]</i>; affinity scores and sources listed.</div>
+              <div class="note" style="margin-top:6px">28 s · 14 data points · open provenance</div></div>
+          </div>
+          <div class="row" style="margin-top:10px"><span class="chip on">Overlap: 1 of 5 suggestions shared</span><span class="chip">4 LLM suggestions not supported by data</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="feasible">
+  <h2>Feasibility: what the live API already proved</h2>
+  <p class="muted">Green means we called it and it works. Amber means the call works but the result needs a design fix or a spike. Red means dropped.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Brief module</th><th>Qloo call</th><th>Status</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Entity resolution + disambiguation</td><td><code>/search</code></td><td><span class="tag t-ok">works</span></td><td>Ambiguity is real ("Radiohead" = 4 entities); candidates come with type and popularity.</td></tr>
+      <tr><td>Mood and genre tags</td><td><code>/v2/tags</code> (semantic)</td><td><span class="tag t-ok">works</span></td><td>"dark academia", "psychological thriller" resolved to real tag ids.</td></tr>
+      <tr><td>Audience demographics</td><td><code>/v2/insights</code> <code>urn:demographics</code></td><td><span class="tag t-ok">works</span></td><td>Measured age and gender skew that contradicted Gemini's guesses.</td></tr>
+      <tr><td>Mainstream and emerging artists</td><td><code>/v2/insights</code> + <code>filter.popularity.max</code></td><td><span class="tag t-ok">works</span></td><td>Book to artists plausible; popularity cap returns lesser-known acts.</td></tr>
+      <tr><td>Timing</td><td><code>/v2/trending</code></td><td><span class="tag t-ok">works</span></td><td>Dune series returned; plain LLM could not answer.</td></tr>
+      <tr><td>Why each pick</td><td><code>feature.explainability</code></td><td><span class="tag t-ok">works</span></td><td>Score split by source taste on cross-domain picks.</td></tr>
+      <tr><td>Rank partners for a group</td><td><code>filter.results.entities</code> + age/gender</td><td><span class="tag t-ok">works</span></td><td>Shortlist re-ordered for ages 25 to 29.</td></tr>
+      <tr><td>Cities and venues</td><td>heatmap + places</td><td><span class="tag t-warn">partly</span></td><td>New York heatmap scores all near 0.99, places mixed. Use for hot spots, not fine ranking.</td></tr>
+      <tr><td>Partner brands (non-cliché)</td><td><code>/v2/insights</code> brands + category filter</td><td><span class="tag t-warn">spike needed</span></td><td>Unfiltered results were bookstores. Need to test tag filters and brand sub-types.</td></tr>
+      <tr><td>Book-vs-brand "overlap %"</td><td><code>/analysis/compare</code></td><td><span class="tag t-bad">dropped</span></td><td>Original path 404s; real endpoint gave 0 tags for book vs brand. Replaced by ranking and skew checks.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="grid g3" style="margin-top:14px">
+    <div class="card"><h3>Build size</h3><p class="note">The agent, tools and local UI already exist. New work: guided input, progress view, brief page, cliché-check logic, export.</p></div>
+    <div class="card"><h3>Speed</h3><p class="note">Parallel calls plus cache keep the brief near 30 s. The progress screen turns waiting into the demo.</p></div>
+    <div class="card"><h3>Cost control</h3><p class="note">Resolve ids once, trim tool output, cache per property. Fits the 50k calls per month.</p></div>
+  </div>
+</section>
+
+<section id="demo">
+  <h2>Three-minute demo and how judges will read it</h2>
+  <div class="grid g2">
+    <div class="card">
+      <h3>Demo script</h3>
+      <ol class="steps">
+        <li><b>0:00</b> "Adapting a cult novel? Ask a normal LLM for partners." Show the cliché answer.</li>
+        <li><b>0:20</b> Type <i>The Secret History</i>, pick the right entity, set target 25 to 34.</li>
+        <li><b>0:40</b> Watch the live checklist; each line names its Qloo call.</li>
+        <li><b>1:10</b> Brief opens: audience skew, mainstream and emerging artists, partners with reasons.</li>
+        <li><b>2:00</b> Cliché tab: the LLM's picks versus the data. Click a number to see its source.</li>
+        <li><b>2:40</b> Export the one-pager; change the title to a game and run it again.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>Judging criteria</h3>
+      <p><span class="tag t-acc">Qloo is the differentiator</span> Every claim is a Qloo number with a visible source; the A/B tab shows the LLM alone is wrong or generic.</p>
+      <p><span class="tag t-acc">Agentic</span> Plans modules, resolves ambiguity, runs tools in parallel, criticises and prunes its own shortlist.</p>
+      <p><span class="tag t-acc">Real value</span> Replaces slow focus groups for a real buyer; the output is a document people act on.</p>
+      <p><span class="tag t-acc">Startup</span> Per-brief or seat pricing for agencies and publishers; same engine serves creators finding sponsors (SponsorFit) as a second product.</p>
+      <p><span class="tag t-acc">Polish</span> Disambiguation card, live progress, provenance on click, shareable page.</p>
+    </div>
+  </div>
+</section>
+
+<section id="risks">
+  <h2>Risks and the cheap tests that settle them</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Risk</th><th>Test</th><th>Fallback</th></tr></thead>
+    <tbody>
+      <tr><td>Brand partners are still generic</td><td>Run the brand step on 5 properties (book, game, film, TV, album) with category filters and demographic ranking.</td><td>Lead with artists, audience, cities and timing; offer brands as "shortlist to vet".</td></tr>
+      <tr><td>Niche titles missing from Qloo</td><td>Coverage check on 30 real titles per type.</td><td>Let the user pick a close proxy entity.</td></tr>
+      <tr><td>Agent invents details (street names, percentages)</td><td>Prompt rules plus a check that every number in the brief appears in tool output.</td><td>Render numbers from data, let the LLM write only the prose.</td></tr>
+      <tr><td>Slow calls (up to 20 s)</td><td>Parallelise, cache, precompute the demo titles.</td><td>Show partial results as each module finishes.</td></tr>
+      <tr><td>Quota during a public demo</td><td>Per-visitor limit and result cache.</td><td>Serve cached briefs for the examples.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:14px">Next step: one more spike on the partner-brand filters across five properties. If it gives non-cliché brands, build the brief; if not, ship with the other four modules and present brands as a vetted shortlist.</p>
+</section>
+
+</div>
+<script>
+  const root = document.documentElement, btn = document.getElementById("themeBtn");
+  try { const saved = localStorage.getItem("theme"); if (saved) root.dataset.theme = saved; } catch (e) {}
+  btn.onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+  };
+</script>
+</body>
+</html>
