@@ -1,0 +1,91 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "pop",
+      "filter.tag.types": "urn:tag:genre:media",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 332,
+    "url": "/v2/tags?filter.query=pop&filter.tag.types=urn%3Atag%3Agenre%3Amedia&take=5",
+    "requestId": "5c8b1131-9617-4c34-848a-31ac6f498022",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49544",
+      "x-month-ratelimit-reset": "2589149.47",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.41"
+    },
+    "body": {
+      "duration": 33,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:popular_science",
+            "name": "Popular science",
+            "popularity": 0.99927825,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:pop_culture",
+            "name": "Pop culture",
+            "popularity": 0.9991435,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:videogame"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:pope_urban_ii",
+            "name": "Pope Urban Ii",
+            "popularity": 0,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:videogame"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:pope",
+            "name": "Pope",
+            "popularity": 0,
+            "properties": {},
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

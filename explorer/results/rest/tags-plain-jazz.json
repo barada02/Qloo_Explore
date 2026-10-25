@@ -1,0 +1,233 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "jazz",
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 362,
+    "url": "/v2/tags?filter.query=jazz&take=10",
+    "requestId": "fc20dc41-70dc-4f56-b3b4-8056d7f143dd",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49863",
+      "x-month-ratelimit-reset": "2591837.92",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.36"
+    },
+    "body": {
+      "duration": 77,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:jazz",
+            "name": "Jazz",
+            "popularity": 0.9997087,
+            "properties": {
+              "description": "Jazz is a music genre characterized by improvisation, syncopation, and a regular rhythm, along with swing notes and extended, often complex chord sequences. It embraces various cultural influences, emotions, and moods and is often seen as a platform for self-expression.",
+              "history": "Jazz originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries. It developed from roots in blues and ragtime and is seen as America's classical music.",
+              "melody": "Complex",
+              "performance": "Ensemble play with solo or accompanied performances",
+              "rhythm": "Syncopated and Swing",
+              "tempo": "Varies",
+              "vocals": "Both instrumental and vocal"
+            },
+            "tags": [
+              {
+                "name": "Canonical",
+                "tag_id": "urn:tag:collection:canonical",
+                "type": "urn:tag:collection",
+                "value": "urn:tag:collection:canonical"
+              }
+            ]
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:book"
+              },
+              {
+                "type": "urn:entity:author"
+              }
+            ],
+            "type": "urn:tag:genre:media",
+            "id": "urn:tag:genre:media:jazz",
+            "name": "Jazz",
+            "popularity": 0.9974068,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:tv_show"
+              },
+              {
+                "type": "urn:entity:podcast"
+              },
+              {
+                "type": "urn:entity:movie"
+              }
+            ],
+            "type": "urn:tag:keyword:qloo",
+            "id": "urn:tag:keyword:qloo:jazz",
+            "name": "Jazz",
+            "popularity": 0.8310593,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:person"
+              }
+            ],
+            "type": "urn:tag:occupation:wikidata",
+            "id": "urn:tag:occupation:wikidata:jazz_musician",
+            "name": "Jazz Musician",
+            "popularity": 0.99854213,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:jazz_fusion",
+            "name": "Jazz Fusion",
+            "popularity": 0.99776804,
+            "properties": {
+              "description": "Jazz fusion is a genre that combines the harmonic and improvisational features of jazz with the rhythms and instruments of rock. Using instruments from both genres, jazz fusion often features complex time signatures and extended solos.",
+              "history": "Jazz fusion emerged in the late 1960s as a combination of jazz and rock music. It is characterized by complex composition, improvisation and usually a high level of technical proficiency.",
+              "melody": "Complex",
+              "performance": "Live performances are common, with extensive improvisation",
+              "rhythm": "Complex, often incorporating unusual time signatures",
+              "tempo": "Variable",
+              "vocals": "Can be instrumental or include vocals, depending on artist"
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:genre:place",
+            "id": "urn:tag:genre:place:jazz_club",
+            "name": "Jazz club",
+            "popularity": 0.9971301,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:category:place",
+            "id": "urn:tag:category:place:jazz_club",
+            "name": "Jazz club",
+            "popularity": 0.9971301,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:jazz_hop",
+            "name": "Jazz - Hop",
+            "popularity": 0.9971254,
+            "properties": {
+              "description": "Jazz Hop, also known as jazz rap, is a fusion of jazz and hip hop music. It features a strong influence from jazz instrumentation, melodies and themes. Typical of most jazz sub-genres, the emphasis in Jazz Hop music is on improvisation.",
+              "history": "The genre was born in the late 1980s as musicians began to combine elements of jazz and hip hop. The creation of Jazz Hop music was influenced by the experimentation of hip hop artists who, inspired by the emerging neo-soul movement, began to incorporate jazz samples into their music.",
+              "melody": "Significant use of jazz melodies, typically complex and improvised",
+              "performance": "Can be performed live or produced in a studio",
+              "rhythm": "Typically uses breakbeats and other techniques common in hip hop",
+              "tempo": "Varies",
+              "vocals": "Generally instrumental but may include rapping or singing"
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:jazz_rock",
+            "name": "Jazz Rock",
+            "popularity": 0.99691975,
+            "properties": {
+              "description": "Jazz-Rock combines the complex improvisational elements of jazz with the amplified instruments and driving rhythms of rock, often resulting in an innovative, boundary-pushing sound",
+              "history": "Jazz-Rock is a genre that emerged in the late 1960s, blending the compositions of jazz with the amplified instruments and rhythms of rock. Known for its complex time signatures and extended improvisation, it became popular through the works of artists like Miles Davis and The Mahavishnu Orchestra.",
+              "melody": "Inventive and often improvised",
+              "performance": "Often live with intense improvisation",
+              "rhythm": "Syncopated and complex",
+              "tempo": "Variable, often complex",
+              "vocals": "Can be instrumental or with vocals, often non-traditional"
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:artist"
+              },
+              {
+                "type": "urn:entity:album"
+              }
+            ],
+            "type": "urn:tag:genre:music",
+            "id": "urn:tag:genre:music:jazz_piano",
+            "name": "Jazz - Piano",
+            "popularity": 0.9968231,
+            "properties": {
+              "description": "Jazz Piano is a type of jazz that is primarily performed with the piano. It often involves complex and improvised melodies and chord progressions.",
+              "history": "Emerging in the late 19th and early 20th century in African American communities, Jazz piano specifically gained popularity during the 1930s and 1940s swing era.",
+              "melody": "Often complex, improvised melodies",
+              "performance": "Solo or ensemble performances",
+              "rhythm": "Syncopated, 'swing' feel",
+              "tempo": "Varies widely from slow blues to fast swing",
+              "vocals": "Rarely includes vocals, generally instrumental"
+            },
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

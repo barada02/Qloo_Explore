@@ -1,0 +1,34 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:artist",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.results.entities.query": "Beck"
+    }
+  },
+  "response": {
+    "ok": false,
+    "status": 400,
+    "ms": 301,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aartist&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.results.entities.query=Beck",
+    "requestId": "7f91d7cc-bc3f-4599-99df-195cce980a36",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49563",
+      "x-month-ratelimit-reset": "2589178.96",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.44"
+    },
+    "body": {
+      "errors": [
+        {
+          "message": "the entities.query parameter can only be used in a POST request",
+          "path": "entities.query"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:destination",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 325,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Adestination&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&take=10",
+    "requestId": "06c7565d-73e4-4523-a4c0-3359d56a381b",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49836",
+      "x-month-ratelimit-reset": "2591813.89",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.29"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Hastings",
+            "entity_id": "36ACEFE7-C032-46E5-8983-7C508B593C73",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Saint Leonards-on-Sea",
+                "admin1_region": "England",
+                "admin2_region": "East Sussex",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.03309156844968268,
+            "location": {
+              "lat": 50.853977,
+              "lon": 0.5510849,
+              "geohash": "u103k99mchqw"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:beaches",
+                "name": "Beaches",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8734651584988073
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Ensenada",
+            "entity_id": "890F3D83-E4C4-4F6A-AEAD-18053C2964D7",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Ensenada",
+                "admin1_region": "Baja California",
+                "admin2_region": "",
+                "country_code": "MX"
+              }
+            },
+            "popularity": 0.6677243880326382,
+            "location": {
+              "lat": 31.862,
+              "lon": -116.6267,
+              "geohash": "9mtj60718ghq"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:outdoor_activities",
+                "name": "Outdoor Activities",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8670321594296049
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Oaxaca City",
+            "entity_id": "0ED495DE-9AD8-4595-AD5C-6E4CA4910567",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Oaxaca de Juarez",
+                "admin1_region": "Oaxaca",
+                "admin2_region": "",
+                "country_code": "MX"
+              }
+            },
+            "popularity": 0.7107887579329103,
+            "location": {
+              "lat": 17.0606,
+              "lon": -96.7254,
+              "geohash": "9g51ncy9ny2h"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:foodie_destination",
+                "name": "Foodie Destination",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8606712280685933
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Canterbury",
+            "entity_id": "448C99A2-59C5-4A5D-9577-961A02562228",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Canterbury",
+                "admin1_region": "England",
+                "admin2_region": "Kent",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.46917497733454216,
+            "location": {
+              "lat": 51.27597,
+              "lon": 1.07561,
+              "geohash": "u10g8qx0pt8y"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:great_architecture",
+                "name": "Great Architecture",
+                "type": "urn:tag:genre:destination"
+              },
+              {
+                "id": "urn:tag:genre:destination:history",
+                "name": "For the History",
+                "type": "urn:tag:genre:destination"
+              },
+              {
+                "id": "urn:tag:genre:destination:kids",
+                "name": "With Kids",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8602716769406199
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Aviemore",
+            "entity_id": "324A78BE-E5EA-464A-A41C-D82C9BB8CD77",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Glasgow",
+                "admin1_region": "Scotland",
+                "admin2_region": "Glasgow City",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.016772438803263828,
+            "location": {
+              "lat": 55.86604,
+              "lon": -4.260659,
+              "geohash": "gcuvz417r2w1"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:outdoor_activities",
+                "name": "Outdoor Activities",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8573107991510113
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Rye",
+            "entity_id": "EFD3989E-4F2E-4F08-B814-0F95C0CF11BD",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Rye",
+                "admin1_region": "England",
+                "admin2_region": "East Sussex",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.34043517679057117,
+            "location": {
+              "lat": 50.9529,
+              "lon": 0.7361,
+              "geohash": "u109bg8n0kgz"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:scenic_picturesque",
+                "name": "Scenic & Picturesque",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8552798723089086
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Oxnard",
+            "entity_id": "6B9D7835-7BC3-4778-A6A4-5F26BA43C4D7",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Oxnard",
+                "admin1_region": "California",
+                "admin2_region": "Ventura County",
+                "country_code": "US"
+              }
+            },
+            "popularity": 0.5022665457842248,
+            "location": {
+              "lat": 34.1913,
+              "lon": -119.182,
+              "geohash": "9q54xbq6f0hm"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:beaches",
+                "name": "Beaches",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8545615734596514
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Margate",
+            "entity_id": "74379ED1-0099-428A-886B-EB3E0A9C36DE",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Margate",
+                "admin1_region": "England",
+                "admin2_region": "Kent",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.4220308250226655,
+            "location": {
+              "lat": 51.38692,
+              "lon": 1.3791,
+              "geohash": "u10ur6snx277"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:beaches",
+                "name": "Beaches",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8522377304218083
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Solvang",
+            "entity_id": "8BDED1D0-AD83-4BF7-B9F3-90B70949A009",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Solvang",
+                "admin1_region": "California",
+                "admin2_region": "Santa Barbara County",
+                "country_code": "US"
+              }
+            },
+            "popularity": 0.6273798730734361,
+            "location": {
+              "lat": 34.593887,
+              "lon": -120.139725,
+              "geohash": "9q4sf1sgvxbr"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:scenic_picturesque",
+                "name": "Scenic & Picturesque",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8473943450886219
+            },
+            "disambiguation": ""
+          },
+          {
+            "name": "Eastbourne",
+            "entity_id": "0994E8A0-AC2B-4011-84A1-0B7F4B87FD85",
+            "type": "urn:entity",
+            "subtype": "urn:entity:destination",
+            "properties": {
+              "geocode": {
+                "name": "Hammersmith",
+                "admin1_region": "England",
+                "admin2_region": "Greater London",
+                "country_code": "GB"
+              }
+            },
+            "popularity": 0.027651858567543066,
+            "location": {
+              "lat": 51.50632,
+              "lon": -0.23227292,
+              "geohash": "gcpv48qy5dhu"
+            },
+            "tags": [
+              {
+                "id": "urn:tag:genre:destination:beaches",
+                "name": "Beaches",
+                "type": "urn:tag:genre:destination"
+              }
+            ],
+            "query": {
+              "affinity": 0.8471134643392302
+            },
+            "disambiguation": ""
+          }
+        ]
+      }
+    }
+  }
+}

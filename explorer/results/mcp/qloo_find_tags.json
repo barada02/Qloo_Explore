@@ -1,0 +1,91 @@
+{
+  "tool": "qloo_find_tags",
+  "arguments": {
+    "query": "cozy mystery",
+    "limit": 5
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "find_tags",
+    "status": "ok",
+    "interpretation": {
+      "query": "cozy mystery",
+      "semantic": true
+    },
+    "results": [
+      {
+        "id": "urn:tag:subgenre:qloo:cozy_mystery",
+        "name": "Cozy Mystery",
+        "type": "urn:tag:subgenre:qloo",
+        "popularity": 0.9982153524926236
+      },
+      {
+        "id": "urn:tag:genre:media:cozy_mystery",
+        "name": "Cozy Mystery",
+        "type": "urn:tag:genre:media",
+        "popularity": 0.9997554965368162
+      },
+      {
+        "id": "urn:tag:keyword:media:cozy_mystery",
+        "name": "cozy mystery",
+        "type": "urn:tag:keyword:media",
+        "popularity": 0.9882678864697009
+      },
+      {
+        "id": "urn:tag:plot:qloo:cozy_mystery",
+        "name": "Cozy Mystery",
+        "type": "urn:tag:plot:qloo",
+        "popularity": 0.9655612198814225
+      },
+      {
+        "id": "urn:tag:interests:qloo:cozy_mysteries",
+        "name": "Cozy Mysteries",
+        "type": "urn:tag:interests:qloo",
+        "popularity": 0.9920603528484222
+      }
+    ],
+    "result_count": 5,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/tags",
+      "documentation": "https://docs.qloo.com/reference/get-tags",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/tags",
+          "query": {
+            "filter.query": "cozy mystery",
+            "feature.semantic_search": true,
+            "take": 5
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "find_tags",
+      "job": "find_tags",
+      "signals": {},
+      "filters": {},
+      "operators": {},
+      "output": {
+        "limit": 5
+      },
+      "assumptions": [
+        "semantic=true"
+      ],
+      "unresolved": [],
+      "target": {
+        "concept": "cozy mystery"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-11",
+      "duration_ms": 343
+    }
+  }
+}

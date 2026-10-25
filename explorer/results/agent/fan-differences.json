@@ -1,0 +1,108 @@
+{
+  "id": "fan-differences",
+  "q": "What tastes distinguish Radiohead fans from Taylor Swift fans?",
+  "why": "Audience comparison on tags",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "Radiohead fans gravitate toward cerebral, existential, and textured art, while Taylor Swift fans prioritize narrative intimacy, hyper-relational drama, and emotional catharsis. \n\n**For the Radiohead Fan:**\n*   **Film: *Children of Men* (dir. Alfonso Cuarón)** — Matches their appetite for dystopian dread, layered background details, and technical cinematic virtuosity.\n*   **Literature: *The Wind-Up Bird Chronicle* by Haruki Murakami** — Mirrors the band’s themes of modern alienation, surreal detachment, and eerie, unresolved mysteries.\n*   **Drink: Skin-contact (orange) natural wine** — Appeals to a preference for acquired, funky tastes and deliberate, small-batch artistry over mainstream gloss.\n*   **Brand: Margaret Howell or vintage utilitarian workwear** — Understated, austere, and anti-glitz, emphasizing durability and quiet intellectualism.\n\n**For the Taylor Swift Fan:**\n*   **Film: *Lady Bird* (dir. Greta Gerwig)** — Delivers the sharp, nostalgic coming-of-age angst, maternal friction, and diary-like emotional clarity that Swifties revere.\n*   **Literature: *Normal People* by Sally Rooney** — Captures the obsessive, aching, and devastatingly articulate romantic dynamics central to Swift’s best songwriting.\n*   **Drink: An iced spiced chai latte with oat milk** — Cozy, hyper-seasonal, and sentimental; a comforting sensory anchor for autumnal introspection.\n*   **Brand: Dôen or Reformation** — Romantic, vintage-inspired aesthetics that evoke folkloric daydreams, bridge-worthy romance, and meticulously styled self-reinvention.",
+    "trace": [],
+    "ms": 11260,
+    "tokens": 1118,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "According to Qloo audience affinity data, the tastes distinguishing Radiohead fans from Taylor Swift fans span distinct stylistic themes, demographics, and artist ecosystems:\n\n* **Artistic Themes & Soundscapes:** Radiohead's audience skews heavily toward **existentialism** (popularity: 0.97), **experimental** structures (0.95), **atmospheric** textures (0.97), and **introspective** songwriting (0.95). In contrast, Taylor Swift’s audience gravitates toward narrative themes of **heartbreak** (0.98) and **fame** (0.87), accompanied by **catchy**, **expressive** pop and **acoustic/country singer-songwriter** foundations (~0.99 popularity).\n* **Demographics:** Radiohead skews slightly male (+0.09) and older, concentrating in the 35–44 (+0.19) and 45–54 (+0.14) age brackets. Swift’s fanbase leans strongly female (+0.38) and peaks heavily in young adulthood, especially ages 25–29 (+0.43) and 30–34 (+0.33), dropping sharply past 45 (-0.49).\n* **Cross-Artist Affinities:** Radiohead fans bridge into eclectic, multi-instrumental alternative rock such as **Beck** (0.95 affinity) and **Arcade Fire** (0.94 affinity). Swift fans share strong affinity with melodic, emotionally driven pop peers such as **Carly Rae Jepsen** (0.97 affinity), **Demi Lovato** (0.97 affinity), and **One Direction** (0.96 affinity).\n\n**Where they meet:** Despite stylistic divergence, both fanbases share strong common ground in **folk** (0.82 affinity score) and **guitar-driven** songwriting (0.73 score).",
+    "trace": [
+      {
+        "tool": "qloo_compare_audiences",
+        "args": {
+          "group_a": [
+            "Radiohead"
+          ],
+          "group_b": [
+            "Taylor Swift"
+          ]
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved comparison inputs.",
+        "count": 0,
+        "ms": 1182
+      },
+      {
+        "tool": "qloo_compare_audiences",
+        "args": {
+          "group_b": [
+            "4BBEF799-A0C4-4110-AB01-39216993C312"
+          ],
+          "group_a": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+          ]
+        },
+        "status": "ok",
+        "ms": 1466
+      },
+      {
+        "tool": "qloo_audience_demographics",
+        "args": {
+          "entity": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 307
+      },
+      {
+        "tool": "qloo_audience_demographics",
+        "args": {
+          "entity": "4BBEF799-A0C4-4110-AB01-39216993C312"
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 319
+      },
+      {
+        "tool": "qloo_compare_audiences",
+        "args": {
+          "group_b": [
+            "4BBEF799-A0C4-4110-AB01-39216993C312"
+          ],
+          "limit": 5,
+          "target_type": "artist",
+          "group_a": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+          ]
+        },
+        "status": "ok",
+        "ms": 322
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C"
+          ],
+          "limit": 3,
+          "target_type": "artist"
+        },
+        "status": "ok",
+        "count": 3,
+        "ms": 3515
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "target_type": "artist",
+          "signals": [
+            "4BBEF799-A0C4-4110-AB01-39216993C312"
+          ],
+          "limit": 3
+        },
+        "status": "ok",
+        "count": 3,
+        "ms": 3445
+      }
+    ],
+    "ms": 35577,
+    "tokens": 53526,
+    "model": "gemini-flash-latest"
+  }
+}

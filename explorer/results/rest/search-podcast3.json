@@ -1,0 +1,351 @@
+{
+  "request": {
+    "path": "/search",
+    "params": {
+      "query": "Lex Fridman Podcast",
+      "types": "urn:entity:podcast",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 302,
+    "url": "/search?query=Lex+Fridman+Podcast&types=urn%3Aentity%3Apodcast&take=5",
+    "requestId": "b1986126-7b57-47aa-b42b-4c3d981052c0",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49853",
+      "x-month-ratelimit-reset": "2591831.07",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.38"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "Lex Fridman Podcast",
+          "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+          "types": [
+            "urn:entity:podcast"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "en",
+                "value": "Friedman Podcast"
+              },
+              {
+                "language": "sl",
+                "value": "podcast Lexa Friedmana"
+              },
+              {
+                "language": "en",
+                "value": "Fridman Podcast"
+              },
+              {
+                "language": "sl",
+                "value": "podkast Lexa Friedmana"
+              },
+              {
+                "language": "es",
+                "value": "Lex Fridman Podcast"
+              },
+              {
+                "language": "en",
+                "value": "Podcast of Lex Fridman"
+              },
+              {
+                "language": "ja",
+                "value": "rexofredman ga seisaku shi ta interview style no podcast"
+              },
+              {
+                "language": "ja",
+                "value": "Lex Friedman Podcast"
+              },
+              {
+                "language": "ja",
+                "value": "レックス・フリードマン・ポッドキャスト"
+              },
+              {
+                "language": "sl",
+                "value": "Lex Fridman Podcast"
+              },
+              {
+                "language": "ca",
+                "value": "Lex Fridman Podcast"
+              },
+              {
+                "language": "en",
+                "value": "Lex Friedman Podcast"
+              }
+            ],
+            "external": {
+              "wikidata": {
+                "id": "q109248984"
+              },
+              "itunes": {
+                "id": "1434243584",
+                "user_rating": 4
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/CC4ADED4-65CD-4019-ADAE-97E467FCD8D8-420x-auto.jpg"
+            },
+            "short_description": "In-depth conversations exploring science, technology, philosophy, and the nature of intelligence and consciousness.",
+            "short_descriptions": [
+              {
+                "language": "de",
+                "value": "Tiefgehende Gespräche über Wissenschaft, Technologie, Philosophie sowie die Natur von Intelligenz und Bewusstsein."
+              },
+              {
+                "language": "es",
+                "value": "Conversaciones profundas que exploran la ciencia, tecnología, filosofía y la naturaleza de la inteligencia y la conciencia."
+              },
+              {
+                "language": "fr",
+                "value": "Conversations approfondies explorant la science, la technologie, la philosophie et la nature de l'intelligence et de la conscience."
+              },
+              {
+                "language": "en",
+                "value": "In-depth conversations exploring science, technology, philosophy, and the nature of intelligence and consciousness."
+              }
+            ]
+          },
+          "popularity": 0.9709030200041737,
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "Science",
+              "tag_id": "urn:tag:genre:media:science",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:science"
+            },
+            {
+              "name": "Podcasts",
+              "tag_id": "urn:tag:genre:media:podcasts",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:podcasts"
+            },
+            {
+              "name": "Technology",
+              "tag_id": "urn:tag:genre:media:technology",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:technology"
+            }
+          ]
+        },
+        {
+          "name": "The LexG Movie Podcast",
+          "entity_id": "62275CC6-9989-4CF1-B0C7-BBF9DA8755CC",
+          "types": [
+            "urn:entity:podcast"
+          ],
+          "properties": {
+            "external": {
+              "itunes": {
+                "id": "1554679929",
+                "user_rating": 4
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/62275CC6-9989-4CF1-B0C7-BBF9DA8755CC-420x-auto.jpg"
+            }
+          },
+          "popularity": 0.5436007512744835,
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "TV & Film",
+              "tag_id": "urn:tag:genre:media:tv_film",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:tv_film"
+            },
+            {
+              "name": "Film History",
+              "tag_id": "urn:tag:genre:media:film_history",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:film_history"
+            },
+            {
+              "name": "Podcasts",
+              "tag_id": "urn:tag:genre:media:podcasts",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:podcasts"
+            }
+          ]
+        },
+        {
+          "name": "Investing In Real Estate With Lex Levinrad",
+          "entity_id": "4D2D15D3-249B-4B35-AA4F-7E04572E7542",
+          "types": [
+            "urn:entity:podcast"
+          ],
+          "properties": {
+            "external": {
+              "itunes": {
+                "id": "1321120273",
+                "user_rating": 5
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/4D2D15D3-249B-4B35-AA4F-7E04572E7542-420x-auto.jpg"
+            },
+            "short_description": "Learn actionable steps to invest in real estate, including buying rental properties, wholesaling, and flipping houses.",
+            "short_descriptions": [
+              {
+                "language": "de",
+                "value": "Erfahren Sie umsetzbare Schritte zur Immobilieninvestition, einschließlich Kauf von Mietobjekten, Großhandel und Hausrenovierung."
+              },
+              {
+                "language": "es",
+                "value": "Aprende pasos prácticos para invertir en bienes raíces, incluyendo compra de propiedades de alquiler, venta al por mayor y renovación de casas."
+              },
+              {
+                "language": "fr",
+                "value": "Découvrez des étapes concrètes pour investir dans l'immobilier, y compris l'achat de biens locatifs, la vente en gros et la rénovation de maisons."
+              },
+              {
+                "language": "en",
+                "value": "Learn actionable steps to invest in real estate, including buying rental properties, wholesaling, and flipping houses."
+              }
+            ]
+          },
+          "popularity": 0.5436007512744835,
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "Investing",
+              "tag_id": "urn:tag:genre:media:investing",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:investing"
+            },
+            {
+              "name": "Podcasts",
+              "tag_id": "urn:tag:genre:media:podcasts",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:podcasts"
+            },
+            {
+              "name": "Business",
+              "tag_id": "urn:tag:genre:media:business",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:business"
+            }
+          ]
+        },
+        {
+          "name": "Lala Land with Lex",
+          "entity_id": "4637835E-4044-4954-B29F-1BD03775EE7D",
+          "types": [
+            "urn:entity:podcast"
+          ],
+          "properties": {
+            "external": {
+              "itunes": {
+                "id": "1676854716",
+                "user_rating": 5
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/4637835E-4044-4954-B29F-1BD03775EE7D-420x-auto.jpg"
+            }
+          },
+          "popularity": 0.4911009748680798,
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "Business",
+              "tag_id": "urn:tag:genre:media:business",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:business"
+            },
+            {
+              "name": "Society & Culture",
+              "tag_id": "urn:tag:genre:media:society_culture",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:society_culture"
+            },
+            {
+              "name": "Podcasts",
+              "tag_id": "urn:tag:genre:media:podcasts",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:podcasts"
+            },
+            {
+              "name": "Entrepreneurship",
+              "tag_id": "urn:tag:genre:media:entrepreneurship",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:entrepreneurship"
+            }
+          ]
+        },
+        {
+          "name": "@lexie",
+          "entity_id": "DF0987F5-D1BA-4A69-9588-09630CBEA756",
+          "types": [
+            "urn:entity:podcast"
+          ],
+          "properties": {
+            "external": {
+              "itunes": {
+                "id": "1540856979",
+                "user_rating": 4
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/DF0987F5-D1BA-4A69-9588-09630CBEA756-420x-auto.jpg"
+            },
+            "short_description": "A coming-of-age podcast exploring real-life questions and daydreams through the diary of a girl born in 1996.",
+            "short_descriptions": [
+              {
+                "language": "de",
+                "value": "Ein Coming-of-Age-Podcast, der reale Fragen und Tagträume durch das Tagebuch eines 1996 geborenen Mädchens erkundet."
+              },
+              {
+                "language": "es",
+                "value": "Un podcast de crecimiento personal que explora preguntas reales y sueños a través del diario de una chica nacida en 1996."
+              },
+              {
+                "language": "fr",
+                "value": "Un podcast sur le passage à l'âge adulte explorant des questions réelles et des rêveries à travers le journal intime d'une fille née en 1996."
+              },
+              {
+                "language": "en",
+                "value": "A coming-of-age podcast exploring real-life questions and daydreams through the diary of a girl born in 1996."
+              }
+            ]
+          },
+          "popularity": 0.7782249649703366,
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "Podcasts",
+              "tag_id": "urn:tag:genre:media:podcasts",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:podcasts"
+            },
+            {
+              "name": "Self-Improvement",
+              "tag_id": "urn:tag:genre:media:self_improvement",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:self_improvement"
+            },
+            {
+              "name": "Education",
+              "tag_id": "urn:tag:genre:media:education",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:education"
+            },
+            {
+              "name": "Society & Culture",
+              "tag_id": "urn:tag:genre:media:society_culture",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:society_culture"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

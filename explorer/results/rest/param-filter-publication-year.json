@@ -1,0 +1,2752 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:book",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.publication_year.min": 1990,
+      "filter.publication_year.max": 2010
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 643,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Abook&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.publication_year.min=1990&filter.publication_year.max=2010",
+    "requestId": "d0092b88-f7b7-4d6b-9c99-d5bdce485b92",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49574",
+      "x-month-ratelimit-reset": "2589193.96",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.16"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Lennon: The Man, the Myth, the Music - The Definitive Life",
+            "entity_id": "0279219C-2A8F-4430-A42C-3CE9BA01A57A",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "In his commanding new book, the eminent NPR critic Tim Riley takes us on the remarkable journey that brought a Liverpool art student from a disastrous childhood to the highest realms of fame.  Riley portrays Lennon’s rise from Hamburg’s red light district to Britain’s Royal Variety Show; from the charmed naivetÉ of “Love Me Do” to the soaring ambivalence of “Don’t Let Me Down”; from his shotgun marriage to Cynthia Powell in 1962 to his epic media romance with Yoko Ono. Written with the critical insight and stylistic mastery readers have come to expect from Riley, this richly textured narrative draws on numerous new and exclusive interviews with Lennon’s friends, enemies, confidantes, and associates; lost memoirs written by relatives and friends; as well as previously undiscovered City of Liverpool records. Riley explores Lennon in all of his the British art student who universalized an American style, the anarchic rock ’n’ roller with the moral spine, the anti-jazz snob who posed naked with his avant-garde lover, and the misogynist who became a househusband. What emerges is the enormous, seductive, and confounding personality that made Lennon a cultural touchstone.  In Lennon , Riley casts Lennon as a modernist hero in a sweeping epic, dramatizing rock history anew as Lennon himself might have experienced it.",
+              "format": "Hardcover",
+              "isbn13": "9781401324520",
+              "language": "English",
+              "page_count": 765,
+              "publication_date": "2010-12-01",
+              "publication_year": 2010,
+              "publisher": "Grand Central Publishing",
+              "title": "Lennon: The Man, the Myth, the Music - The Definitive Life",
+              "image": {
+                "url": "https://images.qloo.com/i/0279219C-2A8F-4430-A42C-3CE9BA01A57A-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine ausführliche Biografie über John Lennon, die sein Leben, seine Musik und seinen kulturellen Einfluss beleuchtet.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una biografía detallada de John Lennon que explora su vida, su música y su impacto cultural.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une biographie détaillée de John Lennon explorant sa vie, sa musique et son impact culturel.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A detailed biography of John Lennon, exploring his life, music, and cultural impact."
+            },
+            "popularity": 0.44414108719008827,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:pop_culture",
+                "name": "Pop Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:collections",
+                "name": "Collections",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cultural_icon",
+                "name": "Cultural Icon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:liverpool",
+                "name": "Liverpool",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:yoko_ono",
+                "name": "Yoko Ono",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:cynthia_powell",
+                "name": "Cynthia Powell",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rock_history",
+                "name": "Rock History",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_omniscient",
+                "name": "third person omniscient",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:cultural_impact",
+                "name": "Cultural Impact",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:personal_struggles",
+                "name": "Personal Struggles",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:liverpool_united_kingdom",
+                "name": "Liverpool, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:hamburg_germany",
+                "name": "Hamburg, Germany",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:cultural_change",
+                "name": "Cultural Change",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:cultural_biography",
+                "name": "Cultural Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:richly_textured",
+                "name": "Richly Textured",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:critically_acclaimed",
+                "name": "Critically Acclaimed",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_enthusiasts",
+                "name": "Music Enthusiasts",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:cultural_historians",
+                "name": "Cultural Historians",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:beatles_fans",
+                "name": "Beatles Fans",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:biographical_readers",
+                "name": "Biographical Readers",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8978967630575229
+            },
+            "disambiguation": "2010, Tim Riley",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "10777145",
+                  "user_rating": 3.89,
+                  "user_ratings_count": 476
+                }
+              ]
+            }
+          },
+          {
+            "name": "I Met the Walrus: How One Day with John Lennon Changed My Life Forever",
+            "entity_id": "8771BC91-8D3E-4BBB-9A3D-8F6AB6FED836",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "Imagine you're the world's biggest Beatles fan and you've just snuck into John Lennon's hotel room. But instead of being thrown out, inexplicably you're invited to spend the day with your idol. That's exactly what happened to fourteen-year-old Jerry Levitan in 1969. After hearing John was in Toronto for a \"bed in,\" Jerry tracked him down at the King Edward Hotel and convinced the world's biggest rock star to sit down for an exclusive forty-minute interview. John talked candidly about war, politics, the scandalous Two Virgins album, and the supposed subliminal messages in his music.  Now, forty years later, it's all here: Jerry's once-in-a-lifetime adventure, illustrated by acclaimed artist James Braithwaite and featuring never before seen photographs of John and Yoko. Also included in the book is Jerry's memorabilia from that day—notes from John and Yoko, the secret code to contact him, drawings, John's doodles, and much more. Complete with an audio and video DVD of the interview that inspired the Academy Award-nominated film of the same name, I Met the Walrus is an immortalized one-on-one moment with John—a must-have for Lennon fans around the world, as well as anyone who has ever dreamed of meeting a hero.",
+              "format": "Hardcover",
+              "isbn13": "9780061713262",
+              "language": "English",
+              "page_count": 168,
+              "publication_date": "2009-06-09",
+              "publication_year": 2009,
+              "publisher": "Harper Design",
+              "title": "I Met the Walrus: How One Day with John Lennon Changed My Life Forever",
+              "image": {
+                "url": "https://images.qloo.com/i/8771BC91-8D3E-4BBB-9A3D-8F6AB6FED836-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Ein Teenager interviewt 1969 John Lennon und nimmt ein offenes Gespräch über Musik und Politik auf.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un adolescente entrevista a John Lennon en 1969 y graba una conversación sincera sobre música y política.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un adolescent interviewe John Lennon en 1969 et enregistre une conversation sincère sur la musique et la politique.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A teenager interviews John Lennon in 1969, capturing a candid conversation about music and politics."
+            },
+            "popularity": 0.37451889730582494,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:13_17",
+                "name": "13-17",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:non_fiction",
+                "name": "Non-fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:interview",
+                "name": "Interview",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:beatles",
+                "name": "Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:toronto",
+                "name": "Toronto",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:1969",
+                "name": "1969",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:politics",
+                "name": "Politics",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:war",
+                "name": "War",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:two_virgins",
+                "name": "Two Virgins",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:memorabilia",
+                "name": "Memorabilia",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:audio",
+                "name": "Audio",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fandom",
+                "name": "Fandom",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:celebrity",
+                "name": "Celebrity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:politics",
+                "name": "Politics",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:war",
+                "name": "War",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:youth",
+                "name": "Youth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:toronto_canada",
+                "name": "Toronto, Canada",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:celebrity",
+                "name": "Celebrity",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:youth",
+                "name": "Youth",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:rebellion",
+                "name": "Rebellion",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:illustrative",
+                "name": "Illustrative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:candid",
+                "name": "Candid",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_inclined",
+                "name": "Historically-inclined",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8914653042881804
+            },
+            "disambiguation": "2009, Jerry Levitan",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "6239817",
+                  "user_rating": 3.8,
+                  "user_ratings_count": 280
+                }
+              ]
+            }
+          },
+          {
+            "name": "Paul McCartney",
+            "entity_id": "8F50D2B6-0911-4CAF-8D77-B1082A7277C6",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "More than a rock star, more than a celebrity, Paul McCartney is a cultural touchstone. As one half of the legendary Lennon-McCartney songwriting duo, he helped transform popular music, moving from the simplistic pop of \"Love Me Do\" to the avant-garde symphonics of \"A Day in the Life\" to generation-binding anthems such as \"Hey, Jude\" and \"Let It Be.\" Along the way the Beatles ascended from the dank basements of working-class Liverpool to heights of fame and wealth no previous entertainer could ever have imagined.  McCartney's own ambitions fueled much of the group's progress. But even as he steered himself from childhood tragedy to his meeting with John Lennon to the gestation of the Beatles and their rise to international acclaim, the same appetites that drove the group to its greatest creative and commercial heights also served to tear the band members apart.  Still, McCartney's career didn't end with the Beatles' breakup. Nor, for that matter, did the bonds between the Beatles. And in this definitive biography, Peter Ames Carlin examines McCartney's entire life, casting new light not just on the Beatles era, but also on his years with Wings and his thirty-year relationship with his first wife, Linda McCartney. He takes us on a journey through a tumultuous couple of decades in which Paul struck out on his own as a solo artist, reached the top of the charts with a new band, and once again drew hundreds of thousands of screaming fans to his concerts. Carlin presents McCartney as a musical visionary, capable of crafting pop gems such as \"Band on the Run\" and \"Maybe I'm Amazed.\" But he also reveals a layered and often conflicted figure, as haunted by his legacy -- and particularly his relationship with John Lennon -- as he was inspired by it.  Built on years of research and fresh, revealing interviews with friends, bandmates, and collaborators spanning McCartney's entire life, Carlin's lively biography captures the many facets of Paul McCartney and paints a vivid portrait of one of our era's living legends.",
+              "format": "Hardcover",
+              "isbn13": "9781416562092",
+              "language": "English",
+              "page_count": 374,
+              "publication_date": "2009-10-01",
+              "publication_year": 2009,
+              "publisher": "Touchstone",
+              "title": "Paul McCartney",
+              "image": {
+                "url": "https://images.qloo.com/i/8F50D2B6-0911-4CAF-8D77-B1082A7277C6-420x-auto.jpg"
+              }
+            },
+            "popularity": 0.8588686096642141,
+            "query": {
+              "affinity": 0.8765518388009892
+            },
+            "disambiguation": "2009, Peter Ames Carlin",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "6678031",
+                  "user_rating": 3.88,
+                  "user_ratings_count": 1888
+                }
+              ]
+            }
+          },
+          {
+            "name": "Dark Star: The Roy Orbison Story",
+            "entity_id": "BD76DA9D-4E76-4F64-B37B-DF17EE973CB8",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "A detailed biography of singer Roy Orbison chronicles the life and career of the influential rock 'n' roll pioneer, from his rise to stardom, to the tragedies that led to his obscurity, to his dramatic comeback and premature death at the age of fifty-two",
+              "format": "Hardcover",
+              "isbn10": "9780818405",
+              "isbn13": "9780818405181",
+              "language": "English",
+              "page_count": 283,
+              "publication_date": "1990-05-01",
+              "publication_year": 1990,
+              "publisher": "Lyle Stuart",
+              "title": "Dark Star: The Roy Orbison Story",
+              "image": {
+                "url": "https://images.qloo.com/i/BD76DA9D-4E76-4F64-B37B-DF17EE973CB8-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine Biografie über Roy Orbisons Leben, Karriere und sein Comeback.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una biografía que narra la vida, la carrera y el regreso de Roy Orbison.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une biographie retraçant la vie, la carrière et le retour de Roy Orbison.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A biography of Roy Orbison's life, career, and comeback."
+            },
+            "popularity": 0.18957486161922507,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rock_n_roll",
+                "name": "Rock 'n' Roll",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:stardom",
+                "name": "Stardom",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:comeback",
+                "name": "Comeback",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music_industry",
+                "name": "Music Industry",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:roy_orbison",
+                "name": "Roy Orbison",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_objective",
+                "name": "third person objective",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:inspirational",
+                "name": "Inspirational",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:tragic",
+                "name": "Tragic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:uplifting",
+                "name": "Uplifting",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:resilience",
+                "name": "Resilience",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:fame",
+                "name": "Fame",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:tragedy",
+                "name": "Tragedy",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:comeback",
+                "name": "Comeback",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music_biography",
+                "name": "Music Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1950s",
+                "name": "1950s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1980s",
+                "name": "1980s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotional",
+                "name": "Emotional",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_enthusiasts",
+                "name": "Music Enthusiasts",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:history_buffs",
+                "name": "History Buffs",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fans_of_roy_orbison",
+                "name": "Fans of Roy Orbison",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:biographical_readers",
+                "name": "Biographical Readers",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8752517814946928
+            },
+            "disambiguation": "1990, Ellis Amburn",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "830445",
+                  "user_rating": 3.71,
+                  "user_ratings_count": 132
+                }
+              ]
+            }
+          },
+          {
+            "name": "A Day in the Life: The Music and Artistry of the Beatles",
+            "entity_id": "8676D047-B4E4-46C2-8058-9D28F347D76A",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "They are the most popular and accomplished musical artists of this century. But for more than three decades, the secrets behind the Beatles' unparalleled artistic evolution were beyond reach--sealed in a locked room at London's Abbey Road Studios.  In this comprehensive and brilliantly rendered book the only \"outsider\" to gain access to these invaluable musical archives provides a new, fascinating look at the music and artistry of the Beatles, revealing how four untrained musicians merged their collective genius into a single creative force, how they came together to paint pictures with sound...and how album by album, the Beatles transformed the landscape of popular music forever.  Combining literary analysis and investigative reporting with page-turning storytelling and musical explication, author Mark Hertsgaard has written the first serious biography of the music of the Beatles.  A Day in the Life takes readers inside the Beatles' creative process as never before, from the first tentative run-throughs in the studio of such classics as \"Eleanor Rigby\" and \"I Want to Hold Your Hand\" to the final master tapes.  Here we learn how George Harrison's stirring composition \"While My Guitar Gently Weeps\" was completely transformed from an achingly meditative acoustic masterpiece to a hard-rocking hit--in forty-four takes.  We recall how the fantastic final mix of \"Strawberry Fields Forever\" opens the door to a psychedelic utopia, but discover it is the haunting solo version that takes us down to the core of John Lennon's disillusioned soul.  And only here do we see how the Beatles' audacious ability to reinvent themselves stamped the group's unfolding ingenuity on each album like a fingerprint.  With rare insight, Mark Hertsgaard unlocks the mystery of the century's most dynamic musical collaboration: the competitive and creative partnership of John Lennon and Paul McCartney.  A Day in the Life traces the way Lennon and McCartney worked together and paints an intricate picture of the composers as we have never seen them before: Paul, the optimistic foil who made John's ominous fragments whole...John, the natural poet who injected raw sexuality into \"I Saw Her Standing There\" by making a simple five word change.  Smart, fresh, compulsively readable, A Day in the Life reveals John, Paul, George, and Ringo not as celebrities or cultural icons but as musicians whose work will be remembered as some of the most important art of the twentieth century.",
+              "format": "Paperback",
+              "isbn13": "9780385315173",
+              "language": "English",
+              "page_count": 448,
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "publisher": "Delta",
+              "title": "A Day in the Life: The Music and Artistry of the Beatles",
+              "image": {
+                "url": "https://images.qloo.com/i/8676D047-B4E4-46C2-8058-9D28F347D76A-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine Erkundung der künstlerischen Entwicklung und des kreativen Schaffensprozesses der Beatles.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un recorrido por la evolución artística y el proceso creativo de los Beatles.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une exploration de l'évolution artistique et du processus créatif des Beatles.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "An exploration of the Beatles' artistic evolution and creative process."
+            },
+            "popularity": 0.899267635898761,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:adult",
+                "name": "Adult",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:pop_culture",
+                "name": "Pop Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:rock_n_roll",
+                "name": "Rock N Roll",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:art",
+                "name": "Art",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:british_literature",
+                "name": "British Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:beatles",
+                "name": "Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:artistry",
+                "name": "Artistry",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:abbey_road_studios",
+                "name": "Abbey Road Studios",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:paul_mccartney",
+                "name": "Paul McCartney",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:george_harrison",
+                "name": "George Harrison",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:ringo_starr",
+                "name": "Ringo Starr",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:musical_evolution",
+                "name": "Musical Evolution",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:creative_process",
+                "name": "Creative Process",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_objective",
+                "name": "third person objective",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:comprehensive",
+                "name": "Comprehensive",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:artistic_evolution",
+                "name": "Artistic Evolution",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:collaboration",
+                "name": "Collaboration",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:musical_innovation",
+                "name": "Musical Innovation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:creative_process",
+                "name": "Creative Process",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:musical_innovation",
+                "name": "Musical Innovation",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:creative_collaboration",
+                "name": "Creative Collaboration",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:artistic_transformation",
+                "name": "Artistic Transformation",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:musical_biography",
+                "name": "Musical Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:cultural_history",
+                "name": "Cultural History",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:analytical",
+                "name": "Analytical",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_minded",
+                "name": "Historically-minded",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8747882465693574
+            },
+            "disambiguation": "1995, Mark Hertsgaard",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "35602",
+                  "user_rating": 4.17,
+                  "user_ratings_count": 1222
+                }
+              ]
+            }
+          },
+          {
+            "name": "You Never Give Me Your Money: The Beatles After the Breakup",
+            "entity_id": "B6FC7ADA-ACFD-436E-B912-B75B8B2F010B",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "The world stopped in 1970 when Paul McCartney announced that he was through with the Beatles. His statement not only marked the end of the band's remarkable career, but also seemed to signal the demise of an era of unprecedented optimism in social history. Though the Beatles' breakup was widely viewed as a cultural tragedy, one of the most fascinating phases of their story was just about to begin.  Now, for the first time, You Never Give Me Your Money tells the behind-the-scenes story of the personal rivalries and legal feuds that have dominated the Beatles' lives since 1969. Journalist Peter Doggett charts the Shakespearean battles between Lennon and McCartney, the conflict in George Harrison's life between spirituality and fame, and the struggle with alcoholism that threatened to take Richard Starkey's life. In vivid detail, Doggett also describes the wild mismanagement of the Beatles' fortune staked largely in Apple Corps.  You Never Give Me Your Money is a compelling human drama and an equally rich and absorbing story of the Beatles' creative and financial empire, set up to safeguard their interests but destined to control their lives. From tragedy to triumphant reunion, and chart success to courtroom battles, this meticulously researched work tells the previously untold story of a group and a legacy that will never be forgotten.",
+              "format": "Paperback",
+              "isbn13": "9780061774188",
+              "language": "English",
+              "page_count": 390,
+              "publication_date": "2010-05-21",
+              "publication_year": 2010,
+              "publisher": "HarperCollins HarperStudio",
+              "title": "You Never Give Me Your Money: The Beatles After the Breakup",
+              "image": {
+                "url": "https://images.qloo.com/i/B6FC7ADA-ACFD-436E-B912-B75B8B2F010B-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Das Buch beschreibt die Trennung der Beatles und die anschließenden rechtlichen und persönlichen Konflikte.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "El libro narra la ruptura de los Beatles y las batallas legales y personales que siguieron.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Le livre raconte la séparation des Beatles et les conflits juridiques et personnels qui ont suivi.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "The book details the Beatles' breakup and subsequent legal and personal battles."
+            },
+            "popularity": 0.8356430796012457,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:musicals",
+                "name": "Musicals",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:rock_n_roll",
+                "name": "Rock N Roll",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:pop_culture",
+                "name": "Pop Culture",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:audiobook",
+                "name": "Audiobook",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:enthralling",
+                "name": "enthralling",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:gripping",
+                "name": "gripping",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:elegant",
+                "name": "elegant",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:deeply_researched",
+                "name": "deeply researched",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:even_handed",
+                "name": "even-handed",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:beatles",
+                "name": "Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:breakup",
+                "name": "Breakup",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:rivalries",
+                "name": "Rivalries",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:legal_battles",
+                "name": "Legal Battles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:apple_corps",
+                "name": "Apple Corps",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music_industry",
+                "name": "Music Industry",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:reunion",
+                "name": "Reunion",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:financial_empire",
+                "name": "Financial Empire",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:third_person_objective",
+                "name": "third person objective",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:dramatic",
+                "name": "Dramatic",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:complex",
+                "name": "Complex",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:breakup",
+                "name": "Breakup",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:rivalry",
+                "name": "Rivalry",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:legal_battles",
+                "name": "Legal Battles",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:reunion",
+                "name": "Reunion",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:new_york_united_states",
+                "name": "New York, United States",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:legal_battles",
+                "name": "Legal Battles",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:financial_struggles",
+                "name": "Financial Struggles",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:reunion",
+                "name": "Reunion",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1980s",
+                "name": "1980s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1990s",
+                "name": "1990s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:meticulous",
+                "name": "Meticulous",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dramatic",
+                "name": "Dramatic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:informative",
+                "name": "Informative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:historically_minded",
+                "name": "Historically-minded",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:detail_oriented",
+                "name": "Detail-oriented",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8740436761376983
+            },
+            "disambiguation": "2010, Peter Doggett",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "7972484",
+                  "user_rating": 4.12,
+                  "user_ratings_count": 2668
+                }
+              ]
+            }
+          },
+          {
+            "name": "Here Comes the Sun: The Spiritual and Musical Journey of George Harrison",
+            "entity_id": "E21081D8-D4F3-45C1-9BCD-C026A10387E5",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "A fascinating read. –\n  Associated Press\nJoshua Greene, who studied meditation with the legendary Beatle George Harrison, draws on personal remembrances, recorded conversations, and firsthand accounts to create a moving portrait of Harrison's spiritual life, his profound contribution to the Beatles' music, and previously unpublished anecdotes about his time with music legends Bob Dylan, Elvis Presley, and others.  \"Many well-known artists have touched people's hearts with their music, but few have ever succeeded in touching people's souls. That was George's gift, and his story is described here with affection and taste. A wonderful book.\" –Mia Farrow",
+              "format": "Hardcover",
+              "isbn13": "9780471690214",
+              "language": "English",
+              "page_count": 320,
+              "publication_date": "2006-01-01",
+              "publication_year": 2006,
+              "publisher": "Wiley",
+              "title": "Here Comes the Sun: The Spiritual and Musical Journey of George Harrison",
+              "image": {
+                "url": "https://images.qloo.com/i/E21081D8-D4F3-45C1-9BCD-C026A10387E5-420x-auto.jpg"
+              }
+            },
+            "popularity": 0.7012335269077506,
+            "query": {
+              "affinity": 0.8729249576836938
+            },
+            "disambiguation": "2006, Joshua M. Greene",
+            "external": {
+              "wikidata": [
+                {
+                  "id": "q4189975"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "659860",
+                  "user_rating": 4.18,
+                  "user_ratings_count": 600
+                }
+              ]
+            }
+          },
+          {
+            "name": "With A Little Help From My Friends: The Making of Sgt. Pepper",
+            "entity_id": "8D9AAA64-C564-41E8-9781-69DDDD774169",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "On 1 June 1967, at the height of the Summer of Love, the Beatles made \"Sgt Pepper's Lonely Hearts Club Band\". In this book the band's producer George Martin tells his story of the nine months it took to make the recording, featuring songs such as \"Lucy in the Sky with Diamonds\" to \"A Day in the Life\" and \"She's Leaving Home\". 1966 had seen a crossroads in the Beatles career, with the band under strain from the pressures of live performances. They decided to make an album that was like a show. Martin follows through the creation of the album's songs and offers an insight into the recording process itself.",
+              "format": "Hardcover",
+              "isbn13": "9780316547833",
+              "language": "English",
+              "page_count": 176,
+              "publication_date": "1994-10-01",
+              "publication_year": 1994,
+              "publisher": "Little, Brown & Company",
+              "title": "With A Little Help From My Friends: The Making of Sgt. Pepper",
+              "image": {
+                "url": "https://images.qloo.com/i/8D9AAA64-C564-41E8-9781-69DDDD774169-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "George Martin erzählt, wie das Beatles-Album 'Sgt. Pepper' entstanden ist.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "George Martin narra cómo se creó el álbum 'Sgt. Pepper' de los Beatles.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "George Martin raconte la création de l'album 'Sgt. Pepper' des Beatles.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "George Martin recounts the making of the Beatles' 'Sgt. Pepper' album."
+            },
+            "popularity": 0.6083926069985992,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:non_fiction",
+                "name": "Non-fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:beatles",
+                "name": "Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:sgt_pepper_s_lonely_hearts_club_band",
+                "name": "Sgt. Pepper's Lonely Hearts Club Band",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:recording_process",
+                "name": "Recording Process",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music_production",
+                "name": "Music Production",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:summer_of_love",
+                "name": "Summer of Love",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:george_martin",
+                "name": "George Martin",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:album_creation",
+                "name": "Album Creation",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:informative",
+                "name": "Informative",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:innovation",
+                "name": "Innovation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:creativity",
+                "name": "Creativity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music_production",
+                "name": "Music Production",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:collaboration",
+                "name": "Collaboration",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:studio_innovation",
+                "name": "Studio Innovation",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:musical_experimentation",
+                "name": "Musical Experimentation",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:cultural_revolution",
+                "name": "Cultural Revolution",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_enthusiasts",
+                "name": "Music Enthusiasts",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:beatles_fans",
+                "name": "Beatles Fans",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:history_buffs",
+                "name": "History Buffs",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:creative_thinkers",
+                "name": "Creative Thinkers",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.864052613879012
+            },
+            "disambiguation": "1994, George  Martin",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "400336",
+                  "user_rating": 4.31,
+                  "user_ratings_count": 461
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Olivetti Chronicles",
+            "entity_id": "D1A51CD2-B2A9-4078-82EB-2FD74FD29DFC",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "John Peel, best known for his four decades of music-scene radio broadcasting, was all the while committing his laconic brilliance to paper in articles and reviews. Selections of these writings amount to a second autobiography.",
+              "format": "Hardcover",
+              "isbn13": "9780593060612",
+              "language": "English",
+              "page_count": 400,
+              "publication_date": "2008-01-01",
+              "publication_year": 2008,
+              "publisher": "Bantam Press",
+              "title": "The Olivetti Chronicles",
+              "image": {
+                "url": "https://images.qloo.com/i/D1A51CD2-B2A9-4078-82EB-2FD74FD29DFC-420x-auto.jpg"
+              },
+              "short_descriptions": [
+                {
+                  "value": "Eine Sammlung von John Peels Texten, die Einblicke in sein Leben und seine Karriere gibt.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una recopilación de escritos de John Peel que ofrece una visión de su vida y carrera.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un recueil d'écrits de John Peel offrant un aperçu de sa vie et de sa carrière.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A collection of John Peel's writings offering insights into his life and career."
+            },
+            "popularity": 0.3177317792979641,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:essays",
+                "name": "Essays",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:british_literature",
+                "name": "British Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:21st_century",
+                "name": "21st Century",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:journalism",
+                "name": "Journalism",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:humor",
+                "name": "Humor",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:non_fiction",
+                "name": "Non-fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:radio_broadcasting",
+                "name": "Radio Broadcasting",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music_scene",
+                "name": "Music Scene",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:articles",
+                "name": "Articles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:reviews",
+                "name": "Reviews",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:john_peel",
+                "name": "John Peel",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:digital",
+                "name": "Digital",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:informative",
+                "name": "Informative",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:personal",
+                "name": "Personal",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:broadcasting",
+                "name": "Broadcasting",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:personal_insight",
+                "name": "Personal Insight",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:music_industry",
+                "name": "Music Industry",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:radio_broadcasting",
+                "name": "Radio Broadcasting",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:personal_reflection",
+                "name": "Personal Reflection",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:2000s",
+                "name": "2000s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:laconic",
+                "name": "Laconic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_enthusiasts",
+                "name": "Music Enthusiasts",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:radio_listeners",
+                "name": "Radio Listeners",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:cultural_historians",
+                "name": "Cultural Historians",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:fans_of_john_peel",
+                "name": "Fans of John Peel",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.858564674210853
+            },
+            "disambiguation": "2008, John  Peel",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "4387676",
+                  "user_rating": 3.87,
+                  "user_ratings_count": 252
+                }
+              ]
+            }
+          },
+          {
+            "name": "Paul McCartney: Many Years from Now",
+            "entity_id": "2668A26D-A9B3-491D-855D-EF0993D5FC65",
+            "type": "urn:entity",
+            "subtype": "urn:entity:book",
+            "properties": {
+              "description": "During the past year Paul McCartney has been in the public's eye more than at any time since the peak of Beatlemania over thirty years ago. His fans have been treated to the best-selling Flaming Pie and Standing Stone albums, a full hour of Paul on \"Oprah,\" and this thoughtful and comprehensive biography that brings us closer to the man than ever before. Based on hundreds of hours of exclusive interviews over a period of five years, and with complete access to Paul's own archives, Barry Miles has succeeded in letting Paul tell the story of his life as a Beatle in his own words. It includes Paul's recollection of the genesis of every song that he wrote with John Lennon and the fascinating details about their remarkable collaboration.",
+              "format": "Hardcover",
+              "isbn13": "9780436280221",
+              "language": "English",
+              "page_count": 576,
+              "publication_date": "1997-10-02",
+              "publication_year": 1997,
+              "publisher": "Random House of Canada, Ltd.",
+              "title": "Paul McCartney: Many Years from Now",
+              "image": {
+                "url": "https://images.qloo.com/i/2668A26D-A9B3-491D-855D-EF0993D5FC65-420x-auto.jpg"
+              },
+              "akas": [
+                {
+                  "value": "Les Beatles, les sixties et moi",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Eine Biografie über Paul McCartney mit Schwerpunkt auf seinen Beatles-Jahren und der Songwriter-Partnerschaft mit John Lennon.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Una biografía de Paul McCartney centrada en sus años con los Beatles y su colaboración como compositor con John Lennon.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Une biographie de Paul McCartney axée sur ses années Beatles et son partenariat d'écriture avec John Lennon.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "short_description": "A biography of Paul McCartney focusing on his Beatles years and songwriting partnership with John Lennon."
+            },
+            "popularity": 0.9346278339158699,
+            "tags": [
+              {
+                "id": "urn:tag:genre:media:autobiography",
+                "name": "Autobiography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:rock_n_roll",
+                "name": "Rock N Roll",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:history",
+                "name": "History",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:biography_memoir",
+                "name": "Biography Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:british_literature",
+                "name": "British Literature",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:music",
+                "name": "Music",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:nonfiction",
+                "name": "Nonfiction",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:genre:media:memoir",
+                "name": "Memoir",
+                "type": "urn:tag:genre:media"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:18_24",
+                "name": "18-24",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:25_29",
+                "name": "25-29",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:30_34",
+                "name": "30-34",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:35_44",
+                "name": "35-44",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:45_54",
+                "name": "45-54",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:age_ranges:qloo:55_",
+                "name": "55+",
+                "type": "urn:tag:age_ranges:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:controversial",
+                "name": "Controversial",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:critical_descriptor:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:critical_descriptor:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:hardcover",
+                "name": "Hardcover",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:book_format:qloo:paperback",
+                "name": "Paperback",
+                "type": "urn:tag:book_format:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:paul_mccartney",
+                "name": "Paul McCartney",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:biography",
+                "name": "Biography",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:songwriting",
+                "name": "Songwriting",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:lennon_mccartney",
+                "name": "Lennon-McCartney",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:avant_garde",
+                "name": "Avant-garde",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:1960s_london",
+                "name": "1960s London",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:keyword:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:keyword:qloo"
+              },
+              {
+                "id": "urn:tag:media_type:qloo:print",
+                "name": "Print",
+                "type": "urn:tag:media_type:qloo"
+              },
+              {
+                "id": "urn:tag:narrative:qloo:first_person",
+                "name": "first person",
+                "type": "urn:tag:narrative:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:insightful",
+                "name": "Insightful",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:revealing",
+                "name": "Revealing",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:character:qloo:controversial",
+                "name": "Controversial",
+                "type": "urn:tag:character:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:creativity",
+                "name": "Creativity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:collaboration",
+                "name": "Collaboration",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:music",
+                "name": "Music",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:setting:qloo:london_united_kingdom",
+                "name": "London, United Kingdom",
+                "type": "urn:tag:setting:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:songwriting",
+                "name": "Songwriting",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:collaboration",
+                "name": "Collaboration",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:avant_garde",
+                "name": "Avant-garde",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:motif:qloo:legacy",
+                "name": "Legacy",
+                "type": "urn:tag:motif:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1960s",
+                "name": "1960s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:time_period:qloo:1970s",
+                "name": "1970s",
+                "type": "urn:tag:time_period:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:detailed",
+                "name": "Detailed",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:personal",
+                "name": "Personal",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:historical",
+                "name": "Historical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:controversial",
+                "name": "Controversial",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:music_loving",
+                "name": "Music-loving",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:curious",
+                "name": "Curious",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              },
+              {
+                "id": "urn:tag:viewer_characteristic:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:viewer_characteristic:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8584869988889084
+            },
+            "disambiguation": "1997, Barry Miles",
+            "external": {
+              "goodreads": [
+                {
+                  "id": "305955",
+                  "user_rating": 4.17,
+                  "user_ratings_count": 4019
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:artist",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "filter.entities.query": "Thom Yorke"
+    }
+  },
+  "response": {
+    "ok": false,
+    "status": 400,
+    "ms": 308,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aartist&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&filter.entities.query=Thom+Yorke",
+    "requestId": "f8072448-226d-4906-8c64-9cd7e12e9fb8",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49564",
+      "x-month-ratelimit-reset": "2589179.52",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "errors": [
+        {
+          "message": "the entities.query parameter can only be used in a POST request",
+          "path": "entities.query"
+        }
+      ]
+    }
+  }
+}

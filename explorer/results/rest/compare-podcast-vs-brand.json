@@ -1,0 +1,1059 @@
+{
+  "request": {
+    "path": "/v2/analysis/compare",
+    "params": {
+      "a.signal.interests.entities": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+      "b.signal.interests.entities": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 297,
+    "url": "/v2/analysis/compare?a.signal.interests.entities=10E08FC9-04BB-4827-9331-7E9ABE1F7DB6&b.signal.interests.entities=DB4CE34E-3A63-4947-946F-9D52502C5762&take=10",
+    "requestId": "c90af0a7-8a08-43e3-8041-0958830fb302",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49820",
+      "x-month-ratelimit-reset": "2591794.55",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 14,
+      "results": {
+        "tags": [],
+        "a": [
+          {
+            "tag_id": "urn:tag:content:qloo:educational",
+            "name": "Educational",
+            "type": "urn:tag",
+            "subtype": "urn:tag:content:qloo",
+            "entity_id": "032E1171-A554-4793-87C8-FCF8E98160D5",
+            "popularity": 0.9803319,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:professional",
+            "name": "Professional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "057E63EE-EA8C-40AB-ABDE-AFF9DE02FE9F",
+            "popularity": 0.9805977,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:health",
+            "name": "Health",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "062F27E8-AB69-41BB-B631-7D770FF46D61",
+            "popularity": 0.9507835,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:health_conscious",
+            "name": "Health-conscious",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "2741F90E-8964-40B9-A7DE-91EB2F74ED6A",
+            "popularity": 0.9596122,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:podcasts",
+            "name": "Podcasts",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:media",
+            "entity_id": "30A3696D-4356-41F4-81B8-6D39C8EAFA35",
+            "popularity": 0.9999287,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:science",
+            "name": "Science",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:media",
+            "entity_id": "367C975F-3B04-4C56-825A-9F70DA9FBA4F",
+            "popularity": 0.9997987,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:neuroscience",
+            "name": "Neuroscience",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "42562868-9027-4404-AD2B-F0597A0936F8",
+            "popularity": 0.6444139,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:neuroscience",
+            "name": "Neuroscience",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "42D105F0-CE5C-499A-A969-37B31F7B52A6",
+            "popularity": 0.6168762,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:health_fitness",
+            "name": "Health & Fitness",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:media",
+            "entity_id": "6259CF09-CEC2-47BB-B358-254ACDDAF85E",
+            "popularity": 0.9994942,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:performance",
+            "name": "Performance",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "666E9F58-7FE2-45D6-A4F8-A3E632C322D7",
+            "popularity": 0.9484492,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:science",
+            "name": "Science",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "74E1E1E3-CF76-4784-995B-C7A45EF4596B",
+            "popularity": 0.9419086,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:host:qloo:insightful",
+            "name": "Insightful",
+            "type": "urn:tag",
+            "subtype": "urn:tag:host:qloo",
+            "entity_id": "7873F649-FCD6-4DC4-B07D-865BE53FF149",
+            "popularity": 0.992766,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:archetype:qloo:the_explorer",
+            "name": "The Explorer",
+            "type": "urn:tag",
+            "subtype": "urn:tag:archetype:qloo",
+            "entity_id": "79253592-CF45-496F-9B8A-B58DC24B730B",
+            "popularity": 0.9631714,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:qloo:science",
+            "name": "Science",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:qloo",
+            "entity_id": "86037AA1-85DA-4135-B559-E8B3F4FDB56B",
+            "popularity": 0.87600535,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:subgenre:qloo:self_improvement",
+            "name": "Self-improvement",
+            "type": "urn:tag",
+            "subtype": "urn:tag:subgenre:qloo",
+            "entity_id": "9189BEC2-50B3-4E78-9EFC-1C351E8E7CA1",
+            "popularity": 0.9609642,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:thoughtfully_structured",
+            "name": "Thoughtfully Structured",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "950E5B17-134F-4157-B079-D21664B9D54E",
+            "popularity": 0.15561153,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:content:qloo:practical",
+            "name": "Practical",
+            "type": "urn:tag",
+            "subtype": "urn:tag:content:qloo",
+            "entity_id": "AF793962-C921-45B3-8038-6D217A69DA67",
+            "popularity": 0.9765878,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:archetype:qloo:the_scientist",
+            "name": "The Scientist",
+            "type": "urn:tag",
+            "subtype": "urn:tag:archetype:qloo",
+            "entity_id": "BA18CC50-5D9C-4DA0-9AE2-797E8E70F4B5",
+            "popularity": 0.84496623,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:health_optimization",
+            "name": "Health Optimization",
+            "type": "urn:tag",
+            "subtype": "urn:tag:theme:qloo",
+            "entity_id": "BEFBB2EA-28D7-4114-930B-EECB1B6561DF",
+            "popularity": 0.6779722,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:mental_health",
+            "name": "Mental Health",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "C684051B-A803-4C57-A0E0-54AA5F102519",
+            "popularity": 0.95576406,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:curious",
+            "name": "Curious",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "CF4358BC-2ABD-4A9E-A8F5-AC06971883B5",
+            "popularity": 0.99447626,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:science_driven",
+            "name": "Science-driven",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "CF6BE449-1420-4175-A0AA-79246774AE8E",
+            "popularity": 0.12258482,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:subgenre:qloo:neuroscience",
+            "name": "Neuroscience",
+            "type": "urn:tag",
+            "subtype": "urn:tag:subgenre:qloo",
+            "entity_id": "D54E5B1C-488E-4F0E-A024-02BEC437758C",
+            "popularity": 0.48644495,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:media:life_sciences",
+            "name": "Life Sciences",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:media",
+            "entity_id": "D665821C-B05C-43E7-88DC-85ECC499FAA0",
+            "popularity": 0.9956336,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:host:qloo:engaging",
+            "name": "Engaging",
+            "type": "urn:tag",
+            "subtype": "urn:tag:host:qloo",
+            "entity_id": "D75633EE-7900-4B7E-AF3A-D12F15F36F7D",
+            "popularity": 0.9904086,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:audience:qloo:self_improving",
+            "name": "Self-improving",
+            "type": "urn:tag",
+            "subtype": "urn:tag:audience:qloo",
+            "entity_id": "DDE84C91-92A5-45CB-B61D-9B6C70BB91C8",
+            "popularity": 0.6067995,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:polished",
+            "name": "Polished",
+            "type": "urn:tag",
+            "subtype": "urn:tag:style:qloo",
+            "entity_id": "E8A3956D-A955-480D-9074-1C10B63EC374",
+            "popularity": 0.9822386,
+            "query": {
+              "count": "1"
+            }
+          }
+        ],
+        "b": [
+          {
+            "tag_id": "urn:tag:genre:brand:fashion:casual",
+            "name": "Casual",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:brand",
+            "entity_id": "00AEDD18-6E68-4327-843E-8E8E52A03B85",
+            "popularity": 0.99765635,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:product_service:qloo:accessories",
+            "name": "Accessories",
+            "type": "urn:tag",
+            "subtype": "urn:tag:product_service:qloo",
+            "entity_id": "03B7E5AD-D7A1-4F4A-878E-BC61FA80728D",
+            "popularity": 0.9863987,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:exploration",
+            "name": "Exploration",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "08B3AC5E-4857-489C-8D13-FDD5DCCBEBDE",
+            "popularity": 0.89173293,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:sustainability",
+            "name": "Sustainability",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "0A58B813-DAF2-4479-B6CC-66AAA1273A4C",
+            "popularity": 0.94423133,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:industry:qloo:retail",
+            "name": "Retail",
+            "type": "urn:tag",
+            "subtype": "urn:tag:industry:qloo",
+            "entity_id": "0BE6EE8B-950F-438E-9890-4F9083E14DC3",
+            "popularity": 0.9776278,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:natural_fibers",
+            "name": "natural fibers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "0C2A3E53-50D6-4486-A6EE-6785900CD7DB",
+            "popularity": 0,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:influencer_appeal:qloo:environmental_activists",
+            "name": "Environmental activists",
+            "type": "urn:tag",
+            "subtype": "urn:tag:influencer_appeal:qloo",
+            "entity_id": "0F54A295-A6CC-4C3A-93DC-E0DDA387272B",
+            "popularity": 0.6311246,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:personal_style:qloo:minimalist",
+            "name": "Minimalist",
+            "type": "urn:tag",
+            "subtype": "urn:tag:personal_style:qloo",
+            "entity_id": "1346B315-594D-4581-B1C9-9C98155E8672",
+            "popularity": 0.9715032,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:influencer_appeal:qloo:outdoor_adventurers",
+            "name": "outdoor adventurers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:influencer_appeal:qloo",
+            "entity_id": "1FB6CAFE-4794-4995-B372-08E01491E512",
+            "popularity": 0.870031,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:environmental_activism",
+            "name": "Environmental Activism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "21D4478E-A56F-41A5-B6A0-4C14C381124D",
+            "popularity": 0,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:nature_lovers",
+            "name": "nature lovers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "21F7F94C-6957-4F7D-87A7-3AA6F13F7A92",
+            "popularity": 0.75286585,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:care",
+            "name": "care",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "245FC292-878C-4FFB-9B91-7313C19A3A51",
+            "popularity": 0.52246463,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:influencer_appeal:qloo:outdoor_enthusiasts",
+            "name": "Outdoor Enthusiasts",
+            "type": "urn:tag",
+            "subtype": "urn:tag:influencer_appeal:qloo",
+            "entity_id": "25CC78DE-57CB-40D5-A757-E48244F56856",
+            "popularity": 0.88253444,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:environmentally_conscious",
+            "name": "environmentally-conscious",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "27A57683-B834-4CB9-A036-EC180A73ABD4",
+            "popularity": 0.62189144,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:personal_style:qloo:rugged",
+            "name": "rugged",
+            "type": "urn:tag",
+            "subtype": "urn:tag:personal_style:qloo",
+            "entity_id": "2A40237E-FC73-4CDA-8C66-B0BF76952505",
+            "popularity": 0.85119486,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:outdoors",
+            "name": "outdoors",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "2B38BF65-BAA5-4287-9395-65FEA2F5F752",
+            "popularity": 0.81977445,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_segment:qloo:outdoor_enthusiasts",
+            "name": "Outdoor enthusiasts",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_segment:qloo",
+            "entity_id": "2DBF86D3-51FF-42FA-AD9D-674341AB522A",
+            "popularity": 0.9283882,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:outdoor_activities",
+            "name": "outdoor activities",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "3C1BAA80-8E2C-43E0-AAB7-C8CF5BCB5AEC",
+            "popularity": 0.88307756,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:cultural_relevance:qloo:sustainability",
+            "name": "Sustainability",
+            "type": "urn:tag",
+            "subtype": "urn:tag:cultural_relevance:qloo",
+            "entity_id": "42FD6663-D75E-4AF9-AF08-686DD6C608B1",
+            "popularity": 0.96496254,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:adventure",
+            "name": "Adventure",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "441F8A97-7E88-4387-B885-F99BAF71544E",
+            "popularity": 0.95532495,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_segment:qloo:environmentally_conscious_consumers",
+            "name": "Environmentally conscious consumers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_segment:qloo",
+            "entity_id": "449A9861-2703-4550-94FE-A6F423D3D8FE",
+            "popularity": 0.81193954,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:consciousness",
+            "name": "Consciousness",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "4639B5EE-3B90-4A53-8583-C28C4761D62F",
+            "popularity": 0.65288436,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:ethical_consumerism",
+            "name": "Ethical Consumerism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "4782BE5C-743B-4806-9050-040F126584CA",
+            "popularity": 0.7247735,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:industry:qloo:outdoor_apparel",
+            "name": "Outdoor Apparel",
+            "type": "urn:tag",
+            "subtype": "urn:tag:industry:qloo",
+            "entity_id": "4CC0D15F-C871-42F4-9ADF-F59F45771A64",
+            "popularity": 0.69639224,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:influencer_appeal:qloo:sustainability_influencers",
+            "name": "Sustainability influencers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:influencer_appeal:qloo",
+            "entity_id": "4DBB8C08-091D-4EF1-9F3A-FF9036B3621E",
+            "popularity": 0.63545805,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:responsibility",
+            "name": "responsibility",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "4F44EE8E-F9C3-4392-8AAE-B80A8D6A6795",
+            "popularity": 0.67441297,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:functional",
+            "name": "Functional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "5735CFD9-C977-42E6-9F36-3A61592FD5EA",
+            "popularity": 0.9618425,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:influencer_appeal:qloo:sustainable_living_advocates",
+            "name": "Sustainable living advocates",
+            "type": "urn:tag",
+            "subtype": "urn:tag:influencer_appeal:qloo",
+            "entity_id": "58436DE3-2D15-4319-95F7-1F3C5CF713EB",
+            "popularity": 0.68824536,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:eco_conscious_consumers",
+            "name": "Eco-conscious Consumers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "5F2CC544-10ED-4DE5-9170-0434CBB777F3",
+            "popularity": 0.8057109,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:adjective:qloo:ethical",
+            "name": "Ethical",
+            "type": "urn:tag",
+            "subtype": "urn:tag:adjective:qloo",
+            "entity_id": "62BB59EB-0355-4286-8248-6FC5C1782549",
+            "popularity": 0.8779583,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:product_service:qloo:outdoor_clothing",
+            "name": "Outdoor Clothing",
+            "type": "urn:tag",
+            "subtype": "urn:tag:product_service:qloo",
+            "entity_id": "699E840A-953E-4F2B-A39C-7585F71532D1",
+            "popularity": 0.55894655,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_segment:qloo:active_lifestyle_individuals",
+            "name": "active lifestyle individuals",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_segment:qloo",
+            "entity_id": "6C21C54D-BE43-47D0-9955-E30E835816F5",
+            "popularity": 0.63545805,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:personal_style:qloo:outdoor",
+            "name": "outdoor",
+            "type": "urn:tag",
+            "subtype": "urn:tag:personal_style:qloo",
+            "entity_id": "6C9F76D9-8540-4257-8B45-154CE37CEE38",
+            "popularity": 0.88340116,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:eco_conscious",
+            "name": "Eco-conscious",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "70B5D0B3-AFC5-48B1-9C6B-CF732068CC8C",
+            "popularity": 0.5655334,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:adventure",
+            "name": "Adventure",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "75056416-CF23-409C-AF33-05C0938BC319",
+            "popularity": 0.93185496,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:brand:fashion",
+            "name": "Fashion",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:brand",
+            "entity_id": "7568F752-4D1A-43D7-8822-FCCBB71E8514",
+            "popularity": 0.9984218,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:environmental_activism",
+            "name": "environmental activism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "7931D574-5355-405C-8F93-3041F3E17285",
+            "popularity": 0.32564482,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:performance_driven",
+            "name": "performance-driven",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "7C3A6AC2-D937-4BDE-9429-DE230CEFA997",
+            "popularity": 0.21380697,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:minimalist",
+            "name": "Minimalist",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "7F191899-739A-4103-B6FE-4EA1EEA1B4A2",
+            "popularity": 0.95397294,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:sustainable_fashion",
+            "name": "Sustainable Fashion",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "8B7E3087-939A-43BA-9C00-2CEB5A8D26A6",
+            "popularity": 0.9092285,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:nature_inspired",
+            "name": "nature-inspired",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "8CD34021-87ED-40A6-B049-72D0B2BEA5EC",
+            "popularity": 0.7076708,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:adjective:qloo:adventurous",
+            "name": "adventurous",
+            "type": "urn:tag",
+            "subtype": "urn:tag:adjective:qloo",
+            "entity_id": "950F3E18-59DB-4D90-B0FA-1F91F668D3BF",
+            "popularity": 0.90752983,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:adjective:qloo:sustainable",
+            "name": "Sustainable",
+            "type": "urn:tag",
+            "subtype": "urn:tag:adjective:qloo",
+            "entity_id": "A4A7835D-C183-44A6-8B29-360C70EA9437",
+            "popularity": 0.9449362,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:adventurous",
+            "name": "Adventurous",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "A7112BC7-E74C-4B82-9624-7D22E870B0A7",
+            "popularity": 0.95550984,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_segment:qloo:adventure_seekers",
+            "name": "adventure-seekers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_segment:qloo",
+            "entity_id": "B2414F3A-A5DC-4E52-A84C-6E36E2C5A0B1",
+            "popularity": 0.6396297,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:outdoor_clothing",
+            "name": "outdoor clothing",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "B378CE21-C626-4B97-A53D-7B937FAAD23E",
+            "popularity": 0.57188916,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:functional_design",
+            "name": "functional design",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "B60660AE-CE8F-453D-8553-62229CCE67BC",
+            "popularity": 0.8852385,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:cultural_relevance:qloo:ethical_consumption",
+            "name": "ethical consumption",
+            "type": "urn:tag",
+            "subtype": "urn:tag:cultural_relevance:qloo",
+            "entity_id": "B7744B00-0C29-4B83-9E41-6BAAB42BAEE4",
+            "popularity": 0.12258482,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:adjective:qloo:durable",
+            "name": "Durable",
+            "type": "urn:tag",
+            "subtype": "urn:tag:adjective:qloo",
+            "entity_id": "B85EDE76-A79D-40EB-97CB-8586F2045A3B",
+            "popularity": 0.9490732,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:environmentalism",
+            "name": "environmentalism",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "B9DB8E5D-6533-475B-888A-A512FB7B8B59",
+            "popularity": 0.66375846,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:outdoor_enthusiasts",
+            "name": "outdoor enthusiasts",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "BF990B2F-D0A1-4098-9F26-513A0230DF93",
+            "popularity": 0.9129842,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:adventurous",
+            "name": "adventurous",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "C5D1393F-BE4D-4AED-AF94-AA78EFE1D052",
+            "popularity": 0.9614149,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:responsible",
+            "name": "responsible",
+            "type": "urn:tag",
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "entity_id": "C810A2BD-4028-4147-9650-0B22032F9967",
+            "popularity": 0.26431775,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:ethical_living",
+            "name": "Ethical living",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "CB77EC22-0D50-4C9C-B28F-7B9AD9C5C1B7",
+            "popularity": 0.77957153,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:aesthetic_property:qloo:earth_tones",
+            "name": "earth-tones",
+            "type": "urn:tag",
+            "subtype": "urn:tag:aesthetic_property:qloo",
+            "entity_id": "D20ADC25-3EE6-433C-A187-748463A4137A",
+            "popularity": 0.6168762,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:sustainability",
+            "name": "Sustainability",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "D60B3FE0-89DD-490B-8620-2C7F96DD9B1E",
+            "popularity": 0.9478945,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:outdoor_adventures",
+            "name": "outdoor adventures",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "D64E9FED-9B7E-4587-B27A-52DF21A9A6C8",
+            "popularity": 0.89840066,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:lifestyle:qloo:outdoor",
+            "name": "outdoor",
+            "type": "urn:tag",
+            "subtype": "urn:tag:lifestyle:qloo",
+            "entity_id": "D7D7D8E8-A199-4EAB-833B-5D39DB07E207",
+            "popularity": 0.9593233,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:genre:brand:fashion:athletic",
+            "name": "Athletic",
+            "type": "urn:tag",
+            "subtype": "urn:tag:genre:brand",
+            "entity_id": "D876EE2D-54A3-454B-A43B-207A579076DA",
+            "popularity": 0.9894818,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:sustainability_advocates",
+            "name": "Sustainability advocates",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "DC63A56B-C04C-441D-AEF6-68A5F2A09F66",
+            "popularity": 0.59630674,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:eco_conscious_individuals",
+            "name": "Eco-conscious individuals",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "E7D969DA-93F4-4380-ACC8-44C5B3491B0B",
+            "popularity": 0.9581446,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:personal_style:qloo:sustainable",
+            "name": "Sustainable",
+            "type": "urn:tag",
+            "subtype": "urn:tag:personal_style:qloo",
+            "entity_id": "E9BDA043-65F6-4A5C-B8FF-2154B4E73A8B",
+            "popularity": 0.7438176,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:ethical_fashion",
+            "name": "Ethical Fashion",
+            "type": "urn:tag",
+            "subtype": "urn:tag:keyword:qloo",
+            "entity_id": "EC7AD138-4892-4F1D-9095-346CD29672D6",
+            "popularity": 0.79271054,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:personal_style:qloo:functional",
+            "name": "Functional",
+            "type": "urn:tag",
+            "subtype": "urn:tag:personal_style:qloo",
+            "entity_id": "EF079014-BCF1-4241-B8C4-596A87979939",
+            "popularity": 0.95608765,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:adjective:qloo:outdoor",
+            "name": "Outdoor",
+            "type": "urn:tag",
+            "subtype": "urn:tag:adjective:qloo",
+            "entity_id": "FB59140F-64E7-4275-8F07-BBADA29CCA1D",
+            "popularity": 0.74767727,
+            "query": {
+              "count": "1"
+            }
+          },
+          {
+            "tag_id": "urn:tag:customer_identity:qloo:adventurers",
+            "name": "Adventurers",
+            "type": "urn:tag",
+            "subtype": "urn:tag:customer_identity:qloo",
+            "entity_id": "FD3CFAD7-A180-47FB-9847-BE4C1417BF0D",
+            "popularity": 0.9214431,
+            "query": {
+              "count": "1"
+            }
+          }
+        ],
+        "matchEntities": []
+      }
+    }
+  }
+}

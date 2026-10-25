@@ -1,0 +1,43 @@
+{
+  "id": "podcast-sponsors",
+  "q": "Which brands should sponsor the Huberman Lab podcast, and what is the age and gender mix of its audience?",
+  "why": "Audience data and brand affinity for a specific podcast",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "**Audience Profile**\n*Huberman Lab* draws an intellectually curious, optimization-focused crowd. \n* **Gender:** Roughly 60–65% male, 35–40% female.\n* **Age:** Heavily concentrated in the 25–44 range (peaking around 28–38). Listeners are generally high-earning, educated professionals and fitness enthusiasts interested in preventative health and cognitive performance.\n\n**Ideal Brand Sponsors**\n\n1. **Levels (Metabolic Health)**  \n   *Why it fits:* A continuous glucose monitor (CGM) company is the ultimate quantified-self tool. It directly supports Huberman’s frequent discussions on insulin sensitivity, energy crashes, and nutrient timing.\n\n2. **Oura Ring**  \n   *Why it fits:* Sleep architecture and circadian biology are Huberman’s signature topics. Oura’s precise tracking of HRV, body temperature, and sleep stages feels like a natural extension of his daily protocols.\n\n3. **Plunge (Cold Therapy & Saunas)**  \n   *Why it fits:* Huberman essentially popularized deliberate cold exposure for dopamine and metabolic regulation in the modern wellness zeitgeist. High-end hardware like Plunge matches his audience's willingness to invest in home health infrastructure.\n\n4. **Vivobarefoot**  \n   *Why it fits:* His audience values biomechanics, nervous system signaling, and functional longevity. Vivobarefoot’s science-first, minimalist footwear resonates with his ethos of physical durability from the ground up.\n\n5. **Apollo Neuro**  \n   *Why it fits:* A wearable that delivers gentle vibrations to stimulate the vagus nerve and shift autonomic state fits Huberman’s deep focus on stress mitigation, neurobiology, and state control without pharmaceuticals.",
+    "trace": [],
+    "ms": 11973,
+    "tokens": 1133,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "### **Audience Demographics**\nAccording to Qloo’s demographic affinity data, the *Huberman Lab* audience shows:\n* **Gender Skew:** Predominantly **male** (affinity score +0.418 vs. female -0.418).\n* **Age Distribution:** The core audience concentrates in the **35–44** age bracket (+0.158 affinity). Engagement remains solid among young adults to early 30s (24 & under at -0.046; 30–34 at -0.116), but drops sharply among older demographics (55+ at -0.576).\n\n---\n\n### **Top Recommended Sponsor Brands**\nThe following brands exhibit exceptionally strong audience affinity with *Huberman Lab*:\n\n1. **Onnit** *(Affinity: 0.970)* – Offers cognitive and physical performance supplements and functional fitness equipment, matching the show's focus on human optimization.\n2. **Whoop** *(Affinity: 0.941)* – Wearable biometric tracking for sleep, strain, and recovery aligns with the podcast’s emphasis on data-driven health protocols.\n3. **The Ready State** *(Affinity: 0.934)* – Dr. Kelly Starrett’s mobility and movement recovery platform directly appeals to listeners prioritizing joint health and physical longevity.\n4. **Vivobarefoot** *(Affinity: 0.930)* – Biomechanical, minimalist footwear that fits the audience’s interest in physiological alignment and natural movement.\n5. **Examine** *(Affinity: 0.930)* – Independent, evidence-based nutrition and supplement research database that resonates with listeners seeking peer-reviewed scientific rigor.\n6. **Renaissance Periodization** *(Affinity: 0.921)* – Science-backed hypertrophy training and nutrition planning tailored for active fitness enthusiasts.",
+    "trace": [
+      {
+        "tool": "qloo_audience_demographics",
+        "args": {
+          "entity_type": "podcast",
+          "entity": "Huberman Lab"
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 1273
+      },
+      {
+        "tool": "qloo_recommend",
+        "args": {
+          "signals": [
+            "Huberman Lab"
+          ],
+          "target_type": "brand"
+        },
+        "status": "ok",
+        "count": 10,
+        "ms": 1140
+      }
+    ],
+    "ms": 15774,
+    "tokens": 11761,
+    "model": "gemini-flash-latest"
+  }
+}

@@ -1,0 +1,4919 @@
+{
+  "request": {
+    "path": "/entities",
+    "params": {
+      "external.spotify.ids": "4Z8W4fKeB5YxbusRsdQVPb"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 355,
+    "url": "/entities?external.spotify.ids=4Z8W4fKeB5YxbusRsdQVPb",
+    "requestId": "22185c36-2d53-4b44-b4e4-69633670f365",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49547",
+      "x-month-ratelimit-reset": "2589152.83",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.43"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "On a Friday",
+          "entity_id": "21AEAB77-4723-4648-86BD-D904AFF6CC97",
+          "types": [
+            "urn:entity:artist"
+          ],
+          "properties": {
+            "akas": [],
+            "duration": {},
+            "external": {
+              "facebook": {
+                "id": "radiohead"
+              },
+              "instagram": {
+                "id": "radiohead"
+              },
+              "lastfm": {
+                "id": "on%20a%20friday",
+                "listeners": 8414,
+                "scrobbles": 131811
+              },
+              "musicbrainz": {
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+              },
+              "spotify": {
+                "id": "4Z8W4fKeB5YxbusRsdQVPb"
+              },
+              "twitter": {
+                "id": "radiohead"
+              },
+              "wikidata": {
+                "id": "q44190"
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/21AEAB77-4723-4648-86BD-D904AFF6CC97-420x-auto.jpg"
+            },
+            "short_description": "An English alternative rock band formed in the late 1980s, later known as Radiohead."
+          },
+          "popularity": 0.8736349190819503,
+          "tags": [
+            {
+              "name": "Rock",
+              "tag_id": "urn:tag:genre:rock",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:rock"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:genre:alternative_rock",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:alternative_rock"
+            },
+            {
+              "name": "British",
+              "tag_id": "urn:tag:genre:british",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:british"
+            },
+            {
+              "name": "Loyal",
+              "tag_id": "urn:tag:audience:qloo:loyal",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:loyal"
+            },
+            {
+              "name": "Passionate",
+              "tag_id": "urn:tag:audience:qloo:passionate",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:passionate"
+            },
+            {
+              "name": "Introspective",
+              "tag_id": "urn:tag:audience:qloo:introspective",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:introspective"
+            },
+            {
+              "name": "Dedicated",
+              "tag_id": "urn:tag:audience:qloo:dedicated",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:dedicated"
+            },
+            {
+              "name": "Raw",
+              "tag_id": "urn:tag:music:qloo:raw",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:raw"
+            },
+            {
+              "name": "Energetic",
+              "tag_id": "urn:tag:music:qloo:energetic",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:energetic"
+            },
+            {
+              "name": "Alternative",
+              "tag_id": "urn:tag:music:qloo:alternative",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:alternative"
+            },
+            {
+              "name": "Post-Punk",
+              "tag_id": "urn:tag:music:qloo:post_punk",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:post_punk"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:music:qloo:experimental",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:experimental"
+            },
+            {
+              "name": "Energetic",
+              "tag_id": "urn:tag:style:qloo:energetic",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:energetic"
+            },
+            {
+              "name": "Youthful",
+              "tag_id": "urn:tag:style:qloo:youthful",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:youthful"
+            },
+            {
+              "name": "Raw",
+              "tag_id": "urn:tag:style:qloo:raw",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:raw"
+            },
+            {
+              "name": "Engaging",
+              "tag_id": "urn:tag:style:qloo:engaging",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:engaging"
+            },
+            {
+              "name": "Energetic",
+              "tag_id": "urn:tag:characteristic:qloo:energetic",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:energetic"
+            },
+            {
+              "name": "Raw",
+              "tag_id": "urn:tag:characteristic:qloo:raw",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:raw"
+            },
+            {
+              "name": "Innovative",
+              "tag_id": "urn:tag:characteristic:qloo:innovative",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:innovative"
+            },
+            {
+              "name": "Youthful",
+              "tag_id": "urn:tag:characteristic:qloo:youthful",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:youthful"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:characteristic:qloo:experimental",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:experimental"
+            },
+            {
+              "name": "Post-Punk",
+              "tag_id": "urn:tag:style:qloo:post_punk",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:post_punk"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:style:qloo:alternative_rock",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:alternative_rock"
+            },
+            {
+              "name": "Indie Rock",
+              "tag_id": "urn:tag:style:qloo:indie_rock",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:indie_rock"
+            },
+            {
+              "name": "Grunge-Influenced",
+              "tag_id": "urn:tag:style:qloo:grunge_influenced",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:grunge_influenced"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:style:qloo:experimental",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:experimental"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:influence:qloo:alternative_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:alternative_rock"
+            },
+            {
+              "name": "Indie Rock",
+              "tag_id": "urn:tag:influence:qloo:indie_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:indie_rock"
+            },
+            {
+              "name": "Post-Punk",
+              "tag_id": "urn:tag:influence:qloo:post_punk",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:post_punk"
+            },
+            {
+              "name": "Experimental Rock",
+              "tag_id": "urn:tag:influence:qloo:experimental_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:experimental_rock"
+            },
+            {
+              "name": "The Smiths",
+              "tag_id": "urn:tag:influenced_by:qloo:the_smiths",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:the_smiths"
+            },
+            {
+              "name": "Pixies",
+              "tag_id": "urn:tag:influenced_by:qloo:pixies",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:pixies"
+            },
+            {
+              "name": "R.E.M.",
+              "tag_id": "urn:tag:influenced_by:qloo:r_e_m_",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:r_e_m_"
+            },
+            {
+              "name": "Nirvana",
+              "tag_id": "urn:tag:influenced_by:qloo:nirvana",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:nirvana"
+            },
+            {
+              "name": "Guitar",
+              "tag_id": "urn:tag:instrument:qloo:guitar",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:guitar"
+            },
+            {
+              "name": "Bass",
+              "tag_id": "urn:tag:instrument:qloo:bass",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:bass"
+            },
+            {
+              "name": "Drums",
+              "tag_id": "urn:tag:instrument:qloo:drums",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:drums"
+            },
+            {
+              "name": "Vocals",
+              "tag_id": "urn:tag:instrument:qloo:vocals",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:vocals"
+            },
+            {
+              "name": "Alienation",
+              "tag_id": "urn:tag:theme:qloo:alienation",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:alienation"
+            },
+            {
+              "name": "Youth",
+              "tag_id": "urn:tag:theme:qloo:youth",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:youth"
+            },
+            {
+              "name": "Existentialism",
+              "tag_id": "urn:tag:theme:qloo:existentialism",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:existentialism"
+            },
+            {
+              "name": "Emotional Struggle",
+              "tag_id": "urn:tag:theme:qloo:emotional_struggle",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:emotional_struggle"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:genre:qloo:alternative_rock",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:alternative_rock"
+            },
+            {
+              "name": "Indie Rock",
+              "tag_id": "urn:tag:genre:qloo:indie_rock",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:indie_rock"
+            },
+            {
+              "name": "Post-Punk",
+              "tag_id": "urn:tag:genre:qloo:post_punk",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:post_punk"
+            },
+            {
+              "name": "Britpop",
+              "tag_id": "urn:tag:subgenre:qloo:britpop",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:britpop"
+            },
+            {
+              "name": "Grunge",
+              "tag_id": "urn:tag:subgenre:qloo:grunge",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:grunge"
+            }
+          ],
+          "disambiguation": "On a Friday"
+        },
+        {
+          "name": "Radiohead",
+          "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "types": [
+            "urn:entity:artist"
+          ],
+          "properties": {
+            "akas": [],
+            "duration": {},
+            "external": {
+              "facebook": {
+                "id": "radiohead"
+              },
+              "instagram": {
+                "id": "radiohead"
+              },
+              "lastfm": {
+                "id": "radiohead",
+                "listeners": 7062529,
+                "scrobbles": 1000284364
+              },
+              "musicbrainz": {
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+              },
+              "spotify": {
+                "id": "4Z8W4fKeB5YxbusRsdQVPb"
+              },
+              "twitter": {
+                "id": "radiohead"
+              },
+              "wikidata": {
+                "id": "q44190"
+              }
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C-420x-auto.jpg"
+            },
+            "short_description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+          },
+          "popularity": 0.9999966263060412,
+          "tags": [
+            {
+              "name": "Electronic",
+              "tag_id": "urn:tag:genre:electronic",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:electronic"
+            },
+            {
+              "name": "Indie",
+              "tag_id": "urn:tag:genre:indie",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:indie"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:genre:alternative_rock",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:alternative_rock"
+            },
+            {
+              "name": "Rock",
+              "tag_id": "urn:tag:genre:rock",
+              "type": "urn:tag:genre",
+              "value": "urn:tag:genre:rock"
+            },
+            {
+              "name": "Loyal",
+              "tag_id": "urn:tag:audience:qloo:loyal",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:loyal"
+            },
+            {
+              "name": "Intellectual",
+              "tag_id": "urn:tag:audience:qloo:intellectual",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:intellectual"
+            },
+            {
+              "name": "Eclectic",
+              "tag_id": "urn:tag:audience:qloo:eclectic",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:eclectic"
+            },
+            {
+              "name": "Passionate",
+              "tag_id": "urn:tag:audience:qloo:passionate",
+              "type": "urn:tag:audience:qloo",
+              "value": "urn:tag:audience:qloo:passionate"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:music:qloo:experimental",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:experimental"
+            },
+            {
+              "name": "Atmospheric",
+              "tag_id": "urn:tag:music:qloo:atmospheric",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:atmospheric"
+            },
+            {
+              "name": "Melancholic",
+              "tag_id": "urn:tag:music:qloo:melancholic",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:melancholic"
+            },
+            {
+              "name": "Complex",
+              "tag_id": "urn:tag:music:qloo:complex",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:complex"
+            },
+            {
+              "name": "Innovative",
+              "tag_id": "urn:tag:music:qloo:innovative",
+              "type": "urn:tag:music:qloo",
+              "value": "urn:tag:music:qloo:innovative"
+            },
+            {
+              "name": "Dynamic",
+              "tag_id": "urn:tag:style:qloo:dynamic",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:dynamic"
+            },
+            {
+              "name": "Intense",
+              "tag_id": "urn:tag:style:qloo:intense",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:intense"
+            },
+            {
+              "name": "Atmospheric",
+              "tag_id": "urn:tag:style:qloo:atmospheric",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:atmospheric"
+            },
+            {
+              "name": "Immersive",
+              "tag_id": "urn:tag:style:qloo:immersive",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:immersive"
+            },
+            {
+              "name": "Innovative",
+              "tag_id": "urn:tag:characteristic:qloo:innovative",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:innovative"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:characteristic:qloo:experimental",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:experimental"
+            },
+            {
+              "name": "Eclectic",
+              "tag_id": "urn:tag:characteristic:qloo:eclectic",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:eclectic"
+            },
+            {
+              "name": "Introspective",
+              "tag_id": "urn:tag:characteristic:qloo:introspective",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:introspective"
+            },
+            {
+              "name": "Atmospheric",
+              "tag_id": "urn:tag:characteristic:qloo:atmospheric",
+              "type": "urn:tag:characteristic:qloo",
+              "value": "urn:tag:characteristic:qloo:atmospheric"
+            },
+            {
+              "name": "Post-Alternative",
+              "tag_id": "urn:tag:style:qloo:post_alternative",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:post_alternative"
+            },
+            {
+              "name": "Art-Rock",
+              "tag_id": "urn:tag:style:qloo:art_rock",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:art_rock"
+            },
+            {
+              "name": "Electronica-Infused",
+              "tag_id": "urn:tag:style:qloo:electronica_infused",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:electronica_infused"
+            },
+            {
+              "name": "Experimental-Progressive",
+              "tag_id": "urn:tag:style:qloo:experimental_progressive",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:experimental_progressive"
+            },
+            {
+              "name": "Ambient-Textured",
+              "tag_id": "urn:tag:style:qloo:ambient_textured",
+              "type": "urn:tag:style:qloo",
+              "value": "urn:tag:style:qloo:ambient_textured"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:influence:qloo:alternative_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:alternative_rock"
+            },
+            {
+              "name": "Electronic",
+              "tag_id": "urn:tag:influence:qloo:electronic",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:electronic"
+            },
+            {
+              "name": "Post-Rock",
+              "tag_id": "urn:tag:influence:qloo:post_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:post_rock"
+            },
+            {
+              "name": "Indie Rock",
+              "tag_id": "urn:tag:influence:qloo:indie_rock",
+              "type": "urn:tag:influence:qloo",
+              "value": "urn:tag:influence:qloo:indie_rock"
+            },
+            {
+              "name": "The Beatles",
+              "tag_id": "urn:tag:influenced_by:qloo:the_beatles",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:the_beatles"
+            },
+            {
+              "name": "Pink Floyd",
+              "tag_id": "urn:tag:influenced_by:qloo:pink_floyd",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:pink_floyd"
+            },
+            {
+              "name": "Kraftwerk",
+              "tag_id": "urn:tag:influenced_by:qloo:kraftwerk",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:kraftwerk"
+            },
+            {
+              "name": "Pixies",
+              "tag_id": "urn:tag:influenced_by:qloo:pixies",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:pixies"
+            },
+            {
+              "name": "R.E.M.",
+              "tag_id": "urn:tag:influenced_by:qloo:r_e_m_",
+              "type": "urn:tag:influenced_by:qloo",
+              "value": "urn:tag:influenced_by:qloo:r_e_m_"
+            },
+            {
+              "name": "Vocals",
+              "tag_id": "urn:tag:instrument:qloo:vocals",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:vocals"
+            },
+            {
+              "name": "Guitar",
+              "tag_id": "urn:tag:instrument:qloo:guitar",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:guitar"
+            },
+            {
+              "name": "Bass Guitar",
+              "tag_id": "urn:tag:instrument:qloo:bass_guitar",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:bass_guitar"
+            },
+            {
+              "name": "Drums",
+              "tag_id": "urn:tag:instrument:qloo:drums",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:drums"
+            },
+            {
+              "name": "Keyboards",
+              "tag_id": "urn:tag:instrument:qloo:keyboards",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:keyboards"
+            },
+            {
+              "name": "Synthesizers",
+              "tag_id": "urn:tag:instrument:qloo:synthesizers",
+              "type": "urn:tag:instrument:qloo",
+              "value": "urn:tag:instrument:qloo:synthesizers"
+            },
+            {
+              "name": "Alienation",
+              "tag_id": "urn:tag:theme:qloo:alienation",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:alienation"
+            },
+            {
+              "name": "Technology",
+              "tag_id": "urn:tag:theme:qloo:technology",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:technology"
+            },
+            {
+              "name": "Politics",
+              "tag_id": "urn:tag:theme:qloo:politics",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:politics"
+            },
+            {
+              "name": "Environmentalism",
+              "tag_id": "urn:tag:theme:qloo:environmentalism",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:environmentalism"
+            },
+            {
+              "name": "Existentialism",
+              "tag_id": "urn:tag:theme:qloo:existentialism",
+              "type": "urn:tag:theme:qloo",
+              "value": "urn:tag:theme:qloo:existentialism"
+            },
+            {
+              "name": "Alternative Rock",
+              "tag_id": "urn:tag:genre:qloo:alternative_rock",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:alternative_rock"
+            },
+            {
+              "name": "Art Rock",
+              "tag_id": "urn:tag:genre:qloo:art_rock",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:art_rock"
+            },
+            {
+              "name": "Experimental Rock",
+              "tag_id": "urn:tag:genre:qloo:experimental_rock",
+              "type": "urn:tag:genre:qloo",
+              "value": "urn:tag:genre:qloo:experimental_rock"
+            },
+            {
+              "name": "Electronic",
+              "tag_id": "urn:tag:subgenre:qloo:electronic",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:electronic"
+            },
+            {
+              "name": "Ambient",
+              "tag_id": "urn:tag:subgenre:qloo:ambient",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:ambient"
+            },
+            {
+              "name": "Post-Rock",
+              "tag_id": "urn:tag:subgenre:qloo:post_rock",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:post_rock"
+            },
+            {
+              "name": "Experimental",
+              "tag_id": "urn:tag:subgenre:qloo:experimental",
+              "type": "urn:tag:subgenre:qloo",
+              "value": "urn:tag:subgenre:qloo:experimental"
+            },
+            {
+              "name": "Baritone",
+              "tag_id": "urn:tag:artist:qloo:baritone",
+              "type": "urn:tag:artist:qloo",
+              "value": "urn:tag:artist:qloo:baritone"
+            }
+          ],
+          "references": [
+            {
+              "entity_id": "19E02DE5-41BC-42C5-81DE-5B489B5D412B",
+              "name": "The Best Of (CD01)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C9AAFB74-8529-456A-9338-44EBA3044C2A",
+              "name": "Hail to the Thief. (The Gloaming.)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "357DC5AB-8CDE-4C45-BFF9-ECB340E223FA",
+              "name": "Tiesto Limited Remixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C22B2D4C-1DF4-469B-97F6-089A41192150",
+              "name": "Just (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EFA42C28-B613-4BCB-BB9C-F4404F7D57C2",
+              "name": "Creep E.P.",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5D719709-6D53-4549-8D5B-9C6C4EC27810",
+              "name": "The Big Noise",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CEFD8124-00F0-46E4-A2F9-8E6D45BCA056",
+              "name": "Amnesiac (2-10\" LPs)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E3FDE92C-6C36-4969-8FAF-7F06B38A5E01",
+              "name": "My Iron Lung - EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "740D5A6B-35C6-4540-B474-CB98264A7731",
+              "name": "The Bends Pinkpop",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6561D233-F144-4609-A4D3-86127B9C7769",
+              "name": "bigsnoise.blogspot.com",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "37AC93A1-02BC-4040-A393-CAD287B0E1C8",
+              "name": "Hail To The Thief (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A40C0366-5C25-4089-A43D-40E0D99BBCB2",
+              "name": "(1997) OK Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CB5E11EE-292F-41F0-9FA6-2880A0FC85B5",
+              "name": "Club Ciudad 24-03-09",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B63B1587-E827-4CD9-BC44-B6BB81795F38",
+              "name": "Kid A [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EE188DD0-BF77-43BE-B203-E856EB455FAC",
+              "name": "Street Spirit (Fade Out)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "345D569C-71F8-4D7F-BD04-513213A7BD68",
+              "name": "In rainbow",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6E1DF654-6310-4B7F-BEE9-90B03C236D1F",
+              "name": "2   2 = 5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "83C266E2-9F97-4EC2-94B1-3D817F834C4B",
+              "name": "Outside Lands Music fest, Golden Gate Park",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F8072E4C-77BC-4969-99E3-75BB1933B518",
+              "name": "Live at Glastonbury [2003]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8E379818-1578-404E-910B-E3E2F7BFC79E",
+              "name": "Hail To The Thief [Deluxe Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DE7E5DB3-3EB8-40C2-A132-B5DC7B4F7D26",
+              "name": "top 40 singles",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "52D4461D-206E-47EA-B8B5-F32E3F036018",
+              "name": "God_Loves_His_Children",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E077D4B8-30A1-4858-B627-2EE4FE7348CF",
+              "name": "Knives Out CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "54807C78-1DB9-46E1-BF31-407E4A54BE0D",
+              "name": "The Best Of (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4C632AC6-0BE0-4A47-A2F6-0FF872773529",
+              "name": "Greatest Hits Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AC012BEF-0CDB-4B8F-92CA-0E550D4C8D83",
+              "name": "In Rainbows: Special Edition 2CD",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D79958D4-7DA4-4435-BB95-C062EC21ACCB",
+              "name": "Radiohead (Boxset)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FA4DD234-E734-4023-90A0-960B5CB46903",
+              "name": "There There",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "723BB6FF-C22D-466F-86BC-50A6108AFD90",
+              "name": "Hail To The Theif",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2A2420E2-B247-4BB4-B13A-224D2DD75048",
+              "name": "In Rainbows [CD2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F606EE54-A86A-4188-9926-A8C9BC278E35",
+              "name": "Towering Above the Rest (disc 9)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "91FACAB7-5813-4432-9FD1-C06CB8106154",
+              "name": "Thumbs_Down (Webcast)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "48EA058B-BB98-4EFA-B6CB-5C4930956E87",
+              "name": "no title",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "35B6BDFE-6E07-4544-9826-F7B684A72403",
+              "name": "In Rainbows (cd1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6927FB32-1976-4B47-B0F9-2DC955AEFCB8",
+              "name": "B-Sides And Rare Collections",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FFBE7566-7F92-4123-AEA8-4D8C161677AA",
+              "name": "Coastal Chill",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "756622F7-DAFE-47FA-939F-BE32EF5C88F6",
+              "name": "Kid A (Collector's Edition) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6B421154-30B9-4419-8C1F-B93834D3E355",
+              "name": "COLLEGE",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AD89FCA8-63B0-498F-A96C-92EBB2A808F6",
+              "name": "Twilight",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B257FBAF-61C2-4EC8-9891-7F037BD75EE2",
+              "name": "Com Lag: 2 2=5 [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6AAF32A3-2B1E-4834-96F4-57B17976728F",
+              "name": "The Platinum Collection",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D1C135FA-DA76-4767-84E8-988A1399DF16",
+              "name": "Arrow Classic Rock Top 500 2007",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CF9A9505-C895-4BD6-9494-778345201B51",
+              "name": "In Rainbows Disk 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C4C66E4A-7D9C-42AE-AE00-5A0C06034F6B",
+              "name": "In Rainbows (Disc Two)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "00E7EDC3-3DDD-4D33-92C2-7EEE31B8BFD8",
+              "name": "Scotch Mist",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A0BF03EE-1F97-42D1-AE83-7F961D956BB0",
+              "name": "Live @ Prague 23.8. 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F368EA50-B527-4A9B-908E-EE590A316809",
+              "name": "The Best Thing That You Ever Had",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C78644A3-C8BB-4E1C-B4F7-81843D153422",
+              "name": "Knives Out CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "982ED63F-C4AD-486C-B5B6-B88020F0041A",
+              "name": "Union Street Demo, September 1990",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D2FEA73C-68BA-4F90-BDF1-215328268A61",
+              "name": "Towering Above the Rest (disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D0B98746-07E0-4769-89B1-AFF43A0DF34C",
+              "name": "Towering Above The Rest (Disc 03)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D518C238-F9B9-454A-9E03-FFEFE0175997",
+              "name": "Hail to the Thief (live 2002)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "38A0FCE5-739D-4FBE-9CC2-C2B420451724",
+              "name": "Alternative Ballads",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "108EA442-8D0B-4249-A22C-A81F3D389829",
+              "name": "Drill",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F9B94740-34AF-45F4-B171-A86F8314AFCC",
+              "name": "Go To Sleep (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8933CDD5-CF2D-4702-B108-9C14905A3CE9",
+              "name": "Greatest Hits",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B8B07218-6736-4972-83FF-B948D5216EAB",
+              "name": "OK Computer (Collector's Edition) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CF55FA75-39F1-44B0-A16E-E91506FD2109",
+              "name": "B-Sides (CD 01)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EABCBE67-2A88-4C64-9091-42CF42DECA66",
+              "name": "MTV Top 100 Greatest Pop Songs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5ACDBC7A-8F86-44BC-BFD3-55EB8C817944",
+              "name": "The Best Of [Explicit]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "82CA836A-3757-4117-886A-E2F05B7DEA26",
+              "name": "2003-05-22: Apollo Theatre, Manchester, UK",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FF8A0817-3C7C-4048-917B-20FED6019309",
+              "name": "Pop is Dead (CDS)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9C29473A-40B7-4F39-BCE4-087C1C896735",
+              "name": "In Rainbows (Download Version)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2961AA48-F598-4B6F-9228-3A9EDA9865EE",
+              "name": "Itch",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6234F978-AF5A-4390-AE1D-BEF750942651",
+              "name": "In Rainbows cd 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "339BB55E-3F04-4B18-8CD1-D20E77760DC7",
+              "name": "Kill All the Rarities",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D7074681-B3EB-4277-8E7F-2044A2F1D24E",
+              "name": "Pyramid Song (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5AFD3609-1408-4D8D-8369-DF0FC2C5E089",
+              "name": "Webcast 2007",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EE54D712-B7CD-41B7-9D1A-099951FC1823",
+              "name": "Rocks: Live In Germany 2001 [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A365286E-C983-4566-9728-24CE338F132F",
+              "name": "Itch (Ep)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "403F5834-EBCB-4C5C-8847-2935543B7F82",
+              "name": "Com Lag 2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "04940A31-03ED-42AB-9695-D4765DE6ABD1",
+              "name": "Hail To The Thief (Retail)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C5844065-29DB-4B4E-84CA-37C2BD485B32",
+              "name": "Amnesiac (Collectors Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EBB38815-F29E-4FE5-BBAF-175600293004",
+              "name": "Towering Above the Rest Complete Disc 13",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A737605E-1C60-4425-8ADA-228C956904F6",
+              "name": "Knives Out (Domestic Only)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7CB932E6-B89F-4F1D-8C9F-CA15D738EECD",
+              "name": "Best Of The Bands - Classic Tracks",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "349A1715-AC9D-4C7B-8DCF-DFB7E0156000",
+              "name": "The Best Of Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1D5735E2-AA41-4E78-BB96-2772DBE91BEB",
+              "name": "There There [Canada]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1933BCEE-02FC-4D6F-A86F-B81A4FBF2837",
+              "name": "The Best Of (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "565F1332-E3DC-413B-AF3D-052D4BBA8641",
+              "name": "In Rainbows Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "71E4020D-0202-4328-8E42-D446D6BF45C1",
+              "name": "Hail and Backtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "48835B1C-64DC-43E3-A1C3-AB90C2978C37",
+              "name": "Kid Amnesiac",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DCE5EA83-5D4F-4108-90EB-7E4C0BAB0F04",
+              "name": "High and Dry",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "88F960ED-E5E7-4797-962F-713B5CA39100",
+              "name": "TKOL RMX 1234567 [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6CEB9E4B-5682-4DF8-9401-773E3D734700",
+              "name": "PASTE.COM Presents:  Radiohead Live at Tramps  June 1, 1995",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "758F52D9-DC3B-4AE2-A3B8-338988A376FE",
+              "name": "halloween",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E703D133-B9D1-48F5-88F8-1DEFA7A06DCB",
+              "name": "Nightmagnets",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "849FE1B9-EBFD-4602-AF1E-B54816D520C2",
+              "name": "Creep [Ep]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C4920007-3D7E-4C9C-803F-C4234F0E5ED5",
+              "name": "2002-08-05: Palacio de Congresos, Salamanca, Spain",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "487C6A77-5314-47F5-8574-C8FFF3C434AC",
+              "name": "Creep",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1EB70AE0-7B56-43FB-A752-E72232B4E78B",
+              "name": "Unplugged & Unreleased",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7C0F7998-758B-44E4-92B1-819B9B255A7B",
+              "name": "i promise",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C2F7D9A3-519A-484D-B46B-078D3B480945",
+              "name": "Selmasongs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C3ED1A96-3A1C-476B-9EF0-87D8C9DCD338",
+              "name": "The King Of Limbs (18 February 2011)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9E53BB05-89B0-466B-B6E2-67A4802AC7B1",
+              "name": "Kid A (Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6F32E6FD-6F7E-4A5E-BC0E-B41B448B0066",
+              "name": "Reckoner (Instrument Stems) - EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F63647E1-D403-4A54-8FC1-5EA547B7596D",
+              "name": "Pablo Honey (japanese version)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "628A4C09-9CC9-42F9-B7D0-C1C382FA7674",
+              "name": "Towering Above the Rest (disc 7)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D7B80DCA-4D55-4693-8E5D-C6A031D0CF2C",
+              "name": "Pyramid Song",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "85A78E9C-178C-4AFB-A9E8-830234E1C597",
+              "name": "The Bends (Limited Collectors Edition CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3027451F-5641-469A-BD09-0CA01B5CC154",
+              "name": "High & Dry (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AA277A72-863E-4372-B514-BEC1A601F665",
+              "name": "Karma Police, Pt. 2 [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "43FF3921-53EE-4B67-8C87-C9E5C3C283A9",
+              "name": "amnesiac (retail)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "74CEE694-BA16-43CE-87FF-C090F85694FC",
+              "name": "Com Lag 2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5C700961-EBFE-4A8D-8B7D-D5DFE59F448A",
+              "name": "The Best Of [US Limited Edition] Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "33C15A43-2083-4E51-9783-2A17F9CD1578",
+              "name": "In Rainbows (Disk 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0A3CEF4A-46BD-463B-B9C7-1279A0618E79",
+              "name": "Amnesiac [Limited Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CE10101F-2527-469A-A16A-904DE4556992",
+              "name": "The Pitchfork 500",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "58AFD5EF-8C71-4C94-94EE-A0395A2AB84D",
+              "name": "Radiohead (The Best Of)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F0DC9E8C-9E0C-40A6-95DB-E9E2C438433E",
+              "name": "S.F.W.",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "250AFE78-DF4D-40A1-B15B-48CBF518C0D1",
+              "name": "Empire Records Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C358BDD1-F418-42A7-BD57-323D947DBD53",
+              "name": "Romeo   Juliet",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "207C8D37-AA06-4241-B89E-B0B37E1163CF",
+              "name": "Trade Justice Movement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "27B10081-17C2-4494-8FFD-0BFFE399BE8C",
+              "name": "Towering Above the Rest (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4B062C8C-452D-4014-B782-4F2F92451818",
+              "name": "In Rainbows [Special Edition] Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "84DF5A5D-BCF9-4C22-939E-003FF4AF2DFC",
+              "name": "Knives Out (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "04D3C9F9-273B-4BFD-A3CE-27E433CE6F33",
+              "name": "Live in São Paulo",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9940F3AE-6CCA-4C94-B898-090699369AD5",
+              "name": "On a Friday",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5C985EE2-DC20-4052-B2DC-AFE7238033D1",
+              "name": "Oxford's Angels",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3FD20462-AA78-4241-BFB8-0273AA7D1779",
+              "name": "The Eraser",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1F7E3303-1563-47DC-9A66-55CDE9858E19",
+              "name": "2 2=5 (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "45015E83-E5E8-4FD5-A152-E92F70A97ADE",
+              "name": "Creep [Japan CD]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C5081EFD-8A11-4F3C-9123-5045C161C37A",
+              "name": "The Complete Singles 1992 - 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EB2A3047-C925-4544-B7E0-EF337DBAAFC8",
+              "name": "Неизвест. альбом",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1CB72C46-A695-4F75-A316-D758866E6651",
+              "name": "Towering Above the Rest (disc 4)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2F8FDC47-54CE-475C-BEE1-BE43118512D0",
+              "name": "2004-05-01: Empire Polo Fields, Indio, CA, USA (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E21F42A7-0A58-4AAC-B4CB-EBDFC0FD2D48",
+              "name": "Karma Police (cd1 & Cd2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9F3FB055-AB93-4465-A81E-BD19E6CEF9EE",
+              "name": "Amnesiac (Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F148338E-3BFC-4307-A844-E12A0B253286",
+              "name": "Remix Project",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9E6DF50E-ED5C-40B8-B87C-1A7727C326C1",
+              "name": "Karma Police (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "91CD700C-625A-498C-A765-52BA19B282BF",
+              "name": "1994-02-12: Melkweg, Amsterdam, The Netherlands",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C9A6BC78-C5F7-4989-8BE8-767DE3438161",
+              "name": "Rolling Stone Magazine's 100 Greatest Guitar Songs Of All Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6B3BE2E8-F68B-4C16-AF31-00CABC814E97",
+              "name": "2008-08-28 - Santa Barbara, CA",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "07AAE75A-F35A-405A-863E-0D04620E260E",
+              "name": "Radiohead Acoustic - A Smell Of Recognition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6A4A4322-D62A-4824-A347-2C29E08F0EBD",
+              "name": "Pyramid Song, Pt. 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E485D8A9-C5A9-48B9-9D5D-57A30184575C",
+              "name": "100 Greatest Rock Guitar Solos",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4836CD49-31B9-44AC-B46A-235973CA58C1",
+              "name": "Towering Above The Rest",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "654D272E-A9A3-47DF-B180-12ECE1FF8ECA",
+              "name": "Radiohead: The Best of",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1091D97A-2D87-4782-90B0-BE61EADBF431",
+              "name": "The Bends (Pinkpop Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D3ABC9F5-7FF9-4B73-862B-743B681EF2D3",
+              "name": "No Surprises (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4F60ECA1-C538-45DE-9EC7-FE8811BB6CE1",
+              "name": "Towering Above the Rest Complete Disc 21",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1BB492C0-15E4-4101-BCBC-6A68BB0FDA01",
+              "name": "Haute Couture",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "570E60A4-246D-4057-B537-574FB436ED1A",
+              "name": "Lost Treasures 1993-1997 [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A5466C3B-D187-44BE-823C-C535E5652A93",
+              "name": "Amnesiac (Deluxe Version)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "59DEDA7B-0187-4EEE-92E7-51B284733C57",
+              "name": "Street Spirit (Fade Out) (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "233D2FD6-DACE-4AEA-89ED-7C885FEC7D59",
+              "name": "OK Computer   6 Bonus tracks",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D38A1490-9D5C-47F7-9177-19C39632F84A",
+              "name": "Paranoid Android, CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "27A61F1A-8663-49B0-8911-7BDD7B7E584E",
+              "name": "Covers",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8357F449-C169-45A1-8823-9F6CDA40254F",
+              "name": "OK Computer (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5EB8928B-F8D6-4ED2-841D-C979590A8381",
+              "name": "Romeo and Juliet",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AD1FD5D9-F1FB-42A8-81EE-953AAE45CFBB",
+              "name": "1997 - OK Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "50ED2104-8643-4430-812F-6B732C2B123A",
+              "name": "Rare",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9FEAD169-791C-49F1-87E1-17C37C0577CD",
+              "name": "Karma Police (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "25880594-8035-40B8-A939-CC273CFCC73B",
+              "name": "Amnesiac (Collector's Edition) [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0A9BCE68-52C3-490A-992E-6595D0AB00ED",
+              "name": "Give Me Some Rock'n'Roll",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D70501F5-709A-40AD-B3AD-E45BDDF2C871",
+              "name": "Fuckin Rarities",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "05C2C7DA-E7A9-43D1-86ED-72769EBA1F5C",
+              "name": "The 90's",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1D169046-FD94-42A2-AD44-BC423771D832",
+              "name": "Live in Montreal, 2008-08-06",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8591E8E8-FDA5-4179-9AC6-FA80D5FFDE7D",
+              "name": "Romeo   Juliet Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "73256ACB-DD53-49AB-9C00-144E7396CAAA",
+              "name": "Thumbs Down (Webcast)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D0F887DB-60EF-4BC0-9560-1226C43F87DF",
+              "name": "Pyramid Song CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4A799B62-4FBF-48DD-A7A5-A57DAA43D427",
+              "name": "Live on Le Reservoir",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "77AD5B51-EECC-4EB9-A52B-7097573BFED6",
+              "name": "Burn The Witch",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "11E00378-E78D-42EC-AA25-717A29A459B0",
+              "name": "Daydreaming",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5C38D904-929C-4AEE-BD8C-FE5C68566685",
+              "name": "Kill All",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C52C08DE-7D3C-4B46-98F0-37A7B9AA00A1",
+              "name": "Towering Above the Rest (disc 8)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5EF91CD6-D8C0-44A0-B0EF-A4066C11E807",
+              "name": "A Total Waste of Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CCD9EAC7-9962-4C01-B6FC-0BC480DFF2A8",
+              "name": "Createst Hits",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EE91AF0E-0D21-4C2B-9AD9-8D164903C1DC",
+              "name": "Towering Above The Rest (Disc 07)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BCBE796A-4171-4B52-A114-71C374F4D543",
+              "name": "Music From Vanilla Sky",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "637DC69E-292E-495A-8D05-A0273288583A",
+              "name": "Live at 10 Spot (disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EB8FBADC-119A-44B7-8DF1-AA48A32D97D7",
+              "name": "B sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F94C1011-48D3-4F9F-851A-2BD663E9AFC1",
+              "name": "Kid A (Deluxe Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ECCBCCCB-178F-440C-B951-3674313189AA",
+              "name": "No Surprises",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "77729746-F887-4145-8F2F-A85380C731D7",
+              "name": "Street Spirit",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "164E1B03-7E5B-45E0-B747-8421255FE013",
+              "name": "My Iron Lung (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "11FFAE0E-EB20-4EE4-BBAB-0444D54F5C45",
+              "name": "The Best Of",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3A699A75-86BB-4985-B927-7056C2A2EFA9",
+              "name": "Com Lag (Limited Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8A0EF309-D3E7-42B6-B4D9-DFE58379272E",
+              "name": "Hail To The Thief (Collectors Edition) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FCC7C918-7B09-48B7-910D-FAA088B68F14",
+              "name": "2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F570D913-3F06-4732-A804-1ACC837B2006",
+              "name": "In Rainbows [Special Edition] Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1ABA4FD6-AAD8-4FCC-A62F-6BCC9EB98EB7",
+              "name": "The Bends - Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7A1BC53B-D51C-4F60-A9F8-9190EF42EF09",
+              "name": "Kid A - Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3B4922C2-7E4B-4A51-AE2A-FD0C90C5A03E",
+              "name": "Amnesiac - Collector's Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "285BCBA4-7B97-40A9-8679-C32D0B774AA6",
+              "name": "OK Computer - Collector's Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BBA8208E-A0B5-4093-A96F-6F96357E3ED1",
+              "name": "Street Spirit (Fade Out) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3E21B7A1-0F3F-482E-95D7-B930C9BFF868",
+              "name": "Radio 1 Live Lounge",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FA2F43DC-47B8-4F6B-BF5C-4863029B1191",
+              "name": "Knives Out, Pt. 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C6EED58F-3DEE-49F4-BC97-9551E8E7CFED",
+              "name": "Radiohead - The Bends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "43682C09-C42B-4B21-B3C5-8A1BF23BF1B6",
+              "name": "2 2=5 (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "81D95E49-AF93-456D-9B47-D9E61C066DAF",
+              "name": "Greatest Hits Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E0282049-136F-423D-8A84-DEF9AFA09624",
+              "name": "Interactive",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7F8AB085-AEAB-4314-AA39-9BB60DD29325",
+              "name": "OK Computer (1997)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6FF907A8-5FDB-404C-91D5-D883BEAF23F6",
+              "name": "Karma Police [Single] PT1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CAAAA257-5997-40C7-9C11-40AA65331594",
+              "name": "Paragons of Virtue",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4C2B24CB-FBE7-42AF-ABAC-07DA576776A4",
+              "name": "I Might Be Wrong",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FCA41618-0012-483C-B40B-5DFE0620E2FA",
+              "name": "none",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D1B980F1-013A-4A1D-B6CA-9A107F475B46",
+              "name": "Pop Is Dead",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B95E53E2-6173-40F9-AA70-11FF4830C3C5",
+              "name": "Les Enfants Terrible",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EEF557C4-28EE-4D1E-B9B4-14AA0E7BE7EB",
+              "name": "Paranoid Android (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F4207E54-4263-492D-A0D7-C52B7F16409F",
+              "name": "TKOL RMX8",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5FE204D0-7A5B-4FE1-AEFF-95089AE96A9A",
+              "name": "Pablo Honey [12 Track Version]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3C499549-AFA4-46D7-A09D-3DCCA93FA7B7",
+              "name": "Live at Amnesty Int. Festival",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F892D98E-CA0E-4AE6-B133-9D8D368F7088",
+              "name": "Glastonbury 2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "72D66C45-00F9-46CB-A5EE-A3E6FF2B791F",
+              "name": "In Rainbows [CD 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "677BD251-8E49-4EBA-B763-3494B2DAC48D",
+              "name": "MTV Unplugged",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5D5A7057-447A-46E9-8181-0AD657DEF61D",
+              "name": "Gagging Order (Acoustic Sessions )",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D2DF56AB-1E3B-4B71-B488-506D00F2D778",
+              "name": "The King Of Limbs - From the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2FCD2475-9F2C-4BA9-A169-D3C5BB33576D",
+              "name": "In Rainbows [CD 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3DB2FB22-479D-4AA2-B0E6-A752135D7057",
+              "name": "Now 6",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "64009944-0119-491B-8786-C2E3470285DB",
+              "name": "Com Lag: 2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D44AB03E-5B55-43CD-B1D6-2A30E0F1BEB2",
+              "name": "There, There",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "96A7B40A-6872-4571-9547-C392D096CF77",
+              "name": "Lollapalooza 2008",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "12EE8664-6C4E-4EB0-BDD9-1C5E792E8F9C",
+              "name": "The Bends [Collectors Edition] (Collectors Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C2382EB5-FA17-4F1C-B23E-E859B4A82DBB",
+              "name": "Oxford Angels : The Rarities",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D707053A-62B5-4C86-8C97-B3B9DC3B282E",
+              "name": "Ęîíöĺđň â Ďîçíŕíč",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BA473B5B-EE29-4AA1-8B2E-C0E49FD5A5C0",
+              "name": "The Best Of Radiohead (cd1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "72245CF8-E8FA-4B5C-A63C-DB1D189BDADA",
+              "name": "Amnesiac (Collector's Edition) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E2261250-52C9-4640-BC4D-B234B0970A7A",
+              "name": "In Rainbows (45 RPM)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1971FC21-DD99-4314-94B6-C6FB3BFCC84F",
+              "name": "Hail to the Thief (Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C711FC0C-CACE-4706-B764-8DF6F5D30939",
+              "name": "Airbag: How Am I Driving [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CE87F004-099F-4D14-887D-C4E287C88DE6",
+              "name": "OK Computer   6 Bonus tracks",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D4A003B3-7013-4355-9B04-3A0432ADC08B",
+              "name": "Hail To Thief",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D13B8055-BB4E-4477-93FE-319436E3A6CE",
+              "name": "Pablo Honey [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CB6D7B5A-91FB-445E-B40D-32C188F997A5",
+              "name": "Hail To The Thief (  Bonus)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "10A87185-25CE-48BC-A356-BE12717CB000",
+              "name": "TKOL RMX1234567",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EF8D4BAB-9E9F-40C2-83E0-A4486C996857",
+              "name": "Pablo Honey (Deluxe Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C1E4D526-D0FA-4BDF-BC13-74DA147FA835",
+              "name": "Me & this Army: Radiohead Remix",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "06CB51EC-698C-4158-92A1-D376FB4DA646",
+              "name": "The Best Of Radiohead [Special Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CA1930A3-8722-4589-A5E7-DA0A2628F5D8",
+              "name": "Just for College",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0CCD72B8-39F0-4416-BF49-73D0A8B0C6E8",
+              "name": "Pyramid Song Pinkpop Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BC8E52E2-C9A0-4A7A-83CA-7DAFD505D48D",
+              "name": "Com Lag (Including 6 Bonus Tracks)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AA98E604-AA91-4326-A0E9-D3859B3948E5",
+              "name": "TKOL RMX 1234567 [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4A397ED7-C9E5-44FE-80B6-7C3368B42EA1",
+              "name": "Acoustic Sessions & More",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8C53171C-EFB1-4537-B07B-6B9F216A7CC6",
+              "name": "Ok Computer (Deluxe Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "12787353-C581-479D-A67B-6E84FB08B203",
+              "name": "Earls Court 11.27.2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CFFBECB4-73F3-4337-A693-2EAA731CBB35",
+              "name": "Towering Above The Rest (Disc 02)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5771468C-56AC-414D-B8CB-461E184FAA85",
+              "name": "In Rainbows From the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D73D5D55-9E95-46BB-B488-888600B1C607",
+              "name": "1995 - The Bends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4CEE706F-1D95-4F33-9F3F-2C6DA6A34F1E",
+              "name": "Q-Rock 100 [2008]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AC00ECF8-2495-40A5-84B9-20BFB7CD862F",
+              "name": "Romeo & Juliet",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9A583130-03AC-4179-9853-FE1B3E49AEAB",
+              "name": "Itch EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D8907559-1EAF-4FCB-A071-6AC5523635B2",
+              "name": "Rock Ballads",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E27F74F8-F5F7-4043-9BA3-EF31CECB1226",
+              "name": "5 Album Set",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C6AD0E82-4752-4915-AF46-B0A4EF8CB24C",
+              "name": "Fake Plastic Trees UK CD 1 EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "99A06E53-07F3-45C9-AC40-A28D3F83E9AD",
+              "name": "Just For College (CDS)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "500970B9-9E53-4547-AA05-E929D441672B",
+              "name": "Knives Out [US CD]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3F0AF77D-732F-487A-B242-1C1D8EDA05CE",
+              "name": "Rock Band",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7902B84D-E5CA-4624-9B53-7FFEA1B1EF5B",
+              "name": "Drill [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5130DC57-72FD-4309-B25E-7D6A786947EC",
+              "name": "Ergo Proxy OST opus01",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4224758D-46E6-41A5-9EB4-AD6941175301",
+              "name": "The Bends [Japanese Bonus Tracks]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "36E71D75-1763-4434-8FD6-99BE24F0FDFA",
+              "name": "Pablo Honey (Japan Bonus Tracks)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0BEB0A88-B1E2-4F3F-B66F-6CC0BC1F1877",
+              "name": "The Bends (Pinkpop Edition) [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B48A4E4B-5448-44CB-A2BE-58108E3C26A2",
+              "name": "Radiohead",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CA1B9B43-A9B4-4D7B-B4F8-1E7655BE44A4",
+              "name": "No Surprises [Australia CD]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C96FA294-C404-41A2-B924-DA93815DCD14",
+              "name": "No Surprises CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7E753E05-12CF-432E-8607-18AE9FE75E8C",
+              "name": "Fake Plastic Trees CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6660FF44-1B0A-43AC-9818-21DC465DE914",
+              "name": "In Rainbows (CD 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9E7ADD1F-319E-4ECA-888D-C3792E243CCF",
+              "name": "The Bends (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "32F26BBF-33FC-45BC-A6DE-38CA49CFF839",
+              "name": "In Rainbows (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B579BFE7-785A-4287-AB31-25F3FE2D0308",
+              "name": "Towering Above the Rest Complete Disc 11",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "128DCD9F-26E5-41F9-8B18-2ABCA585EDD2",
+              "name": "告白 ORIGINAL SOUNDTRACK",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0ECD1DC7-E73E-4BD0-9C0A-819D35615E13",
+              "name": "When You Were Here Before - Rarities 1992-1994",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8CC631C6-6B1C-41E9-88B4-E4DE7D2E5D4C",
+              "name": "Amnesiac",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D50A4BEE-9230-4A18-9FB1-21A07149E67F",
+              "name": "Amnesiac Promo",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4F49EF73-2451-452A-AFA5-FA53C63C89FA",
+              "name": "TKOL RMX 8",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B1B62B31-9A12-408C-92FA-8B54C15D00B9",
+              "name": "Street Spirit (Fade Out) (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D380197F-24F0-4C2E-8F4B-5FE55FCF956E",
+              "name": "Creep (CDS)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1A243967-0677-462D-AC74-CEB5C90A6799",
+              "name": "Street Spirit (Fade Out) - EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5A46477D-D7D0-4F64-854B-DF26AF3688DD",
+              "name": "MTV Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "137CE46D-9CB1-4152-9A53-2E2A1753D1F2",
+              "name": "Rocks Germany 2001",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C348A801-CF6B-44BB-B57A-68D66A2B369E",
+              "name": "Live at Glastonbury 2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C414BDE8-C6AA-4ED1-A845-778FA4AB86F3",
+              "name": "Greatest Hits (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2F962583-D167-49C9-8FCA-FD5EB15F264E",
+              "name": "I Might Be Wrong- Live Recordings",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FAE70ECC-368F-4CF4-B009-E600BB7B6269",
+              "name": "Street Spirit (Fade Out) (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "375D5335-0ABF-4851-872A-56E5CD1AEAE6",
+              "name": "Live at Reading",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DC281CBC-FBEF-4793-B68B-1F626A489ADD",
+              "name": "Fake Plastic Trees (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "270309CA-BDD0-44F3-B354-44A869C6D3AD",
+              "name": "The Bends [remastered]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B18AC435-6C00-4B97-A038-3803E4E0B047",
+              "name": "Go To Sleep - EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "11FF3555-52AC-4807-97A9-54D72B63CD38",
+              "name": "The Bends (Collector's Edition) [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7CC324F2-0912-4DC3-955E-F85A554A49C4",
+              "name": "Romeo & Juliet Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C59D648E-5233-45C8-B017-C543E10AC66A",
+              "name": "live In Rainbows",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A3F45731-DB54-4B9F-B9EE-7362FF6C10C0",
+              "name": "Pablo Honey - Collector's Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B346247A-1362-41AA-9299-ACECA99E2B78",
+              "name": "My Iron Lung [EP] [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FEA45A83-C0C2-42F7-8B57-7B5F899E7E0A",
+              "name": "In Rainbows CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2978036F-FC6C-4CF0-8050-E5C9280D9B7C",
+              "name": "Album Box Set",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7AFFB846-AFE1-4338-925B-94AACAD758A3",
+              "name": "OK Computer (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ED942251-CAD1-4C67-9A4C-BEE4779D5E67",
+              "name": "Cruel Intentions Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ACD86C99-8E2C-42D1-A8D8-E1623B7C8A0D",
+              "name": "8 Outtakes from Amnesiac",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "472BBD3A-9F54-4A45-91C1-5317602F433D",
+              "name": "Hail To The Thief  (Capitol 180g LP)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5ED9DD21-D98B-4373-8755-7F7D8A16BB68",
+              "name": "BLa",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "43B248D1-62D9-4100-8AAB-1CD81D031325",
+              "name": "In Rainbows (Disc One)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "627454D6-1770-4EDF-8251-C2C2C8104403",
+              "name": "Playlist Twilight",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "44260E79-98D6-43D6-9CC4-D08477A5364E",
+              "name": "Pablo Honey (Collector's Edition) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "59125DA7-9A95-4560-9460-3BEF2E6C7DDB",
+              "name": "The Complete Acoustic Sessions",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A5A58B6F-3011-4D5A-B7A5-8F70D687DC68",
+              "name": "The Bends (Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "84B516E5-142D-4BD8-B87E-9B5E0B491CD4",
+              "name": "11-26-03 - Earl's Court, London",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3467CE31-4285-4359-9A5B-9AF46A9B2B72",
+              "name": "Climbing up the Walls",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A218A2C4-651A-4645-AA8E-CBA4697F3F99",
+              "name": "I Might Be Wrong Live Recordings",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "02E249A8-C329-4A86-8464-5D301B985A39",
+              "name": "Radiohead B-sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FF0D2CA2-5A87-4F83-B977-F755250CC301",
+              "name": "Kid A (Deluxe Version)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E219ECA8-90F9-4E5C-9D7F-FB92C70F447C",
+              "name": "2010-01-24 - Los Angeles",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "199881C1-B853-4C45-8BBD-96CFD36DD89F",
+              "name": "The Ultimate Collection - Modern Rock",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "69DDC686-8DC0-47E3-9232-59967169451B",
+              "name": "Amnesiac (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "64F14517-7560-4F3D-898F-F9CD97C1BB59",
+              "name": "Karma Police, Pt. 1 [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "87DFFE94-199D-4C9F-9C55-E30958FC9E4F",
+              "name": "O.K. Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0DE0A0AB-D94B-49DC-B2B0-9E64FB39A429",
+              "name": "In Rainbows bonus disc",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B2EBB366-6964-47C1-84FE-7DDCB633DADA",
+              "name": "Greatest Hits of Modern Rock - Disc 3",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "21BE082C-D57D-4457-B927-2AB6734905D8",
+              "name": "Pablo Honey (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "68E6128D-25EA-4613-A41D-A0D007BCA0CE",
+              "name": "Rock",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "61C889A0-0F51-4565-ABC7-1E2CC7D905F8",
+              "name": "Live in Boston - 4 June 2006",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "43E2DBD7-F7AC-494F-8710-150EB0A1DF51",
+              "name": "No Surprises (single)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "516B7701-270C-4D61-8391-AF838B33D5D6",
+              "name": "A Smell Of Recognition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BC8BF156-0AB0-4179-83CD-628022FB06A3",
+              "name": "OK Computer (Deluxe Edition) 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "196E5B29-BC16-45F6-8BCF-1BE8E44DB35D",
+              "name": "undefined",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3BFBD06F-E484-4F47-8A80-34F43610007D",
+              "name": "Towering Above the Rest Complete Disc 10",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "186EF5B6-1FDB-45E3-A864-491D65CC4C1F",
+              "name": "2001-08-17: Liberty State Park, New Jersey City, USA",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "80C3B8C4-30F8-42A3-9D63-225311156ABE",
+              "name": "101 Indie Classics",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "15BAA6BB-979F-4171-9722-91ABE6B778D6",
+              "name": "Unplugged 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D24B201E-ACE8-437E-8C0F-4DF147ED98F5",
+              "name": "The Bends [Japan]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5D6AF03B-A4CB-44F5-B6CE-C45DB75F2C9C",
+              "name": "Amnesiac (Collector's Edition) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "26A97945-A62D-4F79-9D9D-CF6F422CD4CE",
+              "name": "2001-08-01: Hutchinson Field, Chicago, IL, USA",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6B9657A8-838D-4297-9D63-18174F5AB1AA",
+              "name": "2003-11-27: Earls Court, London, UK (disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "14C9FB9F-51E2-4E0F-ACD6-5D120DE2DE3C",
+              "name": "Towering Above the Rest Complete Disc 01",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "157D256A-84B8-49BE-99C0-18868A99A022",
+              "name": "Towering Above the Rest Complete Disc 15",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BD14D5F6-5D36-4D09-9C36-4AF518C89676",
+              "name": "Jigsaw Falling Into Place",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DB924545-2ACF-4EFF-9ACD-7ED63F9C80DB",
+              "name": "Musique de film",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "33516462-73BF-4C1C-9559-5F900EF72B37",
+              "name": "1993-02-23: Black Session, Paris, France",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2BD4BD75-8EFD-408B-A727-C7C1D14A3A53",
+              "name": "Anyone Can Play Guitar",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "611ECD74-0E53-4750-BE10-6AFD80C20CAD",
+              "name": "Running From Demons Ep",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E532AEAA-F92D-4E7E-9D47-21D0891CB4E5",
+              "name": "Ill Wind",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "53B89462-4D99-48B0-8CC8-ECFC45FC4102",
+              "name": "Deconstructed: An Acoustic Album",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3EE91C93-3CD3-41B6-B1A0-47EB34E77ABC",
+              "name": "Live Recordings",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C843362A-421A-495E-9748-8D3170315F95",
+              "name": "Towering Above the Rest Complete Disc 07",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E238D67B-EA1F-4394-9F72-47002897627B",
+              "name": "Uncut",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B8E46201-34F3-417C-B73F-34415C33841D",
+              "name": "Quality Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6EB0EDF4-4B0B-439D-9AE7-35BB681EF514",
+              "name": "Nude - Single",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E104408B-B413-48ED-905B-D2597E93AD4A",
+              "name": "Down Is The New Up",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F54DA11C-9B9F-436B-8814-17DBDBD08A82",
+              "name": "Me & This Army - Radiohead Rem",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EED0C215-3FE0-4ACB-8D8F-3854F9E338A2",
+              "name": "In Rainbows (Bonus CD)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "642D90A8-6182-495A-BBF6-DFA7F5EFDA6A",
+              "name": "Best Of",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E8972F61-3184-4C12-83EE-C0EDFFBF67F1",
+              "name": "In Rainbows [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "57611079-0683-49B0-AA9F-0B5A94845A67",
+              "name": "Hail to the Thief (Unmastered Advance)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "326D9B07-5541-4368-A270-AF81167C16F0",
+              "name": "Kid A",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D58D7DD7-E304-4B3F-BCE3-4F7E7DDA5D12",
+              "name": "Live, 93 Feet East, London, 16th Jan 2008",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "18777694-3290-4B71-B9BC-F9CA992CC113",
+              "name": "High & Dry",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7B439DB2-5872-4718-979C-6AA5AB449C9A",
+              "name": "The Bends Pinkpop Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "57A7E28D-6156-443C-A717-5ED9CD0121D2",
+              "name": "Live at the 10 spot, Dec. 19",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "49924286-7ECE-4C0A-9060-C4F0E6A0C267",
+              "name": "Go To Sleep CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "651EDA9D-53C2-48BD-9402-2751A1A4BC10",
+              "name": "50 Biggest Rock Songs Of History",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D109DC6D-C9F4-4B50-A881-3C4EA5389A77",
+              "name": "the best",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F80D3000-9B60-48B4-91D5-C16079650739",
+              "name": "2003-11-26: Earls Court, London, UK (disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9D6AF0AD-2C06-41FE-A84C-3B0AFF9A6559",
+              "name": "OK Computer [Collector's Edition] (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E3FCB3D6-6133-4367-9966-693E551E683B",
+              "name": "Complete Acoustic (Unplugged Bootleg CD)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EE3A8298-88D7-4886-87FC-B9583D776B64",
+              "name": "Greatest Hits CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E96586AA-39A7-4387-A8E7-129E5BF87F3E",
+              "name": "Knives Out",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F50CAD6F-491A-410C-A465-972BE9A2E90B",
+              "name": "NME Awards Nominations Album 2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4AA55898-10D7-4D45-8F1D-3FE420DBDB75",
+              "name": "Pablo Honey [Limited Edition] [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1C9DEEB8-2D0D-412E-85C4-A65BFF79EADE",
+              "name": "Rolling Stone Magazine's 500 Greatest Songs Of All Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "03AF30B3-59A5-4600-ACD5-BF34BBD33047",
+              "name": "Creepshow (1993-07-12: The Whiskey, Hollywood, USA)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8E0E720F-57AC-419A-8E69-3568AB70A3DC",
+              "name": "The Bends [Explicit]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B147D93D-0133-4D0F-B89E-795D12AF1613",
+              "name": "Live & rare Tracks",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "16703315-6FD9-49DB-AAEF-F809129E78BC",
+              "name": "Creep [Single]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3E0EAC1F-70ED-46CF-98EE-F35CE831CFF2",
+              "name": "The Best Acoustic Album In The World...Ever",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "53B43CAF-FA2F-417D-8424-DC4112D2D5AA",
+              "name": "Lost Treasures 1993-1997 [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5922514D-F63B-4A75-A811-B9A58DBA3022",
+              "name": "The King Of Limbs Live From The Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BA459C3F-E603-4B25-8000-8D359752D09B",
+              "name": "Towering Above the Rest Complete Disc 12",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A71752A7-EAD6-430F-A44B-A0F32E5DF307",
+              "name": "In Rainbows Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B1123139-F880-4D79-AC9F-54437FF505ED",
+              "name": "Amnesiac [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B3DB55F6-1C1B-46E7-B7E6-D06E6747C8BB",
+              "name": "MUSIC",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "886E9644-AFB8-43F8-BFF4-B57FAC60A70D",
+              "name": "Com Lag:2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C8466C6F-6FF8-47D6-9811-B8603E005E08",
+              "name": "Towering Above the Rest Complete Disc 14",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "01C72BE2-0E1F-43A8-BA3A-7BE2C2D4AC20",
+              "name": "<Unknown>",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DA605F43-20D5-4054-B698-91CD1BA9F4A4",
+              "name": "Romeo   Juliet vol.1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "80153DE5-5C4E-4CD8-A4F2-A94547062A58",
+              "name": "The Best of Radiohead (Special Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D4894317-ED61-48F1-937A-EDD5F85B07F3",
+              "name": "The Best Of (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1BE2DE9F-778E-4B12-B9FE-DBC7B4F199B6",
+              "name": "On A Friday Demo",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3E58E92A-3951-40E6-AF87-72C0931A3BF1",
+              "name": "Com Lag (2plus2isfive) [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7777ADCE-D822-4B5E-84DD-CBC6DBC4AA78",
+              "name": "2 2=5 CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6327E476-F691-4665-8591-E42432386CA6",
+              "name": "Creep Black Sessions EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8CD7CD1B-5FC7-4FA7-A541-FAA371419370",
+              "name": "Ministry of Sound - Chillout Sessions XI",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "339F87E1-AB96-40B4-B572-F0C3C80AEBCE",
+              "name": "Krock Radio - Accoustic",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EDA236EF-2D4D-4BCA-9208-A4C7DAE33E11",
+              "name": "The Best Of CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6B63F084-53DA-4AD5-8421-14A760C33353",
+              "name": "null",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "83D0C27E-7A82-44C3-A266-22B99CB5A3C3",
+              "name": "2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1C0132E8-5C1F-4914-9DCD-BDB7B127CA71",
+              "name": "Airbag - How Am I Driving",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BE3F5EA9-78F7-4D99-8E62-A599A2E52089",
+              "name": "Kid A - Collector's Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "782F19B3-82C3-40F4-8C64-08BAC1CF84D2",
+              "name": "No Surprises [Single]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "60043F3E-A8A2-4FAE-8A2B-B2D82F840B78",
+              "name": "Street Spirit (Fade Out) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "08260B90-2DAB-4A75-9BA2-158A8240EE45",
+              "name": "Karma Police CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3E8D67C0-30F1-4125-A0F0-235C7F743D5E",
+              "name": "X-Ray CD07",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "60CED14E-0585-42A5-B818-68B3FF3262C0",
+              "name": "Pure Acoustic",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "123A7FDA-D518-4552-84B0-17119740F3C1",
+              "name": "Best Of Rock",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EE6294C7-E73A-4C08-B5A1-686E50949C4D",
+              "name": "Creep (Single)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3057409D-A7E8-4F2D-A17F-FAA2E272CE21",
+              "name": "Amnesiac [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3B016F43-73AF-49FB-844B-37F58F1657BD",
+              "name": "Meeting People Is Easy",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9344A0E5-6516-48F4-A1E7-331F69E31AEB",
+              "name": "Go To Sleep CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "28C16917-D065-430C-904D-38AAA0379DC0",
+              "name": "live at Glastonbury",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7046B5BF-7EEF-4835-8B72-D30AF263ED14",
+              "name": "Romeo   Juliet (10th Anniversary Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D92B0FA4-F35D-421E-BF1D-BDAE306FC30D",
+              "name": "bluetooth",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "097CD6A7-08FF-4512-9B78-CF39FAD753C5",
+              "name": "Towering Above the Rest Complete Disc 18",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3AD6C9AF-C466-4347-AAD2-B0B091859C86",
+              "name": "The Best of (Special Edition) - Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1A3615E7-267B-4AE7-B2F6-7D70EB2EEA2D",
+              "name": "Hail to the Thief (The Gloaming)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0F908BC4-D592-4C52-ACFC-2D51BCA36B15",
+              "name": "WorkInProgress2000",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E7724AF2-1FFA-42F3-9A05-6585B26A87DE",
+              "name": "Live from the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "92A50EED-0A9E-402B-8ABB-B1D8F7043E07",
+              "name": "Paplo Honey",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7CA5E903-6BBE-4C3A-84A1-D187F9D1CB2F",
+              "name": "Songs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C288D7B2-A4B5-4E0D-A496-6D448F1D2FE4",
+              "name": "Unplugged",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "25B5E652-83AF-41D8-9BFC-75D1C2A29497",
+              "name": "Just (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7C5A10DA-B3FE-43F3-BFF6-16DD3259DA11",
+              "name": "Very Best",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1CFFB02F-97C0-4355-8B91-8C19F2C8434D",
+              "name": "In Rainbows (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "16C13C25-4FC5-4DEB-8161-A2ABF92CBE40",
+              "name": "Pablo Honey [Collector's Edition] (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F459E016-BD00-44E8-83F7-8BCC72A32978",
+              "name": "Pyramid Song (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "97049C8D-09A9-4FCF-AD17-F9E19A43C16B",
+              "name": "I Might Be Wrong (Live Recordings)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "73DBA726-D0E8-40A5-8A99-DD8220BD8F16",
+              "name": "Amnesiac [Deluxe Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CD3FBB5B-3FCA-4C49-94E3-BF2847957A4E",
+              "name": "Airbag-How Am I Driving-",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E1ACC847-3C51-47DC-9F8D-2303E8BE2E03",
+              "name": "The Daily Mail & Staircase",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5256B8B2-BA2F-47A8-980F-A61F54083707",
+              "name": "Com Lag (2plus2isfive)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D30A3813-9F0C-4353-8A3E-7667694F4A30",
+              "name": "My Iron Lung [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BB588579-9875-44FC-85F5-68C047F15EC9",
+              "name": "Amnesiac (Advance)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6EA854A0-3961-4111-856A-2541629097B2",
+              "name": "pablo honey bsides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BBB16433-8302-4E2B-AD6B-BF97A2F722AE",
+              "name": "Greatest Hits 98",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "09FCED2F-D1FF-4BB0-944E-F59C4C0B0867",
+              "name": "Little By Little (Caribou RMX)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "502D765F-E595-4B83-87C9-DFAFB123AE80",
+              "name": "Towering Above the Rest Complete Disc 22",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7FFB43F9-F2E7-44EF-8345-B460C9635683",
+              "name": "The King of Limbs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1192EAF4-8156-4D78-9E3C-30FB944B4B35",
+              "name": "Cd1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2E349477-DDB9-4C79-8956-19BD95D78070",
+              "name": "Harry Patch (In Memory Of)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7E543B45-398B-40E0-8F90-8F1559DA5291",
+              "name": "Acoustic",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CA5CF950-F3C0-47D1-966D-D5E00C4AB932",
+              "name": "2001-09-29: Osaka, Japan",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "248DDE29-A34B-4318-BD86-C828E0ED6E0A",
+              "name": "College EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "61C6723D-B5C1-4D61-8296-67CEDCC850E6",
+              "name": "In Rainbows (bonus disc)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F2F4B881-2790-48C6-9CFE-D4A72E1A0C85",
+              "name": "Towering Above The Rest (Disc 06)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3F857839-FCA0-4756-BE36-45CBD48E6F7D",
+              "name": "Salamanca 07-08-2002",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A7FDAEA5-D2EA-476D-836B-DBCE888E8607",
+              "name": "My Iron Lung [Ep]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "97F56C55-F258-49B8-A636-15B24861604E",
+              "name": "Towering Above the Rest (disc 10)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6DE8D66A-AFCD-40C5-9FED-5C29B91D616D",
+              "name": "OK Computer [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8DADAF48-7B02-42AD-B416-9054FBE478A2",
+              "name": "The Best Of [CD1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4EE5F4EB-CEC2-4C85-AC97-035771CE22E5",
+              "name": "Creep (UK)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "298E277C-C593-44CD-9084-5754D207D779",
+              "name": "Harry Potter and the Goblet of Fire Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7876DAE6-BC58-4036-842E-9148034F392B",
+              "name": "OK Computer (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "48C6CFD6-8252-46C0-9127-2492906DFCAC",
+              "name": "Bends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0944536D-972A-4162-93C1-A6BB51C668FC",
+              "name": "Six Feet Under, Vol. 2: Everything Ends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "48034C59-29BC-4E5A-A1F6-DDF6E204C434",
+              "name": "B-side",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "856030DE-E47F-4821-A110-494FEE5DB2A4",
+              "name": "The Bends   Bonus Tracks",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A15736E2-035C-4189-ABE3-A8CFA8E5F2B3",
+              "name": "The Rolling Stone Magazines 50",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EF2FDD1D-F701-46C8-B19E-AF5B30259B1E",
+              "name": "Leftover Computers",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A2463360-397F-4B97-9B32-340F86AF2FEB",
+              "name": "Unreleased Studio Mixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6F3E5E84-FF4E-401A-84BC-3E99C9CF1622",
+              "name": "Hail to the Thief [Bonus Disc] Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7E4FCC71-215A-43F8-A507-0ABAAB30C542",
+              "name": "Romeo and Juliet (vol 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3C1E0FC6-CC41-44AB-91E0-AF5B3C90230D",
+              "name": "In Rainbows disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "158334EA-DEEA-410D-BF50-A1039A2F14D2",
+              "name": "Live From The Basement the king of limbs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BF0676BF-8507-41D9-A62E-8D5DE4004A5B",
+              "name": "Vanilla Sky OST",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "82D58A76-D45E-4C07-A55C-AD55D130191C",
+              "name": "8 Outtakes from Amnesiac EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3AE52B42-1995-4D21-946A-246CB39BD956",
+              "name": "Com Lag (2 Plus 2 Is 5)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A1AC7904-5048-46CA-904F-337C7A7C9101",
+              "name": "Amnesiac b-sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BF1A3E4C-263F-4630-8FA0-355AAA586ECD",
+              "name": "Me & this Army: Radiohead Remi",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AF9EC399-FA41-4718-8F27-336D0B2E8506",
+              "name": "Pablo Honey [COLLECTOR'S EDITION]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6680F96A-4018-4F25-A6C6-34C9C8EECF3E",
+              "name": "TKOL From the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0BF91134-5288-4BF8-B78F-D381BA0E858C",
+              "name": "Collection 2000",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A3053FBB-33BF-45D9-BAC4-BC1DB03BC57A",
+              "name": "Live In Copenhagen - 5-6-06",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5112A3B8-DC45-4115-A8A5-B4B752C3A1C6",
+              "name": "World Ballads Collection",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4175D799-980F-4703-8B17-2680BE1DB744",
+              "name": "Me And This Army Radiohead Remixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D09D1F8D-4F53-4B0A-9CCB-942B80DA8098",
+              "name": "Towering Above The Rest Comple",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C14E61B8-4D84-44F4-AB39-A6D4621461E1",
+              "name": "Pablo Honey (Deluxe Edition) [cd2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1359F0A7-5A19-4F5F-88B8-9368616D4450",
+              "name": "Live at the Astoria",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C90CB65E-B824-4B4C-AFB2-231F5E5CB235",
+              "name": "The Best Of Radiohead Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9DF78328-8990-4A8E-828F-EB9B4D2DA2A6",
+              "name": "Airbag",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FEBEC867-C736-4215-86C9-5D298356697B",
+              "name": "Drill EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "68621E42-C9F3-4A22-A7B8-6A742016EE8D",
+              "name": "Com Lag",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7E68F5D8-0EF4-4ED2-AE5D-549F3F1259CA",
+              "name": "In Rainbows",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2B820FB5-A03D-47AF-87C0-F8B86E07BBAE",
+              "name": "Greatest Hits CD1 DutchReleaseTeam By Ari",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3B494D02-E363-4AEC-9659-C303897CF58C",
+              "name": "Nova Tunes 1.7",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D7E3A1F2-AE29-48C9-ACB3-A1E991B32247",
+              "name": "Scotch_Mist",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D9C01860-2F64-41F3-BFFB-E7652554E5EE",
+              "name": "Help: A Day In The Life",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F44C3459-1707-4650-A911-01A277438939",
+              "name": "Paranoid Android (cd1 & Cd2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5BA93980-8E65-4423-87C6-A474305D9747",
+              "name": "The Best of (Special Edition 2CD)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E4B87D5C-38CF-4F49-8BCC-737EE1960BFB",
+              "name": "Data Complete (1996-04-13: The Avalon, Boston, USA)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "74240B50-3D2D-43AB-9495-3E31B6A8D987",
+              "name": "I Might Be Wrong: Live Recordings",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "08A295B2-F8D3-4A54-9D1A-15C442F32C54",
+              "name": "2003-05-18: Dublin, Ireland",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4FFE37D4-3ADA-43F3-AD6D-824999C718F6",
+              "name": "The Best Of Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "11A8A667-CAB5-4F7B-B4BC-A95D309AFB1F",
+              "name": "Unsorted",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3D9FC15A-825C-4B08-98F5-4BCA5D3FAD49",
+              "name": "The Best Of [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "93C90CE3-D393-4FA1-9EB4-D96811E0470C",
+              "name": "Live at Capitol Records",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "585F3A07-812E-47A2-AEB1-546FDC295909",
+              "name": "Bends, The",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FDDBFBF3-76F8-4EDB-A9B9-75EF254BB38F",
+              "name": "Towering Above the Rest Complete Disc 23",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8C002BDC-DD44-4D3B-B103-49917C3F645E",
+              "name": "Live At Bonnaroo",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3C57784A-220A-4CDC-A94D-62D6D216DA39",
+              "name": "2002: Lisbon (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8C06E856-019E-4EDE-8484-2B462C75BB0F",
+              "name": "Ice",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B64F94E9-479A-4E9A-A0D9-CDEC1FF9F858",
+              "name": "From the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DC63D6D0-DC38-4842-AA87-41A41329866D",
+              "name": "Pablo Honey (Japan Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CD8B4A11-B88A-4390-9D57-D43407327BFE",
+              "name": "Pablo Honey [Japan Bonus Tracks]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "705F39D0-E109-446A-8097-E4F49C935D7E",
+              "name": "The Best Of (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4F585FF4-3BE2-455E-B674-144AB4330EFA",
+              "name": "Radiohead At The BBC: Evening Performance",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3076682F-6046-487E-89B6-DE329D47A35D",
+              "name": "Gagging Order: Acoustic Recordings",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ED5781B7-857F-42C0-A4B4-1C25791287E4",
+              "name": "Bloom",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E178B743-7305-494B-9881-16A8AB4D45C1",
+              "name": "Hail To The Thief [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C73BD0CA-66A0-4CD9-B985-E68B47BAF35A",
+              "name": "Hail to the Thief [Limited Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BD599FD3-AA6D-4A97-A0C9-CBF716DA2262",
+              "name": "Pablo Honey [Japan]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F6172A20-ADB5-4C06-8044-424E5DF58BE8",
+              "name": "College Karma",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ACC4B1B1-A78C-4ED5-A967-B84B151098E0",
+              "name": "There There (Single)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0EA6BA1F-56B3-4805-9978-3AF05187D8CF",
+              "name": "The Best Of Radiohead (CD 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F2882EC2-5D49-4D87-B9F5-BC4C7ACADD3D",
+              "name": "Heineken Music Hall, Amsterdam - 2006-09-05",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7711A40A-DB15-42CB-8225-D02492C86F03",
+              "name": "OK Computer (TOSHIBA-EMI TOCP-50201)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3BE58C17-ABE4-4EAC-A9BF-8C7C1AAD3114",
+              "name": "Urban Hymns",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D7952C06-3F9A-4F32-B2B0-9065FB9E7662",
+              "name": "Live in Poznań, 25.08.2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F74C1CFA-8078-46AD-B397-64E1959C0767",
+              "name": "Lost Treasures 1993-1997",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2FD4DFB6-C5C6-42C6-8E7D-B7F4BDC45258",
+              "name": "OK Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "90871BBE-946B-40B5-A705-C5B7C05A73CE",
+              "name": "The Foreign Legion - Rarities 2001-2005",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7C6ADFED-E0A0-4B8F-BB25-EB9C7D758E50",
+              "name": "Com Lag [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2333B783-11D9-44E4-8069-C018623BC6DC",
+              "name": "Accoustic Session at \"Le Reservoir\"",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7EB77FB2-EAC9-4CBB-AD4B-E6A9C68E5694",
+              "name": "In Rainbows (Bonus Album)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5DBB992A-4630-4F2C-9CE0-CFDE9B316128",
+              "name": "Twilight Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C8DAB31F-D589-4E78-9AFE-33CD05057F9B",
+              "name": "The Big Bash NME Awards Nominations Album 2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BA99562C-4AEF-42CC-8D45-CB846A9CA2DB",
+              "name": "Greatest Hits And Remixes (Unmixed)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C54134B4-5660-470E-8BA9-9C1C65430222",
+              "name": "The ultimate chillout [chillout 05]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6FFE1E2B-20FA-45E3-839B-A9D608BE0D64",
+              "name": "Greatest Hits '2001",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8A9A5146-9C62-4C20-80EB-DDB169D8CF10",
+              "name": "Ningún título",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4E1F5598-8FA9-4B1D-8FE6-5291A89E7842",
+              "name": "The Rolling Stone Magazines 500 Greatest Songs Of All Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5C0F8F45-D055-4D25-8E3B-80770901591F",
+              "name": "High & Dry Live Package EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "01C2077B-6506-42AF-81CE-1D24BDF1E4A4",
+              "name": "Live in Paris 2nd Night (Bootleg)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "425B03AE-C345-4041-AE69-BC94CA5D98C2",
+              "name": "Street Spirit (Fade Out) [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7C4D851D-0818-45E9-8711-ED01EE5873AE",
+              "name": "Knives Out, Pt. 3",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7A1CCE18-D2CC-46C6-A0C0-58C04A167198",
+              "name": "Street Spirit (Fade Out) - 2 M",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1A777C6A-6B72-49F7-BF4A-D7CB54FF54FB",
+              "name": "Live in Boston - 5 June 2006",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E3A39988-E2B7-4DCB-B0F3-3750A0F469E3",
+              "name": "L'Auberge Espagnole",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B24538DC-9A8C-49DA-BD7E-6603B386155B",
+              "name": "Live at Lollapalooza",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "90BA71F2-F337-4EAC-B295-CBC16BF955B9",
+              "name": "Towering Above The Rest (Disc 01)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "743905D5-24CF-4664-8DD7-5E5A330491C4",
+              "name": "Live Eurockeennes 04-07-2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D5CED2B3-E143-4364-B63A-AEF6BB696A5E",
+              "name": "Go To Sleep (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A94195C6-D178-4251-A551-15CF56C2640A",
+              "name": "My Iron Lung",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1F6A030E-A6D2-4E7D-A70D-720B561492E2",
+              "name": "OK Computer OKNOTOK 1997 2017",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D3308881-11EA-4050-972B-3DE0DBC266A3",
+              "name": "OK Computer [COLLECTOR'S EDITION]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AD72B954-1B72-4AAD-89D2-4F287BEBEBE8",
+              "name": "Hail To The Thief (Studio)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5AC6DD39-CBA5-4068-BEB4-8535B9D482F2",
+              "name": "The Best Of [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3DF76495-19DB-44F1-B871-9B885F09C186",
+              "name": "Ministry of Sound Chillout Classics",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "324DF845-3D10-4DED-8892-B6C20C31DF80",
+              "name": "Climbing Up The Walls (12\" Promo)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "56220CF2-997C-4CFF-8A0B-8A24A4F8A9C8",
+              "name": "Pyramid Song [Europe]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "297D2FD0-B430-4AE3-A0A5-24496285B2E0",
+              "name": "Pyramid Song, Pt. 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9127A316-AE54-4DB4-A771-FB5E2887C13B",
+              "name": "(2006-06-30) Greek Theatre, Los Angeles",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7F38B664-39A7-4B8F-B267-0D2FDF65F5DB",
+              "name": "The Best Of Radiohead",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CC79FDF6-EF73-46F1-92C2-BC42EC55F3BD",
+              "name": "Fake Plastic Trees",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B8569628-7BA5-475B-ADA3-3DA9CA963993",
+              "name": "Radiohead: B-Sides, Unreleased & Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "654309D4-F0A3-408E-A86B-B1F64CD42916",
+              "name": "アイ・マイト・ビー・ロング(ライブ・レコーディングス)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4F1509D6-A28B-446F-BD07-07C6A737E33C",
+              "name": "The Alternative Album",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E1136C41-AD36-4621-80A2-7CA184DCD3F8",
+              "name": "OK Computer (Japan Collector's Edition) [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EFF35926-787C-47C5-AD01-A53FF38C8BA5",
+              "name": "In Rainbows: From the Basement",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B23F9643-F5CC-4741-A72D-8747744013D3",
+              "name": "Vox Haute Couture",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "62A423DE-C236-47BE-A8BD-FB92D7DC9D8F",
+              "name": "Anthology 3 Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DD135E38-124A-42C8-9003-5F7CEF515872",
+              "name": "Street Spirit CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DFA5AEA0-9524-414F-85F8-706763174551",
+              "name": "Forbidden (Songs Of Love, Lust & Blood)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2DF419E1-25D2-4EDF-9360-2D06060BCBF7",
+              "name": "There There CDS",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9323C012-98F4-4250-BDA6-EBD2E428053E",
+              "name": "The Bends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3A7F2B00-3273-4F19-B122-9F29BBD87F52",
+              "name": "No Surprises (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0B894C33-F3F7-4EDA-88A2-D6FDEDE49E92",
+              "name": "Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "42E1DEFD-CDB9-4A8A-A9A5-A482B7B7C6A3",
+              "name": "Trójkowa Lista Wszechczasów",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "45CABABC-9596-41EA-995B-8486C21652BC",
+              "name": "www.rub-a-dub-dubbb.blogspot.com",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D8376B8F-D07C-4396-A353-09968D19CC28",
+              "name": "i might be wrong (live)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4BC8AF24-974C-4450-BBCF-D40EFC95CABA",
+              "name": "Go To Sleep Single 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "04C984B7-E0C2-4CB8-9813-EE15603EEBE5",
+              "name": "Greatest Hits (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1D141AA1-3FA0-41A4-89B4-06B80AE610BF",
+              "name": "In Rainbows (For Overhead Play)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9F087153-6C87-4FEB-9A4E-50AAC282CA1E",
+              "name": "Towering Above The Rest (Disc 08)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "22C4C42C-7678-4AF1-B09C-85AA1EE7935E",
+              "name": "Lost Treasures 1993-1997 (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7A839CD9-D518-458A-AC2D-926FB0F393EE",
+              "name": "www.myzuka.ru",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4FA27653-37B8-4F1F-9E02-452F1736A789",
+              "name": "Triple J - Hottest 100 of All Time",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F913E700-540E-4497-A9CC-08C16B3670DB",
+              "name": "Street Spirit -CD1-",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0B95A76D-59C2-40E5-8A27-DC1090B81478",
+              "name": "Grammy Nominees 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "53C4649B-7FAA-4002-81D6-CCC68DAE0F77",
+              "name": "Paranoid Android [CD 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F4534A4C-4FEB-43A7-ABEE-E9191E712173",
+              "name": "Now That's What I Call Music, Vol. 26",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "36B1533D-20D6-4025-B7A4-3301A957DF1E",
+              "name": "Memento for later",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9F981D4A-3C24-41ED-9FB2-5610B76CF6C1",
+              "name": "No Surprises CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "25E48382-C4A0-4F92-9B1B-AFC09C408748",
+              "name": "2001-08-07: Madison Square Garden, New York, NY, USA",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7EA990AD-AD7E-42AD-AEF3-0894DC042439",
+              "name": "Cd2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C06FAF6F-9EEA-475C-98D2-97F54E0F425D",
+              "name": "B-Sides [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3C82EB3A-BF9A-48D6-970B-63D58622F16D",
+              "name": "TKOL RMX 1234567",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6FD42139-953D-4E61-A49D-70589756F7B9",
+              "name": "Personal Effects",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5F17B9FD-901C-4127-80BD-CAEB345BA8AC",
+              "name": "Itch [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2C9FEE5A-6FA5-424D-94D1-2A6A3BD1E721",
+              "name": "Go To Sleep Single 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "69493BB1-F669-462C-9248-545447E62F26",
+              "name": "fataldelonuestro.com Música",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "06A51E2C-F73C-4A3A-A658-7A7887A79BA3",
+              "name": "Fucking Rarities",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "03F213EB-3FBE-4B2C-A110-5713940B6720",
+              "name": "In Rainbows (Bonus)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C1C58E49-D642-4C67-BBE5-A910F5E7872B",
+              "name": "Rarities",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1A15EFF2-34A7-4373-ADB1-D489CC37797C",
+              "name": "Album",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3424C23F-296C-47A4-AC17-527EF3441FD3",
+              "name": "Kid A : Amnesiac in Paris",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D65FA92F-D188-40C1-AE5D-20913C772FD3",
+              "name": "Me & This Army: Radiohead Remixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AD4CEF3F-DE59-4145-A6F9-6A925DACF4EE",
+              "name": "2009 GRAMMY Nominees",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5CDA2420-D8A0-49AB-9ED5-8301DC3C85F4",
+              "name": "Com Lag: 2 2=5 [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BD32BDBF-7D3B-4DD6-901B-AD3DD6C26C59",
+              "name": "www.ohhcrapp.net",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FE824A05-0318-4135-A7F4-15F3C5A559E9",
+              "name": "Hail To The Thief (B-Sides)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CFD961B5-2FC4-49C9-80BC-56D3B2FA349E",
+              "name": "COM LAG L.E.",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B12777A8-81B6-4553-B69B-4EE900083261",
+              "name": "Reckoner",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "03568CB9-6B72-443F-9CE9-C3220F6D1882",
+              "name": "Live 4 Ever (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "046AE135-461D-4B8F-9623-4B3755DC83C9",
+              "name": "The Bends B-Sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "69C8F142-31CA-4F70-BD00-364400B49625",
+              "name": "Paranoid Android",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "78221EC6-6894-4888-83EA-39F38D500822",
+              "name": "Now: 1998 Disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D10F8250-A683-48C0-9A21-9200292059D6",
+              "name": "thumbs_down",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "788D7483-B411-4BAF-886F-6045E9808C49",
+              "name": "Hail To The Thief [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "47618ABF-EE46-4ACC-8909-3B298504BBB3",
+              "name": "In Rainbows (2007) [FLAC] {16-bit Vinyl Rip}",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "02675D17-CAEC-438B-89BF-E52DBC0B76E2",
+              "name": "O.K Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "ACF2D83E-8CAC-4B08-8142-5234166A6850",
+              "name": "In Rainbows [Bonus Disc]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2BC92128-B5E3-4400-971D-C978E7037E6E",
+              "name": "2008 - The Best Of (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C686B208-0A0E-4BB1-8911-062DB2E51525",
+              "name": "Triple J Hottest 100 Of All Time (2009)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F5AC1F15-4A05-4446-961F-A921033A8454",
+              "name": "Acoustic 2003",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1A030639-1333-4696-AC24-0A7E3DA73A1E",
+              "name": "The Bends (Limited Collectors Edition CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "94BE2363-F048-4F7C-899C-C62C9C53D754",
+              "name": "TKOL RMX 1 2 3 4 5 6 7",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A90CAD4B-531E-42DF-B21D-F95B24B24BA6",
+              "name": "Spectre",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "36739966-9530-4556-A8AA-C43A8547E5D1",
+              "name": "Towering Above the Rest Complete Disc 09",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C91E3F92-25CD-43AC-8107-CD4A8615221B",
+              "name": "Download",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A7A09EC4-D1F8-4BFA-95BB-FFA487FD4E24",
+              "name": "B-Sides (CD 02)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EBC14F9E-F3BC-4C1F-8EF6-03781D9E4E48",
+              "name": "Remixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D00CC291-F16C-4D43-92A1-00317E72D608",
+              "name": "(2006-06-17) Bonnaroo Festival, Manchester",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "188E5D6F-2ADE-436B-B309-087AB119BA1F",
+              "name": "Towering Above the Rest Complete Disc 04",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "49286CB2-4C36-4CB0-A936-578E942C4300",
+              "name": "Nude",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0B1A0E1B-862C-4D57-A208-BC5F52329FEA",
+              "name": "In Rainbows [VINYL]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D6726639-3B4A-4375-B535-F86066C2C57D",
+              "name": "The Best Of (Collection)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "20E414AD-E684-45C9-A1CE-8EB37C6ADF84",
+              "name": "Towering Above the Rest Complete Disc 16",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FFA03F1F-654A-47DD-B97D-BEA06F9D5D62",
+              "name": "Towering Above the Rest Complete Disc 02",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "658514F9-D66E-4E40-9FA8-1B8AF970152E",
+              "name": "OK Computer (Limited Collectors Edition CD 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A9D6072E-EC01-4908-9C35-50B618FCBE43",
+              "name": "In Rainbows CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "82C93471-DE1A-4AA5-9DCE-CCEDC23212D8",
+              "name": "Towering Above the Rest Complete Disc 05",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9D0192CC-E6F6-4A02-A5BF-76D2370C5507",
+              "name": "Karma Police CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5A5DE416-7094-446F-9AF9-9A81ACE2E5EC",
+              "name": "Me & This Army - Radiohead Remixed & Mashed Up By Panzah Zandahz",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E0FC9186-E5BF-4E79-A795-0C98CA11CA52",
+              "name": "Radiohead 'In Rainbows' Podcast",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B82B76DD-9A93-41FE-83C8-BB8052D39B37",
+              "name": "[live] 060602 Tower Theater",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BBB046D6-1BAA-4323-A483-DE029700244F",
+              "name": "Romeo   Juliet",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1BDEE6D6-A765-4263-AB8E-C0718B4C4B4D",
+              "name": "Romeo and Juliet Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1DF50B77-E0AB-49B3-A909-1B6518B57BE3",
+              "name": "Go To Sleep (Single) 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E2553886-F301-4AF8-8ED3-880D5F814888",
+              "name": "Covers by Radiohead",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2FD4006F-F580-4E9F-9D7B-E920779E77F1",
+              "name": "2003-05-25: Shepherds Bush Empire, London, UK",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9BCBE924-F393-42ED-BB45-8A52453C1111",
+              "name": "Pablo Honey B-sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2948404F-164A-4653-975F-10D0484503D8",
+              "name": "Best Of Sad Rock",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0EB31FF2-F347-47EF-9D33-038061AF6FC9",
+              "name": "Knives Out (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6F60B99C-72BB-4347-859A-398E229BA13F",
+              "name": "Paloalto",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CB1BCD43-9325-4EB9-87CD-03106299008C",
+              "name": "The Bends  (Capitol Vaults 180g)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5FC7FD22-66B6-4894-8218-63EE21CA1BCE",
+              "name": "The Best of Radiohead (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4E3C9D05-21A2-4791-B601-B685F3C64EF3",
+              "name": "The Best Of [US Limited Edition] Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "30CDEFEF-F299-4B29-A0CD-F7360E080E8E",
+              "name": "B-Sides & Rarities Vol.1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A9F099A9-1184-4D64-9296-4540A176A6B2",
+              "name": "High & Dry - Planet Telex CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2748EF77-9E8C-47EC-B516-FD4D4A8EB948",
+              "name": "2003-07-04: Les Eurockéennes de Belfort, Belfort, France",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DAC80B0B-66FD-4813-8DA8-FE6332F8B26C",
+              "name": "Unplugged Again",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "58FEF8C5-0F23-4F76-9AD3-5F7D0588CA8D",
+              "name": "In Rainbows [Deluxe Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "573E8CEC-E765-4F46-9571-5227BEA0DD80",
+              "name": "B to Berlin",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B0E48FDB-0269-4157-B632-A07DFA2C033F",
+              "name": "College Karma EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3051EF5E-CD60-469F-873A-6CBC095AE1A3",
+              "name": "KROQ Breakfast",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B94B78AB-3814-4669-A6B8-C62E40676EC3",
+              "name": "The Best of CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D21EB25B-365A-4402-AA9B-63BA62E49FCB",
+              "name": "B-Sides [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "95E83BB7-A602-45FC-B51C-EAB86EE4A9D4",
+              "name": "OK, Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9858C6D8-8C22-4918-8EAA-7A8725C606D8",
+              "name": "In Rainbows (Tentative)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AFC94384-5701-4E1C-BCB1-8229C1CC760A",
+              "name": "Karma Police [Single]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D9E8C46B-8036-4CD6-8E7D-7B0995B13BEF",
+              "name": "DeLuxe Collection",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "75379E2A-6D18-47D4-8708-043F2F4B867C",
+              "name": "Not My Fault",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D15D27F9-E9F2-4697-8E2C-30E17ECEA1EA",
+              "name": "Kid A (Collector's Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BEDBE81A-CA34-486E-9C68-76EBFF222B10",
+              "name": "live in lisboa 23-07-02",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8BA7F082-BCFA-48F6-A59C-B3930DF6567B",
+              "name": "2000 - Kid A",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FAFBD7FD-072A-4F1D-89C0-F5F4DD7E5618",
+              "name": "Radiohead - The Best Of (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "59126B05-4697-4AEB-BD9F-0B5759C3DB14",
+              "name": "Manic The Hedgehog",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "25377C1C-0895-4B70-8BD2-EA71B48DC59D",
+              "name": "Menage A Trois: The Real Ultra",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CB106CFA-0E92-4CF2-BA35-8C9DBE531755",
+              "name": "Top Gear: Seriously Cool Driving Music",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "426274F8-2C57-4F0A-B3C6-52482200258F",
+              "name": "Six Feet Under Soundtrack Vol. 2: Everything Ends",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0F041D00-990C-498F-B420-F794DA7FC786",
+              "name": "Manic Hedgehog Demo Tape",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "94FF9EB4-1EFE-4D5A-8F2C-2E12CE3CE0AC",
+              "name": "In Rainbows 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "008B7C09-DBDC-4AB0-9442-D0E33CC40357",
+              "name": "There There (CDS)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "459CF577-FFEE-4EAE-A42C-87FD5C4C574B",
+              "name": "Singles",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E48AAD95-8547-4C8F-A526-2950B7065E2A",
+              "name": "B Side",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "05F34C5C-92B0-4ED4-B654-938CB20B2FAA",
+              "name": "Pablo Honey [Bonus Tracks]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FA4B71B1-EE07-4618-A0C7-79518A0C01BE",
+              "name": "Clueless Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5BF07131-A050-4401-9EB0-DB74F5A5D6A5",
+              "name": "Radiohead - Hail To The Thief",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F4C70E93-ED57-4F7B-A487-D591031FF427",
+              "name": "William Shakespeare's Romeo   Juliet",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0668D25E-ECEE-4CDD-98A9-0E450711C604",
+              "name": "Hail to the Thief (Limited Collectors Edition CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C5E380ED-7C66-4818-AA47-EB166DEE8911",
+              "name": "Choke - Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C1FD5F42-689F-452C-9C34-138B95A0C282",
+              "name": "(2006-05-09) HMH, Amsterdam",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6E3A278F-98B2-4EF9-850E-311953DACBC9",
+              "name": "Fake Plastic Trees (cd1 & Cd2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BF0FBDE2-B3B1-4FF0-A79F-E92CA68BDCED",
+              "name": "The Acoustic Alternative Album",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D5B0DB39-8CF2-422B-A2BE-90706CB67D96",
+              "name": "These Are My Twisted Words",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4CE6A450-CEBC-4682-A9CD-7B740B519DC8",
+              "name": "Unplugged - The Complete Acoustic Sessions",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "34805290-50D4-47C3-9F04-4331F36E6135",
+              "name": "Anyone Can Play Guitar - Tour",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D5C6EB9C-339B-44FE-A789-658174B64E2D",
+              "name": "Kid A [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AE596E06-6F91-406E-AF8A-8F99F0C1A7D4",
+              "name": "In Rainbows [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FFFBD958-E455-4DD9-860C-A8690E7C87D9",
+              "name": "Unreleased",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C7C4A812-4AD4-4032-8428-F8817657C06D",
+              "name": "OK  Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "90EBF9D1-747E-4ACF-94FC-13762C1EE617",
+              "name": "Radiohead Remix",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "367F83E3-FCE2-49BC-929F-2F6C86EE9D9C",
+              "name": "Just (For College)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "20930A26-1438-4755-9139-5B280B1C5067",
+              "name": "Early Demos",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CCC5E2F0-38AF-44E1-AB69-75805BDAC78E",
+              "name": "Com Lag: 2 2=5",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "22592CFA-33F4-48D0-9E5D-7FF4AFBA348D",
+              "name": "Hollywood Bowl 8.25.08",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A4465729-50FA-4E7B-9F43-0617BA939C8D",
+              "name": "Looking Back At....",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1E3E99FE-2974-4AE8-9714-85B4A6B19BD4",
+              "name": "In Rainbows (Special Edition Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9A1208FE-F196-4735-A1F1-5968B4A23324",
+              "name": "Other",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2C524021-26DD-4428-8A8A-61E05A1EAD14",
+              "name": "Towering Above The Rest (Disc 05)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2E956A6F-BC22-485D-A2E7-E6D477180266",
+              "name": "The Best Of Radiohead (CD 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F8660061-A882-4EFA-AC56-B7D806E1387B",
+              "name": "BOF L'auberge Espagnole",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7A8BEFC4-0171-4846-BF89-DC5D77BEC4D4",
+              "name": "The Best of (Special Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7D61DBBB-3F97-4BDF-B512-4C3792944B6E",
+              "name": "Vanilla Sky",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5F34B799-8A8A-4F2E-9006-70EC4CF2584B",
+              "name": "In Rainbows - Bonus Disc",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DEF2486D-55AC-4539-A800-7C6F92C17048",
+              "name": "Dubstepper.ru",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D9BBFAFA-4BA8-43FF-ACB1-C878CC0634E4",
+              "name": "Data Complete",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2428010E-31A8-40A4-85C5-335995518427",
+              "name": "Towering Above the Rest Complete Disc 03",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "20ABE53D-5A63-4B51-9FC4-40B45384379A",
+              "name": "Mists Of Avalon",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4190373E-1370-45D2-8C6E-0C2CF6A0C82A",
+              "name": "Vanilla Sky Soundtrack",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BA159934-BCB2-4A82-87BD-937B9E930B57",
+              "name": "radio head",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BC6C3E13-39DF-4635-B92E-57801CBABBBA",
+              "name": "Clueless",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F8D53355-D88C-47FC-A1E4-B3489DBDA9EA",
+              "name": "My Iron Lung (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EB16A4A2-D884-4A12-91B6-2A10C9926F74",
+              "name": "Top 500 Alternative Songs",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9F022FC6-59BB-446B-B2D8-38D5C0C0C026",
+              "name": "Music Planet 2nite",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "575E18B1-4931-4BA3-9EFD-49B89101866B",
+              "name": "OK Computer (bonus disc)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "58A7807A-C184-473E-85B9-50238626D3D5",
+              "name": "A Gun And A Pack Of Sandwiches - Rarities 1995-1998",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "87B43478-3AA9-4363-AB6E-35324D67969C",
+              "name": "A Moon Shaped Pool",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "74FB997D-FBFA-490C-85C5-D529DD343E05",
+              "name": "Coup d'état",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EF7386DE-2B4A-4BA4-B30A-C61A7AA21896",
+              "name": "Hail To The Thief (Collectors Edition) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "22220EBE-4F78-43F8-A31E-09C8C938B5FC",
+              "name": "OKNOTOK",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E5445BDE-EC06-451B-A1F3-C78A8EB2DC91",
+              "name": "The King of Limbs Remixes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B07BDD43-9766-4471-A48F-9D61B7C70E43",
+              "name": "Radiohead At The BBC: Matinee Performance",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "44CA8F15-3190-4401-9AB7-15D480598F38",
+              "name": "Manic Hedgehog Demo",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0EE09C56-7A29-4A3D-9C7D-FCC75F290E6D",
+              "name": "OK Computer [Limited Edition] [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6F1AD925-6CE4-46C6-8E64-67E3121FB179",
+              "name": "Top 100 90s",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "96EAACBA-CBCC-4899-AC35-31F081AAE1E0",
+              "name": "Hail to the Thief (Collector's Edition, Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8E8645D5-0AC8-40F6-9011-BC797E1FF188",
+              "name": "Knives Out (European import)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7B0120B0-62A3-43C9-9491-32DEC3C76787",
+              "name": "Single",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0D01F47E-BBBA-4B9B-8943-4645C1F7D0A3",
+              "name": "The King Of Limbs (From The Basement)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0E83A166-9BC1-4F5F-98C3-2E6D9D4337C1",
+              "name": "huH",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E50F1549-9D1B-47E3-BB90-C73BC1D8A4FF",
+              "name": "100 Greatest Guitar Solos",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C308B6AC-9EC1-455E-A440-9BA0A8C12B85",
+              "name": "1993 Signal Session, Chesire England",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A94E73E2-9052-42B2-968C-D70A085B0D14",
+              "name": "2000-07-04: Berlin, Germany (disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E29DCB9E-A39A-4A14-9C20-6DBCE8F0F149",
+              "name": "Rock: Selects, Vol. 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "41ADDBA0-390A-4A9C-9FE1-31FC71430911",
+              "name": "Towering Above the Rest Complete Disc 06",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5762B8BA-DA66-45AA-B6E2-1283CADB78DF",
+              "name": "In Rainbows (CD 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6D7B60EB-EEE0-4BA5-BCDC-E0FF0D8FCE5A",
+              "name": "Pinkpop 2001",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5259D672-F8D0-4B04-9F29-2684B7C0BFFD",
+              "name": "Stop Whispering",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "45E1F252-E070-4C7D-AAB2-F5BB4FD3357E",
+              "name": "In Rainbows [Special Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "527AFCC2-0C27-4EE4-9E3B-7B5B7FF93997",
+              "name": "Radiohead live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "56094BC6-D268-49C2-A373-23C3DF5795BB",
+              "name": "Paranoid Android (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "73B8FEA4-226E-4BB8-B01F-EB132C615DF6",
+              "name": "Towering Above the Rest (disc 6)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DE8D0C01-9F0A-4111-B1B1-359A4C086A0E",
+              "name": "TKOL RMX [Disc 1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8FC89CAA-8B25-442D-BEB9-C2195F5A32A0",
+              "name": "Planet Acoustic",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0024E855-0928-4DB3-9AE6-DAD4DD52076E",
+              "name": "Psyence Fiction",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "334F170D-6A62-4694-99DE-6D3FE72E21AC",
+              "name": "Pablo Honey (Collector's Edition) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "E1DFDAED-C7D5-49CA-86BF-5509ACE83BCD",
+              "name": "Indie Rock 'N' Roll Vol.1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "788FE1AB-53CE-48B0-A3C3-A68E6BF8D4AD",
+              "name": "Fake Plastic Trees CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "875A5B39-CA1A-4F61-8335-618362B4AAF3",
+              "name": "In Rainbows (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BB30B574-E687-4C1B-A11C-78EC7C303CE8",
+              "name": "Live at the BBC Radio Theatre, London, April 1, 2008",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "021C6B0A-506E-4E24-A102-1A8AECE5DF37",
+              "name": "Towering Above The Rest (Disc 09)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5D5F209F-331B-4063-87F8-21EB94EABA27",
+              "name": "In Rainbows (Special Edition Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BFD9B94A-CE26-49B1-840F-E8F852729150",
+              "name": "B-Sides Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "968E0A12-7EF2-46BB-AF79-B95AE0F48099",
+              "name": "Thumbs Down",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F5214A55-D567-4E17-A7C4-4BABCC31889F",
+              "name": "Heineken Music Hall (Amsterdam 09.05.2006)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D39DDF1F-307A-4F7D-B107-874FAD4A51C9",
+              "name": "Anyone Can Play Guitar (CDS)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "CA2CB3DD-0403-47A3-9E12-9639690525B3",
+              "name": "Hail to the Thief - Collector's Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "69FB4026-50FC-43EA-A38E-37F1B0065750",
+              "name": "Kid 17",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "480693FC-23F3-4422-A5FD-76AE65806540",
+              "name": "Tourism (1997-12-19: Hammerstein Ballroom, NYC, USA)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7E3D260E-5CC3-4D3A-B5C9-EA46AE34973B",
+              "name": "STOP WHISPERING L.E.",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "28068727-83EE-4877-AF91-8220AB5E5402",
+              "name": "Live Au Forum [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "13C3DF6F-92BF-4988-9CBC-5B54189CEB5B",
+              "name": "B-Sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "14CFFA8F-9AAA-4D54-B5BC-423915830110",
+              "name": "OK Computer [Collector's Edition] (Disc 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "861530C3-77D0-48EE-B7CD-7B9BD1F90E0C",
+              "name": "Xmas Webcast on Radiohead.com 19-Dec-2002",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1F2A28AF-C15E-4047-81C0-4AEE2DED9005",
+              "name": "Radiohead Unplugged",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "73767F4B-A76A-4249-9001-CAC97DD1D40A",
+              "name": "Pyramid Song [Japan CD]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8F34AD99-F74D-4C8D-9684-FE97C4AFD8BA",
+              "name": "2001-06-04: Pinkpop Festival, Landgraaf, The Netherlands",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3168688B-95D0-4549-A3E6-028BCEB01A36",
+              "name": "OK Computer (Collector's Edition) CD1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A3907266-C63B-4BBB-8752-0DE501516319",
+              "name": "Karma Police",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A72F614F-E377-4BC7-A05E-05397F70A079",
+              "name": "(2007) In Rainbows",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "07976AC6-339E-458D-BAE9-1EF6FE70295A",
+              "name": "Enjoy Ray Cokes",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FAFBC4BC-A913-42F5-B7AF-8A7EE6D4F990",
+              "name": "Com Lag [.jp]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FFEE5684-060B-46D6-9CDB-BA4EAA56FE83",
+              "name": "Towering Above the Rest Complete Disc 08",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0F36D480-E596-4F32-866F-17935262983B",
+              "name": "High & Dry - Live Package",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "523A5F8B-B78C-4152-A2E7-69997AEEEAD1",
+              "name": "Ka-Boom! 16 Rippin' Tunes!",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D43D1F91-0077-44F1-9B70-7226E1E1465C",
+              "name": "The Daily Mail & Staircase - Single",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BAB66AE2-9092-4EAD-A964-170D81D959B0",
+              "name": "In Rainbows [Deluxe]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "AD4C040F-2116-4528-BEAE-F7B336A8459D",
+              "name": "Creep EP",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "3E32C162-123D-46F2-94EC-6E492B7CF2F7",
+              "name": "Pablo Honey (Deluxe Edition) 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DBA93806-3FDA-47F2-B0CD-8CE0DD28E0CB",
+              "name": "Amnesiac (Promo)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "D6E3C231-1654-4893-84E5-98C23F572994",
+              "name": "The Bends - Collectors Edition",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9C610C93-58C1-42F7-8E93-BA467097FE37",
+              "name": "Kid A (Collector's Edition) CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B75E33BA-F833-4D4A-94D5-4A81F32284D4",
+              "name": "Sounds",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "53AE585A-1223-4C50-98D8-3FC038C70CDD",
+              "name": "Twilight (Original Motion Picture Soundtrack)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C404C9E8-7B17-4F3C-A43E-6E33C6068068",
+              "name": "The Bends [UK]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0AE26F90-ACDC-4BC5-8375-0275FECF75A3",
+              "name": "Best of Radiohead",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "52872ED0-F983-48B5-83DE-297287628873",
+              "name": "2002-08-07: Salamanca, Spain",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9C04FF48-ED59-45D0-86E2-6847E1F64178",
+              "name": "I Might Be Wrong - Live Record",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F109CC32-3810-4955-BF01-EF4EC2B23260",
+              "name": "Live at the 10 Spot",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9C3C2D01-FF34-4209-978D-E506A1DDE825",
+              "name": "title",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C7BD19E0-0037-4BCB-8D71-6E47BEC961FE",
+              "name": "Gagging Order: Acoustic Renditions",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5470C58B-DDD5-488F-B5AD-CA63DDFE713B",
+              "name": "Unplugged And Unreleased",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5179A8B7-C44F-44AF-ACDC-21D9734016D0",
+              "name": "the b - sides  disc 1",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2E697FE6-3850-4F0E-8FA9-0F42009BDCB6",
+              "name": "Just",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "82BF7B7A-0EE5-476F-B689-45C458468AAA",
+              "name": "Amnesiac College [EP]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "103C5D0E-9B36-455E-B055-03FD0D8D30E2",
+              "name": "The Bends [Collectors Edition]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8E2BD337-A493-4E90-946B-6BB664B8882D",
+              "name": "Pop Rock Station",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "10EFFE05-B9D3-462F-9D8A-FDDA0E6C2829",
+              "name": "The Bends (Deluxe Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "38B20327-3F90-4864-860F-F63B8733C252",
+              "name": "As 50 Melhores Musicas do Rock",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "84F3077A-DEF2-41EB-9BBA-2A7F53339656",
+              "name": "fizy",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "80085E94-B15B-4634-A2B3-1AFC5C0055D0",
+              "name": "The Bends [Limited Edition] [Disc 2]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "365FBBD9-8ACE-4FBD-B7E4-3D2E3A447073",
+              "name": "Lost Treasures 1993-1997 (disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "1B2BD4F9-F438-4F0A-8BAA-E10D203ED347",
+              "name": "Help",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7A134FE2-4D20-41A0-8CD2-4B2421EDBCA1",
+              "name": "2 2=5 (CD Two)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "183422A6-19DE-4075-BCF1-75DB52889550",
+              "name": "In Rainbows  (CD1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "7637344A-97F7-482A-926E-98B2A8F86101",
+              "name": "My Music",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FF26E817-2593-4217-9A1A-293041614551",
+              "name": "Live From Holland",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "529FAA72-80B2-4DE4-AB02-F7DA2CCA3EB0",
+              "name": "I Might Be Wrong: Live Recordi",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "FBBC27EE-AD09-4C20-A3BB-64417EECCEAE",
+              "name": "Creepshow",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "38033023-20A0-4A69-87D0-D1827D908552",
+              "name": "OK Computer  (Original UK LP)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6F5453DC-92FA-443E-9977-43F4580CC031",
+              "name": "Acoustic 2 (Disc 2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9FFB4038-7B56-4909-8732-59B0444C0ADA",
+              "name": "The Best Of Radiohead Disc 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "945C0858-3F97-445A-82E9-78A055BB7946",
+              "name": "Hail to the Thief (Deluxe Version)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "08CA216A-75C7-47A8-A829-B5B279BA45AA",
+              "name": "Go To Sleep",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "8017B5DA-3D83-4050-B246-CBAF08088BA0",
+              "name": "B-Sides 1997 - The Complete Computer",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A64FF361-159A-4499-81A9-14DA28D3B753",
+              "name": "BoA Pavilion, Boston, MA 6-5-2006",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6A6C8DF4-9437-4A76-974E-6C5948249D59",
+              "name": "Hail To The Thief (  Bonus)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C0E8F87F-7787-441E-8E83-61695B9783A9",
+              "name": "100 Greatest Rock Songs of the 90s",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "A03482A3-30E1-4158-B73B-7AEBA541077A",
+              "name": "Hit Collection 2000",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6EA63D95-AB1F-40A2-93D3-C3AC8E3C9AE9",
+              "name": "Collection",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "EA661ED8-49A1-42F5-A29F-D19582477E8A",
+              "name": "Lost Treasures",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DC0713C3-202F-48CC-858C-E0CE25D3071B",
+              "name": "Street Spirit (Fade Out) CD 2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "2494EDD3-67D0-4193-9999-2B4E0E976C93",
+              "name": "Creepy Alien Singalong",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "DDF4C8DC-7447-44BC-956C-2E5F4D09EDBE",
+              "name": "baladas en ingles",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "968930A9-7E61-4F54-9389-2F45F4205E3C",
+              "name": "OK Computer B-Sides",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6C874669-DCFF-4613-BFFA-B7596B381491",
+              "name": "15 Lista Wszechczasów",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C2007580-1DF8-400D-A199-5FCAF596544A",
+              "name": "The Astoria London Live",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6316197A-3BF4-4763-9AF3-1D0B939B2CCA",
+              "name": "Pyramid Song B-side",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4AB0AAB0-7D49-4119-8BE2-C159C01EACDD",
+              "name": "The Golden Unplugged Album",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "BAC3C516-7CDF-4E9D-850F-60ACC61DF31F",
+              "name": "Pablo Honey",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4003F77C-7122-42CE-B4E9-6C9AF83D39F2",
+              "name": "Glastonbury '97",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F4C0AE61-B14D-426A-8DB3-968316B9EDE3",
+              "name": "Bootleg",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4FD06ACB-F01A-40D3-8810-625D984E6D7F",
+              "name": "The Twelves",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "F5362DAA-373A-4668-AFE7-6F72A7A14EB7",
+              "name": "The Bends (Deluxe Edition) 2009",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "4B498D65-BC20-4B0F-8932-2A9CB79E6AE1",
+              "name": "High & Dry (CD2)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6914B4C6-5D81-4C4D-B131-F3F6EB6F3800",
+              "name": "The Bends (Collectors Edition)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "99208375-384A-4570-80A5-228D212A6B7E",
+              "name": "Slow Rock Hits Collection",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "990E94CC-9AF9-4809-A7EA-126117027BFD",
+              "name": "Towering Above The Rest (Disc 04)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6EB12CAE-E462-4F16-8BCD-B57B9BF40ED4",
+              "name": "In Rainbows [CD1]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "B60DD9D8-6959-46AF-B701-0098699D93BD",
+              "name": "My Iron Lung (EP)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "0046F416-0468-47B9-BEA3-70BAA47CB364",
+              "name": "Greatest Hits CD2 DutchReleaseTeam By Ari",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "5C5368A6-645A-4F2C-A172-060301F9DBE7",
+              "name": "Knives Out [Japan TOCP-65871]",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "67F421D7-DEA5-484C-854F-8C44D294126B",
+              "name": "Hail to the Thief",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "29E5435B-2739-4C52-A4D4-B5F025B6E10C",
+              "name": "Greatest Hits CD2",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "853A73B0-8974-4EC0-BDD2-17C48F8555C7",
+              "name": "Rarities The Singles Collection 92-98",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "6B7E2540-16A1-4305-A031-BA0096D09258",
+              "name": "Bonnaroo, June 17, 2006",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "9F466B3B-9134-45BA-AE39-F011C3B8396F",
+              "name": "2003-06-28: Glastonbury Festival 2003, Pilton, UK (BBC Radio 1)",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "C35245DD-4F4C-4D73-A41C-FC7618DDE729",
+              "name": "In Rainbows Bonus",
+              "type": "urn:entity:album"
+            },
+            {
+              "entity_id": "84E01EFE-3957-4240-84D8-0D4264C4974D",
+              "name": "Karma Police, Pt. 2",
+              "type": "urn:entity:album"
+            }
+          ],
+          "disambiguation": "Radiohead"
+        }
+      ]
+    }
+  }
+}

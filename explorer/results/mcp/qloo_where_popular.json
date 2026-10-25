@@ -1,0 +1,280 @@
+{
+  "tool": "qloo_where_popular",
+  "arguments": {
+    "entity": "Radiohead",
+    "entity_type": "artist",
+    "within": "New York",
+    "limit": 10
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "where_popular",
+    "status": "ok",
+    "interpretation": {
+      "entity": {
+        "input": "Radiohead",
+        "entityId": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "name": "Radiohead",
+        "type": "urn:entity:artist",
+        "match": "exact"
+      },
+      "within": "New York"
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Radiohead",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "name": "Radiohead",
+            "type": "urn:entity:artist",
+            "popularity": 0.9999966263060412,
+            "description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false,
+            "cache_status": "memory_hit"
+          },
+          "alternatives": [
+            {
+              "id": "99ECEFED-B982-40C2-A2ED-EB042E9545FA",
+              "name": "Radiohead Tribute",
+              "type": "urn:entity:artist",
+              "popularity": 0.46901430783607895,
+              "description": "A tribute band dedicated to performing the music of Radiohead."
+            },
+            {
+              "id": "BF711411-5659-4CEF-BC46-ADEAACEB52EA",
+              "name": "Dub Tribute To Radiohead",
+              "type": "urn:entity:artist",
+              "popularity": 0.7304081157581871,
+              "description": "A group performing dub reggae covers of Radiohead songs."
+            },
+            {
+              "id": "A754373E-0D89-4FD7-85B4-6F22F413D1D1",
+              "name": "The Bluegrass Tribute to Radiohead",
+              "type": "urn:entity:artist",
+              "popularity": 0.6333435668716748,
+              "description": "A bluegrass tribute band performing covers of Radiohead songs."
+            },
+            {
+              "id": "93D30F68-DA61-4CB3-A672-1C7983C79086",
+              "name": "Thom Yorke and Johnny Greenwood (Radiohead)",
+              "type": "urn:entity:artist",
+              "popularity": 0.5109257078853349,
+              "description": "Thom Yorke and Johnny Greenwood are key members of Radiohead, known for innovative alternative and experimental rock music."
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "location": {
+          "latitude": 40.715332,
+          "longitude": -73.93799,
+          "geohash": "dr5rt"
+        },
+        "query": {
+          "affinity": 1,
+          "affinity_rank": 0.993703,
+          "popularity": 0.9983379501385041,
+          "entity_artist_affinity_rank": 0.993703,
+          "entity_artist_affinity": 1
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.715332,
+          "longitude": -73.98193,
+          "geohash": "dr5rs"
+        },
+        "query": {
+          "affinity": 0.9994459833795014,
+          "affinity_rank": 0.992982,
+          "popularity": 0.9994459833795014,
+          "entity_artist_affinity_rank": 0.992982,
+          "entity_artist_affinity": 0.9994459833795014
+        }
+      },
+      {
+        "location": {
+          "latitude": 41.506348,
+          "longitude": -73.98193,
+          "geohash": "dr7kh"
+        },
+        "query": {
+          "affinity": 0.9988919667590028,
+          "affinity_rank": 0.991916,
+          "popularity": 0.990027700831025,
+          "entity_artist_affinity_rank": 0.991916,
+          "entity_artist_affinity": 0.9988919667590028
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.759277,
+          "longitude": -73.98193,
+          "geohash": "dr5ru"
+        },
+        "query": {
+          "affinity": 0.9983379501385041,
+          "affinity_rank": 0.991031,
+          "popularity": 1,
+          "entity_artist_affinity_rank": 0.991031,
+          "entity_artist_affinity": 0.9983379501385041
+        }
+      },
+      {
+        "location": {
+          "latitude": 42.03369,
+          "longitude": -74.11377,
+          "geohash": "dr7r1"
+        },
+        "query": {
+          "affinity": 0.9977839335180055,
+          "affinity_rank": 0.990662,
+          "popularity": 0.9844875346260388,
+          "entity_artist_affinity_rank": 0.990662,
+          "entity_artist_affinity": 0.9977839335180055
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.671387,
+          "longitude": -74.02588,
+          "geohash": "dr5r7"
+        },
+        "query": {
+          "affinity": 0.997229916897507,
+          "affinity_rank": 0.990578,
+          "popularity": 0.9950138504155125,
+          "entity_artist_affinity_rank": 0.990578,
+          "entity_artist_affinity": 0.997229916897507
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.715332,
+          "longitude": -74.02588,
+          "geohash": "dr5re"
+        },
+        "query": {
+          "affinity": 0.9966759002770084,
+          "affinity_rank": 0.98986,
+          "popularity": 0.9988919667590028,
+          "entity_artist_affinity_rank": 0.98986,
+          "entity_artist_affinity": 0.9966759002770084
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.671387,
+          "longitude": -73.98193,
+          "geohash": "dr5rk"
+        },
+        "query": {
+          "affinity": 0.9961218836565097,
+          "affinity_rank": 0.989534,
+          "popularity": 0.997229916897507,
+          "entity_artist_affinity_rank": 0.989534,
+          "entity_artist_affinity": 0.9961218836565097
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.803223,
+          "longitude": -73.98193,
+          "geohash": "dr72h"
+        },
+        "query": {
+          "affinity": 0.9955678670360111,
+          "affinity_rank": 0.989289,
+          "popularity": 0.9955678670360111,
+          "entity_artist_affinity_rank": 0.989289,
+          "entity_artist_affinity": 0.9955678670360111
+        }
+      },
+      {
+        "location": {
+          "latitude": 40.803223,
+          "longitude": -73.93799,
+          "geohash": "dr72j"
+        },
+        "query": {
+          "affinity": 0.9950138504155125,
+          "affinity_rank": 0.988605,
+          "popularity": 0.9966759002770084,
+          "entity_artist_affinity_rank": 0.988605,
+          "entity_artist_affinity": 0.9950138504155125
+        }
+      }
+    ],
+    "result_count": 10,
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/heatmaps-use-case",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:heatmap",
+            "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "filter.location.query": "New York",
+            "take": 10
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "where_popular",
+      "job": "where_popular",
+      "signals": {},
+      "filters": {
+        "location": "New York"
+      },
+      "operators": {},
+      "output": {
+        "limit": 10
+      },
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "type": "artist",
+        "entities": [
+          "Radiohead"
+        ]
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-6",
+      "duration_ms": 851
+    }
+  }
+}

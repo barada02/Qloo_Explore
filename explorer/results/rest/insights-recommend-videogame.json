@@ -1,0 +1,3180 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:videogame",
+      "signal.interests.entities": [
+        "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+        "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+      ],
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 396,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Avideogame&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C%2CDF788007-B5EA-4F29-872B-96BCB8EEC42F&take=10",
+    "requestId": "0d2a2bcc-b9e0-4f0c-9405-e86b0999fa3c",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49837",
+      "x-month-ratelimit-reset": "2591814.6",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Bastion",
+            "entity_id": "8CC7AB36-78C6-4105-AB67-0B7A238A0228",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "堡垒",
+                  "languages": [
+                    "zh"
+                  ]
+                },
+                {
+                  "value": "バスティオン (コンピュータゲーム)",
+                  "languages": [
+                    "ja"
+                  ]
+                },
+                {
+                  "value": "Bastion",
+                  "languages": [
+                    "it",
+                    "de",
+                    "nl",
+                    "es",
+                    "es_ar",
+                    "fr",
+                    "pt_pt",
+                    "pl",
+                    "pt"
+                  ]
+                }
+              ],
+              "slug": "bastion",
+              "genre": [
+                "Action",
+                "Role-Playing"
+              ],
+              "image": {},
+              "art_style": [
+                "2D hand-painted",
+                "stylized",
+                "isometric"
+              ],
+              "developer": "Supergiant Games",
+              "platforms": [
+                "PC",
+                "Xbox 360",
+                "iOS (iPhone/iPad)",
+                "PlayStation 4",
+                "PlayStation Vita",
+                "Xbox One",
+                "Nintendo Switch"
+              ],
+              "publisher": "Warner Bros. Interactive Entertainment",
+              "steam_tags": [
+                "Atmospheric",
+                "Story Rich",
+                "Singleplayer",
+                "Indie",
+                "Action RPG",
+                "Great Soundtrack"
+              ],
+              "description": "Bastion is an isometric action role-playing game from Supergiant Games featuring hand-painted environments, reactive narration, fast-paced combat and an emphasis on atmosphere and music.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "Moderate"
+              ],
+              "release_date": "2011-07-20",
+              "audience_tags": [
+                "strong narration",
+                "memorable soundtrack",
+                "beautiful art",
+                "concise experience",
+                "indie classic"
+              ],
+              "gameplay_type": [
+                "single-player",
+                "action role-playing",
+                "hack and slash"
+              ],
+              "content_rating": "E10+",
+              "emotional_tone": [
+                "melancholic",
+                "reflective",
+                "hopeful",
+                "poignant"
+              ],
+              "progression_type": [
+                "fixed difficulty",
+                "linear progression"
+              ],
+              "camera_perspective": [
+                "isometric",
+                "top-down"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Un superviviente reconstruye un mundo hecho trizas mientras descubre su pasado perdido y lucha contra fuerzas hostiles.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Ein Überlebender baut eine zerbrochene Welt wieder auf, entdeckt ihre verlorene Vergangenheit und bekämpft feindliche Mächte.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "A lone survivor rebuilds a shattered world while uncovering its lost past and battling hostile forces.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Un survivant reconstruit un monde brisé tout en découvrant son passé perdu et en affrontant des forces hostiles.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe",
+                  "Asia"
+                ],
+                "targetagegroup": "All Ages"
+              }
+            },
+            "popularity": 0.9959176613042726,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:2d_hand_painted",
+                "name": "2D hand-painted",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:stylized",
+                "name": "stylized",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:isometric",
+                "name": "isometric",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:strong_narration",
+                "name": "strong narration",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:memorable_soundtrack",
+                "name": "memorable soundtrack",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:beautiful_art",
+                "name": "beautiful art",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:concise_experience",
+                "name": "concise experience",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie_classic",
+                "name": "indie classic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:reflective",
+                "name": "reflective",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:hopeful",
+                "name": "hopeful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:poignant",
+                "name": "poignant",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:action_role_playing",
+                "name": "action role-playing",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:hack_and_slash",
+                "name": "hack and slash",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc",
+                "name": "PC",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:ios_iphone_ipad_",
+                "name": "iOS (iPhone/iPad)",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_4",
+                "name": "PlayStation 4",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_vita",
+                "name": "PlayStation Vita",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_one",
+                "name": "Xbox One",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:nintendo_switch",
+                "name": "Nintendo Switch",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:moderate",
+                "name": "Moderate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:action_rpg",
+                "name": "Action RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:great_soundtrack",
+                "name": "Great Soundtrack",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8588640556391464
+            },
+            "disambiguation": "2011-07-20, Supergiant Games",
+            "external": {
+              "igdb": [
+                {
+                  "id": "bastion"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt2040279"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "107100"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q810662"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400551745",
+                  "critic_rating": 86
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "BioShock Infinite",
+            "entity_id": "A16CFE4D-1D57-4F1E-B8E2-F498F3096779",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "ไบโอช็อค อินฟินิต",
+                  "languages": [
+                    "th"
+                  ]
+                }
+              ],
+              "slug": "bioshock-infinite",
+              "genre": [
+                "Action",
+                "First-Person Shooter",
+                "Adventure"
+              ],
+              "image": {
+                "url": "https://images.qloo.com/i/A16CFE4D-1D57-4F1E-B8E2-F498F3096779-420x-auto.jpg"
+              },
+              "universe": "BioShock",
+              "art_style": [
+                "3D",
+                "Realistic",
+                "Period/Art Deco",
+                "Stylized"
+              ],
+              "developer": "Irrational Games",
+              "platforms": [
+                "PlayStation 3",
+                "Xbox 360",
+                "Microsoft Windows",
+                "macOS"
+              ],
+              "publisher": "2K Games",
+              "steam_tags": [
+                "Atmospheric",
+                "Story Rich",
+                "Singleplayer",
+                "First-Person",
+                "Shooter",
+                "Alternate History"
+              ],
+              "description": "Once conceived as a floating symbol of American ideals, the city of Columbia vanishes into the clouds. You play Booker DeWitt, a former Pinkerton sent to rescue Elizabeth, a young woman imprisoned there; together they must fight through Columbia's fanatical politics and surreal threats using firearms, vigors, and Sky-Line combat to escape a city literally falling from the sky.",
+              "player_mode": [
+                "Single-player"
+              ],
+              "skill_level": [
+                "Moderate"
+              ],
+              "release_date": "2013-03-25",
+              "audience_tags": [
+                "narrative-driven",
+                "visually striking",
+                "complex themes",
+                "character-driven",
+                "worldbuilding"
+              ],
+              "gameplay_type": [
+                "Single-player",
+                "First-Person Shooter",
+                "Story-Driven"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "melancholic",
+                "thought-provoking",
+                "tense",
+                "unsettling",
+                "satirical"
+              ],
+              "progression_type": [
+                "Linear Progression",
+                "Fixed Difficulty"
+              ],
+              "camera_perspective": [
+                "First-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Ein ehemaliger Pinkerton reist in die schwebende Stadt Columbia, um eine junge Frau zu retten, und entdeckt politischen Fanatismus sowie realitätsverändernde Geheimnisse beim Fluchtversuch.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un exagente Pinkerton viaja a la ciudad flotante de Columbia para rescatar a una joven y descubre fanatismo político y secretos que alteran la realidad mientras intentan escapar.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "A former Pinkerton is sent to the airborne city of Columbia to rescue a young woman, uncovering political fanaticism and reality-bending secrets as they try to escape.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Un ancien Pinkerton se rend dans la cité flottante de Columbia pour sauver une jeune femme et découvre un fanatisme politique et des secrets altérant la réalité en tentant de s'échapper.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Adults"
+              }
+            },
+            "popularity": 0.9994810586403736,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:period_art_deco",
+                "name": "Period/Art Deco",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:stylized",
+                "name": "Stylized",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:narrative_driven",
+                "name": "narrative-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:visually_striking",
+                "name": "visually striking",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:complex_themes",
+                "name": "complex themes",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:character_driven",
+                "name": "character-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:worldbuilding",
+                "name": "worldbuilding",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:thought_provoking",
+                "name": "thought-provoking",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:unsettling",
+                "name": "unsettling",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:satirical",
+                "name": "satirical",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:first_person_shooter",
+                "name": "First-Person Shooter",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:story_driven",
+                "name": "Story-Driven",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:first_person_shooter",
+                "name": "First-Person Shooter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_3",
+                "name": "PlayStation 3",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:microsoft_windows",
+                "name": "Microsoft Windows",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:macos",
+                "name": "macOS",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:moderate",
+                "name": "Moderate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:first_person",
+                "name": "First-Person",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:shooter",
+                "name": "Shooter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:alternate_history",
+                "name": "Alternate History",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8418379156196277
+            },
+            "disambiguation": "2013-03-25, Irrational Games",
+            "external": {
+              "igdb": [
+                {
+                  "id": "bioshock-infinite"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt1712064"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "8870"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q2074746"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400102805",
+                  "critic_rating": 94
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "BioShock",
+            "entity_id": "02F302A9-BDF1-43CB-882D-BC334671FFF9",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "Bioshock",
+                  "languages": [
+                    "ja",
+                    "tr"
+                  ]
+                },
+                {
+                  "value": "BioShock",
+                  "languages": [
+                    "pt_pt",
+                    "pl",
+                    "pt"
+                  ]
+                }
+              ],
+              "slug": "bioshock",
+              "genre": [
+                "First-Person Shooter",
+                "Action",
+                "Adventure",
+                "Horror",
+                "Role-Playing Elements"
+              ],
+              "image": {},
+              "universe": "Rapture (BioShock universe)",
+              "art_style": [
+                "3D",
+                "Realistic",
+                "Art Deco aesthetic"
+              ],
+              "developer": "Irrational Games",
+              "platforms": [
+                "PC",
+                "Xbox 360",
+                "PlayStation 3",
+                "iOS (iPhone/iPad)"
+              ],
+              "publisher": "2K Games",
+              "steam_tags": [
+                "Atmospheric",
+                "Story Rich",
+                "Singleplayer",
+                "First-Person",
+                "Shooter",
+                "Horror",
+                "Immersive Sim",
+                "Great Soundtrack",
+                "Choices Matter",
+                "Mature Themes"
+              ],
+              "description": "Going beyond run-and-gun corridors and static worlds, BioShock creates a living, unpredictable FPS experience. After your plane crashes into icy waters you discover a bathysphere and descend into Rapture, an underwater city built as an idealistic society for scientists, artists and industrialists. That idealism has collapsed: the city is littered with corpses, powerful guardians roam corridors, little girls scavenge the dead and genetically mutated citizens ambush you. Hack machines, commandeer turrets, craft items, upgrade weapons with ionic gels and toxins, and modify your body via Plasmids to gain grotesque abilities. Interacting inhabitants with ecological A.I. create consequential relationships that affect gameplay. Explore an art-deco undersea world rendered with advanced graphics and water effects, and face moral choices that force you to exploit or save Rapture's survivors.",
+              "player_mode": [
+                "Single-player"
+              ],
+              "skill_level": [
+                "Intermediate"
+              ],
+              "release_date": "2007-08-21",
+              "audience_tags": [
+                "memorable setting",
+                "immersive worldbuilding",
+                "moral choice",
+                "innovative gameplay",
+                "strong narrative"
+              ],
+              "gameplay_type": [
+                "Single-player",
+                "Story-driven",
+                "Immersive sim",
+                "Action"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "melancholic",
+                "tense",
+                "eerie",
+                "thought-provoking",
+                "unsettling"
+              ],
+              "progression_type": [
+                "Fixed difficulty",
+                "Character progression"
+              ],
+              "camera_perspective": [
+                "First-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "After a plane crash you discover the ruined underwater city of Rapture and must fight mutated inhabitants while making moral choices about whether to exploit or save its survivors.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Tras un accidente de avión descubres la ciudad sumergida de Rapture y debes enfrentarte a habitantes mutados mientras decides si explotar o salvar a sus supervivientes.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Nach einem Flugzeugabsturz entdeckst du die unterseeische Stadt Rapture, kämpfst gegen mutierte Bewohner und triffst die Entscheidung, Überlebende auszubeuten oder zu retten.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Après le crash d'un avion, vous découvrez la cité sous-marine de Rapture et devez affronter des habitants mutés tout en choisissant d'exploiter ou de sauver les survivants.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Adults"
+              }
+            },
+            "popularity": 0.9996194430029407,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:art_deco_aesthetic",
+                "name": "Art Deco aesthetic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:memorable_setting",
+                "name": "memorable setting",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:immersive_worldbuilding",
+                "name": "immersive worldbuilding",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:moral_choice",
+                "name": "moral choice",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:innovative_gameplay",
+                "name": "innovative gameplay",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:strong_narrative",
+                "name": "strong narrative",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:eerie",
+                "name": "eerie",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:thought_provoking",
+                "name": "thought-provoking",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:unsettling",
+                "name": "unsettling",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:story_driven",
+                "name": "Story-driven",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:immersive_sim",
+                "name": "Immersive sim",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:first_person_shooter",
+                "name": "First-Person Shooter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:horror",
+                "name": "Horror",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing_elements",
+                "name": "Role-Playing Elements",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc",
+                "name": "PC",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_3",
+                "name": "PlayStation 3",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:ios_iphone_ipad_",
+                "name": "iOS (iPhone/iPad)",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:intermediate",
+                "name": "Intermediate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:first_person",
+                "name": "First-Person",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:shooter",
+                "name": "Shooter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:horror",
+                "name": "Horror",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:immersive_sim",
+                "name": "Immersive Sim",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:great_soundtrack",
+                "name": "Great Soundtrack",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:choices_matter",
+                "name": "Choices Matter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:mature_themes",
+                "name": "Mature Themes",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8364854722550568
+            },
+            "disambiguation": "2007-08-21, Irrational Games",
+            "external": {
+              "igdb": [
+                {
+                  "id": "bioshock"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt1094581"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "7670"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q57270"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400336481",
+                  "critic_rating": 96
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Mass Effect 2",
+            "entity_id": "5B3C9A59-72CF-4EC1-924A-3CC7AA87647D",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "Mass Effect 2",
+                  "languages": [
+                    "ja",
+                    "pl",
+                    "tr"
+                  ]
+                }
+              ],
+              "slug": "mass-effect-2",
+              "genre": [
+                "Western RPG",
+                "Action RPG",
+                "Third-Person Shooter",
+                "Science Fiction"
+              ],
+              "image": {},
+              "universe": "Mass Effect",
+              "art_style": [
+                "3D",
+                "Realistic",
+                "Cinematic"
+              ],
+              "developer": "BioWare",
+              "platforms": [
+                "PC",
+                "Xbox 360",
+                "PlayStation 3"
+              ],
+              "publisher": "Electronic Arts",
+              "steam_tags": [
+                "Story Rich",
+                "Choices Matter",
+                "Singleplayer",
+                "RPG",
+                "Science Fiction",
+                "Third-Person Shooter",
+                "Squad-Based"
+              ],
+              "description": "Mass Effect 2 is the dark second chapter of a sci‑fi trilogy in which Commander Shepard must recruit a diverse squad to confront a galaxy‑threatening force; the game blends narrative choice, squad-based third‑person combat, and RPG progression across a richly detailed interstellar setting.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "Moderate"
+              ],
+              "release_date": "2010-01-26",
+              "audience_tags": [
+                "rich characters",
+                "immersive worldbuilding",
+                "branching narrative",
+                "replayable",
+                "moral choices"
+              ],
+              "gameplay_type": [
+                "Single-Player",
+                "Squad-Based",
+                "Role-Playing",
+                "Third-Person Shooter"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "dramatic",
+                "tense",
+                "melancholic",
+                "hopeful",
+                "heroic"
+              ],
+              "progression_type": [
+                "Fixed Difficulty",
+                "Branching Narrative"
+              ],
+              "camera_perspective": [
+                "Third-Person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Un veterano comandante reúne a un equipo diverso para detener una amenaza galáctica, tomando decisiones que determinan la suerte de aliados y civilizaciones.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un commandant vétéran rassemble une escouade variée pour arrêter une menace galactique, faisant des choix qui déterminent le sort d'alliés et de civilisations.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Ein erfahrener Kommandant stellt ein diverses Team zusammen, um eine galaktische Bedrohung zu stoppen, und trifft Entscheidungen, die das Schicksal von Verbündeten und Zivilisationen bestimmen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "A veteran commander assembles a diverse squad to stop a galaxy-spanning threat, making life-or-death choices that shape the fate of allies and civilizations.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Adults"
+              }
+            },
+            "popularity": 0.9993080781871648,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:rich_characters",
+                "name": "rich characters",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:immersive_worldbuilding",
+                "name": "immersive worldbuilding",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:branching_narrative",
+                "name": "branching narrative",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:replayable",
+                "name": "replayable",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:moral_choices",
+                "name": "moral choices",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:dramatic",
+                "name": "dramatic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:hopeful",
+                "name": "hopeful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:heroic",
+                "name": "heroic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-Player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:squad_based",
+                "name": "Squad-Based",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:third_person_shooter",
+                "name": "Third-Person Shooter",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:western_rpg",
+                "name": "Western RPG",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action_rpg",
+                "name": "Action RPG",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:third_person_shooter",
+                "name": "Third-Person Shooter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc",
+                "name": "PC",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_3",
+                "name": "PlayStation 3",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:moderate",
+                "name": "Moderate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:choices_matter",
+                "name": "Choices Matter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:third_person_shooter",
+                "name": "Third-Person Shooter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:squad_based",
+                "name": "Squad-Based",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8265448957196352
+            },
+            "disambiguation": "2010-01-26, BioWare",
+            "external": {
+              "igdb": [
+                {
+                  "id": "mass-effect-2"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt1540125"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "2362420"
+                },
+                {
+                  "id": "24980"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q725057"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400049190",
+                  "critic_rating": 96
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "System Shock 2",
+            "entity_id": "120E0187-D21C-40EF-A1AB-394258E28FD8",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "System Shock 2",
+                  "languages": [
+                    "ja",
+                    "pl",
+                    "tr"
+                  ]
+                }
+              ],
+              "slug": "system-shock-2",
+              "genre": [
+                "Survival Horror",
+                "First-Person Shooter",
+                "Role-Playing"
+              ],
+              "image": {
+                "url": "https://images.qloo.com/i/120E0187-D21C-40EF-A1AB-394258E28FD8-420x-auto.jpg"
+              },
+              "universe": "System Shock Universe",
+              "art_style": [
+                "3D",
+                "Realistic",
+                "Sci-Fi"
+              ],
+              "developer": "Irrational Games",
+              "platforms": [
+                "PC (Windows)"
+              ],
+              "publisher": "Looking Glass Studios",
+              "steam_tags": [
+                "Atmospheric",
+                "Horror",
+                "Story Rich",
+                "Singleplayer",
+                "Sci-fi",
+                "RPG",
+                "FPS",
+                "Survival Horror",
+                "Retro"
+              ],
+              "description": "System Shock 2 is a first-person, sci-fi survival-horror RPG that combines shooting, inventory and skill-based character progression, hacking and exploration aboard a derelict starship; players manage resources, upgrade skills and piece together story logs while confronting a rogue AI and mutated crew in a tense, atmospheric world.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "Hard-core"
+              ],
+              "release_date": "1999-08-11",
+              "audience_tags": [
+                "cult classic",
+                "challenging",
+                "immersive",
+                "retro PC gaming",
+                "story-driven"
+              ],
+              "gameplay_type": [
+                "Single-player",
+                "Survival Horror",
+                "First-Person Shooter",
+                "Role-Playing"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "tense",
+                "claustrophobic",
+                "dark",
+                "suspenseful"
+              ],
+              "progression_type": [
+                "Character progression",
+                "Skill-based progression"
+              ],
+              "camera_perspective": [
+                "First-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Ein Überlebender erwacht auf einem verlassenen Raumschiff, kämpft gegen eine durchgedrehte KI und mutierte Besatzung und deckt die dunklen Experimente des Schiffs auf, um zu überleben.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un superviviente despierta a bordo de una nave abandonada y debe enfrentarse a una IA descontrolada y a la tripulación mutada mientras descubre los oscuros experimentos de la nave para sobrevivir.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "A lone survivor awakes aboard a derelict starship and must battle a rogue AI and mutated crew while uncovering the ship's dark experiments to survive.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Un survivant se réveille à bord d'un vaisseau abandonné, affronte une IA devenue folle et une équipe mutée, et découvre les sombres expériences du vaisseau pour survivre.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Adults"
+              }
+            },
+            "popularity": 0.9833246843106729,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:sci_fi",
+                "name": "Sci-Fi",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:cult_classic",
+                "name": "cult classic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:challenging",
+                "name": "challenging",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:immersive",
+                "name": "immersive",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:retro_pc_gaming",
+                "name": "retro PC gaming",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:story_driven",
+                "name": "story-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:claustrophobic",
+                "name": "claustrophobic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:dark",
+                "name": "dark",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:survival_horror",
+                "name": "Survival Horror",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:first_person_shooter",
+                "name": "First-Person Shooter",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:survival_horror",
+                "name": "Survival Horror",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:first_person_shooter",
+                "name": "First-Person Shooter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc_windows_",
+                "name": "PC (Windows)",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:hard_core",
+                "name": "Hard-core",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:horror",
+                "name": "Horror",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:sci_fi",
+                "name": "Sci-fi",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:fps",
+                "name": "FPS",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:survival_horror",
+                "name": "Survival Horror",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:retro",
+                "name": "Retro",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8222945140395488
+            },
+            "disambiguation": "1999-08-11, Irrational Games",
+            "external": {
+              "igdb": [
+                {
+                  "id": "system-shock-2"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt0308956"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "238210"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q1371495"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400004505",
+                  "user_rating": 9,
+                  "critic_rating": 92
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Transistor",
+            "entity_id": "4F4BC179-A93E-459C-A9E6-63ACD75D67EC",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "Transistor",
+                  "languages": [
+                    "pt_pt",
+                    "pl",
+                    "pt"
+                  ]
+                }
+              ],
+              "slug": "transistor",
+              "genre": [
+                "Action",
+                "RPG",
+                "Adventure"
+              ],
+              "image": {},
+              "universe": "Cloudbank",
+              "art_style": [
+                "2D",
+                "Hand-drawn",
+                "Futuristic"
+              ],
+              "developer": "Supergiant Games",
+              "platforms": [
+                "PC",
+                "PlayStation 4",
+                "Nintendo Switch",
+                "iOS"
+              ],
+              "publisher": "Supergiant Games",
+              "steam_tags": [
+                "Action",
+                "RPG",
+                "Story Rich",
+                "Sci-fi"
+              ],
+              "description": "Transistor is a sci-fi action role-playing game set in a futuristic city called Cloudbank. Players control Red, a singer who wields a powerful weapon called the Transistor, as she unravels the mysteries of the city while battling robotic enemies controlled by a group known as the Camerata.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "casual"
+              ],
+              "release_date": "2014-05-20",
+              "audience_tags": [
+                "cult classic",
+                "indie gem"
+              ],
+              "gameplay_type": [
+                "single player"
+              ],
+              "content_rating": "T",
+              "emotional_tone": [
+                "melancholic",
+                "mysterious"
+              ],
+              "progression_type": [
+                "fixed difficulty"
+              ],
+              "camera_perspective": [
+                "isometric"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "A young woman wields a mysterious weapon to confront a sinister group controlling her city, seeking to restore her voice and save her world.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Teens"
+              }
+            },
+            "popularity": 0.9848123162082685,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:2d",
+                "name": "2D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:hand_drawn",
+                "name": "Hand-drawn",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:futuristic",
+                "name": "Futuristic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:cult_classic",
+                "name": "cult classic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie_gem",
+                "name": "indie gem",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:mysterious",
+                "name": "mysterious",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "single player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc",
+                "name": "PC",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_4",
+                "name": "PlayStation 4",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:nintendo_switch",
+                "name": "Nintendo Switch",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:ios",
+                "name": "iOS",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:casual",
+                "name": "casual",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:sci_fi",
+                "name": "Sci-fi",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8219568835576512
+            },
+            "disambiguation": "2014-05-20, Supergiant Games",
+            "external": {
+              "igdb": [
+                {
+                  "id": "transistor"
+                }
+              ],
+              "imdb": [],
+              "steam": [
+                {
+                  "id": "237930"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q13417084"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400551751",
+                  "critic_rating": 83
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Legend of Grimrock",
+            "entity_id": "00450DBE-C8BA-40CF-82AC-D74CDEDAAFED",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "slug": "legend-of-grimrock",
+              "genre": [
+                "Role-playing",
+                "Puzzle",
+                "Adventure"
+              ],
+              "image": {},
+              "universe": "Legend of Grimrock Universe",
+              "art_style": [
+                "3D"
+              ],
+              "developer": "Almost Human",
+              "platforms": [
+                "Microsoft Windows",
+                "OS X",
+                "Linux",
+                "iOS"
+              ],
+              "publisher": "Almost Human",
+              "steam_tags": [
+                "Dungeon Crawler",
+                "Old School",
+                "RPG",
+                "First-Person"
+              ],
+              "description": "Legend of Grimrock is a modern take on classic grid-based dungeon crawling games. Players are thrust into the dark and mysterious dungeons of Mount Grimrock, where they must navigate treacherous pathways, solve puzzles, and fight fierce creatures to find their way out. The game is set in an ancient dungeon with a focus on exploration, survival, and tactical combat.",
+              "player_mode": [
+                "Single-player"
+              ],
+              "skill_level": [
+                "hard-core"
+              ],
+              "release_date": "2012-04-11",
+              "audience_tags": [
+                "Nostalgic for classic RPGs",
+                "Challenging puzzles",
+                "Tactical combat"
+              ],
+              "gameplay_type": [
+                "Single-player"
+              ],
+              "content_rating": "",
+              "emotional_tone": [
+                "Suspenseful",
+                "Adventurous",
+                "Mysterious"
+              ],
+              "progression_type": [
+                "Fixed"
+              ],
+              "camera_perspective": [
+                "First-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "A group of prisoners must navigate a treacherous dungeon to escape a deadly machine and uncover the secrets of their confinement.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Teens"
+              }
+            },
+            "popularity": 0.9637778930980799,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:nostalgic_for_classic_rpgs",
+                "name": "Nostalgic for classic RPGs",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:challenging_puzzles",
+                "name": "Challenging puzzles",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:tactical_combat",
+                "name": "Tactical combat",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:mysterious",
+                "name": "Mysterious",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing",
+                "name": "Role-playing",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:puzzle",
+                "name": "Puzzle",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:microsoft_windows",
+                "name": "Microsoft Windows",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:os_x",
+                "name": "OS X",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:linux",
+                "name": "Linux",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:ios",
+                "name": "iOS",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:hard_core",
+                "name": "hard-core",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:dungeon_crawler",
+                "name": "Dungeon Crawler",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:old_school",
+                "name": "Old School",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:first_person",
+                "name": "First-Person",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8212382825800995
+            },
+            "disambiguation": "2012-04-11, Almost Human",
+            "external": {
+              "igdb": [
+                {
+                  "id": "legend-of-grimrock"
+                }
+              ],
+              "imdb": [],
+              "steam": [
+                {
+                  "id": "207170"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [
+                {
+                  "id": "almosthumanltd"
+                }
+              ],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q15737144"
+                },
+                {
+                  "id": "q1812427"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400746086",
+                  "critic_rating": 82
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Deus Ex",
+            "entity_id": "8EBAD109-308A-4F81-AD3F-BBB93C4C7CA6",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "slug": "deus-ex",
+              "genre": [
+                "Action",
+                "Adventure",
+                "Role-Playing",
+                "Shooter"
+              ],
+              "image": {},
+              "universe": "Deus Ex",
+              "art_style": [
+                "3D",
+                "Realistic"
+              ],
+              "developer": "Ion Storm",
+              "platforms": [
+                "PC (Windows)",
+                "Dreamcast",
+                "PlayStation 2",
+                "PlayStation 4",
+                "PlayStation 5"
+              ],
+              "publisher": "Eidos Interactive",
+              "steam_tags": [
+                "Immersive Sim",
+                "First-Person",
+                "RPG",
+                "Stealth",
+                "Choice & Consequence",
+                "Singleplayer",
+                "Story Rich",
+                "Atmospheric",
+                "Cyberpunk"
+              ],
+              "description": "Deus Ex is a hybrid first-person action-RPG that blends shooting, stealth, and role-playing with a dense, conspiracy-driven narrative set in a near-future dystopia; the game emphasizes player choice, multiple solutions to objectives, character augmentations, and systemic interactivity where decisions have meaningful consequences.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "Intermediate to Hard"
+              ],
+              "release_date": "2000-06-23",
+              "audience_tags": [
+                "story-rich",
+                "choice-driven",
+                "complex mechanics",
+                "high replayability",
+                "retro-classic"
+              ],
+              "gameplay_type": [
+                "Single-player",
+                "First-person shooter",
+                "Role-Playing",
+                "Stealth",
+                "Immersive Sim"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "dystopian",
+                "tension",
+                "suspenseful",
+                "thought-provoking",
+                "paranoid"
+              ],
+              "progression_type": [
+                "Fixed progression",
+                "Character progression",
+                "Skill-based progression"
+              ],
+              "camera_perspective": [
+                "First-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "A covert agent in a near-future dystopia uncovers global conspiracies and must decide humanity's fate using augmentations and morally fraught choices.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Ein verdeckter Agent in einer nahen Zukunft entdeckt weltweite Verschwörungen und muss mittels Augmentierungen und moralischer Entscheidungen über das Schicksal der Menschheit bestimmen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Un agent infiltré dans un futur proche découvre des conspirations mondiales et doit décider du sort de l'humanité grâce à des augmentations et des choix moraux.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Un agente encubierto en un futuro cercano descubre conspiraciones globales y debe decidir el destino de la humanidad mediante aumentos y elecciones morales.",
+                  "languages": [
+                    "es"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Teens"
+              }
+            },
+            "popularity": 0.9950527590382287,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:story_rich",
+                "name": "story-rich",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:choice_driven",
+                "name": "choice-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:complex_mechanics",
+                "name": "complex mechanics",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:high_replayability",
+                "name": "high replayability",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:retro_classic",
+                "name": "retro-classic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:dystopian",
+                "name": "dystopian",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tension",
+                "name": "tension",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:thought_provoking",
+                "name": "thought-provoking",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:paranoid",
+                "name": "paranoid",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:first_person_shooter",
+                "name": "First-person shooter",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:stealth",
+                "name": "Stealth",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:immersive_sim",
+                "name": "Immersive Sim",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:shooter",
+                "name": "Shooter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc_windows_",
+                "name": "PC (Windows)",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:dreamcast",
+                "name": "Dreamcast",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_2",
+                "name": "PlayStation 2",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_4",
+                "name": "PlayStation 4",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_5",
+                "name": "PlayStation 5",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:intermediate_to_hard",
+                "name": "Intermediate to Hard",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:immersive_sim",
+                "name": "Immersive Sim",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:first_person",
+                "name": "First-Person",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:stealth",
+                "name": "Stealth",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:choice_consequence",
+                "name": "Choice & Consequence",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:cyberpunk",
+                "name": "Cyberpunk",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8200799890462951
+            },
+            "disambiguation": "2000-06-23, Ion Storm",
+            "external": {
+              "igdb": [
+                {
+                  "id": "deus-ex"
+                },
+                {
+                  "id": "deus-ex-game-of-the-year-edition"
+                },
+                {
+                  "id": "deus-ex-revision"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt0286585"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "397550"
+                },
+                {
+                  "id": "6910"
+                }
+              ],
+              "itunes": [],
+              "twitch": [],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q644793"
+                },
+                {
+                  "id": "q22162622"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400669276",
+                  "user_rating": 9,
+                  "critic_rating": 90
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Mass Effect",
+            "entity_id": "DB003E13-0C9F-4011-B928-43ADC2A59F26",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "マスエフェクト",
+                  "languages": [
+                    "ja"
+                  ]
+                },
+                {
+                  "value": "แมสเอฟเฟกต์ (วิดีโอเกม)",
+                  "languages": [
+                    "th"
+                  ]
+                },
+                {
+                  "value": "Mass Effect",
+                  "languages": [
+                    "pt_pt",
+                    "pl",
+                    "pt",
+                    "tr"
+                  ]
+                }
+              ],
+              "slug": "mass-effect",
+              "genre": [
+                "Role-Playing",
+                "Action",
+                "Science Fiction"
+              ],
+              "image": {
+                "url": "https://images.qloo.com/i/DB003E13-0C9F-4011-B928-43ADC2A59F26-420x-auto.jpg"
+              },
+              "universe": "Mass Effect Universe",
+              "art_style": [
+                "3D",
+                "Realistic",
+                "Cinematic",
+                "Science-fiction aesthetic"
+              ],
+              "developer": "BioWare",
+              "platforms": [
+                "Xbox 360",
+                "PC",
+                "PlayStation 3"
+              ],
+              "publisher": "Microsoft Game Studios",
+              "steam_tags": [
+                "Singleplayer",
+                "Story Rich",
+                "Choices Matter",
+                "RPG",
+                "Sci-fi",
+                "Third Person"
+              ],
+              "description": "Mass Effect is a science-fiction action role-playing game in which the player, as humanity's first major representative on the galactic stage, must investigate and thwart an ancient, galaxy-spanning threat while recruiting allies, making consequential moral choices, upgrading talents, customizing weapons and vehicles, and exploring numerous uncharted planets with side quests and discoveries.",
+              "player_mode": [
+                "Single-player"
+              ],
+              "skill_level": [
+                "Intermediate"
+              ],
+              "release_date": "2007-11-20",
+              "audience_tags": [
+                "story-rich",
+                "choice-driven",
+                "character-driven",
+                "moral choices",
+                "memorable cast"
+              ],
+              "gameplay_type": [
+                "Single-player",
+                "Action RPG",
+                "Squad-based",
+                "Exploration"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "Epic",
+                "Suspenseful",
+                "Melancholic",
+                "Tense"
+              ],
+              "progression_type": [
+                "Fixed progression",
+                "Level-based progression"
+              ],
+              "camera_perspective": [
+                "Third-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "As humanity's first galactic envoy, you uncover a looming existential threat and must persuade others and gather allies to prevent the extinction of civilization.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Als erster menschlicher Vertreter in der Galaxis entdeckst du eine existenzielle Bedrohung und musst andere überzeugen sowie Verbündete sammeln, um die Zivilisation zu retten.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Como el primer enviado humano en la galaxia, descubres una amenaza existencial y debes convencer a otros y reunir aliados para evitar la extinción de la civilización.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "En tant que premier envoyé humain galactique, vous découvrez une menace existentielle et devez convaincre les autres et rallier des alliés pour sauver la civilisation.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Teens"
+              }
+            },
+            "popularity": 0.9994464625497319,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:realistic",
+                "name": "Realistic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:science_fiction_aesthetic",
+                "name": "Science-fiction aesthetic",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:story_rich",
+                "name": "story-rich",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:choice_driven",
+                "name": "choice-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:character_driven",
+                "name": "character-driven",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:moral_choices",
+                "name": "moral choices",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:memorable_cast",
+                "name": "memorable cast",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:epic",
+                "name": "Epic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:suspenseful",
+                "name": "Suspenseful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "Tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:action_rpg",
+                "name": "Action RPG",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:squad_based",
+                "name": "Squad-based",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:exploration",
+                "name": "Exploration",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:role_playing",
+                "name": "Role-Playing",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:science_fiction",
+                "name": "Science Fiction",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc",
+                "name": "PC",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_3",
+                "name": "PlayStation 3",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "Single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:intermediate",
+                "name": "Intermediate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:choices_matter",
+                "name": "Choices Matter",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:rpg",
+                "name": "RPG",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:sci_fi",
+                "name": "Sci-fi",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:third_person",
+                "name": "Third Person",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.816960375662868
+            },
+            "disambiguation": "2007-11-20, BioWare",
+            "external": {
+              "igdb": [
+                {
+                  "id": "mass-effect"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt1073668"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "17460"
+                }
+              ],
+              "itunes": [],
+              "twitch": [
+                {
+                  "id": "mass effect"
+                }
+              ],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q275960"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400037400",
+                  "critic_rating": 91
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          },
+          {
+            "name": "Dishonored",
+            "entity_id": "39064D91-435D-4947-AE03-C20D70E342DE",
+            "type": "urn:entity",
+            "subtype": "urn:entity:videogame",
+            "properties": {
+              "akas": [
+                {
+                  "value": "ดิสออนเนอร์",
+                  "languages": [
+                    "th"
+                  ]
+                },
+                {
+                  "value": "Dishonored",
+                  "languages": [
+                    "pt_pt",
+                    "pl",
+                    "pt",
+                    "tr"
+                  ]
+                },
+                {
+                  "value": "ディスオナード",
+                  "languages": [
+                    "ja"
+                  ]
+                }
+              ],
+              "slug": "dishonored",
+              "genre": [
+                "Action",
+                "Adventure",
+                "Stealth"
+              ],
+              "image": {},
+              "universe": "Dishonored",
+              "art_style": [
+                "3D",
+                "Stylized",
+                "Steampunk",
+                "Painterly"
+              ],
+              "developer": "Arkane Studios",
+              "platforms": [
+                "Xbox 360",
+                "PlayStation 3",
+                "PC (Windows)"
+              ],
+              "publisher": "Bethesda Softworks",
+              "steam_tags": [
+                "Stealth",
+                "Action",
+                "First-Person",
+                "Immersive Sim",
+                "Atmospheric",
+                "Story Rich",
+                "Singleplayer"
+              ],
+              "description": "Dishonored is a tactile first-person action game that thrusts you into the role of a supernatural assassin driven by a thirst for revenge. With Dishonored’s flexible combat system, creatively eliminate your targets as you bring together the supernatural abilities, weapons and unusual gadgets at your disposal. Hunt down your enemies under the cover of darkness or viciously attack them head on with weapons drawn. The results of each mission are a result of the choices you make.",
+              "player_mode": [
+                "single-player"
+              ],
+              "skill_level": [
+                "Moderate"
+              ],
+              "release_date": "2012-10-09",
+              "audience_tags": [
+                "immersive sim",
+                "player choice",
+                "replayable",
+                "stealth gameplay",
+                "atmospheric worldbuilding"
+              ],
+              "gameplay_type": [
+                "single-player"
+              ],
+              "content_rating": "M",
+              "emotional_tone": [
+                "grim",
+                "tense",
+                "dark",
+                "suspenseful"
+              ],
+              "progression_type": [
+                "fixed difficulty"
+              ],
+              "camera_perspective": [
+                "first-person"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "A supernatural assassin seeks revenge in a plague-ridden industrial city, using stealth, gadgets and occult powers to complete missions whose outcomes depend on your choices.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Un asesino sobrenatural busca venganza en una ciudad industrial azotada por la peste, usando sigilo, artilugios y poderes ocultos para cumplir misiones cuyos resultados dependen de tus elecciones.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Un assassin surnaturel cherche vengeance dans une ville industrielle ravagée par la peste, utilisant discrétion, gadgets et pouvoirs occultes pour des missions où vos choix déterminent le résultat.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Ein übernatürlicher Assassine sucht Rache in einer von Pest und Industrie geprägten Stadt, nutzt Schleichen, Gerätschaften und okkulte Kräfte, wobei die Missionsergebnisse von deinen Entscheidungen abhängen.",
+                  "languages": [
+                    "de"
+                  ]
+                }
+              ],
+              "player_demographics": {
+                "primarygender": "All",
+                "popularregions": [
+                  "North America",
+                  "Europe"
+                ],
+                "targetagegroup": "Teens"
+              }
+            },
+            "popularity": 0.9988237329181803,
+            "tags": [
+              {
+                "id": "urn:tag:art_style:qloo:3d",
+                "name": "3D",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:stylized",
+                "name": "Stylized",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:steampunk",
+                "name": "Steampunk",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:art_style:qloo:painterly",
+                "name": "Painterly",
+                "type": "urn:tag:art_style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:immersive_sim",
+                "name": "immersive sim",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:player_choice",
+                "name": "player choice",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:replayable",
+                "name": "replayable",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:stealth_gameplay",
+                "name": "stealth gameplay",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:atmospheric_worldbuilding",
+                "name": "atmospheric worldbuilding",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:grim",
+                "name": "grim",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:tense",
+                "name": "tense",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:dark",
+                "name": "dark",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:emotional_tone:qloo:suspenseful",
+                "name": "suspenseful",
+                "type": "urn:tag:emotional_tone:qloo"
+              },
+              {
+                "id": "urn:tag:gameplay_type:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:gameplay_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:adventure",
+                "name": "Adventure",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:stealth",
+                "name": "Stealth",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:xbox_360",
+                "name": "Xbox 360",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:playstation_3",
+                "name": "PlayStation 3",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:platform:qloo:pc_windows_",
+                "name": "PC (Windows)",
+                "type": "urn:tag:platform:qloo"
+              },
+              {
+                "id": "urn:tag:player_mode:qloo:single_player",
+                "name": "single-player",
+                "type": "urn:tag:player_mode:qloo"
+              },
+              {
+                "id": "urn:tag:skill_level:qloo:moderate",
+                "name": "Moderate",
+                "type": "urn:tag:skill_level:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:stealth",
+                "name": "Stealth",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:action",
+                "name": "Action",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:first_person",
+                "name": "First-Person",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:immersive_sim",
+                "name": "Immersive Sim",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:story_rich",
+                "name": "Story Rich",
+                "type": "urn:tag:category:qloo"
+              },
+              {
+                "id": "urn:tag:category:qloo:singleplayer",
+                "name": "Singleplayer",
+                "type": "urn:tag:category:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.8127179095015107
+            },
+            "disambiguation": "2012-10-09, Arkane Studios",
+            "external": {
+              "igdb": [
+                {
+                  "id": "dishonored-definitive-edition"
+                },
+                {
+                  "id": "dishonored"
+                }
+              ],
+              "imdb": [
+                {
+                  "id": "tt2322244"
+                }
+              ],
+              "steam": [
+                {
+                  "id": "205100"
+                }
+              ],
+              "itunes": [],
+              "twitch": [
+                {
+                  "id": "dishonored"
+                }
+              ],
+              "netflix": [],
+              "twitter": [],
+              "facebook": [],
+              "wikidata": [
+                {
+                  "id": "q323264"
+                }
+              ],
+              "instagram": [],
+              "letterboxd": [],
+              "metacritic": [
+                {
+                  "id": "1400132980",
+                  "critic_rating": 88
+                }
+              ],
+              "google_play": [],
+              "rottentomatoes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

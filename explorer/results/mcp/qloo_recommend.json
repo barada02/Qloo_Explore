@@ -1,0 +1,395 @@
+{
+  "tool": "qloo_recommend",
+  "arguments": {
+    "target_type": "place",
+    "signals": [
+      "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+    ],
+    "filter_location": "Lisbon",
+    "limit": 5
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "recommend",
+    "status": "ok",
+    "interpretation": {
+      "target_type": "urn:entity:place",
+      "signals": [
+        {
+          "input": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "entityId": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "name": "Radiohead",
+          "type": "urn:entity:artist",
+          "match": "identifier"
+        },
+        {
+          "input": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "entityId": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "name": "The Grand Budapest Hotel",
+          "type": "urn:entity:movie",
+          "match": "identifier"
+        }
+      ],
+      "signal_tags": [],
+      "filter_location": "Lisbon",
+      "include_tags": [],
+      "exclude_tags": []
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "name": "Radiohead",
+            "type": "urn:entity:artist",
+            "popularity": 0.9999966263060412,
+            "description": "Radiohead is an English rock band known for their innovative and experimental approach to music."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        },
+        {
+          "input": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+          "status": "resolved",
+          "match": "identifier",
+          "selected": {
+            "id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "name": "The Grand Budapest Hotel",
+            "type": "urn:entity:movie",
+            "popularity": 0.999514201509214,
+            "description": "The Grand Budapest Hotel (2014), directed by Wes Anderson and featuring Ralph Fiennes, F. Murray Abraham, and Mathieu Amalric, is a comedy-drama adventure set across multiple eras of a once-grand European hotel. Framed as a nested tale, it follows a legendary concierge and his young lobby boy through a caper involving a stolen painting, an inheritance dispute, and a murder, all against the rise of war and social change. The film pairs Anderson's signature visual precision—pastel palettes, miniat",
+            "release_year": 2014
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/entities",
+            "strategy": "identifier_lookup",
+            "remote": true,
+            "uses_model": false
+          }
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "A9364500-1DCA-478F-8F75-16770518DD05",
+        "name": "Igreja de Santa Luzia",
+        "type": "urn:entity",
+        "subtype": "urn:entity:place",
+        "popularity": 0.9083916242369807,
+        "affinity": 0.9044665897551786,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "score": 0.5169594607054424
+            },
+            {
+              "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "score": 0.4830405392945576
+            }
+          ]
+        },
+        "properties": {
+          "description": "17th-century hilltop Catholic church overlooking Lisbon's old quarter, affording panoramic city views and peaceful terraced gardens.",
+          "short_description": "17th-century hilltop Catholic church overlooking Lisbon's old quarter, affording panoramic city views and peaceful terraced gardens.",
+          "image": {
+            "url": "https://images.qloo.com/i/A9364500-1DCA-478F-8F75-16770518DD05-420x-auto.jpg"
+          },
+          "geocode": {
+            "city": "Lisbon",
+            "name": "Alfama",
+            "metro": "Lisbon",
+            "country": "Portugal",
+            "country_code": "PT",
+            "admin1_region": null,
+            "admin2_region": "Lisbon"
+          },
+          "address": "Largo de Santa Luzia 1100-411 Lisboa Portugal",
+          "price_level": null,
+          "business_rating": 4.199999809265137
+        }
+      },
+      {
+        "entity_id": "9FBAE107-4B40-4107-BBA2-E31170FB963F",
+        "name": "Miradouro de Fatima",
+        "type": "urn:entity",
+        "subtype": "urn:entity:place",
+        "popularity": 0.7189793399281825,
+        "affinity": 0.9026025557153816,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "score": 0.503859670263185
+            },
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "score": 0.496140329736815
+            }
+          ]
+        },
+        "properties": {
+          "description": "Seaside café-restaurant in Paço de Arcos offering coffee, beer, wine and outdoor seating with scenic Tagus River and coastline views.",
+          "short_description": "Seaside café-restaurant in Paço de Arcos offering coffee, beer, wine and outdoor seating with scenic Tagus River and coastline views.",
+          "image": {
+            "url": "https://images.qloo.com/i/9FBAE107-4B40-4107-BBA2-E31170FB963F-420x-auto.jpg"
+          },
+          "geocode": {
+            "city": "Oeiras e São Julião da Barra, Paço de Arcos e Caxias",
+            "name": "Núcleo Urbano Histórico de Paço de Arcos",
+            "metro": null,
+            "country": "Portugal",
+            "country_code": "PT",
+            "admin1_region": null,
+            "admin2_region": "Lisbon"
+          },
+          "address": "Largo Leonor Faria Gomes 12 2770-134 Paço de Arcos Portugal",
+          "price_level": 1,
+          "business_rating": 4.5
+        }
+      },
+      {
+        "entity_id": "03F2656B-851F-452E-B86F-831D6D8E5BEE",
+        "name": "Museum of Contemporary Art – MAC/CCB",
+        "type": "urn:entity",
+        "subtype": "urn:entity:place",
+        "popularity": 0.9991189037855563,
+        "affinity": 0.8936450290681828,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "score": 0.5367838673688058
+            },
+            {
+              "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "score": 0.4632161326311941
+            }
+          ]
+        },
+        "properties": {
+          "description": "Contemporary art museum in Belém showcasing modern international masters (Picasso, Bacon, Warhol) and rotating exhibitions within the Centro Cultural de Belém.",
+          "short_description": "Contemporary art museum in Belém showcasing modern international masters (Picasso, Bacon, Warhol) and rotating exhibitions within the Centro Cultural de Belém.",
+          "image": {
+            "url": "https://images.qloo.com/i/03F2656B-851F-452E-B86F-831D6D8E5BEE-420x-auto.jpg"
+          },
+          "geocode": {
+            "city": "Lisbon",
+            "name": "Pedrouços",
+            "metro": "Lisbon",
+            "country": "Portugal",
+            "country_code": "PT",
+            "admin1_region": null,
+            "admin2_region": "Lisbon"
+          },
+          "address": "Praça do Império 1449-003 Lisboa Portugal",
+          "price_level": null,
+          "business_rating": 4.5
+        }
+      },
+      {
+        "entity_id": "8F85FE9F-54BF-4815-A717-F89EB34BE06C",
+        "name": "Rua nova do Carvalho",
+        "type": "urn:entity",
+        "subtype": "urn:entity:place",
+        "popularity": 0.9886308128855492,
+        "affinity": 0.8928742776845173,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "score": 0.5040101724787686
+            },
+            {
+              "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "score": 0.49598982752123144
+            }
+          ]
+        },
+        "properties": {
+          "description": "Bar and restaurant on Lisbon’s lively Pink Street, offering food, wine, beer and other alcoholic drinks with dine-in service.",
+          "short_description": "Bar and restaurant on Lisbon’s lively Pink Street, offering food, wine, beer and other alcoholic drinks with dine-in service.",
+          "image": {
+            "url": "https://images.qloo.com/i/8F85FE9F-54BF-4815-A717-F89EB34BE06C-420x-auto.jpg"
+          },
+          "geocode": {
+            "city": "Lisbon",
+            "name": null,
+            "metro": "Lisbon",
+            "country": "Portugal",
+            "country_code": "PT",
+            "admin1_region": null,
+            "admin2_region": "Lisbon"
+          },
+          "address": "Portugal Lisboa R. Nova do Carvalho 邮政编码: 1200-019",
+          "price_level": null,
+          "business_rating": 5
+        }
+      },
+      {
+        "entity_id": "8C70FCCE-3B82-4A48-A4B9-5214C29D3472",
+        "name": "Church of Saint Mary of Bethlehem",
+        "type": "urn:entity",
+        "subtype": "urn:entity:place",
+        "popularity": 0.9048807975629444,
+        "affinity": 0.8900785356815659,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "score": 0.5057945330561182
+            },
+            {
+              "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+              "score": 0.49420546694388184
+            }
+          ]
+        },
+        "properties": {
+          "description": "16th-century Manueline-style Catholic church adjoining the Jerónimos Monastery at Praça do Império, a historic landmark in Lisbon's Belém waterfront.",
+          "short_description": "16th-century Manueline-style Catholic church adjoining the Jerónimos Monastery at Praça do Império, a historic landmark in Lisbon's Belém waterfront.",
+          "image": {
+            "url": "https://images.qloo.com/i/8C70FCCE-3B82-4A48-A4B9-5214C29D3472-420x-auto.jpg"
+          },
+          "geocode": {
+            "city": "Lisbon",
+            "name": "Pedrouços",
+            "metro": "Lisbon",
+            "country": "Portugal",
+            "country_code": "PT",
+            "admin1_region": null,
+            "admin2_region": "Lisbon"
+          },
+          "address": "Praça do Império 1400-206 Lisboa Portugal",
+          "price_level": null,
+          "business_rating": 4.699999809265137
+        }
+      }
+    ],
+    "result_count": 5,
+    "explainability": {
+      "signal.interests.entities": {
+        "effect_on_top3_recs": [
+          {
+            "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "avg_score": 0.5166278859370211
+          },
+          {
+            "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "avg_score": 0.4833721140629789
+          }
+        ],
+        "effect_on_top5_recs": [
+          {
+            "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "avg_score": 0.51193767266919
+          },
+          {
+            "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "avg_score": 0.48806232733080995
+          }
+        ],
+        "effect_on_top10_recs": [
+          {
+            "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "avg_score": 0.51193767266919
+          },
+          {
+            "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "avg_score": 0.48806232733080995
+          }
+        ],
+        "effect_on_all_recs": [
+          {
+            "entity_id": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+            "avg_score": 0.51193767266919
+          },
+          {
+            "entity_id": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+            "avg_score": 0.48806232733080995
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/insights-api-deep-dive",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:entity:place",
+            "take": 5,
+            "signal.interests.entities": [
+              "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+              "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+            ],
+            "filter.location.query": "Lisbon",
+            "feature.explainability": true
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "recommend",
+      "job": "recommend",
+      "signals": {
+        "entities": [
+          "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+          "DF788007-B5EA-4F29-872B-96BCB8EEC42F"
+        ]
+      },
+      "filters": {
+        "location": "Lisbon"
+      },
+      "operators": {},
+      "output": {
+        "limit": 5,
+        "explain": true
+      },
+      "assumptions": [
+        "explain=true"
+      ],
+      "unresolved": [],
+      "target": {
+        "type": "place"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-3",
+      "duration_ms": 2243
+    }
+  }
+}

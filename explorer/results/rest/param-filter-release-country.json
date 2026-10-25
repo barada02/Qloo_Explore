@@ -1,0 +1,35 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:movie",
+      "take": 10,
+      "signal.interests.entities": "DF788007-B5EA-4F29-872B-96BCB8EEC42F",
+      "filter.release_country": [
+        "FR"
+      ],
+      "operator.filter.release_country": "union"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 540,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Amovie&take=10&signal.interests.entities=DF788007-B5EA-4F29-872B-96BCB8EEC42F&filter.release_country=FR&operator.filter.release_country=union",
+    "requestId": "ef087826-c23b-4ef1-829b-2a689347e60c",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49577",
+      "x-month-ratelimit-reset": "2589196.42",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": []
+      }
+    }
+  }
+}

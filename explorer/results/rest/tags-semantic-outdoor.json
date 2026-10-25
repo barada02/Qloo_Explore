@@ -1,0 +1,189 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "outdoor adventure",
+      "feature.semantic_search": true,
+      "take": 10
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 322,
+    "url": "/v2/tags?filter.query=outdoor+adventure&feature.semantic_search=true&take=10",
+    "requestId": "ceade1fa-0ef5-4de8-b120-b0fee4dd1188",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49864",
+      "x-month-ratelimit-reset": "2591838.55",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 25,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:outdoor_adventure",
+            "name": "Outdoor Adventure",
+            "popularity": 0.9956349887676067,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:activity_type:qloo",
+            "id": "urn:tag:activity_type:qloo:outdoor_adventure",
+            "name": "Outdoor Adventure",
+            "popularity": 0.9998617648264685,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:outdoor_adventures",
+            "name": "Outdoor Adventures",
+            "popularity": 0.9866127088705983,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              },
+              {
+                "type": "urn:entity:movie"
+              },
+              {
+                "type": "urn:entity:tv_show"
+              }
+            ],
+            "type": "urn:tag:interests:qloo",
+            "id": "urn:tag:interests:qloo:outdoor_adventure",
+            "name": "Outdoor Adventure",
+            "popularity": 0.9993935717188428,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:outdoor_exploration",
+            "name": "Outdoor Exploration",
+            "popularity": 0.9981129327958708,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:outdoor_adventuring",
+            "name": "Outdoor Adventuring",
+            "popularity": 0.9476529316931311,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:active_outdoor_adventure",
+            "name": "Active Outdoor Adventure",
+            "popularity": 0.9056649402454899,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:active_outdoor_adventures",
+            "name": "Active Outdoor Adventures",
+            "popularity": 0.9150317870210681,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:adventure_in_nature",
+            "name": "Adventure In Nature",
+            "popularity": 0.8704174843617533,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:brand"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo",
+            "id": "urn:tag:lifestyle:qloo:outdoor_exploring",
+            "name": "Outdoor Exploring",
+            "popularity": 0.8542918015703201,
+            "properties": {
+              "is_canonical": false
+            },
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

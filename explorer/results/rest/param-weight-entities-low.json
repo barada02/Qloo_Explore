@@ -1,0 +1,4798 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:entity:artist",
+      "take": 10,
+      "signal.interests.entities": "70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C",
+      "signal.demographics.gender": "female",
+      "signal.interests.entities.weight": "0.1"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 7800,
+    "url": "/v2/insights?filter.type=urn%3Aentity%3Aartist&take=10&signal.interests.entities=70CAE5BF-2F4C-445C-A3E5-4EDACFC3591C&signal.demographics.gender=female&signal.interests.entities.weight=0.1",
+    "requestId": "d77cbf95-7e00-4bae-8834-573e6261c30c",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49610",
+      "x-month-ratelimit-reset": "2589309.21",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.31"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "entities": [
+          {
+            "name": "Fiona Apple",
+            "entity_id": "AD268CE4-7B73-44E9-BA97-535F5D422EB3",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/AD268CE4-7B73-44E9-BA97-535F5D422EB3-420x-auto.jpg"
+              },
+              "vocals": "Distinctive, emotive and often husky mezzo-soprano with strong low-register warmth and an intense, expressive upper register; dynamic phrasing, raw vulnerability, intimate whisper-to-belt transitions, and idiosyncratic rhythmic delivery.",
+              "aliases": [
+                "Fiona Apple"
+              ],
+              "members": [],
+              "is_group": false,
+              "biography": "Born in Manhattan in 1977, Fiona Apple showed musical talent early and began playing piano and writing songs as a teenager. She was discovered in the mid-1990s and released her debut album Tidal (1996), which featured the breakthrough single \"Criminal\" and earned widespread acclaim. Over subsequent albums — including When the Pawn..., Extraordinary Machine, The Idler Wheel..., and Fetch the Bolt Cutters — she evolved from lushly arranged, producer-driven recordings to increasingly idiosyncratic, rhythmically adventurous and self-assertive works. Known for meticulous songwriting and a fiercely personal voice, Apple has maintained a selective public profile while influencing generations of singer-songwriters.",
+              "known_for": "Emotive, confessional songwriting; piano-driven compositions; distinctive, expressive voice; uncompromising artistic vision and critically acclaimed albums.",
+              "start_year": 1995,
+              "voice_type": [
+                "Mezzo-Soprano"
+              ],
+              "description": "Fiona Apple is an American singer-songwriter and pianist whose work blends confessional lyricism, complex piano arrangements, and bold rhythmic choices. Emerging in the mid-1990s with widely acclaimed songwriting and the hit single \"Criminal,\" she has built a reputation for emotionally raw performances, inventive production, and albums that defy easy pop categorization. Her records combine alternative rock, jazz-tinged harmonies, and art-pop sensibilities, earning consistent critical praise and a devoted international audience.",
+              "instruments": [
+                "Piano",
+                "Vocals",
+                "Keyboards",
+                "Percussion"
+              ],
+              "lowest_note": "A2",
+              "vocal_range": "Mezzo-Soprano, Approximately A2–A5",
+              "highest_note": "A5",
+              "collaborators": [
+                "Jon Brion"
+              ],
+              "date_of_birth": "1977-09-13",
+              "influenced_by": [
+                "Joni Mitchell",
+                "Kate Bush",
+                "Nina Simone",
+                "Tom Waits",
+                "Billie Holiday",
+                "Prince"
+              ],
+              "notable_songs": [
+                "Criminal",
+                "Paper Bag",
+                "Shadowboxer",
+                "Fast As You Can",
+                "Extraordinary Machine",
+                "Limp",
+                "Every Single Night",
+                "Sullen Girl"
+              ],
+              "lyrical_themes": [
+                "Introspection",
+                "Heartbreak",
+                "Identity",
+                "Vulnerability",
+                "Trauma",
+                "Mental Health",
+                "Anger",
+                "Family",
+                "Resilience",
+                "Power Dynamics"
+              ],
+              "place_of_birth": "Manhattan, New York, New York, U",
+              "primary_genres": [
+                "Alternative Rock",
+                "Singer-Songwriter",
+                "Piano",
+                "Indie Rock"
+              ],
+              "characteristics": [
+                "Emotive",
+                "Introspective",
+                "Confessional",
+                "Witty",
+                "Intense",
+                "Raw",
+                "Piano-Driven",
+                "Lyrical",
+                "Uncompromising",
+                "Complex"
+              ],
+              "cultural_impact": "Fiona Apple helped redefine late-90s and 2000s singer-songwriter music by pairing raw, confessional songwriting with inventive arrangements; her early commercial success and later critically lauded, uncompromising records — especially Fetch the Bolt Cutters — solidified her reputation as an influential artist for female singer-songwriters and indie musicians, broadening acceptance for frank, personal storytelling in alternative music.",
+              "obscurity_scale": [
+                "3"
+              ],
+              "complexity_scale": [
+                "7"
+              ],
+              "secondary_genres": [
+                "Art Pop",
+                "Baroque Pop",
+                "Jazz-Infused Pop",
+                "Chamber Pop",
+                "Experimental Pop"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Singer-Songwriter",
+                "Piano-Driven Alternative",
+                "Art Pop",
+                "Baroque Pop"
+              ],
+              "performance_style": "Primarily piano-centered and intimate, alternating between whisper-soft vulnerability and cathartic, dramatic intensity; performances emphasize emotional honesty, dynamic shifts and close interaction with arrangement and rhythm.",
+              "artists_influenced": [],
+              "short_descriptions": [
+                {
+                  "value": "American singer-songwriter known for her emotive voice and intricate piano-driven compositions.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "US-amerikanische Sängerin und Songwriterin, bekannt für ihre gefühlsbetonte Stimme und komplexen, klavierzentrierten Kompositionen.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Chanteuse-auteure-compositrice américaine, réputée pour sa voix émotive et ses compositions complexes centrées sur le piano.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Cantante y compositora estadounidense conocida por su voz emotiva y composiciones intrincadas basadas en piano.",
+                  "languages": [
+                    "es"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Devoted",
+                "Introspective",
+                "Discerning",
+                "Passionate",
+                "Loyal",
+                "Thoughtful"
+              ],
+              "adjectives_for_music": [
+                "Emotive",
+                "Confessional",
+                "Piano-Driven",
+                "Complex",
+                "Raw",
+                "Darkly Witty",
+                "Rhythmically Inventive",
+                "Baroque-Inflected"
+              ],
+              "lyrical_themes_description": "Her lyrics are confessional and candid, exploring intimate emotional states, fraught relationships, self-examination, family dynamics, trauma and recovery, power imbalances, and complex mixtures of vulnerability and defiance. She often uses sharp, literate imagery and unpredictable metaphors.",
+              "adjectives_for_performance_style": [
+                "Intense",
+                "Raw",
+                "Intimate",
+                "Theatrical",
+                "Expressive"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Confessional Piano Alt-Rock",
+                "Baroque-Inflected Art-Pop",
+                "Jazz-Infused Singer-Songwriter",
+                "Chamber-Pop Balladry",
+                "Experimental Rhythm-Pop"
+              ]
+            },
+            "popularity": 0.9989022799808637,
+            "tags": [
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:poetic",
+                "name": "Poetic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:complex",
+                "name": "Complex",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:complex",
+                "name": "Complex",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:jazz",
+                "name": "Jazz",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:heartbreak",
+                "name": "Heartbreak",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:art_pop",
+                "name": "Art Pop",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:baroque_pop",
+                "name": "Baroque Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:piano",
+                "name": "Piano",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influence:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:piano_rock",
+                "name": "Piano Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:3",
+                "name": "3",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:jazz_influenced_alternative",
+                "name": "Jazz-Influenced Alternative",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:empowerment",
+                "name": "Empowerment",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:self_reflection",
+                "name": "Self Reflection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_pop",
+                "name": "Indie Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:artistic",
+                "name": "Artistic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:expressive",
+                "name": "Expressive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:singer_songwriter",
+                "name": "Singer & Songwriter",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:voice_type:qloo:mezzo_soprano",
+                "name": "Mezzo-Soprano",
+                "type": "urn:tag:voice_type:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:piano",
+                "name": "Piano",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:baroque_pop",
+                "name": "Baroque Pop",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:stevie_wonder",
+                "name": "Stevie Wonder",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:confessional_singer_songwriter",
+                "name": "Confessional Singer-Songwriter",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:piano_driven_art_pop",
+                "name": "Piano-Driven Art Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:raw",
+                "name": "Raw",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:prince",
+                "name": "Prince",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:art_pop",
+                "name": "Art Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_struggle",
+                "name": "Emotional Struggle",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:expressive",
+                "name": "Expressive",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:joni_mitchell",
+                "name": "Joni Mitchell",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:kate_bush",
+                "name": "Kate Bush",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:vocals",
+                "name": "Vocals",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotive_indie_rock",
+                "name": "Emotive Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:devoted",
+                "name": "Devoted",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:discerning",
+                "name": "Discerning",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:thoughtful",
+                "name": "Thoughtful",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:confessional",
+                "name": "Confessional",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:piano_driven",
+                "name": "Piano-Driven",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:raw",
+                "name": "Raw",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:darkly_witty",
+                "name": "Darkly Witty",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:rhythmically_inventive",
+                "name": "Rhythmically Inventive",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:baroque_inflected",
+                "name": "Baroque-Inflected",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:theatrical",
+                "name": "Theatrical",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:confessional",
+                "name": "Confessional",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:witty",
+                "name": "Witty",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:intense",
+                "name": "Intense",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:raw",
+                "name": "Raw",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:piano_driven",
+                "name": "Piano-Driven",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:lyrical",
+                "name": "Lyrical",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:uncompromising",
+                "name": "Uncompromising",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:complexity_scale:qloo:7",
+                "name": "7",
+                "type": "urn:tag:complexity_scale:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:confessional_piano_alt_rock",
+                "name": "Confessional Piano Alt-Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:baroque_inflected_art_pop",
+                "name": "Baroque-Inflected Art-Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:jazz_infused_singer_songwriter",
+                "name": "Jazz-Infused Singer-Songwriter",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:chamber_pop_balladry",
+                "name": "Chamber-Pop Balladry",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:experimental_rhythm_pop",
+                "name": "Experimental Rhythm-Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_singer_songwriter",
+                "name": "Indie Singer-Songwriter",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:piano_driven_alternative",
+                "name": "Piano-Driven Alternative",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:baroque_pop",
+                "name": "Baroque Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:nina_simone",
+                "name": "Nina Simone",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:tom_waits",
+                "name": "Tom Waits",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:billie_holiday",
+                "name": "Billie Holiday",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboards",
+                "name": "Keyboards",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:percussion",
+                "name": "Percussion",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:vulnerability",
+                "name": "Vulnerability",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:trauma",
+                "name": "Trauma",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:mental_health",
+                "name": "Mental Health",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:anger",
+                "name": "Anger",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:family",
+                "name": "Family",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:resilience",
+                "name": "Resilience",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:power_dynamics",
+                "name": "Power Dynamics",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:singer_songwriter",
+                "name": "Singer-Songwriter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:piano",
+                "name": "Piano",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:art_pop",
+                "name": "Art Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:baroque_pop",
+                "name": "Baroque Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:jazz_infused_pop",
+                "name": "Jazz-Infused Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:chamber_pop",
+                "name": "Chamber Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:experimental_pop",
+                "name": "Experimental Pop",
+                "type": "urn:tag:subgenre:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9783989285420274,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Fiona Apple",
+            "external": {
+              "imdb": [
+                {
+                  "id": "nm0004712"
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "fiona%20apple",
+                  "listeners": 2377371,
+                  "scrobbles": 137814802
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "3g2kUQ6tHLLbmkV7T4GPtL",
+                  "verified": true,
+                  "followers": 741780,
+                  "monthly_listeners": 3445168
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "fionaapple"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "fionaapple"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q228968"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "545918"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+                  "artist_type": "Person"
+                }
+              ]
+            }
+          },
+          {
+            "name": "I Love You But I've Chosen Darkness",
+            "entity_id": "73140AB9-9841-4258-964E-3A04396F23F2",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/73140AB9-9841-4258-964E-3A04396F23F2-420x-auto.jpg"
+              },
+              "vocals": "The band's vocals are typically brooding and emotive, complementing their atmospheric instrumentation. The vocal delivery is often introspective and melancholic, fitting the overall mood of their music.",
+              "aliases": [],
+              "members": [],
+              "is_group": true,
+              "biography": "Formed in Austin, Texas, I Love You But I've Chosen Darkness emerged in the early 2000s as part of the indie rock and post-punk revival movement. The band developed a signature sound characterized by layered guitars, somber melodies, and emotionally charged lyrics. Their work has been noted for its cinematic quality and emotional depth, earning them a dedicated following within the indie music community.",
+              "known_for": "Known for their atmospheric, melancholic sound and emotionally charged performances within the indie rock and post-punk revival genres.",
+              "start_year": 2001,
+              "description": "I Love You But I've Chosen Darkness is an American indie rock band formed in Austin, Texas. They are recognized for their atmospheric, melancholic sound that blends elements of post-punk revival and shoegaze. Their music features moody guitar textures, introspective lyrics, and a brooding vocal style, contributing to their distinct place in the indie rock scene.",
+              "instruments": [
+                "Guitar",
+                "Bass",
+                "Drums",
+                "Keyboards"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "Joy Division",
+                "The Cure",
+                "My Bloody Valentine",
+                "The Chameleons"
+              ],
+              "notable_songs": [
+                "Fear Is on Our Side",
+                "According to Plan",
+                "You Are Dead to Me"
+              ],
+              "lyrical_themes": [
+                "Isolation",
+                "Heartbreak",
+                "Existentialism",
+                "Melancholy",
+                "Introspection"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Post-Punk Revival"
+              ],
+              "characteristics": [
+                "Atmospheric",
+                "Melancholic",
+                "Brooding",
+                "Introspective",
+                "Moody"
+              ],
+              "cultural_impact": "I Love You But I've Chosen Darkness has contributed to the post-punk revival and indie rock scenes with their distinctive atmospheric sound, influencing other bands within the genre and maintaining a cult following.",
+              "obscurity_scale": [
+                "6"
+              ],
+              "secondary_genres": [
+                "Alternative Rock",
+                "Shoegaze"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "Post-Punk Revival",
+                "Shoegaze"
+              ],
+              "performance_style": "Their performance style is emotive and intimate, often emphasizing the atmospheric and brooding qualities of their music to create a deeply immersive live experience.",
+              "artists_influenced": [
+                "Local Natives",
+                "The Antlers",
+                "Phosphorescent"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "An American indie rock band known for their atmospheric and melancholic sound.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Banda estadounidense de indie rock reconocida por su sonido atmosférico y melancólico.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "US-Indie-Rock-Band, bekannt für ihren atmosphärischen und melancholischen Sound.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Groupe américain d'indie rock réputé pour sa musique atmosphérique et mélancolique.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Introspective",
+                "Loyal",
+                "Passionate"
+              ],
+              "adjectives_for_music": [
+                "Atmospheric",
+                "Melancholic",
+                "Brooding",
+                "Introspective",
+                "Moody"
+              ],
+              "lyrical_themes_description": "Their lyrics often explore themes of emotional isolation, heartbreak, existential questions, and introspection, delivered with a poetic and somber tone.",
+              "adjectives_for_performance_style": [
+                "Emotive",
+                "Brooding",
+                "Intimate",
+                "Atmospheric"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Post-Punk Revival",
+                "Dreamy Shoegaze",
+                "Melancholic Indie Rock",
+                "Cinematic Atmosphere",
+                "Brooding Soundscapes"
+              ]
+            },
+            "popularity": 0.9818007851155719,
+            "tags": [
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:6",
+                "name": "6",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:moody",
+                "name": "Moody",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:existentialism",
+                "name": "Existentialism",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:melancholy",
+                "name": "Melancholy",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:heartbreak",
+                "name": "Heartbreak",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:brooding",
+                "name": "Brooding",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:brooding",
+                "name": "Brooding",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:shoegaze",
+                "name": "Shoegaze",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:shoegaze",
+                "name": "Shoegaze",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cinematic_atmosphere",
+                "name": "Cinematic Atmosphere",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melancholic_indie_rock",
+                "name": "Melancholic Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_cure",
+                "name": "The Cure",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:brooding_soundscapes",
+                "name": "Brooding Soundscapes",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:joy_division",
+                "name": "Joy Division",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:my_bloody_valentine",
+                "name": "My Bloody Valentine",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboards",
+                "name": "Keyboards",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:isolation",
+                "name": "Isolation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dreamy_shoegaze",
+                "name": "Dreamy Shoegaze",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_chameleons",
+                "name": "The Chameleons",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:brooding",
+                "name": "Brooding",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:moody",
+                "name": "Moody",
+                "type": "urn:tag:music:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9760703412645906,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "I Love You But I've Chosen Darkness",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "i%20love%20you%20but%20i%27ve%20chosen%20darkness",
+                  "listeners": 170489,
+                  "scrobbles": 2683117
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "ilybicdtx"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "i-love-you-but-ive-chosen-darkness-321538904675016"
+                },
+                {
+                  "id": "321538904675016"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q1113341"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "a9055d04-92ee-4c6c-80ac-e2ea7be06bf1",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Zwan",
+            "entity_id": "2F84EB23-3672-4C71-A1D7-7A3EC7EA1C9F",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/2F84EB23-3672-4C71-A1D7-7A3EC7EA1C9F-420x-auto.jpg"
+              },
+              "vocals": "Billy Corgan's vocals in Zwan are characterized by a clear, melodic delivery with an optimistic tone, differing from his more intense style in The Smashing Pumpkins. The band features harmonious backing vocals and a blend of male and female voices, adding to their vibrant sound.",
+              "aliases": [],
+              "members": [
+                "Billy Corgan",
+                "Jimmy Chamberlin",
+                "David Pajo",
+                "Matt Sweeney",
+                "Linda Strawberry"
+              ],
+              "end_year": 2003,
+              "is_group": true,
+              "biography": "After the dissolution of The Smashing Pumpkins in 2000, Billy Corgan and drummer Jimmy Chamberlin formed Zwan in 2001, recruiting guitarist David Pajo, guitarist Matt Sweeney, and vocalist Linda Strawberry. The band aimed to create a more positive and melodic sound, diverging from the darker tones of The Smashing Pumpkins. They released their debut and only album, 'Mary Star of the Sea', in 2003, which received critical acclaim for its catchy melodies and energetic performances. Despite the promising start, internal tensions led to the band's breakup later that year.",
+              "known_for": "Known for their melodic and upbeat alternative rock sound, blending optimism with rock energy, and being a supergroup formed by members of The Smashing Pumpkins.",
+              "start_year": 2001,
+              "description": "Zwan was an American alternative rock supergroup formed in 2001 by Billy Corgan and Jimmy Chamberlin following the breakup of The Smashing Pumpkins. The band also included David Pajo, Matt Sweeney, and Linda Strawberry. Known for their melodic and upbeat sound, Zwan released one album, 'Mary Star of the Sea', before disbanding in 2003. Their music combined elements of alternative rock, indie rock, and power pop, showcasing a more optimistic and vibrant style compared to Corgan's previous work.",
+              "instruments": [
+                "Guitar",
+                "Drums",
+                "Bass",
+                "Vocals",
+                "Keyboards"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "The Beatles",
+                "The Beach Boys",
+                "Led Zeppelin",
+                "The Smashing Pumpkins"
+              ],
+              "notable_songs": [
+                "Honestly",
+                "Lyric",
+                "Mary Star of the Sea"
+              ],
+              "lyrical_themes": [
+                "Hope",
+                "Love",
+                "Spirituality",
+                "Personal Growth"
+              ],
+              "primary_genres": [
+                "Alternative Rock",
+                "Indie Rock"
+              ],
+              "characteristics": [
+                "Melodic",
+                "Upbeat",
+                "Energetic",
+                "Optimistic",
+                "Vibrant"
+              ],
+              "cultural_impact": "Though short-lived, Zwan influenced early 2000s alternative rock by blending melodic pop sensibilities with rock, inspiring bands to explore more optimistic themes and vibrant sounds in the genre.",
+              "obscurity_scale": [
+                "6"
+              ],
+              "secondary_genres": [
+                "Post-Grunge",
+                "Power Pop"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Alternative Rock",
+                "Indie Rock",
+                "Power Pop"
+              ],
+              "performance_style": "Zwan's live performances were energetic and engaging, featuring dynamic interplay between band members and a vibrant stage presence that reflected their optimistic music style.",
+              "artists_influenced": [
+                "Jimmy Eat World",
+                "Paramore",
+                "The Killers"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "An American alternative rock supergroup formed by Billy Corgan after the breakup of The Smashing Pumpkins.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Supergrupo estadounidense de rock alternativo formado por Billy Corgan tras la disolución de The Smashing Pumpkins.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "US-amerikanische Alternative-Rock-Supergroup, die Billy Corgan nach dem Ende der Smashing Pumpkins gründete.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Supergroupe américain de rock alternatif fondé par Billy Corgan après la séparation de The Smashing Pumpkins.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Passionate",
+                "Nostalgic"
+              ],
+              "adjectives_for_music": [
+                "Melodic",
+                "Upbeat",
+                "Energetic",
+                "Optimistic",
+                "Vibrant"
+              ],
+              "lyrical_themes_description": "Zwan's lyrics often explore themes of hope, love, spirituality, and personal growth, reflecting a more positive and uplifting perspective compared to Billy Corgan's previous work.",
+              "adjectives_for_performance_style": [
+                "Energetic",
+                "Engaging",
+                "Dynamic"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Alternative Rock",
+                "Indie Rock",
+                "Post-Grunge",
+                "Power Pop",
+                "Melodic"
+              ]
+            },
+            "popularity": 0.9845172325659124,
+            "tags": [
+              {
+                "id": "urn:tag:instrument:qloo:keyboards",
+                "name": "Keyboards",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:upbeat",
+                "name": "Upbeat",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_beach_boys",
+                "name": "The Beach Boys",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:6",
+                "name": "6",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:spirituality",
+                "name": "Spirituality",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_smashing_pumpkins",
+                "name": "The Smashing Pumpkins",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:post_grunge",
+                "name": "Post-Grunge",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:power_pop",
+                "name": "Power Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:optimistic",
+                "name": "Optimistic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:vocals",
+                "name": "Vocals",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:power_pop",
+                "name": "Power Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:personal_growth",
+                "name": "Personal Growth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:power_pop",
+                "name": "Power Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:vibrant",
+                "name": "Vibrant",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_grunge",
+                "name": "Post-Grunge",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:led_zeppelin",
+                "name": "Led Zeppelin",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:hope",
+                "name": "Hope",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:upbeat",
+                "name": "Upbeat",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:optimistic",
+                "name": "Optimistic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:vibrant",
+                "name": "Vibrant",
+                "type": "urn:tag:music:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9755200894897539,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Zwan",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "zwan",
+                  "listeners": 238370,
+                  "scrobbles": 2567482
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "zwansound"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q231567"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "5af2629b-36de-486c-ad50-a89a28ff050f",
+                  "artist_type": "Group"
+                },
+                {
+                  "id": "f0dac6a9-9d09-4642-9ae7-39c4ea54dc3a",
+                  "artist_type": "Person"
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Bravery",
+            "entity_id": "B2B0C29E-E478-4EBF-AEEC-B192E6DC4B87",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/B2B0C29E-E478-4EBF-AEEC-B192E6DC4B87-420x-auto.jpg"
+              },
+              "vocals": "Lead vocals are characterized by a clear, melodic style with an indie rock tone, supported by harmonies and backing vocals that complement the synth-driven instrumentation.",
+              "aliases": [],
+              "members": [
+                "Sam Endicott",
+                "Michael Zakarin",
+                "John Conway",
+                "Mike Hindert",
+                "Anthony Burulcich"
+              ],
+              "is_group": true,
+              "biography": "Formed in 2003 in New York City, The Bravery quickly became part of the post-punk revival wave that swept the indie music scene in the mid-2000s. The band members met through the local music circuit and shared a common interest in blending rock with electronic and new wave influences. Their debut album, released in 2005, featured hit singles that received significant airplay and helped establish their reputation. Over the years, The Bravery released several albums and toured extensively, influencing the indie rock landscape with their distinctive sound and style.",
+              "known_for": "Their distinctive blend of post-punk revival and synth-driven indie rock, energetic live shows, and stylish image.",
+              "start_year": 2003,
+              "description": "The Bravery is an American indie rock band formed in New York City in 2003. They gained prominence during the mid-2000s post-punk revival movement with their debut self-titled album released in 2005. Their music blends elements of indie rock, post-punk, new wave, and synthpop, characterized by catchy melodies, driving rhythms, and synthesizer use. The band is known for energetic live performances and a stylish aesthetic that contributed to the indie rock scene of the 2000s.",
+              "instruments": [
+                "Vocals",
+                "Guitar",
+                "Bass",
+                "Drums",
+                "Synthesizer",
+                "Keyboard"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "New Order",
+                "The Cure",
+                "Joy Division",
+                "Depeche Mode"
+              ],
+              "notable_songs": [
+                "An Honest Mistake",
+                "Believe",
+                "Time Won't Let Me Go",
+                "Fearless"
+              ],
+              "lyrical_themes": [
+                "Relationships",
+                "Self-Reflection",
+                "Urban Life",
+                "Emotional Struggle"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Post-Punk Revival",
+                "Alternative Rock"
+              ],
+              "characteristics": [
+                "Energetic",
+                "Stylish",
+                "Catchy",
+                "Melodic",
+                "Synth-Driven"
+              ],
+              "cultural_impact": "The Bravery contributed to the mid-2000s post-punk revival and indie rock resurgence, influencing the style and sound of contemporary alternative bands and shaping the indie music scene with their blend of rock and electronic elements.",
+              "obscurity_scale": [
+                "4"
+              ],
+              "secondary_genres": [
+                "New Wave",
+                "Synthpop"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "Post-Punk Revival",
+                "Alternative Rock"
+              ],
+              "performance_style": "The Bravery's performance style is energetic and engaging, combining dynamic stage presence with a stylish aesthetic that complements their synth-driven indie rock sound.",
+              "artists_influenced": [
+                "The Killers",
+                "Franz Ferdinand",
+                "Editors"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "US-Indie-Rock-Band, bekannt für ihren Post-Punk-Revival-Sound und energiegeladene Auftritte.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Groupe américain d'indie rock connu pour son style post-punk revival et ses performances énergiques.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Banda estadounidense de indie rock reconocida por su sonido post-punk revival y sus actuaciones enérgicas.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "An American indie rock band known for their post-punk revival sound and energetic performances.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Energetic",
+                "Stylish",
+                "Indie",
+                "Passionate"
+              ],
+              "adjectives_for_music": [
+                "Catchy",
+                "Energetic",
+                "Melodic",
+                "Synth-Driven",
+                "Atmospheric"
+              ],
+              "lyrical_themes_description": "The Bravery's lyrics often explore themes of personal relationships, introspection, the complexities of urban living, and emotional challenges, reflecting the moodiness and energy of their music.",
+              "adjectives_for_performance_style": [
+                "Energetic",
+                "Engaging",
+                "Dynamic",
+                "Stylish"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Post-Punk Revival",
+                "Synthpop-Infused",
+                "Indie Rock",
+                "New Wave-Inspired",
+                "Melodic"
+              ]
+            },
+            "popularity": 0.9980601485034963,
+            "tags": [
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:stylish",
+                "name": "Stylish",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboard",
+                "name": "Keyboard",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:new_wave",
+                "name": "New Wave",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:depeche_mode",
+                "name": "Depeche Mode",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:synthpop_infused",
+                "name": "Synthpop-Infused",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:new_order",
+                "name": "New Order",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:vocals",
+                "name": "Vocals",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:synthpop",
+                "name": "Synthpop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:urban_life",
+                "name": "Urban Life",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:catchy",
+                "name": "Catchy",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:synthesizer",
+                "name": "Synthesizer",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_cure",
+                "name": "The Cure",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influence:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:catchy",
+                "name": "Catchy",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:new_wave_inspired",
+                "name": "New Wave Inspired",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:synth_driven",
+                "name": "Synth-Driven",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:stylish",
+                "name": "Stylish",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:self_reflection",
+                "name": "Self Reflection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:joy_division",
+                "name": "Joy Division",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:4",
+                "name": "4",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_struggle",
+                "name": "Emotional Struggle",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:stylish",
+                "name": "Stylish",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:synth_driven",
+                "name": "Synth-Driven",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:new_wave_inspired",
+                "name": "New Wave-Inspired",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:self_reflection",
+                "name": "Self-Reflection",
+                "type": "urn:tag:theme:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9748128390591988,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "The Bravery",
+            "external": {
+              "imdb": [
+                {
+                  "id": "nm1923816"
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "the%20bravery",
+                  "listeners": 1381230,
+                  "scrobbles": 21750153
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "2bcrMsFlF632EQ6VZERWFu",
+                  "verified": true,
+                  "followers": 193353,
+                  "monthly_listeners": 710835
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "thebravery"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "thebravery"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q286364"
+                }
+              ],
+              "goodreads": [
+                {
+                  "id": "7998786"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "thebravery"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "7e30debb-3308-49ab-a5ac-6d49319a5705",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Piano Magic",
+            "entity_id": "B171729E-C5DF-4BDD-B881-2598E34F7073",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/B171729E-C5DF-4BDD-B881-2598E34F7073-420x-auto.jpg"
+              },
+              "aliases": [],
+              "members": [],
+              "is_group": true,
+              "biography": "Piano Magic was formed in the mid-1990s in the United Kingdom, initially as a solo project by Glen Johnson. The band evolved into a collective with a rotating lineup of musicians contributing to its distinctive sound. They gained recognition for their unique blend of indie rock and post-rock with ambient and experimental influences. Throughout their career, Piano Magic released numerous albums and EPs, building a dedicated following for their moody and textured compositions. Their music often explores themes of memory, loss, and emotional depth, making them a notable presence in the indie and post-rock scenes.",
+              "known_for": "Creating atmospheric, melancholic, and experimental indie rock and post-rock music with a cinematic quality.",
+              "start_year": 1996,
+              "description": "Piano Magic is a British band formed in the mid-1990s, known for blending indie rock, post-rock, and ambient music with experimental and dream pop elements. Their sound is characterized by atmospheric textures, melancholic melodies, and a cinematic quality. Over the years, the band has seen various lineup changes, with a core focus on creating evocative and introspective music that often incorporates electronic and acoustic instruments.",
+              "instruments": [
+                "Guitar",
+                "Piano",
+                "Synthesizer",
+                "Drums",
+                "Bass"
+              ],
+              "collaborators": [
+                "Isobel Campbell",
+                "Matt Elliott",
+                "Rachel Goswell"
+              ],
+              "influenced_by": [
+                "Talk Talk",
+                "Cocteau Twins",
+                "Brian Eno"
+              ],
+              "notable_songs": [
+                "You Can Hear The Room",
+                "Crown Of The Lost",
+                "The Nostalgist"
+              ],
+              "lyrical_themes": [
+                "Memory",
+                "Loss",
+                "Emotional Depth",
+                "Introspection"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Post-Rock",
+                "Ambient"
+              ],
+              "characteristics": [
+                "Atmospheric",
+                "Melancholic",
+                "Experimental",
+                "Cinematic",
+                "Introspective"
+              ],
+              "cultural_impact": "Piano Magic has influenced the indie and post-rock genres with their atmospheric and experimental approach, inspiring a range of artists in the ambient and dream pop scenes. Their music has contributed to the evolution of textured, cinematic soundscapes in modern alternative music.",
+              "obscurity_scale": [
+                "5"
+              ],
+              "secondary_genres": [
+                "Dream Pop",
+                "Experimental"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Post-Rock",
+                "Ambient",
+                "Dream Pop"
+              ],
+              "performance_style": "Piano Magic's performance style is intimate and reflective, often emphasizing subtlety and atmospheric soundscapes to create an immersive listening experience.",
+              "artists_influenced": [
+                "Mogwai",
+                "Explosions In The Sky",
+                "Sigur Rós"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Piano Magic ist eine britische Indie-Rock- und Post-Rock-Band, bekannt für ihren atmosphärischen und experimentellen Sound.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Piano Magic es una banda británica de indie rock y post-rock reconocida por su sonido atmosférico y experimental.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Piano Magic is a British indie rock and post-rock band known for their atmospheric and experimental sound.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Piano Magic est un groupe britannique d'indie rock et post-rock, réputé pour sa musique atmosphérique et expérimentale.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Introspective",
+                "Appreciative",
+                "Loyal"
+              ],
+              "adjectives_for_music": [
+                "Atmospheric",
+                "Melancholic",
+                "Experimental",
+                "Cinematic",
+                "Textured"
+              ],
+              "lyrical_themes_description": "Piano Magic's lyrics often explore themes of memory, loss, emotional depth, and introspection, reflecting a melancholic and reflective tone throughout their work.",
+              "adjectives_for_performance_style": [
+                "Intimate",
+                "Reflective",
+                "Subtle"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Indie Rock",
+                "Post-Rock",
+                "Ambient",
+                "Dream Pop",
+                "Experimental"
+              ]
+            },
+            "popularity": 0.9807980916055548,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:piano",
+                "name": "Piano",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:subtle",
+                "name": "Subtle",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:brian_eno",
+                "name": "Brian Eno",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_depth",
+                "name": "Emotional Depth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:memory",
+                "name": "Memory",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:synthesizer",
+                "name": "Synthesizer",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:appreciative",
+                "name": "Appreciative",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dream_pop",
+                "name": "Dream Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:talk_talk",
+                "name": "Talk Talk",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:post_rock",
+                "name": "Post - Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:5",
+                "name": "5",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:loss",
+                "name": "Loss",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:dream_pop",
+                "name": "Dream Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:dream_pop",
+                "name": "Dream Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:electronic",
+                "name": "Electronic",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:cocteau_twins",
+                "name": "Cocteau Twins",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:textured",
+                "name": "Textured",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:genre:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9734983325677068,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Piano Magic",
+            "external": {
+              "imdb": [
+                {
+                  "id": "nm3856331"
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "piano%20magic",
+                  "listeners": 188569,
+                  "scrobbles": 3553260
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "6sIZakv0uaA3qQmOOPTOQt",
+                  "verified": true,
+                  "followers": 9576,
+                  "monthly_listeners": 5517
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "panicamigo"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "pianomagic"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q576191"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "88861c95-0cd8-4710-81ef-6cecd7ea8ff5",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Snowden",
+            "entity_id": "ACDCD9FF-44F1-4FCA-B4C2-8DA5BE9705EE",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/ACDCD9FF-44F1-4FCA-B4C2-8DA5BE9705EE-420x-auto.jpg"
+              },
+              "vocals": "Snowden's vocals are characterized by a clear, emotive delivery with a melancholic tone that complements their atmospheric instrumentation. The vocal style is generally mid-range with expressive phrasing that enhances the introspective nature of their lyrics.",
+              "aliases": [],
+              "members": [
+                "Jordan Jeffares",
+                "Michael Fleischmann",
+                "Spencer Young",
+                "Lowell Brams"
+              ],
+              "is_group": true,
+              "biography": "Snowden was formed in the early 2000s in Atlanta, Georgia, by Jordan Jeffares. The band quickly developed a distinctive sound that combined indie rock with synth-driven melodies and introspective songwriting. Their debut album 'Anti-Anti' released in 2006, received critical acclaim for its emotional depth and sonic textures. Over the years, Snowden has evolved their sound while maintaining a focus on evocative and atmospheric music, earning a dedicated fanbase within the indie music scene.",
+              "known_for": "Snowden is known for their atmospheric and moody indie rock sound combined with introspective and poetic lyrics.",
+              "start_year": 2003,
+              "description": "Snowden is an American indie rock band formed in Atlanta, Georgia, known for their atmospheric and moody sound that blends elements of indie rock, alternative rock, and synthpop. The band was founded by Jordan Jeffares and has included members such as Michael Fleischmann, Spencer Young, and Lowell Brams. Snowden's music is characterized by introspective lyrics, layered instrumentation, and a blend of guitar-driven rock with synthesizer textures. They gained attention with their debut album 'Anti-Anti' and have been noted for their evocative and cinematic style.",
+              "instruments": [
+                "Guitar",
+                "Synthesizer",
+                "Bass Guitar",
+                "Drums"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "Joy Division",
+                "New Order",
+                "The Smiths",
+                "Radiohead"
+              ],
+              "notable_songs": [
+                "Like I Used To",
+                "Anti-Anti",
+                "Between the Rent and Me",
+                "Kill the Power"
+              ],
+              "lyrical_themes": [
+                "Introspection",
+                "Emotional Struggle",
+                "Relationships",
+                "Existentialism"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Alternative Rock"
+              ],
+              "characteristics": [
+                "Atmospheric",
+                "Moody",
+                "Introspective",
+                "Layered",
+                "Cinematic"
+              ],
+              "cultural_impact": "Snowden has contributed to the indie rock landscape by blending traditional rock instrumentation with synth elements, influencing the post-punk revival and indie scenes in the 2000s. Their atmospheric style has inspired other bands and helped shape the sound of modern indie rock.",
+              "obscurity_scale": [
+                "5"
+              ],
+              "secondary_genres": [
+                "Post-Punk Revival",
+                "Synthpop"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "Post-Punk Revival"
+              ],
+              "performance_style": "Snowden's performance style is intimate and expressive, often focusing on emotional delivery and creating an immersive atmosphere for the audience through dynamic instrumentation and vocal expression.",
+              "artists_influenced": [
+                "Local Natives",
+                "The Antlers",
+                "Phantogram"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Snowden is an American indie rock band known for their atmospheric sound and introspective lyrics.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Snowden est un groupe américain d'indie rock connu pour son univers sonore atmosphérique et ses paroles introspectives.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Snowden ist eine US-amerikanische Indie-Rock-Band, bekannt für ihren atmosphärischen Sound und nachdenkliche Texte.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Snowden es una banda estadounidense de indie rock reconocida por su sonido atmosférico y letras introspectivas.",
+                  "languages": [
+                    "es"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Reflective",
+                "Passionate",
+                "Indie-Oriented"
+              ],
+              "adjectives_for_music": [
+                "Atmospheric",
+                "Moody",
+                "Introspective",
+                "Layered",
+                "Cinematic"
+              ],
+              "lyrical_themes_description": "Snowden's lyrics often explore themes of personal introspection, emotional struggles, complex relationships, and existential questions, delivered through poetic and evocative language that resonates with listeners seeking depth and reflection.",
+              "adjectives_for_performance_style": [
+                "Intimate",
+                "Expressive",
+                "Energetic"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Indie Rock",
+                "Post-Punk Revival",
+                "Synth-Driven",
+                "Melancholic",
+                "Cinematic"
+              ]
+            },
+            "popularity": 0.9653841364711742,
+            "tags": [
+              {
+                "id": "urn:tag:music:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:radiohead",
+                "name": "Radiohead",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:new_order",
+                "name": "New Order",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:layered",
+                "name": "Layered",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:synthpop",
+                "name": "Synthpop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:post_punk",
+                "name": "Post Punk",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:artist:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:synth_driven",
+                "name": "Synth-Driven",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:5",
+                "name": "5",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:expressive",
+                "name": "Expressive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:existentialism",
+                "name": "Existentialism",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:cinematic",
+                "name": "Cinematic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:joy_division",
+                "name": "Joy Division",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_struggle",
+                "name": "Emotional Struggle",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:synthesizer",
+                "name": "Synthesizer",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_punk_revival",
+                "name": "Post-Punk Revival",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:moody",
+                "name": "Moody",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:reflective",
+                "name": "Reflective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass_guitar",
+                "name": "Bass Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_smiths",
+                "name": "The Smiths",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melancholic",
+                "name": "Melancholic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie_oriented",
+                "name": "Indie-Oriented",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:moody",
+                "name": "Moody",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:layered",
+                "name": "Layered",
+                "type": "urn:tag:music:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9732158929267377,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Snowden",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "snowden",
+                  "listeners": 99980,
+                  "scrobbles": 1352872
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "1OzIcyO8c9wo8gG6wtxhib",
+                  "verified": true,
+                  "followers": 133,
+                  "monthly_listeners": 134
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "musicbysnowden"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q7548563"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "friendly_neighborhood_rapper"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "9b49456e-839f-4118-a4b4-55170a2a8e1f",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Mac DeMarco",
+            "entity_id": "B58E846A-D1F1-4C6A-AFA7-9230F74CAEE0",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/B58E846A-D1F1-4C6A-AFA7-9230F74CAEE0-420x-auto.jpg"
+              },
+              "vocals": "Laid-back, conversational tenor with a slightly nasal, intimate timbre; often breathy and relaxed, favoring melodic hooks and understated delivery rather than aggressive projection.",
+              "aliases": [
+                "Mac DeMarco"
+              ],
+              "members": [],
+              "is_group": false,
+              "biography": "Born in Duncan in the Cowichan Valley of Vancouver Island, Mac DeMarco emerged in the late 2000s/early 2010s as a distinctive voice in indie music. He began releasing recordings on independent labels and gained wider attention with catalogues issued through Captured Tracks. Across albums like 2 (early breakthrough), Salad Days and This Old Dog, DeMarco developed a signature sound marked by jangly, chorus-drenched guitars, warm tape-like production and conversational, confessional lyrics. A prolific multi-instrumentalist and home-recording practitioner, he tours with a loose, charismatic band and has influenced a generation of bedroom-pop and lo-fi artists.",
+              "known_for": "Laid-back persona, jangly lo-fi production, DIY home-recorded albums, and a conversational, humorous live presence.",
+              "start_year": 2008,
+              "voice_type": [
+                null
+              ],
+              "description": "Mac DeMarco is a Canadian singer-songwriter and multi-instrumentalist noted for his relaxed vocal delivery, DIY home-recording approach, and nostalgic, analog-tinged sound. Rising through early independent releases and breakout record label albums, he blends jangly guitars, warm lo-fi production, and wry lyrical observations into melodic songs that bridge indie rock, slacker-pop and bedroom pop. He is widely recognized for albums such as 2, Salad Days, This Old Dog and Here Comes the Cowboy, and for a stage persona that mixes casual humor with intimate performances.",
+              "instruments": [
+                "Guitar",
+                "Bass",
+                "Keyboards",
+                "Synthesizer",
+                "Drums",
+                "Vocals"
+              ],
+              "collaborators": [
+                "Peter Sagar",
+                "Homeshake",
+                "Kurt Vile",
+                "Unknown Mortal Orchestra",
+                "Jon Lent"
+              ],
+              "date_of_birth": "1990-04-30",
+              "influenced_by": [
+                "Neil Young",
+                "The Beatles",
+                "Paul McCartney",
+                "Jonathan Richman",
+                "Patterson Hood"
+              ],
+              "notable_songs": [
+                "Chamber Of Reflection",
+                "My Kind Of Woman",
+                "Ode To Viceroy",
+                "Salad Days",
+                "Freaking Out The Neighborhood",
+                "Another One",
+                "Let Her Go",
+                "On The Level"
+              ],
+              "lyrical_themes": [
+                "Love",
+                "Heartbreak",
+                "Nostalgia",
+                "Everyday Life",
+                "Introspection",
+                "Youth",
+                "Isolation",
+                "Humor"
+              ],
+              "place_of_birth": "Duncan, Cowichan Valley Regional",
+              "primary_genres": [
+                "Indie Rock",
+                "Lo-Fi",
+                "Indie Pop",
+                "Jangle Pop",
+                "Singer-Songwriter"
+              ],
+              "characteristics": [
+                "Laid-Back",
+                "Wry",
+                "Lo-Fi",
+                "Melodic",
+                "Quirky",
+                "Intimate",
+                "Nostalgic",
+                "DIY",
+                "Analog-Obsessed"
+              ],
+              "cultural_impact": "Mac DeMarco helped popularize a modern slacker/lo-fi aesthetic that influenced numerous bedroom-pop and indie artists; his DIY recording methods and casual public persona shifted expectations for authenticity and informality in indie rock, creating a stylistic blueprint for artists favoring warm analog textures and conversational songwriting.",
+              "obscurity_scale": [
+                "3"
+              ],
+              "complexity_scale": [
+                "4"
+              ],
+              "secondary_genres": [
+                "Post-Punk",
+                "Experimental",
+                "Psychedelic Pop",
+                "Dream Pop",
+                "Bedroom Pop",
+                "Slacker Rock"
+              ],
+              "associated_brands": [
+                "Captured Tracks",
+                "Royal Mountain Records"
+              ],
+              "genres_influenced": [
+                "Lo-Fi",
+                "Bedroom Pop",
+                "Indie Rock",
+                "Slacker Rock",
+                "Jangle Pop"
+              ],
+              "performance_style": "Casual and conversational onstage, mixing deadpan humor with stripped-down or slightly expanded arrangements; performances feel intimate and unpolished by design, often featuring extended banter and relaxed pacing.",
+              "artists_influenced": [
+                "Clairo",
+                "Rex Orange County",
+                "Cuco",
+                "Boy Pablo",
+                "Beabadoobee"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Chanteur-compositeur-interprète canadien et multi-instrumentiste, connu pour son style détendu, ses guitares jangly et sa production lo-fi chaleureuse.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Canadian singer-songwriter and multi-instrumentalist known for his laid-back persona, jangly guitar, and warm lo-fi production.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Kanadischer Singer-Songwriter und Multiinstrumentalist, bekannt für seine entspannte Art, jangly Gitarren und warme Lo-Fi-Produktion.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Cantante y compositor canadiense y multiinstrumentista conocido por su estilo relajado, guitarras jangly y producción lo-fi cálida.",
+                  "languages": [
+                    "es"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Laid-Back",
+                "Loyal",
+                "Casual",
+                "Young",
+                "Indie-Minded"
+              ],
+              "adjectives_for_music": [
+                "Laid-Back",
+                "Lo-Fi",
+                "Melodic",
+                "Warm",
+                "Jangly",
+                "Nostalgic",
+                "Dreamy"
+              ],
+              "lyrical_themes_description": "DeMarco's lyrics often focus on intimate, everyday moments, relationships and the quiet anxieties of young adulthood, mixing wistful nostalgia with wry humor and plainspoken introspection.",
+              "adjectives_for_performance_style": [
+                "Loose",
+                "Humorous",
+                "Intimate",
+                "Casual",
+                "Improvisational"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Slacker-Indie",
+                "Lo-Fi Bedroom Pop",
+                "Jangly Power-Pop",
+                "Soft Psychedelic Folk-Rock",
+                "Warm Analog Pop"
+              ]
+            },
+            "popularity": 0.9980863627129085,
+            "tags": [
+              {
+                "id": "urn:tag:theme:qloo:love",
+                "name": "Love",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:voice_type:qloo:baritone",
+                "name": "Baritone",
+                "type": "urn:tag:voice_type:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:lo_fi",
+                "name": "Lo Fi",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:bedroom_pop",
+                "name": "Bedroom Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:3",
+                "name": "3",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_pop",
+                "name": "Indie Pop",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:relaxed",
+                "name": "Relaxed",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:ween",
+                "name": "Ween",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:john_lennon",
+                "name": "John Lennon",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:nostalgia",
+                "name": "Nostalgia",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:relaxed",
+                "name": "Relaxed",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:jangle_pop",
+                "name": "Jangle Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:everyday_life",
+                "name": "Everyday Life",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:youth",
+                "name": "Youth",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:psychedelic_soft_rock",
+                "name": "Psychedelic Soft Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:diy_indie",
+                "name": "DIY Indie",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:neil_young",
+                "name": "Neil Young",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:bedroom_pop",
+                "name": "Bedroom Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboard",
+                "name": "Keyboard",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:post_punk",
+                "name": "Post Punk",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:audience:qloo:laid_back",
+                "name": "Laid Back",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:youthful",
+                "name": "Youthful",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:diy",
+                "name": "DIY",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:lo_fi",
+                "name": "Lo - Fi",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:qloo:jangle_pop",
+                "name": "Jangle Pop",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:laid_back",
+                "name": "Laid Back",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:casual",
+                "name": "Casual",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:music:qloo:lo_fi",
+                "name": "Lo-Fi",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:soft_rock",
+                "name": "Soft Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:lo_fi_indie_rock",
+                "name": "Lo-Fi Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass_guitar",
+                "name": "Bass Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychedelic_rock",
+                "name": "Psychedelic Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:lo_fi",
+                "name": "Lo Fi",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:bedroom_pop",
+                "name": "Bedroom Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:audience:qloo:laid_back",
+                "name": "Laid-Back",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:young",
+                "name": "Young",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie_minded",
+                "name": "Indie-Minded",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:laid_back",
+                "name": "Laid-Back",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:warm",
+                "name": "Warm",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:jangly",
+                "name": "Jangly",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:dreamy",
+                "name": "Dreamy",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:loose",
+                "name": "Loose",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:humorous",
+                "name": "Humorous",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:improvisational",
+                "name": "Improvisational",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:laid_back",
+                "name": "Laid-Back",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:wry",
+                "name": "Wry",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:lo_fi",
+                "name": "Lo-Fi",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:quirky",
+                "name": "Quirky",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:nostalgic",
+                "name": "Nostalgic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:analog_obsessed",
+                "name": "Analog-Obsessed",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:complexity_scale:qloo:4",
+                "name": "4",
+                "type": "urn:tag:complexity_scale:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:slacker_indie",
+                "name": "Slacker-Indie",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:lo_fi_bedroom_pop",
+                "name": "Lo-Fi Bedroom Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:jangly_power_pop",
+                "name": "Jangly Power-Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:soft_psychedelic_folk_rock",
+                "name": "Soft Psychedelic Folk-Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:warm_analog_pop",
+                "name": "Warm Analog Pop",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:lo_fi",
+                "name": "Lo-Fi",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:slacker_rock",
+                "name": "Slacker Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:jangle_pop",
+                "name": "Jangle Pop",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:paul_mccartney",
+                "name": "Paul McCartney",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:jonathan_richman",
+                "name": "Jonathan Richman",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:patterson_hood",
+                "name": "Patterson Hood",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboards",
+                "name": "Keyboards",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:synthesizer",
+                "name": "Synthesizer",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:vocals",
+                "name": "Vocals",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:heartbreak",
+                "name": "Heartbreak",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:isolation",
+                "name": "Isolation",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:humor",
+                "name": "Humor",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:lo_fi",
+                "name": "Lo-Fi",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:singer_songwriter",
+                "name": "Singer-Songwriter",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:post_punk",
+                "name": "Post-Punk",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:psychedelic_pop",
+                "name": "Psychedelic Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:dream_pop",
+                "name": "Dream Pop",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:slacker_rock",
+                "name": "Slacker Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "type": "urn:tag:voice_type:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9729767206638507,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Mac DeMarco",
+            "external": {
+              "imdb": [
+                {
+                  "id": "nm6762590"
+                }
+              ],
+              "lastfm": [
+                {
+                  "id": "mac%20demarco",
+                  "listeners": 2624440,
+                  "scrobbles": 249750421
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "3Sz7ZnJQBIHsXLUSo0OQtM",
+                  "verified": true,
+                  "followers": 1705363,
+                  "last_release": 2020,
+                  "first_release": 2012,
+                  "monthly_listeners": 5187842
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "msldemarco"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "macdemarco"
+                },
+                {
+                  "id": "macdemarcoband"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q14517"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "macdemarco"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "f2492c31-54a8-4347-a1fc-f81f72873bbf",
+                  "artist_type": "Person"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Apostle of Hustle",
+            "entity_id": "0E71DECA-B1CC-4BAA-A18C-529AED32C4E1",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/0E71DECA-B1CC-4BAA-A18C-529AED32C4E1-420x-auto.jpg"
+              },
+              "aliases": [],
+              "members": [
+                "Andrew Whiteman",
+                "Julian Brown",
+                "Dean Stone"
+              ],
+              "is_group": true,
+              "biography": "Apostle of Hustle was formed in the early 2000s by Andrew Whiteman, a Toronto-based musician who sought to explore a fusion of indie rock with Latin and world music influences. The band includes members Julian Brown and Dean Stone, and they have released several albums that showcase their blend of folk, rock, and global rhythms. Their work is noted for its intricate guitar work and incorporation of diverse musical traditions, reflecting Whiteman's interest in cross-cultural sounds and storytelling.",
+              "known_for": "Blending indie rock with folk and world music influences, creating a unique and eclectic sound.",
+              "start_year": 2001,
+              "description": "Apostle of Hustle is a Canadian indie rock band formed by Andrew Whiteman, known for incorporating elements of folk, Latin, and world music into their sound. The band features a mix of indie rock with diverse cultural influences, creating a unique and eclectic musical style. Their music often includes acoustic instrumentation and rhythmic complexity inspired by global sounds.",
+              "instruments": [
+                "Guitar",
+                "Bass",
+                "Drums",
+                "Percussion"
+              ],
+              "collaborators": [
+                "Broken Social Scene"
+              ],
+              "influenced_by": [
+                "Latin Music",
+                "Folk Music",
+                "Indie Rock"
+              ],
+              "notable_songs": [
+                "My Sword Hand's Anger",
+                "National Anthem Of Nowhere",
+                "Sleepwalking Ballad"
+              ],
+              "lyrical_themes": [
+                "Identity",
+                "Travel",
+                "Cultural Fusion",
+                "Personal Struggle"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Alternative Rock",
+                "Folk Rock"
+              ],
+              "characteristics": [
+                "Eclectic",
+                "Innovative",
+                "Melodic",
+                "Rhythmic",
+                "Cultural"
+              ],
+              "cultural_impact": "Apostle of Hustle contributed to the Canadian indie music scene by introducing a rich blend of world music elements into indie rock, influencing other artists to explore cross-cultural sounds and expanding the diversity of the genre.",
+              "obscurity_scale": [
+                "6"
+              ],
+              "secondary_genres": [
+                "World Music",
+                "Latin Influences"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "World Music Fusion"
+              ],
+              "performance_style": "Their performance style is energetic yet intimate, often featuring dynamic interplay between acoustic and electric instruments, emphasizing rhythmic complexity and cultural textures.",
+              "artists_influenced": [
+                "The Barr Brothers",
+                "Timber Timbre"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Apostle of Hustle ist eine kanadische Indie-Rock-Band, die für ihren Mix aus Folk- und World-Music-Einflüssen bekannt ist.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Apostle of Hustle is a Canadian indie rock band known for blending folk and world music influences.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Apostle of Hustle es una banda canadiense de indie rock reconocida por fusionar influencias folk y de música world.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Apostle of Hustle est un groupe canadien d'indie rock, célèbre pour mélanger des influences folk et musiques du monde.",
+                  "languages": [
+                    "fr"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Eclectic",
+                "Open-Minded",
+                "Adventurous",
+                "Indie",
+                "Culturally Curious"
+              ],
+              "adjectives_for_music": [
+                "Eclectic",
+                "Melodic",
+                "Rhythmic",
+                "Innovative",
+                "Atmospheric"
+              ],
+              "lyrical_themes_description": "Their lyrics often explore themes of personal identity, cultural fusion, travel experiences, and the struggles of everyday life, reflecting a blend of introspection and worldly perspectives.",
+              "adjectives_for_performance_style": [
+                "Energetic",
+                "Intimate",
+                "Dynamic"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Indie Folk Fusion",
+                "Latin-Infused Rock",
+                "Worldbeat Indie",
+                "Acoustic-Driven Rock",
+                "Rhythmic Experimental"
+              ]
+            },
+            "popularity": 0.9793956314020015,
+            "tags": [
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:rhythmic_experimental",
+                "name": "Rhythmic Experimental",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:rhythmic",
+                "name": "Rhythmic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:latin_infused_rock",
+                "name": "Latin-Infused Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:open_minded",
+                "name": "Open-Minded",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:intimate",
+                "name": "Intimate",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:travel",
+                "name": "Travel",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:folk_music",
+                "name": "Folk Music",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:cultural",
+                "name": "Cultural",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:personal_struggle",
+                "name": "Personal Struggle",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:6",
+                "name": "6",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:latin_music",
+                "name": "Latin Music",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:rhythmic",
+                "name": "Rhythmic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_folk_fusion",
+                "name": "Indie Folk Fusion",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:folk_rock",
+                "name": "Folk Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:eclectic",
+                "name": "Eclectic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:adventurous",
+                "name": "Adventurous",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:canadian",
+                "name": "Canadian",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:percussion",
+                "name": "Percussion",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:culturally_curious",
+                "name": "Culturally Curious",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:eclectic",
+                "name": "Eclectic",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:eclectic",
+                "name": "Eclectic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:identity",
+                "name": "Identity",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:innovative",
+                "name": "Innovative",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:world_music",
+                "name": "World Music",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:experimental",
+                "name": "Experimental",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:cultural_fusion",
+                "name": "Cultural Fusion",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_worldbeat",
+                "name": "Indie Worldbeat",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:acoustic_driven_rock",
+                "name": "Acoustic-Driven Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:latin_influences",
+                "name": "Latin Influences",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:world_fusion",
+                "name": "World Fusion",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:innovative",
+                "name": "Innovative",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:worldbeat_indie",
+                "name": "Worldbeat Indie",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:world_music_fusion",
+                "name": "World Music Fusion",
+                "type": "urn:tag:influence:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9729673581781637,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Apostle of Hustle",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "apostle%20of%20hustle",
+                  "listeners": 171715,
+                  "scrobbles": 2078642
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "27KzB8TzyDHIpnvCDq2NzP",
+                  "verified": false,
+                  "followers": 3828,
+                  "monthly_listeners": 2043
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "eatsdarkness"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "apostleofhustle"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q619954"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "28b2fb52-a83a-40ec-8617-6436e26eb3fd",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Pompeii",
+            "entity_id": "746FD484-C6DF-42CC-A8DC-A3AB7BE9BF75",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/746FD484-C6DF-42CC-A8DC-A3AB7BE9BF75-420x-auto.jpg"
+              },
+              "vocals": "Vocals are emotive and atmospheric, often blending with the instrumental layers to enhance the mood and texture of the music.",
+              "aliases": [],
+              "members": [],
+              "is_group": true,
+              "biography": "Pompeii formed as an indie rock band with a focus on creating atmospheric and emotionally resonant music. Their sound incorporates elements of alternative rock and post-rock, featuring textured guitar work and expansive soundscapes. Over time, they have developed a dedicated following for their evocative performances and thoughtful songwriting.",
+              "known_for": "Pompeii is known for their atmospheric soundscapes, emotive vocals, and dynamic indie rock compositions.",
+              "start_year": 2008,
+              "description": "Pompeii is an indie rock band that blends elements of alternative rock, post-rock, and ambient music to create a rich, atmospheric sound. Their music is characterized by emotive vocals, layered instrumentation, and dynamic arrangements that evoke a sense of introspection and emotional depth.",
+              "instruments": [
+                "Guitar",
+                "Bass",
+                "Drums",
+                "Synthesizer"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "Radiohead",
+                "Sigur Rós",
+                "Explosions In The Sky"
+              ],
+              "notable_songs": [
+                "Where Everything Ends",
+                "Nothing Gold Can Stay",
+                "The Sound"
+              ],
+              "lyrical_themes": [
+                "Introspection",
+                "Emotional Struggle",
+                "Nature",
+                "Existentialism"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Alternative Rock"
+              ],
+              "characteristics": [
+                "Atmospheric",
+                "Emotive",
+                "Layered",
+                "Dynamic",
+                "Introspective"
+              ],
+              "cultural_impact": "Pompeii has contributed to the indie and post-rock scenes by blending emotive storytelling with atmospheric soundscapes, influencing emerging bands in these genres.",
+              "obscurity_scale": [
+                "5"
+              ],
+              "secondary_genres": [
+                "Post-Rock",
+                "Ambient"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "Post-Rock",
+                "Ambient"
+              ],
+              "performance_style": "Pompeii's performance style is immersive and expressive, often creating a powerful emotional connection with the audience through dynamic live shows.",
+              "artists_influenced": [
+                "Caspian",
+                "This Will Destroy You",
+                "The American Dollar"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "Pompeii est un groupe d'indie rock connu pour sa musique atmosphérique et émotive.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "Pompeii ist eine Indie-Rock-Band, bekannt für ihren atmosphärischen und gefühlvollen Sound.",
+                  "languages": [
+                    "de"
+                  ]
+                },
+                {
+                  "value": "Pompeii es una banda de indie rock reconocida por su sonido atmosférico y emotivo.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Pompeii is an indie rock band known for their atmospheric and emotive sound.",
+                  "languages": [
+                    "en"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Introspective",
+                "Passionate",
+                "Loyal"
+              ],
+              "adjectives_for_music": [
+                "Atmospheric",
+                "Emotive",
+                "Layered",
+                "Dynamic",
+                "Melodic"
+              ],
+              "lyrical_themes_description": "Pompeii's lyrics often explore themes of introspection, emotional struggle, and existential questions, frequently using nature imagery to convey deeper meanings.",
+              "adjectives_for_performance_style": [
+                "Expressive",
+                "Immersive",
+                "Energetic"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Post-Rock",
+                "Ambient",
+                "Indie Rock",
+                "Alternative Rock",
+                "Emotive"
+              ]
+            },
+            "popularity": 0.934244932465643,
+            "tags": [
+              {
+                "id": "urn:tag:artist:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:expressive",
+                "name": "Expressive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:artist:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:nature",
+                "name": "Nature",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:emo",
+                "name": "Emo",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:synthesizer",
+                "name": "Synthesizer",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:radiohead",
+                "name": "Radiohead",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:introspection",
+                "name": "Introspection",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:atmospheric",
+                "name": "Atmospheric",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_struggle",
+                "name": "Emotional Struggle",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:5",
+                "name": "5",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:sigur_ros",
+                "name": "Sigur Ros",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:introspective",
+                "name": "Introspective",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:explosions_in_the_sky",
+                "name": "Explosions In The Sky",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:immersive",
+                "name": "Immersive",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:layered",
+                "name": "Layered",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:existentialism",
+                "name": "Existentialism",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:ambient",
+                "name": "Ambient",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_rock",
+                "name": "Post Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:emotive",
+                "name": "Emotive",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:layered",
+                "name": "Layered",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:sigur_ros",
+                "name": "Sigur Rós",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:post_rock",
+                "name": "Post-Rock",
+                "type": "urn:tag:subgenre:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9722725621173592,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "Pompeii",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "pompeii",
+                  "listeners": 52268,
+                  "scrobbles": 593329
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "1pwSC5U66UUhDxbVAXEDM0",
+                  "verified": true,
+                  "followers": 11,
+                  "last_release": 2020,
+                  "first_release": 2020,
+                  "monthly_listeners": 7
+                },
+                {
+                  "id": "6cwIpYG7qSjxFj4GC8CUBu",
+                  "verified": true,
+                  "followers": 10,
+                  "last_release": 2020,
+                  "first_release": 2020,
+                  "monthly_listeners": 14
+                },
+                {
+                  "id": "2A21MlA4Y4Aq0W9CDhpnEF",
+                  "verified": true,
+                  "followers": 7093,
+                  "monthly_listeners": 2149
+                },
+                {
+                  "id": "5R5IeKTax8nIELW42VCAoo",
+                  "verified": true,
+                  "followers": 7,
+                  "last_release": 2020,
+                  "first_release": 2020,
+                  "monthly_listeners": 30
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "pompeii"
+                },
+                {
+                  "id": "mynameispompeii"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "pompeiimusic"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q7227456"
+                }
+              ],
+              "instagram": [
+                {
+                  "id": "pompeiiband"
+                },
+                {
+                  "id": "mynameispompeii"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "1a285280-a309-4a69-82a0-226b3e67367c",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Films",
+            "entity_id": "311C6B55-2BA4-4017-8591-819C36CF7FCD",
+            "type": "urn:entity",
+            "subtype": "urn:entity:artist",
+            "properties": {
+              "image": {
+                "url": "https://images.qloo.com/i/311C6B55-2BA4-4017-8591-819C36CF7FCD-420x-auto.jpg"
+              },
+              "aliases": [],
+              "members": [],
+              "end_year": 2010,
+              "is_group": true,
+              "biography": "The Films formed in Charleston, South Carolina, and quickly developed a reputation for their engaging indie rock sound. Their music combined elements of alternative and pop rock, characterized by strong melodies and energetic performances. Over their active years, they released several albums and toured extensively, building a dedicated fanbase before eventually disbanding.",
+              "known_for": "Known for their melodic indie rock sound and energetic live performances.",
+              "start_year": 2006,
+              "description": "The Films were an American indie rock band formed in Charleston, South Carolina. They gained recognition for their melodic, energetic style blending indie and alternative rock with pop influences. The band was active primarily in the late 2000s and early 2010s, releasing albums that showcased their catchy hooks and dynamic arrangements.",
+              "instruments": [
+                "Guitar",
+                "Bass",
+                "Drums",
+                "Keyboard"
+              ],
+              "collaborators": [],
+              "influenced_by": [
+                "The Beatles",
+                "R.E.M.",
+                "The Pixies"
+              ],
+              "notable_songs": [
+                "Everybody's Got a Secret",
+                "The Cover Up",
+                "The Films"
+              ],
+              "lyrical_themes": [
+                "Relationships",
+                "Self-Discovery",
+                "Emotional Struggles"
+              ],
+              "primary_genres": [
+                "Indie Rock",
+                "Alternative Rock"
+              ],
+              "characteristics": [
+                "Melodic",
+                "Energetic",
+                "Catchy",
+                "Dynamic",
+                "Indie"
+              ],
+              "cultural_impact": "The Films contributed to the indie rock scene of the late 2000s, influencing emerging bands with their melodic approach and energetic performances, though they remained more of a cult favorite than mainstream stars.",
+              "obscurity_scale": [
+                "6"
+              ],
+              "secondary_genres": [
+                "Pop Rock"
+              ],
+              "associated_brands": [],
+              "genres_influenced": [
+                "Indie Rock",
+                "Alternative Rock"
+              ],
+              "performance_style": "The Films were known for their energetic and engaging live performances, often connecting well with their audience through dynamic stage presence.",
+              "artists_influenced": [
+                "Local indie bands in Charleston and surrounding areas"
+              ],
+              "short_descriptions": [
+                {
+                  "value": "An American indie rock band known for their melodic and energetic sound.",
+                  "languages": [
+                    "en"
+                  ]
+                },
+                {
+                  "value": "Banda estadounidense de indie rock reconocida por su sonido melódico y enérgico.",
+                  "languages": [
+                    "es"
+                  ]
+                },
+                {
+                  "value": "Groupe américain d'indie rock connu pour sa musique mélodique et énergique.",
+                  "languages": [
+                    "fr"
+                  ]
+                },
+                {
+                  "value": "US-Indie-Rock-Band, bekannt für ihren melodischen und energiegeladenen Sound.",
+                  "languages": [
+                    "de"
+                  ]
+                }
+              ],
+              "adjectives_for_fans": [
+                "Dedicated",
+                "Passionate",
+                "Indie",
+                "Loyal"
+              ],
+              "adjectives_for_music": [
+                "Melodic",
+                "Energetic",
+                "Catchy",
+                "Dynamic",
+                "Indie"
+              ],
+              "lyrical_themes_description": "Their lyrics often explore themes of personal relationships, self-discovery, and emotional challenges, reflecting introspective and relatable storytelling.",
+              "adjectives_for_performance_style": [
+                "Energetic",
+                "Engaging",
+                "Dynamic"
+              ],
+              "creative_and_specific_adjectives_for_music": [
+                "Indie Rock",
+                "Alternative Rock",
+                "Pop Rock",
+                "Melodic Indie",
+                "Energetic Rock"
+              ]
+            },
+            "popularity": 0.970984146956858,
+            "tags": [
+              {
+                "id": "urn:tag:genre:music:rock",
+                "name": "Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:influence:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:influence:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:catchy",
+                "name": "Catchy",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:subgenre:qloo:pop_rock",
+                "name": "Pop Rock",
+                "type": "urn:tag:subgenre:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:pop_rock",
+                "name": "Pop Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:melodic_indie",
+                "name": "Melodic Indie",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:emotional_struggles",
+                "name": "Emotional Struggles",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:energetic_rock",
+                "name": "Energetic Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:bass",
+                "name": "Bass",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:engaging",
+                "name": "Engaging",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_pixies",
+                "name": "The Pixies",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:indie",
+                "name": "Indie",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:theme:qloo:self_discovery",
+                "name": "Self Discovery",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:passionate",
+                "name": "Passionate",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:american",
+                "name": "American",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:artist:qloo:melodic",
+                "name": "Melodic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:loyal",
+                "name": "Loyal",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:drums",
+                "name": "Drums",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:guitar",
+                "name": "Guitar",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:catchy",
+                "name": "Catchy",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:r_e_m",
+                "name": "R.E.M.",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:genre:music:alternative_rock",
+                "name": "Alternative Rock",
+                "type": "urn:tag:genre:music"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:the_beatles",
+                "name": "The Beatles",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:artist:qloo:indie",
+                "name": "Indie",
+                "type": "urn:tag:artist:qloo"
+              },
+              {
+                "id": "urn:tag:genre:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:genre:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:relationships",
+                "name": "Relationships",
+                "type": "urn:tag:theme:qloo"
+              },
+              {
+                "id": "urn:tag:audience:qloo:dedicated",
+                "name": "Dedicated",
+                "type": "urn:tag:audience:qloo"
+              },
+              {
+                "id": "urn:tag:instrument:qloo:keyboard",
+                "name": "Keyboard",
+                "type": "urn:tag:instrument:qloo"
+              },
+              {
+                "id": "urn:tag:style:qloo:indie_rock",
+                "name": "Indie Rock",
+                "type": "urn:tag:style:qloo"
+              },
+              {
+                "id": "urn:tag:obscurity:qloo:6",
+                "name": "6",
+                "type": "urn:tag:obscurity:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:energetic",
+                "name": "Energetic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:music:qloo:dynamic",
+                "name": "Dynamic",
+                "type": "urn:tag:music:qloo"
+              },
+              {
+                "id": "urn:tag:influenced_by:qloo:r_e_m_",
+                "name": "R.E.M.",
+                "type": "urn:tag:influenced_by:qloo"
+              },
+              {
+                "id": "urn:tag:theme:qloo:self_discovery",
+                "name": "Self-Discovery",
+                "type": "urn:tag:theme:qloo"
+              }
+            ],
+            "query": {
+              "affinity": 0.9717275138336305,
+              "measurements": {
+                "audience_growth": 0
+              }
+            },
+            "disambiguation": "The Films",
+            "external": {
+              "lastfm": [
+                {
+                  "id": "the%20films",
+                  "listeners": 109197,
+                  "scrobbles": 1337105
+                }
+              ],
+              "spotify": [
+                {
+                  "id": "1f6kZdkQqTTia7BfEnsYmH",
+                  "verified": false,
+                  "followers": 3290,
+                  "monthly_listeners": 13853
+                }
+              ],
+              "twitter": [
+                {
+                  "id": "thefilmsband"
+                }
+              ],
+              "facebook": [
+                {
+                  "id": "thefilmsband"
+                }
+              ],
+              "wikidata": [
+                {
+                  "id": "q7733866"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "20dab485-c58b-4ea5-98df-52730b1a6a97",
+                  "artist_type": "Group"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

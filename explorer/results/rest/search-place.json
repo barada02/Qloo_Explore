@@ -1,0 +1,4012 @@
+{
+  "request": {
+    "path": "/search",
+    "params": {
+      "query": "Tartine Bakery",
+      "types": "urn:entity:place",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 337,
+    "url": "/search?query=Tartine+Bakery&types=urn%3Aentity%3Aplace&take=5",
+    "requestId": "6abe3338-8031-44c5-b5e3-91d83ebfe641",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49849",
+      "x-month-ratelimit-reset": "2591828.63",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.39"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "Tartine Bakery",
+          "entity_id": "FBBAF1EE-BC5A-4A9C-A971-2910A2214F27",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Tartine Bakery, 600 Guerrero St San Francisco, CA 94110"
+              }
+            ],
+            "address": "600 Guerrero St San Francisco, CA 94110",
+            "business_rating": 4.5,
+            "description": "Popular Mission District bakery known for artisanal pastries, sourdough, and breakfast sandwiches in a high-demand, often-line-filled setting.",
+            "external": {
+              "tripadvisor": {
+                "id": "d360064",
+                "rating": 4.5,
+                "rating_count": 1295
+              },
+              "google_place": {
+                "id": "601f7a97f0ce6c6b",
+                "place_id": "ChIJBVY2Bxh-j4ARa2zO8Jd6H2A"
+              }
+            },
+            "geocode": {
+              "city": "San Francisco",
+              "admin1_region": "California",
+              "admin2_region": "San Francisco",
+              "country_code": "US",
+              "country": "United States",
+              "metro": "San Francisco"
+            },
+            "hours": {
+              "sunday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "monday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "friday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "closed": false,
+                  "opens": "T07:30:00",
+                  "closes": "T18:00:00"
+                }
+              ]
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/FBBAF1EE-BC5A-4A9C-A971-2910A2214F27-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "phone": "+14154872600",
+            "price_level": 1,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "http://www.tartinebakery.com/",
+            "specialty_dishes": [
+              {
+                "id": "urn:tag:specialty_dish:place:morning_bun",
+                "name": "Morning Bun",
+                "type": "urn:tag:specialty_dish:place",
+                "weight": 1
+              },
+              {
+                "id": "urn:tag:specialty_dish:place:banana_cream_tart",
+                "name": "Banana Cream Tart",
+                "type": "urn:tag:specialty_dish:place",
+                "weight": 0.9
+              },
+              {
+                "id": "urn:tag:specialty_dish:place:banana_tart",
+                "name": "Banana Tart",
+                "type": "urn:tag:specialty_dish:place",
+                "weight": 0.8
+              }
+            ],
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:bakery",
+              "name": "Bakery",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "en_gb",
+                  "value": "\"Bakery\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مخبز\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Bakeri\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"烘焙坊\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Bäckerei\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Leipomo\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านเบเกอรี่\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Fırın\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Pekáreň\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Beki\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Panificio\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងនំប៉័ង\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Maiznīca\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Pekarna\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Пекарна\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Pékség\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Pekařství\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Piekarnia\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Çörəkxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai roti\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"မုန့်တိုက်\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Toko roti\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Furë buke\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"საცხობი\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Pagariäri\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Bakkery\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"బేకరీ\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"বেকারি\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"बेकरी\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Tiệm bánh\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Наубайхана\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"面包店\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Bakkerij\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kepykla\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Forn de pa\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"מאפייה\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Brutărie\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"பேக்கரி\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານຂາຍເຂົ້າຈີ່\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Panaderya\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Αρτοποιείο\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Okindegia\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"ベーカリー\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"베이커리\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.9982385504852901,
+          "disambiguation": "600 Guerrero St San Francisco, CA 94110",
+          "location": {
+            "lat": 37.761434699999995,
+            "lon": -122.42408209999999
+          },
+          "tags": [
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:decor:qloo:casual",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:casual"
+            },
+            {
+              "name": "Bread pudding",
+              "tag_id": "urn:tag:menu_highlight:qloo:bread_pudding",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:bread_pudding"
+            },
+            {
+              "name": "Free street parking",
+              "tag_id": "urn:tag:parking:place:free_street_parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:free_street_parking"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Mission district",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:mission_district",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:mission_district"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Tourists",
+              "tag_id": "urn:tag:customer_identity:qloo:tourists",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:tourists"
+            },
+            {
+              "name": "Danish style rye",
+              "tag_id": "urn:tag:menu_highlight:qloo:danish_style_rye",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:danish_style_rye"
+            },
+            {
+              "name": "Sourdough culture",
+              "tag_id": "urn:tag:interests:qloo:sourdough_culture",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:sourdough_culture"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:category:place:restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:restaurant"
+            },
+            {
+              "name": "Avocado tartine",
+              "tag_id": "urn:tag:menu_highlight:qloo:avocado_tartine",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:avocado_tartine"
+            },
+            {
+              "name": "Street view",
+              "tag_id": "urn:tag:view:qloo:street_view",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:street_view"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Groups of friends",
+              "tag_id": "urn:tag:customer_identity:qloo:groups_of_friends",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:groups_of_friends"
+            },
+            {
+              "name": "Banana cream tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:banana_cream_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:banana_cream_tart"
+            },
+            {
+              "name": "Destination",
+              "tag_id": "urn:tag:visit_intent:qloo:destination",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:destination"
+            },
+            {
+              "name": "Street corner",
+              "tag_id": "urn:tag:setting:qloo:street_corner",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:street_corner"
+            },
+            {
+              "name": "Croissant",
+              "tag_id": "urn:tag:menu_highlight:qloo:croissant",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:croissant"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "Chocolate hazelnut tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:chocolate_hazelnut_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:chocolate_hazelnut_tart"
+            },
+            {
+              "name": "Bakery shopping",
+              "tag_id": "urn:tag:activity_type:qloo:bakery_shopping",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:bakery_shopping"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Pickup",
+              "tag_id": "urn:tag:service_type:qloo:pickup",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:pickup"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:genre:place:restaurant:bakery",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:bakery"
+            },
+            {
+              "name": "Paid street parking",
+              "tag_id": "urn:tag:parking:place:paid_street_parking",
+              "type": "urn:tag:parking:place",
+              "value": "urn:tag:parking:place:paid_street_parking"
+            },
+            {
+              "name": "Lunch restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant:lunch",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:lunch"
+            },
+            {
+              "name": "Self service water",
+              "tag_id": "urn:tag:amenity:qloo:self_service_water",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:self_service_water"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Boutique",
+              "tag_id": "urn:tag:decor:qloo:boutique",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:boutique"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Morning bun",
+              "tag_id": "urn:tag:specialty_dish:place:morning_bun",
+              "type": "urn:tag:specialty_dish:place",
+              "value": "urn:tag:specialty_dish:place:morning_bun"
+            },
+            {
+              "name": "Onsite services",
+              "tag_id": "urn:tag:service_options:place:onsite_services",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:onsite_services"
+            },
+            {
+              "name": "Charming",
+              "tag_id": "urn:tag:ambience:qloo:charming",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:charming"
+            },
+            {
+              "name": "Country sourdough",
+              "tag_id": "urn:tag:menu_highlight:qloo:country_sourdough",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:country_sourdough"
+            },
+            {
+              "name": "Coconut cream tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:coconut_cream_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:coconut_cream_tart"
+            },
+            {
+              "name": "Almond croissant",
+              "tag_id": "urn:tag:menu_highlight:qloo:almond_croissant",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:almond_croissant"
+            },
+            {
+              "name": "Rustic",
+              "tag_id": "urn:tag:decor:qloo:rustic",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:rustic"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_type:qloo:outdoor_seating",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:outdoor_seating"
+            },
+            {
+              "name": "Culinary tourism",
+              "tag_id": "urn:tag:interests:qloo:culinary_tourism",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:culinary_tourism"
+            },
+            {
+              "name": "Seafood",
+              "tag_id": "urn:tag:cuisine:qloo:seafood",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:seafood"
+            },
+            {
+              "name": "Hectic",
+              "tag_id": "urn:tag:ambience:qloo:hectic",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:hectic"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Vegetarian",
+              "tag_id": "urn:tag:dietary_option:qloo:vegetarian",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegetarian"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Banana tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:banana_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:banana_tart"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_type:qloo:dine_in",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:dine_in"
+            },
+            {
+              "name": "Loud",
+              "tag_id": "urn:tag:noise_level:qloo:loud",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:loud"
+            },
+            {
+              "name": "35 44",
+              "tag_id": "urn:tag:age_range:qloo:35_44",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:35_44"
+            },
+            {
+              "name": "Morning bun",
+              "tag_id": "urn:tag:menu_highlight:qloo:morning_bun",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:morning_bun"
+            },
+            {
+              "name": "Traditional",
+              "tag_id": "urn:tag:culinary_style:qloo:traditional",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:traditional"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "Mask required",
+              "tag_id": "urn:tag:not_for_display:place:mask_required",
+              "type": "urn:tag:not_for_display:place",
+              "value": "urn:tag:not_for_display:place:mask_required"
+            },
+            {
+              "name": "French pastry",
+              "tag_id": "urn:tag:interests:qloo:french_pastry",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:french_pastry"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Hot pressed sandwiches",
+              "tag_id": "urn:tag:menu_highlight:qloo:hot_pressed_sandwiches",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:hot_pressed_sandwiches"
+            },
+            {
+              "name": "French",
+              "tag_id": "urn:tag:cuisine:qloo:french",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:french"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:cuisine:qloo:artisanal",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:artisanal"
+            },
+            {
+              "name": "American",
+              "tag_id": "urn:tag:cuisine:qloo:american",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:american"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:genre:place:restaurant:breakfast",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:breakfast"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:specialty_dish:place:bakery",
+              "type": "urn:tag:specialty_dish:place",
+              "value": "urn:tag:specialty_dish:place:bakery"
+            },
+            {
+              "name": "Breakfast restaurant",
+              "tag_id": "urn:tag:category:place:breakfast_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:breakfast_restaurant"
+            },
+            {
+              "name": "Couples",
+              "tag_id": "urn:tag:customer_identity:qloo:couples",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:couples"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Foodies",
+              "tag_id": "urn:tag:customer_identity:qloo:foodies",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:foodies"
+            },
+            {
+              "name": "Lemon bar",
+              "tag_id": "urn:tag:menu_highlight:qloo:lemon_bar",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:lemon_bar"
+            },
+            {
+              "name": "Simple",
+              "tag_id": "urn:tag:decor:qloo:simple",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:simple"
+            },
+            {
+              "name": "Ham and cheese croissant",
+              "tag_id": "urn:tag:menu_highlight:qloo:ham_and_cheese_croissant",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:ham_and_cheese_croissant"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_type:qloo:delivery",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:delivery"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:culinary_style:qloo:casual",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:casual"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            },
+            {
+              "name": "Lunch restaurant",
+              "tag_id": "urn:tag:category:place:lunch_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:lunch_restaurant"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "Lively",
+              "tag_id": "urn:tag:ambience:qloo:lively",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:lively"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:category:place:bakery",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:bakery"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Vibrant",
+              "tag_id": "urn:tag:ambience:qloo:vibrant",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:vibrant"
+            },
+            {
+              "name": "Desserts",
+              "tag_id": "urn:tag:cuisine:qloo:desserts",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:desserts"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:amenity:qloo:outdoor_seating",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:outdoor_seating"
+            },
+            {
+              "name": "Comfortable",
+              "tag_id": "urn:tag:ambience:qloo:comfortable",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:comfortable"
+            },
+            {
+              "name": "$10 to $20",
+              "tag_id": "urn:tag:cost_description:place:10_to_20",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:10_to_20"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:cuisine:qloo:bakery",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:bakery"
+            },
+            {
+              "name": "Quiche",
+              "tag_id": "urn:tag:menu_highlight:qloo:quiche",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:quiche"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:culinary_style:qloo:cafe",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:cafe"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Bustling",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:bustling"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Croque monsieur",
+              "tag_id": "urn:tag:menu_highlight:qloo:croque_monsieur",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:croque_monsieur"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Young professionals",
+              "tag_id": "urn:tag:customer_identity:qloo:young_professionals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:young_professionals"
+            },
+            {
+              "name": "Wheelchair accessible entrance",
+              "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+              "type": "urn:tag:accessibility:place",
+              "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+            },
+            {
+              "name": "Artisanal baking",
+              "tag_id": "urn:tag:interests:qloo:artisanal_baking",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:artisanal_baking"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "Coconut cake",
+              "tag_id": "urn:tag:menu_highlight:qloo:coconut_cake",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:coconut_cake"
+            },
+            {
+              "name": "Chocolate rye tea cake",
+              "tag_id": "urn:tag:menu_highlight:qloo:chocolate_rye_tea_cake",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:chocolate_rye_tea_cake"
+            },
+            {
+              "name": "Dolores park",
+              "tag_id": "urn:tag:nearby_attraction:qloo:dolores_park",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:dolores_park"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            },
+            {
+              "name": "Authentic",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:authentic"
+            }
+          ]
+        },
+        {
+          "name": "Tartine Bakery Seoul Hannam",
+          "entity_id": "804D6F95-CE06-4D9A-9957-52B3C7D4C4A3",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Tartine Bakery Seoul Hannam, 22 Hannam-daero 18-gil Yongsan District, Seoul South Korea"
+              }
+            ],
+            "address": "22 Hannam-daero 18-gil Yongsan District, Seoul South Korea",
+            "business_rating": 4.1,
+            "description": "Artisan San Francisco–style bakery and café offering sourdough breads, pastries, and specialty coffee in Seoul's upscale Hannam district.",
+            "external": {
+              "tripadvisor": {
+                "id": "d15530707",
+                "rating": 4,
+                "rating_count": 10
+              },
+              "google_place": {
+                "id": "ccf10299d5370df5",
+                "place_id": "ChIJr0fz-RGifDUR9Q031ZkC8cw"
+              }
+            },
+            "geocode": {
+              "name": "Hannam-dong",
+              "city": "Seoul",
+              "admin1_region": "Seoul",
+              "admin2_region": "Yongsan",
+              "country_code": "KR",
+              "country": "South Korea"
+            },
+            "hours": {
+              "sunday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "monday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "friday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "closed": false,
+                  "opens": "T08:00:00",
+                  "closes": "T19:00:00"
+                }
+              ]
+            },
+            "image": {
+              "url": "https://images.qloo.com/i/804D6F95-CE06-4D9A-9957-52B3C7D4C4A3-420x-auto.jpg"
+            },
+            "is_closed": false,
+            "neighborhood": "Hannam-dong",
+            "phone": "+8227922423",
+            "price_level": 2,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "http://tartinebakery.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:bakery",
+              "name": "Bakery",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "en_gb",
+                  "value": "\"Bakery\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مخبز\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Bakeri\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"烘焙坊\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Bäckerei\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Leipomo\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านเบเกอรี่\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Fırın\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Pekáreň\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Beki\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Panificio\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងនំប៉័ង\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Maiznīca\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Pekarna\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Пекарна\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Pékség\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Pekařství\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Piekarnia\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Çörəkxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai roti\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"မုန့်တိုက်\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Toko roti\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Furë buke\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"საცხობი\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Pagariäri\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Bakkery\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"బేకరీ\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"বেকারি\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"बेकरी\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Tiệm bánh\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Наубайхана\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"面包店\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Bakkerij\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kepykla\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Forn de pa\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"מאפייה\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Brutărie\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"பேக்கரி\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານຂາຍເຂົ້າຈີ່\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Panaderya\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Αρτοποιείο\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Okindegia\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"ベーカリー\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"베이커리\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.6456522247865143,
+          "disambiguation": "22 Hannam-daero 18-gil Yongsan District, Seoul South Korea",
+          "location": {
+            "lat": 37.5344222,
+            "lon": 127.00846759999999
+          },
+          "tags": [
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:ambience:qloo:modern",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:modern"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "Lively",
+              "tag_id": "urn:tag:ambience:qloo:lively",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:lively"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:decor:qloo:minimalist",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:minimalist"
+            },
+            {
+              "name": "European",
+              "tag_id": "urn:tag:cuisine:qloo:european",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:european"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_type:qloo:delivery",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:delivery"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Communal seating",
+              "tag_id": "urn:tag:amenity:qloo:communal_seating",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:communal_seating"
+            },
+            {
+              "name": "Vegan",
+              "tag_id": "urn:tag:dietary_option:qloo:vegan",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegan"
+            },
+            {
+              "name": "Culinary hub",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:culinary_hub",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:culinary_hub"
+            },
+            {
+              "name": "Pickup",
+              "tag_id": "urn:tag:service_type:qloo:pickup",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:pickup"
+            },
+            {
+              "name": "Valet parking",
+              "tag_id": "urn:tag:amenity:qloo:valet_parking",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:valet_parking"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:culinary_style:qloo:casual",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:casual"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Artisanal baking",
+              "tag_id": "urn:tag:interests:qloo:artisanal_baking",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:artisanal_baking"
+            },
+            {
+              "name": "Brunching",
+              "tag_id": "urn:tag:activity_type:qloo:brunching",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:brunching"
+            },
+            {
+              "name": "Lemon meringue cake",
+              "tag_id": "urn:tag:menu_highlight:qloo:lemon_meringue_cake",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:lemon_meringue_cake"
+            },
+            {
+              "name": "Thai red curry chicken sandwich",
+              "tag_id": "urn:tag:menu_highlight:qloo:thai_red_curry_chicken_sandwich",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:thai_red_curry_chicken_sandwich"
+            },
+            {
+              "name": "Leeum museum of art",
+              "tag_id": "urn:tag:nearby_attraction:qloo:leeum_museum_of_art",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:leeum_museum_of_art"
+            },
+            {
+              "name": "Culture arts",
+              "tag_id": "urn:tag:activity_type:qloo:culture_arts",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:culture_arts"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Street view",
+              "tag_id": "urn:tag:view:qloo:street_view",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:street_view"
+            },
+            {
+              "name": "Couples",
+              "tag_id": "urn:tag:customer_identity:qloo:couples",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:couples"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Upscale",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:upscale",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:upscale"
+            },
+            {
+              "name": "Counter service",
+              "tag_id": "urn:tag:service_type:qloo:counter_service",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:counter_service"
+            },
+            {
+              "name": "Open",
+              "tag_id": "urn:tag:ambience:qloo:open",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:open"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:service_type:qloo:outdoor_seating",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:outdoor_seating"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "Open kitchen",
+              "tag_id": "urn:tag:amenity:qloo:open_kitchen",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:open_kitchen"
+            },
+            {
+              "name": "Drive thru",
+              "tag_id": "urn:tag:service_type:qloo:drive_thru",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:drive_thru"
+            },
+            {
+              "name": "Modern architecture",
+              "tag_id": "urn:tag:interests:qloo:modern_architecture",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:modern_architecture"
+            },
+            {
+              "name": "Industrial",
+              "tag_id": "urn:tag:decor:qloo:industrial",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:industrial"
+            },
+            {
+              "name": "Central",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:central"
+            },
+            {
+              "name": "₩10000 to ₩20000",
+              "tag_id": "urn:tag:cost_description:place:₩10000_to_₩20000",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:₩10000_to_₩20000"
+            },
+            {
+              "name": "Moderate",
+              "tag_id": "urn:tag:noise_level:qloo:moderate",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:moderate"
+            },
+            {
+              "name": "Culinary arts",
+              "tag_id": "urn:tag:interests:qloo:culinary_arts",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:culinary_arts"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:culinary_style:qloo:cafe",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:cafe"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Bakery hopping",
+              "tag_id": "urn:tag:activity_type:qloo:bakery_hopping",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:bakery_hopping"
+            },
+            {
+              "name": "Croissant",
+              "tag_id": "urn:tag:menu_highlight:qloo:croissant",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:croissant"
+            },
+            {
+              "name": "Clean",
+              "tag_id": "urn:tag:ambience:qloo:clean",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:clean"
+            },
+            {
+              "name": "Banana cream tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:banana_cream_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:banana_cream_tart"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_type:qloo:dine_in",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:dine_in"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Artisan bakery",
+              "tag_id": "urn:tag:cuisine:qloo:artisan_bakery",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:artisan_bakery"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "In store shopping",
+              "tag_id": "urn:tag:service_options:place:in_store_shopping",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:in_store_shopping"
+            },
+            {
+              "name": "Baguette sandwich",
+              "tag_id": "urn:tag:menu_highlight:qloo:baguette_sandwich",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:baguette_sandwich"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Destination",
+              "tag_id": "urn:tag:visit_intent:qloo:destination",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:destination"
+            },
+            {
+              "name": "Croque madame",
+              "tag_id": "urn:tag:menu_highlight:qloo:croque_madame",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:croque_madame"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Vegetarian",
+              "tag_id": "urn:tag:dietary_option:qloo:vegetarian",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegetarian"
+            },
+            {
+              "name": "Seafood",
+              "tag_id": "urn:tag:cuisine:qloo:seafood",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:seafood"
+            },
+            {
+              "name": "Gender neutral restroom",
+              "tag_id": "urn:tag:amenities:place:gender_neutral_restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:gender_neutral_restroom"
+            },
+            {
+              "name": "Special occasion",
+              "tag_id": "urn:tag:visit_intent:qloo:special_occasion",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:special_occasion"
+            },
+            {
+              "name": "Groups of friends",
+              "tag_id": "urn:tag:customer_identity:qloo:groups_of_friends",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:groups_of_friends"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_options:place:dine_in",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:dine_in"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "American",
+              "tag_id": "urn:tag:cuisine:qloo:american",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:american"
+            },
+            {
+              "name": "Sophisticated",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:sophisticated",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:sophisticated"
+            },
+            {
+              "name": "Brunch culture",
+              "tag_id": "urn:tag:interests:qloo:brunch_culture",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:brunch_culture"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Breakfast",
+              "tag_id": "urn:tag:dining_options:place:breakfast",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:breakfast"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Upscale district",
+              "tag_id": "urn:tag:setting:qloo:upscale_district",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:upscale_district"
+            },
+            {
+              "name": "Young professionals",
+              "tag_id": "urn:tag:customer_identity:qloo:young_professionals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:young_professionals"
+            },
+            {
+              "name": "Airy",
+              "tag_id": "urn:tag:ambience:qloo:airy",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:airy"
+            },
+            {
+              "name": "Contemporary",
+              "tag_id": "urn:tag:culinary_style:qloo:contemporary",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:contemporary"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:category:place:bakery",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:bakery"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "35 44",
+              "tag_id": "urn:tag:age_range:qloo:35_44",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:35_44"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Sophisticated",
+              "tag_id": "urn:tag:decor:qloo:sophisticated",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:sophisticated"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "Foodies",
+              "tag_id": "urn:tag:customer_identity:qloo:foodies",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:foodies"
+            },
+            {
+              "name": "Brioche bread pudding",
+              "tag_id": "urn:tag:menu_highlight:qloo:brioche_bread_pudding",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:brioche_bread_pudding"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:genre:place:restaurant:bakery",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:bakery"
+            },
+            {
+              "name": "Sourdough bread",
+              "tag_id": "urn:tag:menu_highlight:qloo:sourdough_bread",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:sourdough_bread"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Takeout service",
+              "tag_id": "urn:tag:amenity:qloo:takeout_service",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:takeout_service"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Clean",
+              "tag_id": "urn:tag:decor:qloo:clean",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:clean"
+            },
+            {
+              "name": "Namsan park",
+              "tag_id": "urn:tag:nearby_attraction:qloo:namsan_park",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:namsan_park"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Nfc mobile payments",
+              "tag_id": "urn:tag:payments:place:nfc_mobile_payments",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:nfc_mobile_payments"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:ambience:qloo:stylish",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:stylish"
+            },
+            {
+              "name": "Specialty non alcoholic",
+              "tag_id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:decor:qloo:modern",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:modern"
+            },
+            {
+              "name": "Delivery service",
+              "tag_id": "urn:tag:amenity:qloo:delivery_service",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:delivery_service"
+            },
+            {
+              "name": "Hip",
+              "tag_id": "urn:tag:ambience:qloo:hip",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:hip"
+            },
+            {
+              "name": "Healthy options",
+              "tag_id": "urn:tag:dietary_option:qloo:healthy_options",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:healthy_options"
+            }
+          ]
+        },
+        {
+          "name": "TARTINE Bakery & Cafe",
+          "entity_id": "75413D1A-D74F-408B-BCF5-C30547DF6070",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "TARTINE Bakery & Cafe, 4 Itaewon-ro 23-gil Yongsan District, Seoul South Korea"
+              }
+            ],
+            "address": "4 Itaewon-ro 23-gil Yongsan District, Seoul South Korea",
+            "business_rating": 3.9,
+            "description": "Artisan bakery-café in Itaewon serving pastries, breads, specialty coffee, and relaxed brunch and dessert options.",
+            "external": {
+              "google_place": {
+                "id": "b94e67fe814e2e02",
+                "place_id": "ChIJLXKKPkqifDURAi5Ogf5nTrk"
+              }
+            },
+            "geocode": {
+              "name": "Seoul",
+              "city": "Seoul",
+              "admin1_region": "Seoul",
+              "admin2_region": "Yongsan",
+              "country_code": "KR",
+              "country": "South Korea"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/75413D1A-D74F-408B-BCF5-C30547DF6070-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "Seoul",
+            "phone": "+82237853400",
+            "price_level": 2,
+            "price_range": {
+              "currency": "usd"
+            },
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:dessert_shop",
+              "name": "Dessert shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "bn",
+                  "value": "\"ডেজার্টের দোকান\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Tatlıcı\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Negozio di dolci\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"デザートショップ\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านขนมหวาน\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Toko makanan penutup\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Dessert shop\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"დესერტების მაღაზია\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Dessertbutikk\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Şirniyyat mağazası\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"இனிப்பகம்\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Obchod s dezertmi\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Magazin de deserturi\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Trgovina s sladicami\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"甜點店\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Tienda de postres\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Tienda de postres\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Tienda de postres\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Desszertbolt\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Посластичарница\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Postre-denda\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Десерт дүкені\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Продавница за десерти\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"디저트 가게\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Maiustustepood\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"मिठाई की दुकान\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Desertu veikals\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Dessertwinkel\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"డెజర్ట్ షాప్\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Prodavnica deserta\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Ζαχαροπλαστείο\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"အချိုပွဲဆိုင်\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Сладкарница\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai pencuci mulut\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Sklep z deserami\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Tindahan ng panghimagas\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la vitinda\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Desertų parduotuvė\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Jälkiruokakauppa\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Десертная\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Prodavaonica slastica\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Магазин десертів\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Konditorei\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Dessertbutik\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Dessertbutik\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Boutique de desserts\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Boutique de desserts\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Dessertladen\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"חנות קינוחים\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Loja de sobremesas\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Loja de sobremesas\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Nagereg-winkel\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Tenda de sobremesas\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Confitería\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານຂາຍຂອງຫວານ\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"متجر حلويات\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Dyqan ëmbëlsirash\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Confeitaria\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Cukrárna\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Botiga de postres\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងបង្អែម\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"甜品店\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Cửa hàng tráng miệng\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Pâtisserie\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.2390118349943037,
+          "disambiguation": "4 Itaewon-ro 23-gil Yongsan District, Seoul South Korea",
+          "location": {
+            "lat": 37.5346592,
+            "lon": 126.9927915
+          },
+          "tags": [
+            {
+              "name": "Moderate",
+              "tag_id": "urn:tag:noise_level:qloo:moderate",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:moderate"
+            },
+            {
+              "name": "Foodies",
+              "tag_id": "urn:tag:customer_identity:qloo:foodies",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:foodies"
+            },
+            {
+              "name": "Relaxing",
+              "tag_id": "urn:tag:ambience:qloo:relaxing",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:relaxing"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "Jcb",
+              "tag_id": "urn:tag:credit_card:place:jcb",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:jcb"
+            },
+            {
+              "name": "Dessert shop",
+              "tag_id": "urn:tag:genre:place:restaurant:dessert_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:dessert_shop"
+            },
+            {
+              "name": "Credit cards",
+              "tag_id": "urn:tag:payments:place:credit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:credit_cards"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Egg tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:egg_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:egg_tart"
+            },
+            {
+              "name": "China union pay",
+              "tag_id": "urn:tag:credit_card:place:china_union_pay",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:china_union_pay"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Diners club",
+              "tag_id": "urn:tag:credit_card:place:diners_club",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:diners_club"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "Urban chic",
+              "tag_id": "urn:tag:ambience:qloo:urban_chic",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:urban_chic"
+            },
+            {
+              "name": "Special occasion",
+              "tag_id": "urn:tag:visit_intent:qloo:special_occasion",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:special_occasion"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Earl grey cream pie",
+              "tag_id": "urn:tag:menu_highlight:qloo:earl_grey_cream_pie",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:earl_grey_cream_pie"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "35 44",
+              "tag_id": "urn:tag:age_range:qloo:35_44",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:35_44"
+            },
+            {
+              "name": "Dessert shop",
+              "tag_id": "urn:tag:category:place:dessert_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:dessert_shop"
+            },
+            {
+              "name": "Bakery cafe",
+              "tag_id": "urn:tag:setting:qloo:bakery_cafe",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:bakery_cafe"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Itaewon antique furniture street",
+              "tag_id": "urn:tag:nearby_attraction:qloo:itaewon_antique_furniture_street",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:itaewon_antique_furniture_street"
+            },
+            {
+              "name": "Simple",
+              "tag_id": "urn:tag:decor:qloo:simple",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:simple"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_type:qloo:delivery",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:delivery"
+            },
+            {
+              "name": "Almond date pie",
+              "tag_id": "urn:tag:menu_highlight:qloo:almond_date_pie",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:almond_date_pie"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "Chocolate cream pie",
+              "tag_id": "urn:tag:menu_highlight:qloo:chocolate_cream_pie",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:chocolate_cream_pie"
+            },
+            {
+              "name": "Central",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:central"
+            },
+            {
+              "name": "Debit cards",
+              "tag_id": "urn:tag:payments:place:debit_cards",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:debit_cards"
+            },
+            {
+              "name": "Authentic",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:authentic",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:authentic"
+            },
+            {
+              "name": "Visa",
+              "tag_id": "urn:tag:credit_card:place:visa",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:visa"
+            },
+            {
+              "name": "Gender neutral restroom",
+              "tag_id": "urn:tag:amenities:place:gender_neutral_restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:gender_neutral_restroom"
+            },
+            {
+              "name": "Urban bakery",
+              "tag_id": "urn:tag:decor:qloo:urban_bakery",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:urban_bakery"
+            },
+            {
+              "name": "Tourists",
+              "tag_id": "urn:tag:customer_identity:qloo:tourists",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:tourists"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:culinary_style:qloo:casual",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:casual"
+            },
+            {
+              "name": "Lgbtq+ friendly",
+              "tag_id": "urn:tag:inclusivity:place:lgbtq_friendly",
+              "type": "urn:tag:inclusivity:place",
+              "value": "urn:tag:inclusivity:place:lgbtq_friendly"
+            },
+            {
+              "name": "American express",
+              "tag_id": "urn:tag:credit_card:place:american_express",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:american_express"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Vibrant",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:vibrant",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:vibrant"
+            },
+            {
+              "name": "Urban exploration",
+              "tag_id": "urn:tag:interests:qloo:urban_exploration",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:urban_exploration"
+            },
+            {
+              "name": "Social",
+              "tag_id": "urn:tag:ambience:qloo:social",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:social"
+            },
+            {
+              "name": "Counter service",
+              "tag_id": "urn:tag:service_type:qloo:counter_service",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:counter_service"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:culinary_style:qloo:cafe",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:cafe"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:amenity:qloo:delivery",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:delivery"
+            },
+            {
+              "name": "Bustling",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:bustling",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:bustling"
+            },
+            {
+              "name": "Ok to order just coffee",
+              "tag_id": "urn:tag:offerings:place:ok_to_order_just_coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:ok_to_order_just_coffee"
+            },
+            {
+              "name": "Dessert enthusiasts",
+              "tag_id": "urn:tag:customer_identity:qloo:dessert_enthusiasts",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:dessert_enthusiasts"
+            },
+            {
+              "name": "Artisan baking",
+              "tag_id": "urn:tag:interests:qloo:artisan_baking",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:artisan_baking"
+            },
+            {
+              "name": "Apple crumble",
+              "tag_id": "urn:tag:menu_highlight:qloo:apple_crumble",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:apple_crumble"
+            },
+            {
+              "name": "Artisan bakery",
+              "tag_id": "urn:tag:cuisine:qloo:artisan_bakery",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:artisan_bakery"
+            },
+            {
+              "name": "Brunch",
+              "tag_id": "urn:tag:genre:place:restaurant:brunch",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:brunch"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:culinary_style:qloo:bakery",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:bakery"
+            },
+            {
+              "name": "Food tourism",
+              "tag_id": "urn:tag:interests:qloo:food_tourism",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:food_tourism"
+            },
+            {
+              "name": "Bakery visit",
+              "tag_id": "urn:tag:activity_type:qloo:bakery_visit",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:bakery_visit"
+            },
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:genre:place:restaurant:dessert",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:dessert"
+            },
+            {
+              "name": "Desserts",
+              "tag_id": "urn:tag:cuisine:qloo:desserts",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:desserts"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "French silk pie",
+              "tag_id": "urn:tag:menu_highlight:qloo:french_silk_pie",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:french_silk_pie"
+            },
+            {
+              "name": "Artisan",
+              "tag_id": "urn:tag:ambience:qloo:artisan",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:artisan"
+            },
+            {
+              "name": "Wi fi",
+              "tag_id": "urn:tag:amenities:place:wi_fi",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:wi_fi"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Moderately expensive",
+              "tag_id": "urn:tag:cost_description:place:moderately_expensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:moderately_expensive"
+            },
+            {
+              "name": "Namsan park",
+              "tag_id": "urn:tag:nearby_attraction:qloo:namsan_park",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:namsan_park"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Street view",
+              "tag_id": "urn:tag:view:qloo:street_view",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:street_view"
+            },
+            {
+              "name": "Delivery",
+              "tag_id": "urn:tag:service_options:place:delivery",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:delivery"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Discover",
+              "tag_id": "urn:tag:credit_card:place:discover",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:discover"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:amenity:qloo:takeout",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:takeout"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Impulse visit",
+              "tag_id": "urn:tag:visit_intent:qloo:impulse_visit",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:impulse_visit"
+            },
+            {
+              "name": "Mastercard",
+              "tag_id": "urn:tag:credit_card:place:mastercard",
+              "type": "urn:tag:credit_card:place",
+              "value": "urn:tag:credit_card:place:mastercard"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:decor:qloo:casual",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:casual"
+            },
+            {
+              "name": "Dessert restaurant",
+              "tag_id": "urn:tag:category:place:dessert_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:dessert_restaurant"
+            },
+            {
+              "name": "Touristic",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:touristic",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:touristic"
+            },
+            {
+              "name": "Leeum museum of art",
+              "tag_id": "urn:tag:nearby_attraction:qloo:leeum_museum_of_art",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:leeum_museum_of_art"
+            },
+            {
+              "name": "English menu",
+              "tag_id": "urn:tag:amenity:qloo:english_menu",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:english_menu"
+            },
+            {
+              "name": "Outdoor seating",
+              "tag_id": "urn:tag:amenity:qloo:outdoor_seating",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:outdoor_seating"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Cosmopolitan",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:cosmopolitan",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:cosmopolitan"
+            },
+            {
+              "name": "Evening",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:evening",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:evening"
+            },
+            {
+              "name": "Brunch restaurant",
+              "tag_id": "urn:tag:category:place:brunch_restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:brunch_restaurant"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Restroom",
+              "tag_id": "urn:tag:amenities:place:restroom",
+              "type": "urn:tag:amenities:place",
+              "value": "urn:tag:amenities:place:restroom"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:decor:qloo:modern",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:modern"
+            },
+            {
+              "name": "International pastry",
+              "tag_id": "urn:tag:interests:qloo:international_pastry",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:international_pastry"
+            }
+          ]
+        },
+        {
+          "name": "Tartine Bakery Dosan",
+          "entity_id": "8081E562-6519-473B-A083-6AA46AE0C9B5",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Tartine Bakery Dosan, 24 Eonju-ro 168-gil, Apgujeong-dong Gangnam District, Seoul South Korea"
+              }
+            ],
+            "address": "24 Eonju-ro 168-gil, Apgujeong-dong Gangnam District, Seoul South Korea",
+            "business_rating": 4.1,
+            "description": "Artisanal bakery and café in Apgujeong serving breads, pastries and coffee in an upscale setting.",
+            "external": {
+              "google_place": {
+                "id": "4aab9f44ca2d8203",
+                "place_id": "ChIJ-b9eynGjfDURA4ItykSfq0o"
+              }
+            },
+            "geocode": {
+              "name": "Garosu-gil",
+              "city": "Seoul",
+              "admin1_region": "Seoul",
+              "admin2_region": "Gangnam",
+              "country_code": "KR",
+              "country": "South Korea"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/8081E562-6519-473B-A083-6AA46AE0C9B5-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "neighborhood": "Garosu-gil",
+            "phone": "+827043334350",
+            "price_level": 3,
+            "price_range": {
+              "currency": "usd"
+            },
+            "website": "https://www.tartinebakery.com/",
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:bakery",
+              "name": "Bakery",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "en_gb",
+                  "value": "\"Bakery\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"مخبز\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Bakeri\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"烘焙坊\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Bäckerei\""
+                },
+                {
+                  "language": "fi",
+                  "value": "\"Leipomo\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านเบเกอรี่\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Fırın\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Bageri\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Pekáreň\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Пекарня\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Beki\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Panadería\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Panificio\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងនំប៉័ង\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Boulangerie\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Maiznīca\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Pekarna\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Пекарна\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Pékség\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Pekařství\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Piekarnia\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Çörəkxana\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai roti\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"မုန့်တိုက်\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Pekara\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Toko roti\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Furë buke\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Padaria\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"საცხობი\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Pagariäri\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Bakkery\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"బేకరీ\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"বেকারি\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"बेकरी\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Tiệm bánh\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Наубайхана\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"面包店\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Bakkerij\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Kepykla\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Forn de pa\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"מאפייה\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Brutărie\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"பேக்கரி\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານຂາຍເຂົ້າຈີ່\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Panaderya\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Αρτοποιείο\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Okindegia\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"ベーカリー\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Пекара\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"베이커리\""
+                }
+              ]
+            }
+          },
+          "popularity": 0.2327981008141968,
+          "disambiguation": "24 Eonju-ro 168-gil, Apgujeong-dong Gangnam District, Seoul South Korea",
+          "location": {
+            "lat": 37.5258813,
+            "lon": 127.0355299
+          },
+          "tags": [
+            {
+              "name": "18 24",
+              "tag_id": "urn:tag:age_range:qloo:18_24",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:18_24"
+            },
+            {
+              "name": "Upscale",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:upscale",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:upscale"
+            },
+            {
+              "name": "Shopping",
+              "tag_id": "urn:tag:activity_type:qloo:shopping",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:shopping"
+            },
+            {
+              "name": "Central",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:central"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:trendy",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:trendy"
+            },
+            {
+              "name": "Moderate",
+              "tag_id": "urn:tag:noise_level:qloo:moderate",
+              "type": "urn:tag:noise_level:qloo",
+              "value": "urn:tag:noise_level:qloo:moderate"
+            },
+            {
+              "name": "Design forward",
+              "tag_id": "urn:tag:ambience:qloo:design_forward",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:design_forward"
+            },
+            {
+              "name": "Vegetarian",
+              "tag_id": "urn:tag:dietary_option:qloo:vegetarian",
+              "type": "urn:tag:dietary_option:qloo",
+              "value": "urn:tag:dietary_option:qloo:vegetarian"
+            },
+            {
+              "name": "Cool",
+              "tag_id": "urn:tag:ambience:qloo:cool",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:cool"
+            },
+            {
+              "name": "Dining drinking",
+              "tag_id": "urn:tag:activity_type:qloo:dining_drinking",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:dining_drinking"
+            },
+            {
+              "name": "Canele",
+              "tag_id": "urn:tag:menu_highlight:qloo:canele",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:canele"
+            },
+            {
+              "name": "Locals",
+              "tag_id": "urn:tag:customer_identity:qloo:locals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:locals"
+            },
+            {
+              "name": "Dosan park",
+              "tag_id": "urn:tag:nearby_attraction:qloo:dosan_park",
+              "type": "urn:tag:nearby_attraction:qloo",
+              "value": "urn:tag:nearby_attraction:qloo:dosan_park"
+            },
+            {
+              "name": "Desserts",
+              "tag_id": "urn:tag:cuisine:qloo:desserts",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:desserts"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Country bread",
+              "tag_id": "urn:tag:menu_highlight:qloo:country_bread",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:country_bread"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:category:place:restaurant",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:restaurant"
+            },
+            {
+              "name": "Expensive",
+              "tag_id": "urn:tag:cost_description:place:expensive",
+              "type": "urn:tag:cost_description:place",
+              "value": "urn:tag:cost_description:place:expensive"
+            },
+            {
+              "name": "Gourmet brunch",
+              "tag_id": "urn:tag:interests:qloo:gourmet_brunch",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:gourmet_brunch"
+            },
+            {
+              "name": "American",
+              "tag_id": "urn:tag:cuisine:qloo:american",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:american"
+            },
+            {
+              "name": "Garden",
+              "tag_id": "urn:tag:view:qloo:garden",
+              "type": "urn:tag:view:qloo",
+              "value": "urn:tag:view:qloo:garden"
+            },
+            {
+              "name": "Coffee and tea",
+              "tag_id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:coffee_and_tea"
+            },
+            {
+              "name": "Fashionable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:fashionable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:fashionable"
+            },
+            {
+              "name": "Cafeteria",
+              "tag_id": "urn:tag:genre:place:restaurant:cafeteria",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafeteria"
+            },
+            {
+              "name": "30 34",
+              "tag_id": "urn:tag:age_range:qloo:30_34",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:30_34"
+            },
+            {
+              "name": "Afternoon",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+            },
+            {
+              "name": "Cafeteria",
+              "tag_id": "urn:tag:category:place:cafeteria",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafeteria"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Art exhibitions",
+              "tag_id": "urn:tag:activity_type:qloo:art_exhibitions",
+              "type": "urn:tag:activity_type:qloo",
+              "value": "urn:tag:activity_type:qloo:art_exhibitions"
+            },
+            {
+              "name": "Tourists",
+              "tag_id": "urn:tag:customer_identity:qloo:tourists",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:tourists"
+            },
+            {
+              "name": "Social",
+              "tag_id": "urn:tag:ambience:qloo:social",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:social"
+            },
+            {
+              "name": "Sesame bagel",
+              "tag_id": "urn:tag:menu_highlight:qloo:sesame_bagel",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:sesame_bagel"
+            },
+            {
+              "name": "Sourdough baking",
+              "tag_id": "urn:tag:interests:qloo:sourdough_baking",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:sourdough_baking"
+            },
+            {
+              "name": "Midday",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:midday",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:midday"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:decor:qloo:stylish",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:stylish"
+            },
+            {
+              "name": "Foodies",
+              "tag_id": "urn:tag:customer_identity:qloo:foodies",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:foodies"
+            },
+            {
+              "name": "Almond croissant",
+              "tag_id": "urn:tag:menu_highlight:qloo:almond_croissant",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:almond_croissant"
+            },
+            {
+              "name": "Specialty coffee",
+              "tag_id": "urn:tag:interests:qloo:specialty_coffee",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:specialty_coffee"
+            },
+            {
+              "name": "Park district",
+              "tag_id": "urn:tag:setting:qloo:park_district",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:park_district"
+            },
+            {
+              "name": "Stylish",
+              "tag_id": "urn:tag:ambience:qloo:stylish",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:stylish"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:cuisine:qloo:bakery",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:bakery"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:amenity:qloo:cafe",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:cafe"
+            },
+            {
+              "name": "Morning",
+              "tag_id": "urn:tag:time_of_day_fit:qloo:morning",
+              "type": "urn:tag:time_of_day_fit:qloo",
+              "value": "urn:tag:time_of_day_fit:qloo:morning"
+            },
+            {
+              "name": "25 29",
+              "tag_id": "urn:tag:age_range:qloo:25_29",
+              "type": "urn:tag:age_range:qloo",
+              "value": "urn:tag:age_range:qloo:25_29"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:cuisine:qloo:cafe",
+              "type": "urn:tag:cuisine:qloo",
+              "value": "urn:tag:cuisine:qloo:cafe"
+            },
+            {
+              "name": "Couples",
+              "tag_id": "urn:tag:customer_identity:qloo:couples",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:couples"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:ambience:qloo:modern",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:modern"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_type:qloo:takeout",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:takeout"
+            },
+            {
+              "name": "Lemon tart",
+              "tag_id": "urn:tag:menu_highlight:qloo:lemon_tart",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:lemon_tart"
+            },
+            {
+              "name": "Artisanal",
+              "tag_id": "urn:tag:culinary_style:qloo:artisanal",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:artisanal"
+            },
+            {
+              "name": "Urban",
+              "tag_id": "urn:tag:setting:qloo:urban",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:urban"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:culinary_style:qloo:modern",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:modern"
+            },
+            {
+              "name": "Walkable",
+              "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+              "type": "urn:tag:neighborhood_characteristic:qloo",
+              "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+            },
+            {
+              "name": "Soft drinks",
+              "tag_id": "urn:tag:beverage_offering:qloo:soft_drinks",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:soft_drinks"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:genre:place:restaurant:bakery",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:bakery"
+            },
+            {
+              "name": "Gallery space",
+              "tag_id": "urn:tag:amenity:qloo:gallery_space",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:gallery_space"
+            },
+            {
+              "name": "Lemon meringue cake",
+              "tag_id": "urn:tag:menu_highlight:qloo:lemon_meringue_cake",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:lemon_meringue_cake"
+            },
+            {
+              "name": "Oat milk iced latte",
+              "tag_id": "urn:tag:menu_highlight:qloo:oat_milk_iced_latte",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:oat_milk_iced_latte"
+            },
+            {
+              "name": "Artistic publications",
+              "tag_id": "urn:tag:interests:qloo:artistic_publications",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:artistic_publications"
+            },
+            {
+              "name": "Industrial chic",
+              "tag_id": "urn:tag:decor:qloo:industrial_chic",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:industrial_chic"
+            },
+            {
+              "name": "Interior design",
+              "tag_id": "urn:tag:interests:qloo:interior_design",
+              "type": "urn:tag:interests:qloo",
+              "value": "urn:tag:interests:qloo:interior_design"
+            },
+            {
+              "name": "Retail corner",
+              "tag_id": "urn:tag:amenity:qloo:retail_corner",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:retail_corner"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Minimalist",
+              "tag_id": "urn:tag:decor:qloo:minimalist",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:minimalist"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:amenity:qloo:bakery",
+              "type": "urn:tag:amenity:qloo",
+              "value": "urn:tag:amenity:qloo:bakery"
+            },
+            {
+              "name": "City center",
+              "tag_id": "urn:tag:setting:qloo:city_center",
+              "type": "urn:tag:setting:qloo",
+              "value": "urn:tag:setting:qloo:city_center"
+            },
+            {
+              "name": "Destination",
+              "tag_id": "urn:tag:visit_intent:qloo:destination",
+              "type": "urn:tag:visit_intent:qloo",
+              "value": "urn:tag:visit_intent:qloo:destination"
+            },
+            {
+              "name": "Trendy",
+              "tag_id": "urn:tag:decor:qloo:trendy",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:trendy"
+            },
+            {
+              "name": "Groups of friends",
+              "tag_id": "urn:tag:customer_identity:qloo:groups_of_friends",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:groups_of_friends"
+            },
+            {
+              "name": "Young professionals",
+              "tag_id": "urn:tag:customer_identity:qloo:young_professionals",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:young_professionals"
+            },
+            {
+              "name": "Expats",
+              "tag_id": "urn:tag:customer_identity:qloo:expats",
+              "type": "urn:tag:customer_identity:qloo",
+              "value": "urn:tag:customer_identity:qloo:expats"
+            },
+            {
+              "name": "Roomy",
+              "tag_id": "urn:tag:ambience:qloo:roomy",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:roomy"
+            },
+            {
+              "name": "Takeout",
+              "tag_id": "urn:tag:service_options:place:takeout",
+              "type": "urn:tag:service_options:place",
+              "value": "urn:tag:service_options:place:takeout"
+            },
+            {
+              "name": "Specialty non alcoholic",
+              "tag_id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+              "type": "urn:tag:beverage_offering:qloo",
+              "value": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic"
+            },
+            {
+              "name": "Modern",
+              "tag_id": "urn:tag:decor:qloo:modern",
+              "type": "urn:tag:decor:qloo",
+              "value": "urn:tag:decor:qloo:modern"
+            },
+            {
+              "name": "Bright",
+              "tag_id": "urn:tag:ambience:qloo:bright",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:bright"
+            },
+            {
+              "name": "Price level",
+              "tag_id": "urn:tag:payments:place:price_level",
+              "type": "urn:tag:payments:place",
+              "value": "urn:tag:payments:place:price_level"
+            },
+            {
+              "name": "Bakery",
+              "tag_id": "urn:tag:category:place:bakery",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:bakery"
+            },
+            {
+              "name": "Farm to table",
+              "tag_id": "urn:tag:culinary_style:qloo:farm_to_table",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:farm_to_table"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:ambience:qloo:casual",
+              "type": "urn:tag:ambience:qloo",
+              "value": "urn:tag:ambience:qloo:casual"
+            },
+            {
+              "name": "Cheesecake",
+              "tag_id": "urn:tag:menu_highlight:qloo:cheesecake",
+              "type": "urn:tag:menu_highlight:qloo",
+              "value": "urn:tag:menu_highlight:qloo:cheesecake"
+            },
+            {
+              "name": "Casual",
+              "tag_id": "urn:tag:culinary_style:qloo:casual",
+              "type": "urn:tag:culinary_style:qloo",
+              "value": "urn:tag:culinary_style:qloo:casual"
+            },
+            {
+              "name": "Dine in",
+              "tag_id": "urn:tag:service_type:qloo:dine_in",
+              "type": "urn:tag:service_type:qloo",
+              "value": "urn:tag:service_type:qloo:dine_in"
+            }
+          ]
+        },
+        {
+          "name": "Tartine Bakery",
+          "entity_id": "259CCD29-E64A-43A6-B31A-FE78988E6EF9",
+          "types": [
+            "urn:entity:place"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "",
+                "value": "Tartine Bakery, 2600 Durant Ave Berkeley, CA 94704"
+              }
+            ],
+            "address": "2600 Durant Ave Berkeley, CA 94704",
+            "business_rating": 3.9,
+            "description": "Renowned artisanal bakery offering breads, pastries, and coffee on Berkeley's Durant Avenue.",
+            "external": {
+              "tripadvisor": {
+                "id": "d20303556"
+              },
+              "google_place": {
+                "id": "2059c9e3d4d6eb17",
+                "place_id": "ChIJp92goVd9hYARF-vW1OPJWSA"
+              }
+            },
+            "geocode": {
+              "city": "Berkeley",
+              "admin1_region": "California",
+              "admin2_region": "Alameda County",
+              "country_code": "US",
+              "country": "United States"
+            },
+            "hours": {},
+            "image": {
+              "url": "https://images.qloo.com/i/259CCD29-E64A-43A6-B31A-FE78988E6EF9-420x-auto.jpg"
+            },
+            "is_closed": true,
+            "phone": "+15108094132",
+            "price_range": {
+              "currency": "usd"
+            },
+            "primary_genre": {
+              "id": "urn:tag:genre:place:restaurant:pastry_shop",
+              "name": "Pastry shop",
+              "type": "urn:tag:genre:place",
+              "akas": [
+                {
+                  "language": "fi",
+                  "value": "\"Leipomo\""
+                },
+                {
+                  "language": "ca",
+                  "value": "\"Pastisseria\""
+                },
+                {
+                  "language": "es_ar",
+                  "value": "\"Pastelería\""
+                },
+                {
+                  "language": "es_la",
+                  "value": "\"Pastelería\""
+                },
+                {
+                  "language": "gl",
+                  "value": "\"Pastelería\""
+                },
+                {
+                  "language": "es",
+                  "value": "\"Pastelería\""
+                },
+                {
+                  "language": "lt",
+                  "value": "\"Konditerijos parduotuvė\""
+                },
+                {
+                  "language": "fr",
+                  "value": "\"Pâtisserie\""
+                },
+                {
+                  "language": "fr_ca",
+                  "value": "\"Pâtisserie\""
+                },
+                {
+                  "language": "vi",
+                  "value": "\"Tiệm bánh ngọt\""
+                },
+                {
+                  "language": "bs",
+                  "value": "\"Poslastičarnica\""
+                },
+                {
+                  "language": "ja",
+                  "value": "\"洋菓子店\""
+                },
+                {
+                  "language": "hi",
+                  "value": "\"पेस्ट्री की दुकान\""
+                },
+                {
+                  "language": "pt_pt",
+                  "value": "\"Pastelaria\""
+                },
+                {
+                  "language": "uk",
+                  "value": "\"Кондитерська\""
+                },
+                {
+                  "language": "sq",
+                  "value": "\"Pasteri\""
+                },
+                {
+                  "language": "lo",
+                  "value": "\"ຮ້ານຂາຍເຂົ້າໜົມ\""
+                },
+                {
+                  "language": "th",
+                  "value": "\"ร้านขนมอบ\""
+                },
+                {
+                  "language": "mk",
+                  "value": "\"Слаткарница\""
+                },
+                {
+                  "language": "en_gb",
+                  "value": "\"Patisserie\""
+                },
+                {
+                  "language": "kk",
+                  "value": "\"Кондитерлік дүкен\""
+                },
+                {
+                  "language": "af",
+                  "value": "\"Gebakwinkel\""
+                },
+                {
+                  "language": "et",
+                  "value": "\"Kondiitriäri\""
+                },
+                {
+                  "language": "ar",
+                  "value": "\"محل معجنات\""
+                },
+                {
+                  "language": "tl",
+                  "value": "\"Pastry shop\""
+                },
+                {
+                  "language": "hr",
+                  "value": "\"Slastičarnica\""
+                },
+                {
+                  "language": "sk",
+                  "value": "\"Cukráreň\""
+                },
+                {
+                  "language": "ta",
+                  "value": "\"பேஸ்ட்ரி கடை\""
+                },
+                {
+                  "language": "ka",
+                  "value": "\"საკონდიტრო\""
+                },
+                {
+                  "language": "pl",
+                  "value": "\"Cukiernia\""
+                },
+                {
+                  "language": "te",
+                  "value": "\"పేస్ట్రీ షాప్\""
+                },
+                {
+                  "language": "eu",
+                  "value": "\"Pastel-denda\""
+                },
+                {
+                  "language": "km",
+                  "value": "\"ហាងនំ\""
+                },
+                {
+                  "language": "id",
+                  "value": "\"Toko kue\""
+                },
+                {
+                  "language": "az",
+                  "value": "\"Qənnadı\""
+                },
+                {
+                  "language": "ru",
+                  "value": "\"Кондитерская\""
+                },
+                {
+                  "language": "lv",
+                  "value": "\"Konditoreja\""
+                },
+                {
+                  "language": "pt",
+                  "value": "\"Confeitaria\""
+                },
+                {
+                  "language": "tr",
+                  "value": "\"Pastane\""
+                },
+                {
+                  "language": "de",
+                  "value": "\"Konditorei\""
+                },
+                {
+                  "language": "zh",
+                  "value": "\"糕点店\""
+                },
+                {
+                  "language": "it",
+                  "value": "\"Pasticceria\""
+                },
+                {
+                  "language": "bn",
+                  "value": "\"পেস্ট্রি শপ\""
+                },
+                {
+                  "language": "my",
+                  "value": "\"မုန့်ဆိုင်\""
+                },
+                {
+                  "language": "zh_tw",
+                  "value": "\"糕點店\""
+                },
+                {
+                  "language": "bg",
+                  "value": "\"Сладкарница\""
+                },
+                {
+                  "language": "ko",
+                  "value": "\"제과점\""
+                },
+                {
+                  "language": "sw",
+                  "value": "\"Duka la keki\""
+                },
+                {
+                  "language": "da",
+                  "value": "\"Konditori\""
+                },
+                {
+                  "language": "sv",
+                  "value": "\"Konditori\""
+                },
+                {
+                  "language": "nb",
+                  "value": "\"Konditori\""
+                },
+                {
+                  "language": "cs",
+                  "value": "\"Cukrárna\""
+                },
+                {
+                  "language": "nl",
+                  "value": "\"Banketbakkerij\""
+                },
+                {
+                  "language": "ms",
+                  "value": "\"Kedai pastri\""
+                },
+                {
+                  "language": "el",
+                  "value": "\"Ζαχαροπλαστείο\""
+                },
+                {
+                  "language": "ro",
+                  "value": "\"Cofetărie\""
+                },
+                {
+                  "language": "he",
+                  "value": "\"קונדיטוריה\""
+                },
+                {
+                  "language": "hu",
+                  "value": "\"Cukrászda\""
+                },
+                {
+                  "language": "sr",
+                  "value": "\"Посластичарница\""
+                },
+                {
+                  "language": "sl",
+                  "value": "\"Slaščičarna\""
+                }
+              ]
+            }
+          },
+          "disambiguation": "2600 Durant Ave Berkeley, CA 94704",
+          "location": {
+            "lat": 37.867942,
+            "lon": -122.256305
+          },
+          "tags": [
+            {
+              "name": "Dessert",
+              "tag_id": "urn:tag:dining_options:place:dessert",
+              "type": "urn:tag:dining_options:place",
+              "value": "urn:tag:dining_options:place:dessert"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:category:place:cafe",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:cafe"
+            },
+            {
+              "name": "Restaurant",
+              "tag_id": "urn:tag:genre:place:restaurant",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:genre:place:restaurant:coffee_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:coffee_shop"
+            },
+            {
+              "name": "Place",
+              "tag_id": "urn:tag:genre:place",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place"
+            },
+            {
+              "name": "Coffee shop",
+              "tag_id": "urn:tag:category:place:coffee_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:coffee_shop"
+            },
+            {
+              "name": "Coffee",
+              "tag_id": "urn:tag:offerings:place:coffee",
+              "type": "urn:tag:offerings:place",
+              "value": "urn:tag:offerings:place:coffee"
+            },
+            {
+              "name": "Pastry shop",
+              "tag_id": "urn:tag:genre:place:restaurant:pastry_shop",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:pastry_shop"
+            },
+            {
+              "name": "Pastry shop",
+              "tag_id": "urn:tag:category:place:pastry_shop",
+              "type": "urn:tag:category:place",
+              "value": "urn:tag:category:place:pastry_shop"
+            },
+            {
+              "name": "Cafe",
+              "tag_id": "urn:tag:genre:place:restaurant:cafe",
+              "type": "urn:tag:genre:place",
+              "value": "urn:tag:genre:place:restaurant:cafe"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

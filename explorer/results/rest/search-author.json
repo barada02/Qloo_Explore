@@ -1,0 +1,4109 @@
+{
+  "request": {
+    "path": "/search",
+    "params": {
+      "query": "Agatha Christie",
+      "types": "urn:entity:person",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 349,
+    "url": "/search?query=Agatha+Christie&types=urn%3Aentity%3Aperson&take=5",
+    "requestId": "c5e4a9f4-6a65-4155-864f-f68b05fb4a92",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49856",
+      "x-month-ratelimit-reset": "2591832.95",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "results": [
+        {
+          "name": "Agatha Christie",
+          "entity_id": "108EAC12-CFB7-41EE-B2D7-52AF8CF62B1A",
+          "types": [
+            "urn:entity:person"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "i",
+                "value": "Agatha May Clarissa Miller Christie Mallowan"
+              },
+              {
+                "language": "d",
+                "value": "Agatha May Clarissa Miller Christie Mallowan"
+              },
+              {
+                "language": "k",
+                "value": "아가사 크리스티"
+              },
+              {
+                "language": "o",
+                "value": "아가사 크리스티"
+              },
+              {
+                "language": "e",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "t",
+                "value": "అగాథా క్రిస్టీ"
+              },
+              {
+                "language": "e",
+                "value": "అగాథా క్రిస్టీ"
+              },
+              {
+                "language": "t",
+                "value": "క్రైమ్ క్వీన్, మేరీ వెస్ట్‌మాకోట్"
+              },
+              {
+                "language": "e",
+                "value": "క్రైమ్ క్వీన్, మేరీ వెస్ట్‌మాకోట్"
+              },
+              {
+                "language": "k",
+                "value": "애거사 크리스티 맬로원"
+              },
+              {
+                "language": "o",
+                "value": "애거사 크리스티 맬로원"
+              },
+              {
+                "language": "h",
+                "value": "אגאטה כריסטי"
+              },
+              {
+                "language": "e",
+                "value": "אגאטה כריסטי"
+              },
+              {
+                "language": "n",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "b",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "z",
+                "value": "阿嘉莎·克莉絲蒂"
+              },
+              {
+                "language": "h",
+                "value": "阿嘉莎·克莉絲蒂"
+              },
+              {
+                "language": "w",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "r",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "u",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "k",
+                "value": "კრისტი"
+              },
+              {
+                "language": "a",
+                "value": "კრისტი"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "z",
+                "value": "阿嘉莎"
+              },
+              {
+                "language": "h",
+                "value": "阿嘉莎"
+              },
+              {
+                "language": "t",
+                "value": "డేమ్ అగాథా మేరీ క్లారిస్సా క్రిస్టీ,"
+              },
+              {
+                "language": "e",
+                "value": "డేమ్ అగాథా మేరీ క్లారిస్సా క్రిస్టీ,"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "คริสตี อกาธา"
+              },
+              {
+                "language": "h",
+                "value": "คริสตี อกาธา"
+              },
+              {
+                "language": "d",
+                "value": "Agatha M. C. Miller"
+              },
+              {
+                "language": "a",
+                "value": "Agatha M. C. Miller"
+              },
+              {
+                "language": "t",
+                "value": "அகதா கிறிஸ்டி"
+              },
+              {
+                "language": "a",
+                "value": "அகதா கிறிஸ்டி"
+              },
+              {
+                "language": "h",
+                "value": "Ագաթա Քրիստի"
+              },
+              {
+                "language": "y",
+                "value": "Ագաթա Քրիստի"
+              },
+              {
+                "language": "d",
+                "value": "Lady Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Lady Agatha Christie"
+              },
+              {
+                "language": "h",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Агата Кристӣ"
+              },
+              {
+                "language": "g",
+                "value": "Агата Кристӣ"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "b",
+                "value": "আগাথা ক্রিস্টি"
+              },
+              {
+                "language": "n",
+                "value": "আগাথা ক্রিস্টি"
+              },
+              {
+                "language": "k",
+                "value": "애거사 메리 클러리사 밀러 크리스티 맬로원"
+              },
+              {
+                "language": "o",
+                "value": "애거사 메리 클러리사 밀러 크리스티 맬로원"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Maria Clarissa Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Maria Clarissa Christie"
+              },
+              {
+                "language": "k",
+                "value": "애거서 크리스티 맬로원"
+              },
+              {
+                "language": "o",
+                "value": "애거서 크리스티 맬로원"
+              },
+              {
+                "language": "t",
+                "value": "อกาธา คริสตี"
+              },
+              {
+                "language": "h",
+                "value": "อกาธา คริสตี"
+              },
+              {
+                "language": "n",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "b",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "u",
+                "value": "اگاتھا کرسٹی"
+              },
+              {
+                "language": "r",
+                "value": "اگاتھا کرسٹی"
+              },
+              {
+                "language": "m",
+                "value": "अगाथा ख्रिस्ती"
+              },
+              {
+                "language": "r",
+                "value": "अगाथा ख्रिस्ती"
+              },
+              {
+                "language": "u",
+                "value": "Агата Кристі"
+              },
+              {
+                "language": "k",
+                "value": "Агата Кристі"
+              },
+              {
+                "language": "p",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Marie Clarissa Miller"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Marie Clarissa Miller"
+              },
+              {
+                "language": "b",
+                "value": "Агата Крысці"
+              },
+              {
+                "language": "e",
+                "value": "Агата Крысці"
+              },
+              {
+                "language": "h",
+                "value": "מרי וסטמאקוט"
+              },
+              {
+                "language": "e",
+                "value": "מרי וסטמאקוט"
+              },
+              {
+                "language": "h",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "r",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "അഗത ക്രിസ്റ്റി"
+              },
+              {
+                "language": "l",
+                "value": "അഗത ക്രിസ്റ്റി"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Christie"
+              },
+              {
+                "language": "v",
+                "value": "Christie"
+              },
+              {
+                "language": "h",
+                "value": "ऍगथा़ क्रिस्टी"
+              },
+              {
+                "language": "i",
+                "value": "ऍगथा़ क्रिस्टी"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "h",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "u",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "h",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "t",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "a",
+                "value": "Aqata Kristi"
+              },
+              {
+                "language": "z",
+                "value": "Aqata Kristi"
+              },
+              {
+                "language": "s",
+                "value": "අගතා ක්‍රිස්ටි"
+              },
+              {
+                "language": "i",
+                "value": "අගතා ක්‍රිස්ටි"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "l",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "t",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "k",
+                "value": "메리 웨스트매컷"
+              },
+              {
+                "language": "o",
+                "value": "메리 웨스트매컷"
+              },
+              {
+                "language": "l",
+                "value": "Kristi"
+              },
+              {
+                "language": "v",
+                "value": "Kristi"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "اجاثا كريستي"
+              },
+              {
+                "language": "r",
+                "value": "اجاثا كريستي"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "q",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "h",
+                "value": "אגטה כריסטי"
+              },
+              {
+                "language": "e",
+                "value": "אגטה כריסטי"
+              },
+              {
+                "language": "z",
+                "value": "阿嘉莎·克莉丝蒂"
+              },
+              {
+                "language": "h",
+                "value": "阿嘉莎·克莉丝蒂"
+              },
+              {
+                "language": "h",
+                "value": "Ագաթա Քրիսթի"
+              },
+              {
+                "language": "y",
+                "value": "Ագաթա Քրիսթի"
+              },
+              {
+                "language": "h",
+                "value": "אגאתה כריסטי"
+              },
+              {
+                "language": "e",
+                "value": "אגאתה כריסטי"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "h",
+                "value": "ऐगथा क्रिस्टी"
+              },
+              {
+                "language": "i",
+                "value": "ऐगथा क्रिस्टी"
+              },
+              {
+                "language": "s",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "r",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "z",
+                "value": "阿加沙·克里斯蒂"
+              },
+              {
+                "language": "h",
+                "value": "阿加沙·克里斯蒂"
+              },
+              {
+                "language": "h",
+                "value": "ऍगथा क्रिस्टी"
+              },
+              {
+                "language": "i",
+                "value": "ऍगथा क्रिस्टी"
+              },
+              {
+                "language": "f",
+                "value": "Archibald Christie"
+              },
+              {
+                "language": "r",
+                "value": "Archibald Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "z",
+                "value": "阿嘉莎·克莉斯蒂"
+              },
+              {
+                "language": "h",
+                "value": "阿嘉莎·克莉斯蒂"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "อกาธา คริสตี้"
+              },
+              {
+                "language": "h",
+                "value": "อกาธา คริสตี้"
+              },
+              {
+                "language": "k",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "k",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Mary Clarissa Miller Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Mary Clarissa Miller Christie"
+              },
+              {
+                "language": "e",
+                "value": "Άγκαθα Κρίστι"
+              },
+              {
+                "language": "l",
+                "value": "Άγκαθα Κρίστι"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christiová"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christiová"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "w",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "f",
+                "value": "اگاتا کریستی"
+              },
+              {
+                "language": "a",
+                "value": "اگاتا کریستی"
+              },
+              {
+                "language": "h",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "f",
+                "value": "آگاتا کریستی"
+              },
+              {
+                "language": "a",
+                "value": "آگاتا کریستی"
+              },
+              {
+                "language": "e",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "n",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "আগাথা ক্ৰিষ্টি"
+              },
+              {
+                "language": "s",
+                "value": "আগাথা ক্ৰিষ্টি"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "q",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "അഗതാക്രിസ്റ്റി"
+              },
+              {
+                "language": "l",
+                "value": "അഗതാക്രിസ്റ്റി"
+              },
+              {
+                "language": "m",
+                "value": "मेरी वेस्टमॅकॉट"
+              },
+              {
+                "language": "r",
+                "value": "मेरी वेस्टमॅकॉट"
+              },
+              {
+                "language": "e",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "クリスティ"
+              },
+              {
+                "language": "a",
+                "value": "クリスティ"
+              },
+              {
+                "language": "j",
+                "value": "アガサ・クリスティ"
+              },
+              {
+                "language": "a",
+                "value": "アガサ・クリスティ"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Archibald Christie"
+              },
+              {
+                "language": "v",
+                "value": "Archibald Christie"
+              },
+              {
+                "language": "g",
+                "value": "અગાથા ક્રિસ્ટી"
+              },
+              {
+                "language": "u",
+                "value": "અગાથા ક્રિસ્ટી"
+              },
+              {
+                "language": "s",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "q",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "h",
+                "value": "מרי ווסטמאקוט"
+              },
+              {
+                "language": "e",
+                "value": "מרי ווסטמאקוט"
+              },
+              {
+                "language": "t",
+                "value": "อกาทา คริสตี"
+              },
+              {
+                "language": "h",
+                "value": "อกาทา คริสตี"
+              },
+              {
+                "language": "b",
+                "value": "Ага́та Мэ́ри Клари́сса"
+              },
+              {
+                "language": "a",
+                "value": "Ага́та Мэ́ри Клари́сса"
+              },
+              {
+                "language": "y",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "g",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "m",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "k",
+                "value": "ಅಗಾಥಾ ಕ್ರಿಸ್ಟಿ"
+              },
+              {
+                "language": "n",
+                "value": "ಅಗಾಥಾ ಕ್ರಿಸ್ಟಿ"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "k",
+                "value": "애거사 크리스티"
+              },
+              {
+                "language": "o",
+                "value": "애거사 크리스티"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christy"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christy"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "m",
+                "value": "അഗതാ ക്രിസ്റ്റി"
+              },
+              {
+                "language": "l",
+                "value": "അഗതാ ക്രിസ്റ്റി"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "b",
+                "value": "Мери Уестмакот"
+              },
+              {
+                "language": "g",
+                "value": "Мери Уестмакот"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "s",
+                "value": "Lady Mallowan"
+              },
+              {
+                "language": "v",
+                "value": "Lady Mallowan"
+              },
+              {
+                "language": "m",
+                "value": "ऍगाथा ख्रिस्ती"
+              },
+              {
+                "language": "r",
+                "value": "ऍगाथा ख्रिस्ती"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "y",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Miller"
+              },
+              {
+                "language": "a",
+                "value": "أغاثا كريستي"
+              },
+              {
+                "language": "r",
+                "value": "أغاثا كريستي"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "h",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "d",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "e",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "ミステリーの女王"
+              },
+              {
+                "language": "a",
+                "value": "ミステリーの女王"
+              },
+              {
+                "language": "k",
+                "value": "აგათა კრისტი"
+              },
+              {
+                "language": "a",
+                "value": "აგათა კრისტი"
+              },
+              {
+                "language": "k",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "p",
+                "value": "ਏਗਥਾ ਕਰਿਸਟੀ"
+              },
+              {
+                "language": "a",
+                "value": "ਏਗਥਾ ਕਰਿਸਟੀ"
+              },
+              {
+                "language": "f",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agata Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "i",
+                "value": "Dame Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "d",
+                "value": "Dame Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "d",
+                "value": "Mary Clarissa Miller"
+              },
+              {
+                "language": "a",
+                "value": "Mary Clarissa Miller"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Dame Agatha (Mary Clarissa) Christie"
+              },
+              {
+                "language": "n",
+                "value": "Dame Agatha (Mary Clarissa) Christie"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "y",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "クリスティー"
+              },
+              {
+                "language": "a",
+                "value": "クリスティー"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "አጋጣ ክርስቲ"
+              },
+              {
+                "language": "m",
+                "value": "አጋጣ ክርስቲ"
+              },
+              {
+                "language": "b",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "g",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "b",
+                "value": "Ага́та Мэ́ри Клари́сса Кристи"
+              },
+              {
+                "language": "a",
+                "value": "Ага́та Мэ́ри Клари́сса Кристи"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie Mallowan"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie Mallowan"
+              },
+              {
+                "language": "k",
+                "value": "აგატა კრისტი"
+              },
+              {
+                "language": "a",
+                "value": "აგატა კრისტი"
+              },
+              {
+                "language": "a",
+                "value": "أجاثا كريستي"
+              },
+              {
+                "language": "r",
+                "value": "أجاثا كريستي"
+              },
+              {
+                "language": "c",
+                "value": "Mary Westmacottová"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacottová"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "j",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "p",
+                "value": "آګاتا کریسټي"
+              },
+              {
+                "language": "s",
+                "value": "آګاتا کریسټي"
+              },
+              {
+                "language": "m",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Агата Мері Кларісса Крісті"
+              },
+              {
+                "language": "k",
+                "value": "Агата Мері Кларісса Крісті"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "v",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "v",
+                "value": "Agata Kristi"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie Mallowan"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie Mallowan"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "अगाथा क्रिस्टी"
+              },
+              {
+                "language": "e",
+                "value": "अगाथा क्रिस्टी"
+              },
+              {
+                "language": "f",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "i",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "k",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "h",
+                "value": "אגתה כריסטי"
+              },
+              {
+                "language": "e",
+                "value": "אגתה כריסטי"
+              },
+              {
+                "language": "b",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "a",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "アガサ・クリスティー"
+              },
+              {
+                "language": "a",
+                "value": "アガサ・クリスティー"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "d",
+                "value": "Lady Mallowan"
+              },
+              {
+                "language": "a",
+                "value": "Lady Mallowan"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "ماري ويستماكوت"
+              },
+              {
+                "language": "r",
+                "value": "ماري ويستماكوت"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "k",
+                "value": "애거서 크리스티"
+              },
+              {
+                "language": "o",
+                "value": "애거서 크리스티"
+              },
+              {
+                "language": "y",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "o",
+                "value": "Dame Agatha Christie"
+              },
+              {
+                "language": "a",
+                "value": "اغاثا كرستي"
+              },
+              {
+                "language": "r",
+                "value": "اغاثا كرستي"
+              },
+              {
+                "language": "p",
+                "value": "Mary westmacott"
+              },
+              {
+                "language": "t",
+                "value": "Mary westmacott"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "アガサクリスティ"
+              },
+              {
+                "language": "a",
+                "value": "アガサクリスティ"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "k",
+                "value": "에거서 크리스티"
+              },
+              {
+                "language": "o",
+                "value": "에거서 크리스티"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "m",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "k",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "c",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Mary Clarissa Miller"
+              },
+              {
+                "language": "m",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "n",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "g",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "l",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "t",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "t",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "m",
+                "value": "अगाथा मेरी क्लॅरिसा"
+              },
+              {
+                "language": "r",
+                "value": "अगाथा मेरी क्लॅरिसा"
+              },
+              {
+                "language": "h",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "c",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "v",
+                "value": "Агата Кристи"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "l",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "a",
+                "value": "اغاثا كريستي"
+              },
+              {
+                "language": "r",
+                "value": "اغاثا كريستي"
+              },
+              {
+                "language": "u",
+                "value": "Kristi Agata"
+              },
+              {
+                "language": "z",
+                "value": "Kristi Agata"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "k",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "k",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "w",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "อกาธ่า คริสตี้"
+              },
+              {
+                "language": "h",
+                "value": "อกาธ่า คริสตี้"
+              },
+              {
+                "language": "j",
+                "value": "メアリ・ウェストマコット"
+              },
+              {
+                "language": "a",
+                "value": "メアリ・ウェストマコット"
+              },
+              {
+                "language": "e",
+                "value": "Αγκάθα Κρίστι"
+              },
+              {
+                "language": "l",
+                "value": "Αγκάθα Κρίστι"
+              },
+              {
+                "language": "t",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "l",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "u",
+                "value": "Агата Крісті"
+              },
+              {
+                "language": "k",
+                "value": "Агата Крісті"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "j",
+                "value": "アガサクリスティー"
+              },
+              {
+                "language": "a",
+                "value": "アガサクリスティー"
+              },
+              {
+                "language": "z",
+                "value": "阿加莎·克里斯蒂"
+              },
+              {
+                "language": "h",
+                "value": "阿加莎·克里斯蒂"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "y",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "j",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Christie"
+              },
+              {
+                "language": "v",
+                "value": "Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "y",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "அகதா கிரிஸ்டி"
+              },
+              {
+                "language": "a",
+                "value": "அகதா கிரிஸ்டி"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Christy"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christy"
+              },
+              {
+                "language": "k",
+                "value": "Dame Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "w",
+                "value": "Dame Agatha Mary Clarissa Christie"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Mary Clarissa Mallowan"
+              },
+              {
+                "language": "b",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Christieová"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christieová"
+              },
+              {
+                "language": "e",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "o",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "b",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Christie"
+              },
+              {
+                "language": "i",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "t",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "s",
+                "value": "Lista över verk av Agatha Christie"
+              },
+              {
+                "language": "v",
+                "value": "Lista över verk av Agatha Christie"
+              },
+              {
+                "language": "l",
+                "value": "Agata Kristī"
+              },
+              {
+                "language": "v",
+                "value": "Agata Kristī"
+              },
+              {
+                "language": "i",
+                "value": "Mary Westmacott"
+              },
+              {
+                "language": "d",
+                "value": "Mary Westmacott"
+              }
+            ],
+            "external": {
+              "goodreads": {
+                "id": "123715"
+              },
+              "metacritic": {
+                "id": "person/agatha-christie"
+              },
+              "imdb": {
+                "id": "nm0002005"
+              },
+              "library_of_congress": {
+                "id": "n79038407"
+              },
+              "goodreads_author": {
+                "id": "123715"
+              },
+              "musicbrainz": {
+                "id": "46a098f3-272d-4bec-9746-67e8ab48ed40"
+              }
+            },
+            "child": [
+              "Rosalind Christie"
+            ],
+            "citizenship": [
+              "United Kingdom",
+              "United Kingdom of Great Britain and Ireland"
+            ],
+            "date_of_birth": "1890-09-15",
+            "date_of_death": "1976-01-12",
+            "image": {
+              "url": "https://images.qloo.com/i/108EAC12-CFB7-41EE-B2D7-52AF8CF62B1A-420x-auto.jpg"
+            },
+            "gender": [
+              "female"
+            ],
+            "notable_work": [
+              "Murder on the Orient Express",
+              "Sad Cypress",
+              "Endless Night",
+              "Sleeping Murder",
+              "Five Little Pigs",
+              "Peril at End House",
+              "A Murder Is Announced",
+              "The A.B.C. Murders",
+              "A Daughter's a Daughter",
+              "Cards on the Table",
+              "Curtain",
+              "Lord Edgware Dies",
+              "Towards Zero",
+              "And Then There Were None",
+              "The Murder of Roger Ackroyd",
+              "Death on the Nile",
+              "The Sittaford Mystery"
+            ],
+            "spouse": [
+              "Archie Christie",
+              "Max Mallowan"
+            ],
+            "work_period_start": "1920-01-01",
+            "short_description": "English mystery and detective writer (1890–1976)"
+          },
+          "popularity": 0.7500733847207576,
+          "disambiguation": "1890-09-15",
+          "tags": [
+            {
+              "name": "Mystery Thriller",
+              "tag_id": "urn:tag:genre:media:media:mystery_thriller",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:mystery_thriller"
+            },
+            {
+              "name": "Archaeologist",
+              "tag_id": "urn:tag:occupation:person:archaeologist",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:archaeologist"
+            },
+            {
+              "name": "Prose Writer",
+              "tag_id": "urn:tag:occupation:person:prose_writer",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:prose_writer"
+            },
+            {
+              "name": "Crime Fiction Writer",
+              "tag_id": "urn:tag:occupation:person:crime_fiction_writer",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:crime_fiction_writer"
+            },
+            {
+              "name": "Novelist",
+              "tag_id": "urn:tag:occupation:person:novelist",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:novelist"
+            },
+            {
+              "name": "Autobiographer",
+              "tag_id": "urn:tag:occupation:person:autobiographer",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:autobiographer"
+            },
+            {
+              "name": "Dramaturge",
+              "tag_id": "urn:tag:occupation:person:dramaturge",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:dramaturge"
+            },
+            {
+              "name": "Classics",
+              "tag_id": "urn:tag:genre:media:media:classics",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:classics"
+            },
+            {
+              "name": "Mystery",
+              "tag_id": "urn:tag:genre:media:media:mystery",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:mystery"
+            },
+            {
+              "name": "Crime",
+              "tag_id": "urn:tag:genre:media:media:crime",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:crime"
+            },
+            {
+              "name": "Author",
+              "tag_id": "urn:tag:genre:person:author",
+              "type": "urn:tag:genre:person",
+              "value": "urn:tag:genre:person:author"
+            },
+            {
+              "name": "Poet",
+              "tag_id": "urn:tag:occupation:person:poet",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:poet"
+            },
+            {
+              "name": "Playwright",
+              "tag_id": "urn:tag:occupation:person:playwright",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:playwright"
+            },
+            {
+              "name": "Person",
+              "tag_id": "urn:tag:category:wikidata:person",
+              "type": "urn:tag:category:wikidata",
+              "value": "urn:tag:category:wikidata:person"
+            },
+            {
+              "name": "Screenwriter",
+              "tag_id": "urn:tag:occupation:person:screenwriter",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:screenwriter"
+            },
+            {
+              "name": "Nurse",
+              "tag_id": "urn:tag:occupation:person:nurse",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:nurse"
+            },
+            {
+              "name": "Writer",
+              "tag_id": "urn:tag:occupation:person:writer",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:writer"
+            },
+            {
+              "name": "Musician",
+              "tag_id": "urn:tag:genre:person:musician",
+              "type": "urn:tag:genre:person",
+              "value": "urn:tag:genre:person:musician"
+            },
+            {
+              "name": "Fiction",
+              "tag_id": "urn:tag:genre:media:media:fiction",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:fiction"
+            },
+            {
+              "name": "Detective",
+              "tag_id": "urn:tag:genre:media:media:detective",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:detective"
+            }
+          ]
+        },
+        {
+          "name": "Gritte Agatha",
+          "entity_id": "720E84EE-96E7-47B2-964C-4791E908335F",
+          "types": [
+            "urn:entity:person"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "i",
+                "value": "Griselda Agatha"
+              },
+              {
+                "language": "d",
+                "value": "Griselda Agatha"
+              },
+              {
+                "language": "n",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "l",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "i",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "t",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "f",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "r",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "i",
+                "value": "Gritte"
+              },
+              {
+                "language": "d",
+                "value": "Gritte"
+              },
+              {
+                "language": "s",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "q",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "e",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "s",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "i",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "d",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "s",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "l",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "g",
+                "value": "Gritte Agatha"
+              },
+              {
+                "language": "a",
+                "value": "Gritte Agatha"
+              }
+            ],
+            "external": {
+              "instagram": {
+                "id": "gritteagathaa"
+              },
+              "twitter": {
+                "id": "gritteagathaa"
+              },
+              "imdb": {
+                "id": "nm11394838"
+              }
+            },
+            "citizenship": [
+              "Indonesia"
+            ],
+            "date_of_birth": "1996-03-09",
+            "image": {
+              "url": "https://images.qloo.com/i/720E84EE-96E7-47B2-964C-4791E908335F-420x-auto.jpg"
+            },
+            "gender": [
+              "female"
+            ],
+            "work_period_start": "2008-01-01",
+            "short_description": "Indonesian actress"
+          },
+          "popularity": 0.9646068209738968,
+          "disambiguation": "1996-03-09",
+          "tags": [
+            {
+              "name": "Indonesian Actresses",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_actresses",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_actresses"
+            },
+            {
+              "name": "Indonesian Youtubers",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_youtubers",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_youtubers"
+            },
+            {
+              "name": "Indonesian Film Producers",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_film_producers",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_film_producers"
+            },
+            {
+              "name": "Person",
+              "tag_id": "urn:tag:category:wikidata:person",
+              "type": "urn:tag:category:wikidata",
+              "value": "urn:tag:category:wikidata:person"
+            },
+            {
+              "name": "Actor",
+              "tag_id": "urn:tag:occupation:person:actor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:actor"
+            },
+            {
+              "name": "Youtube Channels Launched In 2012",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:youtube_channels_launched_in_2012",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:youtube_channels_launched_in_2012"
+            },
+            {
+              "name": "Indonesian Film Directors",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_film_directors",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_film_directors"
+            },
+            {
+              "name": "Film Producer",
+              "tag_id": "urn:tag:occupation:person:film_producer",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:film_producer"
+            },
+            {
+              "name": "Indonesian People Of Chinese Descent",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_people_chinese_descent",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_people_chinese_descent"
+            },
+            {
+              "name": "Film Director",
+              "tag_id": "urn:tag:occupation:person:film_director",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:film_director"
+            },
+            {
+              "name": "Youtuber",
+              "tag_id": "urn:tag:occupation:person:youtuber",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:youtuber"
+            }
+          ]
+        },
+        {
+          "name": "Jonatan Christie",
+          "entity_id": "966255E3-C147-44CD-9C23-BB1F70525D1A",
+          "types": [
+            "urn:entity:person"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "x",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "q",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "d",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "j",
+                "value": "ジョナタン・クリスティー"
+              },
+              {
+                "language": "a",
+                "value": "ジョナタン・クリスティー"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "p",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "j",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "d",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "j",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "جوناتان كريستي"
+              },
+              {
+                "language": "r",
+                "value": "جوناتان كريستي"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "y",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "k",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "j",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "p",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Leonardus Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Leonardus Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "q",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "d",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "d",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "s",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "w",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "v",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "g",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "i",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "e",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "a",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "c",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "u",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "n",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "b",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "h",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "r",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "m",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "z",
+                "value": "乔纳坦·克里斯蒂"
+              },
+              {
+                "language": "h",
+                "value": "乔纳坦·克里斯蒂"
+              },
+              {
+                "language": "f",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "t",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "l",
+                "value": "Jonatan Christie"
+              },
+              {
+                "language": "o",
+                "value": "Jonatan Christie"
+              }
+            ],
+            "external": {
+              "instagram": {
+                "id": "jonatanchristieofficial"
+              },
+              "twitter": {
+                "id": "jonatan979"
+              }
+            },
+            "citizenship": [
+              "Indonesia"
+            ],
+            "date_of_birth": "1997-09-15",
+            "image": {
+              "url": "https://images.qloo.com/i/966255E3-C147-44CD-9C23-BB1F70525D1A-420x-auto.jpg"
+            },
+            "gender": [
+              "male"
+            ],
+            "sport": [
+              "badminton"
+            ],
+            "short_description": "Indonesian badminton player"
+          },
+          "popularity": 0.9539252671747426,
+          "disambiguation": "1997-09-15",
+          "tags": [
+            {
+              "name": "Indonesian Roman Catholics",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_roman_catholics",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_roman_catholics"
+            },
+            {
+              "name": "Sea Games Gold Medalists For Indonesia",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:sea_games_gold_medalists_indonesia",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:sea_games_gold_medalists_indonesia"
+            },
+            {
+              "name": "Badminton Players At The 2014 Asian Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2014_asian_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2014_asian_games"
+            },
+            {
+              "name": "Olympic Competitor",
+              "tag_id": "urn:tag:occupation:person:olympic_competitor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:olympic_competitor"
+            },
+            {
+              "name": "Indonesian Male Badminton Players",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:indonesian_male_badminton_players",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:indonesian_male_badminton_players"
+            },
+            {
+              "name": "Medalists At The 2018 Asian Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:medalists_at_2018_asian_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:medalists_at_2018_asian_games"
+            },
+            {
+              "name": "Badminton Players At The 2020 Summer Olympics",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2020_summer_olympics",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2020_summer_olympics"
+            },
+            {
+              "name": "Badminton Players From Jakarta",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_from_jakarta",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_from_jakarta"
+            },
+            {
+              "name": "Badminton Players At The 2024 Summer Olympics",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2024_summer_olympics",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2024_summer_olympics"
+            },
+            {
+              "name": "Asian Games Silver Medalists For Indonesia",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:asian_games_silver_medalists_indonesia",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:asian_games_silver_medalists_indonesia"
+            },
+            {
+              "name": "Competitors At The 2019 Sea Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:competitors_at_2019_sea_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:competitors_at_2019_sea_games"
+            },
+            {
+              "name": "Badminton Players At The 2022 Asian Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2022_asian_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2022_asian_games"
+            },
+            {
+              "name": "Athlete",
+              "tag_id": "urn:tag:genre:person:athlete",
+              "type": "urn:tag:genre:person",
+              "value": "urn:tag:genre:person:athlete"
+            },
+            {
+              "name": "Competitors At The 2017 Sea Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:competitors_at_2017_sea_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:competitors_at_2017_sea_games"
+            },
+            {
+              "name": "Person",
+              "tag_id": "urn:tag:category:wikidata:person",
+              "type": "urn:tag:category:wikidata",
+              "value": "urn:tag:category:wikidata:person"
+            },
+            {
+              "name": "Badminton Players At The 2018 Asian Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2018_asian_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:badminton_players_at_2018_asian_games"
+            },
+            {
+              "name": "Badminton Player",
+              "tag_id": "urn:tag:occupation:person:badminton_player",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:badminton_player"
+            },
+            {
+              "name": "Sea Games Medalists In Badminton",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:sea_games_medalists_in_badminton",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:sea_games_medalists_in_badminton"
+            },
+            {
+              "name": "Asian Games Gold Medalists For Indonesia",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:asian_games_gold_medalists_indonesia",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:asian_games_gold_medalists_indonesia"
+            },
+            {
+              "name": "Olympic Badminton Players For Indonesia",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:olympic_badminton_players_indonesia",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:olympic_badminton_players_indonesia"
+            },
+            {
+              "name": "Asian Games Medalists In Badminton",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:asian_games_medalists_in_badminton",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:asian_games_medalists_in_badminton"
+            },
+            {
+              "name": "Competitors At The 2015 Sea Games",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:competitors_at_2015_sea_games",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:competitors_at_2015_sea_games"
+            }
+          ]
+        },
+        {
+          "name": "Agatha Chelsea",
+          "entity_id": "55800289-1057-4BFD-A734-FB5EF46F4D33",
+          "types": [
+            "urn:entity:person"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "r",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "o",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "q",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "j",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "v",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "u",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "i",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Chelsea Terriyanto"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Chelsea"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Chelsea"
+              }
+            ],
+            "external": {
+              "instagram": {
+                "id": "agatha_chelsea"
+              },
+              "twitter": {
+                "id": "AgathaChelsea18"
+              },
+              "imdb": {
+                "id": "nm6239828"
+              },
+              "musicbrainz": {
+                "id": "4b6c44f0-094b-48ac-b53c-c3717257cc40"
+              }
+            },
+            "citizenship": [
+              "Indonesia"
+            ],
+            "date_of_birth": "2001-12-18",
+            "image": {
+              "url": "https://images.qloo.com/i/55800289-1057-4BFD-A734-FB5EF46F4D33-420x-auto.jpg"
+            },
+            "gender": [
+              "female"
+            ],
+            "instrument": [
+              "voice"
+            ],
+            "work_period_start": "2006-01-01",
+            "short_description": "Indonesian singer-songwriter and actress"
+          },
+          "popularity": 0.951538904773812,
+          "disambiguation": "2001-12-18",
+          "tags": [
+            {
+              "name": "Actor",
+              "tag_id": "urn:tag:occupation:person:actor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:actor"
+            },
+            {
+              "name": "Singer-songwriter",
+              "tag_id": "urn:tag:occupation:person:singer_songwriter",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:singer_songwriter"
+            },
+            {
+              "name": "Actor",
+              "tag_id": "urn:tag:genre:person:actor",
+              "type": "urn:tag:genre:person",
+              "value": "urn:tag:genre:person:actor"
+            },
+            {
+              "name": "Model",
+              "tag_id": "urn:tag:occupation:person:model",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:model"
+            },
+            {
+              "name": "Person",
+              "tag_id": "urn:tag:category:wikidata:person",
+              "type": "urn:tag:category:wikidata",
+              "value": "urn:tag:category:wikidata:person"
+            },
+            {
+              "name": "Romance",
+              "tag_id": "urn:tag:genre:media:media:romance",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:romance"
+            }
+          ]
+        },
+        {
+          "name": "Agatha Moreira",
+          "entity_id": "7CC6407B-4D56-4A1C-8CAA-5B3317B57D9A",
+          "types": [
+            "urn:entity:person"
+          ],
+          "properties": {
+            "akas": [
+              {
+                "language": "r",
+                "value": "Агата Морейра"
+              },
+              {
+                "language": "u",
+                "value": "Агата Морейра"
+              },
+              {
+                "language": "s",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "l",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "l",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "q",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "a",
+                "value": "أغاثا موريرا"
+              },
+              {
+                "language": "r",
+                "value": "أغاثا موريرا"
+              },
+              {
+                "language": "f",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "r",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "g",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "p",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "t",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "n",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "s",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "n",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "n",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "l",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "s",
+                "value": "Ágatha Moreira"
+              },
+              {
+                "language": "c",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "a",
+                "value": "Agatha Cerqueira Pereira Moreira"
+              },
+              {
+                "language": "d",
+                "value": "Agatha Moreira"
+              },
+              {
+                "language": "e",
+                "value": "Agatha Moreira"
+              }
+            ],
+            "external": {
+              "instagram": {
+                "id": "agathaamoreiraa"
+              },
+              "twitter": {
+                "id": "agathaamoreiraa"
+              },
+              "imdb": {
+                "id": "nm5221342"
+              }
+            },
+            "citizenship": [
+              "Brazil"
+            ],
+            "date_of_birth": "1992-01-19",
+            "image": {
+              "url": "https://images.qloo.com/i/7CC6407B-4D56-4A1C-8CAA-5B3317B57D9A-420x-auto.jpg"
+            },
+            "gender": [
+              "female"
+            ],
+            "work_period_start": "2012-01-01",
+            "short_description": "Brazilian actress"
+          },
+          "popularity": 0.9497341842337005,
+          "disambiguation": "1992-01-19",
+          "tags": [
+            {
+              "name": "Person",
+              "tag_id": "urn:tag:category:wikidata:person",
+              "type": "urn:tag:category:wikidata",
+              "value": "urn:tag:category:wikidata:person"
+            },
+            {
+              "name": "Brazilian Female Models",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:brazilian_female_models",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:brazilian_female_models"
+            },
+            {
+              "name": "Film Actor",
+              "tag_id": "urn:tag:occupation:person:film_actor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:film_actor"
+            },
+            {
+              "name": "Brazilian Television Actresses",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:brazilian_television_actresses",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:brazilian_television_actresses"
+            },
+            {
+              "name": "Romance",
+              "tag_id": "urn:tag:genre:media:media:romance",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:romance"
+            },
+            {
+              "name": "Television Actor",
+              "tag_id": "urn:tag:occupation:person:television_actor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:television_actor"
+            },
+            {
+              "name": "Drama",
+              "tag_id": "urn:tag:genre:media:media:drama",
+              "type": "urn:tag:genre:media",
+              "value": "urn:tag:genre:media:media:drama"
+            },
+            {
+              "name": "Model",
+              "tag_id": "urn:tag:occupation:person:model",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:model"
+            },
+            {
+              "name": "Actresses From Rio De Janeiro (city)",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:actresses_from_rio_janeiro_city",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:actresses_from_rio_janeiro_city"
+            },
+            {
+              "name": "Actor",
+              "tag_id": "urn:tag:occupation:person:actor",
+              "type": "urn:tag:occupation:person",
+              "value": "urn:tag:occupation:person:actor"
+            },
+            {
+              "name": "21st-century Brazilian Actresses",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:21st_century_brazilian_actresses",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:21st_century_brazilian_actresses"
+            },
+            {
+              "name": "Actor",
+              "tag_id": "urn:tag:genre:person:actor",
+              "type": "urn:tag:genre:person",
+              "value": "urn:tag:genre:person:actor"
+            },
+            {
+              "name": "Brazilian Actor Stubs",
+              "tag_id": "urn:tag:wikipedia_category:wikidata:brazilian_actor_stubs",
+              "type": "urn:tag:wikipedia_category:wikidata",
+              "value": "urn:tag:wikipedia_category:wikidata:brazilian_actor_stubs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

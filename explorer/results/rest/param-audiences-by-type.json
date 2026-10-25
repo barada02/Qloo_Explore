@@ -1,0 +1,116 @@
+{
+  "request": {
+    "path": "/v2/audiences",
+    "params": {
+      "filter.audience.types": "urn:audience:communities",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 314,
+    "url": "/v2/audiences?filter.audience.types=urn%3Aaudience%3Acommunities&take=5",
+    "requestId": "ad6bc51c-627f-4486-91f8-8efc19037479",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49539",
+      "x-month-ratelimit-reset": "2589146.55",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "totalRequestDuration": 6,
+      "success": true,
+      "results": {
+        "audiences": [
+          {
+            "entity_id": "DA61B8AD-6D79-4B0C-BEA0-EC966C93902E",
+            "name": "AAPI",
+            "parents": [
+              {
+                "id": "urn:audience:communities",
+                "name": "Communities",
+                "type": "urn:audience"
+              }
+            ],
+            "type": "urn:audience:communities",
+            "id": "urn:audience:communities:aapi",
+            "disambiguation": "Aapi (Communities)",
+            "tags": [
+              {
+                "id": "urn:tag:collection:canonical",
+                "name": "Canonical",
+                "type": "urn:tag:collection"
+              }
+            ]
+          },
+          {
+            "entity_id": "E47478B9-8ED2-449B-B854-6344059742E3",
+            "name": "Latino",
+            "parents": [
+              {
+                "id": "urn:audience:communities",
+                "name": "Communities",
+                "type": "urn:audience"
+              }
+            ],
+            "type": "urn:audience:communities",
+            "id": "urn:audience:communities:latino",
+            "disambiguation": "Latino (Communities)",
+            "tags": [
+              {
+                "id": "urn:tag:collection:canonical",
+                "name": "Canonical",
+                "type": "urn:tag:collection"
+              }
+            ]
+          },
+          {
+            "entity_id": "6BED625C-E312-47E9-A4B5-F978C7778269",
+            "name": "LGBTQ",
+            "parents": [
+              {
+                "id": "urn:audience:communities",
+                "name": "Communities",
+                "type": "urn:audience"
+              }
+            ],
+            "type": "urn:audience:communities",
+            "id": "urn:audience:communities:lgbtq",
+            "disambiguation": "Lgbtq (Communities)",
+            "tags": [
+              {
+                "id": "urn:tag:collection:canonical",
+                "name": "Canonical",
+                "type": "urn:tag:collection"
+              }
+            ]
+          },
+          {
+            "entity_id": "A8A43978-5291-46DC-8952-D58EDC7FF82B",
+            "name": "Black",
+            "parents": [
+              {
+                "id": "urn:audience:communities",
+                "name": "Communities",
+                "type": "urn:audience"
+              }
+            ],
+            "type": "urn:audience:communities",
+            "id": "urn:audience:communities:black",
+            "disambiguation": "Black (Communities)",
+            "tags": [
+              {
+                "id": "urn:tag:collection:canonical",
+                "name": "Canonical",
+                "type": "urn:tag:collection"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

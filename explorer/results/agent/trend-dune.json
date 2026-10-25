@@ -1,0 +1,66 @@
+{
+  "id": "trend-dune",
+  "q": "Is interest in the movie Dune rising or falling over the last 9 months (2026-01-01 to 2026-09-30)?",
+  "why": "Live popularity time series",
+  "model": "gemini-flash-latest",
+  "plain": {
+    "answer": "Mainstream cultural interest in *Dune* has naturally stabilized rather than surged, cooling down from the box-office fever of *Dune: Part Two* into a steady, prestige fandom awaiting *Dune: Messiah*. \n\nIf you want to feed that specific appetite for sweeping scale, desert mysticism, and grand political intrigue, here are four cultural touchstones to explore:\n\n*   **Film: *Nausicaä of the Valley of the Wind* (1984)**  \n    Hayao Miyazaki’s animated masterpiece shares *Dune*’s DNA: a messianic savior, colossal desert-dwelling beasts, and deep ecological warfare on a dying planet.\n*   **Novel: *The Dispossessed* by Ursula K. Le Guin**  \n    Frank Herbert fans who love intricate socio-political friction and resource-scarce worlds will appreciate Le Guin's brilliant, cerebral examination of competing planetary ideologies.\n*   **Television: *Foundation* (Apple TV+)**  \n    If your draw to *Dune* is the sheer visual opulence and the slow-burn collapse of a galactic empire, this series delivers the same breathtaking scale, imperial dynastic drama, and fatalistic prophecy.\n*   **Game: *Dune: Spice Wars***  \n    To truly grasp the ruthless feudal economics of the Landsraad, this strategy game perfectly translates the political sabotage, resource scarcity, and harsh geography of Arrakis into an active, tense experience.",
+    "trace": [],
+    "ms": 14121,
+    "tokens": 1219,
+    "model": "gemini-flash-latest"
+  },
+  "qloo": {
+    "answer": "Based on Qloo’s audience trend metrics over this period, interest in **_Dune_ (2021)** is **holding steady** at an elite baseline rather than rising or falling:\n\n* **Popularity & Percentile:** Denis Villeneuve’s *Dune* maintains an overall popularity score of **0.9996** and sits at the **99.98th percentile** (`0.99981`) among all tracked films.\n* **Rank & Velocity:** It holds steady at rank **#81** across tracked measurement weeks with a **velocity of 0** and a **0% population rank delta**, indicating plateaued, sustained high engagement rather than active churn or expansion.\n\n*(For comparison, David Lynch’s 1984 adaptation is similarly flat, holding steady at rank #1,405 at the 68.4th percentile).*",
+    "trace": [
+      {
+        "tool": "qloo_trends",
+        "args": {
+          "start_date": "2026-01-01",
+          "entity_type": "movie",
+          "end_date": "2026-09-30",
+          "entities": [
+            "Dune"
+          ]
+        },
+        "status": "needs_input",
+        "summary": "Choose or correct the unresolved Qloo entities.",
+        "count": 0,
+        "ms": 1199
+      },
+      {
+        "tool": "qloo_trends",
+        "args": {
+          "end_date": "2026-09-30",
+          "entity_type": "movie",
+          "start_date": "2026-01-01",
+          "entities": [
+            "3037F0E8-C912-4DC0-BDE3-1F94631F9DA6"
+          ]
+        },
+        "status": "ok",
+        "count": 1,
+        "ms": 1729
+      },
+      {
+        "tool": "qloo_trends",
+        "args": {
+          "end_date": "2026-09-30",
+          "entities": [
+            "3037F0E8-C912-4DC0-BDE3-1F94631F9DA6",
+            "A57556BD-2844-42C5-A7FF-82069148B3C3"
+          ],
+          "start_date": "2026-01-01",
+          "entity_type": "movie",
+          "limit": 20
+        },
+        "status": "ok",
+        "count": 2,
+        "ms": 1748
+      }
+    ],
+    "ms": 20829,
+    "tokens": 20590,
+    "model": "gemini-flash-latest"
+  }
+}

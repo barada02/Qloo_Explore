@@ -1,0 +1,661 @@
+{
+  "tool": "qloo_recommend",
+  "arguments": {
+    "target_type": "brand",
+    "signals": [
+      "Huberman Lab",
+      "Lex Fridman Podcast"
+    ],
+    "limit": 15
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "recommend",
+    "status": "ok",
+    "interpretation": {
+      "target_type": "urn:entity:brand",
+      "signals": [
+        {
+          "input": "Huberman Lab",
+          "entityId": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+          "name": "Huberman Lab",
+          "type": "urn:entity:podcast",
+          "match": "exact"
+        },
+        {
+          "input": "Lex Fridman Podcast",
+          "entityId": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+          "name": "Lex Fridman Podcast",
+          "type": "urn:entity:podcast",
+          "match": "exact"
+        }
+      ],
+      "signal_tags": [],
+      "include_tags": [],
+      "exclude_tags": []
+    },
+    "resolution": {
+      "contract_version": "1.0-preview.1",
+      "provider": {
+        "contract_version": "1.0-preview.1",
+        "provider_id": "qloo_api",
+        "name": "Qloo native resolution",
+        "entity_strategy": "exact_name_context_or_choice",
+        "tag_strategy": "target_scoped_semantic_search_exact_name_or_choice",
+        "remote": true,
+        "uses_model": false,
+        "fallback": "none"
+      },
+      "outcomes": [
+        {
+          "input": "Huberman Lab",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "name": "Huberman Lab",
+            "type": "urn:entity:podcast",
+            "popularity": 0.9892078824195808,
+            "description": "Exploring neuroscience and science-based tools to understand brain function, behavior, and health."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "162F204F-0B15-4A30-BCEE-7CAED19F7D98",
+              "name": "Roast8ry Coffee Lab",
+              "type": "urn:entity:place",
+              "popularity": 0.9989426473969587,
+              "description": "Urban, experimental coffee lab known for intricate coffee art and a cocktail-driven menu with late-night small plates.",
+              "address": "14 Nimmana Haeminda Rd Lane 3 Nimmanhaemin Suthep, Mueang Chiang Mai District Chiang Mai 50200 Thailand"
+            },
+            {
+              "id": "BC88C6DD-E94F-487A-8CA3-72DA4ED9AB5C",
+              "name": "AW-LAB",
+              "type": "urn:entity:place",
+              "popularity": 0.9989103306302402,
+              "description": "Retailer specializing in sneakers and urban footwear from leading sports and streetwear brands, located inside Puerto Venecia shopping center in Zaragoza.",
+              "address": "Travesia Jardines Reales, 7 C.C. Puerto Venecia 50021 Zaragoza Spain"
+            },
+            {
+              "id": "95548900-738F-409E-962D-B0DFD0E886CC",
+              "name": "Ediya Coffee Lab.",
+              "type": "urn:entity:place",
+              "popularity": 0.998518629130185,
+              "description": "Specialty coffee lab with in-house roasting, strawberry drinks and desserts, plus beer and cocktails in Gangnam, Seoul.",
+              "address": "이디야빌딩 636 Nonhyeon-ro Gangnam District, Seoul South Korea"
+            },
+            {
+              "id": "A1BCB807-29AB-4F36-B00A-5FE996D78658",
+              "name": "Orange County Great Park Farm + Food Lab",
+              "type": "urn:entity:place",
+              "popularity": 0.998237993299657,
+              "description": "Interactive organic urban-agriculture classroom at Great Park offering themed gardens, aquaponics, teaching kitchen, composting, and volunteer programs with harvested food donated to local pantries.",
+              "address": "8000 Great Park Blvd Irvine, CA 92618"
+            }
+          ]
+        },
+        {
+          "input": "Lex Fridman Podcast",
+          "status": "resolved",
+          "match": "exact",
+          "selected": {
+            "id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+            "name": "Lex Fridman Podcast",
+            "type": "urn:entity:podcast",
+            "popularity": 0.9709030200041737,
+            "description": "In-depth conversations exploring science, technology, philosophy, and the nature of intelligence and consciousness."
+          },
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          },
+          "alternatives": [
+            {
+              "id": "0EEA50B1-86B7-4977-8AEF-588F8F616D32",
+              "name": "Lex Fridman",
+              "type": "urn:entity:person",
+              "popularity": 0.9501364412215566,
+              "description": "Russian-American computer scientist"
+            },
+            {
+              "id": "62275CC6-9989-4CF1-B0C7-BBF9DA8755CC",
+              "name": "The LexG Movie Podcast",
+              "type": "urn:entity:podcast",
+              "popularity": 0.5436007512744835
+            },
+            {
+              "id": "4D2D15D3-249B-4B35-AA4F-7E04572E7542",
+              "name": "Investing In Real Estate With Lex Levinrad",
+              "type": "urn:entity:podcast",
+              "popularity": 0.5436007512744835,
+              "description": "Learn actionable steps to invest in real estate, including buying rental properties, wholesaling, and flipping houses."
+            },
+            {
+              "id": "4637835E-4044-4954-B29F-1BD03775EE7D",
+              "name": "Lala Land with Lex",
+              "type": "urn:entity:podcast",
+              "popularity": 0.4911009748680798
+            }
+          ]
+        }
+      ]
+    },
+    "results": [
+      {
+        "entity_id": "86BB9F76-22A9-4739-982D-E5E73F2A8455",
+        "name": "Futurism",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9803444593243037,
+        "affinity": 0.9268485405631202,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5150417421340748
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.4849582578659251
+            }
+          ]
+        },
+        "properties": {
+          "description": "Futurism is a leading digital media brand dedicated to exploring the future of humanity through the lens of science and technology. Founded in 2014, it delivers award-winning journalism, analysis, and visual content covering everything from AI developments to planetary exploration. Its editorial mission is to inform a curious audience about breakthroughs that are shaping our collective future. Positioned as a thought-leader in the digital news landscape, it serves as a primary hub for readers seeking deep insights into complex scientific hypotheses and rapid-fire technological change.",
+          "short_description": "Futurism is a digital media brand focused on science and technology news and videos, delivering the latest innovations and discoveries.",
+          "image": {
+            "url": "https://images.qloo.com/i/86BB9F76-22A9-4739-982D-E5E73F2A8455-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "0F0382E0-5ADD-41C3-A973-B7E613007F1A",
+        "name": "Rivian Automotive",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9111305114339475,
+        "affinity": 0.9253060671414002,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5165339708557146
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.48346602914428544
+            }
+          ]
+        },
+        "properties": {
+          "description": "An innovative American automotive technology company focused on creating high-performance electric vehicles specifically designed for adventure and environmental preservation. By integrating advanced software-defined capabilities and a robust charging network, the brand aims to make sustainable exploration accessible without compromising on safety or performance. Its market positioning appeals to affluent, eco-conscious consumers who view vehicle ownership as a vehicle for personal and ecological connection. Through a commitment to long-term environmental stewardship, the company seeks to transform the traditional automotive experience into a modern, tech-forward movement.",
+          "short_description": "Rivian Automotive is an electric vehicle manufacturer specializing in adventure-ready electric trucks and SUVs, including the R1T and R1S models.",
+          "image": {
+            "url": "https://images.qloo.com/i/0F0382E0-5ADD-41C3-A973-B7E613007F1A-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "2650C16E-BF2A-41A3-8166-62D6FA25C19A",
+        "name": "Onnit",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9808953908223288,
+        "affinity": 0.9244403070037447,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.5444521482985683
+            },
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.4555478517014317
+            }
+          ]
+        },
+        "properties": {
+          "description": "Onnit is a performance-focused wellness company dedicated to helping individuals achieve total human optimization by connecting mind and body. Founded on the principle of research-backed supplementation and functional fitness, the brand provides a curated selection of nootropics, vitamins, and specialized workout equipment. Its offerings are designed for high-achieving individuals who prioritize cognitive clarity, physical strength, and efficient recovery. By emphasizing rigorous testing and transparent ingredient sourcing, the brand has cultivated a loyal community of athletes and professionals committed to peak performance.",
+          "short_description": "Onnit is a holistic wellness and lifestyle brand offering brain, workout, and health supplements, as well as fitness equipment like kettlebells.",
+          "image": {
+            "url": "https://images.qloo.com/i/2650C16E-BF2A-41A3-8166-62D6FA25C19A-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "320D5F1D-DD11-4D20-B2FC-9275019F9AA1",
+        "name": "Multidisciplinary Association for Psychedelic Studies",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9066722042345442,
+        "affinity": 0.9157880828095669,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.5083198572593486
+            },
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.4916801427406515
+            }
+          ]
+        },
+        "properties": {
+          "description": "The Multidisciplinary Association for Psychedelic Studies is a nonprofit organization established in 1986 dedicated to developing legal, medical, and cultural pathways for the use of psychedelics. By sponsoring rigorous clinical research, they aim to secure government approval for psychedelic-assisted therapies as standard mental healthcare treatments. Beyond research, the organization serves as a key hub for education, harm reduction, and public advocacy aimed at ending drug prohibition. Their approach prioritizes public benefit, community engagement, and scientific evaluation to unlock the healing potential of these substances.",
+          "short_description": "A non-profit organization dedicated to psychedelic research and education, focusing on the therapeutic use of psychedelics.",
+          "image": {
+            "url": "https://images.qloo.com/i/320D5F1D-DD11-4D20-B2FC-9275019F9AA1-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "E11CBD39-9C5C-4D41-9BF6-EDC894998281",
+        "name": "Atom Finance",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.4993982132867726,
+        "affinity": 0.9147898499163106,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.5116624110297525
+            },
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.48833758897024754
+            }
+          ]
+        },
+        "properties": {
+          "description": "A prominent telecommunications provider in Myanmar delivering comprehensive mobile and residential internet services. The brand focuses on infrastructure development, including 4G network coverage to ensure reliable connectivity for its users. Its offerings include mobile voice and data services, alongside integrated home internet solutions. By prioritizing widespread accessibility, it serves as a central hub for digital communication and mobile service management in the region.",
+          "short_description": "Atom Finance is a modern UX development platform for the investment industry, providing tools to build exceptional investment user experiences.",
+          "image": {
+            "url": "https://images.qloo.com/i/E11CBD39-9C5C-4D41-9BF6-EDC894998281-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "9D2EED97-EA6E-4227-9999-B7D40196C7CA",
+        "name": "Boston Dynamics",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.8748961706022953,
+        "affinity": 0.9144121003015886,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.529251950879642
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.47074804912035795
+            }
+          ]
+        },
+        "properties": {
+          "description": "Established as a spin-off from MIT research, the company focuses on creating advanced, dynamically stable robots that can traverse unstructured environments. Its portfolio includes famous platforms like Spot, Stretch, and Atlas, which are designed to perform dull, dirty, and dangerous tasks to enhance human productivity and safety. Now operating as an independent entity under the Hyundai Motor Group, the brand is widely recognized for pushing the boundaries of mechanical dexterity and robotic intelligence. It remains a key partner for industries looking to automate complex workflows in manufacturing, logistics, and facility management.",
+          "short_description": "Boston Dynamics is a robotics company specializing in agile, mobile robots like Spot and Atlas for industrial inspection, safety, and automation.",
+          "image": {
+            "url": "https://images.qloo.com/i/9D2EED97-EA6E-4227-9999-B7D40196C7CA-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "29B49E3F-A0EC-42C6-A453-38B1C20D8374",
+        "name": "Tesla",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.999143937210761,
+        "affinity": 0.9098167214971273,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5270238323036692
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.47297616769633066
+            }
+          ]
+        },
+        "properties": {
+          "description": "Tesla is a vertically integrated multinational entity that combines automotive manufacturing with renewable energy production to accelerate the global transition to sustainable power. By leveraging a first-principles engineering approach, the brand creates high-performance electric vehicles alongside residential and commercial solar and battery storage solutions. It operates an extensive global network of factories and service centers, catering to a tech-forward demographic interested in the future of energy and transport. The brand is recognized for its disruptive market position, minimalist design language, and significant role in decarbonizing global energy sectors.",
+          "short_description": "Tesla is a multinational company specializing in electric vehicles, solar energy products, and integrated renewable energy solutions.",
+          "image": {
+            "url": "https://images.qloo.com/i/29B49E3F-A0EC-42C6-A453-38B1C20D8374-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "CCF22691-E9B9-4C84-83BC-455730D54846",
+        "name": "Reddit",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9820057296875795,
+        "affinity": 0.9078618677286807,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5256770317311384
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.4743229682688616
+            }
+          ]
+        },
+        "properties": {
+          "description": "A premier social media and news aggregation platform where users organize into countless independent communities known as subreddits. Founded in 2005, it has evolved into a global forum for discussion, research, and community support on virtually every topic imaginable. The platform operates on a democratic voting system, which highlights the most relevant content to its audience. It serves as a central point of intersection for internet culture, offering a unique space for both broad global conversations and specific interest-based collaboration.",
+          "short_description": "Reddit is a social media platform and online community where users share content, discuss topics, and participate in forums called subreddits.",
+          "image": {
+            "url": "https://images.qloo.com/i/CCF22691-E9B9-4C84-83BC-455730D54846-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "B1E05CAA-EF49-4DA6-B8F8-B8211879AED6",
+        "name": "Examine",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.7788730484311166,
+        "affinity": 0.907022994462817,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.5293612893391766
+            },
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.47063871066082336
+            }
+          ]
+        },
+        "properties": {
+          "description": "Established in 2011, this platform is a leading digital authority that curates and interprets the latest scientific research on nutrition and supplementation. It distinguishes itself by maintaining a strictly evidence-based approach, removing industry bias to provide clear, actionable health insights. The brand serves a dedicated audience of professionals and health-conscious individuals who value objective, deep-dive research. Through its comprehensive database, it simplifies complex data to help users make informed choices about their wellness goals.",
+          "short_description": "Examine is a brand that provides evidence-based analysis and summaries on supplements and nutrition research to determine their effectiveness.",
+          "image": {
+            "url": "https://images.qloo.com/i/B1E05CAA-EF49-4DA6-B8F8-B8211879AED6-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "B06F980E-A566-490E-B6B9-92F73F43602B",
+        "name": "Whoop",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.946008713193538,
+        "affinity": 0.9042302835258105,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.5365547267115031
+            },
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.46344527328849694
+            }
+          ]
+        },
+        "properties": {
+          "description": "WHOOP is a wearable health technology company that provides a subscription-based system for monitoring human performance. By tracking critical physiological metrics like sleep, strain, and recovery, the brand provides personalized coaching to optimize healthspan and longevity. It appeals to a global community of high-performers, athletes, and wellness enthusiasts who value data-driven decision-making. Through its combination of advanced hardware and comprehensive digital analytics, the platform helps members establish stronger habits and achieve better physiological outcomes.",
+          "short_description": "WHOOP is a wearable health and fitness brand offering a scientifically-grounded system that tracks sleep, strain, recovery, and performance to optimize human potential.",
+          "image": {
+            "url": "https://images.qloo.com/i/B06F980E-A566-490E-B6B9-92F73F43602B-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "7F0BE245-2748-490B-9ED2-F86765C6DF9E",
+        "name": "Imgur",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9253445440829957,
+        "affinity": 0.8993795225421605,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.522726518042059
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.47727348195794095
+            }
+          ]
+        },
+        "properties": {
+          "description": "Founded in 2009, this platform began as a simple image hosting tool and has evolved into a massive, community-driven entertainment hub. It serves as a home for visual storytelling, where users share, vote on, and generate memes and viral content. Its market positioning is that of a central pillar in online subculture, attracting a diverse global user base interested in digital humor and collaborative expression. The platform remains a primary resource for those seeking to discover and broadcast visual trends across the internet.",
+          "short_description": "Imgur is an online image hosting and sharing platform known for easy image uploads, meme generation, and a vast collection of funny pictures and GIFs.",
+          "image": {
+            "url": "https://images.qloo.com/i/7F0BE245-2748-490B-9ED2-F86765C6DF9E-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "332D7A42-E052-4895-BA3A-F3B2F72FEF3C",
+        "name": "Imaginary Foundation",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.4917699310064247,
+        "affinity": 0.8992825660598605,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5016877189413171
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.4983122810586829
+            }
+          ]
+        },
+        "properties": {
+          "description": "Operating as both an art collective and a think tank, this brand uses streetwear as a medium to weave complex ideas and cosmic themes into everyday apparel. Known for its surreal, thought-provoking graphics, the label bridges the gap between high-concept art and accessible fashion. It appeals to a community of creative thinkers who value individual expression and intellectual inquiry. Based in Switzerland, the brand continues to focus on graphic-heavy collections that challenge traditional pop culture motifs.",
+          "short_description": "Art collective and think tank using streetwear to embed cosmic intelligence into pop culture through apparel and art.",
+          "image": {
+            "url": "https://images.qloo.com/i/332D7A42-E052-4895-BA3A-F3B2F72FEF3C-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "3B0D64DD-29B7-4C90-8434-BA30589BF017",
+        "name": "TED Talks",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.997609804885491,
+        "affinity": 0.8992151572935378,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5026122154186132
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.4973877845813867
+            }
+          ]
+        },
+        "properties": {
+          "description": "Established in 1984, this organization operates as a global platform for the dissemination of expert-led insights across diverse scientific, cultural, and academic disciplines. Through its signature conference series, digital video library, and educational initiatives like TED-Ed, it fosters a worldwide community focused on exchanging ideas. The entity maintains a non-profit status dedicated to making expert knowledge accessible to the public at no cost. It serves as a central hub for discourse on innovation and global change, connecting thinkers, researchers, and creators with a curious international audience.",
+          "short_description": "TED Talks is a nonprofit platform sharing educational and inspiring ideas worldwide through influential talks and presentations.",
+          "image": {
+            "url": "https://images.qloo.com/i/3B0D64DD-29B7-4C90-8434-BA30589BF017-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "E3946829-90BA-484D-A274-F718E4DA0AEE",
+        "name": "Formlabs",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.8370768422301708,
+        "affinity": 0.8966841004055497,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5281746962501853
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.47182530374981463
+            }
+          ]
+        },
+        "properties": {
+          "description": "Formlabs is a global leader in professional 3D printing technology, founded in 2011 by MIT researchers to make industrial-grade hardware accessible. The company specializes in stereolithography (SLA) and selective laser sintering (SLS) printers that serve diverse industries, including medical research, footwear, automotive, and aerospace. Headquartered in Somerville, Massachusetts, the brand remains committed to continuous innovation and the democratisation of powerful manufacturing tools. It has grown to support a global user base with an extensive ecosystem of proprietary materials and software.",
+          "short_description": "Formlabs is a company that manufactures high-resolution SLA and SLS 3D printers and offers a wide range of professional 3D printing materials.",
+          "image": {
+            "url": "https://images.qloo.com/i/E3946829-90BA-484D-A274-F718E4DA0AEE-420x-auto.jpg"
+          }
+        }
+      },
+      {
+        "entity_id": "6E5EF952-22E9-459A-AF6D-865BB3685D69",
+        "name": "Impossible Foods",
+        "type": "urn:entity",
+        "subtype": "urn:entity:brand",
+        "popularity": 0.9341933515281993,
+        "affinity": 0.8960863562882074,
+        "explainability": {
+          "signal.interests.entities": [
+            {
+              "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+              "score": 0.5014339514735666
+            },
+            {
+              "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "score": 0.4985660485264334
+            }
+          ]
+        },
+        "properties": {
+          "description": "An American food technology company that specializes in creating plant-based meat alternatives that aim to replace traditional animal products. Founded in 2011, the brand focuses on delivering the same taste, sizzle, and nutritional profile as meat while being significantly better for the planet. By utilizing plant-derived ingredients like soy protein and heme, the company provides a wide array of options including beef, pork, and chicken analogs to consumers and restaurants worldwide.",
+          "short_description": "Impossible Foods is a company that develops plant-based meat substitutes, including the popular Impossible Burger.",
+          "image": {
+            "url": "https://images.qloo.com/i/6E5EF952-22E9-459A-AF6D-865BB3685D69-420x-auto.jpg"
+          }
+        }
+      }
+    ],
+    "result_count": 15,
+    "explainability": {
+      "signal.interests.entities": {
+        "effect_on_top3_recs": [
+          {
+            "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "avg_score": 0.5042921451029262
+          },
+          {
+            "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+            "avg_score": 0.49570785489707375
+          }
+        ],
+        "effect_on_top5_recs": [
+          {
+            "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "avg_score": 0.5065717407195759
+          },
+          {
+            "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+            "avg_score": 0.4934282592804241
+          }
+        ],
+        "effect_on_top10_recs": [
+          {
+            "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "avg_score": 0.5016821904734109
+          },
+          {
+            "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+            "avg_score": 0.4983178095265891
+          }
+        ],
+        "effect_on_all_recs": [
+          {
+            "entity_id": "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8",
+            "avg_score": 0.5026542130261088
+          },
+          {
+            "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "avg_score": 0.4973457869738912
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "source": "Qloo API",
+      "endpoint": "/v2/insights",
+      "documentation": "https://docs.qloo.com/reference/insights-api-deep-dive",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v2/insights",
+          "query": {
+            "filter.type": "urn:entity:brand",
+            "take": 15,
+            "signal.interests.entities": [
+              "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+              "CC4ADED4-65CD-4019-ADAE-97E467FCD8D8"
+            ],
+            "feature.explainability": true
+          }
+        }
+      ],
+      "transport": "mcp"
+    },
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "recommend",
+      "job": "recommend",
+      "signals": {
+        "entities": [
+          "Huberman Lab",
+          "Lex Fridman Podcast"
+        ]
+      },
+      "filters": {},
+      "operators": {},
+      "output": {
+        "limit": 15,
+        "explain": true
+      },
+      "assumptions": [
+        "explain=true"
+      ],
+      "unresolved": [],
+      "target": {
+        "type": "brand"
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-12",
+      "duration_ms": 1391
+    }
+  }
+}

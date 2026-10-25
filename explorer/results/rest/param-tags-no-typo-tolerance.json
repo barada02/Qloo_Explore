@@ -1,0 +1,84 @@
+{
+  "request": {
+    "path": "/v2/tags",
+    "params": {
+      "filter.query": "Mediteranean",
+      "take": 5
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 315,
+    "url": "/v2/tags?filter.query=Mediteranean&take=5",
+    "requestId": "d8741412-c2e7-4fee-a247-a859be7179a5",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49545",
+      "x-month-ratelimit-reset": "2589150.05",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "duration": 13,
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:specialty_dish:place",
+            "id": "urn:tag:specialty_dish:place:mediteranean_sampler_platter",
+            "name": "Mediteranean Sampler Platter",
+            "popularity": 0.5777895,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:specialty_dish:place",
+            "id": "urn:tag:specialty_dish:place:grilled_mediteranean_octopus",
+            "name": "Grilled Mediteranean Octopus",
+            "popularity": 0.5777895,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:specialty_dish:place",
+            "id": "urn:tag:specialty_dish:place:mediteranean_mixed_grill_platter",
+            "name": "Mediteranean Mixed Grill Platter",
+            "popularity": 0,
+            "properties": {},
+            "tags": []
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:place"
+              }
+            ],
+            "type": "urn:tag:specialty_dish:place",
+            "id": "urn:tag:specialty_dish:place:mediteranean_salad",
+            "name": "Mediteranean Salad",
+            "popularity": 0,
+            "properties": {},
+            "tags": []
+          }
+        ]
+      }
+    }
+  }
+}

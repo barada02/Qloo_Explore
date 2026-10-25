@@ -1,0 +1,96 @@
+{
+  "tool": "qloo_describe",
+  "arguments": {
+    "entity": "Mercury"
+  },
+  "envelope": {
+    "schema_version": "1.0-preview.1",
+    "operation": "describe",
+    "status": "needs_input",
+    "summary": "Choose the intended Qloo entity.",
+    "resolution": {
+      "issues": [
+        {
+          "input": "Mercury",
+          "kind": "ambiguous",
+          "input_kind": "entity",
+          "field": "entity",
+          "candidates": [
+            {
+              "id": "92241F93-D926-409E-BBC2-06DC54CFAFFF",
+              "name": "Mercury",
+              "type": "urn:entity:place",
+              "popularity": 0.9891281939273452,
+              "description": "Multi-level shopping mall in Ufa featuring diverse retail stores, restaurants, and leisure services near Koltsevaya Street.",
+              "address": "Ulitsa Kol'tsevaya, 65, к. 1 Ufa Republic of Bashkortostan, Russia 450032"
+            },
+            {
+              "id": "651DC25F-221F-427A-80D5-1CD5199D4AA9",
+              "name": "Mercury",
+              "type": "urn:entity:place",
+              "popularity": 0.9653649695906654,
+              "description": "Lively beer hall and pub in Messina offering craft beers, creative burgers, small plates and late-night takeout in an inexpensive, casual setting.",
+              "address": "Via Camiciotti, 9 98123 Messina ME Italy"
+            },
+            {
+              "id": "B766AEF6-11C8-494F-A676-58E9EF297964",
+              "name": "Mercury",
+              "type": "urn:entity:album",
+              "popularity": 0.9565510895226315,
+              "release_year": 2003
+            },
+            {
+              "id": "A13489D4-04F8-4F57-9F57-383F34066A94",
+              "name": "Mercury",
+              "type": "urn:entity:place",
+              "popularity": 0.9555429012507332,
+              "description": "Multi-vendor shopping mall featuring an in-house confectionery producing custom cakes, pastries, and home delivery in Dzerzhinsk.",
+              "address": "Prospekt Tsiolkovskogo, 78 Dzerzhinsk Nizhny Novgorod Oblast, Russia 606034"
+            },
+            {
+              "id": "A0FB391C-EFB4-475F-8EA1-ED28B9B7C123",
+              "name": "Mercury",
+              "type": "urn:entity:videogame",
+              "popularity": 0.9459780896754437,
+              "description": "A special agent battles against Soviet forces to prevent the creation of a devastating super weapon in a futuristic setting.",
+              "release_year": 2023
+            }
+          ],
+          "provenance": {
+            "contract_version": "1.0-preview.1",
+            "provider_id": "qloo_api",
+            "provider_name": "Qloo native resolution",
+            "endpoint": "/search",
+            "strategy": "exact_name_context_or_choice",
+            "remote": true,
+            "uses_model": false
+          }
+        }
+      ]
+    },
+    "results": [],
+    "query_intent": {
+      "schema_version": "1.0-preview.1",
+      "source_contract_version": "1.0.0",
+      "operation": "describe",
+      "job": "describe",
+      "signals": {},
+      "filters": {},
+      "operators": {},
+      "output": {},
+      "assumptions": [],
+      "unresolved": [],
+      "target": {
+        "entities": [
+          "Mercury"
+        ]
+      }
+    },
+    "execution": {
+      "transport": "mcp",
+      "transport_name": "Qloo canonical MCP",
+      "correlation_id": "mcp-15",
+      "duration_ms": 346
+    }
+  }
+}

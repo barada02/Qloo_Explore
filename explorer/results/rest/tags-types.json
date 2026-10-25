@@ -1,0 +1,189 @@
+{
+  "request": {
+    "path": "/v2/tags/types",
+    "params": {}
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 318,
+    "url": "/v2/tags/types",
+    "requestId": "0a3b8fc7-49da-4611-b5b7-2ceaacd4f2ba",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49869",
+      "x-month-ratelimit-reset": "2591841.68",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.38"
+    },
+    "body": {
+      "duration": 18,
+      "success": true,
+      "results": {
+        "tag_types": [
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:aesthetic_property:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:category:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:characteristic:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:content_type:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:culture:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:emotional_tone:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:endorsement:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:ethnicity:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:gender:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:hobby:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:language:qloo"
+          },
+          {
+            "parents": [
+              {
+                "type": "urn:entity:actor"
+              }
+            ],
+            "type": "urn:tag:lifestyle:qloo"
+          }
+        ]
+      }
+    }
+  }
+}

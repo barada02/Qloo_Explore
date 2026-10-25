@@ -1,0 +1,330 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:tag",
+      "signal.interests.entities": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+      "take": 20
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 320,
+    "url": "/v2/insights?filter.type=urn%3Atag&signal.interests.entities=10E08FC9-04BB-4827-9331-7E9ABE1F7DB6&take=20",
+    "requestId": "c8c71373-c125-4f5d-9fff-8013b9fa0c81",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49822",
+      "x-month-ratelimit-reset": "2591795.79",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "9",
+      "x-second-ratelimit-reset": "1"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "tags": [
+          {
+            "tag_id": "urn:tag:category:qloo:real_time_strategy",
+            "name": "Real-Time Strategy",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:real_time_strategy",
+            "popularity": 0.9562328057164354,
+            "query": {
+              "affinity": 1
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:role_playing",
+            "name": "Role-Playing",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:role_playing",
+            "popularity": 0.9736450195508469,
+            "query": {
+              "affinity": 0.99822695035461
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:touching",
+            "name": "Touching",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:artist",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:style:qloo",
+            "tag_value": "urn:tag:style:qloo:touching",
+            "popularity": 0.9893445029448019,
+            "query": {
+              "affinity": 0.996551724137931
+            }
+          },
+          {
+            "tag_id": "urn:tag:ethnicity:qloo:irish",
+            "name": "Irish",
+            "types": [
+              "urn:entity:person"
+            ],
+            "subtype": "urn:tag:ethnicity:qloo",
+            "tag_value": "urn:tag:ethnicity:qloo:irish",
+            "popularity": 0.992528938669609,
+            "query": {
+              "affinity": 0.9959349593495935
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:story_driven",
+            "name": "Story-Driven",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:story_driven",
+            "popularity": 0.9828516035333333,
+            "query": {
+              "affinity": 0.9925512104283054
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:ship",
+            "name": "Ship",
+            "types": [
+              "urn:entity:tv_show",
+              "urn:entity:podcast",
+              "urn:entity:writer",
+              "urn:entity:director",
+              "urn:entity:podcaster",
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:tv_episode",
+              "urn:entity:actor",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:keyword:qloo",
+            "tag_value": "urn:tag:keyword:qloo:ship",
+            "popularity": 0.9950851306002996,
+            "query": {
+              "affinity": 0.9921568627450981
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:dark_fantasy",
+            "name": "Dark Fantasy",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:dark_fantasy",
+            "popularity": 0.9796349581022702,
+            "query": {
+              "affinity": 0.9902755267423015
+            }
+          },
+          {
+            "tag_id": "urn:tag:occupation:qloo:producer",
+            "name": "Producer",
+            "types": [
+              "urn:entity:person"
+            ],
+            "subtype": "urn:tag:occupation:qloo",
+            "tag_value": "urn:tag:occupation:qloo:producer",
+            "popularity": 0.9974402930083005,
+            "query": {
+              "affinity": 0.9888776541961577
+            }
+          },
+          {
+            "tag_id": "urn:tag:content_warning:qloo:suggestive_themes",
+            "name": "Suggestive Themes",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:content_warning:qloo",
+            "tag_value": "urn:tag:content_warning:qloo:suggestive_themes",
+            "popularity": 0.9892371350571784,
+            "query": {
+              "affinity": 0.9888059701492538
+            }
+          },
+          {
+            "tag_id": "urn:tag:motif:qloo:bureaucracy",
+            "name": "Bureaucracy",
+            "types": [
+              "urn:entity:book"
+            ],
+            "subtype": "urn:tag:motif:qloo",
+            "tag_value": "urn:tag:motif:qloo:bureaucracy",
+            "popularity": 0.9827315992882774,
+            "query": {
+              "affinity": 0.9879518072289156
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:mmorpg",
+            "name": "MMORPG",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:mmorpg",
+            "popularity": 0.9743663700817192,
+            "query": {
+              "affinity": 0.9858712715855573
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:free_to_play",
+            "name": "Free to Play",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:free_to_play",
+            "popularity": 0.9812566589804663,
+            "query": {
+              "affinity": 0.9846350832266325
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:action_rpg",
+            "name": "Action RPG",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:action_rpg",
+            "popularity": 0.9837016519890385,
+            "query": {
+              "affinity": 0.9844413012729845
+            }
+          },
+          {
+            "tag_id": "urn:tag:category:qloo:hack_and_slash",
+            "name": "Hack and Slash",
+            "types": [
+              "urn:entity:videogame"
+            ],
+            "subtype": "urn:tag:category:qloo",
+            "tag_value": "urn:tag:category:qloo:hack_and_slash",
+            "popularity": 0.983925602432043,
+            "query": {
+              "affinity": 0.9829683698296837
+            }
+          },
+          {
+            "tag_id": "urn:tag:style:qloo:nautical",
+            "name": "Nautical",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:artist",
+              "urn:entity:movie",
+              "urn:entity:tv_show",
+              "urn:entity:podcast"
+            ],
+            "subtype": "urn:tag:style:qloo",
+            "tag_value": "urn:tag:style:qloo:nautical",
+            "popularity": 0.9822782507532639,
+            "query": {
+              "affinity": 0.9818181818181818
+            }
+          },
+          {
+            "tag_id": "urn:tag:emotional_tone:qloo:engaging",
+            "name": "Engaging",
+            "types": [
+              "urn:entity:brand"
+            ],
+            "subtype": "urn:tag:emotional_tone:qloo",
+            "tag_value": "urn:tag:emotional_tone:qloo:engaging",
+            "popularity": 0.9987717490660879,
+            "query": {
+              "affinity": 0.9791666666666666
+            }
+          },
+          {
+            "tag_id": "urn:tag:character:qloo:powerful",
+            "name": "Powerful",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:movie",
+              "urn:entity:tv_show"
+            ],
+            "subtype": "urn:tag:character:qloo",
+            "tag_value": "urn:tag:character:qloo:powerful",
+            "popularity": 0.9952597902312659,
+            "query": {
+              "affinity": 0.9789915966386554
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:alien_planet",
+            "name": "Alien Planet",
+            "types": [
+              "urn:entity:tv_show",
+              "urn:entity:podcast",
+              "urn:entity:writer",
+              "urn:entity:director",
+              "urn:entity:podcaster",
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:tv_episode",
+              "urn:entity:actor",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:keyword:qloo",
+            "tag_value": "urn:tag:keyword:qloo:alien_planet",
+            "popularity": 0.9884899639699323,
+            "query": {
+              "affinity": 0.9775561097256857
+            }
+          },
+          {
+            "tag_id": "urn:tag:keyword:qloo:neuroscience",
+            "name": "Neuroscience",
+            "types": [
+              "urn:entity:tv_show",
+              "urn:entity:podcast",
+              "urn:entity:writer",
+              "urn:entity:director",
+              "urn:entity:podcaster",
+              "urn:entity:author",
+              "urn:entity:book",
+              "urn:entity:tv_episode",
+              "urn:entity:actor",
+              "urn:entity:movie"
+            ],
+            "subtype": "urn:tag:keyword:qloo",
+            "tag_value": "urn:tag:keyword:qloo:neuroscience",
+            "popularity": 0.9957326336732635,
+            "query": {
+              "affinity": 0.9756283320639756
+            }
+          },
+          {
+            "tag_id": "urn:tag:theme:qloo:health_optimization",
+            "name": "Health Optimization",
+            "types": [
+              "urn:entity:book",
+              "urn:entity:movie",
+              "urn:entity:tv_show",
+              "urn:entity:podcast"
+            ],
+            "subtype": "urn:tag:theme:qloo",
+            "tag_value": "urn:tag:theme:qloo:health_optimization",
+            "popularity": 0.9875890733263766,
+            "query": {
+              "affinity": 0.9750145264381174
+            }
+          }
+        ]
+      }
+    }
+  }
+}

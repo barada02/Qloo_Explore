@@ -1,0 +1,48 @@
+{
+  "request": {
+    "path": "/v2/insights",
+    "params": {
+      "filter.type": "urn:demographics",
+      "signal.interests.entities": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6"
+    }
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "ms": 286,
+    "url": "/v2/insights?filter.type=urn%3Ademographics&signal.interests.entities=10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+    "requestId": "60f4100a-2b0b-44a7-a85b-de95382de349",
+    "rateLimit": {
+      "x-month-ratelimit-limit": "50000",
+      "x-month-ratelimit-remaining": "49823",
+      "x-month-ratelimit-reset": "2591796.39",
+      "x-second-ratelimit-limit": "10",
+      "x-second-ratelimit-remaining": "8",
+      "x-second-ratelimit-reset": "0.23"
+    },
+    "body": {
+      "success": true,
+      "results": {
+        "demographics": [
+          {
+            "entity_id": "10E08FC9-04BB-4827-9331-7E9ABE1F7DB6",
+            "query": {
+              "age": {
+                "24_and_younger": -0.046000000000000006,
+                "25_to_29": -0.16599999999999998,
+                "30_to_34": -0.11600000000000002,
+                "35_to_44": 0.15800000000000006,
+                "45_to_54": -0.10599999999999996,
+                "55_and_older": -0.576
+              },
+              "gender": {
+                "male": 0.418,
+                "female": -0.418
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
